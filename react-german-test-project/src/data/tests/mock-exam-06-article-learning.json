@@ -6,15 +6,1245 @@
   "category": "mock-exam",
   "focus": "Reading",
   "questions": [
-    { "id": "q1", "type": "multiple-choice", "text": "Wer hat den Artikel geschrieben?", "passageId": "article-german-learning-tips", "options": [{ "id": "a", "text": "Ein Student" }, { "id": "b", "text": "Eine Sprachlehrerin" }, { "id": "c", "text": "Ein Journalist" }, { "id": "d", "text": "Ein Arzt" }], "correctAnswerId": "b", "explanation": "Lisa Hoffmann, eine Sprachlehrerin, hat den Artikel geschrieben.", "explanationDetail": "Im Text steht: 'Von: Lisa Hoffmann, Sprachlehrerin'. Sie ist Sprachlehrerin (language teacher) und gibt Tipps für Deutschlernende.", "tags": ["reading", "article", "details"] },
-    { "id": "q2", "type": "multiple-choice", "text": "Was ist besser laut dem Artikel?", "passageId": "article-german-learning-tips", "options": [{ "id": "a", "text": "Einmal pro Woche drei Stunden lernen" }, { "id": "b", "text": "Jeden Tag 15 Minuten lernen" }, { "id": "c", "text": "Nur am Wochenende lernen" }, { "id": "d", "text": "Nur Grammatik lernen" }], "correctAnswerId": "b", "explanation": "Jeden Tag 15 Minuten ist besser.", "explanationDetail": "Im Text steht: 'Es ist besser, jeden Tag 15 Minuten zu lernen, als einmal pro Woche drei Stunden.' Regelmäßiges (regular) Lernen ist effektiver als lange, seltene Lerneinheiten.", "tags": ["reading", "article", "main-idea"] },
-    { "id": "q3", "type": "true-false", "text": "Am Anfang sollte man deutsche Filme ohne Untertitel schauen.", "passageId": "article-german-learning-tips", "correctAnswerId": "false", "explanation": "Falsch. Man sollte Filme MIT Untertiteln schauen.", "explanationDetail": "Im Text steht: 'schauen Sie deutsche Filme mit Untertiteln'. Untertitel (subtitles) helfen Anfängern, besser zu verstehen. Ohne Untertitel ist es am Anfang zu schwierig.", "tags": ["reading", "article", "inference"] },
-    { "id": "q4", "type": "multiple-choice", "text": "Was soll man laut Tipp 2 machen?", "passageId": "article-german-learning-tips", "options": [{ "id": "a", "text": "Nur Grammatik lernen" }, { "id": "b", "text": "Deutsche Musik hören und Filme schauen" }, { "id": "c", "text": "Nur Vokabeln lernen" }, { "id": "d", "text": "Nicht sprechen" }], "correctAnswerId": "b", "explanation": "Man soll deutsche Musik hören und Filme schauen.", "explanationDetail": "Tipp 2 sagt: 'Hören Sie deutsche Musik, Podcasts oder schauen Sie deutsche Filme'. Das Ohr gewöhnt sich an die Sprache (your ear gets used to the language) durch Hören.", "tags": ["reading", "article", "details"] },
-    { "id": "q5", "type": "true-false", "text": "Fehler beim Sprechen sind normal und wichtig.", "passageId": "article-german-learning-tips", "correctAnswerId": "true", "explanation": "Richtig. Fehler sind normal und wichtig.", "explanationDetail": "Im Text steht: 'Aber Fehler sind normal und wichtig!' Man soll keine Angst haben, Fehler zu machen (make mistakes). Fehler helfen beim Lernen.", "tags": ["reading", "article", "main-idea"] },
-    { "id": "q6", "type": "multiple-choice", "text": "Was wird in Tipp 3 empfohlen?", "passageId": "article-german-learning-tips", "options": [{ "id": "a", "text": "Nicht sprechen, nur schreiben" }, { "id": "b", "text": "Einen Tandempartner suchen oder ein Sprachcafé besuchen" }, { "id": "c", "text": "Nur alleine lernen" }, { "id": "d", "text": "Nur Grammatik üben" }], "correctAnswerId": "b", "explanation": "Man soll einen Tandempartner suchen oder ein Sprachcafé besuchen.", "explanationDetail": "Im Text steht: 'Suchen Sie einen Tandempartner oder besuchen Sie ein Sprachcafé.' Das sind gute Möglichkeiten, Deutsch zu sprechen und Fehler zu machen ohne Angst.", "tags": ["reading", "article", "details"] },
-    { "id": "q7", "type": "true-false", "text": "Grammatik ist wichtiger als Kommunikation.", "passageId": "article-german-learning-tips", "correctAnswerId": "false", "explanation": "Falsch. Kommunikation ist zuerst wichtiger.", "explanationDetail": "Im Text steht: 'Grammatik ist wichtig, aber nicht alles' und 'konzentrieren Sie sich zuerst auf die Kommunikation'. Grammatik kommt mit der Zeit (comes with time), aber Kommunikation ist am Anfang wichtiger.", "tags": ["reading", "article", "inference"] },
-    { "id": "q8", "type": "multiple-choice", "text": "Was soll man laut Tipp 4 zuerst lernen?", "passageId": "article-german-learning-tips", "options": [{ "id": "a", "text": "Alle Grammatikregeln" }, { "id": "b", "text": "Die wichtigsten Verben und Sätze" }, { "id": "c", "text": "Nur schwierige Wörter" }, { "id": "d", "text": "Nur schreiben" }], "correctAnswerId": "b", "explanation": "Man soll die wichtigsten Verben und Sätze lernen.", "explanationDetail": "Im Text steht: 'Lernen Sie die wichtigsten Verben und Sätze.' Das ist wichtiger am Anfang als komplizierte Grammatik. Die Basis (basics) kommt zuerst.", "tags": ["reading", "article", "details"] },
-    { "id": "q9", "type": "multiple-choice", "text": "Was bedeutet 'Haben Sie Geduld'?", "passageId": "article-german-learning-tips", "options": [{ "id": "a", "text": "Lernen Sie schnell" }, { "id": "b", "text": "Seien Sie nicht frustriert" }, { "id": "c", "text": "Lernen Sie nicht" }, { "id": "d", "text": "Sprechen Sie nicht" }], "correctAnswerId": "b", "explanation": "Es bedeutet: Seien Sie nicht frustriert.", "explanationDetail": "Im Text steht: 'Seien Sie nicht frustriert, wenn Sie nicht sofort alles verstehen.' Geduld haben (to have patience) bedeutet, dass man Zeit braucht und nicht aufgeben soll (shouldn't give up).", "tags": ["reading", "article", "inference"] },
-    { "id": "q10", "type": "true-false", "text": "Man soll kleine Erfolge feiern.", "passageId": "article-german-learning-tips", "correctAnswerId": "true", "explanation": "Richtig. Man soll kleine Erfolge feiern.", "explanationDetail": "Im Text steht: 'Feiern Sie kleine Erfolge: das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch.' Kleine Erfolge (small successes) sind wichtig für die Motivation.", "tags": ["reading", "article", "main-idea"] }
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Student"
+        },
+        {
+          "id": "b",
+          "text": "Eine Sprachlehrerin"
+        },
+        {
+          "id": "c",
+          "text": "Ein Journalist"
+        },
+        {
+          "id": "d",
+          "text": "Ein Arzt"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Lisa Hoffmann, eine Sprachlehrerin, hat den Artikel geschrieben.",
+      "explanationDetail": "Im Text steht: 'Von: Lisa Hoffmann, Sprachlehrerin'. Sie ist Sprachlehrerin (language teacher) und gibt Tipps für Deutschlernende.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "Was ist besser laut dem Artikel?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einmal pro Woche drei Stunden lernen"
+        },
+        {
+          "id": "b",
+          "text": "Jeden Tag 15 Minuten lernen"
+        },
+        {
+          "id": "c",
+          "text": "Nur am Wochenende lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nur Grammatik lernen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Jeden Tag 15 Minuten ist besser.",
+      "explanationDetail": "Im Text steht: 'Es ist besser, jeden Tag 15 Minuten zu lernen, als einmal pro Woche drei Stunden.' Regelmäßiges (regular) Lernen ist effektiver als lange, seltene Lerneinheiten.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "text": "Am Anfang sollte man deutsche Filme ohne Untertitel schauen.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man sollte Filme MIT Untertiteln schauen.",
+      "explanationDetail": "Im Text steht: 'schauen Sie deutsche Filme mit Untertiteln'. Untertitel (subtitles) helfen Anfängern, besser zu verstehen. Ohne Untertitel ist es am Anfang zu schwierig.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "Was soll man laut Tipp 2 machen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur Grammatik lernen"
+        },
+        {
+          "id": "b",
+          "text": "Deutsche Musik hören und Filme schauen"
+        },
+        {
+          "id": "c",
+          "text": "Nur Vokabeln lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nicht sprechen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll deutsche Musik hören und Filme schauen.",
+      "explanationDetail": "Tipp 2 sagt: 'Hören Sie deutsche Musik, Podcasts oder schauen Sie deutsche Filme'. Das Ohr gewöhnt sich an die Sprache (your ear gets used to the language) durch Hören.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "text": "Fehler beim Sprechen sind normal und wichtig.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Fehler sind normal und wichtig.",
+      "explanationDetail": "Im Text steht: 'Aber Fehler sind normal und wichtig!' Man soll keine Angst haben, Fehler zu machen (make mistakes). Fehler helfen beim Lernen.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "text": "Was wird in Tipp 3 empfohlen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nicht sprechen, nur schreiben"
+        },
+        {
+          "id": "b",
+          "text": "Einen Tandempartner suchen oder ein Sprachcafé besuchen"
+        },
+        {
+          "id": "c",
+          "text": "Nur alleine lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nur Grammatik üben"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll einen Tandempartner suchen oder ein Sprachcafé besuchen.",
+      "explanationDetail": "Im Text steht: 'Suchen Sie einen Tandempartner oder besuchen Sie ein Sprachcafé.' Das sind gute Möglichkeiten, Deutsch zu sprechen und Fehler zu machen ohne Angst.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "text": "Grammatik ist wichtiger als Kommunikation.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Kommunikation ist zuerst wichtiger.",
+      "explanationDetail": "Im Text steht: 'Grammatik ist wichtig, aber nicht alles' und 'konzentrieren Sie sich zuerst auf die Kommunikation'. Grammatik kommt mit der Zeit (comes with time), aber Kommunikation ist am Anfang wichtiger.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "Was soll man laut Tipp 4 zuerst lernen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alle Grammatikregeln"
+        },
+        {
+          "id": "b",
+          "text": "Die wichtigsten Verben und Sätze"
+        },
+        {
+          "id": "c",
+          "text": "Nur schwierige Wörter"
+        },
+        {
+          "id": "d",
+          "text": "Nur schreiben"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll die wichtigsten Verben und Sätze lernen.",
+      "explanationDetail": "Im Text steht: 'Lernen Sie die wichtigsten Verben und Sätze.' Das ist wichtiger am Anfang als komplizierte Grammatik. Die Basis (basics) kommt zuerst.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "text": "Was bedeutet 'Haben Sie Geduld'?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lernen Sie schnell"
+        },
+        {
+          "id": "b",
+          "text": "Seien Sie nicht frustriert"
+        },
+        {
+          "id": "c",
+          "text": "Lernen Sie nicht"
+        },
+        {
+          "id": "d",
+          "text": "Sprechen Sie nicht"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Es bedeutet: Seien Sie nicht frustriert.",
+      "explanationDetail": "Im Text steht: 'Seien Sie nicht frustriert, wenn Sie nicht sofort alles verstehen.' Geduld haben (to have patience) bedeutet, dass man Zeit braucht und nicht aufgeben soll (shouldn't give up).",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "text": "Man soll kleine Erfolge feiern.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Man soll kleine Erfolge feiern.",
+      "explanationDetail": "Im Text steht: 'Feiern Sie kleine Erfolge: das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch.' Kleine Erfolge (small successes) sind wichtig für die Motivation.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Student"
+        },
+        {
+          "id": "b",
+          "text": "Eine Sprachlehrerin"
+        },
+        {
+          "id": "c",
+          "text": "Ein Journalist"
+        },
+        {
+          "id": "d",
+          "text": "Ein Arzt"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Lisa Hoffmann, eine Sprachlehrerin, hat den Artikel geschrieben.",
+      "explanationDetail": "Im Text steht: 'Von: Lisa Hoffmann, Sprachlehrerin'. Sie ist Sprachlehrerin (language teacher) und gibt Tipps für Deutschlernende.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "Was ist besser laut dem Artikel?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einmal pro Woche drei Stunden lernen"
+        },
+        {
+          "id": "b",
+          "text": "Jeden Tag 15 Minuten lernen"
+        },
+        {
+          "id": "c",
+          "text": "Nur am Wochenende lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nur Grammatik lernen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Jeden Tag 15 Minuten ist besser.",
+      "explanationDetail": "Im Text steht: 'Es ist besser, jeden Tag 15 Minuten zu lernen, als einmal pro Woche drei Stunden.' Regelmäßiges (regular) Lernen ist effektiver als lange, seltene Lerneinheiten.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "text": "Am Anfang sollte man deutsche Filme ohne Untertitel schauen.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man sollte Filme MIT Untertiteln schauen.",
+      "explanationDetail": "Im Text steht: 'schauen Sie deutsche Filme mit Untertiteln'. Untertitel (subtitles) helfen Anfängern, besser zu verstehen. Ohne Untertitel ist es am Anfang zu schwierig.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "text": "Was soll man laut Tipp 2 machen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur Grammatik lernen"
+        },
+        {
+          "id": "b",
+          "text": "Deutsche Musik hören und Filme schauen"
+        },
+        {
+          "id": "c",
+          "text": "Nur Vokabeln lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nicht sprechen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll deutsche Musik hören und Filme schauen.",
+      "explanationDetail": "Tipp 2 sagt: 'Hören Sie deutsche Musik, Podcasts oder schauen Sie deutsche Filme'. Das Ohr gewöhnt sich an die Sprache (your ear gets used to the language) durch Hören.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "text": "Fehler beim Sprechen sind normal und wichtig.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Fehler sind normal und wichtig.",
+      "explanationDetail": "Im Text steht: 'Aber Fehler sind normal und wichtig!' Man soll keine Angst haben, Fehler zu machen (make mistakes). Fehler helfen beim Lernen.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "text": "Was wird in Tipp 3 empfohlen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nicht sprechen, nur schreiben"
+        },
+        {
+          "id": "b",
+          "text": "Einen Tandempartner suchen oder ein Sprachcafé besuchen"
+        },
+        {
+          "id": "c",
+          "text": "Nur alleine lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nur Grammatik üben"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll einen Tandempartner suchen oder ein Sprachcafé besuchen.",
+      "explanationDetail": "Im Text steht: 'Suchen Sie einen Tandempartner oder besuchen Sie ein Sprachcafé.' Das sind gute Möglichkeiten, Deutsch zu sprechen und Fehler zu machen ohne Angst.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "true-false",
+      "text": "Grammatik ist wichtiger als Kommunikation.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Kommunikation ist zuerst wichtiger.",
+      "explanationDetail": "Im Text steht: 'Grammatik ist wichtig, aber nicht alles' und 'konzentrieren Sie sich zuerst auf die Kommunikation'. Grammatik kommt mit der Zeit (comes with time), aber Kommunikation ist am Anfang wichtiger.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple-choice",
+      "text": "Was soll man laut Tipp 4 zuerst lernen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alle Grammatikregeln"
+        },
+        {
+          "id": "b",
+          "text": "Die wichtigsten Verben und Sätze"
+        },
+        {
+          "id": "c",
+          "text": "Nur schwierige Wörter"
+        },
+        {
+          "id": "d",
+          "text": "Nur schreiben"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll die wichtigsten Verben und Sätze lernen.",
+      "explanationDetail": "Im Text steht: 'Lernen Sie die wichtigsten Verben und Sätze.' Das ist wichtiger am Anfang als komplizierte Grammatik. Die Basis (basics) kommt zuerst.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple-choice",
+      "text": "Was bedeutet 'Haben Sie Geduld'?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lernen Sie schnell"
+        },
+        {
+          "id": "b",
+          "text": "Seien Sie nicht frustriert"
+        },
+        {
+          "id": "c",
+          "text": "Lernen Sie nicht"
+        },
+        {
+          "id": "d",
+          "text": "Sprechen Sie nicht"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Es bedeutet: Seien Sie nicht frustriert.",
+      "explanationDetail": "Im Text steht: 'Seien Sie nicht frustriert, wenn Sie nicht sofort alles verstehen.' Geduld haben (to have patience) bedeutet, dass man Zeit braucht und nicht aufgeben soll (shouldn't give up).",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "true-false",
+      "text": "Man soll kleine Erfolge feiern.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Man soll kleine Erfolge feiern.",
+      "explanationDetail": "Im Text steht: 'Feiern Sie kleine Erfolge: das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch.' Kleine Erfolge (small successes) sind wichtig für die Motivation.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Student"
+        },
+        {
+          "id": "b",
+          "text": "Eine Sprachlehrerin"
+        },
+        {
+          "id": "c",
+          "text": "Ein Journalist"
+        },
+        {
+          "id": "d",
+          "text": "Ein Arzt"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Lisa Hoffmann, eine Sprachlehrerin, hat den Artikel geschrieben.",
+      "explanationDetail": "Im Text steht: 'Von: Lisa Hoffmann, Sprachlehrerin'. Sie ist Sprachlehrerin (language teacher) und gibt Tipps für Deutschlernende.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "multiple-choice",
+      "text": "Was ist besser laut dem Artikel?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einmal pro Woche drei Stunden lernen"
+        },
+        {
+          "id": "b",
+          "text": "Jeden Tag 15 Minuten lernen"
+        },
+        {
+          "id": "c",
+          "text": "Nur am Wochenende lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nur Grammatik lernen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Jeden Tag 15 Minuten ist besser.",
+      "explanationDetail": "Im Text steht: 'Es ist besser, jeden Tag 15 Minuten zu lernen, als einmal pro Woche drei Stunden.' Regelmäßiges (regular) Lernen ist effektiver als lange, seltene Lerneinheiten.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "true-false",
+      "text": "Am Anfang sollte man deutsche Filme ohne Untertitel schauen.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man sollte Filme MIT Untertiteln schauen.",
+      "explanationDetail": "Im Text steht: 'schauen Sie deutsche Filme mit Untertiteln'. Untertitel (subtitles) helfen Anfängern, besser zu verstehen. Ohne Untertitel ist es am Anfang zu schwierig.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "multiple-choice",
+      "text": "Was soll man laut Tipp 2 machen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur Grammatik lernen"
+        },
+        {
+          "id": "b",
+          "text": "Deutsche Musik hören und Filme schauen"
+        },
+        {
+          "id": "c",
+          "text": "Nur Vokabeln lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nicht sprechen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll deutsche Musik hören und Filme schauen.",
+      "explanationDetail": "Tipp 2 sagt: 'Hören Sie deutsche Musik, Podcasts oder schauen Sie deutsche Filme'. Das Ohr gewöhnt sich an die Sprache (your ear gets used to the language) durch Hören.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "true-false",
+      "text": "Fehler beim Sprechen sind normal und wichtig.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Fehler sind normal und wichtig.",
+      "explanationDetail": "Im Text steht: 'Aber Fehler sind normal und wichtig!' Man soll keine Angst haben, Fehler zu machen (make mistakes). Fehler helfen beim Lernen.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "multiple-choice",
+      "text": "Was wird in Tipp 3 empfohlen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nicht sprechen, nur schreiben"
+        },
+        {
+          "id": "b",
+          "text": "Einen Tandempartner suchen oder ein Sprachcafé besuchen"
+        },
+        {
+          "id": "c",
+          "text": "Nur alleine lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nur Grammatik üben"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll einen Tandempartner suchen oder ein Sprachcafé besuchen.",
+      "explanationDetail": "Im Text steht: 'Suchen Sie einen Tandempartner oder besuchen Sie ein Sprachcafé.' Das sind gute Möglichkeiten, Deutsch zu sprechen und Fehler zu machen ohne Angst.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "true-false",
+      "text": "Grammatik ist wichtiger als Kommunikation.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Kommunikation ist zuerst wichtiger.",
+      "explanationDetail": "Im Text steht: 'Grammatik ist wichtig, aber nicht alles' und 'konzentrieren Sie sich zuerst auf die Kommunikation'. Grammatik kommt mit der Zeit (comes with time), aber Kommunikation ist am Anfang wichtiger.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "multiple-choice",
+      "text": "Was soll man laut Tipp 4 zuerst lernen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alle Grammatikregeln"
+        },
+        {
+          "id": "b",
+          "text": "Die wichtigsten Verben und Sätze"
+        },
+        {
+          "id": "c",
+          "text": "Nur schwierige Wörter"
+        },
+        {
+          "id": "d",
+          "text": "Nur schreiben"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll die wichtigsten Verben und Sätze lernen.",
+      "explanationDetail": "Im Text steht: 'Lernen Sie die wichtigsten Verben und Sätze.' Das ist wichtiger am Anfang als komplizierte Grammatik. Die Basis (basics) kommt zuerst.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "multiple-choice",
+      "text": "Was bedeutet 'Haben Sie Geduld'?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lernen Sie schnell"
+        },
+        {
+          "id": "b",
+          "text": "Seien Sie nicht frustriert"
+        },
+        {
+          "id": "c",
+          "text": "Lernen Sie nicht"
+        },
+        {
+          "id": "d",
+          "text": "Sprechen Sie nicht"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Es bedeutet: Seien Sie nicht frustriert.",
+      "explanationDetail": "Im Text steht: 'Seien Sie nicht frustriert, wenn Sie nicht sofort alles verstehen.' Geduld haben (to have patience) bedeutet, dass man Zeit braucht und nicht aufgeben soll (shouldn't give up).",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "true-false",
+      "text": "Man soll kleine Erfolge feiern.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Man soll kleine Erfolge feiern.",
+      "explanationDetail": "Im Text steht: 'Feiern Sie kleine Erfolge: das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch.' Kleine Erfolge (small successes) sind wichtig für die Motivation.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Student"
+        },
+        {
+          "id": "b",
+          "text": "Eine Sprachlehrerin"
+        },
+        {
+          "id": "c",
+          "text": "Ein Journalist"
+        },
+        {
+          "id": "d",
+          "text": "Ein Arzt"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Lisa Hoffmann, eine Sprachlehrerin, hat den Artikel geschrieben.",
+      "explanationDetail": "Im Text steht: 'Von: Lisa Hoffmann, Sprachlehrerin'. Sie ist Sprachlehrerin (language teacher) und gibt Tipps für Deutschlernende.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "multiple-choice",
+      "text": "Was ist besser laut dem Artikel?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einmal pro Woche drei Stunden lernen"
+        },
+        {
+          "id": "b",
+          "text": "Jeden Tag 15 Minuten lernen"
+        },
+        {
+          "id": "c",
+          "text": "Nur am Wochenende lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nur Grammatik lernen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Jeden Tag 15 Minuten ist besser.",
+      "explanationDetail": "Im Text steht: 'Es ist besser, jeden Tag 15 Minuten zu lernen, als einmal pro Woche drei Stunden.' Regelmäßiges (regular) Lernen ist effektiver als lange, seltene Lerneinheiten.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "true-false",
+      "text": "Am Anfang sollte man deutsche Filme ohne Untertitel schauen.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man sollte Filme MIT Untertiteln schauen.",
+      "explanationDetail": "Im Text steht: 'schauen Sie deutsche Filme mit Untertiteln'. Untertitel (subtitles) helfen Anfängern, besser zu verstehen. Ohne Untertitel ist es am Anfang zu schwierig.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "multiple-choice",
+      "text": "Was soll man laut Tipp 2 machen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur Grammatik lernen"
+        },
+        {
+          "id": "b",
+          "text": "Deutsche Musik hören und Filme schauen"
+        },
+        {
+          "id": "c",
+          "text": "Nur Vokabeln lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nicht sprechen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll deutsche Musik hören und Filme schauen.",
+      "explanationDetail": "Tipp 2 sagt: 'Hören Sie deutsche Musik, Podcasts oder schauen Sie deutsche Filme'. Das Ohr gewöhnt sich an die Sprache (your ear gets used to the language) durch Hören.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "true-false",
+      "text": "Fehler beim Sprechen sind normal und wichtig.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Fehler sind normal und wichtig.",
+      "explanationDetail": "Im Text steht: 'Aber Fehler sind normal und wichtig!' Man soll keine Angst haben, Fehler zu machen (make mistakes). Fehler helfen beim Lernen.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "multiple-choice",
+      "text": "Was wird in Tipp 3 empfohlen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nicht sprechen, nur schreiben"
+        },
+        {
+          "id": "b",
+          "text": "Einen Tandempartner suchen oder ein Sprachcafé besuchen"
+        },
+        {
+          "id": "c",
+          "text": "Nur alleine lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nur Grammatik üben"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll einen Tandempartner suchen oder ein Sprachcafé besuchen.",
+      "explanationDetail": "Im Text steht: 'Suchen Sie einen Tandempartner oder besuchen Sie ein Sprachcafé.' Das sind gute Möglichkeiten, Deutsch zu sprechen und Fehler zu machen ohne Angst.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "true-false",
+      "text": "Grammatik ist wichtiger als Kommunikation.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Kommunikation ist zuerst wichtiger.",
+      "explanationDetail": "Im Text steht: 'Grammatik ist wichtig, aber nicht alles' und 'konzentrieren Sie sich zuerst auf die Kommunikation'. Grammatik kommt mit der Zeit (comes with time), aber Kommunikation ist am Anfang wichtiger.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "multiple-choice",
+      "text": "Was soll man laut Tipp 4 zuerst lernen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alle Grammatikregeln"
+        },
+        {
+          "id": "b",
+          "text": "Die wichtigsten Verben und Sätze"
+        },
+        {
+          "id": "c",
+          "text": "Nur schwierige Wörter"
+        },
+        {
+          "id": "d",
+          "text": "Nur schreiben"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll die wichtigsten Verben und Sätze lernen.",
+      "explanationDetail": "Im Text steht: 'Lernen Sie die wichtigsten Verben und Sätze.' Das ist wichtiger am Anfang als komplizierte Grammatik. Die Basis (basics) kommt zuerst.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "multiple-choice",
+      "text": "Was bedeutet 'Haben Sie Geduld'?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lernen Sie schnell"
+        },
+        {
+          "id": "b",
+          "text": "Seien Sie nicht frustriert"
+        },
+        {
+          "id": "c",
+          "text": "Lernen Sie nicht"
+        },
+        {
+          "id": "d",
+          "text": "Sprechen Sie nicht"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Es bedeutet: Seien Sie nicht frustriert.",
+      "explanationDetail": "Im Text steht: 'Seien Sie nicht frustriert, wenn Sie nicht sofort alles verstehen.' Geduld haben (to have patience) bedeutet, dass man Zeit braucht und nicht aufgeben soll (shouldn't give up).",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "true-false",
+      "text": "Man soll kleine Erfolge feiern.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Man soll kleine Erfolge feiern.",
+      "explanationDetail": "Im Text steht: 'Feiern Sie kleine Erfolge: das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch.' Kleine Erfolge (small successes) sind wichtig für die Motivation.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Student"
+        },
+        {
+          "id": "b",
+          "text": "Eine Sprachlehrerin"
+        },
+        {
+          "id": "c",
+          "text": "Ein Journalist"
+        },
+        {
+          "id": "d",
+          "text": "Ein Arzt"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Lisa Hoffmann, eine Sprachlehrerin, hat den Artikel geschrieben.",
+      "explanationDetail": "Im Text steht: 'Von: Lisa Hoffmann, Sprachlehrerin'. Sie ist Sprachlehrerin (language teacher) und gibt Tipps für Deutschlernende.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "multiple-choice",
+      "text": "Was ist besser laut dem Artikel?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einmal pro Woche drei Stunden lernen"
+        },
+        {
+          "id": "b",
+          "text": "Jeden Tag 15 Minuten lernen"
+        },
+        {
+          "id": "c",
+          "text": "Nur am Wochenende lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nur Grammatik lernen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Jeden Tag 15 Minuten ist besser.",
+      "explanationDetail": "Im Text steht: 'Es ist besser, jeden Tag 15 Minuten zu lernen, als einmal pro Woche drei Stunden.' Regelmäßiges (regular) Lernen ist effektiver als lange, seltene Lerneinheiten.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "true-false",
+      "text": "Am Anfang sollte man deutsche Filme ohne Untertitel schauen.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man sollte Filme MIT Untertiteln schauen.",
+      "explanationDetail": "Im Text steht: 'schauen Sie deutsche Filme mit Untertiteln'. Untertitel (subtitles) helfen Anfängern, besser zu verstehen. Ohne Untertitel ist es am Anfang zu schwierig.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "multiple-choice",
+      "text": "Was soll man laut Tipp 2 machen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur Grammatik lernen"
+        },
+        {
+          "id": "b",
+          "text": "Deutsche Musik hören und Filme schauen"
+        },
+        {
+          "id": "c",
+          "text": "Nur Vokabeln lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nicht sprechen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll deutsche Musik hören und Filme schauen.",
+      "explanationDetail": "Tipp 2 sagt: 'Hören Sie deutsche Musik, Podcasts oder schauen Sie deutsche Filme'. Das Ohr gewöhnt sich an die Sprache (your ear gets used to the language) durch Hören.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "true-false",
+      "text": "Fehler beim Sprechen sind normal und wichtig.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Fehler sind normal und wichtig.",
+      "explanationDetail": "Im Text steht: 'Aber Fehler sind normal und wichtig!' Man soll keine Angst haben, Fehler zu machen (make mistakes). Fehler helfen beim Lernen.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "multiple-choice",
+      "text": "Was wird in Tipp 3 empfohlen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nicht sprechen, nur schreiben"
+        },
+        {
+          "id": "b",
+          "text": "Einen Tandempartner suchen oder ein Sprachcafé besuchen"
+        },
+        {
+          "id": "c",
+          "text": "Nur alleine lernen"
+        },
+        {
+          "id": "d",
+          "text": "Nur Grammatik üben"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll einen Tandempartner suchen oder ein Sprachcafé besuchen.",
+      "explanationDetail": "Im Text steht: 'Suchen Sie einen Tandempartner oder besuchen Sie ein Sprachcafé.' Das sind gute Möglichkeiten, Deutsch zu sprechen und Fehler zu machen ohne Angst.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "true-false",
+      "text": "Grammatik ist wichtiger als Kommunikation.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Kommunikation ist zuerst wichtiger.",
+      "explanationDetail": "Im Text steht: 'Grammatik ist wichtig, aber nicht alles' und 'konzentrieren Sie sich zuerst auf die Kommunikation'. Grammatik kommt mit der Zeit (comes with time), aber Kommunikation ist am Anfang wichtiger.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "multiple-choice",
+      "text": "Was soll man laut Tipp 4 zuerst lernen?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alle Grammatikregeln"
+        },
+        {
+          "id": "b",
+          "text": "Die wichtigsten Verben und Sätze"
+        },
+        {
+          "id": "c",
+          "text": "Nur schwierige Wörter"
+        },
+        {
+          "id": "d",
+          "text": "Nur schreiben"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Man soll die wichtigsten Verben und Sätze lernen.",
+      "explanationDetail": "Im Text steht: 'Lernen Sie die wichtigsten Verben und Sätze.' Das ist wichtiger am Anfang als komplizierte Grammatik. Die Basis (basics) kommt zuerst.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "multiple-choice",
+      "text": "Was bedeutet 'Haben Sie Geduld'?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lernen Sie schnell"
+        },
+        {
+          "id": "b",
+          "text": "Seien Sie nicht frustriert"
+        },
+        {
+          "id": "c",
+          "text": "Lernen Sie nicht"
+        },
+        {
+          "id": "d",
+          "text": "Sprechen Sie nicht"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Es bedeutet: Seien Sie nicht frustriert.",
+      "explanationDetail": "Im Text steht: 'Seien Sie nicht frustriert, wenn Sie nicht sofort alles verstehen.' Geduld haben (to have patience) bedeutet, dass man Zeit braucht und nicht aufgeben soll (shouldn't give up).",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q50",
+      "type": "true-false",
+      "text": "Man soll kleine Erfolge feiern.",
+      "passageId": "article-german-learning-tips",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Man soll kleine Erfolge feiern.",
+      "explanationDetail": "Im Text steht: 'Feiern Sie kleine Erfolge: das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch.' Kleine Erfolge (small successes) sind wichtig für die Motivation.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    }
   ]
 }

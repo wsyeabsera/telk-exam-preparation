@@ -8,7 +8,15 @@ const variantToFocus: Record<string, string> = {
   reading: "Reading",
   grammar: "Grammar",
   writing: "Writing",
+  verbs: "Verbs",
+  cases: "Cases",
+  conjunctions: "Conjunctions",
+  pronouns: "Pronouns",
+  adjectives: "Adjectives",
 };
+
+const GENERAL_QUICK_VARIANTS = ["mixed", "reading", "grammar", "writing"] as const;
+const TOPIC_QUICK_VARIANTS = ["verbs", "cases", "conjunctions", "pronouns", "adjectives"] as const;
 
 export default function HomePage() {
   const metadata = getMetadata();
@@ -46,19 +54,44 @@ export default function HomePage() {
             Quick practice
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            {quickPracticeConfig.map((entry) => (
-              <TestCard
-                key={entry.id}
-                id={entry.id}
-                title={entry.title}
-                description={entry.description}
-                duration={entry.duration}
-                questionCount={entry.questionCount}
-                focus={variantToFocus[entry.variant]}
-                category="practice"
-                comingSoon={entry.questionCount === 0}
-              />
-            ))}
+            {quickPracticeConfig
+              .filter((entry) => GENERAL_QUICK_VARIANTS.includes(entry.variant as (typeof GENERAL_QUICK_VARIANTS)[number]))
+              .map((entry) => (
+                <TestCard
+                  key={entry.id}
+                  id={entry.id}
+                  title={entry.title}
+                  description={entry.description}
+                  duration={entry.duration}
+                  questionCount={entry.questionCount}
+                  focus={variantToFocus[entry.variant]}
+                  category="practice"
+                  comingSoon={entry.questionCount === 0}
+                />
+              ))}
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-4">
+            Quick practice by topic
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {quickPracticeConfig
+              .filter((entry) => TOPIC_QUICK_VARIANTS.includes(entry.variant as (typeof TOPIC_QUICK_VARIANTS)[number]))
+              .map((entry) => (
+                <TestCard
+                  key={entry.id}
+                  id={entry.id}
+                  title={entry.title}
+                  description={entry.description}
+                  duration={entry.duration}
+                  questionCount={entry.questionCount}
+                  focus={variantToFocus[entry.variant]}
+                  category="practice"
+                  comingSoon={entry.questionCount === 0}
+                />
+              ))}
           </div>
         </section>
 

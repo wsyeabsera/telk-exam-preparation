@@ -42,23 +42,46 @@ export default function ResultsPage() {
       }
       setAttempt(a);
       setWritingFeedback(a.aiFeedback ?? {});
-      const isQuickPractice = isQuickPracticeTestId(a.testId) && (a.questionSnapshot?.length ?? 0) > 0;
-      const questionsToUse = isQuickPractice
-        ? a.questionSnapshot!
-        : getTest(a.testId)?.questions ?? [];
-      const testData: Test | null = isQuickPractice
-        ? (() => {
-            const config = getQuickPracticeConfig(a.testId);
-            return {
-              id: a.testId,
-              title: config?.title ?? a.testId,
-              description: config?.description ?? "",
-              category: "practice",
-              focus: config?.variant === "mixed" ? "Mixed" : config?.variant === "reading" ? "Reading" : config?.variant === "grammar" ? "Grammar" : "Writing",
-              questions: a.questionSnapshot!,
-            };
-          })()
-        : getTest(a.testId);
+      const hasSnapshot = (a.questionSnapshot?.length ?? 0) > 0;
+      const questionsToUse = hasSnapshot ? a.questionSnapshot! : getTest(a.testId)?.questions ?? [];
+      const baseTest = getTest(a.testId);
+      const testData: Test | null =
+        isQuickPracticeTestId(a.testId) && hasSnapshot
+          ? (() => {
+              const config = getQuickPracticeConfig(a.testId);
+              return {
+                id: a.testId,
+                title: config?.title ?? a.testId,
+                description: config?.description ?? "",
+                category: "practice",
+                focus:
+                config?.variant === "mixed"
+                  ? "Mixed"
+                  : config?.variant === "reading"
+                    ? "Reading"
+                    : config?.variant === "grammar"
+                      ? "Grammar"
+                      : config?.variant === "writing"
+                        ? "Writing"
+                        : config?.variant === "verbs"
+                          ? "Verbs"
+                          : config?.variant === "cases"
+                            ? "Cases"
+                            : config?.variant === "conjunctions"
+                              ? "Conjunctions"
+                              : config?.variant === "pronouns"
+                                ? "Pronouns"
+                                : config?.variant === "adjectives"
+                                  ? "Adjectives"
+                                  : "Mixed",
+                questions: a.questionSnapshot!,
+              };
+            })()
+          : baseTest
+            ? hasSnapshot
+              ? { ...baseTest, questions: a.questionSnapshot! }
+              : baseTest
+            : null;
       setTest(testData);
       if (questionsToUse.length > 0) {
         if (a.completed && a.score !== undefined) {

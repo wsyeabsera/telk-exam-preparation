@@ -6,6 +6,8 @@ import Link from "next/link";
 import {
   getTest,
   getSuperShortQuestions,
+  getTestWithRandomSubset,
+  getQuestionsPerAttempt,
   isQuickPracticeTestId,
   getQuickPracticeConfig,
 } from "@/lib/data/load-tests";
@@ -51,7 +53,26 @@ export default function TestPage() {
         description: config.description,
         duration: config.duration,
         category: "practice",
-        focus: config.variant === "mixed" ? "Mixed" : config.variant === "reading" ? "Reading" : config.variant === "grammar" ? "Grammar" : "Writing",
+        focus:
+          config.variant === "mixed"
+            ? "Mixed"
+            : config.variant === "reading"
+              ? "Reading"
+              : config.variant === "grammar"
+                ? "Grammar"
+                : config.variant === "writing"
+                  ? "Writing"
+                  : config.variant === "verbs"
+                    ? "Verbs"
+                    : config.variant === "cases"
+                      ? "Cases"
+                      : config.variant === "conjunctions"
+                        ? "Conjunctions"
+                        : config.variant === "pronouns"
+                          ? "Pronouns"
+                          : config.variant === "adjectives"
+                            ? "Adjectives"
+                            : "Mixed",
         questions: shuffled,
       });
       setQuestions(shuffled);
@@ -64,8 +85,13 @@ export default function TestPage() {
       setLoading(false);
       return;
     }
-    setTest(testData);
-    setQuestions(shuffleTest(testData.questions));
+    const questionsPerAttempt = getQuestionsPerAttempt(testId);
+    const questionsToUse =
+      questionsPerAttempt != null
+        ? getTestWithRandomSubset(testId, questionsPerAttempt)
+        : testData.questions;
+    setTest({ ...testData, questions: questionsToUse });
+    setQuestions(shuffleTest(questionsToUse));
     setLoading(false);
   }, [testId]);
 
@@ -74,9 +100,7 @@ export default function TestPage() {
     createAttempt(testId).then((attempt) => {
       setAttemptId(attempt.id);
       setStartTime(attempt.startTime);
-      if (isQuickPracticeTestId(testId)) {
-        updateAttemptQuestionSnapshot(attempt.id, questions);
-      }
+      updateAttemptQuestionSnapshot(attempt.id, questions);
     });
   }, [test, testId, attemptId, questions]);
 

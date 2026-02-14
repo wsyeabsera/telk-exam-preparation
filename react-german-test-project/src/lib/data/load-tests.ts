@@ -90,9 +90,23 @@ export const QUICK_PRACTICE_IDS = [
   "super-short-reading",
   "super-short-grammar",
   "super-short-writing",
+  "super-short-verbs",
+  "super-short-cases",
+  "super-short-conjunctions",
+  "super-short-pronouns",
+  "super-short-adjectives",
 ] as const;
 
-export type QuickPracticeVariant = "mixed" | "reading" | "grammar" | "writing";
+export type QuickPracticeVariant =
+  | "mixed"
+  | "reading"
+  | "grammar"
+  | "writing"
+  | "verbs"
+  | "cases"
+  | "conjunctions"
+  | "pronouns"
+  | "adjectives";
 
 export interface QuickPracticeEntry {
   id: string;
@@ -136,6 +150,46 @@ export const quickPracticeConfig: QuickPracticeEntry[] = [
     questionCount: 5,
     duration: 15,
   },
+  {
+    id: "super-short-verbs",
+    variant: "verbs",
+    title: "Super short – Verbs",
+    description: "10 random verb questions (Perfekt, Präteritum, modal, separable)",
+    questionCount: 10,
+    duration: 10,
+  },
+  {
+    id: "super-short-cases",
+    variant: "cases",
+    title: "Super short – Cases",
+    description: "10 random questions on Dativ, Akkusativ, and cases",
+    questionCount: 10,
+    duration: 10,
+  },
+  {
+    id: "super-short-conjunctions",
+    variant: "conjunctions",
+    title: "Super short – Conjunctions",
+    description: "10 random conjunction questions (weil, dass, wenn, als, obwohl)",
+    questionCount: 10,
+    duration: 10,
+  },
+  {
+    id: "super-short-pronouns",
+    variant: "pronouns",
+    title: "Super short – Pronouns",
+    description: "10 random pronoun questions (reflexive, relative, personal)",
+    questionCount: 10,
+    duration: 10,
+  },
+  {
+    id: "super-short-adjectives",
+    variant: "adjectives",
+    title: "Super short – Adjectives",
+    description: "10 random adjective questions (endings, comparatives, superlatives)",
+    questionCount: 10,
+    duration: 10,
+  },
 ];
 
 export function isQuickPracticeTestId(testId: string): boolean {
@@ -148,6 +202,20 @@ export function getQuickPracticeConfig(testId: string): QuickPracticeEntry | nul
 
 export function getTest(id: string): Test | null {
   return testMap[id] ?? null;
+}
+
+/** Returns how many questions to use per attempt, or null to use all questions. */
+export function getQuestionsPerAttempt(testId: string): number | null {
+  const entry = metadata.tests.find((t: { id: string; questionsPerAttempt?: number }) => t.id === testId);
+  return entry?.questionsPerAttempt ?? null;
+}
+
+/** Randomly select up to `count` questions from a test. Used for subset-based attempts. */
+export function getTestWithRandomSubset(testId: string, count: number): Question[] {
+  const test = getTest(testId);
+  if (!test) return [];
+  const shuffled = [...test.questions].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(count, shuffled.length));
 }
 
 export function getTestIds(): string[] {
@@ -197,6 +265,16 @@ export function getSuperShortQuestions(variant: QuickPracticeVariant): Question[
     );
   } else if (variant === "writing") {
     pool = getQuestions((f) => f === "Writing");
+  } else if (variant === "verbs") {
+    pool = getQuestions((f) => f === "Verbs");
+  } else if (variant === "cases") {
+    pool = getQuestions((f) => f === "Dativ" || f === "Akkusativ" || f === "Cases");
+  } else if (variant === "conjunctions") {
+    pool = getQuestions((f) => f === "Conjunctions");
+  } else if (variant === "pronouns") {
+    pool = getQuestions((f) => f === "Pronouns");
+  } else if (variant === "adjectives") {
+    pool = getQuestions((f) => f === "Adjectives" || f === "Adjective Endings" || f === "Comparatives");
   } else {
     return [];
   }

@@ -6,13 +6,1605 @@
   "category": "quick-test",
   "focus": "Prepositions",
   "questions": [
-    { "id": "q1", "type": "multiple-choice", "text": "Das Buch liegt auf ___ Tisch.", "options": [{ "id": "a", "text": "der" }, { "id": "b", "text": "den" }, { "id": "c", "text": "dem" }, { "id": "d", "text": "des" }], "correctAnswerId": "c", "explanation": "Location (wo?) → Dativ: dem Tisch", "explanationDetail": "Two-way prepositions use Dativ for location (wo?). Das Buch liegt auf dem Tisch (the book is lying on the table). Lying = location, not motion. Use Dativ.", "tags": ["prepositions", "dativ", "location", "quick-practice"] },
-    { "id": "q2", "type": "multiple-choice", "text": "Ich lege das Buch auf ___ Tisch.", "options": [{ "id": "a", "text": "der" }, { "id": "b", "text": "den" }, { "id": "c", "text": "dem" }, { "id": "d", "text": "des" }], "correctAnswerId": "b", "explanation": "Motion (wohin?) → Akkusativ: den Tisch", "explanationDetail": "Two-way prepositions use Akkusativ for motion (wohin?). Ich lege das Buch auf den Tisch (I put the book on the table). Putting = motion. Use Akkusativ.", "tags": ["prepositions", "akkusativ", "motion", "quick-practice"] },
-    { "id": "q3", "type": "multiple-choice", "text": "Die Katze sitzt in ___ Garten.", "options": [{ "id": "a", "text": "der" }, { "id": "b", "text": "den" }, { "id": "c", "text": "dem" }, { "id": "d", "text": "des" }], "correctAnswerId": "c", "explanation": "Location (wo?) → Dativ: dem Garten", "explanationDetail": "Sitting = location (wo?). Use Dativ with 'in'. Die Katze sitzt in dem Garten (the cat is sitting in the garden). Location uses Dativ.", "tags": ["prepositions", "dativ", "location", "quick-practice"] },
-    { "id": "q4", "type": "multiple-choice", "text": "Die Katze geht in ___ Garten.", "options": [{ "id": "a", "text": "der" }, { "id": "b", "text": "den" }, { "id": "c", "text": "dem" }, { "id": "d", "text": "des" }], "correctAnswerId": "b", "explanation": "Motion (wohin?) → Akkusativ: den Garten", "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'in'. Die Katze geht in den Garten (the cat goes into the garden). Motion uses Akkusativ.", "tags": ["prepositions", "akkusativ", "motion", "quick-practice"] },
-    { "id": "q5", "type": "multiple-choice", "text": "Das Bild hängt an ___ Wand.", "options": [{ "id": "a", "text": "die" }, { "id": "b", "text": "der" }, { "id": "c", "text": "den" }, { "id": "d", "text": "dem" }], "correctAnswerId": "b", "explanation": "Location (wo?) → Dativ: der Wand", "explanationDetail": "Hanging (location) = wo?. Use Dativ with 'an'. Das Bild hängt an der Wand (the picture hangs on the wall). Feminine Dativ: der.", "tags": ["prepositions", "dativ", "location", "quick-practice"] },
-    { "id": "q6", "type": "multiple-choice", "text": "Ich hänge das Bild an ___ Wand.", "options": [{ "id": "a", "text": "die" }, { "id": "b", "text": "der" }, { "id": "c", "text": "den" }, { "id": "d", "text": "dem" }], "correctAnswerId": "a", "explanation": "Motion (wohin?) → Akkusativ: die Wand", "explanationDetail": "Hanging (action) = wohin?. Use Akkusativ with 'an'. Ich hänge das Bild an die Wand (I hang the picture on the wall). Feminine Akkusativ: die.", "tags": ["prepositions", "akkusativ", "motion", "quick-practice"] },
-    { "id": "q7", "type": "multiple-choice", "text": "Wir stehen vor ___ Haus.", "options": [{ "id": "a", "text": "das" }, { "id": "b", "text": "dem" }, { "id": "c", "text": "den" }, { "id": "d", "text": "der" }], "correctAnswerId": "b", "explanation": "Location (wo?) → Dativ: dem Haus", "explanationDetail": "Standing = location (wo?). Use Dativ with 'vor'. Wir stehen vor dem Haus (we're standing in front of the house). Neuter Dativ: dem.", "tags": ["prepositions", "dativ", "location", "quick-practice"] },
-    { "id": "q8", "type": "multiple-choice", "text": "Wir gehen vor ___ Haus.", "options": [{ "id": "a", "text": "das" }, { "id": "b", "text": "dem" }, { "id": "c", "text": "den" }, { "id": "d", "text": "der" }], "correctAnswerId": "a", "explanation": "Motion (wohin?) → Akkusativ: das Haus", "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'vor'. Wir gehen vor das Haus (we're going in front of the house). Neuter Akkusativ: das.", "tags": ["prepositions", "akkusativ", "motion", "quick-practice"] }
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "Das Buch liegt auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Tisch",
+      "explanationDetail": "Two-way prepositions use Dativ for location (wo?). Das Buch liegt auf dem Tisch (the book is lying on the table). Lying = location, not motion. Use Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "Ich lege das Buch auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Tisch",
+      "explanationDetail": "Two-way prepositions use Akkusativ for motion (wohin?). Ich lege das Buch auf den Tisch (I put the book on the table). Putting = motion. Use Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "text": "Die Katze sitzt in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Garten",
+      "explanationDetail": "Sitting = location (wo?). Use Dativ with 'in'. Die Katze sitzt in dem Garten (the cat is sitting in the garden). Location uses Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "Die Katze geht in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Garten",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'in'. Die Katze geht in den Garten (the cat goes into the garden). Motion uses Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "text": "Das Bild hängt an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: der Wand",
+      "explanationDetail": "Hanging (location) = wo?. Use Dativ with 'an'. Das Bild hängt an der Wand (the picture hangs on the wall). Feminine Dativ: der.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "text": "Ich hänge das Bild an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: die Wand",
+      "explanationDetail": "Hanging (action) = wohin?. Use Akkusativ with 'an'. Ich hänge das Bild an die Wand (I hang the picture on the wall). Feminine Akkusativ: die.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "text": "Wir stehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: dem Haus",
+      "explanationDetail": "Standing = location (wo?). Use Dativ with 'vor'. Wir stehen vor dem Haus (we're standing in front of the house). Neuter Dativ: dem.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "Wir gehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: das Haus",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'vor'. Wir gehen vor das Haus (we're going in front of the house). Neuter Akkusativ: das.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "text": "Das Buch liegt auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Tisch",
+      "explanationDetail": "Two-way prepositions use Dativ for location (wo?). Das Buch liegt auf dem Tisch (the book is lying on the table). Lying = location, not motion. Use Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "Ich lege das Buch auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Tisch",
+      "explanationDetail": "Two-way prepositions use Akkusativ for motion (wohin?). Ich lege das Buch auf den Tisch (I put the book on the table). Putting = motion. Use Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "text": "Die Katze sitzt in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Garten",
+      "explanationDetail": "Sitting = location (wo?). Use Dativ with 'in'. Die Katze sitzt in dem Garten (the cat is sitting in the garden). Location uses Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "Die Katze geht in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Garten",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'in'. Die Katze geht in den Garten (the cat goes into the garden). Motion uses Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "text": "Das Bild hängt an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: der Wand",
+      "explanationDetail": "Hanging (location) = wo?. Use Dativ with 'an'. Das Bild hängt an der Wand (the picture hangs on the wall). Feminine Dativ: der.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "text": "Ich hänge das Bild an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: die Wand",
+      "explanationDetail": "Hanging (action) = wohin?. Use Akkusativ with 'an'. Ich hänge das Bild an die Wand (I hang the picture on the wall). Feminine Akkusativ: die.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "text": "Wir stehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: dem Haus",
+      "explanationDetail": "Standing = location (wo?). Use Dativ with 'vor'. Wir stehen vor dem Haus (we're standing in front of the house). Neuter Dativ: dem.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "text": "Wir gehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: das Haus",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'vor'. Wir gehen vor das Haus (we're going in front of the house). Neuter Akkusativ: das.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple-choice",
+      "text": "Das Buch liegt auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Tisch",
+      "explanationDetail": "Two-way prepositions use Dativ for location (wo?). Das Buch liegt auf dem Tisch (the book is lying on the table). Lying = location, not motion. Use Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple-choice",
+      "text": "Ich lege das Buch auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Tisch",
+      "explanationDetail": "Two-way prepositions use Akkusativ for motion (wohin?). Ich lege das Buch auf den Tisch (I put the book on the table). Putting = motion. Use Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple-choice",
+      "text": "Die Katze sitzt in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Garten",
+      "explanationDetail": "Sitting = location (wo?). Use Dativ with 'in'. Die Katze sitzt in dem Garten (the cat is sitting in the garden). Location uses Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple-choice",
+      "text": "Die Katze geht in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Garten",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'in'. Die Katze geht in den Garten (the cat goes into the garden). Motion uses Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "multiple-choice",
+      "text": "Das Bild hängt an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: der Wand",
+      "explanationDetail": "Hanging (location) = wo?. Use Dativ with 'an'. Das Bild hängt an der Wand (the picture hangs on the wall). Feminine Dativ: der.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "multiple-choice",
+      "text": "Ich hänge das Bild an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: die Wand",
+      "explanationDetail": "Hanging (action) = wohin?. Use Akkusativ with 'an'. Ich hänge das Bild an die Wand (I hang the picture on the wall). Feminine Akkusativ: die.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "multiple-choice",
+      "text": "Wir stehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: dem Haus",
+      "explanationDetail": "Standing = location (wo?). Use Dativ with 'vor'. Wir stehen vor dem Haus (we're standing in front of the house). Neuter Dativ: dem.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "multiple-choice",
+      "text": "Wir gehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: das Haus",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'vor'. Wir gehen vor das Haus (we're going in front of the house). Neuter Akkusativ: das.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "multiple-choice",
+      "text": "Das Buch liegt auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Tisch",
+      "explanationDetail": "Two-way prepositions use Dativ for location (wo?). Das Buch liegt auf dem Tisch (the book is lying on the table). Lying = location, not motion. Use Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "multiple-choice",
+      "text": "Ich lege das Buch auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Tisch",
+      "explanationDetail": "Two-way prepositions use Akkusativ for motion (wohin?). Ich lege das Buch auf den Tisch (I put the book on the table). Putting = motion. Use Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "multiple-choice",
+      "text": "Die Katze sitzt in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Garten",
+      "explanationDetail": "Sitting = location (wo?). Use Dativ with 'in'. Die Katze sitzt in dem Garten (the cat is sitting in the garden). Location uses Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "multiple-choice",
+      "text": "Die Katze geht in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Garten",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'in'. Die Katze geht in den Garten (the cat goes into the garden). Motion uses Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "multiple-choice",
+      "text": "Das Bild hängt an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: der Wand",
+      "explanationDetail": "Hanging (location) = wo?. Use Dativ with 'an'. Das Bild hängt an der Wand (the picture hangs on the wall). Feminine Dativ: der.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "multiple-choice",
+      "text": "Ich hänge das Bild an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: die Wand",
+      "explanationDetail": "Hanging (action) = wohin?. Use Akkusativ with 'an'. Ich hänge das Bild an die Wand (I hang the picture on the wall). Feminine Akkusativ: die.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "multiple-choice",
+      "text": "Wir stehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: dem Haus",
+      "explanationDetail": "Standing = location (wo?). Use Dativ with 'vor'. Wir stehen vor dem Haus (we're standing in front of the house). Neuter Dativ: dem.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "multiple-choice",
+      "text": "Wir gehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: das Haus",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'vor'. Wir gehen vor das Haus (we're going in front of the house). Neuter Akkusativ: das.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "multiple-choice",
+      "text": "Das Buch liegt auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Tisch",
+      "explanationDetail": "Two-way prepositions use Dativ for location (wo?). Das Buch liegt auf dem Tisch (the book is lying on the table). Lying = location, not motion. Use Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "multiple-choice",
+      "text": "Ich lege das Buch auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Tisch",
+      "explanationDetail": "Two-way prepositions use Akkusativ for motion (wohin?). Ich lege das Buch auf den Tisch (I put the book on the table). Putting = motion. Use Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "multiple-choice",
+      "text": "Die Katze sitzt in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Garten",
+      "explanationDetail": "Sitting = location (wo?). Use Dativ with 'in'. Die Katze sitzt in dem Garten (the cat is sitting in the garden). Location uses Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "multiple-choice",
+      "text": "Die Katze geht in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Garten",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'in'. Die Katze geht in den Garten (the cat goes into the garden). Motion uses Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "multiple-choice",
+      "text": "Das Bild hängt an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: der Wand",
+      "explanationDetail": "Hanging (location) = wo?. Use Dativ with 'an'. Das Bild hängt an der Wand (the picture hangs on the wall). Feminine Dativ: der.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "multiple-choice",
+      "text": "Ich hänge das Bild an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: die Wand",
+      "explanationDetail": "Hanging (action) = wohin?. Use Akkusativ with 'an'. Ich hänge das Bild an die Wand (I hang the picture on the wall). Feminine Akkusativ: die.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "multiple-choice",
+      "text": "Wir stehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: dem Haus",
+      "explanationDetail": "Standing = location (wo?). Use Dativ with 'vor'. Wir stehen vor dem Haus (we're standing in front of the house). Neuter Dativ: dem.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "multiple-choice",
+      "text": "Wir gehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: das Haus",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'vor'. Wir gehen vor das Haus (we're going in front of the house). Neuter Akkusativ: das.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "multiple-choice",
+      "text": "Das Buch liegt auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Tisch",
+      "explanationDetail": "Two-way prepositions use Dativ for location (wo?). Das Buch liegt auf dem Tisch (the book is lying on the table). Lying = location, not motion. Use Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "multiple-choice",
+      "text": "Ich lege das Buch auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Tisch",
+      "explanationDetail": "Two-way prepositions use Akkusativ for motion (wohin?). Ich lege das Buch auf den Tisch (I put the book on the table). Putting = motion. Use Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "multiple-choice",
+      "text": "Die Katze sitzt in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Garten",
+      "explanationDetail": "Sitting = location (wo?). Use Dativ with 'in'. Die Katze sitzt in dem Garten (the cat is sitting in the garden). Location uses Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "multiple-choice",
+      "text": "Die Katze geht in ___ Garten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Garten",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'in'. Die Katze geht in den Garten (the cat goes into the garden). Motion uses Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "multiple-choice",
+      "text": "Das Bild hängt an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: der Wand",
+      "explanationDetail": "Hanging (location) = wo?. Use Dativ with 'an'. Das Bild hängt an der Wand (the picture hangs on the wall). Feminine Dativ: der.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "multiple-choice",
+      "text": "Ich hänge das Bild an ___ Wand.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: die Wand",
+      "explanationDetail": "Hanging (action) = wohin?. Use Akkusativ with 'an'. Ich hänge das Bild an die Wand (I hang the picture on the wall). Feminine Akkusativ: die.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "multiple-choice",
+      "text": "Wir stehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Location (wo?) → Dativ: dem Haus",
+      "explanationDetail": "Standing = location (wo?). Use Dativ with 'vor'. Wir stehen vor dem Haus (we're standing in front of the house). Neuter Dativ: dem.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "multiple-choice",
+      "text": "Wir gehen vor ___ Haus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Motion (wohin?) → Akkusativ: das Haus",
+      "explanationDetail": "Going = motion (wohin?). Use Akkusativ with 'vor'. Wir gehen vor das Haus (we're going in front of the house). Neuter Akkusativ: das.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "multiple-choice",
+      "text": "Das Buch liegt auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Location (wo?) → Dativ: dem Tisch",
+      "explanationDetail": "Two-way prepositions use Dativ for location (wo?). Das Buch liegt auf dem Tisch (the book is lying on the table). Lying = location, not motion. Use Dativ.",
+      "tags": [
+        "prepositions",
+        "dativ",
+        "location",
+        "quick-practice"
+      ]
+    },
+    {
+      "id": "q50",
+      "type": "multiple-choice",
+      "text": "Ich lege das Buch auf ___ Tisch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Motion (wohin?) → Akkusativ: den Tisch",
+      "explanationDetail": "Two-way prepositions use Akkusativ for motion (wohin?). Ich lege das Buch auf den Tisch (I put the book on the table). Putting = motion. Use Akkusativ.",
+      "tags": [
+        "prepositions",
+        "akkusativ",
+        "motion",
+        "quick-practice"
+      ]
+    }
   ]
 }

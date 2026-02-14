@@ -6,15 +6,1335 @@
   "category": "mock-exam",
   "focus": "Reading",
   "questions": [
-    { "id": "q1", "type": "multiple-choice", "text": "Wer hat den Artikel geschrieben?", "passageId": "article-healthy-lifestyle", "options": [{ "id": "a", "text": "Ein Lehrer" }, { "id": "b", "text": "Ein Arzt" }, { "id": "c", "text": "Ein Koch" }, { "id": "d", "text": "Ein Sportler" }], "correctAnswerId": "b", "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.", "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.", "tags": ["reading", "article", "details"] },
-    { "id": "q2", "type": "multiple-choice", "text": "Wie viel Sport soll man mindestens pro Tag machen?", "passageId": "article-healthy-lifestyle", "options": [{ "id": "a", "text": "15 Minuten" }, { "id": "b", "text": "30 Minuten" }, { "id": "c", "text": "60 Minuten" }, { "id": "d", "text": "2 Stunden" }], "correctAnswerId": "b", "explanation": "Mindestens 30 Minuten pro Tag.", "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.", "tags": ["reading", "article", "details"] },
-    { "id": "q3", "type": "true-false", "text": "Man muss jeden Tag ins Fitnessstudio gehen.", "passageId": "article-healthy-lifestyle", "correctAnswerId": "false", "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.", "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.", "tags": ["reading", "article", "inference"] },
-    { "id": "q4", "type": "multiple-choice", "text": "Was soll man statt dem Aufzug nehmen?", "passageId": "article-healthy-lifestyle", "options": [{ "id": "a", "text": "Den Bus" }, { "id": "b", "text": "Das Taxi" }, { "id": "c", "text": "Die Treppe" }, { "id": "d", "text": "Das Auto" }], "correctAnswerId": "c", "explanation": "Man soll die Treppe nehmen.", "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.", "tags": ["reading", "article", "details"] },
-    { "id": "q5", "type": "multiple-choice", "text": "Wie viel Wasser soll man pro Tag trinken?", "passageId": "article-healthy-lifestyle", "options": [{ "id": "a", "text": "0,5 Liter" }, { "id": "b", "text": "1 Liter" }, { "id": "c", "text": "1,5 Liter" }, { "id": "d", "text": "3 Liter" }], "correctAnswerId": "c", "explanation": "Mindestens 1,5 Liter pro Tag.", "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.", "tags": ["reading", "article", "details"] },
-    { "id": "q6", "type": "true-false", "text": "Selbst kochen ist gesünder als Essen bestellen.", "passageId": "article-healthy-lifestyle", "correctAnswerId": "true", "explanation": "Richtig. Selbst kochen ist gesünder.", "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.", "tags": ["reading", "article", "main-idea"] },
-    { "id": "q7", "type": "multiple-choice", "text": "Wie viele Stunden Schlaf brauchen Erwachsene?", "passageId": "article-healthy-lifestyle", "options": [{ "id": "a", "text": "5-6 Stunden" }, { "id": "b", "text": "7-8 Stunden" }, { "id": "c", "text": "9-10 Stunden" }, { "id": "d", "text": "10-12 Stunden" }], "correctAnswerId": "b", "explanation": "Erwachsene brauchen etwa 7-8 Stunden.", "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.", "tags": ["reading", "article", "details"] },
-    { "id": "q8", "type": "true-false", "text": "Man soll Handy und Computer vor dem Schlafen benutzen.", "passageId": "article-healthy-lifestyle", "correctAnswerId": "false", "explanation": "Falsch. Man soll sie vermeiden.", "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.", "tags": ["reading", "article", "inference"] },
-    { "id": "q9", "type": "multiple-choice", "text": "Was kann helfen, Stress zu reduzieren?", "passageId": "article-healthy-lifestyle", "options": [{ "id": "a", "text": "Mehr arbeiten" }, { "id": "b", "text": "Meditation, Yoga oder ein gutes Buch" }, { "id": "c", "text": "Weniger schlafen" }, { "id": "d", "text": "Fast Food essen" }], "correctAnswerId": "b", "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.", "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.", "tags": ["reading", "article", "details"] },
-    { "id": "q10", "type": "multiple-choice", "text": "Wie oft soll man zum Arzt gehen?", "passageId": "article-healthy-lifestyle", "options": [{ "id": "a", "text": "Jeden Monat" }, { "id": "b", "text": "Einmal pro Jahr" }, { "id": "c", "text": "Alle zwei Jahre" }, { "id": "d", "text": "Nur wenn man krank ist" }], "correctAnswerId": "b", "explanation": "Einmal pro Jahr für einen Check-up.", "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.", "tags": ["reading", "article", "details"] }
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "Ein Arzt"
+        },
+        {
+          "id": "c",
+          "text": "Ein Koch"
+        },
+        {
+          "id": "d",
+          "text": "Ein Sportler"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.",
+      "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "Wie viel Sport soll man mindestens pro Tag machen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "15 Minuten"
+        },
+        {
+          "id": "b",
+          "text": "30 Minuten"
+        },
+        {
+          "id": "c",
+          "text": "60 Minuten"
+        },
+        {
+          "id": "d",
+          "text": "2 Stunden"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Mindestens 30 Minuten pro Tag.",
+      "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "text": "Man muss jeden Tag ins Fitnessstudio gehen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.",
+      "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "Was soll man statt dem Aufzug nehmen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den Bus"
+        },
+        {
+          "id": "b",
+          "text": "Das Taxi"
+        },
+        {
+          "id": "c",
+          "text": "Die Treppe"
+        },
+        {
+          "id": "d",
+          "text": "Das Auto"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Man soll die Treppe nehmen.",
+      "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "text": "Wie viel Wasser soll man pro Tag trinken?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "0,5 Liter"
+        },
+        {
+          "id": "b",
+          "text": "1 Liter"
+        },
+        {
+          "id": "c",
+          "text": "1,5 Liter"
+        },
+        {
+          "id": "d",
+          "text": "3 Liter"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Mindestens 1,5 Liter pro Tag.",
+      "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "text": "Selbst kochen ist gesünder als Essen bestellen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Selbst kochen ist gesünder.",
+      "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "text": "Wie viele Stunden Schlaf brauchen Erwachsene?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "5-6 Stunden"
+        },
+        {
+          "id": "b",
+          "text": "7-8 Stunden"
+        },
+        {
+          "id": "c",
+          "text": "9-10 Stunden"
+        },
+        {
+          "id": "d",
+          "text": "10-12 Stunden"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Erwachsene brauchen etwa 7-8 Stunden.",
+      "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "text": "Man soll Handy und Computer vor dem Schlafen benutzen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man soll sie vermeiden.",
+      "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "text": "Was kann helfen, Stress zu reduzieren?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mehr arbeiten"
+        },
+        {
+          "id": "b",
+          "text": "Meditation, Yoga oder ein gutes Buch"
+        },
+        {
+          "id": "c",
+          "text": "Weniger schlafen"
+        },
+        {
+          "id": "d",
+          "text": "Fast Food essen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.",
+      "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "Wie oft soll man zum Arzt gehen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeden Monat"
+        },
+        {
+          "id": "b",
+          "text": "Einmal pro Jahr"
+        },
+        {
+          "id": "c",
+          "text": "Alle zwei Jahre"
+        },
+        {
+          "id": "d",
+          "text": "Nur wenn man krank ist"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Einmal pro Jahr für einen Check-up.",
+      "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "Ein Arzt"
+        },
+        {
+          "id": "c",
+          "text": "Ein Koch"
+        },
+        {
+          "id": "d",
+          "text": "Ein Sportler"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.",
+      "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "Wie viel Sport soll man mindestens pro Tag machen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "15 Minuten"
+        },
+        {
+          "id": "b",
+          "text": "30 Minuten"
+        },
+        {
+          "id": "c",
+          "text": "60 Minuten"
+        },
+        {
+          "id": "d",
+          "text": "2 Stunden"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Mindestens 30 Minuten pro Tag.",
+      "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "text": "Man muss jeden Tag ins Fitnessstudio gehen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.",
+      "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "text": "Was soll man statt dem Aufzug nehmen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den Bus"
+        },
+        {
+          "id": "b",
+          "text": "Das Taxi"
+        },
+        {
+          "id": "c",
+          "text": "Die Treppe"
+        },
+        {
+          "id": "d",
+          "text": "Das Auto"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Man soll die Treppe nehmen.",
+      "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "text": "Wie viel Wasser soll man pro Tag trinken?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "0,5 Liter"
+        },
+        {
+          "id": "b",
+          "text": "1 Liter"
+        },
+        {
+          "id": "c",
+          "text": "1,5 Liter"
+        },
+        {
+          "id": "d",
+          "text": "3 Liter"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Mindestens 1,5 Liter pro Tag.",
+      "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "true-false",
+      "text": "Selbst kochen ist gesünder als Essen bestellen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Selbst kochen ist gesünder.",
+      "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple-choice",
+      "text": "Wie viele Stunden Schlaf brauchen Erwachsene?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "5-6 Stunden"
+        },
+        {
+          "id": "b",
+          "text": "7-8 Stunden"
+        },
+        {
+          "id": "c",
+          "text": "9-10 Stunden"
+        },
+        {
+          "id": "d",
+          "text": "10-12 Stunden"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Erwachsene brauchen etwa 7-8 Stunden.",
+      "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "true-false",
+      "text": "Man soll Handy und Computer vor dem Schlafen benutzen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man soll sie vermeiden.",
+      "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple-choice",
+      "text": "Was kann helfen, Stress zu reduzieren?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mehr arbeiten"
+        },
+        {
+          "id": "b",
+          "text": "Meditation, Yoga oder ein gutes Buch"
+        },
+        {
+          "id": "c",
+          "text": "Weniger schlafen"
+        },
+        {
+          "id": "d",
+          "text": "Fast Food essen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.",
+      "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple-choice",
+      "text": "Wie oft soll man zum Arzt gehen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeden Monat"
+        },
+        {
+          "id": "b",
+          "text": "Einmal pro Jahr"
+        },
+        {
+          "id": "c",
+          "text": "Alle zwei Jahre"
+        },
+        {
+          "id": "d",
+          "text": "Nur wenn man krank ist"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Einmal pro Jahr für einen Check-up.",
+      "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "Ein Arzt"
+        },
+        {
+          "id": "c",
+          "text": "Ein Koch"
+        },
+        {
+          "id": "d",
+          "text": "Ein Sportler"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.",
+      "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "multiple-choice",
+      "text": "Wie viel Sport soll man mindestens pro Tag machen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "15 Minuten"
+        },
+        {
+          "id": "b",
+          "text": "30 Minuten"
+        },
+        {
+          "id": "c",
+          "text": "60 Minuten"
+        },
+        {
+          "id": "d",
+          "text": "2 Stunden"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Mindestens 30 Minuten pro Tag.",
+      "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "true-false",
+      "text": "Man muss jeden Tag ins Fitnessstudio gehen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.",
+      "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "multiple-choice",
+      "text": "Was soll man statt dem Aufzug nehmen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den Bus"
+        },
+        {
+          "id": "b",
+          "text": "Das Taxi"
+        },
+        {
+          "id": "c",
+          "text": "Die Treppe"
+        },
+        {
+          "id": "d",
+          "text": "Das Auto"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Man soll die Treppe nehmen.",
+      "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "multiple-choice",
+      "text": "Wie viel Wasser soll man pro Tag trinken?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "0,5 Liter"
+        },
+        {
+          "id": "b",
+          "text": "1 Liter"
+        },
+        {
+          "id": "c",
+          "text": "1,5 Liter"
+        },
+        {
+          "id": "d",
+          "text": "3 Liter"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Mindestens 1,5 Liter pro Tag.",
+      "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "true-false",
+      "text": "Selbst kochen ist gesünder als Essen bestellen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Selbst kochen ist gesünder.",
+      "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "multiple-choice",
+      "text": "Wie viele Stunden Schlaf brauchen Erwachsene?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "5-6 Stunden"
+        },
+        {
+          "id": "b",
+          "text": "7-8 Stunden"
+        },
+        {
+          "id": "c",
+          "text": "9-10 Stunden"
+        },
+        {
+          "id": "d",
+          "text": "10-12 Stunden"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Erwachsene brauchen etwa 7-8 Stunden.",
+      "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "true-false",
+      "text": "Man soll Handy und Computer vor dem Schlafen benutzen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man soll sie vermeiden.",
+      "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "multiple-choice",
+      "text": "Was kann helfen, Stress zu reduzieren?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mehr arbeiten"
+        },
+        {
+          "id": "b",
+          "text": "Meditation, Yoga oder ein gutes Buch"
+        },
+        {
+          "id": "c",
+          "text": "Weniger schlafen"
+        },
+        {
+          "id": "d",
+          "text": "Fast Food essen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.",
+      "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "multiple-choice",
+      "text": "Wie oft soll man zum Arzt gehen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeden Monat"
+        },
+        {
+          "id": "b",
+          "text": "Einmal pro Jahr"
+        },
+        {
+          "id": "c",
+          "text": "Alle zwei Jahre"
+        },
+        {
+          "id": "d",
+          "text": "Nur wenn man krank ist"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Einmal pro Jahr für einen Check-up.",
+      "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "Ein Arzt"
+        },
+        {
+          "id": "c",
+          "text": "Ein Koch"
+        },
+        {
+          "id": "d",
+          "text": "Ein Sportler"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.",
+      "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "multiple-choice",
+      "text": "Wie viel Sport soll man mindestens pro Tag machen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "15 Minuten"
+        },
+        {
+          "id": "b",
+          "text": "30 Minuten"
+        },
+        {
+          "id": "c",
+          "text": "60 Minuten"
+        },
+        {
+          "id": "d",
+          "text": "2 Stunden"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Mindestens 30 Minuten pro Tag.",
+      "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "true-false",
+      "text": "Man muss jeden Tag ins Fitnessstudio gehen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.",
+      "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "multiple-choice",
+      "text": "Was soll man statt dem Aufzug nehmen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den Bus"
+        },
+        {
+          "id": "b",
+          "text": "Das Taxi"
+        },
+        {
+          "id": "c",
+          "text": "Die Treppe"
+        },
+        {
+          "id": "d",
+          "text": "Das Auto"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Man soll die Treppe nehmen.",
+      "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "multiple-choice",
+      "text": "Wie viel Wasser soll man pro Tag trinken?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "0,5 Liter"
+        },
+        {
+          "id": "b",
+          "text": "1 Liter"
+        },
+        {
+          "id": "c",
+          "text": "1,5 Liter"
+        },
+        {
+          "id": "d",
+          "text": "3 Liter"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Mindestens 1,5 Liter pro Tag.",
+      "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "true-false",
+      "text": "Selbst kochen ist gesünder als Essen bestellen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Selbst kochen ist gesünder.",
+      "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "multiple-choice",
+      "text": "Wie viele Stunden Schlaf brauchen Erwachsene?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "5-6 Stunden"
+        },
+        {
+          "id": "b",
+          "text": "7-8 Stunden"
+        },
+        {
+          "id": "c",
+          "text": "9-10 Stunden"
+        },
+        {
+          "id": "d",
+          "text": "10-12 Stunden"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Erwachsene brauchen etwa 7-8 Stunden.",
+      "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "true-false",
+      "text": "Man soll Handy und Computer vor dem Schlafen benutzen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man soll sie vermeiden.",
+      "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "multiple-choice",
+      "text": "Was kann helfen, Stress zu reduzieren?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mehr arbeiten"
+        },
+        {
+          "id": "b",
+          "text": "Meditation, Yoga oder ein gutes Buch"
+        },
+        {
+          "id": "c",
+          "text": "Weniger schlafen"
+        },
+        {
+          "id": "d",
+          "text": "Fast Food essen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.",
+      "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "multiple-choice",
+      "text": "Wie oft soll man zum Arzt gehen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeden Monat"
+        },
+        {
+          "id": "b",
+          "text": "Einmal pro Jahr"
+        },
+        {
+          "id": "c",
+          "text": "Alle zwei Jahre"
+        },
+        {
+          "id": "d",
+          "text": "Nur wenn man krank ist"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Einmal pro Jahr für einen Check-up.",
+      "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "Ein Arzt"
+        },
+        {
+          "id": "c",
+          "text": "Ein Koch"
+        },
+        {
+          "id": "d",
+          "text": "Ein Sportler"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.",
+      "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "multiple-choice",
+      "text": "Wie viel Sport soll man mindestens pro Tag machen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "15 Minuten"
+        },
+        {
+          "id": "b",
+          "text": "30 Minuten"
+        },
+        {
+          "id": "c",
+          "text": "60 Minuten"
+        },
+        {
+          "id": "d",
+          "text": "2 Stunden"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Mindestens 30 Minuten pro Tag.",
+      "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "true-false",
+      "text": "Man muss jeden Tag ins Fitnessstudio gehen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.",
+      "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "multiple-choice",
+      "text": "Was soll man statt dem Aufzug nehmen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den Bus"
+        },
+        {
+          "id": "b",
+          "text": "Das Taxi"
+        },
+        {
+          "id": "c",
+          "text": "Die Treppe"
+        },
+        {
+          "id": "d",
+          "text": "Das Auto"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Man soll die Treppe nehmen.",
+      "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "multiple-choice",
+      "text": "Wie viel Wasser soll man pro Tag trinken?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "0,5 Liter"
+        },
+        {
+          "id": "b",
+          "text": "1 Liter"
+        },
+        {
+          "id": "c",
+          "text": "1,5 Liter"
+        },
+        {
+          "id": "d",
+          "text": "3 Liter"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Mindestens 1,5 Liter pro Tag.",
+      "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "true-false",
+      "text": "Selbst kochen ist gesünder als Essen bestellen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "true",
+      "explanation": "Richtig. Selbst kochen ist gesünder.",
+      "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.",
+      "tags": [
+        "reading",
+        "article",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "multiple-choice",
+      "text": "Wie viele Stunden Schlaf brauchen Erwachsene?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "5-6 Stunden"
+        },
+        {
+          "id": "b",
+          "text": "7-8 Stunden"
+        },
+        {
+          "id": "c",
+          "text": "9-10 Stunden"
+        },
+        {
+          "id": "d",
+          "text": "10-12 Stunden"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Erwachsene brauchen etwa 7-8 Stunden.",
+      "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "true-false",
+      "text": "Man soll Handy und Computer vor dem Schlafen benutzen.",
+      "passageId": "article-healthy-lifestyle",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Man soll sie vermeiden.",
+      "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.",
+      "tags": [
+        "reading",
+        "article",
+        "inference"
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "multiple-choice",
+      "text": "Was kann helfen, Stress zu reduzieren?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mehr arbeiten"
+        },
+        {
+          "id": "b",
+          "text": "Meditation, Yoga oder ein gutes Buch"
+        },
+        {
+          "id": "c",
+          "text": "Weniger schlafen"
+        },
+        {
+          "id": "d",
+          "text": "Fast Food essen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.",
+      "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    },
+    {
+      "id": "q50",
+      "type": "multiple-choice",
+      "text": "Wie oft soll man zum Arzt gehen?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeden Monat"
+        },
+        {
+          "id": "b",
+          "text": "Einmal pro Jahr"
+        },
+        {
+          "id": "c",
+          "text": "Alle zwei Jahre"
+        },
+        {
+          "id": "d",
+          "text": "Nur wenn man krank ist"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Einmal pro Jahr für einen Check-up.",
+      "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.",
+      "tags": [
+        "reading",
+        "article",
+        "details"
+      ]
+    }
   ]
 }

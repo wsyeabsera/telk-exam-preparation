@@ -6,15 +6,1555 @@
   "category": "mini-test",
   "focus": "Conjunctions",
   "questions": [
-    { "id": "q1", "type": "multiple-choice", "text": "___ ich Kind war, spielte ich viel draußen.", "options": [{ "id": "a", "text": "Wenn" }, { "id": "b", "text": "Als" }, { "id": "c", "text": "Wann" }, { "id": "d", "text": "Ob" }], "correctAnswerId": "b", "explanation": "als = when (one-time past event)", "explanationDetail": "Als (when) is used for one-time events in the past. Als ich Kind war (when I was a child) - this happened once. Als sends the verb to the end of the clause.", "tags": ["conjunctions", "temporal", "als"] },
-    { "id": "q2", "type": "multiple-choice", "text": "___ ich Zeit habe, gehe ich spazieren.", "options": [{ "id": "a", "text": "Wenn" }, { "id": "b", "text": "Als" }, { "id": "c", "text": "Wann" }, { "id": "d", "text": "Ob" }], "correctAnswerId": "a", "explanation": "wenn = when/if (repeated or future)", "explanationDetail": "Wenn (when/if/whenever) is used for repeated actions or future events. Wenn ich Zeit habe (when/whenever I have time) - this happens repeatedly. Wenn sends the verb to the end.", "tags": ["conjunctions", "temporal", "wenn"] },
-    { "id": "q3", "type": "multiple-choice", "text": "___ er gestern ankam, war niemand zu Hause.", "options": [{ "id": "a", "text": "Wenn" }, { "id": "b", "text": "Als" }, { "id": "c", "text": "Wann" }, { "id": "d", "text": "Ob" }], "correctAnswerId": "b", "explanation": "als = when (one-time past)", "explanationDetail": "Als is used for one-time past events. Als er ankam (when he arrived) - this happened once yesterday. Use als with Präteritum or Perfekt for single past events.", "tags": ["conjunctions", "temporal", "als"] },
-    { "id": "q4", "type": "multiple-choice", "text": "___ es regnet, bleibe ich zu Hause.", "options": [{ "id": "a", "text": "Wenn" }, { "id": "b", "text": "Als" }, { "id": "c", "text": "Wann" }, { "id": "d", "text": "Ob" }], "correctAnswerId": "a", "explanation": "wenn = when/if (condition)", "explanationDetail": "Wenn is used for conditions or repeated events. Wenn es regnet (when/if it rains) - this is a condition that can happen repeatedly. Wenn can mean 'if' or 'when'.", "tags": ["conjunctions", "temporal", "wenn"] },
-    { "id": "q5", "type": "multiple-choice", "text": "___ ich 18 wurde, machte ich den Führerschein.", "options": [{ "id": "a", "text": "Wenn" }, { "id": "b", "text": "Als" }, { "id": "c", "text": "Wann" }, { "id": "d", "text": "Ob" }], "correctAnswerId": "b", "explanation": "als = when (one-time past)", "explanationDetail": "Als is used for one-time past events. Als ich 18 wurde (when I turned 18) - this happened once in the past. Use als for unique past moments.", "tags": ["conjunctions", "temporal", "als"] },
-    { "id": "q6", "type": "multiple-choice", "text": "___ du morgen kommst, können wir zusammen kochen.", "options": [{ "id": "a", "text": "Wenn" }, { "id": "b", "text": "Als" }, { "id": "c", "text": "Wann" }, { "id": "d", "text": "Ob" }], "correctAnswerId": "a", "explanation": "wenn = when/if (future)", "explanationDetail": "Wenn is used for future events. Wenn du morgen kommst (if/when you come tomorrow) - this is a future possibility. Use wenn for future, not als.", "tags": ["conjunctions", "temporal", "wenn"] },
-    { "id": "q7", "type": "multiple-choice", "text": "___ wir in Berlin waren, haben wir viele Museen besucht.", "options": [{ "id": "a", "text": "Wenn" }, { "id": "b", "text": "Als" }, { "id": "c", "text": "Wann" }, { "id": "d", "text": "Ob" }], "correctAnswerId": "b", "explanation": "als = when (one-time past)", "explanationDetail": "Als is used for one-time past events. Als wir in Berlin waren (when we were in Berlin) - this was a specific trip in the past. Use als for unique past experiences.", "tags": ["conjunctions", "temporal", "als"] },
-    { "id": "q8", "type": "multiple-choice", "text": "___ ich müde bin, trinke ich Kaffee.", "options": [{ "id": "a", "text": "Wenn" }, { "id": "b", "text": "Als" }, { "id": "c", "text": "Wann" }, { "id": "d", "text": "Ob" }], "correctAnswerId": "a", "explanation": "wenn = when/whenever (repeated)", "explanationDetail": "Wenn is used for repeated actions. Wenn ich müde bin (when/whenever I'm tired) - this happens repeatedly. Use wenn for habits and repeated situations.", "tags": ["conjunctions", "temporal", "wenn"] },
-    { "id": "q9", "type": "multiple-choice", "text": "___ sie das erste Mal nach Deutschland kam, konnte sie kein Deutsch.", "options": [{ "id": "a", "text": "Wenn" }, { "id": "b", "text": "Als" }, { "id": "c", "text": "Wann" }, { "id": "d", "text": "Ob" }], "correctAnswerId": "b", "explanation": "als = when (one-time past)", "explanationDetail": "Als is used for one-time past events. Als sie das erste Mal kam (when she came for the first time) - this was a unique moment. 'Das erste Mal' signals a one-time event.", "tags": ["conjunctions", "temporal", "als"] },
-    { "id": "q10", "type": "multiple-choice", "text": "___ du Hilfe brauchst, kannst du mich anrufen.", "options": [{ "id": "a", "text": "Wenn" }, { "id": "b", "text": "Als" }, { "id": "c", "text": "Wann" }, { "id": "d", "text": "Ob" }], "correctAnswerId": "a", "explanation": "wenn = if/when (condition)", "explanationDetail": "Wenn is used for conditions. Wenn du Hilfe brauchst (if/when you need help) - this is a condition that could happen anytime. Use wenn for 'if' statements.", "tags": ["conjunctions", "temporal", "wenn"] }
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "___ ich Kind war, spielte ich viel draußen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past event)",
+      "explanationDetail": "Als (when) is used for one-time events in the past. Als ich Kind war (when I was a child) - this happened once. Als sends the verb to the end of the clause.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "___ ich Zeit habe, gehe ich spazieren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (repeated or future)",
+      "explanationDetail": "Wenn (when/if/whenever) is used for repeated actions or future events. Wenn ich Zeit habe (when/whenever I have time) - this happens repeatedly. Wenn sends the verb to the end.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "text": "___ er gestern ankam, war niemand zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als er ankam (when he arrived) - this happened once yesterday. Use als with Präteritum or Perfekt for single past events.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "___ es regnet, bleibe ich zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (condition)",
+      "explanationDetail": "Wenn is used for conditions or repeated events. Wenn es regnet (when/if it rains) - this is a condition that can happen repeatedly. Wenn can mean 'if' or 'when'.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "text": "___ ich 18 wurde, machte ich den Führerschein.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als ich 18 wurde (when I turned 18) - this happened once in the past. Use als for unique past moments.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "text": "___ du morgen kommst, können wir zusammen kochen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (future)",
+      "explanationDetail": "Wenn is used for future events. Wenn du morgen kommst (if/when you come tomorrow) - this is a future possibility. Use wenn for future, not als.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "text": "___ wir in Berlin waren, haben wir viele Museen besucht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als wir in Berlin waren (when we were in Berlin) - this was a specific trip in the past. Use als for unique past experiences.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "___ ich müde bin, trinke ich Kaffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/whenever (repeated)",
+      "explanationDetail": "Wenn is used for repeated actions. Wenn ich müde bin (when/whenever I'm tired) - this happens repeatedly. Use wenn for habits and repeated situations.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "text": "___ sie das erste Mal nach Deutschland kam, konnte sie kein Deutsch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als sie das erste Mal kam (when she came for the first time) - this was a unique moment. 'Das erste Mal' signals a one-time event.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "___ du Hilfe brauchst, kannst du mich anrufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = if/when (condition)",
+      "explanationDetail": "Wenn is used for conditions. Wenn du Hilfe brauchst (if/when you need help) - this is a condition that could happen anytime. Use wenn for 'if' statements.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "text": "___ ich Kind war, spielte ich viel draußen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past event)",
+      "explanationDetail": "Als (when) is used for one-time events in the past. Als ich Kind war (when I was a child) - this happened once. Als sends the verb to the end of the clause.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "___ ich Zeit habe, gehe ich spazieren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (repeated or future)",
+      "explanationDetail": "Wenn (when/if/whenever) is used for repeated actions or future events. Wenn ich Zeit habe (when/whenever I have time) - this happens repeatedly. Wenn sends the verb to the end.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "text": "___ er gestern ankam, war niemand zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als er ankam (when he arrived) - this happened once yesterday. Use als with Präteritum or Perfekt for single past events.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "text": "___ es regnet, bleibe ich zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (condition)",
+      "explanationDetail": "Wenn is used for conditions or repeated events. Wenn es regnet (when/if it rains) - this is a condition that can happen repeatedly. Wenn can mean 'if' or 'when'.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "text": "___ ich 18 wurde, machte ich den Führerschein.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als ich 18 wurde (when I turned 18) - this happened once in the past. Use als for unique past moments.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "text": "___ du morgen kommst, können wir zusammen kochen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (future)",
+      "explanationDetail": "Wenn is used for future events. Wenn du morgen kommst (if/when you come tomorrow) - this is a future possibility. Use wenn for future, not als.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple-choice",
+      "text": "___ wir in Berlin waren, haben wir viele Museen besucht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als wir in Berlin waren (when we were in Berlin) - this was a specific trip in the past. Use als for unique past experiences.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple-choice",
+      "text": "___ ich müde bin, trinke ich Kaffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/whenever (repeated)",
+      "explanationDetail": "Wenn is used for repeated actions. Wenn ich müde bin (when/whenever I'm tired) - this happens repeatedly. Use wenn for habits and repeated situations.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "multiple-choice",
+      "text": "___ sie das erste Mal nach Deutschland kam, konnte sie kein Deutsch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als sie das erste Mal kam (when she came for the first time) - this was a unique moment. 'Das erste Mal' signals a one-time event.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple-choice",
+      "text": "___ du Hilfe brauchst, kannst du mich anrufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = if/when (condition)",
+      "explanationDetail": "Wenn is used for conditions. Wenn du Hilfe brauchst (if/when you need help) - this is a condition that could happen anytime. Use wenn for 'if' statements.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "multiple-choice",
+      "text": "___ ich Kind war, spielte ich viel draußen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past event)",
+      "explanationDetail": "Als (when) is used for one-time events in the past. Als ich Kind war (when I was a child) - this happened once. Als sends the verb to the end of the clause.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "multiple-choice",
+      "text": "___ ich Zeit habe, gehe ich spazieren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (repeated or future)",
+      "explanationDetail": "Wenn (when/if/whenever) is used for repeated actions or future events. Wenn ich Zeit habe (when/whenever I have time) - this happens repeatedly. Wenn sends the verb to the end.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "multiple-choice",
+      "text": "___ er gestern ankam, war niemand zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als er ankam (when he arrived) - this happened once yesterday. Use als with Präteritum or Perfekt for single past events.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "multiple-choice",
+      "text": "___ es regnet, bleibe ich zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (condition)",
+      "explanationDetail": "Wenn is used for conditions or repeated events. Wenn es regnet (when/if it rains) - this is a condition that can happen repeatedly. Wenn can mean 'if' or 'when'.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "multiple-choice",
+      "text": "___ ich 18 wurde, machte ich den Führerschein.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als ich 18 wurde (when I turned 18) - this happened once in the past. Use als for unique past moments.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "multiple-choice",
+      "text": "___ du morgen kommst, können wir zusammen kochen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (future)",
+      "explanationDetail": "Wenn is used for future events. Wenn du morgen kommst (if/when you come tomorrow) - this is a future possibility. Use wenn for future, not als.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "multiple-choice",
+      "text": "___ wir in Berlin waren, haben wir viele Museen besucht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als wir in Berlin waren (when we were in Berlin) - this was a specific trip in the past. Use als for unique past experiences.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "multiple-choice",
+      "text": "___ ich müde bin, trinke ich Kaffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/whenever (repeated)",
+      "explanationDetail": "Wenn is used for repeated actions. Wenn ich müde bin (when/whenever I'm tired) - this happens repeatedly. Use wenn for habits and repeated situations.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "multiple-choice",
+      "text": "___ sie das erste Mal nach Deutschland kam, konnte sie kein Deutsch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als sie das erste Mal kam (when she came for the first time) - this was a unique moment. 'Das erste Mal' signals a one-time event.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "multiple-choice",
+      "text": "___ du Hilfe brauchst, kannst du mich anrufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = if/when (condition)",
+      "explanationDetail": "Wenn is used for conditions. Wenn du Hilfe brauchst (if/when you need help) - this is a condition that could happen anytime. Use wenn for 'if' statements.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "multiple-choice",
+      "text": "___ ich Kind war, spielte ich viel draußen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past event)",
+      "explanationDetail": "Als (when) is used for one-time events in the past. Als ich Kind war (when I was a child) - this happened once. Als sends the verb to the end of the clause.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "multiple-choice",
+      "text": "___ ich Zeit habe, gehe ich spazieren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (repeated or future)",
+      "explanationDetail": "Wenn (when/if/whenever) is used for repeated actions or future events. Wenn ich Zeit habe (when/whenever I have time) - this happens repeatedly. Wenn sends the verb to the end.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "multiple-choice",
+      "text": "___ er gestern ankam, war niemand zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als er ankam (when he arrived) - this happened once yesterday. Use als with Präteritum or Perfekt for single past events.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "multiple-choice",
+      "text": "___ es regnet, bleibe ich zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (condition)",
+      "explanationDetail": "Wenn is used for conditions or repeated events. Wenn es regnet (when/if it rains) - this is a condition that can happen repeatedly. Wenn can mean 'if' or 'when'.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "multiple-choice",
+      "text": "___ ich 18 wurde, machte ich den Führerschein.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als ich 18 wurde (when I turned 18) - this happened once in the past. Use als for unique past moments.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "multiple-choice",
+      "text": "___ du morgen kommst, können wir zusammen kochen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (future)",
+      "explanationDetail": "Wenn is used for future events. Wenn du morgen kommst (if/when you come tomorrow) - this is a future possibility. Use wenn for future, not als.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "multiple-choice",
+      "text": "___ wir in Berlin waren, haben wir viele Museen besucht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als wir in Berlin waren (when we were in Berlin) - this was a specific trip in the past. Use als for unique past experiences.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "multiple-choice",
+      "text": "___ ich müde bin, trinke ich Kaffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/whenever (repeated)",
+      "explanationDetail": "Wenn is used for repeated actions. Wenn ich müde bin (when/whenever I'm tired) - this happens repeatedly. Use wenn for habits and repeated situations.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "multiple-choice",
+      "text": "___ sie das erste Mal nach Deutschland kam, konnte sie kein Deutsch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als sie das erste Mal kam (when she came for the first time) - this was a unique moment. 'Das erste Mal' signals a one-time event.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "multiple-choice",
+      "text": "___ du Hilfe brauchst, kannst du mich anrufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = if/when (condition)",
+      "explanationDetail": "Wenn is used for conditions. Wenn du Hilfe brauchst (if/when you need help) - this is a condition that could happen anytime. Use wenn for 'if' statements.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "multiple-choice",
+      "text": "___ ich Kind war, spielte ich viel draußen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past event)",
+      "explanationDetail": "Als (when) is used for one-time events in the past. Als ich Kind war (when I was a child) - this happened once. Als sends the verb to the end of the clause.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "multiple-choice",
+      "text": "___ ich Zeit habe, gehe ich spazieren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (repeated or future)",
+      "explanationDetail": "Wenn (when/if/whenever) is used for repeated actions or future events. Wenn ich Zeit habe (when/whenever I have time) - this happens repeatedly. Wenn sends the verb to the end.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "multiple-choice",
+      "text": "___ er gestern ankam, war niemand zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als er ankam (when he arrived) - this happened once yesterday. Use als with Präteritum or Perfekt for single past events.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "multiple-choice",
+      "text": "___ es regnet, bleibe ich zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (condition)",
+      "explanationDetail": "Wenn is used for conditions or repeated events. Wenn es regnet (when/if it rains) - this is a condition that can happen repeatedly. Wenn can mean 'if' or 'when'.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "multiple-choice",
+      "text": "___ ich 18 wurde, machte ich den Führerschein.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als ich 18 wurde (when I turned 18) - this happened once in the past. Use als for unique past moments.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "multiple-choice",
+      "text": "___ du morgen kommst, können wir zusammen kochen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/if (future)",
+      "explanationDetail": "Wenn is used for future events. Wenn du morgen kommst (if/when you come tomorrow) - this is a future possibility. Use wenn for future, not als.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "multiple-choice",
+      "text": "___ wir in Berlin waren, haben wir viele Museen besucht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als wir in Berlin waren (when we were in Berlin) - this was a specific trip in the past. Use als for unique past experiences.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "multiple-choice",
+      "text": "___ ich müde bin, trinke ich Kaffee.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = when/whenever (repeated)",
+      "explanationDetail": "Wenn is used for repeated actions. Wenn ich müde bin (when/whenever I'm tired) - this happens repeatedly. Use wenn for habits and repeated situations.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "multiple-choice",
+      "text": "___ sie das erste Mal nach Deutschland kam, konnte sie kein Deutsch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "als = when (one-time past)",
+      "explanationDetail": "Als is used for one-time past events. Als sie das erste Mal kam (when she came for the first time) - this was a unique moment. 'Das erste Mal' signals a one-time event.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "als"
+      ]
+    },
+    {
+      "id": "q50",
+      "type": "multiple-choice",
+      "text": "___ du Hilfe brauchst, kannst du mich anrufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wenn"
+        },
+        {
+          "id": "b",
+          "text": "Als"
+        },
+        {
+          "id": "c",
+          "text": "Wann"
+        },
+        {
+          "id": "d",
+          "text": "Ob"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wenn = if/when (condition)",
+      "explanationDetail": "Wenn is used for conditions. Wenn du Hilfe brauchst (if/when you need help) - this is a condition that could happen anytime. Use wenn for 'if' statements.",
+      "tags": [
+        "conjunctions",
+        "temporal",
+        "wenn"
+      ]
+    }
   ]
 }

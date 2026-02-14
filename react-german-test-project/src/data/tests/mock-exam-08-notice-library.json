@@ -6,15 +6,1335 @@
   "category": "mock-exam",
   "focus": "Reading",
   "questions": [
-    { "id": "q1", "type": "multiple-choice", "text": "Warum ist die Bibliothek geschlossen?", "passageId": "notice-library-closure", "options": [{ "id": "a", "text": "Wegen Ferien" }, { "id": "b", "text": "Wegen Renovierung" }, { "id": "c", "text": "Wegen Krankheit" }, { "id": "d", "text": "Wegen Feiertag" }], "correctAnswerId": "b", "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.", "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.", "tags": ["reading", "notice", "main-idea"] },
-    { "id": "q2", "type": "multiple-choice", "text": "Wie lange ist die Bibliothek geschlossen?", "passageId": "notice-library-closure", "options": [{ "id": "a", "text": "1 Woche" }, { "id": "b", "text": "2 Wochen" }, { "id": "c", "text": "3 Wochen" }, { "id": "d", "text": "1 Monat" }], "correctAnswerId": "b", "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).", "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.", "tags": ["reading", "notice", "details"] },
-    { "id": "q3", "type": "true-false", "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.", "passageId": "notice-library-closure", "correctAnswerId": "false", "explanation": "Falsch. Keine Mahngebühren bis 31. März.", "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.", "tags": ["reading", "notice", "inference"] },
-    { "id": "q4", "type": "multiple-choice", "text": "Was funktioniert während der Schließung weiterhin?", "passageId": "notice-library-closure", "options": [{ "id": "a", "text": "Telefon" }, { "id": "b", "text": "Bücher ausleihen vor Ort" }, { "id": "c", "text": "Online-Ausleihe von E-Books" }, { "id": "d", "text": "Computer-Arbeitsplätze" }], "correctAnswerId": "c", "explanation": "Die Online-Ausleihe funktioniert weiterhin.", "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.", "tags": ["reading", "notice", "details"] },
-    { "id": "q5", "type": "true-false", "text": "Telefon und E-Mail sind während der Renovierung erreichbar.", "passageId": "notice-library-closure", "correctAnswerId": "false", "explanation": "Falsch. Sie sind nicht erreichbar.", "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.", "tags": ["reading", "notice", "details"] },
-    { "id": "q6", "type": "multiple-choice", "text": "Bis wann kann man Bücher zurückgeben?", "passageId": "notice-library-closure", "options": [{ "id": "a", "text": "Bis 1. März" }, { "id": "b", "text": "Bis 15. März" }, { "id": "c", "text": "Bis 31. März" }, { "id": "d", "text": "Bis 1. April" }], "correctAnswerId": "c", "explanation": "Man kann Bücher bis 31. März zurückgeben.", "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.", "tags": ["reading", "notice", "details"] },
-    { "id": "q7", "type": "multiple-choice", "text": "Ab wann öffnet die Bibliothek wieder?", "passageId": "notice-library-closure", "options": [{ "id": "a", "text": "1. März" }, { "id": "b", "text": "15. März" }, { "id": "c", "text": "16. März" }, { "id": "d", "text": "31. März" }], "correctAnswerId": "c", "explanation": "Die Bibliothek öffnet am 16. März wieder.", "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.", "tags": ["reading", "notice", "details"] },
-    { "id": "q8", "type": "multiple-choice", "text": "Was ist NEU nach der Renovierung?", "passageId": "notice-library-closure", "options": [{ "id": "a", "text": "Nur neue Bücher" }, { "id": "b", "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich" }, { "id": "c", "text": "Nur längere Öffnungszeiten" }, { "id": "d", "text": "Nichts" }], "correctAnswerId": "b", "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.", "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.", "tags": ["reading", "notice", "details"] },
-    { "id": "q9", "type": "true-false", "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.", "passageId": "notice-library-closure", "correctAnswerId": "false", "explanation": "Falsch. Es gibt neue Öffnungszeiten.", "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.", "tags": ["reading", "notice", "inference"] },
-    { "id": "q10", "type": "multiple-choice", "text": "Wann ist die Bibliothek am Samstag geöffnet?", "passageId": "notice-library-closure", "options": [{ "id": "a", "text": "9:00-19:00 Uhr" }, { "id": "b", "text": "10:00-16:00 Uhr" }, { "id": "c", "text": "9:00-16:00 Uhr" }, { "id": "d", "text": "10:00-19:00 Uhr" }], "correctAnswerId": "b", "explanation": "Am Samstag: 10:00-16:00 Uhr.", "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).", "tags": ["reading", "notice", "details"] }
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "Warum ist die Bibliothek geschlossen?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wegen Ferien"
+        },
+        {
+          "id": "b",
+          "text": "Wegen Renovierung"
+        },
+        {
+          "id": "c",
+          "text": "Wegen Krankheit"
+        },
+        {
+          "id": "d",
+          "text": "Wegen Feiertag"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.",
+      "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.",
+      "tags": [
+        "reading",
+        "notice",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "Wie lange ist die Bibliothek geschlossen?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 Woche"
+        },
+        {
+          "id": "b",
+          "text": "2 Wochen"
+        },
+        {
+          "id": "c",
+          "text": "3 Wochen"
+        },
+        {
+          "id": "d",
+          "text": "1 Monat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).",
+      "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Keine Mahngebühren bis 31. März.",
+      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.",
+      "tags": [
+        "reading",
+        "notice",
+        "inference"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "Was funktioniert während der Schließung weiterhin?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Telefon"
+        },
+        {
+          "id": "b",
+          "text": "Bücher ausleihen vor Ort"
+        },
+        {
+          "id": "c",
+          "text": "Online-Ausleihe von E-Books"
+        },
+        {
+          "id": "d",
+          "text": "Computer-Arbeitsplätze"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Die Online-Ausleihe funktioniert weiterhin.",
+      "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "text": "Telefon und E-Mail sind während der Renovierung erreichbar.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Sie sind nicht erreichbar.",
+      "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "text": "Bis wann kann man Bücher zurückgeben?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bis 1. März"
+        },
+        {
+          "id": "b",
+          "text": "Bis 15. März"
+        },
+        {
+          "id": "c",
+          "text": "Bis 31. März"
+        },
+        {
+          "id": "d",
+          "text": "Bis 1. April"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Man kann Bücher bis 31. März zurückgeben.",
+      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "text": "Ab wann öffnet die Bibliothek wieder?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "1. März"
+        },
+        {
+          "id": "b",
+          "text": "15. März"
+        },
+        {
+          "id": "c",
+          "text": "16. März"
+        },
+        {
+          "id": "d",
+          "text": "31. März"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Die Bibliothek öffnet am 16. März wieder.",
+      "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "Was ist NEU nach der Renovierung?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur neue Bücher"
+        },
+        {
+          "id": "b",
+          "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich"
+        },
+        {
+          "id": "c",
+          "text": "Nur längere Öffnungszeiten"
+        },
+        {
+          "id": "d",
+          "text": "Nichts"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.",
+      "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Es gibt neue Öffnungszeiten.",
+      "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.",
+      "tags": [
+        "reading",
+        "notice",
+        "inference"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "9:00-19:00 Uhr"
+        },
+        {
+          "id": "b",
+          "text": "10:00-16:00 Uhr"
+        },
+        {
+          "id": "c",
+          "text": "9:00-16:00 Uhr"
+        },
+        {
+          "id": "d",
+          "text": "10:00-19:00 Uhr"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Am Samstag: 10:00-16:00 Uhr.",
+      "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "text": "Warum ist die Bibliothek geschlossen?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wegen Ferien"
+        },
+        {
+          "id": "b",
+          "text": "Wegen Renovierung"
+        },
+        {
+          "id": "c",
+          "text": "Wegen Krankheit"
+        },
+        {
+          "id": "d",
+          "text": "Wegen Feiertag"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.",
+      "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.",
+      "tags": [
+        "reading",
+        "notice",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "Wie lange ist die Bibliothek geschlossen?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 Woche"
+        },
+        {
+          "id": "b",
+          "text": "2 Wochen"
+        },
+        {
+          "id": "c",
+          "text": "3 Wochen"
+        },
+        {
+          "id": "d",
+          "text": "1 Monat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).",
+      "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Keine Mahngebühren bis 31. März.",
+      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.",
+      "tags": [
+        "reading",
+        "notice",
+        "inference"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "text": "Was funktioniert während der Schließung weiterhin?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Telefon"
+        },
+        {
+          "id": "b",
+          "text": "Bücher ausleihen vor Ort"
+        },
+        {
+          "id": "c",
+          "text": "Online-Ausleihe von E-Books"
+        },
+        {
+          "id": "d",
+          "text": "Computer-Arbeitsplätze"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Die Online-Ausleihe funktioniert weiterhin.",
+      "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "text": "Telefon und E-Mail sind während der Renovierung erreichbar.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Sie sind nicht erreichbar.",
+      "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "text": "Bis wann kann man Bücher zurückgeben?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bis 1. März"
+        },
+        {
+          "id": "b",
+          "text": "Bis 15. März"
+        },
+        {
+          "id": "c",
+          "text": "Bis 31. März"
+        },
+        {
+          "id": "d",
+          "text": "Bis 1. April"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Man kann Bücher bis 31. März zurückgeben.",
+      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "multiple-choice",
+      "text": "Ab wann öffnet die Bibliothek wieder?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "1. März"
+        },
+        {
+          "id": "b",
+          "text": "15. März"
+        },
+        {
+          "id": "c",
+          "text": "16. März"
+        },
+        {
+          "id": "d",
+          "text": "31. März"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Die Bibliothek öffnet am 16. März wieder.",
+      "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "multiple-choice",
+      "text": "Was ist NEU nach der Renovierung?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur neue Bücher"
+        },
+        {
+          "id": "b",
+          "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich"
+        },
+        {
+          "id": "c",
+          "text": "Nur längere Öffnungszeiten"
+        },
+        {
+          "id": "d",
+          "text": "Nichts"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.",
+      "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "true-false",
+      "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Es gibt neue Öffnungszeiten.",
+      "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.",
+      "tags": [
+        "reading",
+        "notice",
+        "inference"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "multiple-choice",
+      "text": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "9:00-19:00 Uhr"
+        },
+        {
+          "id": "b",
+          "text": "10:00-16:00 Uhr"
+        },
+        {
+          "id": "c",
+          "text": "9:00-16:00 Uhr"
+        },
+        {
+          "id": "d",
+          "text": "10:00-19:00 Uhr"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Am Samstag: 10:00-16:00 Uhr.",
+      "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "multiple-choice",
+      "text": "Warum ist die Bibliothek geschlossen?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wegen Ferien"
+        },
+        {
+          "id": "b",
+          "text": "Wegen Renovierung"
+        },
+        {
+          "id": "c",
+          "text": "Wegen Krankheit"
+        },
+        {
+          "id": "d",
+          "text": "Wegen Feiertag"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.",
+      "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.",
+      "tags": [
+        "reading",
+        "notice",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "multiple-choice",
+      "text": "Wie lange ist die Bibliothek geschlossen?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 Woche"
+        },
+        {
+          "id": "b",
+          "text": "2 Wochen"
+        },
+        {
+          "id": "c",
+          "text": "3 Wochen"
+        },
+        {
+          "id": "d",
+          "text": "1 Monat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).",
+      "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "true-false",
+      "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Keine Mahngebühren bis 31. März.",
+      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.",
+      "tags": [
+        "reading",
+        "notice",
+        "inference"
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "multiple-choice",
+      "text": "Was funktioniert während der Schließung weiterhin?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Telefon"
+        },
+        {
+          "id": "b",
+          "text": "Bücher ausleihen vor Ort"
+        },
+        {
+          "id": "c",
+          "text": "Online-Ausleihe von E-Books"
+        },
+        {
+          "id": "d",
+          "text": "Computer-Arbeitsplätze"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Die Online-Ausleihe funktioniert weiterhin.",
+      "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "true-false",
+      "text": "Telefon und E-Mail sind während der Renovierung erreichbar.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Sie sind nicht erreichbar.",
+      "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "multiple-choice",
+      "text": "Bis wann kann man Bücher zurückgeben?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bis 1. März"
+        },
+        {
+          "id": "b",
+          "text": "Bis 15. März"
+        },
+        {
+          "id": "c",
+          "text": "Bis 31. März"
+        },
+        {
+          "id": "d",
+          "text": "Bis 1. April"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Man kann Bücher bis 31. März zurückgeben.",
+      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "multiple-choice",
+      "text": "Ab wann öffnet die Bibliothek wieder?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "1. März"
+        },
+        {
+          "id": "b",
+          "text": "15. März"
+        },
+        {
+          "id": "c",
+          "text": "16. März"
+        },
+        {
+          "id": "d",
+          "text": "31. März"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Die Bibliothek öffnet am 16. März wieder.",
+      "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "multiple-choice",
+      "text": "Was ist NEU nach der Renovierung?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur neue Bücher"
+        },
+        {
+          "id": "b",
+          "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich"
+        },
+        {
+          "id": "c",
+          "text": "Nur längere Öffnungszeiten"
+        },
+        {
+          "id": "d",
+          "text": "Nichts"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.",
+      "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "true-false",
+      "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Es gibt neue Öffnungszeiten.",
+      "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.",
+      "tags": [
+        "reading",
+        "notice",
+        "inference"
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "multiple-choice",
+      "text": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "9:00-19:00 Uhr"
+        },
+        {
+          "id": "b",
+          "text": "10:00-16:00 Uhr"
+        },
+        {
+          "id": "c",
+          "text": "9:00-16:00 Uhr"
+        },
+        {
+          "id": "d",
+          "text": "10:00-19:00 Uhr"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Am Samstag: 10:00-16:00 Uhr.",
+      "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "multiple-choice",
+      "text": "Warum ist die Bibliothek geschlossen?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wegen Ferien"
+        },
+        {
+          "id": "b",
+          "text": "Wegen Renovierung"
+        },
+        {
+          "id": "c",
+          "text": "Wegen Krankheit"
+        },
+        {
+          "id": "d",
+          "text": "Wegen Feiertag"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.",
+      "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.",
+      "tags": [
+        "reading",
+        "notice",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "multiple-choice",
+      "text": "Wie lange ist die Bibliothek geschlossen?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 Woche"
+        },
+        {
+          "id": "b",
+          "text": "2 Wochen"
+        },
+        {
+          "id": "c",
+          "text": "3 Wochen"
+        },
+        {
+          "id": "d",
+          "text": "1 Monat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).",
+      "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "true-false",
+      "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Keine Mahngebühren bis 31. März.",
+      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.",
+      "tags": [
+        "reading",
+        "notice",
+        "inference"
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "multiple-choice",
+      "text": "Was funktioniert während der Schließung weiterhin?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Telefon"
+        },
+        {
+          "id": "b",
+          "text": "Bücher ausleihen vor Ort"
+        },
+        {
+          "id": "c",
+          "text": "Online-Ausleihe von E-Books"
+        },
+        {
+          "id": "d",
+          "text": "Computer-Arbeitsplätze"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Die Online-Ausleihe funktioniert weiterhin.",
+      "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "true-false",
+      "text": "Telefon und E-Mail sind während der Renovierung erreichbar.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Sie sind nicht erreichbar.",
+      "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "multiple-choice",
+      "text": "Bis wann kann man Bücher zurückgeben?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bis 1. März"
+        },
+        {
+          "id": "b",
+          "text": "Bis 15. März"
+        },
+        {
+          "id": "c",
+          "text": "Bis 31. März"
+        },
+        {
+          "id": "d",
+          "text": "Bis 1. April"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Man kann Bücher bis 31. März zurückgeben.",
+      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "multiple-choice",
+      "text": "Ab wann öffnet die Bibliothek wieder?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "1. März"
+        },
+        {
+          "id": "b",
+          "text": "15. März"
+        },
+        {
+          "id": "c",
+          "text": "16. März"
+        },
+        {
+          "id": "d",
+          "text": "31. März"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Die Bibliothek öffnet am 16. März wieder.",
+      "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "multiple-choice",
+      "text": "Was ist NEU nach der Renovierung?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur neue Bücher"
+        },
+        {
+          "id": "b",
+          "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich"
+        },
+        {
+          "id": "c",
+          "text": "Nur längere Öffnungszeiten"
+        },
+        {
+          "id": "d",
+          "text": "Nichts"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.",
+      "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "true-false",
+      "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Es gibt neue Öffnungszeiten.",
+      "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.",
+      "tags": [
+        "reading",
+        "notice",
+        "inference"
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "multiple-choice",
+      "text": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "9:00-19:00 Uhr"
+        },
+        {
+          "id": "b",
+          "text": "10:00-16:00 Uhr"
+        },
+        {
+          "id": "c",
+          "text": "9:00-16:00 Uhr"
+        },
+        {
+          "id": "d",
+          "text": "10:00-19:00 Uhr"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Am Samstag: 10:00-16:00 Uhr.",
+      "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "multiple-choice",
+      "text": "Warum ist die Bibliothek geschlossen?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wegen Ferien"
+        },
+        {
+          "id": "b",
+          "text": "Wegen Renovierung"
+        },
+        {
+          "id": "c",
+          "text": "Wegen Krankheit"
+        },
+        {
+          "id": "d",
+          "text": "Wegen Feiertag"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.",
+      "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.",
+      "tags": [
+        "reading",
+        "notice",
+        "main-idea"
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "multiple-choice",
+      "text": "Wie lange ist die Bibliothek geschlossen?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 Woche"
+        },
+        {
+          "id": "b",
+          "text": "2 Wochen"
+        },
+        {
+          "id": "c",
+          "text": "3 Wochen"
+        },
+        {
+          "id": "d",
+          "text": "1 Monat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).",
+      "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "true-false",
+      "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Keine Mahngebühren bis 31. März.",
+      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.",
+      "tags": [
+        "reading",
+        "notice",
+        "inference"
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "multiple-choice",
+      "text": "Was funktioniert während der Schließung weiterhin?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Telefon"
+        },
+        {
+          "id": "b",
+          "text": "Bücher ausleihen vor Ort"
+        },
+        {
+          "id": "c",
+          "text": "Online-Ausleihe von E-Books"
+        },
+        {
+          "id": "d",
+          "text": "Computer-Arbeitsplätze"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Die Online-Ausleihe funktioniert weiterhin.",
+      "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "true-false",
+      "text": "Telefon und E-Mail sind während der Renovierung erreichbar.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Sie sind nicht erreichbar.",
+      "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "multiple-choice",
+      "text": "Bis wann kann man Bücher zurückgeben?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bis 1. März"
+        },
+        {
+          "id": "b",
+          "text": "Bis 15. März"
+        },
+        {
+          "id": "c",
+          "text": "Bis 31. März"
+        },
+        {
+          "id": "d",
+          "text": "Bis 1. April"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Man kann Bücher bis 31. März zurückgeben.",
+      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "multiple-choice",
+      "text": "Ab wann öffnet die Bibliothek wieder?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "1. März"
+        },
+        {
+          "id": "b",
+          "text": "15. März"
+        },
+        {
+          "id": "c",
+          "text": "16. März"
+        },
+        {
+          "id": "d",
+          "text": "31. März"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Die Bibliothek öffnet am 16. März wieder.",
+      "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "multiple-choice",
+      "text": "Was ist NEU nach der Renovierung?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur neue Bücher"
+        },
+        {
+          "id": "b",
+          "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich"
+        },
+        {
+          "id": "c",
+          "text": "Nur längere Öffnungszeiten"
+        },
+        {
+          "id": "d",
+          "text": "Nichts"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.",
+      "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "true-false",
+      "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.",
+      "passageId": "notice-library-closure",
+      "correctAnswerId": "false",
+      "explanation": "Falsch. Es gibt neue Öffnungszeiten.",
+      "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.",
+      "tags": [
+        "reading",
+        "notice",
+        "inference"
+      ]
+    },
+    {
+      "id": "q50",
+      "type": "multiple-choice",
+      "text": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "9:00-19:00 Uhr"
+        },
+        {
+          "id": "b",
+          "text": "10:00-16:00 Uhr"
+        },
+        {
+          "id": "c",
+          "text": "9:00-16:00 Uhr"
+        },
+        {
+          "id": "d",
+          "text": "10:00-19:00 Uhr"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Am Samstag: 10:00-16:00 Uhr.",
+      "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).",
+      "tags": [
+        "reading",
+        "notice",
+        "details"
+      ]
+    }
   ]
 }
