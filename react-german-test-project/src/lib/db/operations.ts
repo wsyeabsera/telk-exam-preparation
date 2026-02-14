@@ -88,5 +88,6 @@ export async function getProgress(): Promise<ProgressRecord | undefined> {
 }
 
 export async function getCompletedAttempts(): Promise<TestAttempt[]> {
-  return db.attempts.where("completed").equals(1).reverse().sortBy("startTime");
+  const all = await db.attempts.orderBy("startTime").reverse().toArray();
+  return all.filter((a) => a.completed);
 }

@@ -13,6 +13,8 @@ export interface BaseQuestion {
   explanationDetail?: string;
   /** Shown during test: e.g. "die Mutter" for Nominativ hint */
   nominativeHint?: string;
+  /** ID of markdown passage to show above question (e.g. "blog-sofia-berlin") */
+  passageId?: string;
   difficulty?: "easy" | "medium" | "hard";
   tags?: string[];
 }

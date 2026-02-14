@@ -9,7 +9,8 @@
     {
       "id": "q1",
       "type": "multiple-choice",
-      "text": "**Text 1 (Blog):** Sofia schreibt über ihren ersten Monat in Berlin. Sie hat einen Deutschkurs gemacht, ihre Nachbarn helfen ihr, und nächste Woche beginnt sie einen Minijob im Café. Die Stadt gefällt ihr – besonders Museen und Parks.\n\nSofia lebt seit …",
+      "text": "Sofia lebt seit …",
+      "passageId": "blog-sofia-berlin",
       "options": [
         { "id": "a", "text": "einer Woche in Berlin." },
         { "id": "b", "text": "einem Monat in Berlin." },
@@ -22,7 +23,8 @@
     {
       "id": "q2a",
       "type": "true-false",
-      "text": "**Text 1 (Blog):** Sofia findet alles noch stressig.",
+      "text": "Sofia findet alles noch stressig.",
+      "passageId": "blog-sofia-berlin",
       "correctAnswer": false,
       "explanation": "Sie sagt: \"Aber jetzt geht es mir besser\".",
       "tags": ["reading", "true-false"]
@@ -30,7 +32,8 @@
     {
       "id": "q2b",
       "type": "true-false",
-      "text": "**Text 1 (Blog):** Sie hat einen Deutschkurs gemacht.",
+      "text": "Sie hat einen Deutschkurs gemacht.",
+      "passageId": "blog-sofia-berlin",
       "correctAnswer": true,
       "explanation": "„Ich habe einen Deutschkurs gemacht“.",
       "tags": ["reading", "true-false"]
@@ -38,7 +41,8 @@
     {
       "id": "q2c",
       "type": "true-false",
-      "text": "**Text 1 (Blog):** Sie arbeitet schon im Café.",
+      "text": "Sie arbeitet schon im Café.",
+      "passageId": "blog-sofia-berlin",
       "correctAnswer": false,
       "explanation": "„Nächste Woche beginne ich einen Minijob“ – sie hat noch nicht angefangen.",
       "tags": ["reading", "true-false"]
@@ -46,7 +50,8 @@
     {
       "id": "q2d",
       "type": "true-false",
-      "text": "**Text 1 (Blog):** Sie mag die Museen und Parks.",
+      "text": "Sie mag die Museen und Parks.",
+      "passageId": "blog-sofia-berlin",
       "correctAnswer": true,
       "explanation": "„Die Stadt gefällt mir – besonders die Museen und die Parks.“",
       "tags": ["reading", "true-false"]
@@ -54,7 +59,8 @@
     {
       "id": "q3",
       "type": "multiple-choice",
-      "text": "**Text 2 (E-Mail):** Kundendienst an Frau Müller – Bestellung bestätigt, Lieferung in 3–5 Werktagen, E-Mail mit Sendungsverfolgung nach Versand.\n\nWann wurde die Bestellung aufgegeben?",
+      "text": "Wann wurde die Bestellung aufgegeben?",
+      "passageId": "email-furniture-order",
       "options": [
         { "id": "a", "text": "11.02.2025" },
         { "id": "b", "text": "12.02.2025" },
@@ -68,7 +74,8 @@
     {
       "id": "q4",
       "type": "multiple-choice",
-      "text": "**Text 2 (E-Mail):** Wie lange dauert die Lieferung normalerweise?",
+      "text": "Wie lange dauert die Lieferung normalerweise?",
+      "passageId": "email-furniture-order",
       "options": [
         { "id": "a", "text": "1–2 Werktage" },
         { "id": "b", "text": "3–5 Werktage" },
@@ -82,7 +89,8 @@
     {
       "id": "q5",
       "type": "multiple-choice",
-      "text": "**Text 2 (E-Mail):** Was bekommt Frau Müller, wenn das Paket versandt wurde?",
+      "text": "Was bekommt Frau Müller, wenn das Paket versandt wurde?",
+      "passageId": "email-furniture-order",
       "options": [
         { "id": "a", "text": "Einen Anruf" },
         { "id": "b", "text": "Eine E-Mail mit der Sendungsverfolgung" },
@@ -96,7 +104,8 @@
     {
       "id": "q6",
       "type": "multiple-choice",
-      "text": "**Text 3 (Anzeige):** Online-Zeitung sucht Praktikant/in ab März, 3 Monate, Deutsch und Englisch, Bewerbung bis 28.02. an praktikum@zeitung.de.\n\nFür wen ist die Stelle?",
+      "text": "Für wen ist die Stelle?",
+      "passageId": "job-ad-bookstore",
       "options": [
         { "id": "a", "text": "Feste Mitarbeiter/innen" },
         { "id": "b", "text": "Praktikant/in" },
@@ -110,7 +119,8 @@
     {
       "id": "q7",
       "type": "multiple-choice",
-      "text": "**Text 3 (Anzeige):** Wie lange dauert das Praktikum?",
+      "text": "Wie lange dauert das Praktikum?",
+      "passageId": "job-ad-bookstore",
       "options": [
         { "id": "a", "text": "1 Monat" },
         { "id": "b", "text": "2 Monate" },
@@ -124,7 +134,8 @@
     {
       "id": "q8",
       "type": "multiple-choice",
-      "text": "**Text 3 (Anzeige):** Bis wann muss man sich bewerben?",
+      "text": "Bis wann muss man sich bewerben?",
+      "passageId": "job-ad-bookstore",
       "options": [
         { "id": "a", "text": "Bis 15.02." },
         { "id": "b", "text": "Bis 28.02." },

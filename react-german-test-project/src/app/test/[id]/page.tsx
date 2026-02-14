@@ -11,6 +11,7 @@ import { scoreTest } from "@/lib/test-engine/scorer";
 import { shuffleTest } from "@/lib/test-engine/randomizer";
 import { minutesToMs } from "@/lib/test-engine/timer";
 import { QuestionRenderer } from "@/components/test/QuestionRenderer";
+import { PassageViewer } from "@/components/test/PassageViewer";
 import { TestProgress } from "@/components/test/TestProgress";
 import { TestTimer } from "@/components/test/TestTimer";
 import { Button } from "@/components/ui/Button";
@@ -152,6 +153,9 @@ export default function TestPage() {
         />
 
         <div className="rounded-xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 p-6 shadow-sm mb-6">
+          {currentQuestion.passageId && (
+            <PassageViewer passageId={currentQuestion.passageId} className="mb-4" />
+          )}
           <QuestionRenderer
             question={currentQuestion}
             value={answers[currentQuestion.id] ?? null}

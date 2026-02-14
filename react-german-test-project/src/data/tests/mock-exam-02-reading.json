@@ -9,7 +9,8 @@
     {
       "id": "q1",
       "type": "multiple-choice",
-      "text": "**Text 1 (Artikel):** Experten empfehlen mindestens 30 Minuten Bewegung täglich. Treppen steigen, zu Fuß einkaufen oder mit dem Rad zur Arbeit reicht. Zu viel Sitzen kann zu Rückenproblemen und Übergewicht führen.\n\nWie lange sollte man sich täglich bewegen?",
+      "text": "Wie lange sollte man sich täglich bewegen?",
+      "passageId": "article-daily-movement",
       "options": [
         { "id": "a", "text": "Mindestens 15 Minuten" },
         { "id": "b", "text": "Mindestens 30 Minuten" },
@@ -23,7 +24,8 @@
     {
       "id": "q2",
       "type": "multiple-choice",
-      "text": "**Text 1 (Artikel):** Nenne zwei Beispiele für Bewegung im Alltag aus dem Text.",
+      "text": "Nenne zwei Beispiele für Bewegung im Alltag aus dem Text.",
+      "passageId": "article-daily-movement",
       "options": [
         { "id": "a", "text": "Schwimmen und Laufen" },
         { "id": "b", "text": "Treppen steigen und zu Fuß einkaufen" },
@@ -37,7 +39,8 @@
     {
       "id": "q3a",
       "type": "true-false",
-      "text": "**Text 1 (Artikel):** Man muss im Verein Sport machen.",
+      "text": "Man muss im Verein Sport machen.",
+      "passageId": "article-daily-movement",
       "correctAnswer": false,
       "explanation": "„Das muss kein Sport im Verein sein“.",
       "tags": ["reading", "true-false"]
@@ -45,7 +48,8 @@
     {
       "id": "q3b",
       "type": "true-false",
-      "text": "**Text 1 (Artikel):** Zu viel Sitzen kann Rückenprobleme verursachen.",
+      "text": "Zu viel Sitzen kann Rückenprobleme verursachen.",
+      "passageId": "article-daily-movement",
       "correctAnswer": true,
       "explanation": "„Das kann zu Rückenproblemen und Übergewicht führen.“",
       "tags": ["reading", "true-false"]
@@ -53,7 +57,8 @@
     {
       "id": "q3c",
       "type": "true-false",
-      "text": "**Text 1 (Artikel):** Ein Fitnessstudio ist nötig.",
+      "text": "Ein Fitnessstudio ist nötig.",
+      "passageId": "article-daily-movement",
       "correctAnswer": false,
       "explanation": "„So bleibt man fit ohne teures Fitnessstudio.“",
       "tags": ["reading", "true-false"]
@@ -61,7 +66,8 @@
     {
       "id": "q4",
       "type": "multiple-choice",
-      "text": "**Text 2 (E-Mail):** Lisa dankt Tom für die Einladung zum Grillen am Samstag, bietet an Salat/Nachtisch oder Getränke mitzubringen, kommt um 19 Uhr.\n\nWozu hat Tom eingeladen?",
+      "text": "Wozu hat Tom eingeladen?",
+      "passageId": "email-course-registration",
       "options": [
         { "id": "a", "text": "Zum Kino" },
         { "id": "b", "text": "Zum Grillen (am Samstag)" },
@@ -75,7 +81,8 @@
     {
       "id": "q5",
       "type": "multiple-choice",
-      "text": "**Text 2 (E-Mail):** Was bietet Lisa an mitzubringen?",
+      "text": "Was bietet Lisa an mitzubringen?",
+      "passageId": "email-course-registration",
       "options": [
         { "id": "a", "text": "Fleisch und Brot" },
         { "id": "b", "text": "Salat oder Nachtisch; Getränke" },
@@ -89,7 +96,8 @@
     {
       "id": "q6",
       "type": "multiple-choice",
-      "text": "**Text 2 (E-Mail):** Wann kommt Lisa zu Tom?",
+      "text": "Wann kommt Lisa zu Tom?",
+      "passageId": "email-course-registration",
       "options": [
         { "id": "a", "text": "Um 18 Uhr" },
         { "id": "b", "text": "Um 19 Uhr" },
@@ -103,7 +111,8 @@
     {
       "id": "q7",
       "type": "multiple-choice",
-      "text": "**Text 3 (Hinweis):** Bibliothek vom 1.–15. März nur 10–14 Uhr geöffnet (wegen Renovierung). Ab 16. März wieder normale Zeiten. Ausleihen online verlängern möglich.\n\nWarum hat die Bibliothek geänderte Zeiten?",
+      "text": "Warum hat die Bibliothek geänderte Zeiten?",
+      "passageId": "notice-library-hours",
       "options": [
         { "id": "a", "text": "Wegen Personalmangel" },
         { "id": "b", "text": "Wegen Renovierung" },
@@ -117,7 +126,8 @@
     {
       "id": "q8",
       "type": "multiple-choice",
-      "text": "**Text 3 (Hinweis):** Ab wann gelten wieder die normalen Öffnungszeiten?",
+      "text": "Ab wann gelten wieder die normalen Öffnungszeiten?",
+      "passageId": "notice-library-hours",
       "options": [
         { "id": "a", "text": "Ab 1. März" },
         { "id": "b", "text": "Ab 15. März" },
@@ -131,7 +141,8 @@
     {
       "id": "q9",
       "type": "multiple-choice",
-      "text": "**Text 3 (Hinweis):** Was kann man online machen?",
+      "text": "Was kann man online machen?",
+      "passageId": "notice-library-hours",
       "options": [
         { "id": "a", "text": "Bücher bestellen" },
         { "id": "b", "text": "Ausleihen verlängern" },
