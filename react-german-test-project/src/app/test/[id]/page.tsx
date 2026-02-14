@@ -1,0 +1,160 @@
+"use client";
+
+import { useCallback, useEffect, useState } from "react";
+import { useParams, useRouter } from "next/navigation";
+import Link from "next/link";
+import { getTest } from "@/lib/data/load-tests";
+import type { Test } from "@/types/test";
+import type { Question } from "@/types/question";
+import { createAttempt, updateAttemptAnswer, completeAttempt } from "@/lib/db/operations";
+import { scoreTest } from "@/lib/test-engine/scorer";
+import { shuffleTest } from "@/lib/test-engine/randomizer";
+import { minutesToMs } from "@/lib/test-engine/timer";
+import { QuestionRenderer } from "@/components/test/QuestionRenderer";
+import { TestProgress } from "@/components/test/TestProgress";
+import { TestTimer } from "@/components/test/TestTimer";
+import { Button } from "@/components/ui/Button";
+
+export default function TestPage() {
+  const params = useParams();
+  const router = useRouter();
+  const testId = params.id as string;
+
+  const [test, setTest] = useState<Test | null>(null);
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [attemptId, setAttemptId] = useState<string | null>(null);
+  const [startTime, setStartTime] = useState<number>(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [answers, setAnswers] = useState<Record<string, string>>({});
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const testData = getTest(testId);
+    if (!testData) {
+      setError("Test not found");
+      setLoading(false);
+      return;
+    }
+    setTest(testData);
+    setQuestions(shuffleTest(testData.questions));
+    setLoading(false);
+  }, [testId]);
+
+  useEffect(() => {
+    if (!test || attemptId) return;
+    createAttempt(testId).then((attempt) => {
+      setAttemptId(attempt.id);
+      setStartTime(attempt.startTime);
+    });
+  }, [test, testId, attemptId]);
+
+  const saveAnswer = useCallback(
+    (questionId: string, answerId: string) => {
+      setAnswers((prev) => ({ ...prev, [questionId]: answerId }));
+      if (attemptId) {
+        updateAttemptAnswer(attemptId, questionId, answerId);
+      }
+    },
+    [attemptId]
+  );
+
+  const handleComplete = useCallback(() => {
+    if (!test || !attemptId) return;
+    const { score } = scoreTest(test.questions, answers);
+    completeAttempt(attemptId, score).then(() => {
+      router.push(`/results/${attemptId}`);
+    });
+  }, [test, attemptId, answers, router]);
+
+  if (loading || error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center p-4">
+        {error ? (
+          <div className="text-center">
+            <p className="text-red-600 dark:text-red-400 mb-4">{error}</p>
+            <Link href="/">
+              <Button>Back to Dashboard</Button>
+            </Link>
+          </div>
+        ) : (
+          <p className="text-zinc-500">Loading test…</p>
+        )}
+      </div>
+    );
+  }
+
+  if (!test || questions.length === 0) {
+    return (
+      <div className="min-h-screen flex items-center justify-center p-4">
+        <p className="text-zinc-500">No questions in this test.</p>
+      </div>
+    );
+  }
+
+  const currentQuestion = questions[currentIndex];
+  const isLast = currentIndex === questions.length - 1;
+  const durationMs = test.duration ? minutesToMs(test.duration) : 0;
+
+  return (
+    <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 p-4 md:p-6">
+      <div className="max-w-2xl mx-auto">
+        <Link
+          href="/"
+          className="inline-block text-sm text-amber-600 dark:text-amber-400 hover:underline mb-4"
+        >
+          ← Dashboard
+        </Link>
+        <header className="flex flex-wrap items-center justify-between gap-2 mb-6">
+          <div>
+            <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+              {test.title}
+            </h1>
+            {test.focus && (
+              <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                {test.focus}
+              </p>
+            )}
+          </div>
+          {durationMs > 0 && startTime > 0 && (
+            <TestTimer
+              durationMs={durationMs}
+              startTime={startTime}
+              onExpire={handleComplete}
+              className="px-3 py-1.5 rounded-lg bg-zinc-200 dark:bg-zinc-800"
+            />
+          )}
+        </header>
+
+        <TestProgress
+          current={currentIndex + 1}
+          total={questions.length}
+          className="mb-6"
+        />
+
+        <div className="rounded-xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 p-6 shadow-sm mb-6">
+          <QuestionRenderer
+            question={currentQuestion}
+            value={answers[currentQuestion.id] ?? null}
+            onChange={(answerId) => saveAnswer(currentQuestion.id, answerId)}
+          />
+        </div>
+
+        <div className="flex justify-between gap-4">
+          <Button
+            variant="outline"
+            onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
+            disabled={currentIndex === 0}
+          >
+            Previous
+          </Button>
+          {isLast ? (
+            <Button onClick={handleComplete}>Finish test</Button>
+          ) : (
+            <Button onClick={() => setCurrentIndex((i) => i + 1)}>Next</Button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}

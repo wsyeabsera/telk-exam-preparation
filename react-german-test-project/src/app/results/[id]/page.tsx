@@ -1,0 +1,196 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { useParams } from "next/navigation";
+import Link from "next/link";
+import { getTest } from "@/lib/data/load-tests";
+import { getAttempt } from "@/lib/db/operations";
+import { scoreTest } from "@/lib/test-engine/scorer";
+import { formatTimeTaken } from "@/lib/test-engine/timer";
+import type { Test } from "@/types/test";
+import type { TestAttempt } from "@/types/result";
+import type { QuestionResult } from "@/types/result";
+import { Button } from "@/components/ui/Button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
+import { QuestionRenderer } from "@/components/test/QuestionRenderer";
+
+export default function ResultsPage() {
+  const params = useParams();
+  const attemptId = params.id as string;
+
+  const [attempt, setAttempt] = useState<TestAttempt | null>(null);
+  const [test, setTest] = useState<Test | null>(null);
+  const [result, setResult] = useState<{
+    score: number;
+    correctCount: number;
+    totalQuestions: number;
+    timeTakenMs: number;
+    questionResults: QuestionResult[];
+  } | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [expandQuestion, setExpandQuestion] = useState<string | null>(null);
+
+  useEffect(() => {
+    getAttempt(attemptId).then((a) => {
+      if (!a) {
+        setLoading(false);
+        return;
+      }
+      setAttempt(a);
+      const testData = getTest(a.testId);
+      setTest(testData ?? null);
+      if (testData && a.completed && a.score !== undefined) {
+        const { questionResults } = scoreTest(testData.questions, a.answers);
+        setResult({
+          score: a.score,
+          correctCount: questionResults.filter((r) => r.isCorrect).length,
+          totalQuestions: testData.questions.length,
+          timeTakenMs: (a.endTime ?? a.startTime) - a.startTime,
+          questionResults,
+        });
+      } else if (testData && a.answers) {
+        const { score: computedScore, questionResults } = scoreTest(testData.questions, a.answers);
+        setResult({
+          score: computedScore,
+          correctCount: questionResults.filter((r) => r.isCorrect).length,
+          totalQuestions: testData.questions.length,
+          timeTakenMs: (a.endTime ?? Date.now()) - a.startTime,
+          questionResults,
+        });
+      }
+      setLoading(false);
+    });
+  }, [attemptId]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center p-4">
+        <p className="text-zinc-500">Loading results…</p>
+      </div>
+    );
+  }
+
+  if (!attempt || !test) {
+    return (
+      <div className="min-h-screen flex items-center justify-center p-4">
+        <div className="text-center">
+          <p className="text-zinc-500 mb-4">Results not found.</p>
+          <Link href="/">
+            <Button>Back to Dashboard</Button>
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  const questionById = new Map(test.questions.map((q) => [q.id, q]));
+
+  return (
+    <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 p-4 md:p-6">
+      <div className="max-w-2xl mx-auto">
+        <Link
+          href="/"
+          className="inline-block text-sm text-amber-600 dark:text-amber-400 hover:underline mb-4"
+        >
+          ← Dashboard
+        </Link>
+        <header className="mb-6">
+          <h1 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
+            Results: {test.title}
+          </h1>
+          {test.focus && (
+            <p className="text-sm text-zinc-500 dark:text-zinc-400">{test.focus}</p>
+          )}
+        </header>
+
+        {result && (
+          <>
+            <Card className="mb-6">
+              <CardHeader>
+                <CardTitle className="text-3xl">
+                  {result.score}%
+                </CardTitle>
+                <CardContent className="pt-0">
+                  <p className="text-zinc-600 dark:text-zinc-300">
+                    {result.correctCount} of {result.totalQuestions} correct
+                  </p>
+                  <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+                    Time: {formatTimeTaken(result.timeTakenMs)}
+                  </p>
+                </CardContent>
+              </CardHeader>
+            </Card>
+
+            <div className="space-y-4 mb-6">
+              <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+                Question breakdown
+              </h2>
+              {result.questionResults.map((qr, index) => {
+                const question = questionById.get(qr.questionId);
+                if (!question) return null;
+                const isExpanded = expandQuestion === qr.questionId;
+                return (
+                  <Card key={qr.questionId}>
+                    <CardHeader
+                      className="cursor-pointer py-4"
+                      onClick={() =>
+                        setExpandQuestion(isExpanded ? null : qr.questionId)
+                      }
+                    >
+                      <div className="flex items-center justify-between">
+                        <CardTitle className="text-base">
+                          Question {index + 1}
+                          <span
+                            className={
+                              qr.isCorrect
+                                ? " text-green-600 dark:text-green-400"
+                                : " text-red-600 dark:text-red-400"
+                            }
+                          >
+                            {" "}
+                            ({qr.isCorrect ? "Correct" : "Incorrect"})
+                          </span>
+                        </CardTitle>
+                        <span className="text-sm text-zinc-500">
+                          {isExpanded ? "▼" : "▶"}
+                        </span>
+                      </div>
+                    </CardHeader>
+                    {isExpanded && (
+                      <CardContent className="pt-0 border-t border-zinc-200 dark:border-zinc-700">
+                        <div className="pt-4 space-y-3">
+                          <QuestionRenderer
+                            question={question}
+                            value={qr.userAnswer}
+                            onChange={() => {}}
+                            disabled
+                            showResult
+                            correctAnswerId={qr.correctAnswer}
+                          />
+                          {qr.explanation && (
+                            <p className="text-sm text-zinc-600 dark:text-zinc-300 bg-zinc-100 dark:bg-zinc-800 p-3 rounded-lg">
+                              {qr.explanation}
+                            </p>
+                          )}
+                        </div>
+                      </CardContent>
+                    )}
+                  </Card>
+                );
+              })}
+            </div>
+          </>
+        )}
+
+        <div className="flex gap-3">
+          <Link href="/">
+            <Button variant="outline">Back to Dashboard</Button>
+          </Link>
+          <Link href={`/test/${test.id}`}>
+            <Button>Retake test</Button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}

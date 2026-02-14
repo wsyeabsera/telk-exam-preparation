@@ -1,0 +1,146 @@
+{
+  "id": "mock-exam-02-reading",
+  "title": "Mock Exam 02: Reading",
+  "description": "Reading comprehension with article, email, and notice",
+  "duration": 65,
+  "category": "mock-exam",
+  "focus": "Reading",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "**Text 1 (Artikel):** Experten empfehlen mindestens 30 Minuten Bewegung täglich. Treppen steigen, zu Fuß einkaufen oder mit dem Rad zur Arbeit reicht. Zu viel Sitzen kann zu Rückenproblemen und Übergewicht führen.\n\nWie lange sollte man sich täglich bewegen?",
+      "options": [
+        { "id": "a", "text": "Mindestens 15 Minuten" },
+        { "id": "b", "text": "Mindestens 30 Minuten" },
+        { "id": "c", "text": "Mindestens 60 Minuten" },
+        { "id": "d", "text": "Mindestens 2 Stunden" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„Wer sich jeden Tag mindestens 30 Minuten bewegt“.",
+      "tags": ["reading", "article"]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "**Text 1 (Artikel):** Nenne zwei Beispiele für Bewegung im Alltag aus dem Text.",
+      "options": [
+        { "id": "a", "text": "Schwimmen und Laufen" },
+        { "id": "b", "text": "Treppen steigen und zu Fuß einkaufen" },
+        { "id": "c", "text": "Fitnessstudio und Yoga" },
+        { "id": "d", "text": "Auto fahren und Fernsehen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„Treppen steigen, zu Fuß einkaufen oder mit dem Rad zur Arbeit fahren“.",
+      "tags": ["reading", "article"]
+    },
+    {
+      "id": "q3a",
+      "type": "true-false",
+      "text": "**Text 1 (Artikel):** Man muss im Verein Sport machen.",
+      "correctAnswer": false,
+      "explanation": "„Das muss kein Sport im Verein sein“.",
+      "tags": ["reading", "true-false"]
+    },
+    {
+      "id": "q3b",
+      "type": "true-false",
+      "text": "**Text 1 (Artikel):** Zu viel Sitzen kann Rückenprobleme verursachen.",
+      "correctAnswer": true,
+      "explanation": "„Das kann zu Rückenproblemen und Übergewicht führen.“",
+      "tags": ["reading", "true-false"]
+    },
+    {
+      "id": "q3c",
+      "type": "true-false",
+      "text": "**Text 1 (Artikel):** Ein Fitnessstudio ist nötig.",
+      "correctAnswer": false,
+      "explanation": "„So bleibt man fit ohne teures Fitnessstudio.“",
+      "tags": ["reading", "true-false"]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "**Text 2 (E-Mail):** Lisa dankt Tom für die Einladung zum Grillen am Samstag, bietet an Salat/Nachtisch oder Getränke mitzubringen, kommt um 19 Uhr.\n\nWozu hat Tom eingeladen?",
+      "options": [
+        { "id": "a", "text": "Zum Kino" },
+        { "id": "b", "text": "Zum Grillen (am Samstag)" },
+        { "id": "c", "text": "Zum Abendessen im Restaurant" },
+        { "id": "d", "text": "Zum Sport" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„danke für deine Einladung zum Grillen am Samstag“.",
+      "tags": ["reading", "email"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "text": "**Text 2 (E-Mail):** Was bietet Lisa an mitzubringen?",
+      "options": [
+        { "id": "a", "text": "Fleisch und Brot" },
+        { "id": "b", "text": "Salat oder Nachtisch; Getränke" },
+        { "id": "c", "text": "Nur Getränke" },
+        { "id": "d", "text": "Dessert und Kuchen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„Soll ich etwas mitbringen? Salat oder Nachtisch? Ich kann auch Getränke kaufen.“",
+      "tags": ["reading", "email"]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "text": "**Text 2 (E-Mail):** Wann kommt Lisa zu Tom?",
+      "options": [
+        { "id": "a", "text": "Um 18 Uhr" },
+        { "id": "b", "text": "Um 19 Uhr" },
+        { "id": "c", "text": "Um 20 Uhr" },
+        { "id": "d", "text": "Um 21 Uhr" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„bin aber pünktlich um 19 Uhr bei dir“.",
+      "tags": ["reading", "email"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "text": "**Text 3 (Hinweis):** Bibliothek vom 1.–15. März nur 10–14 Uhr geöffnet (wegen Renovierung). Ab 16. März wieder normale Zeiten. Ausleihen online verlängern möglich.\n\nWarum hat die Bibliothek geänderte Zeiten?",
+      "options": [
+        { "id": "a", "text": "Wegen Personalmangel" },
+        { "id": "b", "text": "Wegen Renovierung" },
+        { "id": "c", "text": "Wegen Feiertagen" },
+        { "id": "d", "text": "Wegen Umbau der Website" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„die Bibliothek wegen Renovierung nur von 10 bis 14 Uhr geöffnet“.",
+      "tags": ["reading", "notice"]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "**Text 3 (Hinweis):** Ab wann gelten wieder die normalen Öffnungszeiten?",
+      "options": [
+        { "id": "a", "text": "Ab 1. März" },
+        { "id": "b", "text": "Ab 15. März" },
+        { "id": "c", "text": "Ab 16. März" },
+        { "id": "d", "text": "Ab 1. April" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "„Ab 16. März gelten wieder die normalen Zeiten“.",
+      "tags": ["reading", "notice"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "text": "**Text 3 (Hinweis):** Was kann man online machen?",
+      "options": [
+        { "id": "a", "text": "Bücher bestellen" },
+        { "id": "b", "text": "Ausleihen verlängern" },
+        { "id": "c", "text": "Öffnungszeiten ändern" },
+        { "id": "d", "text": "Neue Karte beantragen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„Ausleihen können Sie wie gewohnt online verlängern.“",
+      "tags": ["reading", "notice"]
+    }
+  ]
+}

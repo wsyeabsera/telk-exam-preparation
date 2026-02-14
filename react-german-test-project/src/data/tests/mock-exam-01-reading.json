@@ -1,0 +1,139 @@
+{
+  "id": "mock-exam-01-reading",
+  "title": "Mock Exam 01: Reading",
+  "description": "Reading comprehension with blog, email, and job ad",
+  "duration": 65,
+  "category": "mock-exam",
+  "focus": "Reading",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "**Text 1 (Blog):** Sofia schreibt über ihren ersten Monat in Berlin. Sie hat einen Deutschkurs gemacht, ihre Nachbarn helfen ihr, und nächste Woche beginnt sie einen Minijob im Café. Die Stadt gefällt ihr – besonders Museen und Parks.\n\nSofia lebt seit …",
+      "options": [
+        { "id": "a", "text": "einer Woche in Berlin." },
+        { "id": "b", "text": "einem Monat in Berlin." },
+        { "id": "c", "text": "einem Jahr in Berlin." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Sie schreibt: \"bin vor einem Monat nach Berlin gezogen\".",
+      "tags": ["reading", "blog"]
+    },
+    {
+      "id": "q2a",
+      "type": "true-false",
+      "text": "**Text 1 (Blog):** Sofia findet alles noch stressig.",
+      "correctAnswer": false,
+      "explanation": "Sie sagt: \"Aber jetzt geht es mir besser\".",
+      "tags": ["reading", "true-false"]
+    },
+    {
+      "id": "q2b",
+      "type": "true-false",
+      "text": "**Text 1 (Blog):** Sie hat einen Deutschkurs gemacht.",
+      "correctAnswer": true,
+      "explanation": "„Ich habe einen Deutschkurs gemacht“.",
+      "tags": ["reading", "true-false"]
+    },
+    {
+      "id": "q2c",
+      "type": "true-false",
+      "text": "**Text 1 (Blog):** Sie arbeitet schon im Café.",
+      "correctAnswer": false,
+      "explanation": "„Nächste Woche beginne ich einen Minijob“ – sie hat noch nicht angefangen.",
+      "tags": ["reading", "true-false"]
+    },
+    {
+      "id": "q2d",
+      "type": "true-false",
+      "text": "**Text 1 (Blog):** Sie mag die Museen und Parks.",
+      "correctAnswer": true,
+      "explanation": "„Die Stadt gefällt mir – besonders die Museen und die Parks.“",
+      "tags": ["reading", "true-false"]
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "text": "**Text 2 (E-Mail):** Kundendienst an Frau Müller – Bestellung bestätigt, Lieferung in 3–5 Werktagen, E-Mail mit Sendungsverfolgung nach Versand.\n\nWann wurde die Bestellung aufgegeben?",
+      "options": [
+        { "id": "a", "text": "11.02.2025" },
+        { "id": "b", "text": "12.02.2025" },
+        { "id": "c", "text": "13.02.2025" },
+        { "id": "d", "text": "14.02.2025" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„vielen Dank für Ihre Bestellung vom 12.02.2025“.",
+      "tags": ["reading", "email"]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "**Text 2 (E-Mail):** Wie lange dauert die Lieferung normalerweise?",
+      "options": [
+        { "id": "a", "text": "1–2 Werktage" },
+        { "id": "b", "text": "3–5 Werktage" },
+        { "id": "c", "text": "5–7 Werktage" },
+        { "id": "d", "text": "7–10 Werktage" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„Die Lieferung erfolgt in der Regel innerhalb von 3–5 Werktagen.“",
+      "tags": ["reading", "email"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "text": "**Text 2 (E-Mail):** Was bekommt Frau Müller, wenn das Paket versandt wurde?",
+      "options": [
+        { "id": "a", "text": "Einen Anruf" },
+        { "id": "b", "text": "Eine E-Mail mit der Sendungsverfolgung" },
+        { "id": "c", "text": "Eine Rechnung" },
+        { "id": "d", "text": "Eine Bestätigung per Post" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„Sie erhalten eine E-Mail mit der Sendungsverfolgung, sobald das Paket versandt wurde.“",
+      "tags": ["reading", "email"]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "text": "**Text 3 (Anzeige):** Online-Zeitung sucht Praktikant/in ab März, 3 Monate, Deutsch und Englisch, Bewerbung bis 28.02. an praktikum@zeitung.de.\n\nFür wen ist die Stelle?",
+      "options": [
+        { "id": "a", "text": "Feste Mitarbeiter/innen" },
+        { "id": "b", "text": "Praktikant/in" },
+        { "id": "c", "text": "Aushilfen" },
+        { "id": "d", "text": "Freelancer" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„suchen ab März eine/n Praktikant/in“.",
+      "tags": ["reading", "anzeige"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "text": "**Text 3 (Anzeige):** Wie lange dauert das Praktikum?",
+      "options": [
+        { "id": "a", "text": "1 Monat" },
+        { "id": "b", "text": "2 Monate" },
+        { "id": "c", "text": "3 Monate" },
+        { "id": "d", "text": "6 Monate" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "„Praktikant/in für 3 Monate“.",
+      "tags": ["reading", "anzeige"]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "**Text 3 (Anzeige):** Bis wann muss man sich bewerben?",
+      "options": [
+        { "id": "a", "text": "Bis 15.02." },
+        { "id": "b", "text": "Bis 28.02." },
+        { "id": "c", "text": "Bis 01.03." },
+        { "id": "d", "text": "Bis 15.03." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "„Bewerbung … bis 28.02.“",
+      "tags": ["reading", "anzeige"]
+    }
+  ]
+}

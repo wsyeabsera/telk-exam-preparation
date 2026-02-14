@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "id": "mini-test-01-dativ",
+      "title": "Mini Test 01: Dativ Focus",
+      "description": "Practice Dativ articles, pronouns, and prepositions",
+      "duration": 25,
+      "questionCount": 30,
+      "category": "mini-test",
+      "focus": "Dativ"
+    },
+    {
+      "id": "mini-test-02-adjectives",
+      "title": "Mini Test 02: Adjective Endings",
+      "description": "Practice adjective endings in Nominativ, Akkusativ, and Dativ",
+      "duration": 25,
+      "questionCount": 30,
+      "category": "mini-test",
+      "focus": "Adjective Endings"
+    },
+    {
+      "id": "mock-exam-01-reading",
+      "title": "Mock Exam 01: Reading",
+      "description": "Reading comprehension with blog, email, and job ad",
+      "duration": 65,
+      "questionCount": 11,
+      "category": "mock-exam",
+      "focus": "Reading"
+    },
+    {
+      "id": "mock-exam-02-reading",
+      "title": "Mock Exam 02: Reading",
+      "description": "Reading comprehension with article, email, and notice",
+      "duration": 65,
+      "questionCount": 9,
+      "category": "mock-exam",
+      "focus": "Reading"
+    }
+  ]
+}
