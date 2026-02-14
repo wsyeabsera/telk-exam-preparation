@@ -210,11 +210,18 @@ export function getQuestionsPerAttempt(testId: string): number | null {
   return entry?.questionsPerAttempt ?? null;
 }
 
-/** Randomly select up to `count` questions from a test. Used for subset-based attempts. */
+/** Randomly select up to `count` unique questions from a test. Deduplicates by question text so cloned questions are not repeated. */
 export function getTestWithRandomSubset(testId: string, count: number): Question[] {
   const test = getTest(testId);
   if (!test) return [];
-  const shuffled = [...test.questions].sort(() => Math.random() - 0.5);
+  const seenText = new Set<string>();
+  const unique: Question[] = [];
+  for (const q of test.questions) {
+    if (seenText.has(q.text)) continue;
+    seenText.add(q.text);
+    unique.push(q);
+  }
+  const shuffled = [...unique].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, Math.min(count, shuffled.length));
 }
 
