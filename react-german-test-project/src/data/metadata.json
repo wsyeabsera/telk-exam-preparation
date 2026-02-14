@@ -73,6 +73,276 @@
       "focus": "Reading"
     },
     {
+      "id": "mini-test-06-perfekt",
+      "title": "Mini Test 06: Perfekt",
+      "description": "Practice Perfekt (past tense) with haben and sein",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Verbs"
+    },
+    {
+      "id": "mini-test-07-praeteritum",
+      "title": "Mini Test 07: Präteritum",
+      "description": "Practice Präteritum (simple past) with sein, haben, werden, and modal verbs",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Verbs"
+    },
+    {
+      "id": "mini-test-08-modal-verbs",
+      "title": "Mini Test 08: Modal Verbs",
+      "description": "Practice modal verbs (können, müssen, wollen, dürfen, sollen, mögen)",
+      "duration": 20,
+      "questionCount": 15,
+      "category": "mini-test",
+      "focus": "Verbs"
+    },
+    {
+      "id": "mini-test-09-separable-verbs",
+      "title": "Mini Test 09: Separable Verbs",
+      "description": "Practice separable verbs (prefix position in different tenses)",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Verbs"
+    },
+    {
+      "id": "mini-test-10-verb-forms-mixed",
+      "title": "Mini Test 10: Verb Forms Mixed",
+      "description": "Practice mixed tenses (Present, Perfekt, Präteritum) and irregular verbs",
+      "duration": 20,
+      "questionCount": 15,
+      "category": "mini-test",
+      "focus": "Verbs"
+    },
+    {
+      "id": "mini-test-11-verbs-quick",
+      "title": "Mini Test 11: Verbs Quick Practice",
+      "description": "Quick review of all verb topics (tenses, modal verbs, separable verbs)",
+      "duration": 10,
+      "questionCount": 8,
+      "category": "mini-test",
+      "focus": "Verbs"
+    },
+    {
+      "id": "mini-test-12-weil-dass",
+      "title": "Mini Test 12: weil & dass",
+      "description": "Practice subordinating conjunctions weil (because) and dass (that)",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Conjunctions"
+    },
+    {
+      "id": "mini-test-13-wenn-als",
+      "title": "Mini Test 13: wenn & als",
+      "description": "Practice temporal conjunctions wenn (when/if, repeated/future) and als (when, one-time past)",
+      "duration": 12,
+      "questionCount": 10,
+      "category": "mini-test",
+      "focus": "Conjunctions"
+    },
+    {
+      "id": "mini-test-14-contrast-consequence",
+      "title": "Mini Test 14: obwohl, trotzdem, deshalb",
+      "description": "Practice conjunctions for contrast (obwohl, trotzdem) and consequence (deshalb)",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Conjunctions"
+    },
+    {
+      "id": "mini-test-15-conjunctions-mixed",
+      "title": "Mini Test 15: Conjunctions Mixed",
+      "description": "Comprehensive review of all conjunction types (weil, dass, wenn, als, obwohl, trotzdem, deshalb)",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Conjunctions"
+    },
+    {
+      "id": "mini-test-16-reflexive-pronouns",
+      "title": "Mini Test 16: Reflexive Verbs",
+      "description": "Practice reflexive verbs and pronouns (sich waschen, sich freuen, sich erinnern)",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Pronouns"
+    },
+    {
+      "id": "mini-test-17-relative-pronouns",
+      "title": "Mini Test 17: Relative Pronouns",
+      "description": "Practice relative pronouns (der, die, das) and relative clauses",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Pronouns"
+    },
+    {
+      "id": "mini-test-18-pronouns-mixed",
+      "title": "Mini Test 18: Pronouns Mixed",
+      "description": "Comprehensive review of all pronoun types (personal, possessive, reflexive, relative)",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Pronouns"
+    },
+    {
+      "id": "mini-test-19-comparatives",
+      "title": "Mini Test 19: Comparatives",
+      "description": "Practice comparative forms (größer, schneller, besser) with als and wie",
+      "duration": 12,
+      "questionCount": 10,
+      "category": "mini-test",
+      "focus": "Comparatives"
+    },
+    {
+      "id": "mini-test-20-superlatives",
+      "title": "Mini Test 20: Superlatives",
+      "description": "Practice superlative forms (am größten, der beste) - attributive and predicate",
+      "duration": 12,
+      "questionCount": 10,
+      "category": "mini-test",
+      "focus": "Comparatives"
+    },
+    {
+      "id": "mini-test-21-passive-voice",
+      "title": "Mini Test 21: Passive Voice",
+      "description": "Practice passive voice (werden + past participle) in present and past",
+      "duration": 12,
+      "questionCount": 10,
+      "category": "mini-test",
+      "focus": "Passive"
+    },
+    {
+      "id": "mini-test-22-passive-modal",
+      "title": "Mini Test 22: Passive with Modal Verbs",
+      "description": "Practice passive voice with modal verbs (muss/kann/soll + past participle + werden)",
+      "duration": 12,
+      "questionCount": 10,
+      "category": "mini-test",
+      "focus": "Passive"
+    },
+    {
+      "id": "mini-test-23-konjunktiv-wuerde",
+      "title": "Mini Test 23: Konjunktiv II - würde",
+      "description": "Practice Konjunktiv II with würde + infinitive (polite requests, hypothetical situations)",
+      "duration": 12,
+      "questionCount": 10,
+      "category": "mini-test",
+      "focus": "Konjunktiv II"
+    },
+    {
+      "id": "mini-test-24-konjunktiv-irregular",
+      "title": "Mini Test 24: Konjunktiv II - hätte, wäre, könnte",
+      "description": "Practice irregular Konjunktiv II forms (hätte, wäre, könnte, müsste, sollte)",
+      "duration": 12,
+      "questionCount": 10,
+      "category": "mini-test",
+      "focus": "Konjunktiv II"
+    },
+    {
+      "id": "mock-exam-04-email-job",
+      "title": "Mock Exam 04: Email - Job Application",
+      "description": "Reading comprehension with formal job application response email",
+      "duration": 20,
+      "questionCount": 10,
+      "category": "mock-exam",
+      "focus": "Reading"
+    },
+    {
+      "id": "mock-exam-05-email-apartment",
+      "title": "Mock Exam 05: Email - Apartment",
+      "description": "Reading comprehension with apartment inquiry email",
+      "duration": 20,
+      "questionCount": 10,
+      "category": "mock-exam",
+      "focus": "Reading"
+    },
+    {
+      "id": "mock-exam-06-article-learning",
+      "title": "Mock Exam 06: Article - Learning German",
+      "description": "Reading comprehension with article about German learning tips",
+      "duration": 20,
+      "questionCount": 10,
+      "category": "mock-exam",
+      "focus": "Reading"
+    },
+    {
+      "id": "mock-exam-07-article-health",
+      "title": "Mock Exam 07: Article - Healthy Lifestyle",
+      "description": "Reading comprehension with article about healthy living",
+      "duration": 20,
+      "questionCount": 10,
+      "category": "mock-exam",
+      "focus": "Reading"
+    },
+    {
+      "id": "mock-exam-08-notice-library",
+      "title": "Mock Exam 08: Notice - Library",
+      "description": "Reading comprehension with public notice about library closure",
+      "duration": 15,
+      "questionCount": 10,
+      "category": "mock-exam",
+      "focus": "Reading"
+    },
+    {
+      "id": "mock-exam-09-ad-language",
+      "title": "Mock Exam 09: Advertisement - Language Course",
+      "description": "Reading comprehension with language school advertisement",
+      "duration": 15,
+      "questionCount": 10,
+      "category": "mock-exam",
+      "focus": "Reading"
+    },
+    {
+      "id": "quick-test-01-dativ-akkusativ",
+      "title": "Quick Test 01: Dativ vs Akkusativ",
+      "description": "Quick practice for distinguishing Dativ and Akkusativ cases",
+      "duration": 8,
+      "questionCount": 8,
+      "category": "quick-test",
+      "focus": "Cases"
+    },
+    {
+      "id": "quick-test-02-adjective-endings",
+      "title": "Quick Test 02: Adjective Endings",
+      "description": "Quick practice for adjective declension (der/ein/no article)",
+      "duration": 8,
+      "questionCount": 8,
+      "category": "quick-test",
+      "focus": "Adjectives"
+    },
+    {
+      "id": "quick-test-03-word-order",
+      "title": "Quick Test 03: Word Order",
+      "description": "Quick practice for German word order (main clauses, questions, subordinate clauses)",
+      "duration": 8,
+      "questionCount": 8,
+      "category": "quick-test",
+      "focus": "Word Order"
+    },
+    {
+      "id": "quick-test-04-prepositions-location",
+      "title": "Quick Test 04: Prepositions (Location)",
+      "description": "Quick practice for two-way prepositions (Wechselpräpositionen) with location vs. motion",
+      "duration": 8,
+      "questionCount": 8,
+      "category": "quick-test",
+      "focus": "Prepositions"
+    },
+    {
+      "id": "quick-test-05-common-mistakes",
+      "title": "Quick Test 05: Common Mistakes",
+      "description": "Quick practice for common German learner mistakes (false friends, confusing words)",
+      "duration": 8,
+      "questionCount": 8,
+      "category": "quick-test",
+      "focus": "Vocabulary"
+    },
+    {
       "id": "writing-practice-01",
       "title": "Writing Practice 01",
       "description": "Short B1-style writing prompts with model answers",

@@ -6,9 +6,39 @@ import miniTest02 from "@/data/tests/mini-test-02-adjectives.json";
 import miniTest03 from "@/data/tests/mini-test-03-fill-blank.json";
 import miniTest04 from "@/data/tests/mini-test-04-akkusativ.json";
 import miniTest05 from "@/data/tests/mini-test-05-praepositionen.json";
+import miniTest06 from "@/data/tests/mini-test-06-perfekt.json";
+import miniTest07 from "@/data/tests/mini-test-07-praeteritum.json";
+import miniTest08 from "@/data/tests/mini-test-08-modal-verbs.json";
+import miniTest09 from "@/data/tests/mini-test-09-separable-verbs.json";
+import miniTest10 from "@/data/tests/mini-test-10-verb-forms-mixed.json";
+import miniTest11 from "@/data/tests/mini-test-11-verbs-quick.json";
+import miniTest12 from "@/data/tests/mini-test-12-weil-dass.json";
+import miniTest13 from "@/data/tests/mini-test-13-wenn-als.json";
+import miniTest14 from "@/data/tests/mini-test-14-contrast-consequence.json";
+import miniTest15 from "@/data/tests/mini-test-15-conjunctions-mixed.json";
+import miniTest16 from "@/data/tests/mini-test-16-reflexive-pronouns.json";
+import miniTest17 from "@/data/tests/mini-test-17-relative-pronouns.json";
+import miniTest18 from "@/data/tests/mini-test-18-pronouns-mixed.json";
+import miniTest19 from "@/data/tests/mini-test-19-comparatives.json";
+import miniTest20 from "@/data/tests/mini-test-20-superlatives.json";
+import miniTest21 from "@/data/tests/mini-test-21-passive-voice.json";
+import miniTest22 from "@/data/tests/mini-test-22-passive-modal.json";
+import miniTest23 from "@/data/tests/mini-test-23-konjunktiv-wuerde.json";
+import miniTest24 from "@/data/tests/mini-test-24-konjunktiv-irregular.json";
 import mockExam01 from "@/data/tests/mock-exam-01-reading.json";
 import mockExam02 from "@/data/tests/mock-exam-02-reading.json";
 import mockExam03 from "@/data/tests/mock-exam-03-reading.json";
+import mockExam04 from "@/data/tests/mock-exam-04-email-job.json";
+import mockExam05 from "@/data/tests/mock-exam-05-email-apartment.json";
+import mockExam06 from "@/data/tests/mock-exam-06-article-learning.json";
+import mockExam07 from "@/data/tests/mock-exam-07-article-health.json";
+import mockExam08 from "@/data/tests/mock-exam-08-notice-library.json";
+import mockExam09 from "@/data/tests/mock-exam-09-ad-language.json";
+import quickTest01 from "@/data/tests/quick-test-01-dativ-akkusativ.json";
+import quickTest02 from "@/data/tests/quick-test-02-adjective-endings.json";
+import quickTest03 from "@/data/tests/quick-test-03-word-order.json";
+import quickTest04 from "@/data/tests/quick-test-04-prepositions-location.json";
+import quickTest05 from "@/data/tests/quick-test-05-common-mistakes.json";
 import writingPractice01 from "@/data/tests/writing-practice-01.json";
 
 const testMap: Record<string, Test> = {
@@ -17,9 +47,39 @@ const testMap: Record<string, Test> = {
   "mini-test-03-fill-blank": miniTest03 as Test,
   "mini-test-04-akkusativ": miniTest04 as Test,
   "mini-test-05-praepositionen": miniTest05 as Test,
+  "mini-test-06-perfekt": miniTest06 as Test,
+  "mini-test-07-praeteritum": miniTest07 as Test,
+  "mini-test-08-modal-verbs": miniTest08 as Test,
+  "mini-test-09-separable-verbs": miniTest09 as Test,
+  "mini-test-10-verb-forms-mixed": miniTest10 as Test,
+  "mini-test-11-verbs-quick": miniTest11 as Test,
+  "mini-test-12-weil-dass": miniTest12 as Test,
+  "mini-test-13-wenn-als": miniTest13 as Test,
+  "mini-test-14-contrast-consequence": miniTest14 as Test,
+  "mini-test-15-conjunctions-mixed": miniTest15 as Test,
+  "mini-test-16-reflexive-pronouns": miniTest16 as Test,
+  "mini-test-17-relative-pronouns": miniTest17 as Test,
+  "mini-test-18-pronouns-mixed": miniTest18 as Test,
+  "mini-test-19-comparatives": miniTest19 as Test,
+  "mini-test-20-superlatives": miniTest20 as Test,
+  "mini-test-21-passive-voice": miniTest21 as Test,
+  "mini-test-22-passive-modal": miniTest22 as Test,
+  "mini-test-23-konjunktiv-wuerde": miniTest23 as Test,
+  "mini-test-24-konjunktiv-irregular": miniTest24 as Test,
   "mock-exam-01-reading": mockExam01 as Test,
   "mock-exam-02-reading": mockExam02 as Test,
   "mock-exam-03-reading": mockExam03 as Test,
+  "mock-exam-04-email-job": mockExam04 as Test,
+  "mock-exam-05-email-apartment": mockExam05 as Test,
+  "mock-exam-06-article-learning": mockExam06 as Test,
+  "mock-exam-07-article-health": mockExam07 as Test,
+  "mock-exam-08-notice-library": mockExam08 as Test,
+  "mock-exam-09-ad-language": mockExam09 as Test,
+  "quick-test-01-dativ-akkusativ": quickTest01 as Test,
+  "quick-test-02-adjective-endings": quickTest02 as Test,
+  "quick-test-03-word-order": quickTest03 as Test,
+  "quick-test-04-prepositions-location": quickTest04 as Test,
+  "quick-test-05-common-mistakes": quickTest05 as Test,
   "writing-practice-01": writingPractice01 as Test,
 };
 
@@ -118,7 +178,23 @@ export function getSuperShortQuestions(variant: QuickPracticeVariant): Question[
   } else if (variant === "reading") {
     pool = getQuestions((f) => f === "Reading");
   } else if (variant === "grammar") {
-    pool = getQuestions((f) => f === "Dativ" || f === "Adjective Endings" || f === "Akkusativ" || f === "Präpositionen");
+    pool = getQuestions((f) => 
+      f === "Dativ" || 
+      f === "Adjective Endings" || 
+      f === "Akkusativ" || 
+      f === "Präpositionen" || 
+      f === "Verbs" || 
+      f === "Conjunctions" || 
+      f === "Pronouns" || 
+      f === "Comparatives" || 
+      f === "Passive" || 
+      f === "Konjunktiv II" || 
+      f === "Cases" || 
+      f === "Adjectives" || 
+      f === "Word Order" || 
+      f === "Prepositions" || 
+      f === "Vocabulary"
+    );
   } else if (variant === "writing") {
     pool = getQuestions((f) => f === "Writing");
   } else {
