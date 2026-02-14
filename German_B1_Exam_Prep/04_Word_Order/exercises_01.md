@@ -1,6 +1,9 @@
 # Word Order – Exercises 01
 
-**Instructions / Anweisungen:** Correct the word order or choose the correct sentence. Focus on subordinate clauses and inversion (verb first in main clause after comma). Answers at the bottom.
+**Setzen Sie das Wort in der richtigen Form ein. Das Wort in Klammern steht im Nominativ.**  
+*(Here: Choose the correct sentence A or B. Focus on subordinate clauses and inversion.)*
+
+Answers at the bottom.
 
 ---
 

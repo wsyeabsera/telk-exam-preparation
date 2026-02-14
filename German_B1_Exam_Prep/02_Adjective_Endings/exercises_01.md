@@ -1,36 +1,38 @@
 # Adjective Endings – Exercises 01
 
-**Instructions / Anweisungen:** Choose the correct adjective ending. Consider case (Nom/Akk/Dat) and gender. Answers at the bottom.
+**Setzen Sie das Wort in der richtigen Form ein. Das Wort in Klammern steht im Nominativ.**
+
+Fill in the correct form. The word in brackets is in the nominative. Answers at the bottom.
 
 ---
 
 ## Part 1: Regular Questions (1–15)
 
-- [ ] 1. Ich helfe der ___ (nett-) Kollegin.
-- [ ] 2. Er hat einen ___ (neu-) Job gefunden.
-- [ ] 3. Das ist ein ___ (gut-) Buch.
-- [ ] 4. Sie spricht mit dem ___ (alt-) Professor.
-- [ ] 5. Wir danken ___ (unser) ___ (lieb-) Eltern.
-- [ ] 6. Ich wohne in einer ___ (groß-) Stadt.
-- [ ] 7. Den ___ (klein-) Kindern gefällt das Spiel.
-- [ ] 8. Sie kauft eine ___ (neu-) Jacke.
-- [ ] 9. Bei der ___ (schwierig-) Aufgabe brauche ich Hilfe.
-- [ ] 10. Das ist der ___ (gut-) Freund von meiner Schwester.
-- [ ] 11. Er kommt von einer ___ (lang-) Reise.
-- [ ] 12. Mit ___ (mein) ___ (alt-) Freund habe ich gesprochen.
-- [ ] 13. Die ___ (jung-) Frau arbeitet hier.
-- [ ] 14. Ich esse einen ___ (lecker-) Kuchen.
-- [ ] 15. Nach dem ___ (gut-) Essen gehen wir spazieren.
+- [ ] 1. Ich helfe der ___ Kollegin. (die nette Kollegin)
+- [ ] 2. Er hat einen ___ Job gefunden. (ein neuer Job)
+- [ ] 3. Das ist ein ___ Buch. (ein gutes Buch)
+- [ ] 4. Sie spricht mit dem ___ Professor. (der alte Professor)
+- [ ] 5. Wir danken ___ Eltern. (unsere lieben Eltern)
+- [ ] 6. Ich wohne in einer ___ Stadt. (eine große Stadt)
+- [ ] 7. Den ___ Kindern gefällt das Spiel. (die kleinen Kinder)
+- [ ] 8. Sie kauft eine ___ Jacke. (eine neue Jacke)
+- [ ] 9. Bei der ___ Aufgabe brauche ich Hilfe. (die schwierige Aufgabe)
+- [ ] 10. Das ist der ___ Freund von meiner Schwester. (der gute Freund)
+- [ ] 11. Er kommt von einer ___ Reise. (eine lange Reise)
+- [ ] 12. Mit ___ Freund habe ich gesprochen. (mein alter Freund)
+- [ ] 13. Die ___ Frau arbeitet hier. (die junge Frau)
+- [ ] 14. Ich esse einen ___ Kuchen. (ein leckerer Kuchen)
+- [ ] 15. Nach dem ___ Essen gehen wir spazieren. (das gute Essen)
 
 ---
 
 ## Part 2: Tricky Questions (16–20)
 
-- [ ] 16. Sie gibt der ___ (nett-) Kollegin das Buch. (Dativ feminine)
-- [ ] 17. Er wohnt bei ___ (sein) ___ (alt-) Tante. (Dativ feminine)
-- [ ] 18. Mit ___ (kein) ___ (gut-) Vorbereitung schafft man die Prüfung nicht.
-- [ ] 19. Das ___ (neu-) Auto gehört meinem Bruder. (Nominativ neuter)
-- [ ] 20. Wir danken den ___ (freundlich-) Mitarbeitern. (Dativ plural)
+- [ ] 16. Sie gibt der ___ Kollegin das Buch. (die nette Kollegin, Dativ feminine)
+- [ ] 17. Er wohnt bei ___ Tante. (seine alte Tante, Dativ feminine)
+- [ ] 18. Mit ___ Vorbereitung schafft man die Prüfung nicht. (keine gute Vorbereitung)
+- [ ] 19. Das ___ Auto gehört meinem Bruder. (das neue Auto, Nominativ neuter)
+- [ ] 20. Wir danken den ___ Mitarbeitern. (die freundlichen Mitarbeiter, Dativ plural)
 
 ---
 

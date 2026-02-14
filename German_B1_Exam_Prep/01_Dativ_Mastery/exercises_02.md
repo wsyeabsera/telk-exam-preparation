@@ -1,36 +1,38 @@
 # Dativ Mastery – Exercises 02
 
-**Instructions / Anweisungen:** Fill in the correct Dativ form. Focus on feminine, plural, and adjective endings. Answers are at the bottom.
+**Setzen Sie das Wort in der richtigen Form ein. Das Wort in Klammern steht im Nominativ.**
+
+Fill in the correct form. The word in brackets is in the nominative. Answers at the bottom.
 
 ---
 
 ## Part 1: Regular Questions (1–15)
 
-- [ ] 1. Sie arbeitet bei ___ (der) Firma.
+- [ ] 1. Sie arbeitet bei ___ (die Firma).
 - [ ] 2. Ich warte auf ___ (du).
-- [ ] 3. Er schenkt ___ (die) Frau Blumen.
-- [ ] 4. Wir danken ___ (die) Lehrer für die Hilfe.
+- [ ] 3. Er schenkt ___ (die Frau) Blumen.
+- [ ] 4. Wir danken ___ (die Lehrer) für die Hilfe.
 - [ ] 5. Das Handy gehört ___ (ich).
-- [ ] 6. Seit ___ (ein) Woche bin ich krank.
-- [ ] 7. Sie kommt aus ___ (die) Türkei.
-- [ ] 8. Ich gehe zu ___ (der) Arzt. (zu + dem = zum)
+- [ ] 6. Seit ___ (eine Woche) bin ich krank.
+- [ ] 7. Sie kommt aus ___ (die Türkei).
+- [ ] 8. Ich gehe zu ___ (der Arzt). (zu + dem = zum)
 - [ ] 9. Er erzählt ___ (wir) eine Geschichte.
-- [ ] 10. Mit ___ (dein) Bruder habe ich gesprochen.
-- [ ] 11. Sie hilft ___ (die) alt- Professorin.
-- [ ] 12. Nach ___ (die) Arbeit fahre ich nach Hause.
+- [ ] 10. Mit ___ (dein Bruder) habe ich gesprochen.
+- [ ] 11. Sie hilft ___ (die alte Professorin).
+- [ ] 12. Nach ___ (die Arbeit) fahre ich nach Hause.
 - [ ] 13. Das gefällt ___ (sie, plural).
-- [ ] 14. Von ___ (die) Reise bin ich müde.
-- [ ] 15. Bei ___ (ein) gut- Freund wohne ich.
+- [ ] 14. Von ___ (die Reise) bin ich müde.
+- [ ] 15. Bei ___ (ein guter Freund) wohne ich.
 
 ---
 
 ## Part 2: Tricky Questions (16–20)
 
-- [ ] 16. In ___ (die) neu- Wohnung gibt es viel Licht. (location)
-- [ ] 17. Ich habe ___ (die) nett- Kollegin geholfen.
-- [ ] 18. Mit ___ (kein) Geld kann man nicht reisen.
-- [ ] 19. Sie spricht mit ___ (die) jung- Studenten. (plural)
-- [ ] 20. Von ___ (eine) lang- Fahrt war er erschöpft.
+- [ ] 16. In ___ (die neue Wohnung) gibt es viel Licht. (location)
+- [ ] 17. Ich habe ___ (die nette Kollegin) geholfen.
+- [ ] 18. Mit ___ (kein Geld) kann man nicht reisen.
+- [ ] 19. Sie spricht mit ___ (die jungen Studenten). (plural)
+- [ ] 20. Von ___ (eine lange Fahrt) war er erschöpft.
 
 ---
 

@@ -1,35 +1,37 @@
 # Grammar Essentials – Mixed Exercises 01
 
-**Instructions / Anweisungen:** Mix of case, verb conjugation, adjective endings, word order, and capitalization. Answers at the bottom.
+**Setzen Sie das Wort in der richtigen Form ein. Das Wort in Klammern steht im Nominativ.**
+
+Fill in the correct form. The word in brackets is in the nominative (or the form requested). Answers at the bottom.
 
 ---
 
 ## Part 1: Regular Questions (1–15)
 
 - [ ] 1. Er ___ (suchen) seine Brille. (Present: er form)
-- [ ] 2. Im ___ (s)ommer fahren wir in den Urlaub. (capitalization)
-- [ ] 3. Ich helfe ___ (die) nett- Kollegin. (Dativ feminine)
-- [ ] 4. Sie freut sich ___ (auf, das) Wochenende. (correct preposition + case)
+- [ ] 2. Im ___ (der Sommer) fahren wir in den Urlaub. (capitalization)
+- [ ] 3. Ich helfe ___ (die nette Kollegin). (Dativ feminine)
+- [ ] 4. Sie freut sich ___ (das Wochenende). (correct preposition + case: auf + Akk)
 - [ ] 5. Wenn ich Zeit ___ (haben), ___ (besuchen) ich dich. (verb in subordinate clause + inversion)
-- [ ] 6. Er hat einen ___ (neu-) Job. (Akkusativ masculine adjective)
-- [ ] 7. Mit ___ (mein) Eltern fahre ich. (Dativ plural possessive)
-- [ ] 8. Das Buch liegt auf ___ (der) Tisch. (wo? = location)
-- [ ] 9. Können ___ (S/s)ie mir helfen? (formal you: capital?)
-- [ ] 10. Sie wohnt in ___ (eine) groß- Stadt. (in + location)
-- [ ] 11. Ich danke ___ (Sie/sie) herzlich. (formal: capital?)
+- [ ] 6. Er hat einen ___ Job. (ein neuer Job, Akkusativ masculine)
+- [ ] 7. Mit ___ (meine Eltern) fahre ich. (Dativ plural possessive)
+- [ ] 8. Das Buch liegt auf ___ (der Tisch). (wo? = location)
+- [ ] 9. Können ___ (Sie) mir helfen? (formal you: capital?)
+- [ ] 10. Sie wohnt in ___ (eine große Stadt). (in + location)
+- [ ] 11. Ich danke ___ (Sie) herzlich. (formal: capital?)
 - [ ] 12. Weil er krank ___, bleibt er zu Hause. (verb at end in weil-clause)
-- [ ] 13. Ohne ___ (gut-) Vorbereitung geht es nicht. (ohne + Akk)
+- [ ] 13. Ohne ___ (eine gute Vorbereitung) geht es nicht. (ohne + Akk)
 - [ ] 14. Er gibt ___ (du) das Buch. (Dativ pronoun)
-- [ ] 15. Den ___ (klein-) Kindern gefällt das. (Dativ plural adjective)
+- [ ] 15. Den ___ Kindern gefällt das. (die kleinen Kinder, Dativ plural)
 
 ---
 
 ## Part 2: Tricky Questions (16–20)
 
 - [ ] 16. Obwohl sie keine Zeit ___, hilft ___ uns. (verb at end; subject in main clause)
-- [ ] 17. Ich erinnere mich ___ (an, die) Reise. (verb + preposition)
-- [ ] 18. Bei ___ (die) schwierig- Aufgabe brauche ich Hilfe.
-- [ ] 19. Trotz ___ (ein) ___ (schwer-) Prüfung hat sie bestanden.
+- [ ] 17. Ich erinnere mich ___ (die Reise). (verb + preposition: an + Akk)
+- [ ] 18. Bei ___ (die schwierige Aufgabe) brauche ich Hilfe.
+- [ ] 19. Trotz ___ (eine schwere Prüfung) hat sie bestanden.
 - [ ] 20. Nachdem wir ___ (essen), ___ (gehen) wir spazieren. (perfect in nachdem-clause; inversion in main)
 
 ---

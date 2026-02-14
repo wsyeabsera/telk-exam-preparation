@@ -1,6 +1,9 @@
 # Word Order – Exercises 02
 
-**Instructions / Anweisungen:** Correct the word order or fill in the correct form. Focus on subordinate clauses and *nicht* position. Answers at the bottom.
+**Setzen Sie das Wort in der richtigen Form ein. Das Wort in Klammern steht im Nominativ.**  
+*(Here: Choose the correct sentence A or B. Focus on subordinate clauses and *nicht* position.)*
+
+Answers at the bottom.
 
 ---
 

@@ -1,36 +1,38 @@
 # Prepositions – Exercises 02
 
-**Instructions / Anweisungen:** Choose the correct case (Dativ or Akkusativ) and form. Answers at the bottom.
+**Setzen Sie das Wort in der richtigen Form ein. Das Wort in Klammern steht im Nominativ.**
+
+Fill in the correct form. The word in brackets is in the nominative. Answers at the bottom.
 
 ---
 
 ## Part 1: Regular Questions (1–15)
 
-- [ ] 1. Das Buch liegt auf ___ (der) Tisch. (location)
-- [ ] 2. Sie stellt die Vase auf ___ (der) Tisch. (direction)
-- [ ] 3. Ich habe ___ (für, du) ein Geschenk.
-- [ ] 4. Er arbeitet bei ___ (die) Firma.
-- [ ] 5. Wir fahren durch ___ (der) Tunnel.
-- [ ] 6. Sie kommt von ___ (eine) Reise zurück.
+- [ ] 1. Das Buch liegt auf ___ (der Tisch). (location)
+- [ ] 2. Sie stellt die Vase auf ___ (der Tisch). (direction)
+- [ ] 3. Ich habe für ___ (du) ein Geschenk.
+- [ ] 4. Er arbeitet bei ___ (die Firma).
+- [ ] 5. Wir fahren durch ___ (der Tunnel).
+- [ ] 6. Sie kommt von ___ (eine Reise) zurück.
 - [ ] 7. Ich gratuliere ___ (du) zum Geburtstag.
 - [ ] 8. Ohne ___ (du) mache ich das nicht.
-- [ ] 9. Seit ___ (der) Montag bin ich krank.
-- [ ] 10. Der Hund sitzt unter ___ (der) Tisch. (location)
-- [ ] 11. Sie geht in ___ (die) Schule. (direction: wohin?)
-- [ ] 12. Er wohnt in ___ (die) Altstadt. (location)
+- [ ] 9. Seit ___ (der Montag) bin ich krank.
+- [ ] 10. Der Hund sitzt unter ___ (der Tisch). (location)
+- [ ] 11. Sie geht in ___ (die Schule). (direction: wohin?)
+- [ ] 12. Er wohnt in ___ (die Altstadt). (location)
 - [ ] 13. Ich helfe ___ (sie, plural).
-- [ ] 14. Wir treffen uns vor ___ (der) Kino.
+- [ ] 14. Wir treffen uns vor ___ (das Kino).
 - [ ] 15. Sie antwortet ___ (er) nicht.
 
 ---
 
 ## Part 2: Tricky Questions (16–20)
 
-- [ ] 16. Das Bild hängt an ___ (die) Wand. (location: wo?)
-- [ ] 17. Er hängt das Bild an ___ (die) Wand. (direction: wohin?)
-- [ ] 18. Ich freue mich ___ (auf, ihr) Besuch.
-- [ ] 19. Zwischen ___ (der) beiden Häusern steht ein Baum. (location)
-- [ ] 20. Sie wartet ___ (auf, die) Antwort.
+- [ ] 16. Das Bild hängt an ___ (die Wand). (location: wo?)
+- [ ] 17. Er hängt das Bild an ___ (die Wand). (direction: wohin?)
+- [ ] 18. Ich freue mich auf ___ (ihr Besuch).
+- [ ] 19. Zwischen ___ beiden Häusern steht ein Baum. (die beiden Häuser, location = Dativ plural)
+- [ ] 20. Sie wartet auf ___ (die Antwort).
 
 ---
 

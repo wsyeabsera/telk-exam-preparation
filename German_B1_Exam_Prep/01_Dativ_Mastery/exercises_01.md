@@ -1,36 +1,38 @@
 # Dativ Mastery – Exercises 01
 
-**Instructions / Anweisungen:** Fill in the correct Dativ form (article, pronoun, or article + adjective). Check the Quick Reference or lesson files if needed. Answers are at the bottom.
+**Setzen Sie das Wort in der richtigen Form ein. Das Wort in Klammern steht im Nominativ.**
+
+Fill in the correct form. The word in brackets is in the nominative. Answers are at the bottom.
 
 ---
 
 ## Part 1: Regular Questions (1–15)
 
-- [ ] 1. Ich helfe ___ (der) Mann.
-- [ ] 2. Er dankt ___ (die) Mutter.
-- [ ] 3. Sie schreibt ___ (ein) Kollegin eine E-Mail.
-- [ ] 4. Wir gratulieren ___ (die) Kinder.
+- [ ] 1. Ich helfe ___ (der Mann).
+- [ ] 2. Er dankt ___ (die Mutter).
+- [ ] 3. Sie schreibt ___ (eine Kollegin) eine E-Mail.
+- [ ] 4. Wir gratulieren ___ (die Kinder).
 - [ ] 5. Das Buch gehört ___ (du).
-- [ ] 6. Sie wohnt bei ___ (ihr) Eltern.
-- [ ] 7. Ich fahre mit ___ (der) Zug.
-- [ ] 8. Er spricht von ___ (eine) lange Reise.
-- [ ] 9. Nach ___ (das) Essen gehen wir spazieren.
+- [ ] 6. Sie wohnt bei ___ (ihre Eltern).
+- [ ] 7. Ich fahre mit ___ (der Zug).
+- [ ] 8. Er spricht von ___ (eine lange Reise).
+- [ ] 9. Nach ___ (das Essen) gehen wir spazieren.
 - [ ] 10. Kannst du ___ (ich) helfen?
 - [ ] 11. Sie antwortet ___ (er) nicht.
 - [ ] 12. Ich danke ___ (Sie) herzlich.
-- [ ] 13. Das gefällt ___ (die) Gäste.
-- [ ] 14. Wir folgen ___ (der) Lehrer.
-- [ ] 15. Von ___ (ein) Freund habe ich das gehört.
+- [ ] 13. Das gefällt ___ (die Gäste).
+- [ ] 14. Wir folgen ___ (der Lehrer).
+- [ ] 15. Von ___ (ein Freund) habe ich das gehört.
 
 ---
 
 ## Part 2: Tricky Questions (16–20)
 
-- [ ] 16. Bei ___ (die) schwierig- Aufgabe brauche ich Hilfe.
-- [ ] 17. Sie wohnt in ___ (eine) groß- Stadt. (location = wohnen)
-- [ ] 18. Mit ___ (mein) Eltern fahre ich in den Urlaub.
-- [ ] 19. Ich gebe ___ (die) nett- Kollegin das Buch.
-- [ ] 20. Er hat ___ (die) klein- Kindern geholfen.
+- [ ] 16. Bei ___ (die schwierige Aufgabe) brauche ich Hilfe.
+- [ ] 17. Sie wohnt in ___ (eine große Stadt). (location = wohnen)
+- [ ] 18. Mit ___ (meine Eltern) fahre ich in den Urlaub.
+- [ ] 19. Ich gebe ___ (die nette Kollegin) das Buch.
+- [ ] 20. Er hat ___ (die kleinen Kinder) geholfen.
 
 ---
 

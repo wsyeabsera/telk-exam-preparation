@@ -1,36 +1,38 @@
 # Prepositions – Exercises 01
 
-**Instructions / Anweisungen:** Fill in the correct form (Dativ or Akkusativ) after the preposition. Consider whether the preposition always takes one case or is two-way (wo? = Dativ, wohin? = Akkusativ). Answers at the bottom.
+**Setzen Sie das Wort in der richtigen Form ein. Das Wort in Klammern steht im Nominativ.**
+
+Fill in the correct form (Dativ or Akkusativ as required). The word in brackets is in the nominative. Answers at the bottom.
 
 ---
 
 ## Part 1: Regular Questions (1–15)
 
-- [ ] 1. Sie fährt ___ (mit, der Bus).
-- [ ] 2. Ich warte ___ (auf, du).
-- [ ] 3. Er wohnt bei ___ (sein) ___ (alt-) Mutter.
-- [ ] 4. Wir freuen uns ___ (auf, das Wochenende).
-- [ ] 5. Sie kommt aus ___ (die) Türkei.
-- [ ] 6. Nach ___ (das) Arbeit geht er nach Hause.
-- [ ] 7. Ich denke ___ (an, du) oft.
-- [ ] 8. Sie arbeitet seit ___ (ein) Jahr hier.
-- [ ] 9. Er geht zu ___ (der) Arzt. (zum)
-- [ ] 10. Ohne ___ (gut-) Vorbereitung geht es nicht.
-- [ ] 11. Das Geschenk ist für ___ (die) Kollegin.
-- [ ] 12. Sie spricht mit ___ (die) Lehrerin.
-- [ ] 13. Ich habe von ___ (ein) Freund davon gehört.
-- [ ] 14. Wir treffen uns um ___ (die) Ecke.
-- [ ] 15. Gegenüber ___ (der) Bahnhof ist ein Café.
+- [ ] 1. Sie fährt mit ___ (der Bus).
+- [ ] 2. Ich warte auf ___ (du).
+- [ ] 3. Er wohnt bei ___ (seine alte Mutter).
+- [ ] 4. Wir freuen uns auf ___ (das Wochenende).
+- [ ] 5. Sie kommt aus ___ (die Türkei).
+- [ ] 6. Nach ___ (die Arbeit) geht er nach Hause.
+- [ ] 7. Ich denke an ___ (du) oft.
+- [ ] 8. Sie arbeitet seit ___ (ein Jahr) hier.
+- [ ] 9. Er geht zu ___ (der Arzt). (zum)
+- [ ] 10. Ohne ___ Vorbereitung geht es nicht. (eine gute Vorbereitung)
+- [ ] 11. Das Geschenk ist für ___ (die Kollegin).
+- [ ] 12. Sie spricht mit ___ (die Lehrerin).
+- [ ] 13. Ich habe von ___ (ein Freund) davon gehört.
+- [ ] 14. Wir treffen uns um ___ (die Ecke).
+- [ ] 15. Gegenüber ___ (der Bahnhof) ist ein Café.
 
 ---
 
 ## Part 2: Tricky Questions (16–20)
 
-- [ ] 16. Sie wohnt in ___ (eine) groß- Stadt. (location)
-- [ ] 17. Er legt das Buch auf ___ (der) Tisch. (direction)
-- [ ] 18. Ich erinnere mich ___ (an, die) Reise.
-- [ ] 19. Mit ___ (kein) ___ (gut-) Deutsch ist die Prüfung schwer.
-- [ ] 20. Sie nimmt ___ (an, der) Kurs teil. (an + dem = am)
+- [ ] 16. Sie wohnt in ___ (eine große Stadt). (location)
+- [ ] 17. Er legt das Buch auf ___ (der Tisch). (direction)
+- [ ] 18. Ich erinnere mich an ___ (die Reise).
+- [ ] 19. Mit ___ (kein gutes Deutsch) ist die Prüfung schwer.
+- [ ] 20. Sie nimmt ___ (der Kurs) teil. (an + dem = am)
 
 ---
 

@@ -1,6 +1,9 @@
 # Vocabulary – Exercises
 
-**Instructions / Anweisungen:** Fill in the correct word from the topic lists. Use the Vocabulary files (01–06) to help. Answers at the bottom.
+**Setzen Sie das Wort in der richtigen Form ein. Das Wort in Klammern steht im Nominativ.**  
+*(Here: Fill in the correct word; the hint in brackets is the English meaning.)*
+
+Answers at the bottom.
 
 ---
 

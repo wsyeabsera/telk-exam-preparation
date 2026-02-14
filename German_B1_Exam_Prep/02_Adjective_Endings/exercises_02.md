@@ -1,36 +1,38 @@
 # Adjective Endings – Exercises 02
 
-**Instructions / Anweisungen:** Fill in the correct adjective ending. Mix of Nominativ, Akkusativ, and Dativ. Answers at the bottom.
+**Setzen Sie das Wort in der richtigen Form ein. Das Wort in Klammern steht im Nominativ.**
+
+Fill in the correct form. The word in brackets is in the nominative. Answers at the bottom.
 
 ---
 
 ## Part 1: Regular Questions (1–15)
 
-- [ ] 1. Das ist eine ___ (interessant-) Geschichte.
-- [ ] 2. Er arbeitet mit den ___ (jung-) Kollegen.
-- [ ] 3. Sie hat ein ___ (schön-) Haus.
-- [ ] 4. Ich danke ___ (mein) ___ (gut-) Freundin.
-- [ ] 5. Der ___ (neu-) Film ist super.
-- [ ] 6. Wir fahren zu ___ (unser) ___ (alt-) Nachbarin.
-- [ ] 7. Sie gibt dem ___ (klein-) Jungen ein Bonbon.
-- [ ] 8. Ohne ___ (gut-) Deutsch ist die Prüfung schwer.
-- [ ] 9. Die ___ (erst-) Aufgabe war einfach.
-- [ ] 10. Von ___ (ein) ___ (lang-) Fahrt bin ich müde.
-- [ ] 11. Er kauft den ___ (rot-) Apfel.
-- [ ] 12. Bei ___ (kein) ___ (richtig-) Antwort gibt es keine Punkte.
-- [ ] 13. Das ___ (wichtig-) Thema ist die Umwelt.
-- [ ] 14. Mit ___ (dein) ___ (neu-) Handy kannst du Fotos machen.
-- [ ] 15. Die ___ (deutsch-) Sprache ist nicht einfach.
+- [ ] 1. Das ist eine ___ Geschichte. (eine interessante Geschichte)
+- [ ] 2. Er arbeitet mit den ___ Kollegen. (die jungen Kollegen)
+- [ ] 3. Sie hat ein ___ Haus. (ein schönes Haus)
+- [ ] 4. Ich danke ___ Freundin. (meine gute Freundin)
+- [ ] 5. Der ___ Film ist super. (der neue Film)
+- [ ] 6. Wir fahren zu ___ Nachbarin. (unsere alte Nachbarin)
+- [ ] 7. Sie gibt dem ___ Jungen ein Bonbon. (der kleine Junge)
+- [ ] 8. Ohne ___ Deutsch ist die Prüfung schwer. (gutes Deutsch)
+- [ ] 9. Die ___ Aufgabe war einfach. (die erste Aufgabe)
+- [ ] 10. Von ___ Fahrt bin ich müde. (eine lange Fahrt)
+- [ ] 11. Er kauft den ___ Apfel. (der rote Apfel)
+- [ ] 12. Bei ___ Antwort gibt es keine Punkte. (keine richtige Antwort)
+- [ ] 13. Das ___ Thema ist die Umwelt. (das wichtige Thema)
+- [ ] 14. Mit ___ Handy kannst du Fotos machen. (dein neues Handy)
+- [ ] 15. Die ___ Sprache ist nicht einfach. (die deutsche Sprache)
 
 ---
 
 ## Part 2: Tricky Questions (16–20)
 
-- [ ] 16. In der ___ (neu-) Wohnung gibt es viel Platz. (location = Dativ)
-- [ ] 17. Sie hilft ___ (ein) ___ (blind-) Mann. (Dativ masculine)
-- [ ] 18. Ich habe ___ (die) ___ (gut-) Nachricht für dich. (Akkusativ feminine)
-- [ ] 19. Trotz ___ (ein) ___ (schwer-) Prüfung hat sie bestanden. (Genitiv or Dativ: trotz + Genitiv = trotz einer schweren Prüfung; in spoken B1 often Dativ: trotz einer schweren Prüfung – same form)
-- [ ] 20. Den ___ (erst-) Preis gewinnt die beste Gruppe. (Akkusativ masculine)
+- [ ] 16. In der ___ Wohnung gibt es viel Platz. (die neue Wohnung, location = Dativ)
+- [ ] 17. Sie hilft ___ Mann. (ein blinder Mann, Dativ masculine)
+- [ ] 18. Ich habe ___ Nachricht für dich. (die gute Nachricht, Akkusativ feminine)
+- [ ] 19. Trotz ___ Prüfung hat sie bestanden. (eine schwere Prüfung)
+- [ ] 20. Den ___ Preis gewinnt die beste Gruppe. (der erste Preis, Akkusativ masculine)
 
 ---
 
