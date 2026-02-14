@@ -28,6 +28,24 @@
       "focus": "Dativ"
     },
     {
+      "id": "mini-test-04-akkusativ",
+      "title": "Mini Test 04: Akkusativ",
+      "description": "Practice Akkusativ articles, pronouns, and prepositions",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Akkusativ"
+    },
+    {
+      "id": "mini-test-05-praepositionen",
+      "title": "Mini Test 05: Präpositionen",
+      "description": "Practice prepositions with Akkusativ and Dativ (Wechselpräpositionen and fixed)",
+      "duration": 15,
+      "questionCount": 12,
+      "category": "mini-test",
+      "focus": "Präpositionen"
+    },
+    {
       "id": "mock-exam-01-reading",
       "title": "Mock Exam 01: Reading",
       "description": "Reading comprehension with blog, email, and job ad",
@@ -42,6 +60,15 @@
       "description": "Reading comprehension with article, email, and notice",
       "duration": 65,
       "questionCount": 9,
+      "category": "mock-exam",
+      "focus": "Reading"
+    },
+    {
+      "id": "mock-exam-03-reading",
+      "title": "Mock Exam 03: Reading",
+      "description": "Reading comprehension with email invitation",
+      "duration": 20,
+      "questionCount": 10,
       "category": "mock-exam",
       "focus": "Reading"
     },
