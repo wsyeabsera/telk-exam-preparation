@@ -16,7 +16,7 @@
 10. **der netten** (Dativ feminine: der + netten)  
 11. **einem** (ein Freund → Dativ: einem Freund)  
 12. **ihnen** (gefallen + Dativ, sie plural → ihnen)  
-13. **einem** (von + Dativ, ein Kollege → einem Kollegen)  
+13. **einem** (von + Dativ; ein Kollege → einem Kollegen; noun gets -n in Dativ: Kollegen)  
 14. **uns** (helfen + Dativ)  
 15. **der schwierigen** (Dativ feminine: der + schwierigen)
 

@@ -67,8 +67,8 @@ Correct the sentence.
 **16. Wenn ich Zeit habe, besuche ich meine Eltern.**  
 - Inversion: *besuche ich*.
 
-**17. Dass sie nicht kommen kann, ist schade.** (or: Es ist schade, dass sie nicht kommen kann.)  
-- Main clause: verb first (*ist schade*) or *Das ist schade* if "das" is subject.
+**17. Dass sie nicht kommen kann, ist schade.** (Also correct: *Dass sie nicht kommen kann, das ist schade.*)  
+- Main clause: verb first (*ist schade*). Both word orders are correct in German.
 
 **18. Obwohl er viel arbeitet, verdient er wenig.**  
 - Inversion: *verdient er wenig*.

@@ -29,7 +29,7 @@
 - [ ] 16. Das Bild hängt an ___ (die) Wand. (location: wo?)
 - [ ] 17. Er hängt das Bild an ___ (die) Wand. (direction: wohin?)
 - [ ] 18. Ich freue mich ___ (auf, ihr) Besuch.
-- [ ] 19. Zwischen ___ (der) beiden Häuser steht ein Baum. (location)
+- [ ] 19. Zwischen ___ (der) beiden Häusern steht ein Baum. (location)
 - [ ] 20. Sie wartet ___ (auf, die) Antwort.
 
 ---
@@ -117,8 +117,8 @@
 - Deutsche Erklärung: *sich freuen auf* + Akkusativ: **auf ihren** Besuch.
 
 **19. den** (zwischen + Dativ, location)  
-- English: *stehen* = location. *zwischen* + Dativ plural. *die Häuser* → *den Häusern*.  
-- Deutsche Erklärung: Wo? Plural: **zwischen den** Häusern (den + Häusern). "Beiden" → zwischen **den beiden** Häusern.
+- English: *stehen* = location. *zwischen* + Dativ plural. *die Häuser* → *den Häusern*. So: **zwischen den beiden Häusern**.  
+- Deutsche Erklärung: Wo? Plural: **zwischen den beiden Häusern** (Dativ: den + Häusern).
 
 **20. auf die** (warten auf + Akkusativ)  
 - English: *warten auf* + Akkusativ. *die Antwort* stays *die* in Akk.  

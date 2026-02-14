@@ -10,7 +10,7 @@
 - [ ] 2. Er hat einen ___ (neu-) Job gefunden.
 - [ ] 3. Das ist ein ___ (gut-) Buch.
 - [ ] 4. Sie spricht mit dem ___ (alt-) Professor.
-- [ ] 5. Wir besuchen ___ (unser) ___ (lieb-) Eltern.
+- [ ] 5. Wir danken ___ (unser) ___ (lieb-) Eltern.
 - [ ] 6. Ich wohne in einer ___ (groß-) Stadt.
 - [ ] 7. Den ___ (klein-) Kindern gefällt das Spiel.
 - [ ] 8. Sie kauft eine ___ (neu-) Jacke.
@@ -57,8 +57,8 @@
 - Deutsche Erklärung: Dativ maskulin: **dem alten** Professor.
 
 **5. unseren … lieben**  
-- English: Dativ plural: possessive **unseren** (our), adjective **-en** (lieben).  
-- Deutsche Erklärung: Dativ Plural: **unseren lieben** Eltern.
+- English: **danken** takes Dativ. Dativ plural: possessive **unseren**, adjective **-en** (lieben).  
+- Deutsche Erklärung: *danken* + Dativ. Dativ Plural: **unseren lieben** Eltern.
 
 **6. großen**  
 - English: Dativ feminine (in + location): einer + adjective **-en**.  

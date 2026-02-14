@@ -52,9 +52,9 @@
 - English: Feminine Dativ = *der*. Schenken: *jemandem* (Dat) *etwas* (Akk).  
 - Deutsche Erklärung: *die Frau* → Dativ: **der** Frau.
 
-**4. dem** (if one male teacher) or **der** (if one female teacher). **den Lehrern** (plural).  
-- English: If singular masculine: *der Lehrer* → *dem Lehrer*. If plural: *den Lehrern*.  
-- Deutsche Erklärung: Singular maskulin: **dem** Lehrer. Plural: **den** Lehrern.
+**4. den Lehrern**  
+- English: *die Lehrer* = the teachers (plural). Danken + Dativ plural: *den Lehrern*. (If singular: *dem Lehrer* / *der Lehrerin*.)  
+- Deutsche Erklärung: *die Lehrer* (Plural) → Dativ: **den Lehrern**. *danken* + Dativ.
 
 **5. mir**  
 - English: Dativ pronoun for *ich* is *mir*. Gehören + Dativ.  

@@ -14,7 +14,7 @@
 - [ ] 6. Die ___ (environment) ist wichtig.
 - [ ] 7. Sie hat eine ___ (colleague, f) die sehr nett ist.
 - [ ] 8. Der ___ (boss) ist zufrieden mit der Arbeit.
-- [ ] 9. Ich habe ___ (earned) gut in dem Job.
+- [ ] 9. Ich habe gut ___ (earned) in dem Job.
 - [ ] 10. Die ___ (journey) war anstrengend.
 - [ ] 11. Er hat ___ (passed) die Prüfung.
 - [ ] 12. Wir ___ (recycle) Papier und Plastik.
@@ -48,7 +48,7 @@
 **6. Umwelt** – environment.  
 **7. Kollegin** – colleague (f).  
 **8. Chef** – boss.  
-**9. verdient** – earned (past: hat verdient; here "I earned" → Ich habe gut verdient). For "I earn well": Ich verdiene gut.  
+**9. verdient** – earned. Word order: *Ich habe gut verdient* (participle after *gut*). Past: *hat verdient*.  
 **10. Reise** – journey.  
 **11. bestanden** – passed (hat bestanden).  
 **12. recyceln** – recycle (wir recyceln).  
