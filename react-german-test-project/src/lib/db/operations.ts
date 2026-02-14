@@ -1,6 +1,7 @@
 import { db } from "./schema";
 import type { TestAttempt } from "@/types/result";
 import type { ProgressRecord } from "./schema";
+import type { Question } from "@/types/question";
 
 const DEFAULT_USER_ID = "default";
 
@@ -16,6 +17,13 @@ export async function createAttempt(
   };
   await db.attempts.add(attempt);
   return attempt;
+}
+
+export async function updateAttemptQuestionSnapshot(
+  attemptId: string,
+  questionSnapshot: Question[]
+): Promise<void> {
+  await db.attempts.update(attemptId, { questionSnapshot });
 }
 
 export async function getAttempt(attemptId: string): Promise<TestAttempt | undefined> {

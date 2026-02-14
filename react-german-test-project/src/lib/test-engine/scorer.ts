@@ -38,6 +38,7 @@ export function scoreTest(
       correctAnswer,
       isCorrect,
       explanation: question.explanation,
+      explanationDetail: question.explanationDetail,
     });
   }
 

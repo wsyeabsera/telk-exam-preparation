@@ -9,6 +9,10 @@ export interface BaseQuestion {
   type: QuestionType;
   text: string;
   explanation?: string;
+  /** Longer explanation shown on results (multi-line) */
+  explanationDetail?: string;
+  /** Shown during test: e.g. "die Mutter" for Nominativ hint */
+  nominativeHint?: string;
   difficulty?: "easy" | "medium" | "hard";
   tags?: string[];
 }

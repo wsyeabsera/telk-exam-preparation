@@ -27,6 +27,11 @@ export function MultipleChoice({
       <p className="text-lg font-medium text-zinc-900 dark:text-zinc-100">
         {question.text}
       </p>
+      {question.nominativeHint && !showResult && (
+        <p className="text-sm text-zinc-500 dark:text-zinc-400">
+          Nominativ: {question.nominativeHint}
+        </p>
+      )}
       <ul className="space-y-2" role="listbox" aria-label="Answer options">
         {question.options.map((option) => {
           const isSelected = value === option.id;

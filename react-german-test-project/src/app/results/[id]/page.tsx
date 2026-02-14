@@ -37,26 +37,41 @@ export default function ResultsPage() {
         return;
       }
       setAttempt(a);
-      const testData = getTest(a.testId);
-      setTest(testData ?? null);
-      if (testData && a.completed && a.score !== undefined) {
-        const { questionResults } = scoreTest(testData.questions, a.answers);
-        setResult({
-          score: a.score,
-          correctCount: questionResults.filter((r) => r.isCorrect).length,
-          totalQuestions: testData.questions.length,
-          timeTakenMs: (a.endTime ?? a.startTime) - a.startTime,
-          questionResults,
-        });
-      } else if (testData && a.answers) {
-        const { score: computedScore, questionResults } = scoreTest(testData.questions, a.answers);
-        setResult({
-          score: computedScore,
-          correctCount: questionResults.filter((r) => r.isCorrect).length,
-          totalQuestions: testData.questions.length,
-          timeTakenMs: (a.endTime ?? Date.now()) - a.startTime,
-          questionResults,
-        });
+      const isSuperShort = a.testId === "super-short" && a.questionSnapshot?.length;
+      const questionsToUse = isSuperShort
+        ? a.questionSnapshot!
+        : getTest(a.testId)?.questions ?? [];
+      const testData: Test | null = isSuperShort
+        ? {
+            id: "super-short",
+            title: "Super short",
+            description: "10 random questions from all tests",
+            category: "practice",
+            focus: "Mixed",
+            questions: a.questionSnapshot!,
+          }
+        : getTest(a.testId);
+      setTest(testData);
+      if (questionsToUse.length > 0) {
+        if (a.completed && a.score !== undefined) {
+          const { questionResults } = scoreTest(questionsToUse, a.answers);
+          setResult({
+            score: a.score,
+            correctCount: questionResults.filter((r) => r.isCorrect).length,
+            totalQuestions: questionsToUse.length,
+            timeTakenMs: (a.endTime ?? a.startTime) - a.startTime,
+            questionResults,
+          });
+        } else {
+          const { score: computedScore, questionResults } = scoreTest(questionsToUse, a.answers);
+          setResult({
+            score: computedScore,
+            correctCount: questionResults.filter((r) => r.isCorrect).length,
+            totalQuestions: questionsToUse.length,
+            timeTakenMs: (a.endTime ?? Date.now()) - a.startTime,
+            questionResults,
+          });
+        }
       }
       setLoading(false);
     });
@@ -70,7 +85,8 @@ export default function ResultsPage() {
     );
   }
 
-  if (!attempt || !test) {
+  const questions = test?.questions ?? [];
+  if (!attempt || !test || questions.length === 0) {
     return (
       <div className="min-h-screen flex items-center justify-center p-4">
         <div className="text-center">
@@ -83,7 +99,7 @@ export default function ResultsPage() {
     );
   }
 
-  const questionById = new Map(test.questions.map((q) => [q.id, q]));
+  const questionById = new Map(questions.map((q) => [q.id, q]));
 
   return (
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 p-4 md:p-6">
@@ -171,6 +187,11 @@ export default function ResultsPage() {
                             <p className="text-sm text-zinc-600 dark:text-zinc-300 bg-zinc-100 dark:bg-zinc-800 p-3 rounded-lg">
                               {qr.explanation}
                             </p>
+                          )}
+                          {qr.explanationDetail && (
+                            <div className="text-sm text-zinc-600 dark:text-zinc-300 bg-zinc-100 dark:bg-zinc-800 p-3 rounded-lg whitespace-pre-line border-t border-zinc-200 dark:border-zinc-700 mt-2 pt-3">
+                              {qr.explanationDetail}
+                            </div>
                           )}
                         </div>
                       </CardContent>

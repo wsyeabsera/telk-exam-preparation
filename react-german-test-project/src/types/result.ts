@@ -1,3 +1,5 @@
+import type { Question } from "./question";
+
 export interface TestAttempt {
   id: string;
   testId: string;
@@ -6,6 +8,8 @@ export interface TestAttempt {
   answers: Record<string, string>;
   score?: number;
   completed: boolean;
+  /** When testId is "super-short", the exact questions used for this attempt */
+  questionSnapshot?: Question[];
 }
 
 export interface QuestionResult {
@@ -14,6 +18,7 @@ export interface QuestionResult {
   correctAnswer: string;
   isCorrect: boolean;
   explanation?: string;
+  explanationDetail?: string;
 }
 
 export interface TestResult {

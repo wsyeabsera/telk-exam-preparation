@@ -3,10 +3,10 @@
 import { useCallback, useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
-import { getTest } from "@/lib/data/load-tests";
+import { getTest, getSuperShortQuestions } from "@/lib/data/load-tests";
 import type { Test } from "@/types/test";
 import type { Question } from "@/types/question";
-import { createAttempt, updateAttemptAnswer, completeAttempt } from "@/lib/db/operations";
+import { createAttempt, updateAttemptAnswer, completeAttempt, updateAttemptQuestionSnapshot } from "@/lib/db/operations";
 import { scoreTest } from "@/lib/test-engine/scorer";
 import { shuffleTest } from "@/lib/test-engine/randomizer";
 import { minutesToMs } from "@/lib/test-engine/timer";
@@ -30,6 +30,22 @@ export default function TestPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (testId === "super-short") {
+      const superShortQuestions = getSuperShortQuestions();
+      const shuffled = shuffleTest(superShortQuestions);
+      setTest({
+        id: "super-short",
+        title: "Super short",
+        description: "10 random questions from all tests",
+        duration: 10,
+        category: "practice",
+        focus: "Mixed",
+        questions: shuffled,
+      });
+      setQuestions(shuffled);
+      setLoading(false);
+      return;
+    }
     const testData = getTest(testId);
     if (!testData) {
       setError("Test not found");
@@ -42,12 +58,15 @@ export default function TestPage() {
   }, [testId]);
 
   useEffect(() => {
-    if (!test || attemptId) return;
+    if (!test || attemptId || questions.length === 0) return;
     createAttempt(testId).then((attempt) => {
       setAttemptId(attempt.id);
       setStartTime(attempt.startTime);
+      if (testId === "super-short") {
+        updateAttemptQuestionSnapshot(attempt.id, questions);
+      }
     });
-  }, [test, testId, attemptId]);
+  }, [test, testId, attemptId, questions]);
 
   const saveAnswer = useCallback(
     (questionId: string, answerId: string) => {
@@ -61,11 +80,11 @@ export default function TestPage() {
 
   const handleComplete = useCallback(() => {
     if (!test || !attemptId) return;
-    const { score } = scoreTest(test.questions, answers);
+    const { score } = scoreTest(questions, answers);
     completeAttempt(attemptId, score).then(() => {
       router.push(`/results/${attemptId}`);
     });
-  }, [test, attemptId, answers, router]);
+  }, [test, attemptId, questions, answers, router]);
 
   if (loading || error) {
     return (
