@@ -7,9 +7,11 @@ import { getTest, getQuickPracticeConfig, isQuickPracticeTestId } from "@/lib/da
 import { getAttempt } from "@/lib/db/operations";
 import { scoreTest } from "@/lib/test-engine/scorer";
 import { formatTimeTaken } from "@/lib/test-engine/timer";
+import { isWritingPrompt } from "@/types/question";
 import type { Test } from "@/types/test";
 import type { TestAttempt } from "@/types/result";
 import type { QuestionResult } from "@/types/result";
+import ReactMarkdown from "react-markdown";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { QuestionRenderer } from "@/components/test/QuestionRenderer";
@@ -29,6 +31,8 @@ export default function ResultsPage() {
   } | null>(null);
   const [loading, setLoading] = useState(true);
   const [expandQuestion, setExpandQuestion] = useState<string | null>(null);
+  const [writingFeedback, setWritingFeedback] = useState<Record<string, string>>({});
+  const [loadingFeedback, setLoadingFeedback] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     getAttempt(attemptId).then((a) => {
@@ -79,6 +83,40 @@ export default function ResultsPage() {
       setLoading(false);
     });
   }, [attemptId]);
+
+  useEffect(() => {
+    if (!test || !result || !expandQuestion) return;
+    const questions = test.questions ?? [];
+    const byId = new Map(questions.map((q) => [q.id, q]));
+    const qr = result.questionResults.find((r) => r.questionId === expandQuestion);
+    if (!qr) return;
+    const question = byId.get(expandQuestion);
+    if (!question || !isWritingPrompt(question)) return;
+    if (!qr.userAnswer?.trim()) return;
+    if (writingFeedback[expandQuestion] !== undefined) return;
+    if (loadingFeedback[expandQuestion]) return;
+    setLoadingFeedback((prev) => ({ ...prev, [expandQuestion]: true }));
+    const prompt = question.prompt ?? (question as { text?: string }).text ?? "";
+    const modelAnswer = question.modelAnswer ?? "";
+    fetch("/api/evaluate-writing", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        prompt,
+        userAnswer: qr.userAnswer,
+        modelAnswer,
+      }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.feedback != null) {
+          setWritingFeedback((prev) => ({ ...prev, [expandQuestion]: data.feedback }));
+        }
+      })
+      .finally(() => {
+        setLoadingFeedback((prev) => ({ ...prev, [expandQuestion]: false }));
+      });
+  }, [expandQuestion, test, result]);
 
   if (loading) {
     return (
@@ -185,6 +223,7 @@ export default function ResultsPage() {
                             disabled
                             showResult
                             correctAnswerId={qr.correctAnswer}
+                            correctAnswer={qr.correctAnswer}
                           />
                           {qr.explanation && (
                             <p className="text-sm text-zinc-600 dark:text-zinc-300 bg-zinc-100 dark:bg-zinc-800 p-3 rounded-lg">
@@ -194,6 +233,22 @@ export default function ResultsPage() {
                           {qr.explanationDetail && (
                             <div className="text-sm text-zinc-600 dark:text-zinc-300 bg-zinc-100 dark:bg-zinc-800 p-3 rounded-lg whitespace-pre-line border-t border-zinc-200 dark:border-zinc-700 mt-2 pt-3">
                               {qr.explanationDetail}
+                            </div>
+                          )}
+                          {isWritingPrompt(question) && qr.userAnswer?.trim() && (
+                            <div className="rounded-lg border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30 p-3 mt-3">
+                              <p className="text-sm font-medium text-amber-800 dark:text-amber-200 mb-1">
+                                KI-Feedback
+                              </p>
+                              {loadingFeedback[qr.questionId] ? (
+                                <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                                  Lädt…
+                                </p>
+                              ) : writingFeedback[qr.questionId] ? (
+                                <div className="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed [&_strong]:font-semibold [&_p]:mb-2 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5">
+                                  <ReactMarkdown>{writingFeedback[qr.questionId]}</ReactMarkdown>
+                                </div>
+                              ) : null}
                             </div>
                           )}
                         </div>

@@ -2,6 +2,7 @@ export type QuestionType =
   | "multiple-choice"
   | "fill-blank"
   | "true-false"
+  | "writing-prompt"
   | "reading-comprehension";
 
 export interface BaseQuestion {
@@ -35,7 +36,18 @@ export interface TrueFalseQuestion extends BaseQuestion {
   correctAnswer: boolean;
 }
 
-export type Question = MultipleChoiceQuestion | TrueFalseQuestion | BaseQuestion;
+export interface FillBlankQuestion extends BaseQuestion {
+  type: "fill-blank";
+  correctAnswer: string;
+}
+
+export interface WritingPromptQuestion extends BaseQuestion {
+  type: "writing-prompt";
+  prompt: string;
+  modelAnswer?: string;
+}
+
+export type Question = MultipleChoiceQuestion | TrueFalseQuestion | FillBlankQuestion | WritingPromptQuestion | BaseQuestion;
 
 export function isMultipleChoice(
   q: Question
@@ -45,4 +57,12 @@ export function isMultipleChoice(
 
 export function isTrueFalse(q: Question): q is TrueFalseQuestion {
   return q.type === "true-false";
+}
+
+export function isFillBlank(q: Question): q is FillBlankQuestion {
+  return q.type === "fill-blank";
+}
+
+export function isWritingPrompt(q: Question): q is WritingPromptQuestion {
+  return q.type === "writing-prompt";
 }

@@ -1,0 +1,50 @@
+{
+  "id": "writing-practice-01",
+  "title": "Writing Practice 01",
+  "description": "Short B1-style writing prompts with model answers",
+  "duration": 15,
+  "category": "mini-test",
+  "focus": "Writing",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie 2–3 Sätze: Was haben Sie letztes Wochenende gemacht?",
+      "prompt": "Schreiben Sie 2–3 Sätze: Was haben Sie letztes Wochenende gemacht?",
+      "modelAnswer": "Letztes Wochenende bin ich mit dem Zug zu meiner Familie gefahren. Am Samstag haben wir zusammen gegessen und einen Film gesehen. Am Sonntag bin ich wieder nach Hause gefahren.",
+      "tags": ["writing", "weekend"]
+    },
+    {
+      "id": "q2",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie eine kurze E-Mail an einen Freund: Sie laden ihn zum Geburtstag ein (Datum, Uhrzeit, Ort).",
+      "prompt": "Schreiben Sie eine kurze E-Mail an einen Freund: Sie laden ihn zum Geburtstag ein (Datum, Uhrzeit, Ort).",
+      "modelAnswer": "Hallo! Ich habe am 20. März Geburtstag und feiere um 18 Uhr bei mir zu Hause. Die Adresse ist Musterstraße 5. Komm bitte vorbei! Viele Grüße",
+      "tags": ["writing", "email", "invitation"]
+    },
+    {
+      "id": "q3",
+      "type": "writing-prompt",
+      "text": "Beschreiben Sie in 2–3 Sätzen Ihre Wohnung oder Ihr Zimmer.",
+      "prompt": "Beschreiben Sie in 2–3 Sätzen Ihre Wohnung oder Ihr Zimmer.",
+      "modelAnswer": "Ich wohne in einer kleinen Wohnung mit zwei Zimmern. Im Wohnzimmer gibt es ein Sofa, einen Tisch und viele Bücher. Die Küche ist klein, aber praktisch.",
+      "tags": ["writing", "description"]
+    },
+    {
+      "id": "q4",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie 2–3 Sätze: Warum lernen Sie Deutsch?",
+      "prompt": "Schreiben Sie 2–3 Sätze: Warum lernen Sie Deutsch?",
+      "modelAnswer": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte. Außerdem finde ich die Sprache schön. Nächstes Jahr mache ich die B1-Prüfung.",
+      "tags": ["writing", "motivation"]
+    },
+    {
+      "id": "q5",
+      "type": "writing-prompt",
+      "text": "Sie können am Mittwoch nicht zum Deutschkurs kommen. Schreiben Sie eine kurze Nachricht an die Lehrkraft.",
+      "prompt": "Sie können am Mittwoch nicht zum Deutschkurs kommen. Schreiben Sie eine kurze Nachricht an die Lehrkraft.",
+      "modelAnswer": "Guten Tag, leider kann ich am Mittwoch nicht zum Kurs kommen, weil ich einen Arzttermin habe. Ich hole den Stoff nach. Mit freundlichen Grüßen",
+      "tags": ["writing", "message", "absence"]
+    }
+  ]
+}

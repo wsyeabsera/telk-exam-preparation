@@ -2,7 +2,9 @@
 
 import type { Question } from "@/types/question";
 import { MultipleChoice } from "./MultipleChoice";
-import { isMultipleChoice, isTrueFalse } from "@/types/question";
+import { FillBlank } from "./FillBlank";
+import { WritingPrompt } from "./WritingPrompt";
+import { isMultipleChoice, isTrueFalse, isFillBlank, isWritingPrompt } from "@/types/question";
 import { cn } from "@/lib/utils/cn";
 
 interface QuestionRendererProps {
@@ -12,6 +14,7 @@ interface QuestionRendererProps {
   disabled?: boolean;
   showResult?: boolean;
   correctAnswerId?: string;
+  correctAnswer?: string;
 }
 
 export function QuestionRenderer({
@@ -21,6 +24,7 @@ export function QuestionRenderer({
   disabled = false,
   showResult = false,
   correctAnswerId,
+  correctAnswer,
 }: QuestionRendererProps) {
   if (isMultipleChoice(question)) {
     return (
@@ -70,6 +74,32 @@ export function QuestionRenderer({
           </button>
         </div>
       </div>
+    );
+  }
+
+  if (isFillBlank(question)) {
+    return (
+      <FillBlank
+        question={question}
+        value={value}
+        onChange={onChange}
+        disabled={disabled}
+        showResult={showResult}
+        correctAnswer={correctAnswer}
+      />
+    );
+  }
+
+  if (isWritingPrompt(question)) {
+    return (
+      <WritingPrompt
+        question={question}
+        value={value}
+        onChange={onChange}
+        disabled={disabled}
+        showResult={showResult}
+        modelAnswer={correctAnswer || undefined}
+      />
     );
   }
 

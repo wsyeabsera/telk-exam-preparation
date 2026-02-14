@@ -18,6 +18,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "Sie schreibt: \"bin vor einem Monat nach Berlin gezogen\".",
+      "explanationDetail": "Im Blog steht, dass sie vor einem Monat nach Berlin gezogen ist. Daher lebt sie seit einem Monat dort.",
       "tags": ["reading", "blog"]
     },
     {
@@ -27,6 +28,7 @@
       "passageId": "blog-sofia-berlin",
       "correctAnswer": false,
       "explanation": "Sie sagt: \"Aber jetzt geht es mir besser\".",
+      "explanationDetail": "Sofia schreibt am Anfang, dass alles stressig war, aber jetzt geht es ihr besser. Also ist die Aussage falsch.",
       "tags": ["reading", "true-false"]
     },
     {
@@ -36,6 +38,7 @@
       "passageId": "blog-sofia-berlin",
       "correctAnswer": true,
       "explanation": "„Ich habe einen Deutschkurs gemacht“.",
+      "explanationDetail": "Im Text erwähnt Sofia explizit, dass sie einen Deutschkurs gemacht hat. Die Aussage ist richtig.",
       "tags": ["reading", "true-false"]
     },
     {
@@ -45,6 +48,7 @@
       "passageId": "blog-sofia-berlin",
       "correctAnswer": false,
       "explanation": "„Nächste Woche beginne ich einen Minijob“ – sie hat noch nicht angefangen.",
+      "explanationDetail": "Sofia schreibt, dass sie nächste Woche einen Minijob im Café beginnt. Das heißt, sie arbeitet dort noch nicht. Die Aussage ist falsch.",
       "tags": ["reading", "true-false"]
     },
     {
@@ -54,6 +58,7 @@
       "passageId": "blog-sofia-berlin",
       "correctAnswer": true,
       "explanation": "„Die Stadt gefällt mir – besonders die Museen und die Parks.“",
+      "explanationDetail": "Sofia schreibt wörtlich, dass ihr die Stadt gefällt, besonders die Museen und Parks. Die Aussage ist richtig.",
       "tags": ["reading", "true-false"]
     },
     {
@@ -69,6 +74,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„vielen Dank für Ihre Bestellung vom 12.02.2025“.",
+      "explanationDetail": "In der E-Mail wird das Bestelldatum klar genannt: 12.02.2025. Daher wurde die Bestellung an diesem Tag aufgegeben.",
       "tags": ["reading", "email"]
     },
     {
@@ -84,6 +90,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„Die Lieferung erfolgt in der Regel innerhalb von 3–5 Werktagen.“",
+      "explanationDetail": "Der Kundendienst schreibt wörtlich, dass die Lieferung in der Regel innerhalb von 3–5 Werktagen erfolgt.",
       "tags": ["reading", "email"]
     },
     {
@@ -99,6 +106,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„Sie erhalten eine E-Mail mit der Sendungsverfolgung, sobald das Paket versandt wurde.“",
+      "explanationDetail": "Die E-Mail sagt explizit: Sobald das Paket versandt wurde, erhält Frau Müller eine E-Mail mit der Sendungsverfolgung – keine Rechnung, kein Anruf, keine Post.",
       "tags": ["reading", "email"]
     },
     {
@@ -114,6 +122,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„suchen ab März eine/n Praktikant/in“.",
+      "explanationDetail": "Die Anzeige sucht ausdrücklich eine/n Praktikant/in, nicht feste Mitarbeiter, Aushilfen oder Freelancer.",
       "tags": ["reading", "anzeige"]
     },
     {
@@ -129,6 +138,7 @@
       ],
       "correctAnswerId": "c",
       "explanation": "„Praktikant/in für 3 Monate“.",
+      "explanationDetail": "In der Anzeige steht, dass die Stelle für eine/n Praktikant/in für 3 Monate ist. Die Dauer ist also 3 Monate.",
       "tags": ["reading", "anzeige"]
     },
     {
@@ -144,6 +154,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„Bewerbung … bis 28.02.“",
+      "explanationDetail": "Die Anzeige gibt als Bewerbungsfrist bis 28.02. an. Man muss sich also bis zu diesem Datum bewerben.",
       "tags": ["reading", "anzeige"]
     }
   ]

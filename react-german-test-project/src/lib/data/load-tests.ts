@@ -3,14 +3,18 @@ import type { Question } from "@/types/question";
 import metadata from "@/data/metadata.json";
 import miniTest01 from "@/data/tests/mini-test-01-dativ.json";
 import miniTest02 from "@/data/tests/mini-test-02-adjectives.json";
+import miniTest03 from "@/data/tests/mini-test-03-fill-blank.json";
 import mockExam01 from "@/data/tests/mock-exam-01-reading.json";
 import mockExam02 from "@/data/tests/mock-exam-02-reading.json";
+import writingPractice01 from "@/data/tests/writing-practice-01.json";
 
 const testMap: Record<string, Test> = {
   "mini-test-01-dativ": miniTest01 as Test,
   "mini-test-02-adjectives": miniTest02 as Test,
+  "mini-test-03-fill-blank": miniTest03 as Test,
   "mock-exam-01-reading": mockExam01 as Test,
   "mock-exam-02-reading": mockExam02 as Test,
+  "writing-practice-01": writingPractice01 as Test,
 };
 
 const SUPER_SHORT_SIZE = 10;
@@ -62,9 +66,9 @@ export const quickPracticeConfig: QuickPracticeEntry[] = [
     id: "super-short-writing",
     variant: "writing",
     title: "Super short – Writing",
-    description: "Coming soon",
-    questionCount: 0,
-    duration: 5,
+    description: "5 short writing prompts with model answers",
+    questionCount: 5,
+    duration: 15,
   },
 ];
 
@@ -109,6 +113,8 @@ export function getSuperShortQuestions(variant: QuickPracticeVariant): Question[
     pool = getQuestions((f) => f === "Reading");
   } else if (variant === "grammar") {
     pool = getQuestions((f) => f === "Dativ" || f === "Adjective Endings");
+  } else if (variant === "writing") {
+    pool = getQuestions((f) => f === "Writing");
   } else {
     return [];
   }

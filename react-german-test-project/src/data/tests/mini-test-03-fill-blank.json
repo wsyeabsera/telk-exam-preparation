@@ -1,0 +1,82 @@
+{
+  "id": "mini-test-03-fill-blank",
+  "title": "Mini Test 03: Fill in the blank",
+  "description": "Practice Dativ and grammar with short fill-in answers",
+  "duration": 10,
+  "category": "mini-test",
+  "focus": "Dativ",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-blank",
+      "text": "Ich helfe ___ (die) Mutter.",
+      "correctAnswer": "der",
+      "explanation": "die Mutter → Dativ: der Mutter (feminine singular)",
+      "nominativeHint": "die Mutter",
+      "tags": ["dativ", "articles"]
+    },
+    {
+      "id": "q2",
+      "type": "fill-blank",
+      "text": "Er dankt ___ (du).",
+      "correctAnswer": "dir",
+      "explanation": "danken + Dativ: du → dir",
+      "nominativeHint": "du",
+      "tags": ["dativ", "pronouns"]
+    },
+    {
+      "id": "q3",
+      "type": "fill-blank",
+      "text": "Das gehört ___ (ich).",
+      "correctAnswer": "mir",
+      "explanation": "gehören + Dativ: ich → mir",
+      "nominativeHint": "ich",
+      "tags": ["dativ", "pronouns"]
+    },
+    {
+      "id": "q4",
+      "type": "fill-blank",
+      "text": "Sie arbeitet bei ___ (der) Firma.",
+      "correctAnswer": "der",
+      "explanation": "bei + Dativ, die Firma → der Firma",
+      "nominativeHint": "die Firma",
+      "tags": ["dativ", "articles"]
+    },
+    {
+      "id": "q5",
+      "type": "fill-blank",
+      "text": "Ich fahre mit ___ (der) Bus.",
+      "correctAnswer": "dem",
+      "explanation": "mit + Dativ, der Bus → dem Bus",
+      "nominativeHint": "der Bus",
+      "tags": ["dativ", "articles"]
+    },
+    {
+      "id": "q6",
+      "type": "fill-blank",
+      "text": "Kannst du ___ (wir) helfen?",
+      "correctAnswer": "uns",
+      "explanation": "helfen + Dativ: wir → uns",
+      "nominativeHint": "wir",
+      "tags": ["dativ", "pronouns"]
+    },
+    {
+      "id": "q7",
+      "type": "fill-blank",
+      "text": "Das gefällt ___ (sie, plural).",
+      "correctAnswer": "ihnen",
+      "explanation": "gefallen + Dativ: sie (pl.) → ihnen",
+      "nominativeHint": "sie (pl.)",
+      "tags": ["dativ", "pronouns"]
+    },
+    {
+      "id": "q8",
+      "type": "fill-blank",
+      "text": "Sie kommt aus ___ (die) Schweiz.",
+      "correctAnswer": "der",
+      "explanation": "aus + Dativ, die Schweiz → der Schweiz",
+      "nominativeHint": "die Schweiz",
+      "tags": ["dativ", "articles"]
+    }
+  ]
+}

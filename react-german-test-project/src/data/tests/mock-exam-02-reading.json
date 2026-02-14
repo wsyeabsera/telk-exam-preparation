@@ -19,6 +19,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„Wer sich jeden Tag mindestens 30 Minuten bewegt“.",
+      "explanationDetail": "Der Artikel empfiehlt mindestens 30 Minuten Bewegung täglich. Die Antwort steht wörtlich im Text.",
       "tags": ["reading", "article"]
     },
     {
@@ -34,6 +35,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„Treppen steigen, zu Fuß einkaufen oder mit dem Rad zur Arbeit fahren“.",
+      "explanationDetail": "Im Text werden diese Alltagsaktivitäten als Beispiele genannt: Treppen steigen, zu Fuß einkaufen, mit dem Rad zur Arbeit.",
       "tags": ["reading", "article"]
     },
     {
@@ -43,6 +45,7 @@
       "passageId": "article-daily-movement",
       "correctAnswer": false,
       "explanation": "„Das muss kein Sport im Verein sein“.",
+      "explanationDetail": "Der Text sagt ausdrücklich, dass es kein Sport im Verein sein muss. Die Aussage ist daher falsch.",
       "tags": ["reading", "true-false"]
     },
     {
@@ -52,6 +55,7 @@
       "passageId": "article-daily-movement",
       "correctAnswer": true,
       "explanation": "„Das kann zu Rückenproblemen und Übergewicht führen.“",
+      "explanationDetail": "Der Artikel nennt wörtlich zu viel Sitzen als Ursache für Rückenprobleme und Übergewicht. Die Aussage ist richtig.",
       "tags": ["reading", "true-false"]
     },
     {
@@ -61,6 +65,7 @@
       "passageId": "article-daily-movement",
       "correctAnswer": false,
       "explanation": "„So bleibt man fit ohne teures Fitnessstudio.“",
+      "explanationDetail": "Der Text betont, dass man ohne Fitnessstudio fit bleiben kann. Ein Fitnessstudio ist also nicht nötig. Die Aussage ist falsch.",
       "tags": ["reading", "true-false"]
     },
     {
@@ -76,6 +81,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„danke für deine Einladung zum Grillen am Samstag“.",
+      "explanationDetail": "Lisa bedankt sich für die Einladung zum Grillen am Samstag. Tom hat also zum Grillen eingeladen.",
       "tags": ["reading", "email"]
     },
     {
@@ -91,6 +97,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„Soll ich etwas mitbringen? Salat oder Nachtisch? Ich kann auch Getränke kaufen.“",
+      "explanationDetail": "Lisa bietet an, Salat oder Nachtisch mitzubringen, und erwähnt, dass sie auch Getränke kaufen kann.",
       "tags": ["reading", "email"]
     },
     {
@@ -106,6 +113,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„bin aber pünktlich um 19 Uhr bei dir“.",
+      "explanationDetail": "Lisa schreibt wörtlich, dass sie um 19 Uhr bei Tom sein wird.",
       "tags": ["reading", "email"]
     },
     {
@@ -121,6 +129,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„die Bibliothek wegen Renovierung nur von 10 bis 14 Uhr geöffnet“.",
+      "explanationDetail": "Der Hinweis nennt Renovierung als Grund für die geänderten Öffnungszeiten.",
       "tags": ["reading", "notice"]
     },
     {
@@ -136,6 +145,7 @@
       ],
       "correctAnswerId": "c",
       "explanation": "„Ab 16. März gelten wieder die normalen Zeiten“.",
+      "explanationDetail": "Der Text gibt an, dass ab dem 16. März wieder die normalen Öffnungszeiten gelten.",
       "tags": ["reading", "notice"]
     },
     {
@@ -151,6 +161,7 @@
       ],
       "correctAnswerId": "b",
       "explanation": "„Ausleihen können Sie wie gewohnt online verlängern.“",
+      "explanationDetail": "Im Hinweis steht, dass Ausleihen online verlängert werden können.",
       "tags": ["reading", "notice"]
     }
   ]
