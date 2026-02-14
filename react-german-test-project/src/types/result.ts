@@ -10,6 +10,8 @@ export interface TestAttempt {
   completed: boolean;
   /** When testId is a quick-practice id (e.g. super-short, super-short-reading), the exact questions used for this attempt */
   questionSnapshot?: Question[];
+  /** AI feedback for writing questions, keyed by questionId */
+  aiFeedback?: Record<string, string>;
 }
 
 export interface QuestionResult {

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { getTest, getQuickPracticeConfig, isQuickPracticeTestId } from "@/lib/data/load-tests";
-import { getAttempt } from "@/lib/db/operations";
+import { getAttempt, saveAiFeedback } from "@/lib/db/operations";
 import { scoreTest } from "@/lib/test-engine/scorer";
 import { formatTimeTaken } from "@/lib/test-engine/timer";
 import { isWritingPrompt } from "@/types/question";
@@ -41,6 +41,7 @@ export default function ResultsPage() {
         return;
       }
       setAttempt(a);
+      setWritingFeedback(a.aiFeedback ?? {});
       const isQuickPractice = isQuickPracticeTestId(a.testId) && (a.questionSnapshot?.length ?? 0) > 0;
       const questionsToUse = isQuickPractice
         ? a.questionSnapshot!
@@ -111,6 +112,7 @@ export default function ResultsPage() {
       .then((data) => {
         if (data.feedback != null) {
           setWritingFeedback((prev) => ({ ...prev, [expandQuestion]: data.feedback }));
+          saveAiFeedback(attemptId, expandQuestion, data.feedback);
         }
       })
       .finally(() => {

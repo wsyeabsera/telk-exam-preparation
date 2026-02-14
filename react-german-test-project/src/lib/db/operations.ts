@@ -30,6 +30,18 @@ export async function getAttempt(attemptId: string): Promise<TestAttempt | undef
   return db.attempts.get(attemptId);
 }
 
+export async function saveAiFeedback(
+  attemptId: string,
+  questionId: string,
+  feedback: string
+): Promise<void> {
+  const attempt = await db.attempts.get(attemptId);
+  if (!attempt) return;
+  await db.attempts.update(attemptId, {
+    aiFeedback: { ...(attempt.aiFeedback ?? {}), [questionId]: feedback },
+  });
+}
+
 export async function updateAttemptAnswer(
   attemptId: string,
   questionId: string,
