@@ -8,7 +8,7 @@ export interface TestAttempt {
   answers: Record<string, string>;
   score?: number;
   completed: boolean;
-  /** When testId is "super-short", the exact questions used for this attempt */
+  /** When testId is a quick-practice id (e.g. super-short, super-short-reading), the exact questions used for this attempt */
   questionSnapshot?: Question[];
 }
 

@@ -15,6 +15,67 @@ const testMap: Record<string, Test> = {
 
 const SUPER_SHORT_SIZE = 10;
 
+export const QUICK_PRACTICE_IDS = [
+  "super-short",
+  "super-short-reading",
+  "super-short-grammar",
+  "super-short-writing",
+] as const;
+
+export type QuickPracticeVariant = "mixed" | "reading" | "grammar" | "writing";
+
+export interface QuickPracticeEntry {
+  id: string;
+  variant: QuickPracticeVariant;
+  title: string;
+  description: string;
+  questionCount: number;
+  duration: number;
+}
+
+export const quickPracticeConfig: QuickPracticeEntry[] = [
+  {
+    id: "super-short",
+    variant: "mixed",
+    title: "Super short",
+    description: "10 random questions from all tests",
+    questionCount: 10,
+    duration: 10,
+  },
+  {
+    id: "super-short-reading",
+    variant: "reading",
+    title: "Super short – Reading",
+    description: "10 random reading questions",
+    questionCount: 10,
+    duration: 10,
+  },
+  {
+    id: "super-short-grammar",
+    variant: "grammar",
+    title: "Super short – Grammar",
+    description: "10 random grammar questions",
+    questionCount: 10,
+    duration: 10,
+  },
+  {
+    id: "super-short-writing",
+    variant: "writing",
+    title: "Super short – Writing",
+    description: "Coming soon",
+    questionCount: 0,
+    duration: 5,
+  },
+];
+
+export function isQuickPracticeTestId(testId: string): boolean {
+  return (QUICK_PRACTICE_IDS as readonly string[]).includes(testId);
+}
+
+export function getQuickPracticeConfig(testId: string): QuickPracticeEntry | null {
+  return quickPracticeConfig.find((e) => e.id === testId) ?? null;
+}
+
 export function getTest(id: string): Test | null {
   return testMap[id] ?? null;
 }
@@ -27,10 +88,11 @@ export function getMetadata(): { tests: Array<{ id: string; title: string; descr
   return metadata;
 }
 
-/** All questions from all tests (with unique ids by prefixing test id) */
-function getAllQuestions(): Question[] {
+/** Questions from tests (with unique ids by prefixing test id). Optional filter by focus. */
+function getQuestions(focusFilter?: (focus: string | undefined) => boolean): Question[] {
   const out: Question[] = [];
   for (const test of Object.values(testMap)) {
+    if (focusFilter && !focusFilter(test.focus)) continue;
     for (const q of test.questions) {
       out.push({ ...q, id: `${test.id}-${q.id}` });
     }
@@ -38,10 +100,28 @@ function getAllQuestions(): Question[] {
   return out;
 }
 
-/** Pick 10 random questions from all tests. Each question gets a unique id for the attempt. */
-export function getSuperShortQuestions(): Question[] {
-  const pool = getAllQuestions();
+/** Pick up to SUPER_SHORT_SIZE random questions by variant. Each gets id ss-1, ss-2, ... */
+export function getSuperShortQuestions(variant: QuickPracticeVariant): Question[] {
+  let pool: Question[];
+  if (variant === "mixed") {
+    pool = getQuestions();
+  } else if (variant === "reading") {
+    pool = getQuestions((f) => f === "Reading");
+  } else if (variant === "grammar") {
+    pool = getQuestions((f) => f === "Dativ" || f === "Adjective Endings");
+  } else {
+    return [];
+  }
   const shuffled = [...pool].sort(() => Math.random() - 0.5);
-  const picked = shuffled.slice(0, SUPER_SHORT_SIZE);
+  const count = Math.min(SUPER_SHORT_SIZE, shuffled.length);
+  const picked = shuffled.slice(0, count);
   return picked.map((q, i) => ({ ...q, id: `ss-${i + 1}` }));
+}
+
+/** Display title for a test id (quick-practice or regular test). */
+export function getTestTitle(testId: string): string {
+  const qp = getQuickPracticeConfig(testId);
+  if (qp) return qp.title;
+  const test = getTest(testId);
+  return test?.title ?? testId;
 }

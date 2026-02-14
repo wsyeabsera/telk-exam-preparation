@@ -3,17 +3,11 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { getCompletedAttempts } from "@/lib/db/operations";
-import { getTest } from "@/lib/data/load-tests";
+import { getTestTitle } from "@/lib/data/load-tests";
 import { format } from "date-fns";
 import type { TestAttempt } from "@/types/result";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
-
-function getTestTitle(testId: string): string {
-  if (testId === "super-short") return "Super short";
-  const test = getTest(testId);
-  return test?.title ?? testId;
-}
 
 export default function HistoryPage() {
   const [attempts, setAttempts] = useState<TestAttempt[]>([]);

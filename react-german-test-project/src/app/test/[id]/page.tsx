@@ -3,7 +3,12 @@
 import { useCallback, useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
-import { getTest, getSuperShortQuestions } from "@/lib/data/load-tests";
+import {
+  getTest,
+  getSuperShortQuestions,
+  isQuickPracticeTestId,
+  getQuickPracticeConfig,
+} from "@/lib/data/load-tests";
 import type { Test } from "@/types/test";
 import type { Question } from "@/types/question";
 import { createAttempt, updateAttemptAnswer, completeAttempt, updateAttemptQuestionSnapshot } from "@/lib/db/operations";
@@ -31,16 +36,22 @@ export default function TestPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (testId === "super-short") {
-      const superShortQuestions = getSuperShortQuestions();
+    if (isQuickPracticeTestId(testId)) {
+      const config = getQuickPracticeConfig(testId);
+      if (!config) {
+        setError("Test not found");
+        setLoading(false);
+        return;
+      }
+      const superShortQuestions = getSuperShortQuestions(config.variant);
       const shuffled = shuffleTest(superShortQuestions);
       setTest({
-        id: "super-short",
-        title: "Super short",
-        description: "10 random questions from all tests",
-        duration: 10,
+        id: config.id,
+        title: config.title,
+        description: config.description,
+        duration: config.duration,
         category: "practice",
-        focus: "Mixed",
+        focus: config.variant === "mixed" ? "Mixed" : config.variant === "reading" ? "Reading" : config.variant === "grammar" ? "Grammar" : "Writing",
         questions: shuffled,
       });
       setQuestions(shuffled);
@@ -63,7 +74,7 @@ export default function TestPage() {
     createAttempt(testId).then((attempt) => {
       setAttemptId(attempt.id);
       setStartTime(attempt.startTime);
-      if (testId === "super-short") {
+      if (isQuickPracticeTestId(testId)) {
         updateAttemptQuestionSnapshot(attempt.id, questions);
       }
     });
@@ -105,9 +116,17 @@ export default function TestPage() {
   }
 
   if (!test || questions.length === 0) {
+    const isComingSoon = test && getQuickPracticeConfig(test.id)?.questionCount === 0;
     return (
       <div className="min-h-screen flex items-center justify-center p-4">
-        <p className="text-zinc-500">No questions in this test.</p>
+        <div className="text-center">
+          <p className="text-zinc-500 mb-4">
+            {isComingSoon ? "Coming soon." : "No questions in this test."}
+          </p>
+          <Link href="/">
+            <Button>Back to Dashboard</Button>
+          </Link>
+        </div>
       </div>
     );
   }

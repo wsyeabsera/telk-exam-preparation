@@ -1,7 +1,14 @@
 import Link from "next/link";
-import { getMetadata } from "@/lib/data/load-tests";
+import { getMetadata, quickPracticeConfig } from "@/lib/data/load-tests";
 import { TestCard } from "@/components/dashboard/TestCard";
 import { StatsOverview } from "@/components/dashboard/StatsOverview";
+
+const variantToFocus: Record<string, string> = {
+  mixed: "Mixed",
+  reading: "Reading",
+  grammar: "Grammar",
+  writing: "Writing",
+};
 
 export default function HomePage() {
   const metadata = getMetadata();
@@ -39,15 +46,19 @@ export default function HomePage() {
             Quick practice
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            <TestCard
-              id="super-short"
-              title="Super short"
-              description="10 random questions from all tests"
-              duration={10}
-              questionCount={10}
-              focus="Mixed"
-              category="practice"
-            />
+            {quickPracticeConfig.map((entry) => (
+              <TestCard
+                key={entry.id}
+                id={entry.id}
+                title={entry.title}
+                description={entry.description}
+                duration={entry.duration}
+                questionCount={entry.questionCount}
+                focus={variantToFocus[entry.variant]}
+                category="practice"
+                comingSoon={entry.questionCount === 0}
+              />
+            ))}
           </div>
         </section>
 

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import { getTest } from "@/lib/data/load-tests";
+import { getTest, getQuickPracticeConfig, isQuickPracticeTestId } from "@/lib/data/load-tests";
 import { getAttempt } from "@/lib/db/operations";
 import { scoreTest } from "@/lib/test-engine/scorer";
 import { formatTimeTaken } from "@/lib/test-engine/timer";
@@ -37,19 +37,22 @@ export default function ResultsPage() {
         return;
       }
       setAttempt(a);
-      const isSuperShort = a.testId === "super-short" && a.questionSnapshot?.length;
-      const questionsToUse = isSuperShort
+      const isQuickPractice = isQuickPracticeTestId(a.testId) && (a.questionSnapshot?.length ?? 0) > 0;
+      const questionsToUse = isQuickPractice
         ? a.questionSnapshot!
         : getTest(a.testId)?.questions ?? [];
-      const testData: Test | null = isSuperShort
-        ? {
-            id: "super-short",
-            title: "Super short",
-            description: "10 random questions from all tests",
-            category: "practice",
-            focus: "Mixed",
-            questions: a.questionSnapshot!,
-          }
+      const testData: Test | null = isQuickPractice
+        ? (() => {
+            const config = getQuickPracticeConfig(a.testId);
+            return {
+              id: a.testId,
+              title: config?.title ?? a.testId,
+              description: config?.description ?? "",
+              category: "practice",
+              focus: config?.variant === "mixed" ? "Mixed" : config?.variant === "reading" ? "Reading" : config?.variant === "grammar" ? "Grammar" : "Writing",
+              questions: a.questionSnapshot!,
+            };
+          })()
         : getTest(a.testId);
       setTest(testData);
       if (questionsToUse.length > 0) {

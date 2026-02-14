@@ -3,17 +3,11 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { getProgress, getCompletedAttempts } from "@/lib/db/operations";
-import { getTest } from "@/lib/data/load-tests";
+import { getTestTitle } from "@/lib/data/load-tests";
 import type { ProgressRecord } from "@/lib/db/schema";
 import type { TestAttempt } from "@/types/result";
 import { formatDistanceToNow } from "date-fns";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
-
-function getTestTitle(testId: string): string {
-  if (testId === "super-short") return "Super short";
-  const test = getTest(testId);
-  return test?.title ?? testId;
-}
 
 export function StatsOverview() {
   const [progress, setProgress] = useState<ProgressRecord | null>(null);
