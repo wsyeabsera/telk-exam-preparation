@@ -4,16 +4,22 @@ import metadata from "@/data/metadata.json";
 import miniTest01 from "@/data/tests/mini-test-01-dativ.json";
 import miniTest02 from "@/data/tests/mini-test-02-adjectives.json";
 import miniTest03 from "@/data/tests/mini-test-03-fill-blank.json";
+import miniTest04 from "@/data/tests/mini-test-04-akkusativ.json";
+import miniTest05 from "@/data/tests/mini-test-05-praepositionen.json";
 import mockExam01 from "@/data/tests/mock-exam-01-reading.json";
 import mockExam02 from "@/data/tests/mock-exam-02-reading.json";
+import mockExam03 from "@/data/tests/mock-exam-03-reading.json";
 import writingPractice01 from "@/data/tests/writing-practice-01.json";
 
 const testMap: Record<string, Test> = {
   "mini-test-01-dativ": miniTest01 as Test,
   "mini-test-02-adjectives": miniTest02 as Test,
   "mini-test-03-fill-blank": miniTest03 as Test,
+  "mini-test-04-akkusativ": miniTest04 as Test,
+  "mini-test-05-praepositionen": miniTest05 as Test,
   "mock-exam-01-reading": mockExam01 as Test,
   "mock-exam-02-reading": mockExam02 as Test,
+  "mock-exam-03-reading": mockExam03 as Test,
   "writing-practice-01": writingPractice01 as Test,
 };
 
@@ -112,7 +118,7 @@ export function getSuperShortQuestions(variant: QuickPracticeVariant): Question[
   } else if (variant === "reading") {
     pool = getQuestions((f) => f === "Reading");
   } else if (variant === "grammar") {
-    pool = getQuestions((f) => f === "Dativ" || f === "Adjective Endings");
+    pool = getQuestions((f) => f === "Dativ" || f === "Adjective Endings" || f === "Akkusativ" || f === "Präpositionen");
   } else if (variant === "writing") {
     pool = getQuestions((f) => f === "Writing");
   } else {
