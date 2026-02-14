@@ -285,7 +285,15 @@ export function getSuperShortQuestions(variant: QuickPracticeVariant): Question[
   } else {
     return [];
   }
-  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  // Deduplicate by question text so cloned questions are not repeated
+  const seenText = new Set<string>();
+  const unique: Question[] = [];
+  for (const q of pool) {
+    if (seenText.has(q.text)) continue;
+    seenText.add(q.text);
+    unique.push(q);
+  }
+  const shuffled = [...unique].sort(() => Math.random() - 0.5);
   const count = Math.min(SUPER_SHORT_SIZE, shuffled.length);
   const picked = shuffled.slice(0, count);
   return picked.map((q, i) => ({ ...q, id: `ss-${i + 1}` }));
