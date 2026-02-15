@@ -1,0 +1,235 @@
+{
+  "id": "listening-test-01",
+  "title": "Listening Test 01: Daily Situations",
+  "description": "Listening comprehension practice with everyday audio",
+  "duration": 25,
+  "category": "listening-test",
+  "focus": "Listening",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "Wie wird das Wetter morgen?",
+      "passageId": "listening-weather-forecast",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Bewölkt und regnerisch" },
+        { "id": "b", "text": "Sonnig und warm" },
+        { "id": "c", "text": "Schnee" },
+        { "id": "d", "text": "Stark windig" }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Morgen wird es bewölkt und am Vormittag beginnt es zu regnen.",
+      "explanationDetail": "In der Durchsage heißt es: 'Morgen ändert sich das Wetter. Es wird bewölkt und am Vormittag beginnt es zu regnen.'",
+      "tags": ["listening", "weather"]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "Welche Temperaturen werden für heute erwartet?",
+      "passageId": "listening-weather-forecast",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "14 bis 17 Grad" },
+        { "id": "b", "text": "18 bis 22 Grad" },
+        { "id": "c", "text": "10 bis 14 Grad" },
+        { "id": "d", "text": "25 bis 30 Grad" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Heute 18 bis 22 Grad, morgen 14 bis 17 Grad.",
+      "explanationDetail": "Die Durchsage sagt: 'Heute wird es überwiegend sonnig mit Temperaturen zwischen 18 und 22 Grad.'",
+      "tags": ["listening", "weather"]
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "text": "Am Wochenende wird das Wetter wieder besser.",
+      "passageId": "listening-weather-forecast",
+      "hidePassageText": true,
+      "correctAnswer": true,
+      "explanation": "Richtig. Samstag und Sonntag erwarten wir viel Sonnenschein.",
+      "explanationDetail": "Am Ende der Vorhersage: 'Am Wochenende wird es wieder besser – Samstag und Sonntag erwarten wir viel Sonnenschein.'",
+      "tags": ["listening", "weather"]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "Wo haben sich die Fahrgäste mit Anschlussverbindungen zu melden?",
+      "passageId": "listening-train-announcement",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Am Gleis 10" },
+        { "id": "b", "text": "Am Servicepoint im Hauptbahnhof" },
+        { "id": "c", "text": "Am Gleis 7" },
+        { "id": "d", "text": "Am Informationsschalter" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Am Gleis 7 beim Servicepersonal.",
+      "explanationDetail": "Die Durchsage sagt: 'Alle Fahrgäste mit Anschlussverbindungen in Hannover werden gebeten, sich an unser Servicepersonal am Gleis 7 zu wenden.'",
+      "tags": ["listening", "train"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "text": "Wann soll der ICE 524 jetzt abfahren?",
+      "passageId": "listening-train-announcement",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "14:10 Uhr" },
+        { "id": "b", "text": "14:35 Uhr" },
+        { "id": "c", "text": "15:00 Uhr" },
+        { "id": "d", "text": "13:45 Uhr" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Voraussichtlich 14:35 Uhr statt 14:10 Uhr.",
+      "explanationDetail": "Im Text: 'Die Abfahrt in München erfolgt voraussichtlich um 14 Uhr 35 statt 14 Uhr 10.'",
+      "tags": ["listening", "train"]
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "text": "Die Verspätung hat etwa 25 Minuten.",
+      "passageId": "listening-train-announcement",
+      "hidePassageText": true,
+      "correctAnswer": true,
+      "explanation": "Richtig. Der ICE hat etwa 25 Minuten Verspätung.",
+      "explanationDetail": "Die Durchsage beginnt mit: 'Der ICE 524 von München nach Hamburg hat heute etwa 25 Minuten Verspätung.'",
+      "tags": ["listening", "train"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "text": "Von wem ist die Nachricht?",
+      "passageId": "listening-phone-message",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Von einem Krankenhaus" },
+        { "id": "b", "text": "Von der Zahnarztpraxis Dr. Hoffmann" },
+        { "id": "c", "text": "Von einer Apotheke" },
+        { "id": "d", "text": "Von einer Schule" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Sandra von der Zahnarztpraxis Dr. Hoffmann.",
+      "explanationDetail": "Die Nachricht sagt: 'Hier spricht Sandra von der Zahnarztpraxis Dr. Hoffmann.'",
+      "tags": ["listening", "phone"]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "Warum muss der Termin geändert werden?",
+      "passageId": "listening-phone-message",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Der Patient ist krank" },
+        { "id": "b", "text": "Frau Dr. Hoffmann hat eine Fortbildung" },
+        { "id": "c", "text": "Die Praxis ist geschlossen" },
+        { "id": "d", "text": "Es gibt einen Notfall" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Frau Dr. Hoffmann muss zu einer Fortbildung.",
+      "explanationDetail": "Sandra sagt: 'Leider muss Frau Dr. Hoffmann an diesem Tag zu einer Fortbildung.'",
+      "tags": ["listening", "phone"]
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "text": "Sandra schlägt Dienstag oder Mittwoch Vormittag für einen neuen Termin vor.",
+      "passageId": "listening-phone-message",
+      "hidePassageText": true,
+      "correctAnswer": true,
+      "explanation": "Richtig. Nächste Woche, vielleicht Dienstag oder Mittwoch Vormittag.",
+      "explanationDetail": "Am Ende: 'Dann vereinbaren wir einen neuen Termin – am besten in der nächsten Woche, vielleicht Dienstag oder Mittwoch Vormittag.'",
+      "tags": ["listening", "phone"]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "Wie viele Prozent mehr Gäste gab es in dieser Saison?",
+      "passageId": "listening-radio-interview",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "5 Prozent" },
+        { "id": "b", "text": "10 Prozent" },
+        { "id": "c", "text": "15 Prozent" },
+        { "id": "d", "text": "20 Prozent" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Etwa 15 Prozent mehr Gäste.",
+      "explanationDetail": "Herr Becker sagt: 'Wir hatten etwa 15 Prozent mehr Gäste als im letzten Jahr.'",
+      "tags": ["listening", "radio"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "text": "Wann wird die neue Eisbahn eröffnet?",
+      "passageId": "listening-radio-interview",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Im November" },
+        { "id": "b", "text": "Im Dezember" },
+        { "id": "c", "text": "Im Januar" },
+        { "id": "d", "text": "Im Februar" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Im Dezember.",
+      "explanationDetail": "Herr Becker: 'Wir eröffnen eine neue Eisbahn im Dezember.'",
+      "tags": ["listening", "radio"]
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "text": "Der Weihnachtsmarkt geht bis Heiligabend.",
+      "passageId": "listening-radio-interview",
+      "hidePassageText": true,
+      "correctAnswer": true,
+      "explanation": "Richtig. Er beginnt am ersten Advent und geht bis Heiligabend.",
+      "explanationDetail": "'Außerdem gibt es wieder unseren Weihnachtsmarkt – der beginnt am ersten Advent und geht bis Heiligabend.'",
+      "tags": ["listening", "radio"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "text": "Wann sind die Backwaren zum halben Preis?",
+      "passageId": "listening-store-announcement",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Von 12 bis 14 Uhr" },
+        { "id": "b", "text": "Von 14 bis 16 Uhr" },
+        { "id": "c", "text": "Den ganzen Tag" },
+        { "id": "d", "text": "Nur am Vormittag" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Von 14 bis 16 Uhr.",
+      "explanationDetail": "Die Durchsage: 'Heute von 14 bis 16 Uhr haben wir Sonderangebote in der Backabteilung. Alle Brötchen und Kuchen sind in dieser Zeit zum halben Preis.'",
+      "tags": ["listening", "store"]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "text": "Wie viel Rabatt gibt es auf Fleischwaren?",
+      "passageId": "listening-store-announcement",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "20 Prozent" },
+        { "id": "b", "text": "25 Prozent" },
+        { "id": "c", "text": "30 Prozent" },
+        { "id": "d", "text": "50 Prozent" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "30 Prozent Rabatt auf alle Fleischwaren.",
+      "explanationDetail": "'Unser Frischfleisch muss heute noch verkauft werden – 30 Prozent Rabatt auf alle Fleischwaren bis Ladenschluss um 20 Uhr.'",
+      "tags": ["listening", "store"]
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "text": "Der Laden schließt um 20 Uhr.",
+      "passageId": "listening-store-announcement",
+      "hidePassageText": true,
+      "correctAnswer": true,
+      "explanation": "Richtig. Ladenschluss ist um 20 Uhr.",
+      "explanationDetail": "Am Ende: '30 Prozent Rabatt auf alle Fleischwaren bis Ladenschluss um 20 Uhr.'",
+      "tags": ["listening", "store"]
+    }
+  ]
+}

@@ -389,6 +389,16 @@
       "questionsPerAttempt": 5,
       "category": "mini-test",
       "focus": "Writing"
+    },
+    {
+      "id": "listening-test-01",
+      "title": "Listening Test 01: Daily Situations",
+      "description": "Listening comprehension with weather, announcements, and messages",
+      "duration": 25,
+      "questionCount": 15,
+      "questionsPerAttempt": 15,
+      "category": "listening-test",
+      "focus": "Listening"
     }
   ]
 }

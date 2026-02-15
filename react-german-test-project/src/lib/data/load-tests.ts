@@ -40,6 +40,7 @@ import quickTest03 from "@/data/tests/quick-test-03-word-order.json";
 import quickTest04 from "@/data/tests/quick-test-04-prepositions-location.json";
 import quickTest05 from "@/data/tests/quick-test-05-common-mistakes.json";
 import writingPractice01 from "@/data/tests/writing-practice-01.json";
+import listeningTest01 from "@/data/tests/listening-test-01.json";
 
 const testMap: Record<string, Test> = {
   "mini-test-01-dativ": miniTest01 as Test,
@@ -81,6 +82,7 @@ const testMap: Record<string, Test> = {
   "quick-test-04-prepositions-location": quickTest04 as Test,
   "quick-test-05-common-mistakes": quickTest05 as Test,
   "writing-practice-01": writingPractice01 as Test,
+  "listening-test-01": listeningTest01 as Test,
 };
 
 const SUPER_SHORT_SIZE = 10;

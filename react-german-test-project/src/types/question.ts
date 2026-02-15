@@ -16,6 +16,8 @@ export interface BaseQuestion {
   nominativeHint?: string;
   /** ID of markdown passage to show above question (e.g. "blog-sofia-berlin") */
   passageId?: string;
+  /** When true, passage text is hidden by default (listening comprehension) */
+  hidePassageText?: boolean;
   difficulty?: "easy" | "medium" | "hard";
   tags?: string[];
 }

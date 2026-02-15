@@ -95,12 +95,48 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-4">
+            Listening Tests
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {tests
+              .filter((t: { category: string }) => t.category === "listening-test")
+              .map(
+                (
+                  t: {
+                    id: string;
+                    title: string;
+                    description: string;
+                    duration?: number;
+                    questionCount: number;
+                    category: string;
+                    focus?: string;
+                  }
+                ) => (
+                  <TestCard
+                    key={t.id}
+                    id={t.id}
+                    title={t.title}
+                    description={t.description}
+                    duration={t.duration}
+                    questionCount={t.questionCount}
+                    focus={t.focus}
+                    category={t.category}
+                  />
+                )
+              )}
+          </div>
+        </section>
+
         <section>
           <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-4">
             Full tests
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            {tests.map(
+            {tests
+              .filter((t: { category: string }) => t.category !== "listening-test")
+              .map(
               (
                 t: {
                   id: string;

@@ -197,7 +197,11 @@ export default function TestPage() {
 
         <div className="rounded-xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 p-6 shadow-sm mb-6">
           {currentQuestion.passageId && (
-            <PassageViewer passageId={currentQuestion.passageId} className="mb-4" />
+            <PassageViewer
+              passageId={currentQuestion.passageId}
+              hideTextByDefault={currentQuestion.hidePassageText ?? false}
+              className="mb-4"
+            />
           )}
           <QuestionRenderer
             question={currentQuestion}
