@@ -1,0 +1,170 @@
+{
+  "id": "mock-exam-10-article-recycling",
+  "title": "Mock Exam 10: Article - Recycling",
+  "description": "Reading comprehension with article about waste separation and recycling",
+  "duration": 20,
+  "category": "mock-exam",
+  "focus": "Reading",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "Was ist der Hauptzweck des Textes?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "Werbung für Mülltonnen machen" },
+        { "id": "b", "text": "Leser informieren, wie man Müll richtig trennt" },
+        { "id": "c", "text": "Kritik an der Stadt üben" },
+        { "id": "d", "text": "Preise für Abfall nennen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Der Text gibt eine Übersicht zur Mülltrennung im Alltag.",
+      "explanationDetail": "Der Titel lautet „Müll trennen – so geht's richtig“ und der Text erklärt, was in welche Tonne gehört. Das ist eine sachliche Anleitung zur richtigen Mülltrennung, keine Werbung oder Kritik.",
+      "tags": ["reading", "main-idea"]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "Was gehört in die gelbe Tonne bzw. den gelben Sack?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "Nur Papier" },
+        { "id": "b", "text": "Verpackungen aus Kunststoff, Metall oder Verbundmaterial – z.B. Joghurtbecher, Dosen, Getränkekartons" },
+        { "id": "c", "text": "Bioabfall" },
+        { "id": "d", "text": "Elektrogeräte" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Gelbe Tonne: Verpackungen aus Kunststoff, Metall, Verbundmaterial.",
+      "explanationDetail": "Im Text steht: „Gelbe Tonne / Gelber Sack: Verpackungen aus Kunststoff, Metall oder Verbundmaterial. Zum Beispiel Joghurtbecher, Konservendosen, Getränkekartons.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "text": "Was rät der Text zu Verpackungen vor dem Wegwerfen?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "Ausspülen, um Wasser zu verbrauchen" },
+        { "id": "b", "text": "Leer machen, aber nicht ausspülen – das spart Wasser" },
+        { "id": "c", "text": "Voll in die Tonne werfen" },
+        { "id": "d", "text": "Zerkleinern" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Leer machen, nicht ausspülen – spart Wasser.",
+      "explanationDetail": "Bei der gelben Tonne steht: „Bitte leer machen, aber nicht ausspülen – das spart Wasser.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "Wohin gehört ein Pizzakarton mit Fettresten?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "In die blaue Tonne (Papier)" },
+        { "id": "b", "text": "In die Restmülltonne" },
+        { "id": "c", "text": "In die Biotonne" },
+        { "id": "d", "text": "In die gelbe Tonne" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Verschmutztes Papier gehört in den Restmüll.",
+      "explanationDetail": "Bei der blauen Tonne steht: „Feuchtes oder verschmutztes Papier (z.B. Pizzakartons mit Fett) gehört in die Restmülltonne.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "text": "Was darf NICHT in die Biotonne?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "Obstreste" },
+        { "id": "b", "text": "Plastik – auch keine „kompostierbaren“ Plastiktüten" },
+        { "id": "c", "text": "Kaffeesatz" },
+        { "id": "d", "text": "Eierschalen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Kein Plastik in die Biotonne.",
+      "explanationDetail": "Im Text: „Kein Plastik in die Biotonne werfen – auch keine ‚kompostierbaren‘ Plastiktüten, die oft nicht vollständig verrotten.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "text": "Wohin gehören Batterien und Elektrogeräte?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "In die graue Restmülltonne" },
+        { "id": "b", "text": "Beim Handel oder auf dem Wertstoffhof abgeben" },
+        { "id": "c", "text": "In die gelbe Tonne" },
+        { "id": "d", "text": "In die Biotonne" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Nicht in den Hausmüll – beim Handel oder Wertstoffhof abgeben.",
+      "explanationDetail": "Unter „Wichtig“: „Elektrogeräte, Batterien und Leuchtmittel gehören nicht in den Hausmüll. Sie können beim Handel oder auf dem Wertstoffhof abgegeben werden.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "text": "Wer hat den Text veröffentlicht?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "Eine private Firma" },
+        { "id": "b", "text": "Das Umweltamt der Stadt" },
+        { "id": "c", "text": "Ein Supermarkt" },
+        { "id": "d", "text": "Eine Schule" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Von: Umweltamt der Stadt.",
+      "explanationDetail": "Am Anfang steht „Von: Umweltamt der Stadt.“ Das Umweltamt ist eine städtische Behörde für Umweltthemen.",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "Warum erwähnt der Text „das spart Wasser“?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "Weil man Verpackungen nicht ausspülen soll." },
+        { "id": "b", "text": "Um zu begründen, warum man Verpackungen nicht ausspülen muss – so schont man Ressourcen." },
+        { "id": "c", "text": "Weil Wasser teuer ist." },
+        { "id": "d", "text": "Es geht nur um Müll." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Nicht ausspülen spart Wasser – Umweltschutz.",
+      "explanationDetail": "Der Text sagt: leer machen, aber nicht ausspülen – „das spart Wasser“. So wird erklärt, dass man keine Extra-Ressource (Wasser) verbrauchen muss; das passt zum Umweltschutz-Ziel des Textes.",
+      "tags": ["reading", "inference"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "text": "Was gehört in die blaue Tonne?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "Plastikverpackungen" },
+        { "id": "b", "text": "Papier, Pappe und Karton – z.B. Zeitungen, Schreibpapier, Kartons" },
+        { "id": "c", "text": "Bioabfall" },
+        { "id": "d", "text": "Batterien" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Blaue Tonne: Papier, Pappe, Karton.",
+      "explanationDetail": "„Blaue Tonne: Papier, Pappe und Karton. Zeitungen, Zeitschriften, Schreibpapier, Kartons.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "Was will der Text am Ende betonen?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "Dass Mülltrennung zu kompliziert ist." },
+        { "id": "b", "text": "Dass richtige Mülltrennung einen wichtigen Beitrag zum Recycling und Umweltschutz leistet." },
+        { "id": "c", "text": "Dass man alles in eine Tonne werfen soll." },
+        { "id": "d", "text": "Dass die Stadt mehr Tonnen braucht." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Mit richtiger Mülltrennung leistet man einen Beitrag zum Recycling und Umweltschutz.",
+      "explanationDetail": "Der letzte Satz lautet: „Mit der richtigen Mülltrennung leisten Sie einen wichtigen Beitrag zum Recycling und zum Umweltschutz!“ Das ist die abschließende Botschaft.",
+      "tags": ["reading", "main-idea"]
+    }
+  ]
+}

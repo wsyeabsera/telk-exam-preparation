@@ -331,6 +331,26 @@
       "focus": "Reading"
     },
     {
+      "id": "mock-exam-10-article-recycling",
+      "title": "Mock Exam 10: Article - Recycling",
+      "description": "Reading comprehension with article about waste separation and recycling",
+      "duration": 20,
+      "questionCount": 10,
+      "questionsPerAttempt": 10,
+      "category": "mock-exam",
+      "focus": "Reading"
+    },
+    {
+      "id": "mock-exam-11-email-feedback",
+      "title": "Mock Exam 11: Email - Course Feedback",
+      "description": "Reading comprehension with email asking for course feedback",
+      "duration": 20,
+      "questionCount": 10,
+      "questionsPerAttempt": 10,
+      "category": "mock-exam",
+      "focus": "Reading"
+    },
+    {
       "id": "quick-test-01-dativ-akkusativ",
       "title": "Quick Test 01: Dativ vs Akkusativ",
       "description": "Quick practice for distinguishing Dativ and Akkusativ cases",

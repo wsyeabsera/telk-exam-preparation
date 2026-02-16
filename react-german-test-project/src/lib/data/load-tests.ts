@@ -34,6 +34,8 @@ import mockExam06 from "@/data/tests/mock-exam-06-article-learning.json";
 import mockExam07 from "@/data/tests/mock-exam-07-article-health.json";
 import mockExam08 from "@/data/tests/mock-exam-08-notice-library.json";
 import mockExam09 from "@/data/tests/mock-exam-09-ad-language.json";
+import mockExam10 from "@/data/tests/mock-exam-10-article-recycling.json";
+import mockExam11 from "@/data/tests/mock-exam-11-email-feedback.json";
 import quickTest01 from "@/data/tests/quick-test-01-dativ-akkusativ.json";
 import quickTest02 from "@/data/tests/quick-test-02-adjective-endings.json";
 import quickTest03 from "@/data/tests/quick-test-03-word-order.json";
@@ -76,6 +78,8 @@ const testMap: Record<string, Test> = {
   "mock-exam-07-article-health": mockExam07 as Test,
   "mock-exam-08-notice-library": mockExam08 as Test,
   "mock-exam-09-ad-language": mockExam09 as Test,
+  "mock-exam-10-article-recycling": mockExam10 as Test,
+  "mock-exam-11-email-feedback": mockExam11 as Test,
   "quick-test-01-dativ-akkusativ": quickTest01 as Test,
   "quick-test-02-adjective-endings": quickTest02 as Test,
   "quick-test-03-word-order": quickTest03 as Test,

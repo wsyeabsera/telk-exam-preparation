@@ -1,0 +1,170 @@
+{
+  "id": "mock-exam-11-email-feedback",
+  "title": "Mock Exam 11: Email - Course Feedback",
+  "description": "Reading comprehension with email asking for course feedback",
+  "duration": 20,
+  "category": "mock-exam",
+  "focus": "Reading",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "Was ist der Hauptzweck dieser E-Mail?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "Einen neuen Kurs anzubieten" },
+        { "id": "b", "text": "Die Teilnehmer zu bitten, einen anonymen Online-Fragebogen auszufüllen, um die Kurse zu verbessern" },
+        { "id": "c", "text": "Die Prüfung anzukündigen" },
+        { "id": "d", "text": "Die Teilnahme zu bestätigen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Schule bittet um Feedback per Online-Fragebogen.",
+      "explanationDetail": "Die E-Mail sagt, der Kurs ende bald, und bittet darum, einen kurzen Online-Fragebogen auszufüllen, um die Kurse zu verbessern. Das ist eine Feedback-Anfrage, keine Kursanmeldung oder Prüfungsankündigung.",
+      "tags": ["reading", "main-idea"]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "An wen ist die E-Mail gerichtet?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "Nur an Lehrer" },
+        { "id": "b", "text": "An alle Teilnehmerinnen und Teilnehmer des Abendkurses B1 (März–Juni 2025)" },
+        { "id": "c", "text": "An neue Bewerber" },
+        { "id": "d", "text": "An die Presse" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "An: Alle Teilnehmer/innen des Abendkurses B1 (März–Juni 2025).",
+      "explanationDetail": "Im Kopf der E-Mail steht: „An: Alle Teilnehmerinnen und Teilnehmer des Abendkurses B1 (März–Juni 2025).“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "text": "Wann endet der Kurs ungefähr?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "In einer Woche" },
+        { "id": "b", "text": "In zwei Wochen" },
+        { "id": "c", "text": "In einem Monat" },
+        { "id": "d", "text": "Er ist schon zu Ende" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Ihr Abendkurs endet in zwei Wochen.",
+      "explanationDetail": "Im Text steht: „Ihr Abendkurs endet in zwei Wochen.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "Wie lange dauert der Fragebogen ungefähr?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "1 Minute" },
+        { "id": "b", "text": "5 Minuten" },
+        { "id": "c", "text": "20 Minuten" },
+        { "id": "d", "text": "Eine Stunde" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Er dauert etwa 5 Minuten.",
+      "explanationDetail": "Die E-Mail sagt: „Er dauert etwa 5 Minuten.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "text": "Ist die Umfrage anonym?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "Nein, die Schule erfährt, wer was geschrieben hat." },
+        { "id": "b", "text": "Ja – die Schule erfährt nicht, wer welche Antworten gegeben hat." },
+        { "id": "c", "text": "Nur teilweise." },
+        { "id": "d", "text": "Das wird nicht gesagt." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Umfrage ist anonym.",
+      "explanationDetail": "Im Text steht: „Die Umfrage ist anonym – wir erfahren nicht, wer welche Antworten gegeben hat.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "text": "Worüber möchte die Schule Feedback?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "Nur über die Räume" },
+        { "id": "b", "text": "Unterricht, Lehrbuch, was gut war, was besser werden kann, ob man die Schule weiterempfehlen würde" },
+        { "id": "c", "text": "Nur über die Preise" },
+        { "id": "d", "text": "Nur über die Lehrer" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Zufriedenheit mit Unterricht und Lehrbuch, was gut war, was besser geht, Weiterempfehlung.",
+      "explanationDetail": "Unter „Was wir erfahren möchten“: Zufriedenheit mit Unterricht und Lehrbuch, was gut gefallen hat, was besser werden kann, ob man die Schule weiterempfehlen würde.",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "text": "Bis wann ist der Fragebogen freigeschaltet?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "Bis 1. Juni" },
+        { "id": "b", "text": "Bis 15. Juni" },
+        { "id": "c", "text": "Bis Ende Juni" },
+        { "id": "d", "text": "Unbegrenzt" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Der Fragebogen ist bis zum 15. Juni freigeschaltet.",
+      "explanationDetail": "Im Text: „Der Fragebogen ist bis zum 15. Juni freigeschaltet.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "Warum schreibt die Schule „Ihre Meinung ist uns wichtig“?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "Um höflich zu sein, ohne die Umfrage ernst zu meinen." },
+        { "id": "b", "text": "Um zu begründen, warum sie das Feedback brauchen – nur so können sie die Angebote anpassen." },
+        { "id": "c", "text": "Weil sie gesetzlich dazu verpflichtet sind." },
+        { "id": "d", "text": "Um Werbung zu machen." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Nur mit Feedback können sie die Angebote verbessern und anpassen.",
+      "explanationDetail": "Der Satz lautet: „Ihre Meinung ist uns wichtig. Nur so können wir unsere Angebote an Ihre Wünsche anpassen.“ Die Schule begründet damit, warum sie das Feedback wirklich nutzen will.",
+      "tags": ["reading", "inference"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "text": "Wo finden die Teilnehmer den Fragebogen?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "Nur in der Schule" },
+        { "id": "b", "text": "Über einen Link in dieser E-Mail" },
+        { "id": "c", "text": "In der Zeitung" },
+        { "id": "d", "text": "Der Text sagt es nicht." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Sie finden den Link in dieser E-Mail.",
+      "explanationDetail": "Im Text steht: „Sie finden den Link in dieser E-Mail.“",
+      "tags": ["reading", "details"]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "Was wünscht die Schule den Teilnehmern am Ende?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "Einen schönen Urlaub" },
+        { "id": "b", "text": "Vielen Dank für die Mitarbeit und viel Erfolg bei der weiteren Prüfungsvorbereitung" },
+        { "id": "c", "text": "Einen guten Ruhestand" },
+        { "id": "d", "text": "Einen neuen Kurs" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Dank für die Mitarbeit und Erfolg bei der Prüfungsvorbereitung.",
+      "explanationDetail": "Am Ende steht: „Vielen Dank für Ihre Mitarbeit und viel Erfolg bei Ihrer weiteren Prüfungsvorbereitung!“ Das passt zu einem Kurs, der bald endet und auf Prüfungen vorbereitet.",
+      "tags": ["reading", "details"]
+    }
+  ]
+}
