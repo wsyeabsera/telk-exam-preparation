@@ -1,22 +1,7 @@
 import Link from "next/link";
 import { getMetadata, quickPracticeConfig } from "@/lib/data/load-tests";
-import { TestCard } from "@/components/dashboard/TestCard";
 import { StatsOverview } from "@/components/dashboard/StatsOverview";
-
-const variantToFocus: Record<string, string> = {
-  mixed: "Mixed",
-  reading: "Reading",
-  grammar: "Grammar",
-  writing: "Writing",
-  verbs: "Verbs",
-  cases: "Cases",
-  conjunctions: "Conjunctions",
-  pronouns: "Pronouns",
-  adjectives: "Adjectives",
-};
-
-const GENERAL_QUICK_VARIANTS = ["mixed", "reading", "grammar", "writing"] as const;
-const TOPIC_QUICK_VARIANTS = ["verbs", "cases", "conjunctions", "pronouns", "adjectives"] as const;
+import { DashboardContent } from "@/components/dashboard/DashboardContent";
 
 export default function HomePage() {
   const metadata = getMetadata();
@@ -49,119 +34,7 @@ export default function HomePage() {
 
         <StatsOverview />
 
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-4">
-            Quick practice
-          </h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {quickPracticeConfig
-              .filter((entry) => GENERAL_QUICK_VARIANTS.includes(entry.variant as (typeof GENERAL_QUICK_VARIANTS)[number]))
-              .map((entry) => (
-                <TestCard
-                  key={entry.id}
-                  id={entry.id}
-                  title={entry.title}
-                  description={entry.description}
-                  duration={entry.duration}
-                  questionCount={entry.questionCount}
-                  focus={variantToFocus[entry.variant]}
-                  category="practice"
-                  comingSoon={entry.questionCount === 0}
-                />
-              ))}
-          </div>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-4">
-            Quick practice by topic
-          </h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {quickPracticeConfig
-              .filter((entry) => TOPIC_QUICK_VARIANTS.includes(entry.variant as (typeof TOPIC_QUICK_VARIANTS)[number]))
-              .map((entry) => (
-                <TestCard
-                  key={entry.id}
-                  id={entry.id}
-                  title={entry.title}
-                  description={entry.description}
-                  duration={entry.duration}
-                  questionCount={entry.questionCount}
-                  focus={variantToFocus[entry.variant]}
-                  category="practice"
-                  comingSoon={entry.questionCount === 0}
-                />
-              ))}
-          </div>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-4">
-            Listening Tests
-          </h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {tests
-              .filter((t: { category: string }) => t.category === "listening-test")
-              .map(
-                (
-                  t: {
-                    id: string;
-                    title: string;
-                    description: string;
-                    duration?: number;
-                    questionCount: number;
-                    category: string;
-                    focus?: string;
-                  }
-                ) => (
-                  <TestCard
-                    key={t.id}
-                    id={t.id}
-                    title={t.title}
-                    description={t.description}
-                    duration={t.duration}
-                    questionCount={t.questionCount}
-                    focus={t.focus}
-                    category={t.category}
-                  />
-                )
-              )}
-          </div>
-        </section>
-
-        <section>
-          <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-4">
-            Full tests
-          </h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {tests
-              .filter((t: { category: string }) => t.category !== "listening-test")
-              .map(
-              (
-                t: {
-                  id: string;
-                  title: string;
-                  description: string;
-                  duration?: number;
-                  questionCount: number;
-                  category: string;
-                  focus?: string;
-                }
-              ) => (
-                <TestCard
-                  key={t.id}
-                  id={t.id}
-                  title={t.title}
-                  description={t.description}
-                  duration={t.duration}
-                  questionCount={t.questionCount}
-                  focus={t.focus}
-                  category={t.category}
-                />
-              )
-            )}
-          </div>
-        </section>
+        <DashboardContent tests={tests} quickPracticeConfig={quickPracticeConfig} />
       </div>
     </div>
   );
