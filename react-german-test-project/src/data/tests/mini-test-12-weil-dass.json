@@ -380,137 +380,12 @@
       ]
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
-      "text": "Ich bleibe zu Hause, weil ich krank ___.",
+      "text": "Er geht nicht mit, weil er Kopfschmerzen ___.",
       "options": [
         {
           "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "ist"
-        },
-        {
-          "id": "c",
-          "text": "sind"
-        },
-        {
-          "id": "d",
-          "text": "seid"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: ich bin",
-      "explanationDetail": "Weil (because) is a subordinating conjunction. The conjugated verb goes to the end of the clause. Ich bleibe zu Hause, weil ich krank bin (I'm staying home because I'm sick). Word order: subject + ... + verb.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Ich weiß, dass du morgen ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kommst"
-        },
-        {
-          "id": "b",
-          "text": "kommen"
-        },
-        {
-          "id": "c",
-          "text": "komme"
-        },
-        {
-          "id": "d",
-          "text": "kommt"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: du kommst",
-      "explanationDetail": "Dass (that) is a subordinating conjunction. The verb goes to the end. Ich weiß, dass du kommst (I know that you're coming). Word order after dass: subject + ... + verb.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q15",
-      "type": "multiple-choice",
-      "text": "Er lernt Deutsch, weil er in Deutschland ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "arbeitet"
-        },
-        {
-          "id": "b",
-          "text": "arbeiten"
-        },
-        {
-          "id": "c",
-          "text": "arbeitest"
-        },
-        {
-          "id": "d",
-          "text": "arbeite"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: er arbeitet",
-      "explanationDetail": "Weil sends the verb to the end. Er lernt Deutsch, weil er arbeitet (He's learning German because he works). The verb must agree with the subject (er → arbeitet).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "multiple-choice",
-      "text": "Sie sagt, dass das Wetter schön ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "bist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: ist",
-      "explanationDetail": "Dass sends the verb to the end. Sie sagt, dass das Wetter schön ist (She says that the weather is nice). The verb agrees with the subject (das Wetter → ist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q17",
-      "type": "multiple-choice",
-      "text": "Ich kann nicht kommen, weil ich keine Zeit ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
+          "text": "hat"
         },
         {
           "id": "b",
@@ -522,368 +397,57 @@
         },
         {
           "id": "d",
+          "text": "hatte"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: er hat",
+      "explanationDetail": "Weil sends the verb to the end. Er hat Kopfschmerzen (he has a headache). Subject er → hat.",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q13"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie meint, dass das Konzert toll ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "war"
+        },
+        {
+          "id": "b",
+          "text": "sein"
+        },
+        {
+          "id": "c",
+          "text": "waren"
+        },
+        {
+          "id": "d",
+          "text": "warst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: war",
+      "explanationDetail": "Dass sends the verb to the end. Das Konzert war toll (the concert was great).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q14"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir warten, weil der Bus Verspätung ___.",
+      "options": [
+        {
+          "id": "a",
           "text": "hat"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: ich habe",
-      "explanationDetail": "Weil sends the verb to the end. Ich kann nicht kommen, weil ich keine Zeit habe (I can't come because I have no time). The verb agrees with the subject (ich → habe).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q18",
-      "type": "multiple-choice",
-      "text": "Er glaubt, dass sie morgen ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kommt"
-        },
-        {
-          "id": "b",
-          "text": "kommen"
-        },
-        {
-          "id": "c",
-          "text": "kommst"
-        },
-        {
-          "id": "d",
-          "text": "komme"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: sie kommt",
-      "explanationDetail": "Dass sends the verb to the end. Er glaubt, dass sie kommt (He believes that she's coming). The verb agrees with the subject (sie → kommt).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Wir gehen nicht spazieren, weil es ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "regnet"
-        },
-        {
-          "id": "b",
-          "text": "regnen"
-        },
-        {
-          "id": "c",
-          "text": "regnest"
-        },
-        {
-          "id": "d",
-          "text": "regne"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: es regnet",
-      "explanationDetail": "Weil sends the verb to the end. Wir gehen nicht spazieren, weil es regnet (We're not going for a walk because it's raining). The verb agrees with the subject (es → regnet).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Ich hoffe, dass du bald gesund ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: du bist",
-      "explanationDetail": "Dass sends the verb to the end. Ich hoffe, dass du bald gesund bist (I hope that you'll be healthy soon). The verb agrees with the subject (du → bist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Sie ist müde, weil sie viel ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gearbeitet hat"
-        },
-        {
-          "id": "b",
-          "text": "hat gearbeitet"
-        },
-        {
-          "id": "c",
-          "text": "arbeitet hat"
-        },
-        {
-          "id": "d",
-          "text": "gearbeitet"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends both verbs to end: gearbeitet hat",
-      "explanationDetail": "With Perfekt in subordinate clause, both parts go to end: past participle + auxiliary. Sie ist müde, weil sie viel gearbeitet hat (She's tired because she worked a lot). Order: ... + past participle + haben/sein.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil",
-        "perfekt"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Er denkt, dass wir morgen ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kommen"
-        },
-        {
-          "id": "b",
-          "text": "kommst"
-        },
-        {
-          "id": "c",
-          "text": "kommt"
-        },
-        {
-          "id": "d",
-          "text": "komme"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: wir kommen",
-      "explanationDetail": "Dass sends the verb to the end. Er denkt, dass wir kommen (He thinks that we're coming). The verb agrees with the subject (wir → kommen).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Ich freue mich, weil du hier ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: du bist",
-      "explanationDetail": "Weil sends the verb to the end. Ich freue mich, weil du hier bist (I'm happy because you're here). The verb agrees with the subject (du → bist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "multiple-choice",
-      "text": "Sie meint, dass das Buch interessant ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "bist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: ist",
-      "explanationDetail": "Dass sends the verb to the end. Sie meint, dass das Buch interessant ist (She thinks that the book is interesting). The verb agrees with the subject (das Buch → ist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Ich bleibe zu Hause, weil ich krank ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "ist"
-        },
-        {
-          "id": "c",
-          "text": "sind"
-        },
-        {
-          "id": "d",
-          "text": "seid"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: ich bin",
-      "explanationDetail": "Weil (because) is a subordinating conjunction. The conjugated verb goes to the end of the clause. Ich bleibe zu Hause, weil ich krank bin (I'm staying home because I'm sick). Word order: subject + ... + verb.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "multiple-choice",
-      "text": "Ich weiß, dass du morgen ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kommst"
-        },
-        {
-          "id": "b",
-          "text": "kommen"
-        },
-        {
-          "id": "c",
-          "text": "komme"
-        },
-        {
-          "id": "d",
-          "text": "kommt"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: du kommst",
-      "explanationDetail": "Dass (that) is a subordinating conjunction. The verb goes to the end. Ich weiß, dass du kommst (I know that you're coming). Word order after dass: subject + ... + verb.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Er lernt Deutsch, weil er in Deutschland ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "arbeitet"
-        },
-        {
-          "id": "b",
-          "text": "arbeiten"
-        },
-        {
-          "id": "c",
-          "text": "arbeitest"
-        },
-        {
-          "id": "d",
-          "text": "arbeite"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: er arbeitet",
-      "explanationDetail": "Weil sends the verb to the end. Er lernt Deutsch, weil er arbeitet (He's learning German because he works). The verb must agree with the subject (er → arbeitet).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Sie sagt, dass das Wetter schön ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "bist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: ist",
-      "explanationDetail": "Dass sends the verb to the end. Sie sagt, dass das Wetter schön ist (She says that the weather is nice). The verb agrees with the subject (das Wetter → ist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Ich kann nicht kommen, weil ich keine Zeit ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
         },
         {
           "id": "b",
@@ -895,368 +459,119 @@
         },
         {
           "id": "d",
+          "text": "hatte"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: der Bus hat",
+      "explanationDetail": "Weil sends the verb to the end. Der Bus hat Verspätung (the bus is delayed).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q15"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe gehört, dass ihr morgen ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "reist"
+        },
+        {
+          "id": "b",
+          "text": "reisen"
+        },
+        {
+          "id": "c",
+          "text": "fährst"
+        },
+        {
+          "id": "d",
+          "text": "reise"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: ihr reist",
+      "explanationDetail": "Dass sends the verb to the end. Ihr reist (you're travelling).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q16"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du bleibst im Bett, weil du Fieber ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hast"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
           "text": "hat"
+        },
+        {
+          "id": "d",
+          "text": "habt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: ich habe",
-      "explanationDetail": "Weil sends the verb to the end. Ich kann nicht kommen, weil ich keine Zeit habe (I can't come because I have no time). The verb agrees with the subject (ich → habe).",
+      "explanation": "weil sends verb to end: du hast",
+      "explanationDetail": "Weil sends the verb to the end. Du hast Fieber (you have a fever).",
       "tags": [
         "conjunctions",
         "subordinating",
         "weil"
-      ]
+      ],
+      "id": "q17"
     },
     {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Er glaubt, dass sie morgen ___.",
+      "text": "Er sagt, dass die Geschäfte heute ___.",
       "options": [
         {
           "id": "a",
-          "text": "kommt"
+          "text": "schließen"
         },
         {
           "id": "b",
-          "text": "kommen"
+          "text": "schließt"
         },
         {
           "id": "c",
-          "text": "kommst"
+          "text": "schließe"
         },
         {
           "id": "d",
-          "text": "komme"
+          "text": "schließst"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: sie kommt",
-      "explanationDetail": "Dass sends the verb to the end. Er glaubt, dass sie kommt (He believes that she's coming). The verb agrees with the subject (sie → kommt).",
+      "explanation": "dass sends verb to end: plural verb",
+      "explanationDetail": "Dass sends the verb to the end. Die Geschäfte schließen (the shops close). Plural subject.",
       "tags": [
         "conjunctions",
         "subordinating",
         "dass"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Wir gehen nicht spazieren, weil es ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "regnet"
-        },
-        {
-          "id": "b",
-          "text": "regnen"
-        },
-        {
-          "id": "c",
-          "text": "regnest"
-        },
-        {
-          "id": "d",
-          "text": "regne"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: es regnet",
-      "explanationDetail": "Weil sends the verb to the end. Wir gehen nicht spazieren, weil es regnet (We're not going for a walk because it's raining). The verb agrees with the subject (es → regnet).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
+      "id": "q18"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Ich hoffe, dass du bald gesund ___.",
+      "text": "Sie isst nichts, weil sie keinen Hunger ___.",
       "options": [
         {
           "id": "a",
-          "text": "bist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: du bist",
-      "explanationDetail": "Dass sends the verb to the end. Ich hoffe, dass du bald gesund bist (I hope that you'll be healthy soon). The verb agrees with the subject (du → bist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Sie ist müde, weil sie viel ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gearbeitet hat"
-        },
-        {
-          "id": "b",
-          "text": "hat gearbeitet"
-        },
-        {
-          "id": "c",
-          "text": "arbeitet hat"
-        },
-        {
-          "id": "d",
-          "text": "gearbeitet"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends both verbs to end: gearbeitet hat",
-      "explanationDetail": "With Perfekt in subordinate clause, both parts go to end: past participle + auxiliary. Sie ist müde, weil sie viel gearbeitet hat (She's tired because she worked a lot). Order: ... + past participle + haben/sein.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil",
-        "perfekt"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "multiple-choice",
-      "text": "Er denkt, dass wir morgen ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kommen"
-        },
-        {
-          "id": "b",
-          "text": "kommst"
-        },
-        {
-          "id": "c",
-          "text": "kommt"
-        },
-        {
-          "id": "d",
-          "text": "komme"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: wir kommen",
-      "explanationDetail": "Dass sends the verb to the end. Er denkt, dass wir kommen (He thinks that we're coming). The verb agrees with the subject (wir → kommen).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Ich freue mich, weil du hier ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: du bist",
-      "explanationDetail": "Weil sends the verb to the end. Ich freue mich, weil du hier bist (I'm happy because you're here). The verb agrees with the subject (du → bist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Sie meint, dass das Buch interessant ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "bist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: ist",
-      "explanationDetail": "Dass sends the verb to the end. Sie meint, dass das Buch interessant ist (She thinks that the book is interesting). The verb agrees with the subject (das Buch → ist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q37",
-      "type": "multiple-choice",
-      "text": "Ich bleibe zu Hause, weil ich krank ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "ist"
-        },
-        {
-          "id": "c",
-          "text": "sind"
-        },
-        {
-          "id": "d",
-          "text": "seid"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: ich bin",
-      "explanationDetail": "Weil (because) is a subordinating conjunction. The conjugated verb goes to the end of the clause. Ich bleibe zu Hause, weil ich krank bin (I'm staying home because I'm sick). Word order: subject + ... + verb.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "multiple-choice",
-      "text": "Ich weiß, dass du morgen ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kommst"
-        },
-        {
-          "id": "b",
-          "text": "kommen"
-        },
-        {
-          "id": "c",
-          "text": "komme"
-        },
-        {
-          "id": "d",
-          "text": "kommt"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: du kommst",
-      "explanationDetail": "Dass (that) is a subordinating conjunction. The verb goes to the end. Ich weiß, dass du kommst (I know that you're coming). Word order after dass: subject + ... + verb.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "multiple-choice",
-      "text": "Er lernt Deutsch, weil er in Deutschland ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "arbeitet"
-        },
-        {
-          "id": "b",
-          "text": "arbeiten"
-        },
-        {
-          "id": "c",
-          "text": "arbeitest"
-        },
-        {
-          "id": "d",
-          "text": "arbeite"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: er arbeitet",
-      "explanationDetail": "Weil sends the verb to the end. Er lernt Deutsch, weil er arbeitet (He's learning German because he works). The verb must agree with the subject (er → arbeitet).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Sie sagt, dass das Wetter schön ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "bist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: ist",
-      "explanationDetail": "Dass sends the verb to the end. Sie sagt, dass das Wetter schön ist (She says that the weather is nice). The verb agrees with the subject (das Wetter → ist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Ich kann nicht kommen, weil ich keine Zeit ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
+          "text": "hat"
         },
         {
           "id": "b",
@@ -1268,209 +583,301 @@
         },
         {
           "id": "d",
+          "text": "habt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: sie hat",
+      "explanationDetail": "Weil sends the verb to the end. Sie hat keinen Hunger (she's not hungry).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich glaube, dass er heute Abend ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "anruft"
+        },
+        {
+          "id": "b",
+          "text": "anrufen"
+        },
+        {
+          "id": "c",
+          "text": "anrufe"
+        },
+        {
+          "id": "d",
+          "text": "anrufst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: er anruft",
+      "explanationDetail": "Dass sends the verb to the end. Er ruft an (separable: anruft at end).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q20"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Kinder spielen draußen, weil das Wetter schön ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist"
+        },
+        {
+          "id": "b",
+          "text": "sein"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
+          "text": "bist"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: das Wetter ist",
+      "explanationDetail": "Weil sends the verb to the end. Das Wetter ist schön (the weather is nice).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q21"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er fragt, ob du mit ihm ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kommst"
+        },
+        {
+          "id": "b",
+          "text": "kommen"
+        },
+        {
+          "id": "c",
+          "text": "komme"
+        },
+        {
+          "id": "d",
+          "text": "kommt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "ob sends verb to end: du kommst",
+      "explanationDetail": "Ob (whether) is subordinating like dass. Du kommst mit (you're coming along).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q22"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir können nicht kommen, weil wir Gäste ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "haben"
+        },
+        {
+          "id": "b",
+          "text": "hat"
+        },
+        {
+          "id": "c",
+          "text": "hast"
+        },
+        {
+          "id": "d",
+          "text": "hatte"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: wir haben",
+      "explanationDetail": "Weil sends the verb to the end. Wir haben Gäste (we have guests).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q23"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie denkt, dass ich den Zug ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "verpasse"
+        },
+        {
+          "id": "b",
+          "text": "verpassen"
+        },
+        {
+          "id": "c",
+          "text": "verpasst"
+        },
+        {
+          "id": "d",
+          "text": "verpass"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: ich verpasse",
+      "explanationDetail": "Dass sends the verb to the end. Ich verpasse den Zug (I miss the train).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q24"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich bin traurig, weil mein Freund weggezogen ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist"
+        },
+        {
+          "id": "b",
+          "text": "sein"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
           "text": "hat"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: ich habe",
-      "explanationDetail": "Weil sends the verb to the end. Ich kann nicht kommen, weil ich keine Zeit habe (I can't come because I have no time). The verb agrees with the subject (ich → habe).",
+      "explanation": "weil + Perfekt: ist at end",
+      "explanationDetail": "With Perfekt in subordinate clause: weggezogen ist. Mein Freund ist weggezogen (my friend has moved away).",
       "tags": [
         "conjunctions",
         "subordinating",
         "weil"
-      ]
+      ],
+      "id": "q25"
     },
     {
-      "id": "q42",
       "type": "multiple-choice",
-      "text": "Er glaubt, dass sie morgen ___.",
+      "text": "Er weiß, dass wir ihn ___.",
       "options": [
         {
           "id": "a",
-          "text": "kommt"
+          "text": "verstehen"
         },
         {
           "id": "b",
-          "text": "kommen"
+          "text": "versteht"
         },
         {
           "id": "c",
-          "text": "kommst"
+          "text": "verstehe"
         },
         {
           "id": "d",
-          "text": "komme"
+          "text": "verstehst"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: sie kommt",
-      "explanationDetail": "Dass sends the verb to the end. Er glaubt, dass sie kommt (He believes that she's coming). The verb agrees with the subject (sie → kommt).",
+      "explanation": "dass sends verb to end: wir verstehen",
+      "explanationDetail": "Dass sends the verb to the end. Wir verstehen ihn (we understand him).",
       "tags": [
         "conjunctions",
         "subordinating",
         "dass"
-      ]
+      ],
+      "id": "q26"
     },
     {
-      "id": "q43",
       "type": "multiple-choice",
-      "text": "Wir gehen nicht spazieren, weil es ___.",
+      "text": "Du lernst schnell, weil du viel ___.",
       "options": [
         {
           "id": "a",
-          "text": "regnet"
+          "text": "übst"
         },
         {
           "id": "b",
-          "text": "regnen"
+          "text": "üben"
         },
         {
           "id": "c",
-          "text": "regnest"
+          "text": "übt"
         },
         {
           "id": "d",
-          "text": "regne"
+          "text": "übe"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: es regnet",
-      "explanationDetail": "Weil sends the verb to the end. Wir gehen nicht spazieren, weil es regnet (We're not going for a walk because it's raining). The verb agrees with the subject (es → regnet).",
+      "explanation": "weil sends verb to end: du übst",
+      "explanationDetail": "Weil sends the verb to the end. Du übst (you practice).",
       "tags": [
         "conjunctions",
         "subordinating",
         "weil"
-      ]
+      ],
+      "id": "q27"
     },
     {
-      "id": "q44",
       "type": "multiple-choice",
-      "text": "Ich hoffe, dass du bald gesund ___.",
+      "text": "Ich hoffe, dass sie sich ___.",
       "options": [
         {
           "id": "a",
-          "text": "bist"
+          "text": "entschuldigt"
         },
         {
           "id": "b",
-          "text": "sein"
+          "text": "entschuldigen"
         },
         {
           "id": "c",
-          "text": "ist"
+          "text": "entschuldige"
         },
         {
           "id": "d",
-          "text": "sind"
+          "text": "entschuldigst"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: du bist",
-      "explanationDetail": "Dass sends the verb to the end. Ich hoffe, dass du bald gesund bist (I hope that you'll be healthy soon). The verb agrees with the subject (du → bist).",
+      "explanation": "dass sends verb to end: sie entschuldigt sich",
+      "explanationDetail": "Dass sends the verb to the end. Reflexive: sich entschuldigen (to apologize).",
       "tags": [
         "conjunctions",
         "subordinating",
         "dass"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Sie ist müde, weil sie viel ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gearbeitet hat"
-        },
-        {
-          "id": "b",
-          "text": "hat gearbeitet"
-        },
-        {
-          "id": "c",
-          "text": "arbeitet hat"
-        },
-        {
-          "id": "d",
-          "text": "gearbeitet"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends both verbs to end: gearbeitet hat",
-      "explanationDetail": "With Perfekt in subordinate clause, both parts go to end: past participle + auxiliary. Sie ist müde, weil sie viel gearbeitet hat (She's tired because she worked a lot). Order: ... + past participle + haben/sein.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil",
-        "perfekt"
-      ]
+      "id": "q28"
     },
     {
-      "id": "q46",
       "type": "multiple-choice",
-      "text": "Er denkt, dass wir morgen ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kommen"
-        },
-        {
-          "id": "b",
-          "text": "kommst"
-        },
-        {
-          "id": "c",
-          "text": "kommt"
-        },
-        {
-          "id": "d",
-          "text": "komme"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: wir kommen",
-      "explanationDetail": "Dass sends the verb to the end. Er denkt, dass wir kommen (He thinks that we're coming). The verb agrees with the subject (wir → kommen).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Ich freue mich, weil du hier ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: du bist",
-      "explanationDetail": "Weil sends the verb to the end. Ich freue mich, weil du hier bist (I'm happy because you're here). The verb agrees with the subject (du → bist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ]
-    },
-    {
-      "id": "q48",
-      "type": "multiple-choice",
-      "text": "Sie meint, dass das Buch interessant ___.",
+      "text": "Sie bleibt zu Hause, weil ihr Kind krank ___.",
       "options": [
         {
           "id": "a",
@@ -1482,83 +889,673 @@
         },
         {
           "id": "c",
-          "text": "bist"
+          "text": "sind"
         },
         {
           "id": "d",
-          "text": "sind"
+          "text": "war"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: ist",
-      "explanationDetail": "Dass sends the verb to the end. Sie meint, dass das Buch interessant ist (She thinks that the book is interesting). The verb agrees with the subject (das Buch → ist).",
+      "explanation": "weil sends verb to end: Kind ist",
+      "explanationDetail": "Weil sends the verb to the end. Ihr Kind ist krank (her child is sick).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q29"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er erzählt, dass die Prüfung schwer ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "war"
+        },
+        {
+          "id": "b",
+          "text": "sein"
+        },
+        {
+          "id": "c",
+          "text": "waren"
+        },
+        {
+          "id": "d",
+          "text": "wart"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: war",
+      "explanationDetail": "Dass sends the verb to the end. Die Prüfung war schwer (the exam was difficult).",
       "tags": [
         "conjunctions",
         "subordinating",
         "dass"
-      ]
+      ],
+      "id": "q30"
     },
     {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Ich bleibe zu Hause, weil ich krank ___.",
+      "text": "Ihr geht früh, weil ihr müde ___.",
       "options": [
         {
           "id": "a",
+          "text": "seid"
+        },
+        {
+          "id": "b",
+          "text": "sind"
+        },
+        {
+          "id": "c",
           "text": "bin"
         },
         {
-          "id": "b",
-          "text": "ist"
-        },
-        {
-          "id": "c",
-          "text": "sind"
-        },
-        {
           "id": "d",
-          "text": "seid"
+          "text": "ist"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: ich bin",
-      "explanationDetail": "Weil (because) is a subordinating conjunction. The conjugated verb goes to the end of the clause. Ich bleibe zu Hause, weil ich krank bin (I'm staying home because I'm sick). Word order: subject + ... + verb.",
+      "explanation": "weil sends verb to end: ihr seid",
+      "explanationDetail": "Weil sends the verb to the end. Ihr seid müde (you're tired).",
       "tags": [
         "conjunctions",
         "subordinating",
         "weil"
-      ]
+      ],
+      "id": "q31"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Ich weiß, dass du morgen ___.",
+      "text": "Wir sehen, dass du dich ___.",
       "options": [
         {
           "id": "a",
-          "text": "kommst"
+          "text": "freust"
         },
         {
           "id": "b",
-          "text": "kommen"
+          "text": "freuen"
         },
         {
           "id": "c",
-          "text": "komme"
+          "text": "freut"
         },
         {
           "id": "d",
-          "text": "kommt"
+          "text": "freue"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: du kommst",
-      "explanationDetail": "Dass (that) is a subordinating conjunction. The verb goes to the end. Ich weiß, dass du kommst (I know that you're coming). Word order after dass: subject + ... + verb.",
+      "explanation": "dass sends verb to end: du freust dich",
+      "explanationDetail": "Dass sends the verb to the end. Du freust dich (you're happy). Reflexive.",
       "tags": [
         "conjunctions",
         "subordinating",
         "dass"
-      ]
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Zug fällt aus, weil es Streik ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gibt"
+        },
+        {
+          "id": "b",
+          "text": "geben"
+        },
+        {
+          "id": "c",
+          "text": "gibst"
+        },
+        {
+          "id": "d",
+          "text": "gebe"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: es gibt",
+      "explanationDetail": "Weil sends the verb to the end. Es gibt Streik (there's a strike).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie sagt, dass die Kinder schon ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schlafen"
+        },
+        {
+          "id": "b",
+          "text": "schläft"
+        },
+        {
+          "id": "c",
+          "text": "schläfst"
+        },
+        {
+          "id": "d",
+          "text": "schafe"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: Kinder schlafen",
+      "explanationDetail": "Dass sends the verb to the end. Die Kinder schlafen (the children are sleeping).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich bin froh, weil alles gut ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gegangen ist"
+        },
+        {
+          "id": "b",
+          "text": "ist gegangen"
+        },
+        {
+          "id": "c",
+          "text": "gehen ist"
+        },
+        {
+          "id": "d",
+          "text": "gegangen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil + Perfekt: participle + ist at end",
+      "explanationDetail": "Perfekt in subordinate clause: alles gut gegangen ist (everything went well).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er meint, dass du recht ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hast"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "hat"
+        },
+        {
+          "id": "d",
+          "text": "habt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: du hast",
+      "explanationDetail": "Dass sends the verb to the end. Du hast recht (you're right).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie weint, weil sie den Schlüssel ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "verloren hat"
+        },
+        {
+          "id": "b",
+          "text": "hat verloren"
+        },
+        {
+          "id": "c",
+          "text": "verloren"
+        },
+        {
+          "id": "d",
+          "text": "verlieren hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil + Perfekt: verloren hat at end",
+      "explanationDetail": "Perfekt in subordinate clause: sie den Schlüssel verloren hat (she has lost the key).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du weißt, dass ich dich ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "verstehe"
+        },
+        {
+          "id": "b",
+          "text": "verstehen"
+        },
+        {
+          "id": "c",
+          "text": "versteht"
+        },
+        {
+          "id": "d",
+          "text": "verstehst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: ich verstehe",
+      "explanationDetail": "Dass sends the verb to the end. Ich verstehe dich (I understand you).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir bleiben, weil die Vorstellung gleich ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "beginnt"
+        },
+        {
+          "id": "b",
+          "text": "beginnen"
+        },
+        {
+          "id": "c",
+          "text": "beginne"
+        },
+        {
+          "id": "d",
+          "text": "beginnst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: die Vorstellung beginnt",
+      "explanationDetail": "Weil sends the verb to the end. Die Vorstellung beginnt (the show begins).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er behauptet, dass sie gelogen ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "hast"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass + Perfekt: hat at end",
+      "explanationDetail": "Perfekt in dass-clause: sie gelogen hat (she has lied).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Schüler gehen nach Hause, weil die Schule ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "aus ist"
+        },
+        {
+          "id": "b",
+          "text": "ist aus"
+        },
+        {
+          "id": "c",
+          "text": "aus"
+        },
+        {
+          "id": "d",
+          "text": "sein aus"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: Schule aus ist",
+      "explanationDetail": "Schluss sein (to be over): die Schule ist aus. In subordinate: ... aus ist.",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich finde, dass du zu schnell ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "fährst"
+        },
+        {
+          "id": "b",
+          "text": "fahren"
+        },
+        {
+          "id": "c",
+          "text": "fahre"
+        },
+        {
+          "id": "d",
+          "text": "fährt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: du fährst",
+      "explanationDetail": "Dass sends the verb to the end. Du fährst (you drive). Strong verb.",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er geht nicht mit, weil er Kopfschmerzen ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "hast"
+        },
+        {
+          "id": "d",
+          "text": "hatte"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: er hat",
+      "explanationDetail": "Weil sends the verb to the end. Er hat Kopfschmerzen (he has a headache). Subject er → hat.",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie meint, dass das Konzert toll ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "war"
+        },
+        {
+          "id": "b",
+          "text": "sein"
+        },
+        {
+          "id": "c",
+          "text": "waren"
+        },
+        {
+          "id": "d",
+          "text": "warst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: war",
+      "explanationDetail": "Dass sends the verb to the end. Das Konzert war toll (the concert was great).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir warten, weil der Bus Verspätung ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "hast"
+        },
+        {
+          "id": "d",
+          "text": "hatte"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: der Bus hat",
+      "explanationDetail": "Weil sends the verb to the end. Der Bus hat Verspätung (the bus is delayed).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe gehört, dass ihr morgen ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "reist"
+        },
+        {
+          "id": "b",
+          "text": "reisen"
+        },
+        {
+          "id": "c",
+          "text": "fährst"
+        },
+        {
+          "id": "d",
+          "text": "reise"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: ihr reist",
+      "explanationDetail": "Dass sends the verb to the end. Ihr reist (you're travelling).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du bleibst im Bett, weil du Fieber ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hast"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "hat"
+        },
+        {
+          "id": "d",
+          "text": "habt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: du hast",
+      "explanationDetail": "Weil sends the verb to the end. Du hast Fieber (you have a fever).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er sagt, dass die Geschäfte heute ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schließen"
+        },
+        {
+          "id": "b",
+          "text": "schließt"
+        },
+        {
+          "id": "c",
+          "text": "schließe"
+        },
+        {
+          "id": "d",
+          "text": "schließst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: plural verb",
+      "explanationDetail": "Dass sends the verb to the end. Die Geschäfte schließen (the shops close). Plural subject.",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie isst nichts, weil sie keinen Hunger ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "hast"
+        },
+        {
+          "id": "d",
+          "text": "habt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end: sie hat",
+      "explanationDetail": "Weil sends the verb to the end. Sie hat keinen Hunger (she's not hungry).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "weil"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich glaube, dass er heute Abend ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "anruft"
+        },
+        {
+          "id": "b",
+          "text": "anrufen"
+        },
+        {
+          "id": "c",
+          "text": "anrufe"
+        },
+        {
+          "id": "d",
+          "text": "anrufst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dass sends verb to end: er anruft",
+      "explanationDetail": "Dass sends the verb to the end. Er ruft an (separable: anruft at end).",
+      "tags": [
+        "conjunctions",
+        "subordinating",
+        "dass"
+      ],
+      "id": "q50"
     }
   ]
 }

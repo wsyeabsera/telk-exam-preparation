@@ -317,1244 +317,1205 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Ich ___ gerne nach Berlin fahren.",
+      "text": "Wenn ich Zeit hätte, ___ ich mitkommen.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
           "text": "würde"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "werde"
         },
         {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
           "id": "d",
-          "text": "wollte"
+          "text": "will"
         }
       ],
-      "correctAnswerId": "b",
+      "correctAnswerId": "a",
       "explanation": "Konjunktiv II: würde + infinitive",
-      "explanationDetail": "Würde + infinitive expresses polite wishes or hypothetical situations. Ich würde fahren (I would go). Conjugation: ich würde, du würdest, er/sie würde, wir würden, ihr würdet, sie würden.",
+      "explanationDetail": "Unreal condition: Wenn ich Zeit hätte, würde ich mitkommen (I would come along).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
+        "konjunktiv",
+        "wuerde",
+        "conditional"
+      ],
+      "id": "q11"
     },
     {
-      "id": "q12",
       "type": "multiple-choice",
-      "text": "Wenn ich Zeit hätte, ___ ich kommen.",
+      "text": "Ich ___ dir helfen, wenn ich könnte.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
           "text": "würde"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "werde"
         },
         {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
           "id": "d",
-          "text": "wollte"
+          "text": "will"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II in conditional: würde kommen",
-      "explanationDetail": "In conditional sentences (wenn... hätte), use würde + infinitive in the main clause. Ich würde kommen (I would come). This expresses an unreal or hypothetical situation.",
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Ich würde dir helfen (I would help you). Konjunktiv II for polite or unreal.",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
+        "konjunktiv",
         "wuerde"
-      ]
+      ],
+      "id": "q12"
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
-      "text": "Er ___ gerne mehr Sport machen.",
+      "text": "Wenn es nicht regnete, ___ wir spazieren.",
       "options": [
         {
           "id": "a",
-          "text": "will"
+          "text": "gingen"
         },
         {
           "id": "b",
+          "text": "gehen"
+        },
+        {
+          "id": "c",
+          "text": "würden gehen"
+        },
+        {
+          "id": "d",
+          "text": "gehen würden"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "würden + infinitive",
+      "explanationDetail": "Wir würden gehen (we would go). Plural: würden.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q13"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ mehr lernen, wenn er Zeit hätte.",
+      "options": [
+        {
+          "id": "a",
           "text": "würde"
         },
         {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for wishes. Er würde machen (he would do). This is more polite or hypothetical than 'er will' (he wants to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Wir ___ gerne ins Kino gehen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wollen"
-        },
-        {
           "id": "b",
-          "text": "würden"
-        },
-        {
-          "id": "c",
-          "text": "werden"
-        },
-        {
-          "id": "d",
-          "text": "wollten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II plural: würden gehen",
-      "explanationDetail": "Würden + infinitive for polite suggestions. Wir würden gehen (we would go). Plural form: würden. This is softer than 'wir wollen' (we want to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q15",
-      "type": "multiple-choice",
-      "text": "Du ___ das nicht tun.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sollst"
-        },
-        {
-          "id": "b",
-          "text": "solltest"
-        },
-        {
-          "id": "c",
-          "text": "wirst"
-        },
-        {
-          "id": "d",
-          "text": "würdest"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sollen: solltest",
-      "explanationDetail": "Solltest (should) is Konjunktiv II of sollen. Du solltest nicht tun (you shouldn't do that). This is advice or recommendation. Softer than 'du sollst' (you're supposed to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "multiple-choice",
-      "text": "Wenn es nicht regnen würde, ___ wir spazieren gehen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "werden"
-        },
-        {
-          "id": "b",
-          "text": "würden"
-        },
-        {
-          "id": "c",
-          "text": "wollen"
-        },
-        {
-          "id": "d",
-          "text": "wollten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würden gehen",
-      "explanationDetail": "In conditional sentences, both clauses use Konjunktiv II. Wir würden gehen (we would go). This expresses an unreal situation (it is raining, so we're not going).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q17",
-      "type": "multiple-choice",
-      "text": "Sie ___ gerne Deutsch lernen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
           "text": "wird"
         },
         {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
           "id": "d",
-          "text": "wollte"
+          "text": "will"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde lernen",
-      "explanationDetail": "Würde + infinitive for wishes. Sie würde lernen (she would like to learn). This is polite or hypothetical. More polite than 'sie will' (she wants to).",
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Er würde mehr lernen (he would learn more).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
+        "konjunktiv",
         "wuerde"
-      ]
+      ],
+      "id": "q14"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Ich ___ das anders machen.",
+      "text": "Wenn du mich fragtest, ___ ich ja sagen.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
           "text": "würde"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "werde"
         },
         {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for hypothetical situations. Ich würde machen (I would do). This suggests an alternative or hypothetical action.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Du ___ mehr schlafen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sollst"
-        },
-        {
-          "id": "b",
-          "text": "solltest"
-        },
-        {
           "id": "c",
-          "text": "wirst"
+          "text": "wurde"
         },
         {
           "id": "d",
-          "text": "würdest"
+          "text": "will"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sollen: solltest",
-      "explanationDetail": "Solltest is Konjunktiv II of sollen. Du solltest schlafen (you should sleep). This is advice. More polite than 'du sollst'.",
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Ich würde ja sagen (I would say yes).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q15"
     },
     {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Wenn ich reich wäre, ___ ich ein Haus kaufen.",
+      "text": "Sie ___ gerne reisen, wenn sie Geld hätte.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
           "text": "würde"
         },
         {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde kaufen",
-      "explanationDetail": "In conditional sentences with 'wenn', use würde + infinitive. Ich würde kaufen (I would buy). This is an unreal condition (I'm not rich).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Ich ___ gerne nach Berlin fahren.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
           "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde + infinitive",
-      "explanationDetail": "Würde + infinitive expresses polite wishes or hypothetical situations. Ich würde fahren (I would go). Conjugation: ich würde, du würdest, er/sie würde, wir würden, ihr würdet, sie würden.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Wenn ich Zeit hätte, ___ ich kommen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II in conditional: würde kommen",
-      "explanationDetail": "In conditional sentences (wenn... hätte), use würde + infinitive in the main clause. Ich würde kommen (I would come). This expresses an unreal or hypothetical situation.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Er ___ gerne mehr Sport machen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for wishes. Er würde machen (he would do). This is more polite or hypothetical than 'er will' (he wants to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "multiple-choice",
-      "text": "Wir ___ gerne ins Kino gehen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wollen"
-        },
-        {
-          "id": "b",
-          "text": "würden"
-        },
-        {
-          "id": "c",
-          "text": "werden"
-        },
-        {
-          "id": "d",
-          "text": "wollten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II plural: würden gehen",
-      "explanationDetail": "Würden + infinitive for polite suggestions. Wir würden gehen (we would go). Plural form: würden. This is softer than 'wir wollen' (we want to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Du ___ das nicht tun.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sollst"
-        },
-        {
-          "id": "b",
-          "text": "solltest"
-        },
-        {
-          "id": "c",
-          "text": "wirst"
-        },
-        {
-          "id": "d",
-          "text": "würdest"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sollen: solltest",
-      "explanationDetail": "Solltest (should) is Konjunktiv II of sollen. Du solltest nicht tun (you shouldn't do that). This is advice or recommendation. Softer than 'du sollst' (you're supposed to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "multiple-choice",
-      "text": "Wenn es nicht regnen würde, ___ wir spazieren gehen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "werden"
-        },
-        {
-          "id": "b",
-          "text": "würden"
-        },
-        {
-          "id": "c",
-          "text": "wollen"
-        },
-        {
-          "id": "d",
-          "text": "wollten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würden gehen",
-      "explanationDetail": "In conditional sentences, both clauses use Konjunktiv II. Wir würden gehen (we would go). This expresses an unreal situation (it is raining, so we're not going).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Sie ___ gerne Deutsch lernen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
           "text": "wird"
         },
         {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde lernen",
-      "explanationDetail": "Würde + infinitive for wishes. Sie würde lernen (she would like to learn). This is polite or hypothetical. More polite than 'sie will' (she wants to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Ich ___ das anders machen.",
-      "options": [
+          "id": "c",
+          "text": "wurde"
+        },
         {
-          "id": "a",
+          "id": "d",
           "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for hypothetical situations. Ich würde machen (I would do). This suggests an alternative or hypothetical action.",
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Sie würde gerne reisen (she would like to travel).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
+        "konjunktiv",
         "wuerde"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Du ___ mehr schlafen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sollst"
-        },
-        {
-          "id": "b",
-          "text": "solltest"
-        },
-        {
-          "id": "c",
-          "text": "wirst"
-        },
-        {
-          "id": "d",
-          "text": "würdest"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sollen: solltest",
-      "explanationDetail": "Solltest is Konjunktiv II of sollen. Du solltest schlafen (you should sleep). This is advice. More polite than 'du sollst'.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "modal-verbs"
-      ]
+      "id": "q16"
     },
     {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Wenn ich reich wäre, ___ ich ein Haus kaufen.",
+      "text": "Wir ___ dich einladen, wenn wir wüssten wo du wohnst.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde kaufen",
-      "explanationDetail": "In conditional sentences with 'wenn', use würde + infinitive. Ich würde kaufen (I would buy). This is an unreal condition (I'm not rich).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Ich ___ gerne nach Berlin fahren.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde + infinitive",
-      "explanationDetail": "Würde + infinitive expresses polite wishes or hypothetical situations. Ich würde fahren (I would go). Conjugation: ich würde, du würdest, er/sie würde, wir würden, ihr würdet, sie würden.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q32",
-      "type": "multiple-choice",
-      "text": "Wenn ich Zeit hätte, ___ ich kommen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II in conditional: würde kommen",
-      "explanationDetail": "In conditional sentences (wenn... hätte), use würde + infinitive in the main clause. Ich würde kommen (I would come). This expresses an unreal or hypothetical situation.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Er ___ gerne mehr Sport machen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for wishes. Er würde machen (he would do). This is more polite or hypothetical than 'er will' (he wants to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "multiple-choice",
-      "text": "Wir ___ gerne ins Kino gehen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wollen"
-        },
-        {
-          "id": "b",
           "text": "würden"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "werden"
         },
         {
-          "id": "d",
-          "text": "wollten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II plural: würden gehen",
-      "explanationDetail": "Würden + infinitive for polite suggestions. Wir würden gehen (we would go). Plural form: würden. This is softer than 'wir wollen' (we want to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Du ___ das nicht tun.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sollst"
-        },
-        {
-          "id": "b",
-          "text": "solltest"
-        },
-        {
           "id": "c",
-          "text": "wirst"
+          "text": "wurden"
         },
         {
           "id": "d",
-          "text": "würdest"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sollen: solltest",
-      "explanationDetail": "Solltest (should) is Konjunktiv II of sollen. Du solltest nicht tun (you shouldn't do that). This is advice or recommendation. Softer than 'du sollst' (you're supposed to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Wenn es nicht regnen würde, ___ wir spazieren gehen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "werden"
-        },
-        {
-          "id": "b",
-          "text": "würden"
-        },
-        {
-          "id": "c",
           "text": "wollen"
-        },
-        {
-          "id": "d",
-          "text": "wollten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würden gehen",
-      "explanationDetail": "In conditional sentences, both clauses use Konjunktiv II. Wir würden gehen (we would go). This expresses an unreal situation (it is raining, so we're not going).",
+      "correctAnswerId": "a",
+      "explanation": "würden + infinitive",
+      "explanationDetail": "Wir würden dich einladen (we would invite you).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
+        "konjunktiv",
         "wuerde"
-      ]
+      ],
+      "id": "q17"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Sie ___ gerne Deutsch lernen.",
+      "text": "Wenn ich du wäre, ___ ich das nicht tun.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
           "text": "würde"
         },
         {
+          "id": "b",
+          "text": "werde"
+        },
+        {
           "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Ich würde das nicht tun (I wouldn't do that). Advice in Konjunktiv II.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q18"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du ___ besser schlafen, wenn du weniger Kaffee trinkst.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würdest"
+        },
+        {
+          "id": "b",
+          "text": "wirst"
+        },
+        {
+          "id": "c",
+          "text": "wurdest"
+        },
+        {
+          "id": "d",
+          "text": "willst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würdest + infinitive",
+      "explanationDetail": "Du würdest besser schlafen (you would sleep better).",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr ___ das verstehen, wenn ihr aufpasst.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würdet"
+        },
+        {
+          "id": "b",
+          "text": "werdet"
+        },
+        {
+          "id": "c",
+          "text": "wurdet"
+        },
+        {
+          "id": "d",
+          "text": "wollt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würdet + infinitive",
+      "explanationDetail": "Ihr würdet das verstehen (you would understand that).",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q20"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "werde"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Ich würde eine Weltreise machen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q21"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
           "text": "wird"
         },
         {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde lernen",
-      "explanationDetail": "Würde + infinitive for wishes. Sie würde lernen (she would like to learn). This is polite or hypothetical. More polite than 'sie will' (she wants to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "multiple-choice",
-      "text": "Ich ___ das anders machen.",
-      "options": [
+          "id": "c",
+          "text": "wurde"
+        },
         {
-          "id": "a",
+          "id": "d",
           "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for hypothetical situations. Ich würde machen (I would do). This suggests an alternative or hypothetical action.",
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Er würde nicht kommen.",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
+        "konjunktiv",
         "wuerde"
-      ]
+      ],
+      "id": "q22"
     },
     {
-      "id": "q39",
       "type": "multiple-choice",
-      "text": "Du ___ mehr schlafen.",
+      "text": "Was ___ du an meiner Stelle tun?",
       "options": [
         {
           "id": "a",
-          "text": "sollst"
+          "text": "würdest"
         },
         {
           "id": "b",
-          "text": "solltest"
-        },
-        {
-          "id": "c",
           "text": "wirst"
         },
         {
+          "id": "c",
+          "text": "wurdest"
+        },
+        {
           "id": "d",
-          "text": "würdest"
+          "text": "willst"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sollen: solltest",
-      "explanationDetail": "Solltest is Konjunktiv II of sollen. Du solltest schlafen (you should sleep). This is advice. More polite than 'du sollst'.",
+      "correctAnswerId": "a",
+      "explanation": "würdest",
+      "explanationDetail": "Was würdest du tun? (What would you do?)",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q23"
     },
     {
-      "id": "q40",
       "type": "multiple-choice",
-      "text": "Wenn ich reich wäre, ___ ich ein Haus kaufen.",
+      "text": "Sie ___ sich freuen, wenn du kämest.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
           "text": "würde"
         },
         {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde kaufen",
-      "explanationDetail": "In conditional sentences with 'wenn', use würde + infinitive. Ich würde kaufen (I would buy). This is an unreal condition (I'm not rich).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Ich ___ gerne nach Berlin fahren.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
           "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde + infinitive",
-      "explanationDetail": "Würde + infinitive expresses polite wishes or hypothetical situations. Ich würde fahren (I would go). Conjugation: ich würde, du würdest, er/sie würde, wir würden, ihr würdet, sie würden.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Wenn ich Zeit hätte, ___ ich kommen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II in conditional: würde kommen",
-      "explanationDetail": "In conditional sentences (wenn... hätte), use würde + infinitive in the main clause. Ich würde kommen (I would come). This expresses an unreal or hypothetical situation.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Er ___ gerne mehr Sport machen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "werde"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for wishes. Er würde machen (he would do). This is more polite or hypothetical than 'er will' (he wants to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Wir ___ gerne ins Kino gehen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wollen"
-        },
-        {
-          "id": "b",
-          "text": "würden"
-        },
-        {
-          "id": "c",
-          "text": "werden"
-        },
-        {
-          "id": "d",
-          "text": "wollten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II plural: würden gehen",
-      "explanationDetail": "Würden + infinitive for polite suggestions. Wir würden gehen (we would go). Plural form: würden. This is softer than 'wir wollen' (we want to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Du ___ das nicht tun.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sollst"
-        },
-        {
-          "id": "b",
-          "text": "solltest"
-        },
-        {
-          "id": "c",
-          "text": "wirst"
-        },
-        {
-          "id": "d",
-          "text": "würdest"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sollen: solltest",
-      "explanationDetail": "Solltest (should) is Konjunktiv II of sollen. Du solltest nicht tun (you shouldn't do that). This is advice or recommendation. Softer than 'du sollst' (you're supposed to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Wenn es nicht regnen würde, ___ wir spazieren gehen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "werden"
-        },
-        {
-          "id": "b",
-          "text": "würden"
-        },
-        {
-          "id": "c",
-          "text": "wollen"
-        },
-        {
-          "id": "d",
-          "text": "wollten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würden gehen",
-      "explanationDetail": "In conditional sentences, both clauses use Konjunktiv II. Wir würden gehen (we would go). This expresses an unreal situation (it is raining, so we're not going).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Sie ___ gerne Deutsch lernen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
           "text": "wird"
         },
         {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
           "id": "d",
-          "text": "wollte"
+          "text": "will"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde lernen",
-      "explanationDetail": "Würde + infinitive for wishes. Sie würde lernen (she would like to learn). This is polite or hypothetical. More polite than 'sie will' (she wants to).",
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Sie würde sich freuen.",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
+        "konjunktiv",
         "wuerde"
-      ]
+      ],
+      "id": "q24"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Ich ___ das anders machen.",
+      "text": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
       "options": [
         {
           "id": "a",
-          "text": "will"
+          "text": "würden"
         },
         {
           "id": "b",
+          "text": "werden"
+        },
+        {
+          "id": "c",
+          "text": "wurden"
+        },
+        {
+          "id": "d",
+          "text": "wollen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würden + infinitive",
+      "explanationDetail": "Wir würden ein Haus kaufen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q25"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+      "options": [
+        {
+          "id": "a",
           "text": "würde"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "werde"
         },
         {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
           "id": "d",
-          "text": "wollte"
+          "text": "will"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for hypothetical situations. Ich würde machen (I would do). This suggests an alternative or hypothetical action.",
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Ich würde eine Weltreise machen.",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
+        "konjunktiv",
         "wuerde"
-      ]
+      ],
+      "id": "q26"
     },
     {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Du ___ mehr schlafen.",
+      "text": "Er ___ nicht kommen, auch wenn du ihn bätest.",
       "options": [
         {
           "id": "a",
-          "text": "sollst"
+          "text": "würde"
         },
         {
           "id": "b",
-          "text": "solltest"
+          "text": "wird"
         },
         {
           "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Er würde nicht kommen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ___ du an meiner Stelle tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "würdest"
+        },
+        {
+          "id": "b",
           "text": "wirst"
         },
         {
+          "id": "c",
+          "text": "wurdest"
+        },
+        {
           "id": "d",
-          "text": "würdest"
+          "text": "willst"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sollen: solltest",
-      "explanationDetail": "Solltest is Konjunktiv II of sollen. Du solltest schlafen (you should sleep). This is advice. More polite than 'du sollst'.",
+      "correctAnswerId": "a",
+      "explanation": "würdest",
+      "explanationDetail": "Was würdest du tun? (What would you do?)",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q28"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Wenn ich reich wäre, ___ ich ein Haus kaufen.",
+      "text": "Sie ___ sich freuen, wenn du kämest.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
           "text": "würde"
         },
         {
+          "id": "b",
+          "text": "wird"
+        },
+        {
           "id": "c",
-          "text": "werde"
+          "text": "wurde"
         },
         {
           "id": "d",
-          "text": "wollte"
+          "text": "will"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde kaufen",
-      "explanationDetail": "In conditional sentences with 'wenn', use würde + infinitive. Ich würde kaufen (I would buy). This is an unreal condition (I'm not rich).",
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Sie würde sich freuen.",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
+        "konjunktiv",
         "wuerde"
-      ]
+      ],
+      "id": "q29"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würden"
+        },
+        {
+          "id": "b",
+          "text": "werden"
+        },
+        {
+          "id": "c",
+          "text": "wurden"
+        },
+        {
+          "id": "d",
+          "text": "wollen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würden + infinitive",
+      "explanationDetail": "Wir würden ein Haus kaufen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q30"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "werde"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Ich würde eine Weltreise machen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q31"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "wird"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Er würde nicht kommen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ___ du an meiner Stelle tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "würdest"
+        },
+        {
+          "id": "b",
+          "text": "wirst"
+        },
+        {
+          "id": "c",
+          "text": "wurdest"
+        },
+        {
+          "id": "d",
+          "text": "willst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würdest",
+      "explanationDetail": "Was würdest du tun? (What would you do?)",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ sich freuen, wenn du kämest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "wird"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Sie würde sich freuen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würden"
+        },
+        {
+          "id": "b",
+          "text": "werden"
+        },
+        {
+          "id": "c",
+          "text": "wurden"
+        },
+        {
+          "id": "d",
+          "text": "wollen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würden + infinitive",
+      "explanationDetail": "Wir würden ein Haus kaufen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "werde"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Ich würde eine Weltreise machen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "wird"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Er würde nicht kommen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ___ du an meiner Stelle tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "würdest"
+        },
+        {
+          "id": "b",
+          "text": "wirst"
+        },
+        {
+          "id": "c",
+          "text": "wurdest"
+        },
+        {
+          "id": "d",
+          "text": "willst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würdest",
+      "explanationDetail": "Was würdest du tun? (What would you do?)",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ sich freuen, wenn du kämest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "wird"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Sie würde sich freuen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würden"
+        },
+        {
+          "id": "b",
+          "text": "werden"
+        },
+        {
+          "id": "c",
+          "text": "wurden"
+        },
+        {
+          "id": "d",
+          "text": "wollen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würden + infinitive",
+      "explanationDetail": "Wir würden ein Haus kaufen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "werde"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Ich würde eine Weltreise machen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "wird"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Er würde nicht kommen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ___ du an meiner Stelle tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "würdest"
+        },
+        {
+          "id": "b",
+          "text": "wirst"
+        },
+        {
+          "id": "c",
+          "text": "wurdest"
+        },
+        {
+          "id": "d",
+          "text": "willst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würdest",
+      "explanationDetail": "Was würdest du tun? (What would you do?)",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ sich freuen, wenn du kämest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "wird"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Sie würde sich freuen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würden"
+        },
+        {
+          "id": "b",
+          "text": "werden"
+        },
+        {
+          "id": "c",
+          "text": "wurden"
+        },
+        {
+          "id": "d",
+          "text": "wollen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würden + infinitive",
+      "explanationDetail": "Wir würden ein Haus kaufen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "werde"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Ich würde eine Weltreise machen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "wird"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Er würde nicht kommen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ___ du an meiner Stelle tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "würdest"
+        },
+        {
+          "id": "b",
+          "text": "wirst"
+        },
+        {
+          "id": "c",
+          "text": "wurdest"
+        },
+        {
+          "id": "d",
+          "text": "willst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würdest",
+      "explanationDetail": "Was würdest du tun? (What would you do?)",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ sich freuen, wenn du kämest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würde"
+        },
+        {
+          "id": "b",
+          "text": "wird"
+        },
+        {
+          "id": "c",
+          "text": "wurde"
+        },
+        {
+          "id": "d",
+          "text": "will"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würde + infinitive",
+      "explanationDetail": "Sie würde sich freuen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "würden"
+        },
+        {
+          "id": "b",
+          "text": "werden"
+        },
+        {
+          "id": "c",
+          "text": "wurden"
+        },
+        {
+          "id": "d",
+          "text": "wollen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "würden + infinitive",
+      "explanationDetail": "Wir würden ein Haus kaufen.",
+      "tags": [
+        "konjunktiv",
+        "wuerde"
+      ],
+      "id": "q50"
     }
   ]
 }

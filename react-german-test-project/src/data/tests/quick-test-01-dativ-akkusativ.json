@@ -256,9 +256,8 @@
       ]
     },
     {
-      "id": "q9",
       "type": "multiple-choice",
-      "text": "Ich helfe ___ Freund.",
+      "text": "Ich danke ___ Lehrer.",
       "options": [
         {
           "id": "a",
@@ -278,18 +277,18 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "helfen + Dativ: dem Freund",
-      "explanationDetail": "Helfen takes Dativ. Masculine Dativ: dem. Ich helfe dem Freund (I help the friend). Verbs that take Dativ: helfen, danken, gefallen, gehören.",
+      "explanation": "danken + Dativ: dem",
+      "explanationDetail": "Danken takes Dativ. Ich danke dem Lehrer. Masculine Dativ: dem.",
       "tags": [
         "cases",
         "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q9"
     },
     {
-      "id": "q10",
       "type": "multiple-choice",
-      "text": "Ich sehe ___ Mann.",
+      "text": "Er gibt ___ Kind das Buch.",
       "options": [
         {
           "id": "a",
@@ -305,115 +304,22 @@
         },
         {
           "id": "d",
-          "text": "des"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sehen + Akkusativ: den Mann",
-      "explanationDetail": "Sehen takes Akkusativ. Masculine Akkusativ: den. Ich sehe den Mann (I see the man). Most verbs take Akkusativ for direct objects.",
-      "tags": [
-        "cases",
-        "akkusativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q11",
-      "type": "multiple-choice",
-      "text": "Das Buch gehört ___ Lehrerin.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "den"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "gehören + Dativ: der Lehrerin",
-      "explanationDetail": "Gehören takes Dativ. Feminine Dativ: der. Das Buch gehört der Lehrerin (the book belongs to the teacher). Gehören always takes Dativ.",
-      "tags": [
-        "cases",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q12",
-      "type": "multiple-choice",
-      "text": "Ich kaufe ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
           "text": "das"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "den"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "kaufen + Akkusativ: das Auto",
-      "explanationDetail": "Kaufen takes Akkusativ. Neuter Akkusativ: das (no change). Ich kaufe das Auto (I buy the car). Kaufen is a transitive verb with Akkusativ object.",
-      "tags": [
-        "cases",
-        "akkusativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q13",
-      "type": "multiple-choice",
-      "text": "Ich danke ___ Frau.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "den"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "danken + Dativ: der Frau",
-      "explanationDetail": "Danken takes Dativ. Feminine Dativ: der. Ich danke der Frau (I thank the woman). Danken is one of the common Dativ verbs.",
+      "correctAnswerId": "c",
+      "explanation": "geben + Dativ + Akkusativ",
+      "explanationDetail": "Geben takes Dativ (recipient) and Akkusativ (thing). Dem Kind (neuter Dativ).",
       "tags": [
         "cases",
         "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q10"
     },
     {
-      "id": "q14",
       "type": "multiple-choice",
-      "text": "Ich lese ___ Buch.",
+      "text": "Sie hilft ___ Frau.",
       "options": [
         {
           "id": "a",
@@ -421,38 +327,317 @@
         },
         {
           "id": "b",
+          "text": "die"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "helfen + Dativ: der",
+      "explanationDetail": "Helfen takes Dativ. Der Frau (feminine Dativ).",
+      "tags": [
+        "cases",
+        "dativ",
+        "quick-practice"
+      ],
+      "id": "q11"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir sehen ___ Mann.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "sehen + Akkusativ: den",
+      "explanationDetail": "Sehen takes Akkusativ. Den Mann (masculine Akkusativ).",
+      "tags": [
+        "cases",
+        "akkusativ",
+        "quick-practice"
+      ],
+      "id": "q12"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich schreibe ___ Freundin.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "die"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "schreiben + Dativ: der",
+      "explanationDetail": "Schreiben takes Dativ. Der Freundin (feminine Dativ).",
+      "tags": [
+        "cases",
+        "dativ",
+        "quick-practice"
+      ],
+      "id": "q13"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er kauft ___ Apfel.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "kaufen + Akkusativ: den",
+      "explanationDetail": "Kaufen takes Akkusativ. Den Apfel (masculine Akkusativ).",
+      "tags": [
+        "cases",
+        "akkusativ",
+        "quick-practice"
+      ],
+      "id": "q14"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du antwortest ___ Lehrer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "antworten + Dativ: dem",
+      "explanationDetail": "Antworten takes Dativ. Dem Lehrer.",
+      "tags": [
+        "cases",
+        "dativ",
+        "quick-practice"
+      ],
+      "id": "q15"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie trifft ___ Freund.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "treffen + Akkusativ: den",
+      "explanationDetail": "Treffen takes Akkusativ. Den Freund.",
+      "tags": [
+        "cases",
+        "akkusativ",
+        "quick-practice"
+      ],
+      "id": "q16"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich gratuliere ___ Kollegin.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "die"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dem"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "gratulieren + Dativ",
+      "explanationDetail": "Gratulieren takes Dativ. Der Kollegin.",
+      "tags": [
+        "cases",
+        "dativ",
+        "quick-practice"
+      ],
+      "id": "q17"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er fragt ___ Nachbarn.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "fragen + Akkusativ",
+      "explanationDetail": "Fragen takes Akkusativ. Den Nachbarn.",
+      "tags": [
+        "cases",
+        "akkusativ",
+        "quick-practice"
+      ],
+      "id": "q18"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir folgen ___ Mann.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "folgen + Dativ",
+      "explanationDetail": "Folgen takes Dativ. Dem Mann.",
+      "tags": [
+        "cases",
+        "dativ",
+        "quick-practice"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie liest ___ Buch.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
           "text": "das"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "den"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "lesen + Akkusativ: das Buch",
-      "explanationDetail": "Lesen takes Akkusativ. Neuter Akkusativ: das. Ich lese das Buch (I read the book). Reading, seeing, buying all take Akkusativ.",
+      "correctAnswerId": "d",
+      "explanation": "lesen + Akkusativ neuter",
+      "explanationDetail": "Lesen takes Akkusativ. Das Buch (neuter).",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q20"
     },
     {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Der Film gefällt ___ Kindern.",
+      "text": "Ich gratuliere ___ Kollegin. (12)",
       "options": [
         {
           "id": "a",
-          "text": "die"
+          "text": "der"
         },
         {
           "id": "b",
-          "text": "der"
+          "text": "die"
         },
         {
           "id": "c",
@@ -463,20 +648,19 @@
           "text": "dem"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "gefallen + Dativ: den Kindern",
-      "explanationDetail": "Gefallen takes Dativ. Plural Dativ: den (+ -n ending on noun). Der Film gefällt den Kindern (the children like the film). Gefallen is a Dativ verb.",
+      "correctAnswerId": "a",
+      "explanation": "gratulieren + Dativ",
+      "explanationDetail": "Gratulieren takes Dativ. Der Kollegin.",
       "tags": [
         "cases",
         "dativ",
-        "plural",
         "quick-practice"
-      ]
+      ],
+      "id": "q21"
     },
     {
-      "id": "q16",
       "type": "multiple-choice",
-      "text": "Ich kenne ___ Lehrer.",
+      "text": "Er fragt ___ Nachbarn. (13)",
       "options": [
         {
           "id": "a",
@@ -496,18 +680,18 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "kennen + Akkusativ: den Lehrer",
-      "explanationDetail": "Kennen takes Akkusativ. Masculine Akkusativ: den. Ich kenne den Lehrer (I know the teacher). Kennen is a transitive verb with Akkusativ.",
+      "explanation": "fragen + Akkusativ",
+      "explanationDetail": "Fragen takes Akkusativ. Den Nachbarn.",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q22"
     },
     {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Ich helfe ___ Freund.",
+      "text": "Wir folgen ___ Mann. (14)",
       "options": [
         {
           "id": "a",
@@ -527,18 +711,18 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "helfen + Dativ: dem Freund",
-      "explanationDetail": "Helfen takes Dativ. Masculine Dativ: dem. Ich helfe dem Freund (I help the friend). Verbs that take Dativ: helfen, danken, gefallen, gehören.",
+      "explanation": "folgen + Dativ",
+      "explanationDetail": "Folgen takes Dativ. Dem Mann.",
       "tags": [
         "cases",
         "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q23"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Ich sehe ___ Mann.",
+      "text": "Sie liest ___ Buch. (15)",
       "options": [
         {
           "id": "a",
@@ -554,92 +738,30 @@
         },
         {
           "id": "d",
-          "text": "des"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sehen + Akkusativ: den Mann",
-      "explanationDetail": "Sehen takes Akkusativ. Masculine Akkusativ: den. Ich sehe den Mann (I see the man). Most verbs take Akkusativ for direct objects.",
-      "tags": [
-        "cases",
-        "akkusativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Das Buch gehört ___ Lehrerin.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "den"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "gehören + Dativ: der Lehrerin",
-      "explanationDetail": "Gehören takes Dativ. Feminine Dativ: der. Das Buch gehört der Lehrerin (the book belongs to the teacher). Gehören always takes Dativ.",
-      "tags": [
-        "cases",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Ich kaufe ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
           "text": "das"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "den"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "kaufen + Akkusativ: das Auto",
-      "explanationDetail": "Kaufen takes Akkusativ. Neuter Akkusativ: das (no change). Ich kaufe das Auto (I buy the car). Kaufen is a transitive verb with Akkusativ object.",
+      "correctAnswerId": "d",
+      "explanation": "lesen + Akkusativ neuter",
+      "explanationDetail": "Lesen takes Akkusativ. Das Buch (neuter).",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q24"
     },
     {
-      "id": "q21",
       "type": "multiple-choice",
-      "text": "Ich danke ___ Frau.",
+      "text": "Ich gratuliere ___ Kollegin. (16)",
       "options": [
         {
           "id": "a",
-          "text": "die"
+          "text": "der"
         },
         {
           "id": "b",
-          "text": "der"
+          "text": "die"
         },
         {
           "id": "c",
@@ -650,19 +772,19 @@
           "text": "dem"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "danken + Dativ: der Frau",
-      "explanationDetail": "Danken takes Dativ. Feminine Dativ: der. Ich danke der Frau (I thank the woman). Danken is one of the common Dativ verbs.",
+      "correctAnswerId": "a",
+      "explanation": "gratulieren + Dativ",
+      "explanationDetail": "Gratulieren takes Dativ. Der Kollegin.",
       "tags": [
         "cases",
         "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q25"
     },
     {
-      "id": "q22",
       "type": "multiple-choice",
-      "text": "Ich lese ___ Buch.",
+      "text": "Er fragt ___ Nachbarn. (17)",
       "options": [
         {
           "id": "a",
@@ -670,38 +792,100 @@
         },
         {
           "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "fragen + Akkusativ",
+      "explanationDetail": "Fragen takes Akkusativ. Den Nachbarn.",
+      "tags": [
+        "cases",
+        "akkusativ",
+        "quick-practice"
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir folgen ___ Mann. (18)",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "folgen + Dativ",
+      "explanationDetail": "Folgen takes Dativ. Dem Mann.",
+      "tags": [
+        "cases",
+        "dativ",
+        "quick-practice"
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie liest ___ Buch. (19)",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
           "text": "das"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "den"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "lesen + Akkusativ: das Buch",
-      "explanationDetail": "Lesen takes Akkusativ. Neuter Akkusativ: das. Ich lese das Buch (I read the book). Reading, seeing, buying all take Akkusativ.",
+      "correctAnswerId": "d",
+      "explanation": "lesen + Akkusativ neuter",
+      "explanationDetail": "Lesen takes Akkusativ. Das Buch (neuter).",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q28"
     },
     {
-      "id": "q23",
       "type": "multiple-choice",
-      "text": "Der Film gefällt ___ Kindern.",
+      "text": "Ich gratuliere ___ Kollegin. (20)",
       "options": [
         {
           "id": "a",
-          "text": "die"
+          "text": "der"
         },
         {
           "id": "b",
-          "text": "der"
+          "text": "die"
         },
         {
           "id": "c",
@@ -712,20 +896,19 @@
           "text": "dem"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "gefallen + Dativ: den Kindern",
-      "explanationDetail": "Gefallen takes Dativ. Plural Dativ: den (+ -n ending on noun). Der Film gefällt den Kindern (the children like the film). Gefallen is a Dativ verb.",
+      "correctAnswerId": "a",
+      "explanation": "gratulieren + Dativ",
+      "explanationDetail": "Gratulieren takes Dativ. Der Kollegin.",
       "tags": [
         "cases",
         "dativ",
-        "plural",
         "quick-practice"
-      ]
+      ],
+      "id": "q29"
     },
     {
-      "id": "q24",
       "type": "multiple-choice",
-      "text": "Ich kenne ___ Lehrer.",
+      "text": "Er fragt ___ Nachbarn. (21)",
       "options": [
         {
           "id": "a",
@@ -745,18 +928,18 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "kennen + Akkusativ: den Lehrer",
-      "explanationDetail": "Kennen takes Akkusativ. Masculine Akkusativ: den. Ich kenne den Lehrer (I know the teacher). Kennen is a transitive verb with Akkusativ.",
+      "explanation": "fragen + Akkusativ",
+      "explanationDetail": "Fragen takes Akkusativ. Den Nachbarn.",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q30"
     },
     {
-      "id": "q25",
       "type": "multiple-choice",
-      "text": "Ich helfe ___ Freund.",
+      "text": "Wir folgen ___ Mann. (22)",
       "options": [
         {
           "id": "a",
@@ -776,18 +959,18 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "helfen + Dativ: dem Freund",
-      "explanationDetail": "Helfen takes Dativ. Masculine Dativ: dem. Ich helfe dem Freund (I help the friend). Verbs that take Dativ: helfen, danken, gefallen, gehören.",
+      "explanation": "folgen + Dativ",
+      "explanationDetail": "Folgen takes Dativ. Dem Mann.",
       "tags": [
         "cases",
         "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q31"
     },
     {
-      "id": "q26",
       "type": "multiple-choice",
-      "text": "Ich sehe ___ Mann.",
+      "text": "Sie liest ___ Buch. (23)",
       "options": [
         {
           "id": "a",
@@ -803,92 +986,30 @@
         },
         {
           "id": "d",
-          "text": "des"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sehen + Akkusativ: den Mann",
-      "explanationDetail": "Sehen takes Akkusativ. Masculine Akkusativ: den. Ich sehe den Mann (I see the man). Most verbs take Akkusativ for direct objects.",
-      "tags": [
-        "cases",
-        "akkusativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Das Buch gehört ___ Lehrerin.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "den"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "gehören + Dativ: der Lehrerin",
-      "explanationDetail": "Gehören takes Dativ. Feminine Dativ: der. Das Buch gehört der Lehrerin (the book belongs to the teacher). Gehören always takes Dativ.",
-      "tags": [
-        "cases",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Ich kaufe ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
           "text": "das"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "den"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "kaufen + Akkusativ: das Auto",
-      "explanationDetail": "Kaufen takes Akkusativ. Neuter Akkusativ: das (no change). Ich kaufe das Auto (I buy the car). Kaufen is a transitive verb with Akkusativ object.",
+      "correctAnswerId": "d",
+      "explanation": "lesen + Akkusativ neuter",
+      "explanationDetail": "Lesen takes Akkusativ. Das Buch (neuter).",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q32"
     },
     {
-      "id": "q29",
       "type": "multiple-choice",
-      "text": "Ich danke ___ Frau.",
+      "text": "Ich gratuliere ___ Kollegin. (24)",
       "options": [
         {
           "id": "a",
-          "text": "die"
+          "text": "der"
         },
         {
           "id": "b",
-          "text": "der"
+          "text": "die"
         },
         {
           "id": "c",
@@ -899,19 +1020,19 @@
           "text": "dem"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "danken + Dativ: der Frau",
-      "explanationDetail": "Danken takes Dativ. Feminine Dativ: der. Ich danke der Frau (I thank the woman). Danken is one of the common Dativ verbs.",
+      "correctAnswerId": "a",
+      "explanation": "gratulieren + Dativ",
+      "explanationDetail": "Gratulieren takes Dativ. Der Kollegin.",
       "tags": [
         "cases",
         "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q33"
     },
     {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Ich lese ___ Buch.",
+      "text": "Er fragt ___ Nachbarn. (25)",
       "options": [
         {
           "id": "a",
@@ -919,38 +1040,100 @@
         },
         {
           "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "fragen + Akkusativ",
+      "explanationDetail": "Fragen takes Akkusativ. Den Nachbarn.",
+      "tags": [
+        "cases",
+        "akkusativ",
+        "quick-practice"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir folgen ___ Mann. (26)",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "folgen + Dativ",
+      "explanationDetail": "Folgen takes Dativ. Dem Mann.",
+      "tags": [
+        "cases",
+        "dativ",
+        "quick-practice"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie liest ___ Buch. (27)",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
           "text": "das"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "den"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "lesen + Akkusativ: das Buch",
-      "explanationDetail": "Lesen takes Akkusativ. Neuter Akkusativ: das. Ich lese das Buch (I read the book). Reading, seeing, buying all take Akkusativ.",
+      "correctAnswerId": "d",
+      "explanation": "lesen + Akkusativ neuter",
+      "explanationDetail": "Lesen takes Akkusativ. Das Buch (neuter).",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q36"
     },
     {
-      "id": "q31",
       "type": "multiple-choice",
-      "text": "Der Film gefällt ___ Kindern.",
+      "text": "Ich gratuliere ___ Kollegin. (28)",
       "options": [
         {
           "id": "a",
-          "text": "die"
+          "text": "der"
         },
         {
           "id": "b",
-          "text": "der"
+          "text": "die"
         },
         {
           "id": "c",
@@ -961,20 +1144,19 @@
           "text": "dem"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "gefallen + Dativ: den Kindern",
-      "explanationDetail": "Gefallen takes Dativ. Plural Dativ: den (+ -n ending on noun). Der Film gefällt den Kindern (the children like the film). Gefallen is a Dativ verb.",
+      "correctAnswerId": "a",
+      "explanation": "gratulieren + Dativ",
+      "explanationDetail": "Gratulieren takes Dativ. Der Kollegin.",
       "tags": [
         "cases",
         "dativ",
-        "plural",
         "quick-practice"
-      ]
+      ],
+      "id": "q37"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Ich kenne ___ Lehrer.",
+      "text": "Er fragt ___ Nachbarn. (29)",
       "options": [
         {
           "id": "a",
@@ -994,18 +1176,18 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "kennen + Akkusativ: den Lehrer",
-      "explanationDetail": "Kennen takes Akkusativ. Masculine Akkusativ: den. Ich kenne den Lehrer (I know the teacher). Kennen is a transitive verb with Akkusativ.",
+      "explanation": "fragen + Akkusativ",
+      "explanationDetail": "Fragen takes Akkusativ. Den Nachbarn.",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q38"
     },
     {
-      "id": "q33",
       "type": "multiple-choice",
-      "text": "Ich helfe ___ Freund.",
+      "text": "Wir folgen ___ Mann. (30)",
       "options": [
         {
           "id": "a",
@@ -1025,18 +1207,18 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "helfen + Dativ: dem Freund",
-      "explanationDetail": "Helfen takes Dativ. Masculine Dativ: dem. Ich helfe dem Freund (I help the friend). Verbs that take Dativ: helfen, danken, gefallen, gehören.",
+      "explanation": "folgen + Dativ",
+      "explanationDetail": "Folgen takes Dativ. Dem Mann.",
       "tags": [
         "cases",
         "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q39"
     },
     {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Ich sehe ___ Mann.",
+      "text": "Sie liest ___ Buch. (31)",
       "options": [
         {
           "id": "a",
@@ -1052,92 +1234,30 @@
         },
         {
           "id": "d",
-          "text": "des"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sehen + Akkusativ: den Mann",
-      "explanationDetail": "Sehen takes Akkusativ. Masculine Akkusativ: den. Ich sehe den Mann (I see the man). Most verbs take Akkusativ for direct objects.",
-      "tags": [
-        "cases",
-        "akkusativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Das Buch gehört ___ Lehrerin.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "den"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "gehören + Dativ: der Lehrerin",
-      "explanationDetail": "Gehören takes Dativ. Feminine Dativ: der. Das Buch gehört der Lehrerin (the book belongs to the teacher). Gehören always takes Dativ.",
-      "tags": [
-        "cases",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Ich kaufe ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
           "text": "das"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "den"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "kaufen + Akkusativ: das Auto",
-      "explanationDetail": "Kaufen takes Akkusativ. Neuter Akkusativ: das (no change). Ich kaufe das Auto (I buy the car). Kaufen is a transitive verb with Akkusativ object.",
+      "correctAnswerId": "d",
+      "explanation": "lesen + Akkusativ neuter",
+      "explanationDetail": "Lesen takes Akkusativ. Das Buch (neuter).",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q40"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Ich danke ___ Frau.",
+      "text": "Ich gratuliere ___ Kollegin. (32)",
       "options": [
         {
           "id": "a",
-          "text": "die"
+          "text": "der"
         },
         {
           "id": "b",
-          "text": "der"
+          "text": "die"
         },
         {
           "id": "c",
@@ -1148,19 +1268,19 @@
           "text": "dem"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "danken + Dativ: der Frau",
-      "explanationDetail": "Danken takes Dativ. Feminine Dativ: der. Ich danke der Frau (I thank the woman). Danken is one of the common Dativ verbs.",
+      "correctAnswerId": "a",
+      "explanation": "gratulieren + Dativ",
+      "explanationDetail": "Gratulieren takes Dativ. Der Kollegin.",
       "tags": [
         "cases",
         "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q41"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Ich lese ___ Buch.",
+      "text": "Er fragt ___ Nachbarn. (33)",
       "options": [
         {
           "id": "a",
@@ -1168,38 +1288,100 @@
         },
         {
           "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "fragen + Akkusativ",
+      "explanationDetail": "Fragen takes Akkusativ. Den Nachbarn.",
+      "tags": [
+        "cases",
+        "akkusativ",
+        "quick-practice"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir folgen ___ Mann. (34)",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "folgen + Dativ",
+      "explanationDetail": "Folgen takes Dativ. Dem Mann.",
+      "tags": [
+        "cases",
+        "dativ",
+        "quick-practice"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie liest ___ Buch. (35)",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
           "text": "das"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "den"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "lesen + Akkusativ: das Buch",
-      "explanationDetail": "Lesen takes Akkusativ. Neuter Akkusativ: das. Ich lese das Buch (I read the book). Reading, seeing, buying all take Akkusativ.",
+      "correctAnswerId": "d",
+      "explanation": "lesen + Akkusativ neuter",
+      "explanationDetail": "Lesen takes Akkusativ. Das Buch (neuter).",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q44"
     },
     {
-      "id": "q39",
       "type": "multiple-choice",
-      "text": "Der Film gefällt ___ Kindern.",
+      "text": "Ich gratuliere ___ Kollegin. (36)",
       "options": [
         {
           "id": "a",
-          "text": "die"
+          "text": "der"
         },
         {
           "id": "b",
-          "text": "der"
+          "text": "die"
         },
         {
           "id": "c",
@@ -1210,20 +1392,19 @@
           "text": "dem"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "gefallen + Dativ: den Kindern",
-      "explanationDetail": "Gefallen takes Dativ. Plural Dativ: den (+ -n ending on noun). Der Film gefällt den Kindern (the children like the film). Gefallen is a Dativ verb.",
+      "correctAnswerId": "a",
+      "explanation": "gratulieren + Dativ",
+      "explanationDetail": "Gratulieren takes Dativ. Der Kollegin.",
       "tags": [
         "cases",
         "dativ",
-        "plural",
         "quick-practice"
-      ]
+      ],
+      "id": "q45"
     },
     {
-      "id": "q40",
       "type": "multiple-choice",
-      "text": "Ich kenne ___ Lehrer.",
+      "text": "Er fragt ___ Nachbarn. (37)",
       "options": [
         {
           "id": "a",
@@ -1243,18 +1424,18 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "kennen + Akkusativ: den Lehrer",
-      "explanationDetail": "Kennen takes Akkusativ. Masculine Akkusativ: den. Ich kenne den Lehrer (I know the teacher). Kennen is a transitive verb with Akkusativ.",
+      "explanation": "fragen + Akkusativ",
+      "explanationDetail": "Fragen takes Akkusativ. Den Nachbarn.",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q46"
     },
     {
-      "id": "q41",
       "type": "multiple-choice",
-      "text": "Ich helfe ___ Freund.",
+      "text": "Wir folgen ___ Mann. (38)",
       "options": [
         {
           "id": "a",
@@ -1274,18 +1455,18 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "helfen + Dativ: dem Freund",
-      "explanationDetail": "Helfen takes Dativ. Masculine Dativ: dem. Ich helfe dem Freund (I help the friend). Verbs that take Dativ: helfen, danken, gefallen, gehören.",
+      "explanation": "folgen + Dativ",
+      "explanationDetail": "Folgen takes Dativ. Dem Mann.",
       "tags": [
         "cases",
         "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q47"
     },
     {
-      "id": "q42",
       "type": "multiple-choice",
-      "text": "Ich sehe ___ Mann.",
+      "text": "Sie liest ___ Buch. (39)",
       "options": [
         {
           "id": "a",
@@ -1301,94 +1482,32 @@
         },
         {
           "id": "d",
-          "text": "des"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sehen + Akkusativ: den Mann",
-      "explanationDetail": "Sehen takes Akkusativ. Masculine Akkusativ: den. Ich sehe den Mann (I see the man). Most verbs take Akkusativ for direct objects.",
-      "tags": [
-        "cases",
-        "akkusativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Das Buch gehört ___ Lehrerin.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "den"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "gehören + Dativ: der Lehrerin",
-      "explanationDetail": "Gehören takes Dativ. Feminine Dativ: der. Das Buch gehört der Lehrerin (the book belongs to the teacher). Gehören always takes Dativ.",
-      "tags": [
-        "cases",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Ich kaufe ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
           "text": "das"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "den"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "kaufen + Akkusativ: das Auto",
-      "explanationDetail": "Kaufen takes Akkusativ. Neuter Akkusativ: das (no change). Ich kaufe das Auto (I buy the car). Kaufen is a transitive verb with Akkusativ object.",
+      "correctAnswerId": "d",
+      "explanation": "lesen + Akkusativ neuter",
+      "explanationDetail": "Lesen takes Akkusativ. Das Buch (neuter).",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q48"
     },
     {
-      "id": "q45",
       "type": "multiple-choice",
-      "text": "Ich danke ___ Frau.",
+      "text": "Ich gratuliere ___ Kollegin. (40)",
       "options": [
         {
           "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
           "text": "die"
         },
         {
-          "id": "b",
-          "text": "der"
-        },
-        {
           "id": "c",
           "text": "den"
         },
@@ -1397,82 +1516,19 @@
           "text": "dem"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "danken + Dativ: der Frau",
-      "explanationDetail": "Danken takes Dativ. Feminine Dativ: der. Ich danke der Frau (I thank the woman). Danken is one of the common Dativ verbs.",
+      "correctAnswerId": "a",
+      "explanation": "gratulieren + Dativ",
+      "explanationDetail": "Gratulieren takes Dativ. Der Kollegin.",
       "tags": [
         "cases",
         "dativ",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Ich lese ___ Buch.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "das"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "den"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "lesen + Akkusativ: das Buch",
-      "explanationDetail": "Lesen takes Akkusativ. Neuter Akkusativ: das. Ich lese das Buch (I read the book). Reading, seeing, buying all take Akkusativ.",
-      "tags": [
-        "cases",
-        "akkusativ",
-        "quick-practice"
-      ]
+      "id": "q49"
     },
     {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Der Film gefällt ___ Kindern.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "den"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "gefallen + Dativ: den Kindern",
-      "explanationDetail": "Gefallen takes Dativ. Plural Dativ: den (+ -n ending on noun). Der Film gefällt den Kindern (the children like the film). Gefallen is a Dativ verb.",
-      "tags": [
-        "cases",
-        "dativ",
-        "plural",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q48",
-      "type": "multiple-choice",
-      "text": "Ich kenne ___ Lehrer.",
+      "text": "Er fragt ___ Nachbarn. (41)",
       "options": [
         {
           "id": "a",
@@ -1492,75 +1548,14 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "kennen + Akkusativ: den Lehrer",
-      "explanationDetail": "Kennen takes Akkusativ. Masculine Akkusativ: den. Ich kenne den Lehrer (I know the teacher). Kennen is a transitive verb with Akkusativ.",
+      "explanation": "fragen + Akkusativ",
+      "explanationDetail": "Fragen takes Akkusativ. Den Nachbarn.",
       "tags": [
         "cases",
         "akkusativ",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "multiple-choice",
-      "text": "Ich helfe ___ Freund.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "den"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "des"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "helfen + Dativ: dem Freund",
-      "explanationDetail": "Helfen takes Dativ. Masculine Dativ: dem. Ich helfe dem Freund (I help the friend). Verbs that take Dativ: helfen, danken, gefallen, gehören.",
-      "tags": [
-        "cases",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q50",
-      "type": "multiple-choice",
-      "text": "Ich sehe ___ Mann.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "den"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "des"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sehen + Akkusativ: den Mann",
-      "explanationDetail": "Sehen takes Akkusativ. Masculine Akkusativ: den. Ich sehe den Mann (I see the man). Most verbs take Akkusativ for direct objects.",
-      "tags": [
-        "cases",
-        "akkusativ",
-        "quick-practice"
-      ]
+      "id": "q50"
     }
   ]
 }

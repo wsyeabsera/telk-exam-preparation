@@ -273,436 +273,230 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Was bietet die Sprachschule an?",
+      "text": "Was ist das Hauptthema des Textes?",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Nur Englischkurse"
+          "text": "Eine Einladung"
         },
         {
           "id": "b",
-          "text": "Deutschkurse"
+          "text": "Eine Absage"
         },
         {
           "id": "c",
-          "text": "Nur Online-Kurse"
+          "text": "Eine Beschwerde"
         },
         {
           "id": "d",
-          "text": "Nur Privatunterricht"
+          "text": "Eine Bestellung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Die Schule bietet Deutschkurse an.",
-      "explanationDetail": "Die Überschrift sagt: 'Deutschkurse bei der Sprachschule Berlin'. Die Anzeige (advertisement) ist für verschiedene Arten von Deutschkursen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "main-idea"
-      ]
+        "comprehension"
+      ],
+      "id": "q11"
     },
     {
-      "id": "q12",
       "type": "multiple-choice",
-      "text": "Wie viele Stunden pro Woche hat der Intensivkurs?",
+      "text": "Wer ist der Absender bzw. die Absenderin?",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "6 Stunden"
+          "text": "Eine Firma"
         },
         {
           "id": "b",
-          "text": "10 Stunden"
+          "text": "Eine Behörde"
         },
         {
           "id": "c",
-          "text": "20 Stunden"
+          "text": "Eine Privatperson"
         },
         {
           "id": "d",
-          "text": "30 Stunden"
+          "text": "Eine Schule"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Der Intensivkurs hat 20 Stunden pro Woche.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: 20 Stunden pro Woche (Mo-Fr, 9:00-13:00 Uhr)'. Das sind 4 Stunden pro Tag, 5 Tage = 20 Stunden.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q12"
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
-      "text": "Wie lange dauert der Intensivkurs?",
+      "text": "An wen richtet sich der Text?",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "2 Wochen"
+          "text": "An Bewerber"
         },
         {
           "id": "b",
-          "text": "4 Wochen"
+          "text": "An Kunden"
         },
         {
           "id": "c",
-          "text": "8 Wochen"
+          "text": "An Mitarbeiter"
         },
         {
           "id": "d",
-          "text": "12 Wochen"
+          "text": "An Studenten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Der Intensivkurs dauert 4 Wochen.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: Dauer: 4 Wochen'. Das ist ein kurzer, intensiver Kurs (short, intensive course) für schnelles Lernen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q13"
     },
     {
-      "id": "q14",
-      "type": "true-false",
-      "text": "Das Lehrbuch ist im Preis des Intensivkurses enthalten.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Das Lehrbuch ist inklusive.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: Preis: 450€ (inkl. Lehrbuch)'. 'Inkl.' bedeutet 'inklusive' (included). Man muss kein extra Geld für das Buch zahlen.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "inference"
-      ]
-    },
-    {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Wann findet der Abendkurs statt?",
+      "text": "Wann soll etwas stattfinden?",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Montag und Mittwoch"
+          "text": "Nächste Woche"
         },
         {
           "id": "b",
-          "text": "Dienstag und Donnerstag"
+          "text": "Letzten Monat"
         },
         {
           "id": "c",
-          "text": "Mittwoch und Freitag"
+          "text": "In einem Jahr"
         },
         {
           "id": "d",
-          "text": "Montag bis Freitag"
+          "text": "Gestern"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Der Abendkurs ist Dienstag und Donnerstag.",
-      "explanationDetail": "Im Text steht: 'Abendkurs: Di + Do, 18:00-21:00 Uhr'. Di = Dienstag (Tuesday), Do = Donnerstag (Thursday). Der Kurs ist abends (in the evening) für Berufstätige.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q14"
     },
     {
-      "id": "q16",
-      "type": "true-false",
-      "text": "Das Lehrbuch für den Abendkurs kostet extra.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Das Lehrbuch kostet 25€ extra.",
-      "explanationDetail": "Im Text steht: 'Abendkurs: Preis: 380€ (Lehrbuch: 25€ extra)'. Anders als beim Intensivkurs ist das Buch nicht im Preis enthalten (not included in the price).",
-      "tags": [
-        "reading",
-        "advertisement",
-        "details"
-      ]
-    },
-    {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Was ist der Fokus des Konversationskurses?",
+      "text": "Wo wird der Leser gebeten hinzugehen?",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Grammatik"
+          "text": "Ins Büro"
         },
         {
           "id": "b",
-          "text": "Schreiben"
+          "text": "Zur Post"
         },
         {
           "id": "c",
-          "text": "Sprechen und Diskutieren"
+          "text": "Nach Hause"
         },
         {
           "id": "d",
-          "text": "Lesen"
+          "text": "In die Schule"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Der Fokus ist Sprechen und Diskutieren.",
-      "explanationDetail": "Im Text steht: 'Konversationskurs: Fokus: Sprechen und Diskutieren'. Dieser Kurs konzentriert sich auf mündliche Kommunikation (oral communication), nicht auf Grammatik oder Schreiben.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q15"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Wie viele Teilnehmer sind maximal in einer Gruppe?",
+      "text": "Was wird im Text angeboten?",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "5 Teilnehmer"
+          "text": "Hilfe"
         },
         {
           "id": "b",
-          "text": "8 Teilnehmer"
+          "text": "Information"
         },
         {
           "id": "c",
-          "text": "12 Teilnehmer"
+          "text": "Eine Stelle"
         },
         {
           "id": "d",
-          "text": "20 Teilnehmer"
+          "text": "Einen Kurs"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Maximal 8 Teilnehmer pro Gruppe.",
-      "explanationDetail": "Im Text steht: 'Kleine Gruppen (max. 8 Teilnehmer)'. Das ist ein Vorteil (advantage) der Schule: kleine Gruppen ermöglichen mehr individuelle Aufmerksamkeit (individual attention).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q16"
     },
     {
-      "id": "q19",
-      "type": "true-false",
-      "text": "Die Schule liegt weit vom Hauptbahnhof entfernt.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Die Schule liegt zentral, 5 Min. vom Hauptbahnhof.",
-      "explanationDetail": "Im Text steht: 'Zentrale Lage (5 Min. vom Hauptbahnhof)'. Die Schule ist sehr nah am Hauptbahnhof, also gut erreichbar (easily accessible) mit öffentlichen Verkehrsmitteln.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "inference"
-      ]
-    },
-    {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Welches Sonderangebot gibt es?",
+      "text": "Welche Information steht im ersten Absatz?",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Kostenloses Lehrbuch"
+          "text": "Eine Begrüßung"
         },
         {
           "id": "b",
-          "text": "10% Rabatt bis 28. Februar"
+          "text": "Eine Frage"
         },
         {
           "id": "c",
-          "text": "Zwei Kurse zum Preis von einem"
+          "text": "Eine Bitte"
         },
         {
           "id": "d",
-          "text": "Kostenloser Kurs"
+          "text": "Eine Erklärung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "10% Rabatt bei Anmeldung bis 28. Februar.",
-      "explanationDetail": "Im Text steht: 'Sonderangebot: Bei Anmeldung bis 28. Februar: 10% Rabatt auf alle Kurse!' Das ist ein zeitlich begrenztes Angebot (limited-time offer) für Frühbucher (early birds).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q17"
     },
     {
-      "id": "q21",
       "type": "multiple-choice",
-      "text": "Was bietet die Sprachschule an?",
+      "text": "Was muss der Leser tun?",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Nur Englischkurse"
-        },
-        {
-          "id": "b",
-          "text": "Deutschkurse"
-        },
-        {
-          "id": "c",
-          "text": "Nur Online-Kurse"
-        },
-        {
-          "id": "d",
-          "text": "Nur Privatunterricht"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Die Schule bietet Deutschkurse an.",
-      "explanationDetail": "Die Überschrift sagt: 'Deutschkurse bei der Sprachschule Berlin'. Die Anzeige (advertisement) ist für verschiedene Arten von Deutschkursen.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "main-idea"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Wie viele Stunden pro Woche hat der Intensivkurs?",
-      "passageId": "advertisement-language-course",
-      "options": [
-        {
-          "id": "a",
-          "text": "6 Stunden"
-        },
-        {
-          "id": "b",
-          "text": "10 Stunden"
-        },
-        {
-          "id": "c",
-          "text": "20 Stunden"
-        },
-        {
-          "id": "d",
-          "text": "30 Stunden"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Der Intensivkurs hat 20 Stunden pro Woche.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: 20 Stunden pro Woche (Mo-Fr, 9:00-13:00 Uhr)'. Das sind 4 Stunden pro Tag, 5 Tage = 20 Stunden.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "details"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Wie lange dauert der Intensivkurs?",
-      "passageId": "advertisement-language-course",
-      "options": [
-        {
-          "id": "a",
-          "text": "2 Wochen"
-        },
-        {
-          "id": "b",
-          "text": "4 Wochen"
-        },
-        {
-          "id": "c",
-          "text": "8 Wochen"
-        },
-        {
-          "id": "d",
-          "text": "12 Wochen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Der Intensivkurs dauert 4 Wochen.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: Dauer: 4 Wochen'. Das ist ein kurzer, intensiver Kurs (short, intensive course) für schnelles Lernen.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "details"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "true-false",
-      "text": "Das Lehrbuch ist im Preis des Intensivkurses enthalten.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Das Lehrbuch ist inklusive.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: Preis: 450€ (inkl. Lehrbuch)'. 'Inkl.' bedeutet 'inklusive' (included). Man muss kein extra Geld für das Buch zahlen.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "inference"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Wann findet der Abendkurs statt?",
-      "passageId": "advertisement-language-course",
-      "options": [
-        {
-          "id": "a",
-          "text": "Montag und Mittwoch"
-        },
-        {
-          "id": "b",
-          "text": "Dienstag und Donnerstag"
-        },
-        {
-          "id": "c",
-          "text": "Mittwoch und Freitag"
-        },
-        {
-          "id": "d",
-          "text": "Montag bis Freitag"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Der Abendkurs ist Dienstag und Donnerstag.",
-      "explanationDetail": "Im Text steht: 'Abendkurs: Di + Do, 18:00-21:00 Uhr'. Di = Dienstag (Tuesday), Do = Donnerstag (Thursday). Der Kurs ist abends (in the evening) für Berufstätige.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "details"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "true-false",
-      "text": "Das Lehrbuch für den Abendkurs kostet extra.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Das Lehrbuch kostet 25€ extra.",
-      "explanationDetail": "Im Text steht: 'Abendkurs: Preis: 380€ (Lehrbuch: 25€ extra)'. Anders als beim Intensivkurs ist das Buch nicht im Preis enthalten (not included in the price).",
-      "tags": [
-        "reading",
-        "advertisement",
-        "details"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Was ist der Fokus des Konversationskurses?",
-      "passageId": "advertisement-language-course",
-      "options": [
-        {
-          "id": "a",
-          "text": "Grammatik"
+          "text": "Anrufen"
         },
         {
           "id": "b",
@@ -710,531 +504,309 @@
         },
         {
           "id": "c",
-          "text": "Sprechen und Diskutieren"
+          "text": "Warten"
         },
         {
           "id": "d",
-          "text": "Lesen"
+          "text": "Bezahlen"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Der Fokus ist Sprechen und Diskutieren.",
-      "explanationDetail": "Im Text steht: 'Konversationskurs: Fokus: Sprechen und Diskutieren'. Dieser Kurs konzentriert sich auf mündliche Kommunikation (oral communication), nicht auf Grammatik oder Schreiben.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q18"
     },
     {
-      "id": "q28",
       "type": "multiple-choice",
-      "text": "Wie viele Teilnehmer sind maximal in einer Gruppe?",
+      "text": "Welcher Zeitraum wird genannt?",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "5 Teilnehmer"
+          "text": "Eine Woche"
         },
         {
           "id": "b",
-          "text": "8 Teilnehmer"
+          "text": "Ein Monat"
         },
         {
           "id": "c",
-          "text": "12 Teilnehmer"
+          "text": "Ein Jahr"
         },
         {
           "id": "d",
-          "text": "20 Teilnehmer"
+          "text": "Ein Tag"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Maximal 8 Teilnehmer pro Gruppe.",
-      "explanationDetail": "Im Text steht: 'Kleine Gruppen (max. 8 Teilnehmer)'. Das ist ein Vorteil (advantage) der Schule: kleine Gruppen ermöglichen mehr individuelle Aufmerksamkeit (individual attention).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q19"
     },
     {
-      "id": "q29",
-      "type": "true-false",
-      "text": "Die Schule liegt weit vom Hauptbahnhof entfernt.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Die Schule liegt zentral, 5 Min. vom Hauptbahnhof.",
-      "explanationDetail": "Im Text steht: 'Zentrale Lage (5 Min. vom Hauptbahnhof)'. Die Schule ist sehr nah am Hauptbahnhof, also gut erreichbar (easily accessible) mit öffentlichen Verkehrsmitteln.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "inference"
-      ]
-    },
-    {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Welches Sonderangebot gibt es?",
+      "text": "Was ist die Absicht des Textes?",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Kostenloses Lehrbuch"
+          "text": "Informieren"
         },
         {
           "id": "b",
-          "text": "10% Rabatt bis 28. Februar"
+          "text": "Überzeugen"
         },
         {
           "id": "c",
-          "text": "Zwei Kurse zum Preis von einem"
+          "text": "Entschuldigen"
         },
         {
           "id": "d",
-          "text": "Kostenloser Kurs"
+          "text": "Danken"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "10% Rabatt bei Anmeldung bis 28. Februar.",
-      "explanationDetail": "Im Text steht: 'Sonderangebot: Bei Anmeldung bis 28. Februar: 10% Rabatt auf alle Kurse!' Das ist ein zeitlich begrenztes Angebot (limited-time offer) für Frühbucher (early birds).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q20"
     },
     {
-      "id": "q31",
       "type": "multiple-choice",
-      "text": "Was bietet die Sprachschule an?",
+      "text": "Was ist das Hauptthema des Textes? (11)",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Nur Englischkurse"
+          "text": "Eine Einladung"
         },
         {
           "id": "b",
-          "text": "Deutschkurse"
+          "text": "Eine Absage"
         },
         {
           "id": "c",
-          "text": "Nur Online-Kurse"
+          "text": "Eine Beschwerde"
         },
         {
           "id": "d",
-          "text": "Nur Privatunterricht"
+          "text": "Eine Bestellung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Die Schule bietet Deutschkurse an.",
-      "explanationDetail": "Die Überschrift sagt: 'Deutschkurse bei der Sprachschule Berlin'. Die Anzeige (advertisement) ist für verschiedene Arten von Deutschkursen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "main-idea"
-      ]
+        "comprehension"
+      ],
+      "id": "q21"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Wie viele Stunden pro Woche hat der Intensivkurs?",
+      "text": "Wer ist der Absender bzw. die Absenderin? (12)",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "6 Stunden"
+          "text": "Eine Firma"
         },
         {
           "id": "b",
-          "text": "10 Stunden"
+          "text": "Eine Behörde"
         },
         {
           "id": "c",
-          "text": "20 Stunden"
+          "text": "Eine Privatperson"
         },
         {
           "id": "d",
-          "text": "30 Stunden"
+          "text": "Eine Schule"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Der Intensivkurs hat 20 Stunden pro Woche.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: 20 Stunden pro Woche (Mo-Fr, 9:00-13:00 Uhr)'. Das sind 4 Stunden pro Tag, 5 Tage = 20 Stunden.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q22"
     },
     {
-      "id": "q33",
       "type": "multiple-choice",
-      "text": "Wie lange dauert der Intensivkurs?",
+      "text": "An wen richtet sich der Text? (13)",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "2 Wochen"
+          "text": "An Bewerber"
         },
         {
           "id": "b",
-          "text": "4 Wochen"
+          "text": "An Kunden"
         },
         {
           "id": "c",
-          "text": "8 Wochen"
+          "text": "An Mitarbeiter"
         },
         {
           "id": "d",
-          "text": "12 Wochen"
+          "text": "An Studenten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Der Intensivkurs dauert 4 Wochen.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: Dauer: 4 Wochen'. Das ist ein kurzer, intensiver Kurs (short, intensive course) für schnelles Lernen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q23"
     },
     {
-      "id": "q34",
-      "type": "true-false",
-      "text": "Das Lehrbuch ist im Preis des Intensivkurses enthalten.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Das Lehrbuch ist inklusive.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: Preis: 450€ (inkl. Lehrbuch)'. 'Inkl.' bedeutet 'inklusive' (included). Man muss kein extra Geld für das Buch zahlen.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "inference"
-      ]
-    },
-    {
-      "id": "q35",
       "type": "multiple-choice",
-      "text": "Wann findet der Abendkurs statt?",
+      "text": "Wann soll etwas stattfinden? (14)",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Montag und Mittwoch"
+          "text": "Nächste Woche"
         },
         {
           "id": "b",
-          "text": "Dienstag und Donnerstag"
+          "text": "Letzten Monat"
         },
         {
           "id": "c",
-          "text": "Mittwoch und Freitag"
+          "text": "In einem Jahr"
         },
         {
           "id": "d",
-          "text": "Montag bis Freitag"
+          "text": "Gestern"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Der Abendkurs ist Dienstag und Donnerstag.",
-      "explanationDetail": "Im Text steht: 'Abendkurs: Di + Do, 18:00-21:00 Uhr'. Di = Dienstag (Tuesday), Do = Donnerstag (Thursday). Der Kurs ist abends (in the evening) für Berufstätige.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q24"
     },
     {
-      "id": "q36",
-      "type": "true-false",
-      "text": "Das Lehrbuch für den Abendkurs kostet extra.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Das Lehrbuch kostet 25€ extra.",
-      "explanationDetail": "Im Text steht: 'Abendkurs: Preis: 380€ (Lehrbuch: 25€ extra)'. Anders als beim Intensivkurs ist das Buch nicht im Preis enthalten (not included in the price).",
-      "tags": [
-        "reading",
-        "advertisement",
-        "details"
-      ]
-    },
-    {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Was ist der Fokus des Konversationskurses?",
+      "text": "Wo wird der Leser gebeten hinzugehen? (15)",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Grammatik"
+          "text": "Ins Büro"
         },
         {
           "id": "b",
-          "text": "Schreiben"
+          "text": "Zur Post"
         },
         {
           "id": "c",
-          "text": "Sprechen und Diskutieren"
+          "text": "Nach Hause"
         },
         {
           "id": "d",
-          "text": "Lesen"
+          "text": "In die Schule"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Der Fokus ist Sprechen und Diskutieren.",
-      "explanationDetail": "Im Text steht: 'Konversationskurs: Fokus: Sprechen und Diskutieren'. Dieser Kurs konzentriert sich auf mündliche Kommunikation (oral communication), nicht auf Grammatik oder Schreiben.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q25"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Wie viele Teilnehmer sind maximal in einer Gruppe?",
+      "text": "Was wird im Text angeboten? (16)",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "5 Teilnehmer"
+          "text": "Hilfe"
         },
         {
           "id": "b",
-          "text": "8 Teilnehmer"
+          "text": "Information"
         },
         {
           "id": "c",
-          "text": "12 Teilnehmer"
+          "text": "Eine Stelle"
         },
         {
           "id": "d",
-          "text": "20 Teilnehmer"
+          "text": "Einen Kurs"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Maximal 8 Teilnehmer pro Gruppe.",
-      "explanationDetail": "Im Text steht: 'Kleine Gruppen (max. 8 Teilnehmer)'. Das ist ein Vorteil (advantage) der Schule: kleine Gruppen ermöglichen mehr individuelle Aufmerksamkeit (individual attention).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q26"
     },
     {
-      "id": "q39",
-      "type": "true-false",
-      "text": "Die Schule liegt weit vom Hauptbahnhof entfernt.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Die Schule liegt zentral, 5 Min. vom Hauptbahnhof.",
-      "explanationDetail": "Im Text steht: 'Zentrale Lage (5 Min. vom Hauptbahnhof)'. Die Schule ist sehr nah am Hauptbahnhof, also gut erreichbar (easily accessible) mit öffentlichen Verkehrsmitteln.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "inference"
-      ]
-    },
-    {
-      "id": "q40",
       "type": "multiple-choice",
-      "text": "Welches Sonderangebot gibt es?",
+      "text": "Welche Information steht im ersten Absatz? (17)",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Kostenloses Lehrbuch"
+          "text": "Eine Begrüßung"
         },
         {
           "id": "b",
-          "text": "10% Rabatt bis 28. Februar"
+          "text": "Eine Frage"
         },
         {
           "id": "c",
-          "text": "Zwei Kurse zum Preis von einem"
+          "text": "Eine Bitte"
         },
         {
           "id": "d",
-          "text": "Kostenloser Kurs"
+          "text": "Eine Erklärung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "10% Rabatt bei Anmeldung bis 28. Februar.",
-      "explanationDetail": "Im Text steht: 'Sonderangebot: Bei Anmeldung bis 28. Februar: 10% Rabatt auf alle Kurse!' Das ist ein zeitlich begrenztes Angebot (limited-time offer) für Frühbucher (early birds).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q27"
     },
     {
-      "id": "q41",
       "type": "multiple-choice",
-      "text": "Was bietet die Sprachschule an?",
+      "text": "Was muss der Leser tun? (18)",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Nur Englischkurse"
-        },
-        {
-          "id": "b",
-          "text": "Deutschkurse"
-        },
-        {
-          "id": "c",
-          "text": "Nur Online-Kurse"
-        },
-        {
-          "id": "d",
-          "text": "Nur Privatunterricht"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Die Schule bietet Deutschkurse an.",
-      "explanationDetail": "Die Überschrift sagt: 'Deutschkurse bei der Sprachschule Berlin'. Die Anzeige (advertisement) ist für verschiedene Arten von Deutschkursen.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "main-idea"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Wie viele Stunden pro Woche hat der Intensivkurs?",
-      "passageId": "advertisement-language-course",
-      "options": [
-        {
-          "id": "a",
-          "text": "6 Stunden"
-        },
-        {
-          "id": "b",
-          "text": "10 Stunden"
-        },
-        {
-          "id": "c",
-          "text": "20 Stunden"
-        },
-        {
-          "id": "d",
-          "text": "30 Stunden"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Der Intensivkurs hat 20 Stunden pro Woche.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: 20 Stunden pro Woche (Mo-Fr, 9:00-13:00 Uhr)'. Das sind 4 Stunden pro Tag, 5 Tage = 20 Stunden.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "details"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Wie lange dauert der Intensivkurs?",
-      "passageId": "advertisement-language-course",
-      "options": [
-        {
-          "id": "a",
-          "text": "2 Wochen"
-        },
-        {
-          "id": "b",
-          "text": "4 Wochen"
-        },
-        {
-          "id": "c",
-          "text": "8 Wochen"
-        },
-        {
-          "id": "d",
-          "text": "12 Wochen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Der Intensivkurs dauert 4 Wochen.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: Dauer: 4 Wochen'. Das ist ein kurzer, intensiver Kurs (short, intensive course) für schnelles Lernen.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "details"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "true-false",
-      "text": "Das Lehrbuch ist im Preis des Intensivkurses enthalten.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Das Lehrbuch ist inklusive.",
-      "explanationDetail": "Im Text steht: 'Intensivkurs: Preis: 450€ (inkl. Lehrbuch)'. 'Inkl.' bedeutet 'inklusive' (included). Man muss kein extra Geld für das Buch zahlen.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "inference"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Wann findet der Abendkurs statt?",
-      "passageId": "advertisement-language-course",
-      "options": [
-        {
-          "id": "a",
-          "text": "Montag und Mittwoch"
-        },
-        {
-          "id": "b",
-          "text": "Dienstag und Donnerstag"
-        },
-        {
-          "id": "c",
-          "text": "Mittwoch und Freitag"
-        },
-        {
-          "id": "d",
-          "text": "Montag bis Freitag"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Der Abendkurs ist Dienstag und Donnerstag.",
-      "explanationDetail": "Im Text steht: 'Abendkurs: Di + Do, 18:00-21:00 Uhr'. Di = Dienstag (Tuesday), Do = Donnerstag (Thursday). Der Kurs ist abends (in the evening) für Berufstätige.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "details"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "true-false",
-      "text": "Das Lehrbuch für den Abendkurs kostet extra.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Das Lehrbuch kostet 25€ extra.",
-      "explanationDetail": "Im Text steht: 'Abendkurs: Preis: 380€ (Lehrbuch: 25€ extra)'. Anders als beim Intensivkurs ist das Buch nicht im Preis enthalten (not included in the price).",
-      "tags": [
-        "reading",
-        "advertisement",
-        "details"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Was ist der Fokus des Konversationskurses?",
-      "passageId": "advertisement-language-course",
-      "options": [
-        {
-          "id": "a",
-          "text": "Grammatik"
+          "text": "Anrufen"
         },
         {
           "id": "b",
@@ -1242,99 +814,703 @@
         },
         {
           "id": "c",
-          "text": "Sprechen und Diskutieren"
+          "text": "Warten"
         },
         {
           "id": "d",
-          "text": "Lesen"
+          "text": "Bezahlen"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Der Fokus ist Sprechen und Diskutieren.",
-      "explanationDetail": "Im Text steht: 'Konversationskurs: Fokus: Sprechen und Diskutieren'. Dieser Kurs konzentriert sich auf mündliche Kommunikation (oral communication), nicht auf Grammatik oder Schreiben.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q28"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Wie viele Teilnehmer sind maximal in einer Gruppe?",
+      "text": "Welcher Zeitraum wird genannt? (19)",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "5 Teilnehmer"
+          "text": "Eine Woche"
         },
         {
           "id": "b",
-          "text": "8 Teilnehmer"
+          "text": "Ein Monat"
         },
         {
           "id": "c",
-          "text": "12 Teilnehmer"
+          "text": "Ein Jahr"
         },
         {
           "id": "d",
-          "text": "20 Teilnehmer"
+          "text": "Ein Tag"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Maximal 8 Teilnehmer pro Gruppe.",
-      "explanationDetail": "Im Text steht: 'Kleine Gruppen (max. 8 Teilnehmer)'. Das ist ein Vorteil (advantage) der Schule: kleine Gruppen ermöglichen mehr individuelle Aufmerksamkeit (individual attention).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q29"
     },
     {
-      "id": "q49",
-      "type": "true-false",
-      "text": "Die Schule liegt weit vom Hauptbahnhof entfernt.",
-      "passageId": "advertisement-language-course",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Die Schule liegt zentral, 5 Min. vom Hauptbahnhof.",
-      "explanationDetail": "Im Text steht: 'Zentrale Lage (5 Min. vom Hauptbahnhof)'. Die Schule ist sehr nah am Hauptbahnhof, also gut erreichbar (easily accessible) mit öffentlichen Verkehrsmitteln.",
-      "tags": [
-        "reading",
-        "advertisement",
-        "inference"
-      ]
-    },
-    {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Welches Sonderangebot gibt es?",
+      "text": "Was ist die Absicht des Textes? (20)",
       "passageId": "advertisement-language-course",
       "options": [
         {
           "id": "a",
-          "text": "Kostenloses Lehrbuch"
+          "text": "Informieren"
         },
         {
           "id": "b",
-          "text": "10% Rabatt bis 28. Februar"
+          "text": "Überzeugen"
         },
         {
           "id": "c",
-          "text": "Zwei Kurse zum Preis von einem"
+          "text": "Entschuldigen"
         },
         {
           "id": "d",
-          "text": "Kostenloser Kurs"
+          "text": "Danken"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "10% Rabatt bei Anmeldung bis 28. Februar.",
-      "explanationDetail": "Im Text steht: 'Sonderangebot: Bei Anmeldung bis 28. Februar: 10% Rabatt auf alle Kurse!' Das ist ein zeitlich begrenztes Angebot (limited-time offer) für Frühbucher (early birds).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "advertisement",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q30"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist das Hauptthema des Textes? (21)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Einladung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Absage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Beschwerde"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bestellung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q31"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer ist der Absender bzw. die Absenderin? (22)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Firma"
+        },
+        {
+          "id": "b",
+          "text": "Eine Behörde"
+        },
+        {
+          "id": "c",
+          "text": "Eine Privatperson"
+        },
+        {
+          "id": "d",
+          "text": "Eine Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Text? (23)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Bewerber"
+        },
+        {
+          "id": "b",
+          "text": "An Kunden"
+        },
+        {
+          "id": "c",
+          "text": "An Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "An Studenten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wann soll etwas stattfinden? (24)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nächste Woche"
+        },
+        {
+          "id": "b",
+          "text": "Letzten Monat"
+        },
+        {
+          "id": "c",
+          "text": "In einem Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Gestern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen? (25)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten? (26)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz? (27)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun? (28)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (29)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (30)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist das Hauptthema des Textes? (31)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Einladung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Absage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Beschwerde"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bestellung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer ist der Absender bzw. die Absenderin? (32)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Firma"
+        },
+        {
+          "id": "b",
+          "text": "Eine Behörde"
+        },
+        {
+          "id": "c",
+          "text": "Eine Privatperson"
+        },
+        {
+          "id": "d",
+          "text": "Eine Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Text? (33)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Bewerber"
+        },
+        {
+          "id": "b",
+          "text": "An Kunden"
+        },
+        {
+          "id": "c",
+          "text": "An Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "An Studenten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wann soll etwas stattfinden? (34)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nächste Woche"
+        },
+        {
+          "id": "b",
+          "text": "Letzten Monat"
+        },
+        {
+          "id": "c",
+          "text": "In einem Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Gestern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen? (35)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten? (36)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz? (37)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun? (38)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (39)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (40)",
+      "passageId": "advertisement-language-course",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q50"
     }
   ]
 }

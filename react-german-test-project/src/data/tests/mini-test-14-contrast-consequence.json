@@ -391,105 +391,8 @@
       ]
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
-      "text": "Obwohl es regnet, ___ wir spazieren.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehen"
-        },
-        {
-          "id": "b",
-          "text": "gehen wir"
-        },
-        {
-          "id": "c",
-          "text": "wir gehen"
-        },
-        {
-          "id": "d",
-          "text": "gegangen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "obwohl is subordinating, main clause has normal word order",
-      "explanationDetail": "Obwohl (although) is subordinating. After the obwohl-clause, the main clause starts with the verb. Obwohl es regnet, gehen wir spazieren (Although it's raining, we're going for a walk). Pattern: Obwohl + ... + verb, verb + subject.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "contrast",
-        "obwohl"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Es regnet. ___ gehen wir spazieren.",
-      "options": [
-        {
-          "id": "a",
-          "text": "Obwohl"
-        },
-        {
-          "id": "b",
-          "text": "Trotzdem"
-        },
-        {
-          "id": "c",
-          "text": "Deshalb"
-        },
-        {
-          "id": "d",
-          "text": "Weil"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "trotzdem = nevertheless (coordinating)",
-      "explanationDetail": "Trotzdem (nevertheless/anyway) is a coordinating adverb. It connects two independent clauses. Es regnet. Trotzdem gehen wir (It's raining. Nevertheless we're going). Trotzdem starts position 1, verb in position 2.",
-      "tags": [
-        "conjunctions",
-        "coordinating",
-        "contrast",
-        "trotzdem"
-      ]
-    },
-    {
-      "id": "q15",
-      "type": "multiple-choice",
-      "text": "Ich bin müde. ___ gehe ich früh schlafen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "Obwohl"
-        },
-        {
-          "id": "b",
-          "text": "Trotzdem"
-        },
-        {
-          "id": "c",
-          "text": "Deshalb"
-        },
-        {
-          "id": "d",
-          "text": "Weil"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "deshalb = therefore (consequence)",
-      "explanationDetail": "Deshalb (therefore/that's why) shows consequence. Ich bin müde. Deshalb gehe ich schlafen (I'm tired. Therefore I'm going to sleep). Deshalb starts position 1, verb in position 2.",
-      "tags": [
-        "conjunctions",
-        "coordinating",
-        "consequence",
-        "deshalb"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "multiple-choice",
-      "text": "Obwohl sie krank ___, geht sie arbeiten.",
+      "text": "Obwohl er reich ___, kauft er keine teuren Sachen.",
       "options": [
         {
           "id": "a",
@@ -501,27 +404,27 @@
         },
         {
           "id": "c",
-          "text": "bist"
+          "text": "sind"
         },
         {
           "id": "d",
-          "text": "sind"
+          "text": "war"
         }
       ],
       "correctAnswerId": "a",
       "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl is subordinating, so the verb goes to the end. Obwohl sie krank ist (although she's sick). The verb agrees with the subject (sie → ist).",
+      "explanationDetail": "Obwohl is subordinating. Obwohl er reich ist (although he's rich).",
       "tags": [
         "conjunctions",
         "subordinating",
         "contrast",
         "obwohl"
-      ]
+      ],
+      "id": "q13"
     },
     {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Er hat keine Zeit. ___ hilft er mir.",
+      "text": "Es ist teuer. ___ kaufe ich es.",
       "options": [
         {
           "id": "a",
@@ -542,18 +445,18 @@
       ],
       "correctAnswerId": "b",
       "explanation": "trotzdem = nevertheless",
-      "explanationDetail": "Trotzdem shows contrast despite the first statement. Er hat keine Zeit. Trotzdem hilft er (He has no time. Nevertheless he helps). Trotzdem connects two independent sentences.",
+      "explanationDetail": "Trotzdem (nevertheless). Despite the price, I'm buying it.",
       "tags": [
         "conjunctions",
         "coordinating",
         "contrast",
         "trotzdem"
-      ]
+      ],
+      "id": "q14"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Es ist kalt. ___ ziehe ich eine Jacke an.",
+      "text": "Ich habe Kopfschmerzen. ___ nehme ich eine Tablette.",
       "options": [
         {
           "id": "a",
@@ -574,114 +477,49 @@
       ],
       "correctAnswerId": "c",
       "explanation": "deshalb = therefore",
-      "explanationDetail": "Deshalb shows logical consequence. Es ist kalt. Deshalb ziehe ich eine Jacke an (It's cold. Therefore I'm putting on a jacket). The second action is a result of the first.",
+      "explanationDetail": "Deshalb (therefore). Consequence: I have a headache, so I take a tablet.",
       "tags": [
         "conjunctions",
-        "coordinating",
         "consequence",
         "deshalb"
-      ]
+      ],
+      "id": "q15"
     },
     {
-      "id": "q19",
       "type": "multiple-choice",
-      "text": "Obwohl er viel ___, ist er nicht reich.",
+      "text": "Obwohl sie Angst ___, fliegt sie.",
       "options": [
         {
           "id": "a",
-          "text": "arbeitet"
+          "text": "hat"
         },
         {
           "id": "b",
-          "text": "arbeiten"
+          "text": "haben"
         },
         {
           "id": "c",
-          "text": "arbeitest"
+          "text": "hast"
         },
         {
           "id": "d",
-          "text": "arbeite"
+          "text": "hatte"
         }
       ],
       "correctAnswerId": "a",
       "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl sends the verb to the end. Obwohl er viel arbeitet (although he works a lot). The verb agrees with the subject (er → arbeitet).",
+      "explanationDetail": "Obwohl sie Angst hat (although she's afraid).",
       "tags": [
         "conjunctions",
         "subordinating",
         "contrast",
         "obwohl"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Ich habe Hunger. ___ esse ich etwas.",
-      "options": [
-        {
-          "id": "a",
-          "text": "Obwohl"
-        },
-        {
-          "id": "b",
-          "text": "Trotzdem"
-        },
-        {
-          "id": "c",
-          "text": "Deshalb"
-        },
-        {
-          "id": "d",
-          "text": "Weil"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "deshalb = therefore",
-      "explanationDetail": "Deshalb shows consequence. Ich habe Hunger. Deshalb esse ich (I'm hungry. Therefore I'm eating). The second action follows logically from the first.",
-      "tags": [
-        "conjunctions",
-        "coordinating",
-        "consequence",
-        "deshalb"
-      ]
+      "id": "q16"
     },
     {
-      "id": "q21",
       "type": "multiple-choice",
-      "text": "Obwohl das Buch langweilig ___, liest sie es weiter.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "bist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl sends the verb to the end. Obwohl das Buch langweilig ist (although the book is boring). The verb agrees with the subject (das Buch → ist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "contrast",
-        "obwohl"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Der Film war schlecht. ___ hat er mir gefallen.",
+      "text": "Er hat wenig Zeit. ___ kommt er zum Treffen.",
       "options": [
         {
           "id": "a",
@@ -702,50 +540,17 @@
       ],
       "correctAnswerId": "b",
       "explanation": "trotzdem = nevertheless",
-      "explanationDetail": "Trotzdem shows unexpected contrast. Der Film war schlecht. Trotzdem hat er mir gefallen (The film was bad. Nevertheless I liked it). This is surprising or unexpected.",
+      "explanationDetail": "Trotzdem: despite having little time, he's coming.",
       "tags": [
         "conjunctions",
         "coordinating",
-        "contrast",
         "trotzdem"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Obwohl wir müde ___, gehen wir noch aus.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sind"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "bist"
-        },
-        {
-          "id": "d",
-          "text": "ist"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl sends the verb to the end. Obwohl wir müde sind (although we're tired). The verb agrees with the subject (wir → sind).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "contrast",
-        "obwohl"
-      ]
+      "id": "q17"
     },
     {
-      "id": "q24",
       "type": "multiple-choice",
-      "text": "Ich habe viel gelernt. ___ habe ich die Prüfung bestanden.",
+      "text": "Das Wetter ist schlecht. ___ bleiben wir zu Hause.",
       "options": [
         {
           "id": "a",
@@ -766,114 +571,17 @@
       ],
       "correctAnswerId": "c",
       "explanation": "deshalb = therefore",
-      "explanationDetail": "Deshalb shows consequence. Ich habe viel gelernt. Deshalb habe ich bestanden (I studied a lot. Therefore I passed). The result follows from the action.",
+      "explanationDetail": "Deshalb: consequence. Bad weather → we stay home.",
       "tags": [
         "conjunctions",
-        "coordinating",
         "consequence",
         "deshalb"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Obwohl es regnet, ___ wir spazieren.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehen"
-        },
-        {
-          "id": "b",
-          "text": "gehen wir"
-        },
-        {
-          "id": "c",
-          "text": "wir gehen"
-        },
-        {
-          "id": "d",
-          "text": "gegangen"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "obwohl is subordinating, main clause has normal word order",
-      "explanationDetail": "Obwohl (although) is subordinating. After the obwohl-clause, the main clause starts with the verb. Obwohl es regnet, gehen wir spazieren (Although it's raining, we're going for a walk). Pattern: Obwohl + ... + verb, verb + subject.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "contrast",
-        "obwohl"
-      ]
+      "id": "q18"
     },
     {
-      "id": "q26",
       "type": "multiple-choice",
-      "text": "Es regnet. ___ gehen wir spazieren.",
-      "options": [
-        {
-          "id": "a",
-          "text": "Obwohl"
-        },
-        {
-          "id": "b",
-          "text": "Trotzdem"
-        },
-        {
-          "id": "c",
-          "text": "Deshalb"
-        },
-        {
-          "id": "d",
-          "text": "Weil"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "trotzdem = nevertheless (coordinating)",
-      "explanationDetail": "Trotzdem (nevertheless/anyway) is a coordinating adverb. It connects two independent clauses. Es regnet. Trotzdem gehen wir (It's raining. Nevertheless we're going). Trotzdem starts position 1, verb in position 2.",
-      "tags": [
-        "conjunctions",
-        "coordinating",
-        "contrast",
-        "trotzdem"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Ich bin müde. ___ gehe ich früh schlafen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "Obwohl"
-        },
-        {
-          "id": "b",
-          "text": "Trotzdem"
-        },
-        {
-          "id": "c",
-          "text": "Deshalb"
-        },
-        {
-          "id": "d",
-          "text": "Weil"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "deshalb = therefore (consequence)",
-      "explanationDetail": "Deshalb (therefore/that's why) shows consequence. Ich bin müde. Deshalb gehe ich schlafen (I'm tired. Therefore I'm going to sleep). Deshalb starts position 1, verb in position 2.",
-      "tags": [
-        "conjunctions",
-        "coordinating",
-        "consequence",
-        "deshalb"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Obwohl sie krank ___, geht sie arbeiten.",
+      "text": "Obwohl es spät ___, arbeitet er weiter.",
       "options": [
         {
           "id": "a",
@@ -885,27 +593,26 @@
         },
         {
           "id": "c",
-          "text": "bist"
+          "text": "war"
         },
         {
           "id": "d",
-          "text": "sind"
+          "text": "waren"
         }
       ],
       "correctAnswerId": "a",
       "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl is subordinating, so the verb goes to the end. Obwohl sie krank ist (although she's sick). The verb agrees with the subject (sie → ist).",
+      "explanationDetail": "Obwohl es spät ist (although it's late).",
       "tags": [
         "conjunctions",
         "subordinating",
-        "contrast",
         "obwohl"
-      ]
+      ],
+      "id": "q19"
     },
     {
-      "id": "q29",
       "type": "multiple-choice",
-      "text": "Er hat keine Zeit. ___ hilft er mir.",
+      "text": "Sie mag ihn nicht. ___ hilft sie ihm.",
       "options": [
         {
           "id": "a",
@@ -926,18 +633,16 @@
       ],
       "correctAnswerId": "b",
       "explanation": "trotzdem = nevertheless",
-      "explanationDetail": "Trotzdem shows contrast despite the first statement. Er hat keine Zeit. Trotzdem hilft er (He has no time. Nevertheless he helps). Trotzdem connects two independent sentences.",
+      "explanationDetail": "Trotzdem: contrast. She doesn't like him but helps anyway.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "contrast",
         "trotzdem"
-      ]
+      ],
+      "id": "q20"
     },
     {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Es ist kalt. ___ ziehe ich eine Jacke an.",
+      "text": "Ich habe Durst. ___ trinke ich Wasser.",
       "options": [
         {
           "id": "a",
@@ -958,86 +663,20 @@
       ],
       "correctAnswerId": "c",
       "explanation": "deshalb = therefore",
-      "explanationDetail": "Deshalb shows logical consequence. Es ist kalt. Deshalb ziehe ich eine Jacke an (It's cold. Therefore I'm putting on a jacket). The second action is a result of the first.",
+      "explanationDetail": "Deshalb: consequence. Thirsty → drink water.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "consequence",
         "deshalb"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Obwohl er viel ___, ist er nicht reich.",
-      "options": [
-        {
-          "id": "a",
-          "text": "arbeitet"
-        },
-        {
-          "id": "b",
-          "text": "arbeiten"
-        },
-        {
-          "id": "c",
-          "text": "arbeitest"
-        },
-        {
-          "id": "d",
-          "text": "arbeite"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl sends the verb to the end. Obwohl er viel arbeitet (although he works a lot). The verb agrees with the subject (er → arbeitet).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "contrast",
-        "obwohl"
-      ]
+      "id": "q21"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Ich habe Hunger. ___ esse ich etwas.",
+      "text": "Obwohl der Film lang ___, war er spannend.",
       "options": [
         {
           "id": "a",
-          "text": "Obwohl"
-        },
-        {
-          "id": "b",
-          "text": "Trotzdem"
-        },
-        {
-          "id": "c",
-          "text": "Deshalb"
-        },
-        {
-          "id": "d",
-          "text": "Weil"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "deshalb = therefore",
-      "explanationDetail": "Deshalb shows consequence. Ich habe Hunger. Deshalb esse ich (I'm hungry. Therefore I'm eating). The second action follows logically from the first.",
-      "tags": [
-        "conjunctions",
-        "coordinating",
-        "consequence",
-        "deshalb"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Obwohl das Buch langweilig ___, liest sie es weiter.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
+          "text": "war"
         },
         {
           "id": "b",
@@ -1045,27 +684,26 @@
         },
         {
           "id": "c",
-          "text": "bist"
+          "text": "waren"
         },
         {
           "id": "d",
-          "text": "sind"
+          "text": "ist"
         }
       ],
       "correctAnswerId": "a",
       "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl sends the verb to the end. Obwohl das Buch langweilig ist (although the book is boring). The verb agrees with the subject (das Buch → ist).",
+      "explanationDetail": "Obwohl der Film lang war (although the film was long).",
       "tags": [
         "conjunctions",
         "subordinating",
-        "contrast",
         "obwohl"
-      ]
+      ],
+      "id": "q22"
     },
     {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Der Film war schlecht. ___ hat er mir gefallen.",
+      "text": "Er hat kein Geld. ___ kauft er das Buch trotzdem.",
       "options": [
         {
           "id": "a",
@@ -1085,51 +723,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "trotzdem = nevertheless",
-      "explanationDetail": "Trotzdem shows unexpected contrast. Der Film war schlecht. Trotzdem hat er mir gefallen (The film was bad. Nevertheless I liked it). This is surprising or unexpected.",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "contrast",
         "trotzdem"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Obwohl wir müde ___, gehen wir noch aus.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sind"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "bist"
-        },
-        {
-          "id": "d",
-          "text": "ist"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl sends the verb to the end. Obwohl wir müde sind (although we're tired). The verb agrees with the subject (wir → sind).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "contrast",
-        "obwohl"
-      ]
+      "id": "q23"
     },
     {
-      "id": "q36",
       "type": "multiple-choice",
-      "text": "Ich habe viel gelernt. ___ habe ich die Prüfung bestanden.",
+      "text": "Sie hat Prüfung. ___ lernt sie viel.",
       "options": [
         {
           "id": "a",
@@ -1149,51 +753,47 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "deshalb = therefore",
-      "explanationDetail": "Deshalb shows consequence. Ich habe viel gelernt. Deshalb habe ich bestanden (I studied a lot. Therefore I passed). The result follows from the action.",
+      "explanation": "deshalb",
+      "explanationDetail": "Deshalb = therefore.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "consequence",
         "deshalb"
-      ]
+      ],
+      "id": "q24"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Obwohl es regnet, ___ wir spazieren.",
+      "text": "Obwohl wir spät dran sind, ___ wir den Zug.",
       "options": [
         {
           "id": "a",
-          "text": "gehen"
+          "text": "erreichen"
         },
         {
           "id": "b",
-          "text": "gehen wir"
+          "text": "erreicht"
         },
         {
           "id": "c",
-          "text": "wir gehen"
+          "text": "erreiche"
         },
         {
           "id": "d",
-          "text": "gegangen"
+          "text": "erreichst"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "obwohl is subordinating, main clause has normal word order",
-      "explanationDetail": "Obwohl (although) is subordinating. After the obwohl-clause, the main clause starts with the verb. Obwohl es regnet, gehen wir spazieren (Although it's raining, we're going for a walk). Pattern: Obwohl + ... + verb, verb + subject.",
+      "explanation": "main clause verb first",
+      "explanationDetail": "After obwohl-clause, main clause: verb in position 2.",
       "tags": [
         "conjunctions",
-        "subordinating",
-        "contrast",
         "obwohl"
-      ]
+      ],
+      "id": "q25"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Es regnet. ___ gehen wir spazieren.",
+      "text": "Der Kaffee ist kalt. ___ trinke ich ihn.",
       "options": [
         {
           "id": "a",
@@ -1213,19 +813,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "trotzdem = nevertheless (coordinating)",
-      "explanationDetail": "Trotzdem (nevertheless/anyway) is a coordinating adverb. It connects two independent clauses. Es regnet. Trotzdem gehen wir (It's raining. Nevertheless we're going). Trotzdem starts position 1, verb in position 2.",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "contrast",
         "trotzdem"
-      ]
+      ],
+      "id": "q26"
     },
     {
-      "id": "q39",
       "type": "multiple-choice",
-      "text": "Ich bin müde. ___ gehe ich früh schlafen.",
+      "text": "Ich habe Durst. ___ hole ich mir etwas zu trinken.",
       "options": [
         {
           "id": "a",
@@ -1245,51 +843,47 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "deshalb = therefore (consequence)",
-      "explanationDetail": "Deshalb (therefore/that's why) shows consequence. Ich bin müde. Deshalb gehe ich schlafen (I'm tired. Therefore I'm going to sleep). Deshalb starts position 1, verb in position 2.",
+      "explanation": "deshalb",
+      "explanationDetail": "Deshalb = therefore.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "consequence",
         "deshalb"
-      ]
+      ],
+      "id": "q27"
     },
     {
-      "id": "q40",
       "type": "multiple-choice",
-      "text": "Obwohl sie krank ___, geht sie arbeiten.",
+      "text": "Obwohl sie wenig Zeit ___, hilft sie uns.",
       "options": [
         {
           "id": "a",
-          "text": "ist"
+          "text": "hat"
         },
         {
           "id": "b",
-          "text": "sein"
+          "text": "haben"
         },
         {
           "id": "c",
-          "text": "bist"
+          "text": "hast"
         },
         {
           "id": "d",
-          "text": "sind"
+          "text": "hatte"
         }
       ],
       "correctAnswerId": "a",
       "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl is subordinating, so the verb goes to the end. Obwohl sie krank ist (although she's sick). The verb agrees with the subject (sie → ist).",
+      "explanationDetail": "Obwohl is subordinating.",
       "tags": [
         "conjunctions",
-        "subordinating",
-        "contrast",
         "obwohl"
-      ]
+      ],
+      "id": "q28"
     },
     {
-      "id": "q41",
       "type": "multiple-choice",
-      "text": "Er hat keine Zeit. ___ hilft er mir.",
+      "text": "Es war anstrengend. ___ hat es Spaß gemacht.",
       "options": [
         {
           "id": "a",
@@ -1309,19 +903,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "trotzdem = nevertheless",
-      "explanationDetail": "Trotzdem shows contrast despite the first statement. Er hat keine Zeit. Trotzdem hilft er (He has no time. Nevertheless he helps). Trotzdem connects two independent sentences.",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "contrast",
         "trotzdem"
-      ]
+      ],
+      "id": "q29"
     },
     {
-      "id": "q42",
       "type": "multiple-choice",
-      "text": "Es ist kalt. ___ ziehe ich eine Jacke an.",
+      "text": "Der Film war gut. ___ gehen wir wieder ins Kino.",
       "options": [
         {
           "id": "a",
@@ -1341,115 +933,17 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "deshalb = therefore",
-      "explanationDetail": "Deshalb shows logical consequence. Es ist kalt. Deshalb ziehe ich eine Jacke an (It's cold. Therefore I'm putting on a jacket). The second action is a result of the first.",
+      "explanation": "deshalb",
+      "explanationDetail": "Deshalb = therefore.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "consequence",
         "deshalb"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Obwohl er viel ___, ist er nicht reich.",
-      "options": [
-        {
-          "id": "a",
-          "text": "arbeitet"
-        },
-        {
-          "id": "b",
-          "text": "arbeiten"
-        },
-        {
-          "id": "c",
-          "text": "arbeitest"
-        },
-        {
-          "id": "d",
-          "text": "arbeite"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl sends the verb to the end. Obwohl er viel arbeitet (although he works a lot). The verb agrees with the subject (er → arbeitet).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "contrast",
-        "obwohl"
-      ]
+      "id": "q30"
     },
     {
-      "id": "q44",
       "type": "multiple-choice",
-      "text": "Ich habe Hunger. ___ esse ich etwas.",
-      "options": [
-        {
-          "id": "a",
-          "text": "Obwohl"
-        },
-        {
-          "id": "b",
-          "text": "Trotzdem"
-        },
-        {
-          "id": "c",
-          "text": "Deshalb"
-        },
-        {
-          "id": "d",
-          "text": "Weil"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "deshalb = therefore",
-      "explanationDetail": "Deshalb shows consequence. Ich habe Hunger. Deshalb esse ich (I'm hungry. Therefore I'm eating). The second action follows logically from the first.",
-      "tags": [
-        "conjunctions",
-        "coordinating",
-        "consequence",
-        "deshalb"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Obwohl das Buch langweilig ___, liest sie es weiter.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "bist"
-        },
-        {
-          "id": "d",
-          "text": "sind"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl sends the verb to the end. Obwohl das Buch langweilig ist (although the book is boring). The verb agrees with the subject (das Buch → ist).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "contrast",
-        "obwohl"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Der Film war schlecht. ___ hat er mir gefallen.",
+      "text": "Er hat kein Geld. ___ kauft er das Buch trotzdem.",
       "options": [
         {
           "id": "a",
@@ -1469,51 +963,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "trotzdem = nevertheless",
-      "explanationDetail": "Trotzdem shows unexpected contrast. Der Film war schlecht. Trotzdem hat er mir gefallen (The film was bad. Nevertheless I liked it). This is surprising or unexpected.",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "contrast",
         "trotzdem"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Obwohl wir müde ___, gehen wir noch aus.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sind"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "bist"
-        },
-        {
-          "id": "d",
-          "text": "ist"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "obwohl sends verb to end",
-      "explanationDetail": "Obwohl sends the verb to the end. Obwohl wir müde sind (although we're tired). The verb agrees with the subject (wir → sind).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "contrast",
-        "obwohl"
-      ]
+      "id": "q31"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Ich habe viel gelernt. ___ habe ich die Prüfung bestanden.",
+      "text": "Sie hat Prüfung. ___ lernt sie viel.",
       "options": [
         {
           "id": "a",
@@ -1533,51 +993,47 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "deshalb = therefore",
-      "explanationDetail": "Deshalb shows consequence. Ich habe viel gelernt. Deshalb habe ich bestanden (I studied a lot. Therefore I passed). The result follows from the action.",
+      "explanation": "deshalb",
+      "explanationDetail": "Deshalb = therefore.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "consequence",
         "deshalb"
-      ]
+      ],
+      "id": "q32"
     },
     {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Obwohl es regnet, ___ wir spazieren.",
+      "text": "Obwohl wir spät dran sind, ___ wir den Zug.",
       "options": [
         {
           "id": "a",
-          "text": "gehen"
+          "text": "erreichen"
         },
         {
           "id": "b",
-          "text": "gehen wir"
+          "text": "erreicht"
         },
         {
           "id": "c",
-          "text": "wir gehen"
+          "text": "erreiche"
         },
         {
           "id": "d",
-          "text": "gegangen"
+          "text": "erreichst"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "obwohl is subordinating, main clause has normal word order",
-      "explanationDetail": "Obwohl (although) is subordinating. After the obwohl-clause, the main clause starts with the verb. Obwohl es regnet, gehen wir spazieren (Although it's raining, we're going for a walk). Pattern: Obwohl + ... + verb, verb + subject.",
+      "explanation": "main clause verb first",
+      "explanationDetail": "After obwohl-clause, main clause: verb in position 2.",
       "tags": [
         "conjunctions",
-        "subordinating",
-        "contrast",
         "obwohl"
-      ]
+      ],
+      "id": "q33"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Es regnet. ___ gehen wir spazieren.",
+      "text": "Der Kaffee ist kalt. ___ trinke ich ihn.",
       "options": [
         {
           "id": "a",
@@ -1597,14 +1053,493 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "trotzdem = nevertheless (coordinating)",
-      "explanationDetail": "Trotzdem (nevertheless/anyway) is a coordinating adverb. It connects two independent clauses. Es regnet. Trotzdem gehen wir (It's raining. Nevertheless we're going). Trotzdem starts position 1, verb in position 2.",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
       "tags": [
         "conjunctions",
-        "coordinating",
-        "contrast",
         "trotzdem"
-      ]
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe Durst. ___ hole ich mir etwas zu trinken.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "deshalb",
+      "explanationDetail": "Deshalb = therefore.",
+      "tags": [
+        "conjunctions",
+        "deshalb"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Obwohl sie wenig Zeit ___, hilft sie uns.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "hast"
+        },
+        {
+          "id": "d",
+          "text": "hatte"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "obwohl sends verb to end",
+      "explanationDetail": "Obwohl is subordinating.",
+      "tags": [
+        "conjunctions",
+        "obwohl"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Es war anstrengend. ___ hat es Spaß gemacht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
+      "tags": [
+        "conjunctions",
+        "trotzdem"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Film war gut. ___ gehen wir wieder ins Kino.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "deshalb",
+      "explanationDetail": "Deshalb = therefore.",
+      "tags": [
+        "conjunctions",
+        "deshalb"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er hat kein Geld. ___ kauft er das Buch trotzdem.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
+      "tags": [
+        "conjunctions",
+        "trotzdem"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat Prüfung. ___ lernt sie viel.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "deshalb",
+      "explanationDetail": "Deshalb = therefore.",
+      "tags": [
+        "conjunctions",
+        "deshalb"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Obwohl wir spät dran sind, ___ wir den Zug.",
+      "options": [
+        {
+          "id": "a",
+          "text": "erreichen"
+        },
+        {
+          "id": "b",
+          "text": "erreicht"
+        },
+        {
+          "id": "c",
+          "text": "erreiche"
+        },
+        {
+          "id": "d",
+          "text": "erreichst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "main clause verb first",
+      "explanationDetail": "After obwohl-clause, main clause: verb in position 2.",
+      "tags": [
+        "conjunctions",
+        "obwohl"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Kaffee ist kalt. ___ trinke ich ihn.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
+      "tags": [
+        "conjunctions",
+        "trotzdem"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe Durst. ___ hole ich mir etwas zu trinken.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "deshalb",
+      "explanationDetail": "Deshalb = therefore.",
+      "tags": [
+        "conjunctions",
+        "deshalb"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Obwohl sie wenig Zeit ___, hilft sie uns.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "hast"
+        },
+        {
+          "id": "d",
+          "text": "hatte"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "obwohl sends verb to end",
+      "explanationDetail": "Obwohl is subordinating.",
+      "tags": [
+        "conjunctions",
+        "obwohl"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Es war anstrengend. ___ hat es Spaß gemacht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
+      "tags": [
+        "conjunctions",
+        "trotzdem"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Film war gut. ___ gehen wir wieder ins Kino.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "deshalb",
+      "explanationDetail": "Deshalb = therefore.",
+      "tags": [
+        "conjunctions",
+        "deshalb"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er hat kein Geld. ___ kauft er das Buch trotzdem.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
+      "tags": [
+        "conjunctions",
+        "trotzdem"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat Prüfung. ___ lernt sie viel.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "deshalb",
+      "explanationDetail": "Deshalb = therefore.",
+      "tags": [
+        "conjunctions",
+        "deshalb"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Obwohl wir spät dran sind, ___ wir den Zug.",
+      "options": [
+        {
+          "id": "a",
+          "text": "erreichen"
+        },
+        {
+          "id": "b",
+          "text": "erreicht"
+        },
+        {
+          "id": "c",
+          "text": "erreiche"
+        },
+        {
+          "id": "d",
+          "text": "erreichst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "main clause verb first",
+      "explanationDetail": "After obwohl-clause, main clause: verb in position 2.",
+      "tags": [
+        "conjunctions",
+        "obwohl"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Kaffee ist kalt. ___ trinke ich ihn.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obwohl"
+        },
+        {
+          "id": "b",
+          "text": "Trotzdem"
+        },
+        {
+          "id": "c",
+          "text": "Deshalb"
+        },
+        {
+          "id": "d",
+          "text": "Weil"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "trotzdem",
+      "explanationDetail": "Trotzdem = nevertheless.",
+      "tags": [
+        "conjunctions",
+        "trotzdem"
+      ],
+      "id": "q50"
     }
   ]
 }

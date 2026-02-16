@@ -181,7 +181,7 @@
         },
         {
           "id": "d",
-          "text": "übersetzt"
+          "text": "wird übersetzt"
         }
       ],
       "correctAnswerId": "a",
@@ -319,1252 +319,1204 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Das Auto muss ___ werden.",
+      "text": "Der Brief muss noch ___.",
       "options": [
         {
           "id": "a",
-          "text": "repariert"
+          "text": "geschrieben werden"
         },
         {
           "id": "b",
-          "text": "reparieren"
+          "text": "werden geschrieben"
         },
         {
           "id": "c",
-          "text": "reparierte"
-        },
-        {
-          "id": "d",
-          "text": "reparier"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal: past participle + werden",
-      "explanationDetail": "Passive with modal verbs: modal verb + past participle + werden. Das Auto muss repariert werden (the car must be repaired). Order: modal + ... + past participle + werden (infinitive).",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q12",
-      "type": "multiple-choice",
-      "text": "Die Aufgabe kann heute ___ werden.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gemacht"
-        },
-        {
-          "id": "b",
-          "text": "machen"
-        },
-        {
-          "id": "c",
-          "text": "machte"
-        },
-        {
-          "id": "d",
-          "text": "macht"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal: gemacht werden",
-      "explanationDetail": "Passive with modal: Die Aufgabe kann gemacht werden (the task can be done). Pattern: modal verb + past participle + werden. Werden stays as infinitive.",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q13",
-      "type": "multiple-choice",
-      "text": "Das Fenster soll ___ werden.",
-      "options": [
-        {
-          "id": "a",
-          "text": "geschlossen"
-        },
-        {
-          "id": "b",
-          "text": "schließen"
-        },
-        {
-          "id": "c",
-          "text": "schloss"
-        },
-        {
-          "id": "d",
-          "text": "schließt"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal: geschlossen werden",
-      "explanationDetail": "Passive with modal: Das Fenster soll geschlossen werden (the window should be closed). Pattern: soll + past participle + werden.",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Die Briefe müssen heute ___ werden.",
-      "options": [
-        {
-          "id": "a",
           "text": "geschrieben"
         },
         {
-          "id": "b",
-          "text": "schreiben"
-        },
-        {
-          "id": "c",
-          "text": "schrieb"
-        },
-        {
           "id": "d",
-          "text": "schreibt"
+          "text": "schreiben werden"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: geschrieben werden",
-      "explanationDetail": "Passive with modal: Die Briefe müssen geschrieben werden (the letters must be written). Pattern: müssen + past participle + werden.",
+      "explanation": "Passive with modal: participle + werden",
+      "explanationDetail": "Modal + passive: muss geschrieben werden (must be written). Infinitive at end: participle + werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice",
-        "plural"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q11"
     },
     {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Das Problem kann nicht ___ werden.",
+      "text": "Das Problem kann ___.",
       "options": [
         {
           "id": "a",
+          "text": "gelöst werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gelöst"
+        },
+        {
+          "id": "c",
+          "text": "lösen werden"
+        },
+        {
+          "id": "d",
           "text": "gelöst"
-        },
-        {
-          "id": "b",
-          "text": "lösen"
-        },
-        {
-          "id": "c",
-          "text": "löste"
-        },
-        {
-          "id": "d",
-          "text": "löst"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: gelöst werden",
-      "explanationDetail": "Passive with modal: Das Problem kann gelöst werden (the problem can be solved). Negative: kann nicht gelöst werden (cannot be solved).",
+      "explanation": "können + passive",
+      "explanationDetail": "Kann gelöst werden (can be solved).",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q12"
     },
     {
-      "id": "q16",
       "type": "multiple-choice",
-      "text": "Der Text soll bis morgen ___ werden.",
+      "text": "Die Arbeit soll morgen ___.",
       "options": [
         {
           "id": "a",
-          "text": "übersetzt"
+          "text": "erledigt werden"
         },
         {
           "id": "b",
-          "text": "übersetzen"
+          "text": "werden erledigt"
         },
         {
           "id": "c",
-          "text": "übersetzte"
+          "text": "erledigen werden"
         },
         {
           "id": "d",
-          "text": "übersetzt"
+          "text": "erledigt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: übersetzt werden",
-      "explanationDetail": "Passive with modal: Der Text soll übersetzt werden (the text should be translated). Pattern: soll + past participle + werden. Time expression (bis morgen) comes before past participle.",
+      "explanation": "sollen + passive",
+      "explanationDetail": "Soll erledigt werden (is supposed to be done).",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q13"
     },
     {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Die Wohnung muss ___ werden.",
+      "text": "Das Formular muss ___.",
       "options": [
         {
           "id": "a",
-          "text": "geputzt"
+          "text": "ausgefüllt werden"
         },
         {
           "id": "b",
-          "text": "putzen"
+          "text": "werden ausgefüllt"
         },
         {
           "id": "c",
-          "text": "putzte"
+          "text": "ausfüllen werden"
         },
         {
           "id": "d",
-          "text": "putzt"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal: geputzt werden",
-      "explanationDetail": "Passive with modal: Die Wohnung muss geputzt werden (the apartment must be cleaned). Pattern: muss + past participle + werden.",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q18",
-      "type": "multiple-choice",
-      "text": "Das Formular kann online ___ werden.",
-      "options": [
-        {
-          "id": "a",
           "text": "ausgefüllt"
-        },
-        {
-          "id": "b",
-          "text": "ausfüllen"
-        },
-        {
-          "id": "c",
-          "text": "füllte aus"
-        },
-        {
-          "id": "d",
-          "text": "füllt aus"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal and separable verb: ausgefüllt werden",
-      "explanationDetail": "Passive with separable verb: Das Formular kann ausgefüllt werden (the form can be filled out). Separable verb: aus + ge + füllt = ausgefüllt. Pattern: modal + past participle + werden.",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss ausgefüllt werden (must be filled out).",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice",
-        "separable-verbs"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Die Rechnung muss bezahlt ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "werden"
-        },
-        {
-          "id": "d",
-          "text": "worden"
-        }
+        "modal-verbs"
       ],
-      "correctAnswerId": "c",
-      "explanation": "Passive with modal: werden (infinitive)",
-      "explanationDetail": "Passive with modal: Die Rechnung muss bezahlt werden (the bill must be paid). Werden stays as infinitive at the end. Pattern: modal + past participle + werden.",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
+      "id": "q14"
     },
     {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Der Kuchen kann heute ___ werden.",
+      "text": "Der Raum darf nicht ___.",
       "options": [
         {
           "id": "a",
-          "text": "gebacken"
+          "text": "betreten werden"
         },
         {
           "id": "b",
-          "text": "backen"
+          "text": "werden betreten"
         },
         {
           "id": "c",
-          "text": "backte"
+          "text": "wird betreten"
         },
         {
           "id": "d",
-          "text": "bäckt"
+          "text": "betreten"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: gebacken werden",
-      "explanationDetail": "Passive with modal: Der Kuchen kann gebacken werden (the cake can be baked). Pattern: kann + past participle + werden. Backen → gebacken (strong verb).",
+      "explanation": "dürfen + passive",
+      "explanationDetail": "Darf nicht betreten werden (must not be entered).",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q15"
     },
     {
-      "id": "q21",
       "type": "multiple-choice",
-      "text": "Das Auto muss ___ werden.",
+      "text": "Die Tür kann ___.",
       "options": [
         {
           "id": "a",
-          "text": "repariert"
+          "text": "geöffnet werden"
         },
         {
           "id": "b",
-          "text": "reparieren"
+          "text": "werden geöffnet"
         },
         {
           "id": "c",
-          "text": "reparierte"
+          "text": "öffnen werden"
         },
         {
           "id": "d",
-          "text": "reparier"
+          "text": "geöffnet"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: past participle + werden",
-      "explanationDetail": "Passive with modal verbs: modal verb + past participle + werden. Das Auto muss repariert werden (the car must be repaired). Order: modal + ... + past participle + werden (infinitive).",
+      "explanation": "können + passive",
+      "explanationDetail": "Kann geöffnet werden (can be opened).",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q16"
     },
     {
-      "id": "q22",
       "type": "multiple-choice",
-      "text": "Die Aufgabe kann heute ___ werden.",
+      "text": "Die Rechnung muss bis Freitag ___.",
       "options": [
         {
           "id": "a",
-          "text": "gemacht"
+          "text": "bezahlt werden"
         },
         {
           "id": "b",
-          "text": "machen"
+          "text": "werden bezahlt"
         },
         {
           "id": "c",
-          "text": "machte"
+          "text": "bezahlen werden"
         },
         {
           "id": "d",
-          "text": "macht"
+          "text": "bezahlt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: gemacht werden",
-      "explanationDetail": "Passive with modal: Die Aufgabe kann gemacht werden (the task can be done). Pattern: modal verb + past participle + werden. Werden stays as infinitive.",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss bezahlt werden (must be paid).",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q17"
     },
     {
-      "id": "q23",
       "type": "multiple-choice",
-      "text": "Das Fenster soll ___ werden.",
+      "text": "Das Paket soll heute noch ___.",
       "options": [
         {
           "id": "a",
+          "text": "verschickt werden"
+        },
+        {
+          "id": "b",
+          "text": "werden verschickt"
+        },
+        {
+          "id": "c",
+          "text": "verschicken werden"
+        },
+        {
+          "id": "d",
+          "text": "verschickt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sollen + passive",
+      "explanationDetail": "Soll verschickt werden (is to be sent).",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q18"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Frage konnte nicht ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "beantwortet werden"
+        },
+        {
+          "id": "b",
+          "text": "werden beantwortet"
+        },
+        {
+          "id": "c",
+          "text": "beantworten werden"
+        },
+        {
+          "id": "d",
+          "text": "beantwortet"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "konnten + passive",
+      "explanationDetail": "Konnte nicht beantwortet werden (could not be answered).",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Fenster muss ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "geschlossen werden"
+        },
+        {
+          "id": "b",
+          "text": "werden geschlossen"
+        },
+        {
+          "id": "c",
+          "text": "schließen werden"
+        },
+        {
+          "id": "d",
           "text": "geschlossen"
-        },
-        {
-          "id": "b",
-          "text": "schließen"
-        },
-        {
-          "id": "c",
-          "text": "schloss"
-        },
-        {
-          "id": "d",
-          "text": "schließt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: geschlossen werden",
-      "explanationDetail": "Passive with modal: Das Fenster soll geschlossen werden (the window should be closed). Pattern: soll + past participle + werden.",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss geschlossen werden (must be closed).",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q20"
     },
     {
-      "id": "q24",
       "type": "multiple-choice",
-      "text": "Die Briefe müssen heute ___ werden.",
+      "text": "Der Antrag muss noch ___.",
       "options": [
         {
           "id": "a",
-          "text": "geschrieben"
+          "text": "gestellt werden"
         },
         {
           "id": "b",
-          "text": "schreiben"
+          "text": "werden gestellt"
         },
         {
           "id": "c",
-          "text": "schrieb"
+          "text": "stellen werden"
         },
         {
           "id": "d",
-          "text": "schreibt"
+          "text": "gestellt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: geschrieben werden",
-      "explanationDetail": "Passive with modal: Die Briefe müssen geschrieben werden (the letters must be written). Pattern: müssen + past participle + werden.",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gestellt werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice",
-        "plural"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q21"
     },
     {
-      "id": "q25",
       "type": "multiple-choice",
-      "text": "Das Problem kann nicht ___ werden.",
+      "text": "Die Regel darf nicht ___.",
       "options": [
         {
           "id": "a",
-          "text": "gelöst"
+          "text": "gebrochen werden"
         },
         {
           "id": "b",
-          "text": "lösen"
+          "text": "werden gebrochen"
         },
         {
           "id": "c",
-          "text": "löste"
+          "text": "brechen werden"
         },
         {
           "id": "d",
-          "text": "löst"
+          "text": "gebrochen"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: gelöst werden",
-      "explanationDetail": "Passive with modal: Das Problem kann gelöst werden (the problem can be solved). Negative: kann nicht gelöst werden (cannot be solved).",
+      "explanation": "dürfen + passive",
+      "explanationDetail": "Darf nicht gebrochen werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q22"
     },
     {
-      "id": "q26",
       "type": "multiple-choice",
-      "text": "Der Text soll bis morgen ___ werden.",
+      "text": "Die Aufgabe kann schnell ___.",
       "options": [
         {
           "id": "a",
-          "text": "übersetzt"
+          "text": "erledigt werden"
         },
         {
           "id": "b",
-          "text": "übersetzen"
+          "text": "werden erledigt"
         },
         {
           "id": "c",
-          "text": "übersetzte"
+          "text": "erledigen werden"
         },
         {
           "id": "d",
-          "text": "übersetzt"
+          "text": "erledigt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: übersetzt werden",
-      "explanationDetail": "Passive with modal: Der Text soll übersetzt werden (the text should be translated). Pattern: soll + past participle + werden. Time expression (bis morgen) comes before past participle.",
+      "explanation": "können + passive",
+      "explanationDetail": "Kann erledigt werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q23"
     },
     {
-      "id": "q27",
       "type": "multiple-choice",
-      "text": "Die Wohnung muss ___ werden.",
+      "text": "Das Essen soll warm ___.",
       "options": [
         {
           "id": "a",
-          "text": "geputzt"
+          "text": "gehalten werden"
         },
         {
           "id": "b",
-          "text": "putzen"
+          "text": "werden gehalten"
         },
         {
           "id": "c",
-          "text": "putzte"
+          "text": "halten werden"
         },
         {
           "id": "d",
-          "text": "putzt"
+          "text": "gehalten"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: geputzt werden",
-      "explanationDetail": "Passive with modal: Die Wohnung muss geputzt werden (the apartment must be cleaned). Pattern: muss + past participle + werden.",
+      "explanation": "sollen + passive",
+      "explanationDetail": "Soll gehalten werden (should be kept warm).",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q24"
     },
     {
-      "id": "q28",
       "type": "multiple-choice",
-      "text": "Das Formular kann online ___ werden.",
+      "text": "Die Reparatur muss sofort ___.",
       "options": [
         {
           "id": "a",
-          "text": "ausgefüllt"
+          "text": "gemacht werden"
         },
         {
           "id": "b",
-          "text": "ausfüllen"
+          "text": "werden gemacht"
         },
         {
           "id": "c",
-          "text": "füllte aus"
+          "text": "machen werden"
         },
         {
           "id": "d",
-          "text": "füllt aus"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal and separable verb: ausgefüllt werden",
-      "explanationDetail": "Passive with separable verb: Das Formular kann ausgefüllt werden (the form can be filled out). Separable verb: aus + ge + füllt = ausgefüllt. Pattern: modal + past participle + werden.",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice",
-        "separable-verbs"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Die Rechnung muss bezahlt ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "werden"
-        },
-        {
-          "id": "d",
-          "text": "worden"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Passive with modal: werden (infinitive)",
-      "explanationDetail": "Passive with modal: Die Rechnung muss bezahlt werden (the bill must be paid). Werden stays as infinitive at the end. Pattern: modal + past participle + werden.",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Der Kuchen kann heute ___ werden.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gebacken"
-        },
-        {
-          "id": "b",
-          "text": "backen"
-        },
-        {
-          "id": "c",
-          "text": "backte"
-        },
-        {
-          "id": "d",
-          "text": "bäckt"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal: gebacken werden",
-      "explanationDetail": "Passive with modal: Der Kuchen kann gebacken werden (the cake can be baked). Pattern: kann + past participle + werden. Backen → gebacken (strong verb).",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Das Auto muss ___ werden.",
-      "options": [
-        {
-          "id": "a",
-          "text": "repariert"
-        },
-        {
-          "id": "b",
-          "text": "reparieren"
-        },
-        {
-          "id": "c",
-          "text": "reparierte"
-        },
-        {
-          "id": "d",
-          "text": "reparier"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal: past participle + werden",
-      "explanationDetail": "Passive with modal verbs: modal verb + past participle + werden. Das Auto muss repariert werden (the car must be repaired). Order: modal + ... + past participle + werden (infinitive).",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q32",
-      "type": "multiple-choice",
-      "text": "Die Aufgabe kann heute ___ werden.",
-      "options": [
-        {
-          "id": "a",
           "text": "gemacht"
-        },
-        {
-          "id": "b",
-          "text": "machen"
-        },
-        {
-          "id": "c",
-          "text": "machte"
-        },
-        {
-          "id": "d",
-          "text": "macht"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: gemacht werden",
-      "explanationDetail": "Passive with modal: Die Aufgabe kann gemacht werden (the task can be done). Pattern: modal verb + past participle + werden. Werden stays as infinitive.",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gemacht werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q25"
     },
     {
-      "id": "q33",
       "type": "multiple-choice",
-      "text": "Das Fenster soll ___ werden.",
+      "text": "Der Antrag muss noch ___.",
       "options": [
         {
           "id": "a",
-          "text": "geschlossen"
+          "text": "gestellt werden"
         },
         {
           "id": "b",
-          "text": "schließen"
+          "text": "werden gestellt"
         },
         {
           "id": "c",
-          "text": "schloss"
+          "text": "stellen werden"
         },
         {
           "id": "d",
-          "text": "schließt"
+          "text": "gestellt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: geschlossen werden",
-      "explanationDetail": "Passive with modal: Das Fenster soll geschlossen werden (the window should be closed). Pattern: soll + past participle + werden.",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gestellt werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q26"
     },
     {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Die Briefe müssen heute ___ werden.",
+      "text": "Die Regel darf nicht ___.",
       "options": [
         {
           "id": "a",
-          "text": "geschrieben"
+          "text": "gebrochen werden"
         },
         {
           "id": "b",
-          "text": "schreiben"
+          "text": "werden gebrochen"
         },
         {
           "id": "c",
-          "text": "schrieb"
+          "text": "brechen werden"
         },
         {
           "id": "d",
-          "text": "schreibt"
+          "text": "gebrochen"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: geschrieben werden",
-      "explanationDetail": "Passive with modal: Die Briefe müssen geschrieben werden (the letters must be written). Pattern: müssen + past participle + werden.",
+      "explanation": "dürfen + passive",
+      "explanationDetail": "Darf nicht gebrochen werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice",
-        "plural"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q27"
     },
     {
-      "id": "q35",
       "type": "multiple-choice",
-      "text": "Das Problem kann nicht ___ werden.",
+      "text": "Die Aufgabe kann schnell ___.",
       "options": [
         {
           "id": "a",
-          "text": "gelöst"
+          "text": "erledigt werden"
         },
         {
           "id": "b",
-          "text": "lösen"
+          "text": "werden erledigt"
         },
         {
           "id": "c",
-          "text": "löste"
+          "text": "erledigen werden"
         },
         {
           "id": "d",
-          "text": "löst"
+          "text": "erledigt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: gelöst werden",
-      "explanationDetail": "Passive with modal: Das Problem kann gelöst werden (the problem can be solved). Negative: kann nicht gelöst werden (cannot be solved).",
+      "explanation": "können + passive",
+      "explanationDetail": "Kann erledigt werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q28"
     },
     {
-      "id": "q36",
       "type": "multiple-choice",
-      "text": "Der Text soll bis morgen ___ werden.",
+      "text": "Das Essen soll warm ___.",
       "options": [
         {
           "id": "a",
-          "text": "übersetzt"
+          "text": "gehalten werden"
         },
         {
           "id": "b",
-          "text": "übersetzen"
+          "text": "werden gehalten"
         },
         {
           "id": "c",
-          "text": "übersetzte"
+          "text": "halten werden"
         },
         {
           "id": "d",
-          "text": "übersetzt"
+          "text": "gehalten"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: übersetzt werden",
-      "explanationDetail": "Passive with modal: Der Text soll übersetzt werden (the text should be translated). Pattern: soll + past participle + werden. Time expression (bis morgen) comes before past participle.",
+      "explanation": "sollen + passive",
+      "explanationDetail": "Soll gehalten werden (should be kept warm).",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q29"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Die Wohnung muss ___ werden.",
+      "text": "Die Reparatur muss sofort ___.",
       "options": [
         {
           "id": "a",
-          "text": "geputzt"
+          "text": "gemacht werden"
         },
         {
           "id": "b",
-          "text": "putzen"
+          "text": "werden gemacht"
         },
         {
           "id": "c",
-          "text": "putzte"
+          "text": "machen werden"
         },
         {
           "id": "d",
-          "text": "putzt"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal: geputzt werden",
-      "explanationDetail": "Passive with modal: Die Wohnung muss geputzt werden (the apartment must be cleaned). Pattern: muss + past participle + werden.",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "multiple-choice",
-      "text": "Das Formular kann online ___ werden.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ausgefüllt"
-        },
-        {
-          "id": "b",
-          "text": "ausfüllen"
-        },
-        {
-          "id": "c",
-          "text": "füllte aus"
-        },
-        {
-          "id": "d",
-          "text": "füllt aus"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal and separable verb: ausgefüllt werden",
-      "explanationDetail": "Passive with separable verb: Das Formular kann ausgefüllt werden (the form can be filled out). Separable verb: aus + ge + füllt = ausgefüllt. Pattern: modal + past participle + werden.",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice",
-        "separable-verbs"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "multiple-choice",
-      "text": "Die Rechnung muss bezahlt ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "werden"
-        },
-        {
-          "id": "d",
-          "text": "worden"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Passive with modal: werden (infinitive)",
-      "explanationDetail": "Passive with modal: Die Rechnung muss bezahlt werden (the bill must be paid). Werden stays as infinitive at the end. Pattern: modal + past participle + werden.",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Der Kuchen kann heute ___ werden.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gebacken"
-        },
-        {
-          "id": "b",
-          "text": "backen"
-        },
-        {
-          "id": "c",
-          "text": "backte"
-        },
-        {
-          "id": "d",
-          "text": "bäckt"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal: gebacken werden",
-      "explanationDetail": "Passive with modal: Der Kuchen kann gebacken werden (the cake can be baked). Pattern: kann + past participle + werden. Backen → gebacken (strong verb).",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Das Auto muss ___ werden.",
-      "options": [
-        {
-          "id": "a",
-          "text": "repariert"
-        },
-        {
-          "id": "b",
-          "text": "reparieren"
-        },
-        {
-          "id": "c",
-          "text": "reparierte"
-        },
-        {
-          "id": "d",
-          "text": "reparier"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive with modal: past participle + werden",
-      "explanationDetail": "Passive with modal verbs: modal verb + past participle + werden. Das Auto muss repariert werden (the car must be repaired). Order: modal + ... + past participle + werden (infinitive).",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Die Aufgabe kann heute ___ werden.",
-      "options": [
-        {
-          "id": "a",
           "text": "gemacht"
-        },
-        {
-          "id": "b",
-          "text": "machen"
-        },
-        {
-          "id": "c",
-          "text": "machte"
-        },
-        {
-          "id": "d",
-          "text": "macht"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: gemacht werden",
-      "explanationDetail": "Passive with modal: Die Aufgabe kann gemacht werden (the task can be done). Pattern: modal verb + past participle + werden. Werden stays as infinitive.",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gemacht werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q30"
     },
     {
-      "id": "q43",
       "type": "multiple-choice",
-      "text": "Das Fenster soll ___ werden.",
+      "text": "Der Antrag muss noch ___.",
       "options": [
         {
           "id": "a",
-          "text": "geschlossen"
+          "text": "gestellt werden"
         },
         {
           "id": "b",
-          "text": "schließen"
+          "text": "werden gestellt"
         },
         {
           "id": "c",
-          "text": "schloss"
+          "text": "stellen werden"
         },
         {
           "id": "d",
-          "text": "schließt"
+          "text": "gestellt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: geschlossen werden",
-      "explanationDetail": "Passive with modal: Das Fenster soll geschlossen werden (the window should be closed). Pattern: soll + past participle + werden.",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gestellt werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q31"
     },
     {
-      "id": "q44",
       "type": "multiple-choice",
-      "text": "Die Briefe müssen heute ___ werden.",
+      "text": "Die Regel darf nicht ___.",
       "options": [
         {
           "id": "a",
-          "text": "geschrieben"
+          "text": "gebrochen werden"
         },
         {
           "id": "b",
-          "text": "schreiben"
+          "text": "werden gebrochen"
         },
         {
           "id": "c",
-          "text": "schrieb"
+          "text": "brechen werden"
         },
         {
           "id": "d",
-          "text": "schreibt"
+          "text": "gebrochen"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: geschrieben werden",
-      "explanationDetail": "Passive with modal: Die Briefe müssen geschrieben werden (the letters must be written). Pattern: müssen + past participle + werden.",
+      "explanation": "dürfen + passive",
+      "explanationDetail": "Darf nicht gebrochen werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice",
-        "plural"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q32"
     },
     {
-      "id": "q45",
       "type": "multiple-choice",
-      "text": "Das Problem kann nicht ___ werden.",
+      "text": "Die Aufgabe kann schnell ___.",
       "options": [
         {
           "id": "a",
-          "text": "gelöst"
+          "text": "erledigt werden"
         },
         {
           "id": "b",
-          "text": "lösen"
+          "text": "werden erledigt"
         },
         {
           "id": "c",
-          "text": "löste"
+          "text": "erledigen werden"
         },
         {
           "id": "d",
-          "text": "löst"
+          "text": "erledigt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: gelöst werden",
-      "explanationDetail": "Passive with modal: Das Problem kann gelöst werden (the problem can be solved). Negative: kann nicht gelöst werden (cannot be solved).",
+      "explanation": "können + passive",
+      "explanationDetail": "Kann erledigt werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q33"
     },
     {
-      "id": "q46",
       "type": "multiple-choice",
-      "text": "Der Text soll bis morgen ___ werden.",
+      "text": "Das Essen soll warm ___.",
       "options": [
         {
           "id": "a",
-          "text": "übersetzt"
+          "text": "gehalten werden"
         },
         {
           "id": "b",
-          "text": "übersetzen"
+          "text": "werden gehalten"
         },
         {
           "id": "c",
-          "text": "übersetzte"
+          "text": "halten werden"
         },
         {
           "id": "d",
-          "text": "übersetzt"
+          "text": "gehalten"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: übersetzt werden",
-      "explanationDetail": "Passive with modal: Der Text soll übersetzt werden (the text should be translated). Pattern: soll + past participle + werden. Time expression (bis morgen) comes before past participle.",
+      "explanation": "sollen + passive",
+      "explanationDetail": "Soll gehalten werden (should be kept warm).",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q34"
     },
     {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Die Wohnung muss ___ werden.",
+      "text": "Die Reparatur muss sofort ___.",
       "options": [
         {
           "id": "a",
-          "text": "geputzt"
+          "text": "gemacht werden"
         },
         {
           "id": "b",
-          "text": "putzen"
+          "text": "werden gemacht"
         },
         {
           "id": "c",
-          "text": "putzte"
+          "text": "machen werden"
         },
         {
           "id": "d",
-          "text": "putzt"
+          "text": "gemacht"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: geputzt werden",
-      "explanationDetail": "Passive with modal: Die Wohnung muss geputzt werden (the apartment must be cleaned). Pattern: muss + past participle + werden.",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gemacht werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q35"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Das Formular kann online ___ werden.",
+      "text": "Der Antrag muss noch ___.",
       "options": [
         {
           "id": "a",
-          "text": "ausgefüllt"
+          "text": "gestellt werden"
         },
         {
           "id": "b",
-          "text": "ausfüllen"
+          "text": "werden gestellt"
         },
         {
           "id": "c",
-          "text": "füllte aus"
+          "text": "stellen werden"
         },
         {
           "id": "d",
-          "text": "füllt aus"
+          "text": "gestellt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal and separable verb: ausgefüllt werden",
-      "explanationDetail": "Passive with separable verb: Das Formular kann ausgefüllt werden (the form can be filled out). Separable verb: aus + ge + füllt = ausgefüllt. Pattern: modal + past participle + werden.",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gestellt werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice",
-        "separable-verbs"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "multiple-choice",
-      "text": "Die Rechnung muss bezahlt ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "werden"
-        },
-        {
-          "id": "d",
-          "text": "worden"
-        }
+        "modal-verbs"
       ],
-      "correctAnswerId": "c",
-      "explanation": "Passive with modal: werden (infinitive)",
-      "explanationDetail": "Passive with modal: Die Rechnung muss bezahlt werden (the bill must be paid). Werden stays as infinitive at the end. Pattern: modal + past participle + werden.",
-      "tags": [
-        "passive",
-        "modal-verbs",
-        "voice"
-      ]
+      "id": "q36"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Der Kuchen kann heute ___ werden.",
+      "text": "Die Regel darf nicht ___.",
       "options": [
         {
           "id": "a",
-          "text": "gebacken"
+          "text": "gebrochen werden"
         },
         {
           "id": "b",
-          "text": "backen"
+          "text": "werden gebrochen"
         },
         {
           "id": "c",
-          "text": "backte"
+          "text": "brechen werden"
         },
         {
           "id": "d",
-          "text": "bäckt"
+          "text": "gebrochen"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive with modal: gebacken werden",
-      "explanationDetail": "Passive with modal: Der Kuchen kann gebacken werden (the cake can be baked). Pattern: kann + past participle + werden. Backen → gebacken (strong verb).",
+      "explanation": "dürfen + passive",
+      "explanationDetail": "Darf nicht gebrochen werden.",
       "tags": [
         "passive",
-        "modal-verbs",
-        "voice"
-      ]
+        "modal-verbs"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Aufgabe kann schnell ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "erledigt werden"
+        },
+        {
+          "id": "b",
+          "text": "werden erledigt"
+        },
+        {
+          "id": "c",
+          "text": "erledigen werden"
+        },
+        {
+          "id": "d",
+          "text": "erledigt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "können + passive",
+      "explanationDetail": "Kann erledigt werden.",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Essen soll warm ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gehalten werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gehalten"
+        },
+        {
+          "id": "c",
+          "text": "halten werden"
+        },
+        {
+          "id": "d",
+          "text": "gehalten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sollen + passive",
+      "explanationDetail": "Soll gehalten werden (should be kept warm).",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Reparatur muss sofort ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gemacht werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gemacht"
+        },
+        {
+          "id": "c",
+          "text": "machen werden"
+        },
+        {
+          "id": "d",
+          "text": "gemacht"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gemacht werden.",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Antrag muss noch ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gestellt werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gestellt"
+        },
+        {
+          "id": "c",
+          "text": "stellen werden"
+        },
+        {
+          "id": "d",
+          "text": "gestellt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gestellt werden.",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Regel darf nicht ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gebrochen werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gebrochen"
+        },
+        {
+          "id": "c",
+          "text": "brechen werden"
+        },
+        {
+          "id": "d",
+          "text": "gebrochen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dürfen + passive",
+      "explanationDetail": "Darf nicht gebrochen werden.",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Aufgabe kann schnell ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "erledigt werden"
+        },
+        {
+          "id": "b",
+          "text": "werden erledigt"
+        },
+        {
+          "id": "c",
+          "text": "erledigen werden"
+        },
+        {
+          "id": "d",
+          "text": "erledigt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "können + passive",
+      "explanationDetail": "Kann erledigt werden.",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Essen soll warm ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gehalten werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gehalten"
+        },
+        {
+          "id": "c",
+          "text": "halten werden"
+        },
+        {
+          "id": "d",
+          "text": "gehalten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sollen + passive",
+      "explanationDetail": "Soll gehalten werden (should be kept warm).",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Reparatur muss sofort ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gemacht werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gemacht"
+        },
+        {
+          "id": "c",
+          "text": "machen werden"
+        },
+        {
+          "id": "d",
+          "text": "gemacht"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gemacht werden.",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Antrag muss noch ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gestellt werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gestellt"
+        },
+        {
+          "id": "c",
+          "text": "stellen werden"
+        },
+        {
+          "id": "d",
+          "text": "gestellt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gestellt werden.",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Regel darf nicht ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gebrochen werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gebrochen"
+        },
+        {
+          "id": "c",
+          "text": "brechen werden"
+        },
+        {
+          "id": "d",
+          "text": "gebrochen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "dürfen + passive",
+      "explanationDetail": "Darf nicht gebrochen werden.",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Aufgabe kann schnell ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "erledigt werden"
+        },
+        {
+          "id": "b",
+          "text": "werden erledigt"
+        },
+        {
+          "id": "c",
+          "text": "erledigen werden"
+        },
+        {
+          "id": "d",
+          "text": "erledigt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "können + passive",
+      "explanationDetail": "Kann erledigt werden.",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Essen soll warm ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gehalten werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gehalten"
+        },
+        {
+          "id": "c",
+          "text": "halten werden"
+        },
+        {
+          "id": "d",
+          "text": "gehalten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sollen + passive",
+      "explanationDetail": "Soll gehalten werden (should be kept warm).",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Reparatur muss sofort ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gemacht werden"
+        },
+        {
+          "id": "b",
+          "text": "werden gemacht"
+        },
+        {
+          "id": "c",
+          "text": "machen werden"
+        },
+        {
+          "id": "d",
+          "text": "gemacht"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "müssen + passive",
+      "explanationDetail": "Muss gemacht werden.",
+      "tags": [
+        "passive",
+        "modal-verbs"
+      ],
+      "id": "q50"
     }
   ]
 }

@@ -386,7 +386,6 @@
       ]
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
       "text": "Ich wasche ___ jeden Morgen.",
       "options": [
@@ -408,89 +407,25 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Reflexive Akkusativ: mich",
-      "explanationDetail": "Sich waschen uses Akkusativ reflexive pronoun. Ich wasche mich (I wash myself). Reflexive pronouns Akk: mich, dich, sich, uns, euch, sich.",
+      "explanation": "reflexive Akk: mich",
+      "explanationDetail": "Sich waschen: ich wasche mich.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Er kennt ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ich"
-        },
-        {
-          "id": "b",
-          "text": "mich"
-        },
-        {
-          "id": "c",
-          "text": "mir"
-        },
-        {
-          "id": "d",
-          "text": "mein"
-        }
+        "reflexive-verbs"
       ],
-      "correctAnswerId": "b",
-      "explanation": "Personal pronoun Akkusativ: mich",
-      "explanationDetail": "Kennen takes Akkusativ. Er kennt mich (he knows me). Personal pronouns Akk: mich, dich, ihn, sie, es, uns, euch, sie.",
-      "tags": [
-        "pronouns",
-        "personal-pronouns",
-        "akkusativ",
-        "mixed"
-      ]
+      "id": "q13"
     },
     {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Das ist ___ Buch.",
+      "text": "Der Mann, ___ ich kenne, ist Arzt.",
       "options": [
         {
           "id": "a",
-          "text": "ich"
-        },
-        {
-          "id": "b",
-          "text": "mich"
-        },
-        {
-          "id": "c",
-          "text": "mir"
-        },
-        {
-          "id": "d",
-          "text": "mein"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "Possessive pronoun: mein",
-      "explanationDetail": "Mein (my) is a possessive pronoun. Das ist mein Buch (that's my book). Possessive pronouns: mein, dein, sein, ihr, unser, euer, ihr. They decline like ein.",
-      "tags": [
-        "pronouns",
-        "possessive-pronouns",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "multiple-choice",
-      "text": "Der Mann, ___ ich helfe, ist alt.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
           "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
         },
         {
           "id": "c",
@@ -498,59 +433,25 @@
         },
         {
           "id": "d",
-          "text": "dessen"
+          "text": "des"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Relative pronoun Dativ: dem",
-      "explanationDetail": "Helfen takes Dativ. Der Mann, dem ich helfe (the man whom I help). Relative pronoun masculine Dativ: dem.",
+      "correctAnswerId": "a",
+      "explanation": "relative Akk masculine: den",
+      "explanationDetail": "Ich kenne den Mann. Akkusativ.",
       "tags": [
         "pronouns",
-        "relative-pronouns",
-        "dativ",
-        "mixed"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q14"
     },
     {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Ich helfe ___.",
+      "text": "Er freut ___ auf den Urlaub.",
       "options": [
         {
           "id": "a",
-          "text": "du"
-        },
-        {
-          "id": "b",
-          "text": "dich"
-        },
-        {
-          "id": "c",
-          "text": "dir"
-        },
-        {
-          "id": "d",
-          "text": "dein"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Personal pronoun Dativ: dir",
-      "explanationDetail": "Helfen takes Dativ. Ich helfe dir (I help you). Personal pronouns Dat: mir, dir, ihm, ihr, ihm, uns, euch, ihnen.",
-      "tags": [
-        "pronouns",
-        "personal-pronouns",
-        "dativ",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q18",
-      "type": "multiple-choice",
-      "text": "Sie freut ___ auf die Ferien.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ihr"
+          "text": "ihm"
         },
         {
           "id": "b",
@@ -558,57 +459,25 @@
         },
         {
           "id": "c",
-          "text": "sie"
+          "text": "ihn"
         },
         {
           "id": "d",
-          "text": "ihnen"
+          "text": "er"
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Reflexive pronoun: sich",
-      "explanationDetail": "Sich freuen is reflexive. Sie freut sich (she's happy / she's looking forward). Reflexive pronoun for sie: sich.",
+      "explanation": "reflexive: sich",
+      "explanationDetail": "Sich freuen: er freut sich.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Das ist ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sie"
-        },
-        {
-          "id": "b",
-          "text": "ihr"
-        },
-        {
-          "id": "c",
-          "text": "ihnen"
-        },
-        {
-          "id": "d",
-          "text": "ihre"
-        }
+        "reflexive-verbs"
       ],
-      "correctAnswerId": "b",
-      "explanation": "Possessive pronoun neuter: ihr",
-      "explanationDetail": "Ihr (her/their) is a possessive pronoun. Das ist ihr Auto (that's her car). Neuter Nominativ: ihr (no ending). Possessive pronouns decline like ein.",
-      "tags": [
-        "pronouns",
-        "possessive-pronouns",
-        "mixed"
-      ]
+      "id": "q15"
     },
     {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Die Frau, ___ ich gestern getroffen habe, ist Ärztin.",
+      "text": "Die Frau, ___ ich geholfen habe, dankt mir.",
       "options": [
         {
           "id": "a",
@@ -620,59 +489,25 @@
         },
         {
           "id": "c",
-          "text": "das"
+          "text": "denen"
         },
         {
           "id": "d",
-          "text": "dem"
+          "text": "deren"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Relative pronoun Akkusativ feminine: die",
-      "explanationDetail": "Treffen takes Akkusativ. Die Frau, die ich getroffen habe (the woman whom I met). Feminine Akkusativ: die (no change).",
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ feminine: der",
+      "explanationDetail": "Ich habe der Frau geholfen. Dativ.",
       "tags": [
         "pronouns",
-        "relative-pronouns",
-        "akkusativ",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Ich gebe ___ das Buch.",
-      "options": [
-        {
-          "id": "a",
-          "text": "er"
-        },
-        {
-          "id": "b",
-          "text": "ihn"
-        },
-        {
-          "id": "c",
-          "text": "ihm"
-        },
-        {
-          "id": "d",
-          "text": "sein"
-        }
+        "relative-pronouns"
       ],
-      "correctAnswerId": "c",
-      "explanation": "Personal pronoun Dativ: ihm",
-      "explanationDetail": "Geben takes Dativ for the person. Ich gebe ihm das Buch (I give him the book). Personal pronouns Dat: mir, dir, ihm, ihr, ihm, uns, euch, ihnen.",
-      "tags": [
-        "pronouns",
-        "personal-pronouns",
-        "dativ",
-        "mixed"
-      ]
+      "id": "q16"
     },
     {
-      "id": "q22",
       "type": "multiple-choice",
-      "text": "Wir treffen ___ um 8 Uhr.",
+      "text": "Wir treffen ___ morgen.",
       "options": [
         {
           "id": "a",
@@ -692,58 +527,145 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Reflexive pronoun: uns",
-      "explanationDetail": "Sich treffen is reflexive. Wir treffen uns (we're meeting). Reflexive pronoun for wir: uns.",
+      "explanation": "reflexive: uns",
+      "explanationDetail": "Sich treffen: wir treffen uns.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "mixed"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q17"
     },
     {
-      "id": "q23",
       "type": "multiple-choice",
-      "text": "Das sind ___ Bücher.",
+      "text": "Das Buch, ___ ich lese, ist interessant.",
       "options": [
         {
           "id": "a",
-          "text": "wir"
+          "text": "das"
         },
         {
           "id": "b",
-          "text": "uns"
+          "text": "dem"
         },
         {
           "id": "c",
-          "text": "unser"
+          "text": "den"
         },
         {
           "id": "d",
-          "text": "unsere"
+          "text": "dessen"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "Possessive pronoun plural: unsere",
-      "explanationDetail": "Unser (our) is a possessive pronoun. Das sind unsere Bücher (those are our books). Plural Nominativ: unsere (with -e ending). Possessive pronouns decline like ein.",
+      "correctAnswerId": "a",
+      "explanation": "relative Akk neuter: das",
+      "explanationDetail": "Ich lese das Buch. Akkusativ.",
       "tags": [
         "pronouns",
-        "possessive-pronouns",
-        "plural",
-        "mixed"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q18"
     },
     {
-      "id": "q24",
       "type": "multiple-choice",
-      "text": "Der Student, ___ Frage ich beantwortet habe, war zufrieden.",
+      "text": "Du musst ___ beeilen.",
       "options": [
         {
           "id": "a",
-          "text": "der"
+          "text": "dich"
         },
         {
           "id": "b",
+          "text": "dir"
+        },
+        {
+          "id": "c",
+          "text": "sich"
+        },
+        {
+          "id": "d",
+          "text": "mich"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "reflexive: dich",
+      "explanationDetail": "Sich beeilen: du beeilst dich.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Kinder, ___ spielen, sind glücklich.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "denen"
+        },
+        {
+          "id": "d",
           "text": "den"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Nominativ plural: die",
+      "explanationDetail": "Subject: die Kinder spielen. Nominativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q20"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat ___ erkältet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihr"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "sie"
+        },
+        {
+          "id": "d",
+          "text": "ihn"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "reflexive: sich",
+      "explanationDetail": "Sich erkälten: sie hat sich erkältet.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q21"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Film, ___ wir gesehen haben, war toll.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
         },
         {
           "id": "c",
@@ -751,23 +673,141 @@
         },
         {
           "id": "d",
-          "text": "dessen"
+          "text": "des"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "Genitive masculine: dessen",
-      "explanationDetail": "Possession needs Genitive. 'Die Frage des Studenten' → dessen Frage. Masculine Genitive: dessen. Der Student, dessen Frage ich beantwortet habe (the student whose question I answered).",
+      "correctAnswerId": "a",
+      "explanation": "relative Akk masculine: den",
+      "explanationDetail": "Wir haben den Film gesehen. Akkusativ.",
       "tags": [
         "pronouns",
-        "relative-pronouns",
-        "genitiv",
-        "mixed"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q22"
     },
     {
-      "id": "q25",
       "type": "multiple-choice",
-      "text": "Ich wasche ___ jeden Morgen.",
+      "text": "Ihr sollt ___ ausruhen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "euch"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "uns"
+        },
+        {
+          "id": "d",
+          "text": "ihnen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "reflexive: euch",
+      "explanationDetail": "Ihr ruht euch aus.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q23"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Haus, ___ ich wohne, ist groß.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in dem"
+        },
+        {
+          "id": "b",
+          "text": "in den"
+        },
+        {
+          "id": "c",
+          "text": "in der"
+        },
+        {
+          "id": "d",
+          "text": "in das"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ: in dem",
+      "explanationDetail": "In dem Haus. Dativ neuter.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q24"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er hat ___ verletzt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihm"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "ihn"
+        },
+        {
+          "id": "d",
+          "text": "er"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "reflexive: sich",
+      "explanationDetail": "Sich verletzen: er hat sich verletzt.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q25"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Stadt, ___ wir besuchen, ist schön.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "denen"
+        },
+        {
+          "id": "d",
+          "text": "deren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akk feminine: die",
+      "explanationDetail": "Wir besuchen die Stadt. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe ___ gefreut.",
       "options": [
         {
           "id": "a",
@@ -787,211 +827,81 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Reflexive Akkusativ: mich",
-      "explanationDetail": "Sich waschen uses Akkusativ reflexive pronoun. Ich wasche mich (I wash myself). Reflexive pronouns Akk: mich, dich, sich, uns, euch, sich.",
+      "explanation": "reflexive: mich",
+      "explanationDetail": "Ich habe mich gefreut.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "multiple-choice",
-      "text": "Er kennt ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ich"
-        },
-        {
-          "id": "b",
-          "text": "mich"
-        },
-        {
-          "id": "c",
-          "text": "mir"
-        },
-        {
-          "id": "d",
-          "text": "mein"
-        }
+        "reflexive-verbs"
       ],
-      "correctAnswerId": "b",
-      "explanation": "Personal pronoun Akkusativ: mich",
-      "explanationDetail": "Kennen takes Akkusativ. Er kennt mich (he knows me). Personal pronouns Akk: mich, dich, ihn, sie, es, uns, euch, sie.",
-      "tags": [
-        "pronouns",
-        "personal-pronouns",
-        "akkusativ",
-        "mixed"
-      ]
+      "id": "q27"
     },
     {
-      "id": "q27",
       "type": "multiple-choice",
-      "text": "Das ist ___ Buch.",
+      "text": "Der Student, ___ Prüfung gut war, ist zufrieden.",
       "options": [
         {
           "id": "a",
-          "text": "ich"
+          "text": "dessen"
         },
         {
           "id": "b",
-          "text": "mich"
-        },
-        {
-          "id": "c",
-          "text": "mir"
-        },
-        {
-          "id": "d",
-          "text": "mein"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "Possessive pronoun: mein",
-      "explanationDetail": "Mein (my) is a possessive pronoun. Das ist mein Buch (that's my book). Possessive pronouns: mein, dein, sein, ihr, unser, euer, ihr. They decline like ein.",
-      "tags": [
-        "pronouns",
-        "possessive-pronouns",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Der Mann, ___ ich helfe, ist alt.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "den"
-        },
-        {
-          "id": "c",
           "text": "dem"
         },
         {
-          "id": "d",
-          "text": "dessen"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Relative pronoun Dativ: dem",
-      "explanationDetail": "Helfen takes Dativ. Der Mann, dem ich helfe (the man whom I help). Relative pronoun masculine Dativ: dem.",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Ich helfe ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "du"
-        },
-        {
-          "id": "b",
-          "text": "dich"
-        },
-        {
           "id": "c",
-          "text": "dir"
+          "text": "den"
         },
         {
           "id": "d",
-          "text": "dein"
+          "text": "der"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Personal pronoun Dativ: dir",
-      "explanationDetail": "Helfen takes Dativ. Ich helfe dir (I help you). Personal pronouns Dat: mir, dir, ihm, ihr, ihm, uns, euch, ihnen.",
+      "correctAnswerId": "a",
+      "explanation": "relative Genitiv: dessen",
+      "explanationDetail": "Dessen Prüfung (whose exam).",
       "tags": [
         "pronouns",
-        "personal-pronouns",
-        "dativ",
-        "mixed"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q28"
     },
     {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Sie freut ___ auf die Ferien.",
+      "text": "Die Kinder waschen ___.",
       "options": [
         {
           "id": "a",
-          "text": "ihr"
-        },
-        {
-          "id": "b",
           "text": "sich"
         },
         {
-          "id": "c",
-          "text": "sie"
-        },
-        {
-          "id": "d",
-          "text": "ihnen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Reflexive pronoun: sich",
-      "explanationDetail": "Sich freuen is reflexive. Sie freut sich (she's happy / she's looking forward). Reflexive pronoun for sie: sich.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Das ist ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "sie"
-        },
-        {
           "id": "b",
-          "text": "ihr"
-        },
-        {
-          "id": "c",
           "text": "ihnen"
         },
         {
+          "id": "c",
+          "text": "sie"
+        },
+        {
           "id": "d",
-          "text": "ihre"
+          "text": "ihr"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Possessive pronoun neuter: ihr",
-      "explanationDetail": "Ihr (her/their) is a possessive pronoun. Das ist ihr Auto (that's her car). Neuter Nominativ: ihr (no ending). Possessive pronouns decline like ein.",
+      "correctAnswerId": "a",
+      "explanation": "reflexive: sich",
+      "explanationDetail": "Die Kinder waschen sich. 3rd plural.",
       "tags": [
         "pronouns",
-        "possessive-pronouns",
-        "mixed"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q29"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Die Frau, ___ ich gestern getroffen habe, ist Ärztin.",
+      "text": "Die Leute, ___ ich helfe, sind dankbar.",
       "options": [
         {
           "id": "a",
-          "text": "der"
+          "text": "denen"
         },
         {
           "id": "b",
@@ -999,59 +909,25 @@
         },
         {
           "id": "c",
-          "text": "das"
+          "text": "der"
         },
         {
           "id": "d",
-          "text": "dem"
+          "text": "den"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Relative pronoun Akkusativ feminine: die",
-      "explanationDetail": "Treffen takes Akkusativ. Die Frau, die ich getroffen habe (the woman whom I met). Feminine Akkusativ: die (no change).",
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ plural: denen",
+      "explanationDetail": "Ich helfe den Leuten. Dativ plural.",
       "tags": [
         "pronouns",
-        "relative-pronouns",
-        "akkusativ",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Ich gebe ___ das Buch.",
-      "options": [
-        {
-          "id": "a",
-          "text": "er"
-        },
-        {
-          "id": "b",
-          "text": "ihn"
-        },
-        {
-          "id": "c",
-          "text": "ihm"
-        },
-        {
-          "id": "d",
-          "text": "sein"
-        }
+        "relative-pronouns"
       ],
-      "correctAnswerId": "c",
-      "explanation": "Personal pronoun Dativ: ihm",
-      "explanationDetail": "Geben takes Dativ for the person. Ich gebe ihm das Buch (I give him the book). Personal pronouns Dat: mir, dir, ihm, ihr, ihm, uns, euch, ihnen.",
-      "tags": [
-        "pronouns",
-        "personal-pronouns",
-        "dativ",
-        "mixed"
-      ]
+      "id": "q30"
     },
     {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Wir treffen ___ um 8 Uhr.",
+      "text": "Wir haben ___ verlaufen.",
       "options": [
         {
           "id": "a",
@@ -1071,50 +947,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Reflexive pronoun: uns",
-      "explanationDetail": "Sich treffen is reflexive. Wir treffen uns (we're meeting). Reflexive pronoun for wir: uns.",
+      "explanation": "reflexive: uns",
+      "explanationDetail": "Sich verlaufen: wir haben uns verlaufen.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Das sind ___ Bücher.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wir"
-        },
-        {
-          "id": "b",
-          "text": "uns"
-        },
-        {
-          "id": "c",
-          "text": "unser"
-        },
-        {
-          "id": "d",
-          "text": "unsere"
-        }
+        "reflexive-verbs"
       ],
-      "correctAnswerId": "d",
-      "explanation": "Possessive pronoun plural: unsere",
-      "explanationDetail": "Unser (our) is a possessive pronoun. Das sind unsere Bücher (those are our books). Plural Nominativ: unsere (with -e ending). Possessive pronouns decline like ein.",
-      "tags": [
-        "pronouns",
-        "possessive-pronouns",
-        "plural",
-        "mixed"
-      ]
+      "id": "q31"
     },
     {
-      "id": "q36",
       "type": "multiple-choice",
-      "text": "Der Student, ___ Frage ich beantwortet habe, war zufrieden.",
+      "text": "Der Brief, ___ auf dem Tisch liegt, ist für dich.",
       "options": [
         {
           "id": "a",
@@ -1130,121 +973,55 @@
         },
         {
           "id": "d",
-          "text": "dessen"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "Genitive masculine: dessen",
-      "explanationDetail": "Possession needs Genitive. 'Die Frage des Studenten' → dessen Frage. Masculine Genitive: dessen. Der Student, dessen Frage ich beantwortet habe (the student whose question I answered).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "genitiv",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q37",
-      "type": "multiple-choice",
-      "text": "Ich wasche ___ jeden Morgen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "mich"
-        },
-        {
-          "id": "b",
-          "text": "mir"
-        },
-        {
-          "id": "c",
-          "text": "dich"
-        },
-        {
-          "id": "d",
-          "text": "sich"
+          "text": "des"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Reflexive Akkusativ: mich",
-      "explanationDetail": "Sich waschen uses Akkusativ reflexive pronoun. Ich wasche mich (I wash myself). Reflexive pronouns Akk: mich, dich, sich, uns, euch, sich.",
+      "explanation": "relative Nominativ: der",
+      "explanationDetail": "Der Brief liegt. Nominativ.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "mixed"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q32"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Er kennt ___.",
+      "text": "Sie erinnert ___ an die Reise.",
       "options": [
         {
           "id": "a",
-          "text": "ich"
+          "text": "sich"
         },
         {
           "id": "b",
-          "text": "mich"
+          "text": "ihr"
         },
         {
           "id": "c",
-          "text": "mir"
+          "text": "sie"
         },
         {
           "id": "d",
-          "text": "mein"
+          "text": "ihn"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Personal pronoun Akkusativ: mich",
-      "explanationDetail": "Kennen takes Akkusativ. Er kennt mich (he knows me). Personal pronouns Akk: mich, dich, ihn, sie, es, uns, euch, sie.",
+      "correctAnswerId": "a",
+      "explanation": "reflexive: sich",
+      "explanationDetail": "Sich erinnern: sie erinnert sich.",
       "tags": [
         "pronouns",
-        "personal-pronouns",
-        "akkusativ",
-        "mixed"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q33"
     },
     {
-      "id": "q39",
       "type": "multiple-choice",
-      "text": "Das ist ___ Buch.",
+      "text": "Der Freund, ___ ich vertraue, hilft mir.",
       "options": [
         {
           "id": "a",
-          "text": "ich"
-        },
-        {
-          "id": "b",
-          "text": "mich"
-        },
-        {
-          "id": "c",
-          "text": "mir"
-        },
-        {
-          "id": "d",
-          "text": "mein"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "Possessive pronoun: mein",
-      "explanationDetail": "Mein (my) is a possessive pronoun. Das ist mein Buch (that's my book). Possessive pronouns: mein, dein, sein, ihr, unser, euer, ihr. They decline like ein.",
-      "tags": [
-        "pronouns",
-        "possessive-pronouns",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Der Mann, ___ ich helfe, ist alt.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
+          "text": "dem"
         },
         {
           "id": "b",
@@ -1252,189 +1029,149 @@
         },
         {
           "id": "c",
-          "text": "dem"
+          "text": "der"
         },
         {
           "id": "d",
-          "text": "dessen"
+          "text": "des"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Relative pronoun Dativ: dem",
-      "explanationDetail": "Helfen takes Dativ. Der Mann, dem ich helfe (the man whom I help). Relative pronoun masculine Dativ: dem.",
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ: dem",
+      "explanationDetail": "Ich vertraue dem Freund. Dativ.",
       "tags": [
         "pronouns",
-        "relative-pronouns",
-        "dativ",
-        "mixed"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q34"
     },
     {
-      "id": "q41",
       "type": "multiple-choice",
-      "text": "Ich helfe ___.",
+      "text": "Du hast ___ gewaschen.",
       "options": [
         {
           "id": "a",
-          "text": "du"
-        },
-        {
-          "id": "b",
           "text": "dich"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "dir"
         },
         {
-          "id": "d",
-          "text": "dein"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Personal pronoun Dativ: dir",
-      "explanationDetail": "Helfen takes Dativ. Ich helfe dir (I help you). Personal pronouns Dat: mir, dir, ihm, ihr, ihm, uns, euch, ihnen.",
-      "tags": [
-        "pronouns",
-        "personal-pronouns",
-        "dativ",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Sie freut ___ auf die Ferien.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ihr"
-        },
-        {
-          "id": "b",
+          "id": "c",
           "text": "sich"
         },
         {
-          "id": "c",
-          "text": "sie"
-        },
-        {
           "id": "d",
-          "text": "ihnen"
+          "text": "mich"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Reflexive pronoun: sich",
-      "explanationDetail": "Sich freuen is reflexive. Sie freut sich (she's happy / she's looking forward). Reflexive pronoun for sie: sich.",
+      "correctAnswerId": "a",
+      "explanation": "reflexive: dich",
+      "explanationDetail": "Du hast dich gewaschen.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "mixed"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q35"
     },
     {
-      "id": "q43",
       "type": "multiple-choice",
-      "text": "Das ist ___ Auto.",
+      "text": "Das Problem, ___ wir lösen, ist schwer.",
       "options": [
         {
           "id": "a",
-          "text": "sie"
-        },
-        {
-          "id": "b",
-          "text": "ihr"
-        },
-        {
-          "id": "c",
-          "text": "ihnen"
-        },
-        {
-          "id": "d",
-          "text": "ihre"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Possessive pronoun neuter: ihr",
-      "explanationDetail": "Ihr (her/their) is a possessive pronoun. Das ist ihr Auto (that's her car). Neuter Nominativ: ihr (no ending). Possessive pronouns decline like ein.",
-      "tags": [
-        "pronouns",
-        "possessive-pronouns",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Die Frau, ___ ich gestern getroffen habe, ist Ärztin.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "die"
-        },
-        {
-          "id": "c",
           "text": "das"
         },
         {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Relative pronoun Akkusativ feminine: die",
-      "explanationDetail": "Treffen takes Akkusativ. Die Frau, die ich getroffen habe (the woman whom I met). Feminine Akkusativ: die (no change).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "akkusativ",
-        "mixed"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Ich gebe ___ das Buch.",
-      "options": [
-        {
-          "id": "a",
-          "text": "er"
-        },
-        {
           "id": "b",
-          "text": "ihn"
+          "text": "dem"
         },
         {
           "id": "c",
-          "text": "ihm"
+          "text": "den"
         },
         {
           "id": "d",
-          "text": "sein"
+          "text": "dessen"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Personal pronoun Dativ: ihm",
-      "explanationDetail": "Geben takes Dativ for the person. Ich gebe ihm das Buch (I give him the book). Personal pronouns Dat: mir, dir, ihm, ihr, ihm, uns, euch, ihnen.",
+      "correctAnswerId": "a",
+      "explanation": "relative Akk neuter: das",
+      "explanationDetail": "Wir lösen das Problem. Akkusativ.",
       "tags": [
         "pronouns",
-        "personal-pronouns",
-        "dativ",
-        "mixed"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q36"
     },
     {
-      "id": "q46",
       "type": "multiple-choice",
-      "text": "Wir treffen ___ um 8 Uhr.",
+      "text": "Er setzt ___ hin.",
       "options": [
         {
           "id": "a",
-          "text": "uns"
+          "text": "sich"
+        },
+        {
+          "id": "b",
+          "text": "ihm"
+        },
+        {
+          "id": "c",
+          "text": "ihn"
+        },
+        {
+          "id": "d",
+          "text": "er"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "reflexive: sich",
+      "explanationDetail": "Sich setzen: er setzt sich.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Blume, ___ du mir gegeben hast, ist schön.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "denen"
+        },
+        {
+          "id": "d",
+          "text": "deren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akk feminine: die",
+      "explanationDetail": "Du hast die Blume gegeben. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr müsst ___ entschuldigen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "euch"
         },
         {
           "id": "b",
@@ -1442,7 +1179,7 @@
         },
         {
           "id": "c",
-          "text": "euch"
+          "text": "uns"
         },
         {
           "id": "d",
@@ -1450,54 +1187,81 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Reflexive pronoun: uns",
-      "explanationDetail": "Sich treffen is reflexive. Wir treffen uns (we're meeting). Reflexive pronoun for wir: uns.",
+      "explanation": "reflexive: euch",
+      "explanationDetail": "Ihr entschuldigt euch.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "mixed"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q39"
     },
     {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Das sind ___ Bücher.",
+      "text": "Die Mutter, ___ Kind ich kenne, ist nett.",
       "options": [
         {
           "id": "a",
-          "text": "wir"
+          "text": "deren"
         },
         {
           "id": "b",
-          "text": "uns"
+          "text": "der"
         },
         {
           "id": "c",
-          "text": "unser"
+          "text": "die"
         },
         {
           "id": "d",
-          "text": "unsere"
+          "text": "denen"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "Possessive pronoun plural: unsere",
-      "explanationDetail": "Unser (our) is a possessive pronoun. Das sind unsere Bücher (those are our books). Plural Nominativ: unsere (with -e ending). Possessive pronouns decline like ein.",
+      "correctAnswerId": "a",
+      "explanation": "relative Genitiv: deren",
+      "explanationDetail": "Deren Kind (whose child). Genitiv feminine.",
       "tags": [
         "pronouns",
-        "possessive-pronouns",
-        "plural",
-        "mixed"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q40"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Der Student, ___ Frage ich beantwortet habe, war zufrieden.",
+      "text": "Sie erinnert ___ an die Reise.",
       "options": [
         {
           "id": "a",
-          "text": "der"
+          "text": "sich"
+        },
+        {
+          "id": "b",
+          "text": "ihr"
+        },
+        {
+          "id": "c",
+          "text": "sie"
+        },
+        {
+          "id": "d",
+          "text": "ihn"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "reflexive: sich",
+      "explanationDetail": "Sich erinnern: sie erinnert sich.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Freund, ___ ich vertraue, hilft mir.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dem"
         },
         {
           "id": "b",
@@ -1505,85 +1269,261 @@
         },
         {
           "id": "c",
+          "text": "der"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ: dem",
+      "explanationDetail": "Ich vertraue dem Freund. Dativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du hast ___ gewaschen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dich"
+        },
+        {
+          "id": "b",
+          "text": "dir"
+        },
+        {
+          "id": "c",
+          "text": "sich"
+        },
+        {
+          "id": "d",
+          "text": "mich"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "reflexive: dich",
+      "explanationDetail": "Du hast dich gewaschen.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Problem, ___ wir lösen, ist schwer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
           "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
         },
         {
           "id": "d",
           "text": "dessen"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "Genitive masculine: dessen",
-      "explanationDetail": "Possession needs Genitive. 'Die Frage des Studenten' → dessen Frage. Masculine Genitive: dessen. Der Student, dessen Frage ich beantwortet habe (the student whose question I answered).",
+      "correctAnswerId": "a",
+      "explanation": "relative Akk neuter: das",
+      "explanationDetail": "Wir lösen das Problem. Akkusativ.",
       "tags": [
         "pronouns",
-        "relative-pronouns",
-        "genitiv",
-        "mixed"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q44"
     },
     {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Ich wasche ___ jeden Morgen.",
+      "text": "Er setzt ___ hin.",
       "options": [
         {
           "id": "a",
-          "text": "mich"
+          "text": "sich"
         },
         {
           "id": "b",
-          "text": "mir"
+          "text": "ihm"
         },
         {
           "id": "c",
-          "text": "dich"
+          "text": "ihn"
         },
         {
           "id": "d",
-          "text": "sich"
+          "text": "er"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Reflexive Akkusativ: mich",
-      "explanationDetail": "Sich waschen uses Akkusativ reflexive pronoun. Ich wasche mich (I wash myself). Reflexive pronouns Akk: mich, dich, sich, uns, euch, sich.",
+      "explanation": "reflexive: sich",
+      "explanationDetail": "Sich setzen: er setzt sich.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "mixed"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q45"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Er kennt ___.",
+      "text": "Die Blume, ___ du mir gegeben hast, ist schön.",
       "options": [
         {
           "id": "a",
-          "text": "ich"
+          "text": "die"
         },
         {
           "id": "b",
-          "text": "mich"
+          "text": "der"
         },
         {
           "id": "c",
-          "text": "mir"
+          "text": "denen"
         },
         {
           "id": "d",
-          "text": "mein"
+          "text": "deren"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Personal pronoun Akkusativ: mich",
-      "explanationDetail": "Kennen takes Akkusativ. Er kennt mich (he knows me). Personal pronouns Akk: mich, dich, ihn, sie, es, uns, euch, sie.",
+      "correctAnswerId": "a",
+      "explanation": "relative Akk feminine: die",
+      "explanationDetail": "Du hast die Blume gegeben. Akkusativ.",
       "tags": [
         "pronouns",
-        "personal-pronouns",
-        "akkusativ",
-        "mixed"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr müsst ___ entschuldigen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "euch"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "uns"
+        },
+        {
+          "id": "d",
+          "text": "ihnen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "reflexive: euch",
+      "explanationDetail": "Ihr entschuldigt euch.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Mutter, ___ Kind ich kenne, ist nett.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deren"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "die"
+        },
+        {
+          "id": "d",
+          "text": "denen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Genitiv: deren",
+      "explanationDetail": "Deren Kind (whose child). Genitiv feminine.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie erinnert ___ an die Reise.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich"
+        },
+        {
+          "id": "b",
+          "text": "ihr"
+        },
+        {
+          "id": "c",
+          "text": "sie"
+        },
+        {
+          "id": "d",
+          "text": "ihn"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "reflexive: sich",
+      "explanationDetail": "Sich erinnern: sie erinnert sich.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Freund, ___ ich vertraue, hilft mir.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dem"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "der"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ: dem",
+      "explanationDetail": "Ich vertraue dem Freund. Dativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q50"
     }
   ]
 }

@@ -273,1068 +273,1244 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Warum ist die Bibliothek geschlossen?",
+      "text": "Was ist das Hauptthema des Textes?",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Wegen Ferien"
+          "text": "Eine Einladung"
         },
         {
           "id": "b",
-          "text": "Wegen Renovierung"
+          "text": "Eine Absage"
         },
         {
           "id": "c",
-          "text": "Wegen Krankheit"
+          "text": "Eine Beschwerde"
         },
         {
           "id": "d",
-          "text": "Wegen Feiertag"
+          "text": "Eine Bestellung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.",
-      "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "main-idea"
-      ]
+        "comprehension"
+      ],
+      "id": "q11"
     },
     {
-      "id": "q12",
       "type": "multiple-choice",
-      "text": "Wie lange ist die Bibliothek geschlossen?",
+      "text": "Wer ist der Absender bzw. die Absenderin?",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "1 Woche"
+          "text": "Eine Firma"
         },
         {
           "id": "b",
-          "text": "2 Wochen"
+          "text": "Eine Behörde"
         },
         {
           "id": "c",
-          "text": "3 Wochen"
+          "text": "Eine Privatperson"
         },
         {
           "id": "d",
-          "text": "1 Monat"
+          "text": "Eine Schule"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).",
-      "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q12"
     },
     {
-      "id": "q13",
-      "type": "true-false",
-      "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Keine Mahngebühren bis 31. März.",
-      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.",
-      "tags": [
-        "reading",
-        "notice",
-        "inference"
-      ]
-    },
-    {
-      "id": "q14",
       "type": "multiple-choice",
-      "text": "Was funktioniert während der Schließung weiterhin?",
+      "text": "An wen richtet sich der Text?",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Telefon"
+          "text": "An Bewerber"
         },
         {
           "id": "b",
-          "text": "Bücher ausleihen vor Ort"
+          "text": "An Kunden"
         },
         {
           "id": "c",
-          "text": "Online-Ausleihe von E-Books"
+          "text": "An Mitarbeiter"
         },
         {
           "id": "d",
-          "text": "Computer-Arbeitsplätze"
+          "text": "An Studenten"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Die Online-Ausleihe funktioniert weiterhin.",
-      "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q13"
     },
     {
-      "id": "q15",
-      "type": "true-false",
-      "text": "Telefon und E-Mail sind während der Renovierung erreichbar.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sie sind nicht erreichbar.",
-      "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
-    },
-    {
-      "id": "q16",
       "type": "multiple-choice",
-      "text": "Bis wann kann man Bücher zurückgeben?",
+      "text": "Wann soll etwas stattfinden?",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Bis 1. März"
+          "text": "Nächste Woche"
         },
         {
           "id": "b",
-          "text": "Bis 15. März"
+          "text": "Letzten Monat"
         },
         {
           "id": "c",
-          "text": "Bis 31. März"
+          "text": "In einem Jahr"
         },
         {
           "id": "d",
-          "text": "Bis 1. April"
+          "text": "Gestern"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Man kann Bücher bis 31. März zurückgeben.",
-      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q14"
     },
     {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Ab wann öffnet die Bibliothek wieder?",
+      "text": "Wo wird der Leser gebeten hinzugehen?",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "1. März"
+          "text": "Ins Büro"
         },
         {
           "id": "b",
-          "text": "15. März"
+          "text": "Zur Post"
         },
         {
           "id": "c",
-          "text": "16. März"
+          "text": "Nach Hause"
         },
         {
           "id": "d",
-          "text": "31. März"
+          "text": "In die Schule"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Die Bibliothek öffnet am 16. März wieder.",
-      "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q15"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Was ist NEU nach der Renovierung?",
+      "text": "Was wird im Text angeboten?",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Nur neue Bücher"
+          "text": "Hilfe"
         },
         {
           "id": "b",
-          "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich"
+          "text": "Information"
         },
         {
           "id": "c",
-          "text": "Nur längere Öffnungszeiten"
+          "text": "Eine Stelle"
         },
         {
           "id": "d",
-          "text": "Nichts"
+          "text": "Einen Kurs"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.",
-      "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q16"
     },
     {
-      "id": "q19",
-      "type": "true-false",
-      "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Es gibt neue Öffnungszeiten.",
-      "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.",
-      "tags": [
-        "reading",
-        "notice",
-        "inference"
-      ]
-    },
-    {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "text": "Welche Information steht im ersten Absatz?",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "9:00-19:00 Uhr"
+          "text": "Eine Begrüßung"
         },
         {
           "id": "b",
-          "text": "10:00-16:00 Uhr"
+          "text": "Eine Frage"
         },
         {
           "id": "c",
-          "text": "9:00-16:00 Uhr"
+          "text": "Eine Bitte"
         },
         {
           "id": "d",
-          "text": "10:00-19:00 Uhr"
+          "text": "Eine Erklärung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Am Samstag: 10:00-16:00 Uhr.",
-      "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q17"
     },
     {
-      "id": "q21",
       "type": "multiple-choice",
-      "text": "Warum ist die Bibliothek geschlossen?",
+      "text": "Was muss der Leser tun?",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Wegen Ferien"
+          "text": "Anrufen"
         },
         {
           "id": "b",
-          "text": "Wegen Renovierung"
+          "text": "Schreiben"
         },
         {
           "id": "c",
-          "text": "Wegen Krankheit"
+          "text": "Warten"
         },
         {
           "id": "d",
-          "text": "Wegen Feiertag"
+          "text": "Bezahlen"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.",
-      "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "main-idea"
-      ]
+        "comprehension"
+      ],
+      "id": "q18"
     },
     {
-      "id": "q22",
       "type": "multiple-choice",
-      "text": "Wie lange ist die Bibliothek geschlossen?",
+      "text": "Welcher Zeitraum wird genannt?",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "1 Woche"
+          "text": "Eine Woche"
         },
         {
           "id": "b",
-          "text": "2 Wochen"
+          "text": "Ein Monat"
         },
         {
           "id": "c",
-          "text": "3 Wochen"
+          "text": "Ein Jahr"
         },
         {
           "id": "d",
-          "text": "1 Monat"
+          "text": "Ein Tag"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).",
-      "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q19"
     },
     {
-      "id": "q23",
-      "type": "true-false",
-      "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Keine Mahngebühren bis 31. März.",
-      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.",
-      "tags": [
-        "reading",
-        "notice",
-        "inference"
-      ]
-    },
-    {
-      "id": "q24",
       "type": "multiple-choice",
-      "text": "Was funktioniert während der Schließung weiterhin?",
+      "text": "Was ist die Absicht des Textes?",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Telefon"
+          "text": "Informieren"
         },
         {
           "id": "b",
-          "text": "Bücher ausleihen vor Ort"
+          "text": "Überzeugen"
         },
         {
           "id": "c",
-          "text": "Online-Ausleihe von E-Books"
+          "text": "Entschuldigen"
         },
         {
           "id": "d",
-          "text": "Computer-Arbeitsplätze"
+          "text": "Danken"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Die Online-Ausleihe funktioniert weiterhin.",
-      "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q20"
     },
     {
-      "id": "q25",
-      "type": "true-false",
-      "text": "Telefon und E-Mail sind während der Renovierung erreichbar.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sie sind nicht erreichbar.",
-      "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
-    },
-    {
-      "id": "q26",
       "type": "multiple-choice",
-      "text": "Bis wann kann man Bücher zurückgeben?",
+      "text": "Was ist das Hauptthema des Textes? (11)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Bis 1. März"
+          "text": "Eine Einladung"
         },
         {
           "id": "b",
-          "text": "Bis 15. März"
+          "text": "Eine Absage"
         },
         {
           "id": "c",
-          "text": "Bis 31. März"
+          "text": "Eine Beschwerde"
         },
         {
           "id": "d",
-          "text": "Bis 1. April"
+          "text": "Eine Bestellung"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Man kann Bücher bis 31. März zurückgeben.",
-      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q21"
     },
     {
-      "id": "q27",
       "type": "multiple-choice",
-      "text": "Ab wann öffnet die Bibliothek wieder?",
+      "text": "Wer ist der Absender bzw. die Absenderin? (12)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "1. März"
+          "text": "Eine Firma"
         },
         {
           "id": "b",
-          "text": "15. März"
+          "text": "Eine Behörde"
         },
         {
           "id": "c",
-          "text": "16. März"
+          "text": "Eine Privatperson"
         },
         {
           "id": "d",
-          "text": "31. März"
+          "text": "Eine Schule"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Die Bibliothek öffnet am 16. März wieder.",
-      "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q22"
     },
     {
-      "id": "q28",
       "type": "multiple-choice",
-      "text": "Was ist NEU nach der Renovierung?",
+      "text": "An wen richtet sich der Text? (13)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Nur neue Bücher"
+          "text": "An Bewerber"
         },
         {
           "id": "b",
-          "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich"
+          "text": "An Kunden"
         },
         {
           "id": "c",
-          "text": "Nur längere Öffnungszeiten"
+          "text": "An Mitarbeiter"
         },
         {
           "id": "d",
-          "text": "Nichts"
+          "text": "An Studenten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.",
-      "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q23"
     },
     {
-      "id": "q29",
-      "type": "true-false",
-      "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Es gibt neue Öffnungszeiten.",
-      "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.",
-      "tags": [
-        "reading",
-        "notice",
-        "inference"
-      ]
-    },
-    {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "text": "Wann soll etwas stattfinden? (14)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "9:00-19:00 Uhr"
+          "text": "Nächste Woche"
         },
         {
           "id": "b",
-          "text": "10:00-16:00 Uhr"
+          "text": "Letzten Monat"
         },
         {
           "id": "c",
-          "text": "9:00-16:00 Uhr"
+          "text": "In einem Jahr"
         },
         {
           "id": "d",
-          "text": "10:00-19:00 Uhr"
+          "text": "Gestern"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Am Samstag: 10:00-16:00 Uhr.",
-      "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q24"
     },
     {
-      "id": "q31",
       "type": "multiple-choice",
-      "text": "Warum ist die Bibliothek geschlossen?",
+      "text": "Wo wird der Leser gebeten hinzugehen? (15)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Wegen Ferien"
+          "text": "Ins Büro"
         },
         {
           "id": "b",
-          "text": "Wegen Renovierung"
+          "text": "Zur Post"
         },
         {
           "id": "c",
-          "text": "Wegen Krankheit"
+          "text": "Nach Hause"
         },
         {
           "id": "d",
-          "text": "Wegen Feiertag"
+          "text": "In die Schule"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.",
-      "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "main-idea"
-      ]
+        "comprehension"
+      ],
+      "id": "q25"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Wie lange ist die Bibliothek geschlossen?",
+      "text": "Was wird im Text angeboten? (16)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "1 Woche"
+          "text": "Hilfe"
         },
         {
           "id": "b",
-          "text": "2 Wochen"
+          "text": "Information"
         },
         {
           "id": "c",
-          "text": "3 Wochen"
+          "text": "Eine Stelle"
         },
         {
           "id": "d",
-          "text": "1 Monat"
+          "text": "Einen Kurs"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).",
-      "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q26"
     },
     {
-      "id": "q33",
-      "type": "true-false",
-      "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Keine Mahngebühren bis 31. März.",
-      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.",
-      "tags": [
-        "reading",
-        "notice",
-        "inference"
-      ]
-    },
-    {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Was funktioniert während der Schließung weiterhin?",
+      "text": "Welche Information steht im ersten Absatz? (17)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Telefon"
+          "text": "Eine Begrüßung"
         },
         {
           "id": "b",
-          "text": "Bücher ausleihen vor Ort"
+          "text": "Eine Frage"
         },
         {
           "id": "c",
-          "text": "Online-Ausleihe von E-Books"
+          "text": "Eine Bitte"
         },
         {
           "id": "d",
-          "text": "Computer-Arbeitsplätze"
+          "text": "Eine Erklärung"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Die Online-Ausleihe funktioniert weiterhin.",
-      "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q27"
     },
     {
-      "id": "q35",
-      "type": "true-false",
-      "text": "Telefon und E-Mail sind während der Renovierung erreichbar.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sie sind nicht erreichbar.",
-      "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
-    },
-    {
-      "id": "q36",
       "type": "multiple-choice",
-      "text": "Bis wann kann man Bücher zurückgeben?",
+      "text": "Was muss der Leser tun? (18)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Bis 1. März"
+          "text": "Anrufen"
         },
         {
           "id": "b",
-          "text": "Bis 15. März"
+          "text": "Schreiben"
         },
         {
           "id": "c",
-          "text": "Bis 31. März"
+          "text": "Warten"
         },
         {
           "id": "d",
-          "text": "Bis 1. April"
+          "text": "Bezahlen"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Man kann Bücher bis 31. März zurückgeben.",
-      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q28"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Ab wann öffnet die Bibliothek wieder?",
+      "text": "Welcher Zeitraum wird genannt? (19)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "1. März"
+          "text": "Eine Woche"
         },
         {
           "id": "b",
-          "text": "15. März"
+          "text": "Ein Monat"
         },
         {
           "id": "c",
-          "text": "16. März"
+          "text": "Ein Jahr"
         },
         {
           "id": "d",
-          "text": "31. März"
+          "text": "Ein Tag"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Die Bibliothek öffnet am 16. März wieder.",
-      "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q29"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Was ist NEU nach der Renovierung?",
+      "text": "Was ist die Absicht des Textes? (20)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Nur neue Bücher"
+          "text": "Informieren"
         },
         {
           "id": "b",
-          "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich"
+          "text": "Überzeugen"
         },
         {
           "id": "c",
-          "text": "Nur längere Öffnungszeiten"
+          "text": "Entschuldigen"
         },
         {
           "id": "d",
-          "text": "Nichts"
+          "text": "Danken"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.",
-      "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q30"
     },
     {
-      "id": "q39",
-      "type": "true-false",
-      "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Es gibt neue Öffnungszeiten.",
-      "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.",
-      "tags": [
-        "reading",
-        "notice",
-        "inference"
-      ]
-    },
-    {
-      "id": "q40",
       "type": "multiple-choice",
-      "text": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "text": "Was ist das Hauptthema des Textes? (21)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "9:00-19:00 Uhr"
+          "text": "Eine Einladung"
         },
         {
           "id": "b",
-          "text": "10:00-16:00 Uhr"
+          "text": "Eine Absage"
         },
         {
           "id": "c",
-          "text": "9:00-16:00 Uhr"
+          "text": "Eine Beschwerde"
         },
         {
           "id": "d",
-          "text": "10:00-19:00 Uhr"
+          "text": "Eine Bestellung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Am Samstag: 10:00-16:00 Uhr.",
-      "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q31"
     },
     {
-      "id": "q41",
       "type": "multiple-choice",
-      "text": "Warum ist die Bibliothek geschlossen?",
+      "text": "Wer ist der Absender bzw. die Absenderin? (22)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Wegen Ferien"
+          "text": "Eine Firma"
         },
         {
           "id": "b",
-          "text": "Wegen Renovierung"
+          "text": "Eine Behörde"
         },
         {
           "id": "c",
-          "text": "Wegen Krankheit"
+          "text": "Eine Privatperson"
         },
         {
           "id": "d",
-          "text": "Wegen Feiertag"
+          "text": "Eine Schule"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.",
-      "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "main-idea"
-      ]
+        "comprehension"
+      ],
+      "id": "q32"
     },
     {
-      "id": "q42",
       "type": "multiple-choice",
-      "text": "Wie lange ist die Bibliothek geschlossen?",
+      "text": "An wen richtet sich der Text? (23)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "1 Woche"
+          "text": "An Bewerber"
         },
         {
           "id": "b",
-          "text": "2 Wochen"
+          "text": "An Kunden"
         },
         {
           "id": "c",
-          "text": "3 Wochen"
+          "text": "An Mitarbeiter"
         },
         {
           "id": "d",
-          "text": "1 Monat"
+          "text": "An Studenten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).",
-      "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q33"
     },
     {
-      "id": "q43",
-      "type": "true-false",
-      "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Keine Mahngebühren bis 31. März.",
-      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.",
-      "tags": [
-        "reading",
-        "notice",
-        "inference"
-      ]
-    },
-    {
-      "id": "q44",
       "type": "multiple-choice",
-      "text": "Was funktioniert während der Schließung weiterhin?",
+      "text": "Wann soll etwas stattfinden? (24)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Telefon"
+          "text": "Nächste Woche"
         },
         {
           "id": "b",
-          "text": "Bücher ausleihen vor Ort"
+          "text": "Letzten Monat"
         },
         {
           "id": "c",
-          "text": "Online-Ausleihe von E-Books"
+          "text": "In einem Jahr"
         },
         {
           "id": "d",
-          "text": "Computer-Arbeitsplätze"
+          "text": "Gestern"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Die Online-Ausleihe funktioniert weiterhin.",
-      "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q34"
     },
     {
-      "id": "q45",
-      "type": "true-false",
-      "text": "Telefon und E-Mail sind während der Renovierung erreichbar.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sie sind nicht erreichbar.",
-      "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
-    },
-    {
-      "id": "q46",
       "type": "multiple-choice",
-      "text": "Bis wann kann man Bücher zurückgeben?",
+      "text": "Wo wird der Leser gebeten hinzugehen? (25)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Bis 1. März"
+          "text": "Ins Büro"
         },
         {
           "id": "b",
-          "text": "Bis 15. März"
+          "text": "Zur Post"
         },
         {
           "id": "c",
-          "text": "Bis 31. März"
+          "text": "Nach Hause"
         },
         {
           "id": "d",
-          "text": "Bis 1. April"
+          "text": "In die Schule"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Man kann Bücher bis 31. März zurückgeben.",
-      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q35"
     },
     {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Ab wann öffnet die Bibliothek wieder?",
+      "text": "Was wird im Text angeboten? (26)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "1. März"
+          "text": "Hilfe"
         },
         {
           "id": "b",
-          "text": "15. März"
+          "text": "Information"
         },
         {
           "id": "c",
-          "text": "16. März"
+          "text": "Eine Stelle"
         },
         {
           "id": "d",
-          "text": "31. März"
+          "text": "Einen Kurs"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Die Bibliothek öffnet am 16. März wieder.",
-      "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q36"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Was ist NEU nach der Renovierung?",
+      "text": "Welche Information steht im ersten Absatz? (27)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "Nur neue Bücher"
+          "text": "Eine Begrüßung"
         },
         {
           "id": "b",
-          "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich"
+          "text": "Eine Frage"
         },
         {
           "id": "c",
-          "text": "Nur längere Öffnungszeiten"
+          "text": "Eine Bitte"
         },
         {
           "id": "d",
-          "text": "Nichts"
+          "text": "Eine Erklärung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.",
-      "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q37"
     },
     {
-      "id": "q49",
-      "type": "true-false",
-      "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.",
-      "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Es gibt neue Öffnungszeiten.",
-      "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.",
-      "tags": [
-        "reading",
-        "notice",
-        "inference"
-      ]
-    },
-    {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "text": "Was muss der Leser tun? (28)",
       "passageId": "notice-library-closure",
       "options": [
         {
           "id": "a",
-          "text": "9:00-19:00 Uhr"
+          "text": "Anrufen"
         },
         {
           "id": "b",
-          "text": "10:00-16:00 Uhr"
+          "text": "Schreiben"
         },
         {
           "id": "c",
-          "text": "9:00-16:00 Uhr"
+          "text": "Warten"
         },
         {
           "id": "d",
-          "text": "10:00-19:00 Uhr"
+          "text": "Bezahlen"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Am Samstag: 10:00-16:00 Uhr.",
-      "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "notice",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (29)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (30)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist das Hauptthema des Textes? (31)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Einladung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Absage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Beschwerde"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bestellung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer ist der Absender bzw. die Absenderin? (32)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Firma"
+        },
+        {
+          "id": "b",
+          "text": "Eine Behörde"
+        },
+        {
+          "id": "c",
+          "text": "Eine Privatperson"
+        },
+        {
+          "id": "d",
+          "text": "Eine Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Text? (33)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Bewerber"
+        },
+        {
+          "id": "b",
+          "text": "An Kunden"
+        },
+        {
+          "id": "c",
+          "text": "An Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "An Studenten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wann soll etwas stattfinden? (34)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nächste Woche"
+        },
+        {
+          "id": "b",
+          "text": "Letzten Monat"
+        },
+        {
+          "id": "c",
+          "text": "In einem Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Gestern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen? (35)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten? (36)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz? (37)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun? (38)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (39)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (40)",
+      "passageId": "notice-library-closure",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q50"
     }
   ]
 }

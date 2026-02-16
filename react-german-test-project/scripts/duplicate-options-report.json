@@ -1,0 +1,1622 @@
+[
+  {
+    "file": "mini-test-01-dativ.json",
+    "questionId": "q2",
+    "questionText": "Er dankt ___ (du).",
+    "correctAnswerId": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "du"
+      },
+      {
+        "id": "b",
+        "text": "dir"
+      },
+      {
+        "id": "c",
+        "text": "dich"
+      },
+      {
+        "id": "d",
+        "text": "dich"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-10-verb-forms-mixed.json",
+    "questionId": "q46",
+    "questionText": "Wir ___ gestern ins Kino. (Präteritum)",
+    "correctAnswerId": "b",
+    "options": [
+      {
+        "id": "a",
+        "text": "gehen"
+      },
+      {
+        "id": "b",
+        "text": "gingen"
+      },
+      {
+        "id": "c",
+        "text": "gehen"
+      },
+      {
+        "id": "d",
+        "text": "gegangen"
+      }
+    ],
+    "duplicateOptionIds": [
+      "c"
+    ]
+  },
+  {
+    "file": "mini-test-12-weil-dass.json",
+    "questionId": "q18",
+    "questionText": "Er sagt, dass die Geschäfte heute ___.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "schließen"
+      },
+      {
+        "id": "b",
+        "text": "schließt"
+      },
+      {
+        "id": "c",
+        "text": "schließe"
+      },
+      {
+        "id": "d",
+        "text": "schließt"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-12-weil-dass.json",
+    "questionId": "q39",
+    "questionText": "Wir bleiben, weil die Vorstellung gleich ___.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "beginnt"
+      },
+      {
+        "id": "b",
+        "text": "beginnen"
+      },
+      {
+        "id": "c",
+        "text": "beginne"
+      },
+      {
+        "id": "d",
+        "text": "beginnt"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-12-weil-dass.json",
+    "questionId": "q48",
+    "questionText": "Er sagt, dass die Geschäfte heute ___.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "schließen"
+      },
+      {
+        "id": "b",
+        "text": "schließt"
+      },
+      {
+        "id": "c",
+        "text": "schließe"
+      },
+      {
+        "id": "d",
+        "text": "schließt"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-16-reflexive-pronouns.json",
+    "questionId": "q15",
+    "questionText": "Ihr sollt ___ ausruhen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "euch"
+      },
+      {
+        "id": "b",
+        "text": "sich"
+      },
+      {
+        "id": "c",
+        "text": "uns"
+      },
+      {
+        "id": "d",
+        "text": "euch"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-16-reflexive-pronouns.json",
+    "questionId": "q19",
+    "questionText": "Wir freuen ___ auf das Wochenende.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "uns"
+      },
+      {
+        "id": "b",
+        "text": "sich"
+      },
+      {
+        "id": "c",
+        "text": "euch"
+      },
+      {
+        "id": "d",
+        "text": "euch"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-16-reflexive-pronouns.json",
+    "questionId": "q26",
+    "questionText": "Wir haben ___ verlaufen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "uns"
+      },
+      {
+        "id": "b",
+        "text": "sich"
+      },
+      {
+        "id": "c",
+        "text": "euch"
+      },
+      {
+        "id": "d",
+        "text": "euch"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-16-reflexive-pronouns.json",
+    "questionId": "q34",
+    "questionText": "Wir ärgern ___ über das Wetter.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "uns"
+      },
+      {
+        "id": "b",
+        "text": "sich"
+      },
+      {
+        "id": "c",
+        "text": "euch"
+      },
+      {
+        "id": "d",
+        "text": "uns"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-16-reflexive-pronouns.json",
+    "questionId": "q42",
+    "questionText": "Wir ärgern ___ über das Wetter.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "uns"
+      },
+      {
+        "id": "b",
+        "text": "sich"
+      },
+      {
+        "id": "c",
+        "text": "euch"
+      },
+      {
+        "id": "d",
+        "text": "uns"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-16-reflexive-pronouns.json",
+    "questionId": "q50",
+    "questionText": "Wir ärgern ___ über das Wetter.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "uns"
+      },
+      {
+        "id": "b",
+        "text": "sich"
+      },
+      {
+        "id": "c",
+        "text": "euch"
+      },
+      {
+        "id": "d",
+        "text": "uns"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-18-pronouns-mixed.json",
+    "questionId": "q31",
+    "questionText": "Wir haben ___ verlaufen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "uns"
+      },
+      {
+        "id": "b",
+        "text": "sich"
+      },
+      {
+        "id": "c",
+        "text": "euch"
+      },
+      {
+        "id": "d",
+        "text": "euch"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-22-passive-modal.json",
+    "questionId": "q6",
+    "questionText": "Der Text soll bis morgen ___ werden.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "übersetzt"
+      },
+      {
+        "id": "b",
+        "text": "übersetzen"
+      },
+      {
+        "id": "c",
+        "text": "übersetzte"
+      },
+      {
+        "id": "d",
+        "text": "übersetzt"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-22-passive-modal.json",
+    "questionId": "q15",
+    "questionText": "Der Raum darf nicht ___.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "betreten werden"
+      },
+      {
+        "id": "b",
+        "text": "werden betreten"
+      },
+      {
+        "id": "c",
+        "text": "betreten werden"
+      },
+      {
+        "id": "d",
+        "text": "betreten"
+      }
+    ],
+    "duplicateOptionIds": [
+      "c"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q11",
+    "questionText": "Wenn ich Zeit hätte, ___ ich mitkommen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "werde"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q12",
+    "questionText": "Ich ___ dir helfen, wenn ich könnte.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "werde"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q14",
+    "questionText": "Er ___ mehr lernen, wenn er Zeit hätte.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q15",
+    "questionText": "Wenn du mich fragtest, ___ ich ja sagen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "werde"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q16",
+    "questionText": "Sie ___ gerne reisen, wenn sie Geld hätte.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q17",
+    "questionText": "Wir ___ dich einladen, wenn wir wüssten wo du wohnst.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würden"
+      },
+      {
+        "id": "b",
+        "text": "werden"
+      },
+      {
+        "id": "c",
+        "text": "wurden"
+      },
+      {
+        "id": "d",
+        "text": "würden"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q18",
+    "questionText": "Wenn ich du wäre, ___ ich das nicht tun.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "werde"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q19",
+    "questionText": "Du ___ besser schlafen, wenn du weniger Kaffee trinkst.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würdest"
+      },
+      {
+        "id": "b",
+        "text": "wirst"
+      },
+      {
+        "id": "c",
+        "text": "wurdest"
+      },
+      {
+        "id": "d",
+        "text": "würdest"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q20",
+    "questionText": "Ihr ___ das verstehen, wenn ihr aufpasst.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würdet"
+      },
+      {
+        "id": "b",
+        "text": "werdet"
+      },
+      {
+        "id": "c",
+        "text": "wurdet"
+      },
+      {
+        "id": "d",
+        "text": "würdet"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q21",
+    "questionText": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "werde"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q22",
+    "questionText": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q23",
+    "questionText": "Was ___ du an meiner Stelle tun?",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würdest"
+      },
+      {
+        "id": "b",
+        "text": "wirst"
+      },
+      {
+        "id": "c",
+        "text": "wurdest"
+      },
+      {
+        "id": "d",
+        "text": "würdest"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q24",
+    "questionText": "Sie ___ sich freuen, wenn du kämest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q25",
+    "questionText": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würden"
+      },
+      {
+        "id": "b",
+        "text": "werden"
+      },
+      {
+        "id": "c",
+        "text": "wurden"
+      },
+      {
+        "id": "d",
+        "text": "würden"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q26",
+    "questionText": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "werde"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q27",
+    "questionText": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q28",
+    "questionText": "Was ___ du an meiner Stelle tun?",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würdest"
+      },
+      {
+        "id": "b",
+        "text": "wirst"
+      },
+      {
+        "id": "c",
+        "text": "wurdest"
+      },
+      {
+        "id": "d",
+        "text": "würdest"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q29",
+    "questionText": "Sie ___ sich freuen, wenn du kämest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q30",
+    "questionText": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würden"
+      },
+      {
+        "id": "b",
+        "text": "werden"
+      },
+      {
+        "id": "c",
+        "text": "wurden"
+      },
+      {
+        "id": "d",
+        "text": "würden"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q31",
+    "questionText": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "werde"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q32",
+    "questionText": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q33",
+    "questionText": "Was ___ du an meiner Stelle tun?",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würdest"
+      },
+      {
+        "id": "b",
+        "text": "wirst"
+      },
+      {
+        "id": "c",
+        "text": "wurdest"
+      },
+      {
+        "id": "d",
+        "text": "würdest"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q34",
+    "questionText": "Sie ___ sich freuen, wenn du kämest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q35",
+    "questionText": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würden"
+      },
+      {
+        "id": "b",
+        "text": "werden"
+      },
+      {
+        "id": "c",
+        "text": "wurden"
+      },
+      {
+        "id": "d",
+        "text": "würden"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q36",
+    "questionText": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "werde"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q37",
+    "questionText": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q38",
+    "questionText": "Was ___ du an meiner Stelle tun?",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würdest"
+      },
+      {
+        "id": "b",
+        "text": "wirst"
+      },
+      {
+        "id": "c",
+        "text": "wurdest"
+      },
+      {
+        "id": "d",
+        "text": "würdest"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q39",
+    "questionText": "Sie ___ sich freuen, wenn du kämest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q40",
+    "questionText": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würden"
+      },
+      {
+        "id": "b",
+        "text": "werden"
+      },
+      {
+        "id": "c",
+        "text": "wurden"
+      },
+      {
+        "id": "d",
+        "text": "würden"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q41",
+    "questionText": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "werde"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q42",
+    "questionText": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q43",
+    "questionText": "Was ___ du an meiner Stelle tun?",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würdest"
+      },
+      {
+        "id": "b",
+        "text": "wirst"
+      },
+      {
+        "id": "c",
+        "text": "wurdest"
+      },
+      {
+        "id": "d",
+        "text": "würdest"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q44",
+    "questionText": "Sie ___ sich freuen, wenn du kämest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q45",
+    "questionText": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würden"
+      },
+      {
+        "id": "b",
+        "text": "werden"
+      },
+      {
+        "id": "c",
+        "text": "wurden"
+      },
+      {
+        "id": "d",
+        "text": "würden"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q46",
+    "questionText": "Wenn ich reich wäre, ___ ich eine Weltreise machen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "werde"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q47",
+    "questionText": "Er ___ nicht kommen, auch wenn du ihn bätest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q48",
+    "questionText": "Was ___ du an meiner Stelle tun?",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würdest"
+      },
+      {
+        "id": "b",
+        "text": "wirst"
+      },
+      {
+        "id": "c",
+        "text": "wurdest"
+      },
+      {
+        "id": "d",
+        "text": "würdest"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q49",
+    "questionText": "Sie ___ sich freuen, wenn du kämest.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würde"
+      },
+      {
+        "id": "b",
+        "text": "wird"
+      },
+      {
+        "id": "c",
+        "text": "wurde"
+      },
+      {
+        "id": "d",
+        "text": "würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-23-konjunktiv-wuerde.json",
+    "questionId": "q50",
+    "questionText": "Wenn wir das Geld hätten, ___ wir ein Haus kaufen.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "würden"
+      },
+      {
+        "id": "b",
+        "text": "werden"
+      },
+      {
+        "id": "c",
+        "text": "wurden"
+      },
+      {
+        "id": "d",
+        "text": "würden"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-24-konjunktiv-irregular.json",
+    "questionId": "q12",
+    "questionText": "Wenn er mehr Zeit ___, käme er mit.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "hätte"
+      },
+      {
+        "id": "b",
+        "text": "hat"
+      },
+      {
+        "id": "c",
+        "text": "hatte"
+      },
+      {
+        "id": "d",
+        "text": "hätte"
+      }
+    ],
+    "duplicateOptionIds": [
+      "d"
+    ]
+  },
+  {
+    "file": "mini-test-24-konjunktiv-irregular.json",
+    "questionId": "q23",
+    "questionText": "Wenn er ___, ginge er mit.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "wollte"
+      },
+      {
+        "id": "b",
+        "text": "will"
+      },
+      {
+        "id": "c",
+        "text": "wollte"
+      },
+      {
+        "id": "d",
+        "text": "wollen würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "c"
+    ]
+  },
+  {
+    "file": "mini-test-24-konjunktiv-irregular.json",
+    "questionId": "q28",
+    "questionText": "Wenn er ___, ginge er mit.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "wollte"
+      },
+      {
+        "id": "b",
+        "text": "will"
+      },
+      {
+        "id": "c",
+        "text": "wollte"
+      },
+      {
+        "id": "d",
+        "text": "wollen würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "c"
+    ]
+  },
+  {
+    "file": "mini-test-24-konjunktiv-irregular.json",
+    "questionId": "q33",
+    "questionText": "Wenn er ___, ginge er mit.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "wollte"
+      },
+      {
+        "id": "b",
+        "text": "will"
+      },
+      {
+        "id": "c",
+        "text": "wollte"
+      },
+      {
+        "id": "d",
+        "text": "wollen würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "c"
+    ]
+  },
+  {
+    "file": "mini-test-24-konjunktiv-irregular.json",
+    "questionId": "q38",
+    "questionText": "Wenn er ___, ginge er mit.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "wollte"
+      },
+      {
+        "id": "b",
+        "text": "will"
+      },
+      {
+        "id": "c",
+        "text": "wollte"
+      },
+      {
+        "id": "d",
+        "text": "wollen würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "c"
+    ]
+  },
+  {
+    "file": "mini-test-24-konjunktiv-irregular.json",
+    "questionId": "q43",
+    "questionText": "Wenn er ___, ginge er mit.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "wollte"
+      },
+      {
+        "id": "b",
+        "text": "will"
+      },
+      {
+        "id": "c",
+        "text": "wollte"
+      },
+      {
+        "id": "d",
+        "text": "wollen würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "c"
+    ]
+  },
+  {
+    "file": "mini-test-24-konjunktiv-irregular.json",
+    "questionId": "q48",
+    "questionText": "Wenn er ___, ginge er mit.",
+    "correctAnswerId": "a",
+    "options": [
+      {
+        "id": "a",
+        "text": "wollte"
+      },
+      {
+        "id": "b",
+        "text": "will"
+      },
+      {
+        "id": "c",
+        "text": "wollte"
+      },
+      {
+        "id": "d",
+        "text": "wollen würde"
+      }
+    ],
+    "duplicateOptionIds": [
+      "c"
+    ]
+  }
+]

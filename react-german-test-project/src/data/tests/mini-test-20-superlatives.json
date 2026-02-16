@@ -322,17 +322,228 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Das ist das ___ Buch.",
+      "text": "Er ist der ___ Schüler.",
       "options": [
         {
           "id": "a",
-          "text": "beste"
+          "text": "fleißigste"
         },
         {
           "id": "b",
-          "text": "besten"
+          "text": "fleißig"
+        },
+        {
+          "id": "c",
+          "text": "fleißiger"
+        },
+        {
+          "id": "d",
+          "text": "am fleißigsten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der fleißigste Schüler (the most hardworking student). Attributive: -ste with article.",
+      "tags": [
+        "superlatives",
+        "adjectives",
+        "attributive"
+      ],
+      "id": "q11"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie arbeitet ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schnell"
+        },
+        {
+          "id": "b",
+          "text": "schneller"
+        },
+        {
+          "id": "c",
+          "text": "am schnellsten"
+        },
+        {
+          "id": "d",
+          "text": "die schnellste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate superlative: am schnellsten",
+      "explanationDetail": "After verb: am + -sten. Sie arbeitet am schnellsten (she works the fastest).",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q12"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist das ___ Auto.",
+      "options": [
+        {
+          "id": "a",
+          "text": "teuerste"
+        },
+        {
+          "id": "b",
+          "text": "teuer"
+        },
+        {
+          "id": "c",
+          "text": "teurer"
+        },
+        {
+          "id": "d",
+          "text": "am teuersten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Das teuerste Auto (the most expensive car). Teuer → teuerste.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q13"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer hat ___ gewonnen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "am meisten"
+        },
+        {
+          "id": "b",
+          "text": "die meisten"
+        },
+        {
+          "id": "c",
+          "text": "mehr"
+        },
+        {
+          "id": "d",
+          "text": "meiste"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Predicate: am meisten",
+      "explanationDetail": "Viel → am meisten (the most). Predicate superlative.",
+      "tags": [
+        "superlatives",
+        "predicate",
+        "irregular"
+      ],
+      "id": "q14"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist die ___ Straße.",
+      "options": [
+        {
+          "id": "a",
+          "text": "längste"
+        },
+        {
+          "id": "b",
+          "text": "lang"
+        },
+        {
+          "id": "c",
+          "text": "länger"
+        },
+        {
+          "id": "d",
+          "text": "am längsten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative feminine",
+      "explanationDetail": "Die längste Straße (the longest street). Lang → längste.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q15"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er spricht ___ von allen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "laut"
+        },
+        {
+          "id": "b",
+          "text": "lauter"
+        },
+        {
+          "id": "c",
+          "text": "am lautesten"
+        },
+        {
+          "id": "d",
+          "text": "der lauteste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am lautesten",
+      "explanationDetail": "Laut → am lautesten (the loudest). Predicate with von allen.",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q16"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist der ___ Tag.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schönste"
+        },
+        {
+          "id": "b",
+          "text": "schön"
+        },
+        {
+          "id": "c",
+          "text": "schöner"
+        },
+        {
+          "id": "d",
+          "text": "am schönsten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der schönste Tag (the most beautiful day). Schön → schönste.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q17"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie singt ___ in der Gruppe.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gut"
+        },
+        {
+          "id": "b",
+          "text": "besser"
         },
         {
           "id": "c",
@@ -340,85 +551,52 @@
         },
         {
           "id": "d",
-          "text": "besser"
+          "text": "die beste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am besten",
+      "explanationDetail": "Gut → am besten (the best, irregular). Predicate.",
+      "tags": [
+        "superlatives",
+        "predicate",
+        "irregular"
+      ],
+      "id": "q18"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist das ___ Gebäude.",
+      "options": [
+        {
+          "id": "a",
+          "text": "höchste"
+        },
+        {
+          "id": "b",
+          "text": "hoch"
+        },
+        {
+          "id": "c",
+          "text": "höher"
+        },
+        {
+          "id": "d",
+          "text": "am höchsten"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Attributive superlative: beste",
-      "explanationDetail": "Before a noun (attributive), use: der/die/das + adjective + -ste/-este. Das beste Buch (the best book). Gut → beste (irregular). Attributive superlatives decline like adjectives.",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Das höchste Gebäude (the highest building). Hoch → höchste.",
       "tags": [
         "superlatives",
-        "adjectives",
         "attributive"
-      ]
-    },
-    {
-      "id": "q12",
-      "type": "multiple-choice",
-      "text": "Sie singt ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "schön"
-        },
-        {
-          "id": "b",
-          "text": "schöner"
-        },
-        {
-          "id": "c",
-          "text": "am schönsten"
-        },
-        {
-          "id": "d",
-          "text": "die schönste"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Predicate superlative: am schönsten",
-      "explanationDetail": "After a verb (predicate), use: am + adjective + -sten/-esten. Sie singt am schönsten (she sings the most beautifully). Schön → am schönsten. Predicate superlatives use 'am'.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "predicate"
-      ]
+      "id": "q19"
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
-      "text": "Das ist die ___ Stadt.",
-      "options": [
-        {
-          "id": "a",
-          "text": "groß"
-        },
-        {
-          "id": "b",
-          "text": "größer"
-        },
-        {
-          "id": "c",
-          "text": "größte"
-        },
-        {
-          "id": "d",
-          "text": "am größten"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: größte",
-      "explanationDetail": "Before a noun: die größte Stadt (the biggest city). Groß → größte (with umlaut). Attributive superlatives: der/die/das + adjective + -ste + ending.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "attributive",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Er läuft ___.",
+      "text": "Er läuft ___ von allen.",
       "options": [
         {
           "id": "a",
@@ -438,145 +616,47 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Predicate superlative: am schnellsten",
-      "explanationDetail": "After a verb: am schnellsten (the fastest). Er läuft am schnellsten (he runs the fastest). Predicate superlatives always use 'am + -sten'.",
+      "explanation": "Predicate: am schnellsten",
+      "explanationDetail": "Schnell → am schnellsten. Predicate superlative.",
       "tags": [
         "superlatives",
-        "adjectives",
         "predicate"
-      ]
+      ],
+      "id": "q20"
     },
     {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Das ist der ___ Tag.",
+      "text": "Das ist der ___ Film.",
       "options": [
         {
           "id": "a",
-          "text": "lang"
+          "text": "interessanteste"
         },
         {
           "id": "b",
-          "text": "länger"
+          "text": "interessant"
         },
         {
           "id": "c",
-          "text": "längste"
+          "text": "interessanter"
         },
         {
           "id": "d",
-          "text": "am längsten"
+          "text": "am interessantesten"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: längste",
-      "explanationDetail": "Before a noun: der längste Tag (the longest day). Lang → längste (with umlaut). Attributive form needs adjective ending after -ste.",
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der interessanteste Film. Long adjective: -este.",
       "tags": [
         "superlatives",
-        "adjectives",
-        "attributive",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "multiple-choice",
-      "text": "Ich esse ___ gern Pizza.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gern"
-        },
-        {
-          "id": "b",
-          "text": "lieber"
-        },
-        {
-          "id": "c",
-          "text": "am liebsten"
-        },
-        {
-          "id": "d",
-          "text": "der liebste"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Irregular superlative: am liebsten",
-      "explanationDetail": "Gern → lieber → am liebsten (gladly → more gladly → most gladly). Ich esse am liebsten Pizza (I like eating pizza the most). Irregular superlative.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "irregular",
-        "predicate"
-      ]
-    },
-    {
-      "id": "q17",
-      "type": "multiple-choice",
-      "text": "Das ist das ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "teuer"
-        },
-        {
-          "id": "b",
-          "text": "teurer"
-        },
-        {
-          "id": "c",
-          "text": "teuerste"
-        },
-        {
-          "id": "d",
-          "text": "am teuersten"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: teuerste",
-      "explanationDetail": "Before a noun: das teuerste Auto (the most expensive car). Teuer → teuerste. Adjectives ending in -er/-el drop the -e: teuer → teu(e)rste.",
-      "tags": [
-        "superlatives",
-        "adjectives",
         "attributive"
-      ]
-    },
-    {
-      "id": "q18",
-      "type": "multiple-choice",
-      "text": "Er arbeitet ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "viel"
-        },
-        {
-          "id": "b",
-          "text": "mehr"
-        },
-        {
-          "id": "c",
-          "text": "am meisten"
-        },
-        {
-          "id": "d",
-          "text": "der meiste"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Irregular superlative: am meisten",
-      "explanationDetail": "Viel → mehr → am meisten (much → more → most). Er arbeitet am meisten (he works the most). Irregular superlative, predicate form.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "irregular",
-        "predicate"
-      ]
+      "id": "q21"
     },
     {
-      "id": "q19",
       "type": "multiple-choice",
-      "text": "Das ist die ___ Lösung.",
+      "text": "Sie kocht ___ in der Familie.",
       "options": [
         {
           "id": "a",
@@ -588,89 +668,115 @@
         },
         {
           "id": "c",
-          "text": "beste"
+          "text": "am besten"
         },
         {
           "id": "d",
-          "text": "am besten"
+          "text": "die beste"
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Attributive superlative: beste",
-      "explanationDetail": "Before a noun: die beste Lösung (the best solution). Gut → beste (irregular). Attributive superlatives need adjective endings: beste (fem. nom.).",
+      "explanation": "Predicate: am besten",
+      "explanationDetail": "Gut → am besten. Predicate.",
       "tags": [
         "superlatives",
-        "adjectives",
-        "attributive",
-        "irregular"
-      ]
+        "predicate"
+      ],
+      "id": "q22"
     },
     {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Dieser Weg ist ___ als der andere.",
+      "text": "Das ist die ___ Frage.",
       "options": [
         {
           "id": "a",
-          "text": "kurz"
+          "text": "wichtigste"
         },
         {
           "id": "b",
-          "text": "kürzer"
+          "text": "wichtig"
         },
         {
           "id": "c",
-          "text": "am kürzesten"
+          "text": "wichtiger"
         },
         {
           "id": "d",
-          "text": "kürzeste"
+          "text": "am wichtigsten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: kürzer",
-      "explanationDetail": "Kurz → kürzer (shorter). One-syllable adjectives often add umlaut: kurz → kürzer. Dieser Weg ist kürzer (this path is shorter). Use with als.",
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Die wichtigste Frage (the most important question).",
       "tags": [
-        "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q23"
     },
     {
-      "id": "q21",
+      "type": "multiple-choice",
+      "text": "Er spielt ___ von allen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gut"
+        },
+        {
+          "id": "b",
+          "text": "besser"
+        },
+        {
+          "id": "c",
+          "text": "am besten"
+        },
+        {
+          "id": "d",
+          "text": "der beste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am besten",
+      "explanationDetail": "Gut → am besten. Irregular.",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q24"
+    },
+    {
       "type": "multiple-choice",
       "text": "Das ist das ___ Buch.",
       "options": [
         {
           "id": "a",
-          "text": "beste"
+          "text": "dickste"
         },
         {
           "id": "b",
-          "text": "besten"
+          "text": "dick"
         },
         {
           "id": "c",
-          "text": "am besten"
+          "text": "dicker"
         },
         {
           "id": "d",
-          "text": "besser"
+          "text": "am dicksten"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Attributive superlative: beste",
-      "explanationDetail": "Before a noun (attributive), use: der/die/das + adjective + -ste/-este. Das beste Buch (the best book). Gut → beste (irregular). Attributive superlatives decline like adjectives.",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Das dickste Buch (the thickest book).",
       "tags": [
         "superlatives",
-        "adjectives",
         "attributive"
-      ]
+      ],
+      "id": "q25"
     },
     {
-      "id": "q22",
       "type": "multiple-choice",
-      "text": "Sie singt ___.",
+      "text": "Sie tanzt ___ in der Klasse.",
       "options": [
         {
           "id": "a",
@@ -690,523 +796,47 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Predicate superlative: am schönsten",
-      "explanationDetail": "After a verb (predicate), use: am + adjective + -sten/-esten. Sie singt am schönsten (she sings the most beautifully). Schön → am schönsten. Predicate superlatives use 'am'.",
+      "explanation": "Predicate: am schönsten",
+      "explanationDetail": "Schön → am schönsten. Predicate.",
       "tags": [
         "superlatives",
-        "adjectives",
         "predicate"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Das ist die ___ Stadt.",
-      "options": [
-        {
-          "id": "a",
-          "text": "groß"
-        },
-        {
-          "id": "b",
-          "text": "größer"
-        },
-        {
-          "id": "c",
-          "text": "größte"
-        },
-        {
-          "id": "d",
-          "text": "am größten"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: größte",
-      "explanationDetail": "Before a noun: die größte Stadt (the biggest city). Groß → größte (with umlaut). Attributive superlatives: der/die/das + adjective + -ste + ending.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "attributive",
-        "umlaut"
-      ]
+      "id": "q26"
     },
     {
-      "id": "q24",
       "type": "multiple-choice",
-      "text": "Er läuft ___.",
+      "text": "Das ist der ___ Mann.",
       "options": [
         {
           "id": "a",
-          "text": "schnell"
+          "text": "reichste"
         },
         {
           "id": "b",
-          "text": "schneller"
+          "text": "reich"
         },
         {
           "id": "c",
-          "text": "am schnellsten"
+          "text": "reicher"
         },
         {
           "id": "d",
-          "text": "der schnellste"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Predicate superlative: am schnellsten",
-      "explanationDetail": "After a verb: am schnellsten (the fastest). Er läuft am schnellsten (he runs the fastest). Predicate superlatives always use 'am + -sten'.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "predicate"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Das ist der ___ Tag.",
-      "options": [
-        {
-          "id": "a",
-          "text": "lang"
-        },
-        {
-          "id": "b",
-          "text": "länger"
-        },
-        {
-          "id": "c",
-          "text": "längste"
-        },
-        {
-          "id": "d",
-          "text": "am längsten"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: längste",
-      "explanationDetail": "Before a noun: der längste Tag (the longest day). Lang → längste (with umlaut). Attributive form needs adjective ending after -ste.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "attributive",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "multiple-choice",
-      "text": "Ich esse ___ gern Pizza.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gern"
-        },
-        {
-          "id": "b",
-          "text": "lieber"
-        },
-        {
-          "id": "c",
-          "text": "am liebsten"
-        },
-        {
-          "id": "d",
-          "text": "der liebste"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Irregular superlative: am liebsten",
-      "explanationDetail": "Gern → lieber → am liebsten (gladly → more gladly → most gladly). Ich esse am liebsten Pizza (I like eating pizza the most). Irregular superlative.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "irregular",
-        "predicate"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Das ist das ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "teuer"
-        },
-        {
-          "id": "b",
-          "text": "teurer"
-        },
-        {
-          "id": "c",
-          "text": "teuerste"
-        },
-        {
-          "id": "d",
-          "text": "am teuersten"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: teuerste",
-      "explanationDetail": "Before a noun: das teuerste Auto (the most expensive car). Teuer → teuerste. Adjectives ending in -er/-el drop the -e: teuer → teu(e)rste.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "attributive"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Er arbeitet ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "viel"
-        },
-        {
-          "id": "b",
-          "text": "mehr"
-        },
-        {
-          "id": "c",
-          "text": "am meisten"
-        },
-        {
-          "id": "d",
-          "text": "der meiste"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Irregular superlative: am meisten",
-      "explanationDetail": "Viel → mehr → am meisten (much → more → most). Er arbeitet am meisten (he works the most). Irregular superlative, predicate form.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "irregular",
-        "predicate"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Das ist die ___ Lösung.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gut"
-        },
-        {
-          "id": "b",
-          "text": "besser"
-        },
-        {
-          "id": "c",
-          "text": "beste"
-        },
-        {
-          "id": "d",
-          "text": "am besten"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: beste",
-      "explanationDetail": "Before a noun: die beste Lösung (the best solution). Gut → beste (irregular). Attributive superlatives need adjective endings: beste (fem. nom.).",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "attributive",
-        "irregular"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Dieser Weg ist ___ als der andere.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kurz"
-        },
-        {
-          "id": "b",
-          "text": "kürzer"
-        },
-        {
-          "id": "c",
-          "text": "am kürzesten"
-        },
-        {
-          "id": "d",
-          "text": "kürzeste"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: kürzer",
-      "explanationDetail": "Kurz → kürzer (shorter). One-syllable adjectives often add umlaut: kurz → kürzer. Dieser Weg ist kürzer (this path is shorter). Use with als.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Das ist das ___ Buch.",
-      "options": [
-        {
-          "id": "a",
-          "text": "beste"
-        },
-        {
-          "id": "b",
-          "text": "besten"
-        },
-        {
-          "id": "c",
-          "text": "am besten"
-        },
-        {
-          "id": "d",
-          "text": "besser"
+          "text": "am reichsten"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Attributive superlative: beste",
-      "explanationDetail": "Before a noun (attributive), use: der/die/das + adjective + -ste/-este. Das beste Buch (the best book). Gut → beste (irregular). Attributive superlatives decline like adjectives.",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der reichste Mann (the richest man).",
       "tags": [
         "superlatives",
-        "adjectives",
         "attributive"
-      ]
-    },
-    {
-      "id": "q32",
-      "type": "multiple-choice",
-      "text": "Sie singt ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "schön"
-        },
-        {
-          "id": "b",
-          "text": "schöner"
-        },
-        {
-          "id": "c",
-          "text": "am schönsten"
-        },
-        {
-          "id": "d",
-          "text": "die schönste"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Predicate superlative: am schönsten",
-      "explanationDetail": "After a verb (predicate), use: am + adjective + -sten/-esten. Sie singt am schönsten (she sings the most beautifully). Schön → am schönsten. Predicate superlatives use 'am'.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "predicate"
-      ]
+      "id": "q27"
     },
     {
-      "id": "q33",
       "type": "multiple-choice",
-      "text": "Das ist die ___ Stadt.",
-      "options": [
-        {
-          "id": "a",
-          "text": "groß"
-        },
-        {
-          "id": "b",
-          "text": "größer"
-        },
-        {
-          "id": "c",
-          "text": "größte"
-        },
-        {
-          "id": "d",
-          "text": "am größten"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: größte",
-      "explanationDetail": "Before a noun: die größte Stadt (the biggest city). Groß → größte (with umlaut). Attributive superlatives: der/die/das + adjective + -ste + ending.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "attributive",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "multiple-choice",
-      "text": "Er läuft ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "schnell"
-        },
-        {
-          "id": "b",
-          "text": "schneller"
-        },
-        {
-          "id": "c",
-          "text": "am schnellsten"
-        },
-        {
-          "id": "d",
-          "text": "der schnellste"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Predicate superlative: am schnellsten",
-      "explanationDetail": "After a verb: am schnellsten (the fastest). Er läuft am schnellsten (he runs the fastest). Predicate superlatives always use 'am + -sten'.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "predicate"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Das ist der ___ Tag.",
-      "options": [
-        {
-          "id": "a",
-          "text": "lang"
-        },
-        {
-          "id": "b",
-          "text": "länger"
-        },
-        {
-          "id": "c",
-          "text": "längste"
-        },
-        {
-          "id": "d",
-          "text": "am längsten"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: längste",
-      "explanationDetail": "Before a noun: der längste Tag (the longest day). Lang → längste (with umlaut). Attributive form needs adjective ending after -ste.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "attributive",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Ich esse ___ gern Pizza.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gern"
-        },
-        {
-          "id": "b",
-          "text": "lieber"
-        },
-        {
-          "id": "c",
-          "text": "am liebsten"
-        },
-        {
-          "id": "d",
-          "text": "der liebste"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Irregular superlative: am liebsten",
-      "explanationDetail": "Gern → lieber → am liebsten (gladly → more gladly → most gladly). Ich esse am liebsten Pizza (I like eating pizza the most). Irregular superlative.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "irregular",
-        "predicate"
-      ]
-    },
-    {
-      "id": "q37",
-      "type": "multiple-choice",
-      "text": "Das ist das ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "teuer"
-        },
-        {
-          "id": "b",
-          "text": "teurer"
-        },
-        {
-          "id": "c",
-          "text": "teuerste"
-        },
-        {
-          "id": "d",
-          "text": "am teuersten"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: teuerste",
-      "explanationDetail": "Before a noun: das teuerste Auto (the most expensive car). Teuer → teuerste. Adjectives ending in -er/-el drop the -e: teuer → teu(e)rste.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "attributive"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "multiple-choice",
-      "text": "Er arbeitet ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "viel"
-        },
-        {
-          "id": "b",
-          "text": "mehr"
-        },
-        {
-          "id": "c",
-          "text": "am meisten"
-        },
-        {
-          "id": "d",
-          "text": "der meiste"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Irregular superlative: am meisten",
-      "explanationDetail": "Viel → mehr → am meisten (much → more → most). Er arbeitet am meisten (he works the most). Irregular superlative, predicate form.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "irregular",
-        "predicate"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "multiple-choice",
-      "text": "Das ist die ___ Lösung.",
+      "text": "Dieser Wein schmeckt ___.",
       "options": [
         {
           "id": "a",
@@ -1218,152 +848,55 @@
         },
         {
           "id": "c",
-          "text": "beste"
+          "text": "am besten"
         },
         {
           "id": "d",
-          "text": "am besten"
+          "text": "der beste"
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Attributive superlative: beste",
-      "explanationDetail": "Before a noun: die beste Lösung (the best solution). Gut → beste (irregular). Attributive superlatives need adjective endings: beste (fem. nom.).",
+      "explanation": "Predicate: am besten",
+      "explanationDetail": "Schmeckt am besten (tastes the best).",
       "tags": [
         "superlatives",
-        "adjectives",
-        "attributive",
-        "irregular"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Dieser Weg ist ___ als der andere.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kurz"
-        },
-        {
-          "id": "b",
-          "text": "kürzer"
-        },
-        {
-          "id": "c",
-          "text": "am kürzesten"
-        },
-        {
-          "id": "d",
-          "text": "kürzeste"
-        }
+        "predicate"
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: kürzer",
-      "explanationDetail": "Kurz → kürzer (shorter). One-syllable adjectives often add umlaut: kurz → kürzer. Dieser Weg ist kürzer (this path is shorter). Use with als.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
+      "id": "q28"
     },
     {
-      "id": "q41",
       "type": "multiple-choice",
-      "text": "Das ist das ___ Buch.",
+      "text": "Das ist die ___ Lösung.",
       "options": [
         {
           "id": "a",
-          "text": "beste"
+          "text": "einfachste"
         },
         {
           "id": "b",
-          "text": "besten"
+          "text": "einfach"
         },
         {
           "id": "c",
-          "text": "am besten"
+          "text": "einfacher"
         },
         {
           "id": "d",
-          "text": "besser"
+          "text": "am einfachsten"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Attributive superlative: beste",
-      "explanationDetail": "Before a noun (attributive), use: der/die/das + adjective + -ste/-este. Das beste Buch (the best book). Gut → beste (irregular). Attributive superlatives decline like adjectives.",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Die einfachste Lösung (the simplest solution).",
       "tags": [
         "superlatives",
-        "adjectives",
         "attributive"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Sie singt ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "schön"
-        },
-        {
-          "id": "b",
-          "text": "schöner"
-        },
-        {
-          "id": "c",
-          "text": "am schönsten"
-        },
-        {
-          "id": "d",
-          "text": "die schönste"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Predicate superlative: am schönsten",
-      "explanationDetail": "After a verb (predicate), use: am + adjective + -sten/-esten. Sie singt am schönsten (she sings the most beautifully). Schön → am schönsten. Predicate superlatives use 'am'.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "predicate"
-      ]
+      "id": "q29"
     },
     {
-      "id": "q43",
       "type": "multiple-choice",
-      "text": "Das ist die ___ Stadt.",
-      "options": [
-        {
-          "id": "a",
-          "text": "groß"
-        },
-        {
-          "id": "b",
-          "text": "größer"
-        },
-        {
-          "id": "c",
-          "text": "größte"
-        },
-        {
-          "id": "d",
-          "text": "am größten"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: größte",
-      "explanationDetail": "Before a noun: die größte Stadt (the biggest city). Groß → größte (with umlaut). Attributive superlatives: der/die/das + adjective + -ste + ending.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "attributive",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Er läuft ___.",
+      "text": "Er schreibt ___ von uns.",
       "options": [
         {
           "id": "a",
@@ -1383,203 +916,613 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Predicate superlative: am schnellsten",
-      "explanationDetail": "After a verb: am schnellsten (the fastest). Er läuft am schnellsten (he runs the fastest). Predicate superlatives always use 'am + -sten'.",
+      "explanation": "Predicate: am schnellsten",
+      "explanationDetail": "Am schnellsten (the fastest). Predicate.",
       "tags": [
         "superlatives",
-        "adjectives",
         "predicate"
-      ]
+      ],
+      "id": "q30"
     },
     {
-      "id": "q45",
       "type": "multiple-choice",
-      "text": "Das ist der ___ Tag.",
+      "text": "Das ist der ___ Park. (0)",
       "options": [
         {
           "id": "a",
-          "text": "lang"
+          "text": "größte"
         },
         {
           "id": "b",
-          "text": "länger"
+          "text": "groß"
         },
         {
           "id": "c",
-          "text": "längste"
+          "text": "größer"
         },
         {
           "id": "d",
-          "text": "am längsten"
+          "text": "am größten"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: längste",
-      "explanationDetail": "Before a noun: der längste Tag (the longest day). Lang → längste (with umlaut). Attributive form needs adjective ending after -ste.",
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der größte Park. Groß → größte.",
       "tags": [
         "superlatives",
-        "adjectives",
-        "attributive",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Ich esse ___ gern Pizza.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gern"
-        },
-        {
-          "id": "b",
-          "text": "lieber"
-        },
-        {
-          "id": "c",
-          "text": "am liebsten"
-        },
-        {
-          "id": "d",
-          "text": "der liebste"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Irregular superlative: am liebsten",
-      "explanationDetail": "Gern → lieber → am liebsten (gladly → more gladly → most gladly). Ich esse am liebsten Pizza (I like eating pizza the most). Irregular superlative.",
-      "tags": [
-        "superlatives",
-        "adjectives",
-        "irregular",
-        "predicate"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Das ist das ___ Auto.",
-      "options": [
-        {
-          "id": "a",
-          "text": "teuer"
-        },
-        {
-          "id": "b",
-          "text": "teurer"
-        },
-        {
-          "id": "c",
-          "text": "teuerste"
-        },
-        {
-          "id": "d",
-          "text": "am teuersten"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Attributive superlative: teuerste",
-      "explanationDetail": "Before a noun: das teuerste Auto (the most expensive car). Teuer → teuerste. Adjectives ending in -er/-el drop the -e: teuer → teu(e)rste.",
-      "tags": [
-        "superlatives",
-        "adjectives",
         "attributive"
-      ]
+      ],
+      "id": "q31"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Er arbeitet ___.",
+      "text": "Sie läuft ___ von allen. (1)",
       "options": [
         {
           "id": "a",
-          "text": "viel"
+          "text": "weit"
         },
         {
           "id": "b",
-          "text": "mehr"
+          "text": "weiter"
         },
         {
           "id": "c",
-          "text": "am meisten"
+          "text": "am weitesten"
         },
         {
           "id": "d",
-          "text": "der meiste"
+          "text": "die weiteste"
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Irregular superlative: am meisten",
-      "explanationDetail": "Viel → mehr → am meisten (much → more → most). Er arbeitet am meisten (he works the most). Irregular superlative, predicate form.",
+      "explanation": "Predicate: am weitesten",
+      "explanationDetail": "Weit → am weitesten. Predicate.",
       "tags": [
         "superlatives",
-        "adjectives",
-        "irregular",
         "predicate"
-      ]
+      ],
+      "id": "q32"
     },
     {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Das ist die ___ Lösung.",
+      "text": "Das ist der ___ Park. (2)",
       "options": [
         {
           "id": "a",
-          "text": "gut"
+          "text": "größte"
         },
         {
           "id": "b",
-          "text": "besser"
+          "text": "groß"
         },
         {
           "id": "c",
-          "text": "beste"
+          "text": "größer"
         },
         {
           "id": "d",
-          "text": "am besten"
+          "text": "am größten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der größte Park. Groß → größte.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft ___ von allen. (3)",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "weiter"
+        },
+        {
+          "id": "c",
+          "text": "am weitesten"
+        },
+        {
+          "id": "d",
+          "text": "die weiteste"
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "Attributive superlative: beste",
-      "explanationDetail": "Before a noun: die beste Lösung (the best solution). Gut → beste (irregular). Attributive superlatives need adjective endings: beste (fem. nom.).",
+      "explanation": "Predicate: am weitesten",
+      "explanationDetail": "Weit → am weitesten. Predicate.",
       "tags": [
         "superlatives",
-        "adjectives",
-        "attributive",
-        "irregular"
-      ]
+        "predicate"
+      ],
+      "id": "q34"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Dieser Weg ist ___ als der andere.",
+      "text": "Das ist der ___ Park. (4)",
       "options": [
         {
           "id": "a",
-          "text": "kurz"
+          "text": "größte"
         },
         {
           "id": "b",
-          "text": "kürzer"
+          "text": "groß"
         },
         {
           "id": "c",
-          "text": "am kürzesten"
+          "text": "größer"
         },
         {
           "id": "d",
-          "text": "kürzeste"
+          "text": "am größten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: kürzer",
-      "explanationDetail": "Kurz → kürzer (shorter). One-syllable adjectives often add umlaut: kurz → kürzer. Dieser Weg ist kürzer (this path is shorter). Use with als.",
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der größte Park. Groß → größte.",
       "tags": [
-        "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft ___ von allen. (5)",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "weiter"
+        },
+        {
+          "id": "c",
+          "text": "am weitesten"
+        },
+        {
+          "id": "d",
+          "text": "die weiteste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am weitesten",
+      "explanationDetail": "Weit → am weitesten. Predicate.",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist der ___ Park. (6)",
+      "options": [
+        {
+          "id": "a",
+          "text": "größte"
+        },
+        {
+          "id": "b",
+          "text": "groß"
+        },
+        {
+          "id": "c",
+          "text": "größer"
+        },
+        {
+          "id": "d",
+          "text": "am größten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der größte Park. Groß → größte.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft ___ von allen. (7)",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "weiter"
+        },
+        {
+          "id": "c",
+          "text": "am weitesten"
+        },
+        {
+          "id": "d",
+          "text": "die weiteste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am weitesten",
+      "explanationDetail": "Weit → am weitesten. Predicate.",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist der ___ Park. (8)",
+      "options": [
+        {
+          "id": "a",
+          "text": "größte"
+        },
+        {
+          "id": "b",
+          "text": "groß"
+        },
+        {
+          "id": "c",
+          "text": "größer"
+        },
+        {
+          "id": "d",
+          "text": "am größten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der größte Park. Groß → größte.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft ___ von allen. (9)",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "weiter"
+        },
+        {
+          "id": "c",
+          "text": "am weitesten"
+        },
+        {
+          "id": "d",
+          "text": "die weiteste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am weitesten",
+      "explanationDetail": "Weit → am weitesten. Predicate.",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist der ___ Park. (10)",
+      "options": [
+        {
+          "id": "a",
+          "text": "größte"
+        },
+        {
+          "id": "b",
+          "text": "groß"
+        },
+        {
+          "id": "c",
+          "text": "größer"
+        },
+        {
+          "id": "d",
+          "text": "am größten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der größte Park. Groß → größte.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft ___ von allen. (11)",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "weiter"
+        },
+        {
+          "id": "c",
+          "text": "am weitesten"
+        },
+        {
+          "id": "d",
+          "text": "die weiteste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am weitesten",
+      "explanationDetail": "Weit → am weitesten. Predicate.",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist der ___ Park. (12)",
+      "options": [
+        {
+          "id": "a",
+          "text": "größte"
+        },
+        {
+          "id": "b",
+          "text": "groß"
+        },
+        {
+          "id": "c",
+          "text": "größer"
+        },
+        {
+          "id": "d",
+          "text": "am größten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der größte Park. Groß → größte.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft ___ von allen. (13)",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "weiter"
+        },
+        {
+          "id": "c",
+          "text": "am weitesten"
+        },
+        {
+          "id": "d",
+          "text": "die weiteste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am weitesten",
+      "explanationDetail": "Weit → am weitesten. Predicate.",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist der ___ Park. (14)",
+      "options": [
+        {
+          "id": "a",
+          "text": "größte"
+        },
+        {
+          "id": "b",
+          "text": "groß"
+        },
+        {
+          "id": "c",
+          "text": "größer"
+        },
+        {
+          "id": "d",
+          "text": "am größten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der größte Park. Groß → größte.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft ___ von allen. (15)",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "weiter"
+        },
+        {
+          "id": "c",
+          "text": "am weitesten"
+        },
+        {
+          "id": "d",
+          "text": "die weiteste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am weitesten",
+      "explanationDetail": "Weit → am weitesten. Predicate.",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist der ___ Park. (16)",
+      "options": [
+        {
+          "id": "a",
+          "text": "größte"
+        },
+        {
+          "id": "b",
+          "text": "groß"
+        },
+        {
+          "id": "c",
+          "text": "größer"
+        },
+        {
+          "id": "d",
+          "text": "am größten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der größte Park. Groß → größte.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft ___ von allen. (17)",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "weiter"
+        },
+        {
+          "id": "c",
+          "text": "am weitesten"
+        },
+        {
+          "id": "d",
+          "text": "die weiteste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am weitesten",
+      "explanationDetail": "Weit → am weitesten. Predicate.",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist der ___ Park. (18)",
+      "options": [
+        {
+          "id": "a",
+          "text": "größte"
+        },
+        {
+          "id": "b",
+          "text": "groß"
+        },
+        {
+          "id": "c",
+          "text": "größer"
+        },
+        {
+          "id": "d",
+          "text": "am größten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Attributive superlative",
+      "explanationDetail": "Der größte Park. Groß → größte.",
+      "tags": [
+        "superlatives",
+        "attributive"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft ___ von allen. (19)",
+      "options": [
+        {
+          "id": "a",
+          "text": "weit"
+        },
+        {
+          "id": "b",
+          "text": "weiter"
+        },
+        {
+          "id": "c",
+          "text": "am weitesten"
+        },
+        {
+          "id": "d",
+          "text": "die weiteste"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Predicate: am weitesten",
+      "explanationDetail": "Weit → am weitesten. Predicate.",
+      "tags": [
+        "superlatives",
+        "predicate"
+      ],
+      "id": "q50"
     }
   ]
 }

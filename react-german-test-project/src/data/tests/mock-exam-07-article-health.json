@@ -273,1068 +273,1244 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Wer hat den Artikel geschrieben?",
+      "text": "Was ist das Hauptthema des Textes?",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Ein Lehrer"
+          "text": "Eine Einladung"
         },
         {
           "id": "b",
-          "text": "Ein Arzt"
+          "text": "Eine Absage"
         },
         {
           "id": "c",
-          "text": "Ein Koch"
+          "text": "Eine Beschwerde"
         },
         {
           "id": "d",
-          "text": "Ein Sportler"
+          "text": "Eine Bestellung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.",
-      "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q11"
     },
     {
-      "id": "q12",
       "type": "multiple-choice",
-      "text": "Wie viel Sport soll man mindestens pro Tag machen?",
+      "text": "Wer ist der Absender bzw. die Absenderin?",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "15 Minuten"
+          "text": "Eine Firma"
         },
         {
           "id": "b",
-          "text": "30 Minuten"
+          "text": "Eine Behörde"
         },
         {
           "id": "c",
-          "text": "60 Minuten"
+          "text": "Eine Privatperson"
         },
         {
           "id": "d",
-          "text": "2 Stunden"
+          "text": "Eine Schule"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Mindestens 30 Minuten pro Tag.",
-      "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q12"
     },
     {
-      "id": "q13",
-      "type": "true-false",
-      "text": "Man muss jeden Tag ins Fitnessstudio gehen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.",
-      "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
-    },
-    {
-      "id": "q14",
       "type": "multiple-choice",
-      "text": "Was soll man statt dem Aufzug nehmen?",
+      "text": "An wen richtet sich der Text?",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Den Bus"
+          "text": "An Bewerber"
         },
         {
           "id": "b",
-          "text": "Das Taxi"
+          "text": "An Kunden"
         },
         {
           "id": "c",
-          "text": "Die Treppe"
+          "text": "An Mitarbeiter"
         },
         {
           "id": "d",
-          "text": "Das Auto"
+          "text": "An Studenten"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Man soll die Treppe nehmen.",
-      "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q13"
     },
     {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Wie viel Wasser soll man pro Tag trinken?",
+      "text": "Wann soll etwas stattfinden?",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "0,5 Liter"
+          "text": "Nächste Woche"
         },
         {
           "id": "b",
-          "text": "1 Liter"
+          "text": "Letzten Monat"
         },
         {
           "id": "c",
-          "text": "1,5 Liter"
+          "text": "In einem Jahr"
         },
         {
           "id": "d",
-          "text": "3 Liter"
+          "text": "Gestern"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Mindestens 1,5 Liter pro Tag.",
-      "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q14"
     },
     {
-      "id": "q16",
-      "type": "true-false",
-      "text": "Selbst kochen ist gesünder als Essen bestellen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Selbst kochen ist gesünder.",
-      "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.",
-      "tags": [
-        "reading",
-        "article",
-        "main-idea"
-      ]
-    },
-    {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Wie viele Stunden Schlaf brauchen Erwachsene?",
+      "text": "Wo wird der Leser gebeten hinzugehen?",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "5-6 Stunden"
+          "text": "Ins Büro"
         },
         {
           "id": "b",
-          "text": "7-8 Stunden"
+          "text": "Zur Post"
         },
         {
           "id": "c",
-          "text": "9-10 Stunden"
+          "text": "Nach Hause"
         },
         {
           "id": "d",
-          "text": "10-12 Stunden"
+          "text": "In die Schule"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Erwachsene brauchen etwa 7-8 Stunden.",
-      "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q15"
     },
     {
-      "id": "q18",
-      "type": "true-false",
-      "text": "Man soll Handy und Computer vor dem Schlafen benutzen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man soll sie vermeiden.",
-      "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
-    },
-    {
-      "id": "q19",
       "type": "multiple-choice",
-      "text": "Was kann helfen, Stress zu reduzieren?",
+      "text": "Was wird im Text angeboten?",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Mehr arbeiten"
+          "text": "Hilfe"
         },
         {
           "id": "b",
-          "text": "Meditation, Yoga oder ein gutes Buch"
+          "text": "Information"
         },
         {
           "id": "c",
-          "text": "Weniger schlafen"
+          "text": "Eine Stelle"
         },
         {
           "id": "d",
-          "text": "Fast Food essen"
+          "text": "Einen Kurs"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.",
-      "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q16"
     },
     {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Wie oft soll man zum Arzt gehen?",
+      "text": "Welche Information steht im ersten Absatz?",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Jeden Monat"
+          "text": "Eine Begrüßung"
         },
         {
           "id": "b",
-          "text": "Einmal pro Jahr"
+          "text": "Eine Frage"
         },
         {
           "id": "c",
-          "text": "Alle zwei Jahre"
+          "text": "Eine Bitte"
         },
         {
           "id": "d",
-          "text": "Nur wenn man krank ist"
+          "text": "Eine Erklärung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Einmal pro Jahr für einen Check-up.",
-      "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q17"
     },
     {
-      "id": "q21",
       "type": "multiple-choice",
-      "text": "Wer hat den Artikel geschrieben?",
+      "text": "Was muss der Leser tun?",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Ein Lehrer"
+          "text": "Anrufen"
         },
         {
           "id": "b",
-          "text": "Ein Arzt"
+          "text": "Schreiben"
         },
         {
           "id": "c",
-          "text": "Ein Koch"
+          "text": "Warten"
         },
         {
           "id": "d",
-          "text": "Ein Sportler"
+          "text": "Bezahlen"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.",
-      "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q18"
     },
     {
-      "id": "q22",
       "type": "multiple-choice",
-      "text": "Wie viel Sport soll man mindestens pro Tag machen?",
+      "text": "Welcher Zeitraum wird genannt?",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "15 Minuten"
+          "text": "Eine Woche"
         },
         {
           "id": "b",
-          "text": "30 Minuten"
+          "text": "Ein Monat"
         },
         {
           "id": "c",
-          "text": "60 Minuten"
+          "text": "Ein Jahr"
         },
         {
           "id": "d",
-          "text": "2 Stunden"
+          "text": "Ein Tag"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Mindestens 30 Minuten pro Tag.",
-      "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q19"
     },
     {
-      "id": "q23",
-      "type": "true-false",
-      "text": "Man muss jeden Tag ins Fitnessstudio gehen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.",
-      "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
-    },
-    {
-      "id": "q24",
       "type": "multiple-choice",
-      "text": "Was soll man statt dem Aufzug nehmen?",
+      "text": "Was ist die Absicht des Textes?",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Den Bus"
+          "text": "Informieren"
         },
         {
           "id": "b",
-          "text": "Das Taxi"
+          "text": "Überzeugen"
         },
         {
           "id": "c",
-          "text": "Die Treppe"
+          "text": "Entschuldigen"
         },
         {
           "id": "d",
-          "text": "Das Auto"
+          "text": "Danken"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Man soll die Treppe nehmen.",
-      "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q20"
     },
     {
-      "id": "q25",
       "type": "multiple-choice",
-      "text": "Wie viel Wasser soll man pro Tag trinken?",
+      "text": "Was ist das Hauptthema des Textes? (11)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "0,5 Liter"
+          "text": "Eine Einladung"
         },
         {
           "id": "b",
-          "text": "1 Liter"
+          "text": "Eine Absage"
         },
         {
           "id": "c",
-          "text": "1,5 Liter"
+          "text": "Eine Beschwerde"
         },
         {
           "id": "d",
-          "text": "3 Liter"
+          "text": "Eine Bestellung"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Mindestens 1,5 Liter pro Tag.",
-      "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q21"
     },
     {
-      "id": "q26",
-      "type": "true-false",
-      "text": "Selbst kochen ist gesünder als Essen bestellen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Selbst kochen ist gesünder.",
-      "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.",
-      "tags": [
-        "reading",
-        "article",
-        "main-idea"
-      ]
-    },
-    {
-      "id": "q27",
       "type": "multiple-choice",
-      "text": "Wie viele Stunden Schlaf brauchen Erwachsene?",
+      "text": "Wer ist der Absender bzw. die Absenderin? (12)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "5-6 Stunden"
+          "text": "Eine Firma"
         },
         {
           "id": "b",
-          "text": "7-8 Stunden"
+          "text": "Eine Behörde"
         },
         {
           "id": "c",
-          "text": "9-10 Stunden"
+          "text": "Eine Privatperson"
         },
         {
           "id": "d",
-          "text": "10-12 Stunden"
+          "text": "Eine Schule"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Erwachsene brauchen etwa 7-8 Stunden.",
-      "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q22"
     },
     {
-      "id": "q28",
-      "type": "true-false",
-      "text": "Man soll Handy und Computer vor dem Schlafen benutzen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man soll sie vermeiden.",
-      "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
-    },
-    {
-      "id": "q29",
       "type": "multiple-choice",
-      "text": "Was kann helfen, Stress zu reduzieren?",
+      "text": "An wen richtet sich der Text? (13)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Mehr arbeiten"
+          "text": "An Bewerber"
         },
         {
           "id": "b",
-          "text": "Meditation, Yoga oder ein gutes Buch"
+          "text": "An Kunden"
         },
         {
           "id": "c",
-          "text": "Weniger schlafen"
+          "text": "An Mitarbeiter"
         },
         {
           "id": "d",
-          "text": "Fast Food essen"
+          "text": "An Studenten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.",
-      "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q23"
     },
     {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Wie oft soll man zum Arzt gehen?",
+      "text": "Wann soll etwas stattfinden? (14)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Jeden Monat"
+          "text": "Nächste Woche"
         },
         {
           "id": "b",
-          "text": "Einmal pro Jahr"
+          "text": "Letzten Monat"
         },
         {
           "id": "c",
-          "text": "Alle zwei Jahre"
+          "text": "In einem Jahr"
         },
         {
           "id": "d",
-          "text": "Nur wenn man krank ist"
+          "text": "Gestern"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Einmal pro Jahr für einen Check-up.",
-      "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q24"
     },
     {
-      "id": "q31",
       "type": "multiple-choice",
-      "text": "Wer hat den Artikel geschrieben?",
+      "text": "Wo wird der Leser gebeten hinzugehen? (15)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Ein Lehrer"
+          "text": "Ins Büro"
         },
         {
           "id": "b",
-          "text": "Ein Arzt"
+          "text": "Zur Post"
         },
         {
           "id": "c",
-          "text": "Ein Koch"
+          "text": "Nach Hause"
         },
         {
           "id": "d",
-          "text": "Ein Sportler"
+          "text": "In die Schule"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.",
-      "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q25"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Wie viel Sport soll man mindestens pro Tag machen?",
+      "text": "Was wird im Text angeboten? (16)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "15 Minuten"
+          "text": "Hilfe"
         },
         {
           "id": "b",
-          "text": "30 Minuten"
+          "text": "Information"
         },
         {
           "id": "c",
-          "text": "60 Minuten"
+          "text": "Eine Stelle"
         },
         {
           "id": "d",
-          "text": "2 Stunden"
+          "text": "Einen Kurs"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Mindestens 30 Minuten pro Tag.",
-      "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q26"
     },
     {
-      "id": "q33",
-      "type": "true-false",
-      "text": "Man muss jeden Tag ins Fitnessstudio gehen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.",
-      "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
-    },
-    {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Was soll man statt dem Aufzug nehmen?",
+      "text": "Welche Information steht im ersten Absatz? (17)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Den Bus"
+          "text": "Eine Begrüßung"
         },
         {
           "id": "b",
-          "text": "Das Taxi"
+          "text": "Eine Frage"
         },
         {
           "id": "c",
-          "text": "Die Treppe"
+          "text": "Eine Bitte"
         },
         {
           "id": "d",
-          "text": "Das Auto"
+          "text": "Eine Erklärung"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Man soll die Treppe nehmen.",
-      "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q27"
     },
     {
-      "id": "q35",
       "type": "multiple-choice",
-      "text": "Wie viel Wasser soll man pro Tag trinken?",
+      "text": "Was muss der Leser tun? (18)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "0,5 Liter"
+          "text": "Anrufen"
         },
         {
           "id": "b",
-          "text": "1 Liter"
+          "text": "Schreiben"
         },
         {
           "id": "c",
-          "text": "1,5 Liter"
+          "text": "Warten"
         },
         {
           "id": "d",
-          "text": "3 Liter"
+          "text": "Bezahlen"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Mindestens 1,5 Liter pro Tag.",
-      "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q28"
     },
     {
-      "id": "q36",
-      "type": "true-false",
-      "text": "Selbst kochen ist gesünder als Essen bestellen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Selbst kochen ist gesünder.",
-      "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.",
-      "tags": [
-        "reading",
-        "article",
-        "main-idea"
-      ]
-    },
-    {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Wie viele Stunden Schlaf brauchen Erwachsene?",
+      "text": "Welcher Zeitraum wird genannt? (19)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "5-6 Stunden"
+          "text": "Eine Woche"
         },
         {
           "id": "b",
-          "text": "7-8 Stunden"
+          "text": "Ein Monat"
         },
         {
           "id": "c",
-          "text": "9-10 Stunden"
+          "text": "Ein Jahr"
         },
         {
           "id": "d",
-          "text": "10-12 Stunden"
+          "text": "Ein Tag"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Erwachsene brauchen etwa 7-8 Stunden.",
-      "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q29"
     },
     {
-      "id": "q38",
-      "type": "true-false",
-      "text": "Man soll Handy und Computer vor dem Schlafen benutzen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man soll sie vermeiden.",
-      "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
-    },
-    {
-      "id": "q39",
       "type": "multiple-choice",
-      "text": "Was kann helfen, Stress zu reduzieren?",
+      "text": "Was ist die Absicht des Textes? (20)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Mehr arbeiten"
+          "text": "Informieren"
         },
         {
           "id": "b",
-          "text": "Meditation, Yoga oder ein gutes Buch"
+          "text": "Überzeugen"
         },
         {
           "id": "c",
-          "text": "Weniger schlafen"
+          "text": "Entschuldigen"
         },
         {
           "id": "d",
-          "text": "Fast Food essen"
+          "text": "Danken"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.",
-      "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q30"
     },
     {
-      "id": "q40",
       "type": "multiple-choice",
-      "text": "Wie oft soll man zum Arzt gehen?",
+      "text": "Was ist das Hauptthema des Textes? (21)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Jeden Monat"
+          "text": "Eine Einladung"
         },
         {
           "id": "b",
-          "text": "Einmal pro Jahr"
+          "text": "Eine Absage"
         },
         {
           "id": "c",
-          "text": "Alle zwei Jahre"
+          "text": "Eine Beschwerde"
         },
         {
           "id": "d",
-          "text": "Nur wenn man krank ist"
+          "text": "Eine Bestellung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Einmal pro Jahr für einen Check-up.",
-      "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q31"
     },
     {
-      "id": "q41",
       "type": "multiple-choice",
-      "text": "Wer hat den Artikel geschrieben?",
+      "text": "Wer ist der Absender bzw. die Absenderin? (22)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Ein Lehrer"
+          "text": "Eine Firma"
         },
         {
           "id": "b",
-          "text": "Ein Arzt"
+          "text": "Eine Behörde"
         },
         {
           "id": "c",
-          "text": "Ein Koch"
+          "text": "Eine Privatperson"
         },
         {
           "id": "d",
-          "text": "Ein Sportler"
+          "text": "Eine Schule"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.",
-      "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q32"
     },
     {
-      "id": "q42",
       "type": "multiple-choice",
-      "text": "Wie viel Sport soll man mindestens pro Tag machen?",
+      "text": "An wen richtet sich der Text? (23)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "15 Minuten"
+          "text": "An Bewerber"
         },
         {
           "id": "b",
-          "text": "30 Minuten"
+          "text": "An Kunden"
         },
         {
           "id": "c",
-          "text": "60 Minuten"
+          "text": "An Mitarbeiter"
         },
         {
           "id": "d",
-          "text": "2 Stunden"
+          "text": "An Studenten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Mindestens 30 Minuten pro Tag.",
-      "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q33"
     },
     {
-      "id": "q43",
-      "type": "true-false",
-      "text": "Man muss jeden Tag ins Fitnessstudio gehen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.",
-      "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
-    },
-    {
-      "id": "q44",
       "type": "multiple-choice",
-      "text": "Was soll man statt dem Aufzug nehmen?",
+      "text": "Wann soll etwas stattfinden? (24)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Den Bus"
+          "text": "Nächste Woche"
         },
         {
           "id": "b",
-          "text": "Das Taxi"
+          "text": "Letzten Monat"
         },
         {
           "id": "c",
-          "text": "Die Treppe"
+          "text": "In einem Jahr"
         },
         {
           "id": "d",
-          "text": "Das Auto"
+          "text": "Gestern"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Man soll die Treppe nehmen.",
-      "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q34"
     },
     {
-      "id": "q45",
       "type": "multiple-choice",
-      "text": "Wie viel Wasser soll man pro Tag trinken?",
+      "text": "Wo wird der Leser gebeten hinzugehen? (25)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "0,5 Liter"
+          "text": "Ins Büro"
         },
         {
           "id": "b",
-          "text": "1 Liter"
+          "text": "Zur Post"
         },
         {
           "id": "c",
-          "text": "1,5 Liter"
+          "text": "Nach Hause"
         },
         {
           "id": "d",
-          "text": "3 Liter"
+          "text": "In die Schule"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Mindestens 1,5 Liter pro Tag.",
-      "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q35"
     },
     {
-      "id": "q46",
-      "type": "true-false",
-      "text": "Selbst kochen ist gesünder als Essen bestellen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Selbst kochen ist gesünder.",
-      "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.",
-      "tags": [
-        "reading",
-        "article",
-        "main-idea"
-      ]
-    },
-    {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Wie viele Stunden Schlaf brauchen Erwachsene?",
+      "text": "Was wird im Text angeboten? (26)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "5-6 Stunden"
+          "text": "Hilfe"
         },
         {
           "id": "b",
-          "text": "7-8 Stunden"
+          "text": "Information"
         },
         {
           "id": "c",
-          "text": "9-10 Stunden"
+          "text": "Eine Stelle"
         },
         {
           "id": "d",
-          "text": "10-12 Stunden"
+          "text": "Einen Kurs"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Erwachsene brauchen etwa 7-8 Stunden.",
-      "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q36"
     },
     {
-      "id": "q48",
-      "type": "true-false",
-      "text": "Man soll Handy und Computer vor dem Schlafen benutzen.",
-      "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man soll sie vermeiden.",
-      "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
-    },
-    {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Was kann helfen, Stress zu reduzieren?",
+      "text": "Welche Information steht im ersten Absatz? (27)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Mehr arbeiten"
+          "text": "Eine Begrüßung"
         },
         {
           "id": "b",
-          "text": "Meditation, Yoga oder ein gutes Buch"
+          "text": "Eine Frage"
         },
         {
           "id": "c",
-          "text": "Weniger schlafen"
+          "text": "Eine Bitte"
         },
         {
           "id": "d",
-          "text": "Fast Food essen"
+          "text": "Eine Erklärung"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.",
-      "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q37"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Wie oft soll man zum Arzt gehen?",
+      "text": "Was muss der Leser tun? (28)",
       "passageId": "article-healthy-lifestyle",
       "options": [
         {
           "id": "a",
-          "text": "Jeden Monat"
+          "text": "Anrufen"
         },
         {
           "id": "b",
-          "text": "Einmal pro Jahr"
+          "text": "Schreiben"
         },
         {
           "id": "c",
-          "text": "Alle zwei Jahre"
+          "text": "Warten"
         },
         {
           "id": "d",
-          "text": "Nur wenn man krank ist"
+          "text": "Bezahlen"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Einmal pro Jahr für einen Check-up.",
-      "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "article",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (29)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (30)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist das Hauptthema des Textes? (31)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Einladung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Absage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Beschwerde"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bestellung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer ist der Absender bzw. die Absenderin? (32)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Firma"
+        },
+        {
+          "id": "b",
+          "text": "Eine Behörde"
+        },
+        {
+          "id": "c",
+          "text": "Eine Privatperson"
+        },
+        {
+          "id": "d",
+          "text": "Eine Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Text? (33)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Bewerber"
+        },
+        {
+          "id": "b",
+          "text": "An Kunden"
+        },
+        {
+          "id": "c",
+          "text": "An Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "An Studenten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wann soll etwas stattfinden? (34)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nächste Woche"
+        },
+        {
+          "id": "b",
+          "text": "Letzten Monat"
+        },
+        {
+          "id": "c",
+          "text": "In einem Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Gestern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen? (35)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten? (36)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz? (37)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun? (38)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (39)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (40)",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q50"
     }
   ]
 }

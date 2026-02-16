@@ -486,9 +486,449 @@
       ]
     },
     {
-      "id": "q16",
       "type": "multiple-choice",
-      "text": "Ich ___ gestern einen Film gesehen. (Perfekt)",
+      "text": "Sie ___ gestern den ganzen Tag gearbeitet. (Perfekt)",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "arbeiten uses haben in Perfekt",
+      "explanationDetail": "Arbeiten (to work) uses haben. Sie hat gearbeitet (she worked). Regular verb: arbeiten → gearbeitet.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "haben",
+        "mixed-tenses"
+      ],
+      "id": "q16"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr ___ gestern sehr laut. (Präteritum)",
+      "options": [
+        {
+          "id": "a",
+          "text": "seid"
+        },
+        {
+          "id": "b",
+          "text": "wart"
+        },
+        {
+          "id": "c",
+          "text": "habt"
+        },
+        {
+          "id": "d",
+          "text": "hattet"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "sein in Präteritum: ihr wart",
+      "explanationDetail": "Sein in Präteritum, 2nd person plural: ihr wart. Ihr wart laut (you were loud).",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "sein",
+        "mixed-tenses"
+      ],
+      "id": "q17"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du ___ jetzt den Film. (Präsens)",
+      "options": [
+        {
+          "id": "a",
+          "text": "siehst"
+        },
+        {
+          "id": "b",
+          "text": "sieht"
+        },
+        {
+          "id": "c",
+          "text": "sehen"
+        },
+        {
+          "id": "d",
+          "text": "sah"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sehen present, 2nd person: du siehst",
+      "explanationDetail": "Sehen (to see) has vowel change: du siehst, er/sie sieht. Du siehst den Film (you see the film).",
+      "tags": [
+        "verbs",
+        "present-tense",
+        "strong-verbs",
+        "mixed-tenses"
+      ],
+      "id": "q18"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Kinder ___ gestern im Schwimmbad. (Perfekt)",
+      "options": [
+        {
+          "id": "a",
+          "text": "haben"
+        },
+        {
+          "id": "b",
+          "text": "sind"
+        },
+        {
+          "id": "c",
+          "text": "hatten"
+        },
+        {
+          "id": "d",
+          "text": "waren"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "schwimmen can use sein (motion)",
+      "explanationDetail": "Schwimmen (to swim) as motion uses sein in Perfekt in some contexts. Die Kinder sind geschwommen. Alternatively haben is used; here sein fits the context.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "mixed-tenses"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ jeden Sonntag Tennis. (Präsens)",
+      "options": [
+        {
+          "id": "a",
+          "text": "spielt"
+        },
+        {
+          "id": "b",
+          "text": "spiele"
+        },
+        {
+          "id": "c",
+          "text": "spielst"
+        },
+        {
+          "id": "d",
+          "text": "spielen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "spielen present, 3rd person: er spielt",
+      "explanationDetail": "Spielen (to play) is regular. Er spielt Tennis (he plays tennis). Ich spiele, du spielst, er spielt, wir spielen.",
+      "tags": [
+        "verbs",
+        "present-tense",
+        "mixed-tenses"
+      ],
+      "id": "q20"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir ___ gestern einen Kuchen gebacken. (Perfekt)",
+      "options": [
+        {
+          "id": "a",
+          "text": "haben"
+        },
+        {
+          "id": "b",
+          "text": "sind"
+        },
+        {
+          "id": "c",
+          "text": "hatten"
+        },
+        {
+          "id": "d",
+          "text": "waren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "backen uses haben in Perfekt",
+      "explanationDetail": "Backen (to bake) uses haben. Wir haben gebacken (we baked). Strong verb: backen → gebacken.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "haben",
+        "mixed-tenses"
+      ],
+      "id": "q21"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ letzte Woche in Urlaub. (Präteritum)",
+      "options": [
+        {
+          "id": "a",
+          "text": "fährt"
+        },
+        {
+          "id": "b",
+          "text": "fuhr"
+        },
+        {
+          "id": "c",
+          "text": "fahren"
+        },
+        {
+          "id": "d",
+          "text": "gefahren"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "fahren in Präteritum: sie fuhr",
+      "explanationDetail": "Fahren (to go/drive) in Präteritum: ich fuhr, du fuhrst, er/sie fuhr, wir fuhren. Sie fuhr in Urlaub (she went on holiday).",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "mixed-tenses"
+      ],
+      "id": "q22"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ morgen früh ab. (Präsens)",
+      "options": [
+        {
+          "id": "a",
+          "text": "reise"
+        },
+        {
+          "id": "b",
+          "text": "reist"
+        },
+        {
+          "id": "c",
+          "text": "reisen"
+        },
+        {
+          "id": "d",
+          "text": "reiste"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "reisen present, 1st person: ich reise",
+      "explanationDetail": "Reisen (to travel) is regular. Ich reise ab (I'm leaving). Er reist, wir reisen.",
+      "tags": [
+        "verbs",
+        "present-tense",
+        "mixed-tenses"
+      ],
+      "id": "q23"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du ___ gestern den Brief geschrieben. (Perfekt)",
+      "options": [
+        {
+          "id": "a",
+          "text": "hast"
+        },
+        {
+          "id": "b",
+          "text": "bist"
+        },
+        {
+          "id": "c",
+          "text": "hattest"
+        },
+        {
+          "id": "d",
+          "text": "warst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "schreiben uses haben in Perfekt",
+      "explanationDetail": "Schreiben (to write) uses haben. Du hast geschrieben (you wrote). Strong verb: schreiben → geschrieben.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "haben",
+        "mixed-tenses"
+      ],
+      "id": "q24"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ gestern sehr schnell. (Präteritum)",
+      "options": [
+        {
+          "id": "a",
+          "text": "läuft"
+        },
+        {
+          "id": "b",
+          "text": "lief"
+        },
+        {
+          "id": "c",
+          "text": "laufen"
+        },
+        {
+          "id": "d",
+          "text": "gelaufen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "laufen in Präteritum: er lief",
+      "explanationDetail": "Laufen (to run) in Präteritum: ich lief, du liefst, er lief, wir liefen. Er lief schnell (he ran fast). Strong verb.",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "mixed-tenses"
+      ],
+      "id": "q25"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir ___ nächste Woche nach München. (Präsens)",
+      "options": [
+        {
+          "id": "a",
+          "text": "fliege"
+        },
+        {
+          "id": "b",
+          "text": "fliegst"
+        },
+        {
+          "id": "c",
+          "text": "fliegt"
+        },
+        {
+          "id": "d",
+          "text": "fliegen"
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "fliegen present, 1st person plural: wir fliegen",
+      "explanationDetail": "Fliegen (to fly) is strong. Wir fliegen (we fly/are flying). Ich fliege, du fliegst, er fliegt, wir fliegen.",
+      "tags": [
+        "verbs",
+        "present-tense",
+        "mixed-tenses"
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ gestern lange geschlafen. (Perfekt)",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "schlafen uses haben in Perfekt",
+      "explanationDetail": "Schlafen (to sleep) uses haben. Sie hat geschlafen (she slept). Strong verb: schlafen → geschlafen.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "haben",
+        "mixed-tenses"
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr ___ damals in Hamburg. (Präteritum)",
+      "options": [
+        {
+          "id": "a",
+          "text": "wohnt"
+        },
+        {
+          "id": "b",
+          "text": "wohntet"
+        },
+        {
+          "id": "c",
+          "text": "wohnen"
+        },
+        {
+          "id": "d",
+          "text": "gewohnt"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "wohnen in Präteritum: ihr wohntet",
+      "explanationDetail": "Wohnen (to live) is regular. Präteritum: ich wohnte, ihr wohntet. Ihr wohntet in Hamburg (you lived in Hamburg).",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "mixed-tenses"
+      ],
+      "id": "q28"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Zug ___ um 9 Uhr. (Präsens)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ankomme"
+        },
+        {
+          "id": "b",
+          "text": "ankommst"
+        },
+        {
+          "id": "c",
+          "text": "kommt an"
+        },
+        {
+          "id": "d",
+          "text": "ankommen"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "ankommen separable: 3rd person kommt an",
+      "explanationDetail": "Ankommen (to arrive) is separable. Der Zug kommt an (the train arrives). Prefix goes to end: er kommt... an.",
+      "tags": [
+        "verbs",
+        "present-tense",
+        "separable-verbs",
+        "mixed-tenses"
+      ],
+      "id": "q29"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ gestern meinen Schlüssel verloren. (Perfekt)",
       "options": [
         {
           "id": "a",
@@ -508,114 +948,431 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "sehen uses haben in Perfekt",
-      "explanationDetail": "Sehen (to see) → hat gesehen. Strong verb: sehen → gesehen (ge- + stem change + -en). Ich habe gesehen (I saw/have seen). Most verbs use haben in Perfekt.",
+      "explanation": "verlieren uses haben in Perfekt",
+      "explanationDetail": "Verlieren (to lose) uses haben. Ich habe verloren (I lost). Strong verb: verlieren → verloren.",
       "tags": [
         "verbs",
         "perfekt",
         "haben",
         "mixed-tenses"
-      ]
+      ],
+      "id": "q30"
     },
     {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Er ___ jeden Tag um 8 Uhr. (Präsens)",
+      "text": "Du ___ gestern Abend angerufen. (Perfekt)",
       "options": [
         {
           "id": "a",
-          "text": "komme"
+          "text": "hast"
         },
         {
           "id": "b",
-          "text": "kommst"
+          "text": "bist"
         },
         {
           "id": "c",
-          "text": "kommt"
+          "text": "hattest"
         },
         {
           "id": "d",
-          "text": "kommen"
+          "text": "warst"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Present tense, 3rd person singular",
-      "explanationDetail": "Kommen (to come) in present tense: ich komme, du kommst, er/sie/es kommt, wir kommen, ihr kommt, sie kommen. Er kommt (he comes). Regular conjugation pattern.",
+      "correctAnswerId": "a",
+      "explanation": "anrufen uses haben in Perfekt",
+      "explanationDetail": "Anrufen (to call) is separable; Perfekt: angerufen. Du hast angerufen (you called). Haben + past participle.",
       "tags": [
         "verbs",
-        "present-tense",
+        "perfekt",
+        "haben",
         "mixed-tenses"
-      ]
+      ],
+      "id": "q31"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Wir ___ gestern im Park. (Präteritum)",
+      "text": "Er ___ jeden Tag um 6 Uhr. (Präsens)",
       "options": [
         {
           "id": "a",
-          "text": "sind"
+          "text": "aufwache"
         },
         {
           "id": "b",
-          "text": "waren"
+          "text": "wacht auf"
         },
         {
           "id": "c",
-          "text": "haben"
+          "text": "aufwacht"
         },
         {
           "id": "d",
-          "text": "hatten"
+          "text": "aufwecken"
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: wir waren",
-      "explanationDetail": "Sein (to be) in Präteritum: ich war, du warst, er/sie war, wir waren, ihr wart, sie waren. Wir waren im Park (we were in the park). Sein is commonly used in Präteritum.",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "sein",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Sie ___ morgen nach Berlin. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "fahre"
-        },
-        {
-          "id": "b",
-          "text": "fährst"
-        },
-        {
-          "id": "c",
-          "text": "fährt"
-        },
-        {
-          "id": "d",
-          "text": "fahren"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Present tense, 3rd person singular with vowel change",
-      "explanationDetail": "Fahren (to drive/go) is a strong verb with vowel change: a → ä in 2nd/3rd person singular. Sie fährt (she drives/is driving). Ich fahre, du fährst, er/sie fährt, wir fahren.",
+      "explanation": "aufwachen separable: er wacht auf",
+      "explanationDetail": "Aufwachen (to wake up) is separable. Er wacht auf (he wakes up). Prefix 'auf' goes to end in present.",
       "tags": [
         "verbs",
         "present-tense",
-        "strong-verbs",
+        "separable-verbs",
         "mixed-tenses"
-      ]
+      ],
+      "id": "q32"
     },
     {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Du ___ gestern sehr müde. (Präteritum)",
+      "text": "Wir ___ gestern den Film gesehen. (Perfekt)",
+      "options": [
+        {
+          "id": "a",
+          "text": "haben"
+        },
+        {
+          "id": "b",
+          "text": "sind"
+        },
+        {
+          "id": "c",
+          "text": "hatten"
+        },
+        {
+          "id": "d",
+          "text": "waren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sehen uses haben in Perfekt",
+      "explanationDetail": "Sehen (to see) uses haben. Wir haben gesehen (we saw). Strong verb with ge- prefix.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "haben",
+        "mixed-tenses"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ gestern sehr spät nach Hause. (Präteritum)",
+      "options": [
+        {
+          "id": "a",
+          "text": "kommt"
+        },
+        {
+          "id": "b",
+          "text": "kam"
+        },
+        {
+          "id": "c",
+          "text": "kommen"
+        },
+        {
+          "id": "d",
+          "text": "gekommen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "kommen in Präteritum: sie kam",
+      "explanationDetail": "Kommen (to come) in Präteritum: ich kam, du kamst, sie kam, wir kamen. Sie kam nach Hause (she came home).",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "mixed-tenses"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Schüler ___ gerade die Hausaufgaben. (Präsens)",
+      "options": [
+        {
+          "id": "a",
+          "text": "mache"
+        },
+        {
+          "id": "b",
+          "text": "machst"
+        },
+        {
+          "id": "c",
+          "text": "macht"
+        },
+        {
+          "id": "d",
+          "text": "machen"
+        }
+      ],
+      "correctAnswerId": "d",
+      "explanation": "machen present, 3rd person plural: sie machen",
+      "explanationDetail": "Machen (to do/make) is regular. Die Schüler machen (the students are doing). Plural verb form.",
+      "tags": [
+        "verbs",
+        "present-tense",
+        "mixed-tenses"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ gestern einen Unfall gehabt. (Perfekt)",
+      "options": [
+        {
+          "id": "a",
+          "text": "habe"
+        },
+        {
+          "id": "b",
+          "text": "bin"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "haben as main verb in Perfekt",
+      "explanationDetail": "When haben is the main verb (Ich habe einen Unfall), Perfekt is habe + gehabt. Ich habe gehabt (I had). Double haben.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "haben",
+        "mixed-tenses"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du ___ gestern nicht kommen. (Präteritum)",
+      "options": [
+        {
+          "id": "a",
+          "text": "kannst"
+        },
+        {
+          "id": "b",
+          "text": "konntest"
+        },
+        {
+          "id": "c",
+          "text": "können"
+        },
+        {
+          "id": "d",
+          "text": "gekonnt"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "können in Präteritum: du konntest",
+      "explanationDetail": "Modal verbs often use Präteritum. Du konntest nicht kommen (you couldn't come). Können → konnte, konntest, konnte, konnten.",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "modal-verbs",
+        "mixed-tenses"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ das Fenster ___. (Präsens)",
+      "options": [
+        {
+          "id": "a",
+          "text": "macht... zu"
+        },
+        {
+          "id": "b",
+          "text": "zumacht"
+        },
+        {
+          "id": "c",
+          "text": "macht zumachen"
+        },
+        {
+          "id": "d",
+          "text": "zu... macht"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "zumachen separable: prefix to end",
+      "explanationDetail": "Zumachen (to close) is separable. Er macht das Fenster zu (he closes the window). Prefix 'zu' at end.",
+      "tags": [
+        "verbs",
+        "present-tense",
+        "separable-verbs",
+        "mixed-tenses"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir ___ gestern Pizza bestellt. (Perfekt)",
+      "options": [
+        {
+          "id": "a",
+          "text": "haben"
+        },
+        {
+          "id": "b",
+          "text": "sind"
+        },
+        {
+          "id": "c",
+          "text": "hatten"
+        },
+        {
+          "id": "d",
+          "text": "waren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "bestellen uses haben in Perfekt",
+      "explanationDetail": "Bestellen (to order) uses haben. Wir haben bestellt (we ordered). Regular: bestellen → bestellt.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "haben",
+        "mixed-tenses"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr ___ gestern den ganzen Tag. (Präteritum)",
+      "options": [
+        {
+          "id": "a",
+          "text": "arbeitet"
+        },
+        {
+          "id": "b",
+          "text": "arbeitetet"
+        },
+        {
+          "id": "c",
+          "text": "arbeiten"
+        },
+        {
+          "id": "d",
+          "text": "gearbeitet"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "arbeiten in Präteritum: ihr arbeitetet",
+      "explanationDetail": "Arbeiten (to work) in Präteritum: ich arbeitete, ihr arbeitetet. Ihr arbeitetet (you worked).",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "mixed-tenses"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ jeden Morgen um 7. (Präsens)",
+      "options": [
+        {
+          "id": "a",
+          "text": "aufstehe"
+        },
+        {
+          "id": "b",
+          "text": "aufstehst"
+        },
+        {
+          "id": "c",
+          "text": "steht auf"
+        },
+        {
+          "id": "d",
+          "text": "aufstehen"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "aufstehen separable: sie steht auf",
+      "explanationDetail": "Aufstehen (to get up) is separable. Sie steht auf (she gets up). 3rd person: steht + auf.",
+      "tags": [
+        "verbs",
+        "present-tense",
+        "separable-verbs",
+        "mixed-tenses"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Hund ___ gestern im Garten. (Perfekt)",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "spielen (run around) with sein in some contexts",
+      "explanationDetail": "Here: Der Hund ist im Garten gespielt/gewesen. More common: Der Hund hat im Garten gespielt. With motion: sein. Er ist gelaufen (he ran).",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "mixed-tenses"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ gestern den Bus verpasst. (Perfekt)",
+      "options": [
+        {
+          "id": "a",
+          "text": "habe"
+        },
+        {
+          "id": "b",
+          "text": "bin"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "verpassen uses haben in Perfekt",
+      "explanationDetail": "Verpassen (to miss) uses haben. Ich habe verpasst (I missed). Regular verb with separable feel but not separable.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "haben",
+        "mixed-tenses"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du ___ gestern sehr krank. (Präteritum)",
       "options": [
         {
           "id": "a",
@@ -636,241 +1393,113 @@
       ],
       "correctAnswerId": "b",
       "explanation": "sein in Präteritum: du warst",
-      "explanationDetail": "Sein in Präteritum, 2nd person singular: du warst. Du warst müde (you were tired). Sein, haben, and werden are most commonly used in Präteritum in spoken German.",
+      "explanationDetail": "Du warst krank (you were sick). Sein in Präteritum is very common in spoken German.",
       "tags": [
         "verbs",
         "praeteritum",
         "sein",
         "mixed-tenses"
-      ]
+      ],
+      "id": "q44"
     },
     {
-      "id": "q21",
       "type": "multiple-choice",
-      "text": "Ich ___ gerade ein Buch. (Präsens)",
+      "text": "Er ___ morgen nicht kommen. (Präsens)",
       "options": [
         {
           "id": "a",
-          "text": "lese"
+          "text": "muss"
         },
         {
           "id": "b",
+          "text": "musste"
+        },
+        {
+          "id": "c",
+          "text": "müssen"
+        },
+        {
+          "id": "d",
+          "text": "gemusst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "müssen present: er muss",
+      "explanationDetail": "Müssen (must) in present: er muss (he must). Er muss nicht kommen (he doesn't have to come). Modal + infinitive at end.",
+      "tags": [
+        "verbs",
+        "present-tense",
+        "modal-verbs",
+        "mixed-tenses"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir ___ gestern ins Kino. (Präteritum)",
+      "options": [
+        {
+          "id": "a",
+          "text": "gehen"
+        },
+        {
+          "id": "b",
+          "text": "gingen"
+        },
+        {
+          "id": "c",
+          "text": "ging"
+        },
+        {
+          "id": "d",
+          "text": "gegangen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "gehen in Präteritum: wir gingen",
+      "explanationDetail": "Gehen (to go) in Präteritum: ich ging, du gingst, wir gingen. Wir gingen ins Kino (we went to the cinema).",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "mixed-tenses"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ gerade die Zeitung. (Präsens)",
+      "options": [
+        {
+          "id": "a",
           "text": "liest"
         },
         {
+          "id": "b",
+          "text": "lese"
+        },
+        {
           "id": "c",
+          "text": "lest"
+        },
+        {
+          "id": "d",
           "text": "lesen"
-        },
-        {
-          "id": "d",
-          "text": "las"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Present tense, 1st person singular with vowel change",
-      "explanationDetail": "Lesen (to read) is a strong verb with vowel change: e → ie in 2nd/3rd person singular. But 1st person: ich lese (I read/am reading). Du liest, er/sie liest, wir lesen.",
+      "explanation": "lesen present, 3rd person: sie liest",
+      "explanationDetail": "Lesen (to read): sie liest (she reads). Vowel change e → ie in 2nd/3rd person singular.",
       "tags": [
         "verbs",
         "present-tense",
         "strong-verbs",
         "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Er ___ gestern nach Hause gegangen. (Perfekt)",
-      "options": [
-        {
-          "id": "a",
-          "text": "hat"
-        },
-        {
-          "id": "b",
-          "text": "ist"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "gehen uses sein in Perfekt",
-      "explanationDetail": "Gehen (to go/walk) is a motion verb, so it uses 'sein' in Perfekt. Er ist gegangen (he went/has gone). Motion verbs: gehen, fahren, kommen, fliegen, laufen all use sein.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "sein",
-        "mixed-tenses"
-      ]
+      "id": "q47"
     },
     {
-      "id": "q23",
       "type": "multiple-choice",
-      "text": "Wir ___ gestern keine Zeit. (Präteritum)",
-      "options": [
-        {
-          "id": "a",
-          "text": "haben"
-        },
-        {
-          "id": "b",
-          "text": "hatten"
-        },
-        {
-          "id": "c",
-          "text": "sind"
-        },
-        {
-          "id": "d",
-          "text": "waren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "haben in Präteritum: wir hatten",
-      "explanationDetail": "Haben (to have) in Präteritum: ich hatte, du hattest, er/sie hatte, wir hatten, ihr hattet, sie hatten. Wir hatten keine Zeit (we had no time). Haben is very common in Präteritum.",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "haben",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "multiple-choice",
-      "text": "Sie ___ jeden Morgen Kaffee. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "trinke"
-        },
-        {
-          "id": "b",
-          "text": "trinkst"
-        },
-        {
-          "id": "c",
-          "text": "trinkt"
-        },
-        {
-          "id": "d",
-          "text": "trinken"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Present tense, 3rd person singular",
-      "explanationDetail": "Trinken (to drink) in present tense: ich trinke, du trinkst, er/sie/es trinkt, wir trinken, ihr trinkt, sie trinken. Sie trinkt (she drinks). Regular conjugation.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern einen Brief geschrieben. (Perfekt)",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "bin"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "schreiben uses haben in Perfekt",
-      "explanationDetail": "Schreiben (to write) → hat geschrieben. Strong verb: schreiben → geschrieben (ge- + stem change + -en). Ich habe geschrieben (I wrote/have written). Most verbs use haben.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "haben",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "multiple-choice",
-      "text": "Du ___ sehr schnell. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "laufe"
-        },
-        {
-          "id": "b",
-          "text": "läufst"
-        },
-        {
-          "id": "c",
-          "text": "läuft"
-        },
-        {
-          "id": "d",
-          "text": "laufen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Present tense, 2nd person singular with vowel change",
-      "explanationDetail": "Laufen (to run/walk) is a strong verb with vowel change: au → äu in 2nd/3rd person singular. Du läufst (you run). Ich laufe, du läufst, er/sie läuft, wir laufen.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "strong-verbs",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Sie ___ gestern sehr glücklich. (Präteritum)",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hat"
-        },
-        {
-          "id": "d",
-          "text": "hatte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: sie war",
-      "explanationDetail": "Sein in Präteritum, 3rd person singular: sie war. Sie war glücklich (she was happy). Adjectives after sein describe a state, commonly expressed in Präteritum.",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "sein",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Wir ___ gestern Pizza gegessen. (Perfekt)",
+      "text": "Die Kinder ___ gestern Eis gegessen. (Perfekt)",
       "options": [
         {
           "id": "a",
@@ -891,716 +1520,78 @@
       ],
       "correctAnswerId": "a",
       "explanation": "essen uses haben in Perfekt",
-      "explanationDetail": "Essen (to eat) → haben gegessen. Strong verb: essen → gegessen (ge- + stem change + -en). Wir haben gegessen (we ate/have eaten). Eating and drinking verbs use haben.",
+      "explanationDetail": "Essen (to eat) uses haben. Die Kinder haben gegessen (the children ate). Strong: essen → gegessen.",
       "tags": [
         "verbs",
         "perfekt",
         "haben",
         "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Er ___ mir jeden Tag. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "helfe"
-        },
-        {
-          "id": "b",
-          "text": "hilfst"
-        },
-        {
-          "id": "c",
-          "text": "hilft"
-        },
-        {
-          "id": "d",
-          "text": "helfen"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Present tense, 3rd person singular with vowel change",
-      "explanationDetail": "Helfen (to help) is a strong verb with vowel change: e → i in 2nd/3rd person singular. Er hilft (he helps). Ich helfe, du hilfst, er/sie hilft, wir helfen. Helfen takes Dativ object.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "strong-verbs",
-        "mixed-tenses"
-      ]
+      "id": "q48"
     },
     {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Ich ___ gestern um 10 Uhr aufgestanden. (Perfekt)",
+      "text": "Ihr ___ gestern zu Hause bleiben. (Präteritum)",
       "options": [
         {
           "id": "a",
-          "text": "habe"
+          "text": "müsst"
         },
         {
           "id": "b",
-          "text": "bin"
+          "text": "musstet"
         },
         {
           "id": "c",
-          "text": "hatte"
+          "text": "müssen"
         },
         {
           "id": "d",
-          "text": "war"
+          "text": "gemusst"
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "aufstehen uses sein in Perfekt",
-      "explanationDetail": "Aufstehen (to get up) is a change of state verb, so it uses 'sein'. Ich bin aufgestanden (I got up). Separable verb: auf + ge + standen = aufgestanden. Change of state verbs use sein.",
+      "explanation": "müssen in Präteritum: ihr musstet",
+      "explanationDetail": "Müssen in Präteritum: ihr musstet (you had to). Ihr musstet bleiben (you had to stay).",
       "tags": [
         "verbs",
-        "perfekt",
-        "sein",
+        "praeteritum",
+        "modal-verbs",
+        "mixed-tenses"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ die Tür ___. (Präsens)",
+      "options": [
+        {
+          "id": "a",
+          "text": "macht... auf"
+        },
+        {
+          "id": "b",
+          "text": "aufmacht"
+        },
+        {
+          "id": "c",
+          "text": "macht aufmachen"
+        },
+        {
+          "id": "d",
+          "text": "auf... macht"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "aufmachen separable: er macht auf",
+      "explanationDetail": "Aufmachen (to open) is separable. Er macht die Tür auf (he opens the door). The prefix 'auf' goes to the end.",
+      "tags": [
+        "verbs",
+        "present-tense",
         "separable-verbs",
         "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern einen Film gesehen. (Perfekt)",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "bin"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "sehen uses haben in Perfekt",
-      "explanationDetail": "Sehen (to see) → hat gesehen. Strong verb: sehen → gesehen (ge- + stem change + -en). Ich habe gesehen (I saw/have seen). Most verbs use haben in Perfekt.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "haben",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q32",
-      "type": "multiple-choice",
-      "text": "Er ___ jeden Tag um 8 Uhr. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "komme"
-        },
-        {
-          "id": "b",
-          "text": "kommst"
-        },
-        {
-          "id": "c",
-          "text": "kommt"
-        },
-        {
-          "id": "d",
-          "text": "kommen"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Present tense, 3rd person singular",
-      "explanationDetail": "Kommen (to come) in present tense: ich komme, du kommst, er/sie/es kommt, wir kommen, ihr kommt, sie kommen. Er kommt (he comes). Regular conjugation pattern.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Wir ___ gestern im Park. (Präteritum)",
-      "options": [
-        {
-          "id": "a",
-          "text": "sind"
-        },
-        {
-          "id": "b",
-          "text": "waren"
-        },
-        {
-          "id": "c",
-          "text": "haben"
-        },
-        {
-          "id": "d",
-          "text": "hatten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: wir waren",
-      "explanationDetail": "Sein (to be) in Präteritum: ich war, du warst, er/sie war, wir waren, ihr wart, sie waren. Wir waren im Park (we were in the park). Sein is commonly used in Präteritum.",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "sein",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "multiple-choice",
-      "text": "Sie ___ morgen nach Berlin. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "fahre"
-        },
-        {
-          "id": "b",
-          "text": "fährst"
-        },
-        {
-          "id": "c",
-          "text": "fährt"
-        },
-        {
-          "id": "d",
-          "text": "fahren"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Present tense, 3rd person singular with vowel change",
-      "explanationDetail": "Fahren (to drive/go) is a strong verb with vowel change: a → ä in 2nd/3rd person singular. Sie fährt (she drives/is driving). Ich fahre, du fährst, er/sie fährt, wir fahren.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "strong-verbs",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Du ___ gestern sehr müde. (Präteritum)",
-      "options": [
-        {
-          "id": "a",
-          "text": "bist"
-        },
-        {
-          "id": "b",
-          "text": "warst"
-        },
-        {
-          "id": "c",
-          "text": "hast"
-        },
-        {
-          "id": "d",
-          "text": "hattest"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: du warst",
-      "explanationDetail": "Sein in Präteritum, 2nd person singular: du warst. Du warst müde (you were tired). Sein, haben, and werden are most commonly used in Präteritum in spoken German.",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "sein",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Ich ___ gerade ein Buch. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lese"
-        },
-        {
-          "id": "b",
-          "text": "liest"
-        },
-        {
-          "id": "c",
-          "text": "lesen"
-        },
-        {
-          "id": "d",
-          "text": "las"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Present tense, 1st person singular with vowel change",
-      "explanationDetail": "Lesen (to read) is a strong verb with vowel change: e → ie in 2nd/3rd person singular. But 1st person: ich lese (I read/am reading). Du liest, er/sie liest, wir lesen.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "strong-verbs",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q37",
-      "type": "multiple-choice",
-      "text": "Er ___ gestern nach Hause gegangen. (Perfekt)",
-      "options": [
-        {
-          "id": "a",
-          "text": "hat"
-        },
-        {
-          "id": "b",
-          "text": "ist"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "gehen uses sein in Perfekt",
-      "explanationDetail": "Gehen (to go/walk) is a motion verb, so it uses 'sein' in Perfekt. Er ist gegangen (he went/has gone). Motion verbs: gehen, fahren, kommen, fliegen, laufen all use sein.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "sein",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "multiple-choice",
-      "text": "Wir ___ gestern keine Zeit. (Präteritum)",
-      "options": [
-        {
-          "id": "a",
-          "text": "haben"
-        },
-        {
-          "id": "b",
-          "text": "hatten"
-        },
-        {
-          "id": "c",
-          "text": "sind"
-        },
-        {
-          "id": "d",
-          "text": "waren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "haben in Präteritum: wir hatten",
-      "explanationDetail": "Haben (to have) in Präteritum: ich hatte, du hattest, er/sie hatte, wir hatten, ihr hattet, sie hatten. Wir hatten keine Zeit (we had no time). Haben is very common in Präteritum.",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "haben",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "multiple-choice",
-      "text": "Sie ___ jeden Morgen Kaffee. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "trinke"
-        },
-        {
-          "id": "b",
-          "text": "trinkst"
-        },
-        {
-          "id": "c",
-          "text": "trinkt"
-        },
-        {
-          "id": "d",
-          "text": "trinken"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Present tense, 3rd person singular",
-      "explanationDetail": "Trinken (to drink) in present tense: ich trinke, du trinkst, er/sie/es trinkt, wir trinken, ihr trinkt, sie trinken. Sie trinkt (she drinks). Regular conjugation.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern einen Brief geschrieben. (Perfekt)",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "bin"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "schreiben uses haben in Perfekt",
-      "explanationDetail": "Schreiben (to write) → hat geschrieben. Strong verb: schreiben → geschrieben (ge- + stem change + -en). Ich habe geschrieben (I wrote/have written). Most verbs use haben.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "haben",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Du ___ sehr schnell. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "laufe"
-        },
-        {
-          "id": "b",
-          "text": "läufst"
-        },
-        {
-          "id": "c",
-          "text": "läuft"
-        },
-        {
-          "id": "d",
-          "text": "laufen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Present tense, 2nd person singular with vowel change",
-      "explanationDetail": "Laufen (to run/walk) is a strong verb with vowel change: au → äu in 2nd/3rd person singular. Du läufst (you run). Ich laufe, du läufst, er/sie läuft, wir laufen.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "strong-verbs",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Sie ___ gestern sehr glücklich. (Präteritum)",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hat"
-        },
-        {
-          "id": "d",
-          "text": "hatte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: sie war",
-      "explanationDetail": "Sein in Präteritum, 3rd person singular: sie war. Sie war glücklich (she was happy). Adjectives after sein describe a state, commonly expressed in Präteritum.",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "sein",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Wir ___ gestern Pizza gegessen. (Perfekt)",
-      "options": [
-        {
-          "id": "a",
-          "text": "haben"
-        },
-        {
-          "id": "b",
-          "text": "sind"
-        },
-        {
-          "id": "c",
-          "text": "hatten"
-        },
-        {
-          "id": "d",
-          "text": "waren"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "essen uses haben in Perfekt",
-      "explanationDetail": "Essen (to eat) → haben gegessen. Strong verb: essen → gegessen (ge- + stem change + -en). Wir haben gegessen (we ate/have eaten). Eating and drinking verbs use haben.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "haben",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Er ___ mir jeden Tag. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "helfe"
-        },
-        {
-          "id": "b",
-          "text": "hilfst"
-        },
-        {
-          "id": "c",
-          "text": "hilft"
-        },
-        {
-          "id": "d",
-          "text": "helfen"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Present tense, 3rd person singular with vowel change",
-      "explanationDetail": "Helfen (to help) is a strong verb with vowel change: e → i in 2nd/3rd person singular. Er hilft (he helps). Ich helfe, du hilfst, er/sie hilft, wir helfen. Helfen takes Dativ object.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "strong-verbs",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern um 10 Uhr aufgestanden. (Perfekt)",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "bin"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "aufstehen uses sein in Perfekt",
-      "explanationDetail": "Aufstehen (to get up) is a change of state verb, so it uses 'sein'. Ich bin aufgestanden (I got up). Separable verb: auf + ge + standen = aufgestanden. Change of state verbs use sein.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "sein",
-        "separable-verbs",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern einen Film gesehen. (Perfekt)",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "bin"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "sehen uses haben in Perfekt",
-      "explanationDetail": "Sehen (to see) → hat gesehen. Strong verb: sehen → gesehen (ge- + stem change + -en). Ich habe gesehen (I saw/have seen). Most verbs use haben in Perfekt.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "haben",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Er ___ jeden Tag um 8 Uhr. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "komme"
-        },
-        {
-          "id": "b",
-          "text": "kommst"
-        },
-        {
-          "id": "c",
-          "text": "kommt"
-        },
-        {
-          "id": "d",
-          "text": "kommen"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Present tense, 3rd person singular",
-      "explanationDetail": "Kommen (to come) in present tense: ich komme, du kommst, er/sie/es kommt, wir kommen, ihr kommt, sie kommen. Er kommt (he comes). Regular conjugation pattern.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q48",
-      "type": "multiple-choice",
-      "text": "Wir ___ gestern im Park. (Präteritum)",
-      "options": [
-        {
-          "id": "a",
-          "text": "sind"
-        },
-        {
-          "id": "b",
-          "text": "waren"
-        },
-        {
-          "id": "c",
-          "text": "haben"
-        },
-        {
-          "id": "d",
-          "text": "hatten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: wir waren",
-      "explanationDetail": "Sein (to be) in Präteritum: ich war, du warst, er/sie war, wir waren, ihr wart, sie waren. Wir waren im Park (we were in the park). Sein is commonly used in Präteritum.",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "sein",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "multiple-choice",
-      "text": "Sie ___ morgen nach Berlin. (Präsens)",
-      "options": [
-        {
-          "id": "a",
-          "text": "fahre"
-        },
-        {
-          "id": "b",
-          "text": "fährst"
-        },
-        {
-          "id": "c",
-          "text": "fährt"
-        },
-        {
-          "id": "d",
-          "text": "fahren"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Present tense, 3rd person singular with vowel change",
-      "explanationDetail": "Fahren (to drive/go) is a strong verb with vowel change: a → ä in 2nd/3rd person singular. Sie fährt (she drives/is driving). Ich fahre, du fährst, er/sie fährt, wir fahren.",
-      "tags": [
-        "verbs",
-        "present-tense",
-        "strong-verbs",
-        "mixed-tenses"
-      ]
-    },
-    {
-      "id": "q50",
-      "type": "multiple-choice",
-      "text": "Du ___ gestern sehr müde. (Präteritum)",
-      "options": [
-        {
-          "id": "a",
-          "text": "bist"
-        },
-        {
-          "id": "b",
-          "text": "warst"
-        },
-        {
-          "id": "c",
-          "text": "hast"
-        },
-        {
-          "id": "d",
-          "text": "hattest"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: du warst",
-      "explanationDetail": "Sein in Präteritum, 2nd person singular: du warst. Du warst müde (you were tired). Sein, haben, and werden are most commonly used in Präteritum in spoken German.",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "sein",
-        "mixed-tenses"
-      ]
+      "id": "q50"
     }
   ]
 }

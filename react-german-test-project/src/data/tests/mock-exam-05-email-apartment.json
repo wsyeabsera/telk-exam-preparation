@@ -283,1108 +283,1244 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Warum schreibt Sarah diese E-Mail?",
+      "text": "Was ist das Hauptthema des Textes?",
       "passageId": "email-apartment-inquiry",
       "options": [
         {
           "id": "a",
-          "text": "Sie will die Wohnung verkaufen"
+          "text": "Eine Einladung"
         },
         {
           "id": "b",
-          "text": "Sie interessiert sich für die Wohnung"
+          "text": "Eine Absage"
         },
         {
           "id": "c",
-          "text": "Sie will die Wohnung vermieten"
+          "text": "Eine Beschwerde"
         },
         {
           "id": "d",
-          "text": "Sie sucht einen Mitbewohner"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Sie interessiert sich für die Wohnung.",
-      "explanationDetail": "Im Text steht: 'ich interessiere mich sehr für die Wohnung'. Sarah hat die Anzeige gelesen und möchte mehr über die Wohnung erfahren (find out more about the apartment).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "main-idea"
-      ]
-    },
-    {
-      "id": "q12",
-      "type": "multiple-choice",
-      "text": "Was ist Sarahs Beruf?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ärztin"
-        },
-        {
-          "id": "b",
-          "text": "Lehrerin"
-        },
-        {
-          "id": "c",
-          "text": "Verkäuferin"
-        },
-        {
-          "id": "d",
-          "text": "Studentin"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Sarah ist Lehrerin.",
-      "explanationDetail": "Im Text steht: 'Ich arbeite als Lehrerin an einer Grundschule'. Sie unterrichtet an einer Grundschule (elementary school) in der Stadt.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q13",
-      "type": "multiple-choice",
-      "text": "Wie viel kostet die Miete?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "550 Euro"
-        },
-        {
-          "id": "b",
-          "text": "650 Euro"
-        },
-        {
-          "id": "c",
-          "text": "750 Euro"
-        },
-        {
-          "id": "d",
-          "text": "850 Euro"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Die Miete kostet 650 Euro warm.",
-      "explanationDetail": "Im Text steht: 'Die Miete von 650 Euro warm ist für mich in Ordnung.' 'Warm' bedeutet, dass Nebenkosten (utilities) inkludiert sind. Sarah findet den Preis akzeptabel.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "true-false",
-      "text": "Sarah hat ein Haustier.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Sie hat eine Katze.",
-      "explanationDetail": "Im Text steht: 'Sind Haustiere erlaubt? Ich habe eine kleine Katze.' Sarah fragt, ob Haustiere (pets) erlaubt sind, weil sie eine Katze hat.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q15",
-      "type": "multiple-choice",
-      "text": "Was sucht Sarah in einer Wohnung?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine ruhige Wohnung mit Balkon"
-        },
-        {
-          "id": "b",
-          "text": "Eine große Wohnung mit Garten"
-        },
-        {
-          "id": "c",
-          "text": "Eine Wohnung im Zentrum"
-        },
-        {
-          "id": "d",
-          "text": "Eine Wohnung mit Garage"
+          "text": "Eine Bestellung"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Sie sucht eine ruhige Wohnung mit Balkon.",
-      "explanationDetail": "Im Text steht: 'Ich suche eine ruhige Wohnung mit Balkon'. Das sind ihre Hauptkriterien (main criteria). Die Wohnung in der Anzeige passt zu ihren Wünschen.",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "true-false",
-      "text": "Die Wohnung ist ab 1. April verfügbar.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sarah fragt, ob die Wohnung ab 1. April verfügbar ist.",
-      "explanationDetail": "Im Text steht: 'Ist die Wohnung ab 1. April verfügbar?' Das ist eine Frage, keine Aussage (statement). Sarah weiß es noch nicht und fragt nach (asks about it).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q17",
-      "type": "multiple-choice",
-      "text": "Welche Frage stellt Sarah NICHT?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Sind Haustiere erlaubt?"
-        },
-        {
-          "id": "b",
-          "text": "Gibt es einen Keller?"
-        },
-        {
-          "id": "c",
-          "text": "Wie groß ist die Wohnung?"
-        },
-        {
-          "id": "d",
-          "text": "Ist die Wohnung ab 1. April verfügbar?"
-        }
+        "comprehension"
       ],
-      "correctAnswerId": "c",
-      "explanation": "Sie fragt nicht nach der Größe.",
-      "explanationDetail": "Sarah fragt nach: Verfügbarkeit (availability), Haustieren, Keller/Stellplatz. Sie fragt NICHT nach der Größe (size) der Wohnung. Die Anzeige sagt '2-Zimmer-Wohnung', aber sie fragt nicht nach Quadratmetern.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
+      "id": "q11"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Wann möchte Sarah die Wohnung besichtigen?",
+      "text": "Wer ist der Absender bzw. die Absenderin?",
       "passageId": "email-apartment-inquiry",
       "options": [
         {
           "id": "a",
-          "text": "Heute"
+          "text": "Eine Firma"
         },
         {
           "id": "b",
-          "text": "Morgen"
+          "text": "Eine Behörde"
         },
         {
           "id": "c",
-          "text": "In der nächsten Woche"
+          "text": "Eine Privatperson"
         },
         {
           "id": "d",
-          "text": "Nächsten Monat"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Sie möchte in der nächsten Woche besichtigen.",
-      "explanationDetail": "Im Text steht: 'Wäre es möglich, einen Termin in der nächsten Woche zu vereinbaren?' Sarah möchte die Wohnung besichtigen (view the apartment) und schlägt nächste Woche vor.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "true-false",
-      "text": "Sarah kann nur vormittags zur Besichtigung kommen.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sie ist flexibel und kann auch abends kommen.",
-      "explanationDetail": "Im Text steht: 'Ich bin flexibel und kann auch abends kommen.' Sarah kann zu verschiedenen Zeiten kommen, nicht nur vormittags. Sie ist zeitlich flexibel (flexible with time).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Wie kann der Vermieter Sarah kontaktieren?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur per E-Mail"
-        },
-        {
-          "id": "b",
-          "text": "Nur per Telefon"
-        },
-        {
-          "id": "c",
-          "text": "Per E-Mail oder Telefon"
-        },
-        {
-          "id": "d",
-          "text": "Per Brief"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Per E-Mail oder Telefon.",
-      "explanationDetail": "Sarah gibt am Ende ihre Telefonnummer an: '0176-98765432'. Sie hat auch per E-Mail geschrieben. Der Vermieter kann beide Wege nutzen (use both methods) um zu antworten.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Warum schreibt Sarah diese E-Mail?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Sie will die Wohnung verkaufen"
-        },
-        {
-          "id": "b",
-          "text": "Sie interessiert sich für die Wohnung"
-        },
-        {
-          "id": "c",
-          "text": "Sie will die Wohnung vermieten"
-        },
-        {
-          "id": "d",
-          "text": "Sie sucht einen Mitbewohner"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Sie interessiert sich für die Wohnung.",
-      "explanationDetail": "Im Text steht: 'ich interessiere mich sehr für die Wohnung'. Sarah hat die Anzeige gelesen und möchte mehr über die Wohnung erfahren (find out more about the apartment).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "main-idea"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Was ist Sarahs Beruf?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ärztin"
-        },
-        {
-          "id": "b",
-          "text": "Lehrerin"
-        },
-        {
-          "id": "c",
-          "text": "Verkäuferin"
-        },
-        {
-          "id": "d",
-          "text": "Studentin"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Sarah ist Lehrerin.",
-      "explanationDetail": "Im Text steht: 'Ich arbeite als Lehrerin an einer Grundschule'. Sie unterrichtet an einer Grundschule (elementary school) in der Stadt.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Wie viel kostet die Miete?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "550 Euro"
-        },
-        {
-          "id": "b",
-          "text": "650 Euro"
-        },
-        {
-          "id": "c",
-          "text": "750 Euro"
-        },
-        {
-          "id": "d",
-          "text": "850 Euro"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Die Miete kostet 650 Euro warm.",
-      "explanationDetail": "Im Text steht: 'Die Miete von 650 Euro warm ist für mich in Ordnung.' 'Warm' bedeutet, dass Nebenkosten (utilities) inkludiert sind. Sarah findet den Preis akzeptabel.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "true-false",
-      "text": "Sarah hat ein Haustier.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Sie hat eine Katze.",
-      "explanationDetail": "Im Text steht: 'Sind Haustiere erlaubt? Ich habe eine kleine Katze.' Sarah fragt, ob Haustiere (pets) erlaubt sind, weil sie eine Katze hat.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Was sucht Sarah in einer Wohnung?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine ruhige Wohnung mit Balkon"
-        },
-        {
-          "id": "b",
-          "text": "Eine große Wohnung mit Garten"
-        },
-        {
-          "id": "c",
-          "text": "Eine Wohnung im Zentrum"
-        },
-        {
-          "id": "d",
-          "text": "Eine Wohnung mit Garage"
+          "text": "Eine Schule"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Sie sucht eine ruhige Wohnung mit Balkon.",
-      "explanationDetail": "Im Text steht: 'Ich suche eine ruhige Wohnung mit Balkon'. Das sind ihre Hauptkriterien (main criteria). Die Wohnung in der Anzeige passt zu ihren Wünschen.",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "true-false",
-      "text": "Die Wohnung ist ab 1. April verfügbar.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sarah fragt, ob die Wohnung ab 1. April verfügbar ist.",
-      "explanationDetail": "Im Text steht: 'Ist die Wohnung ab 1. April verfügbar?' Das ist eine Frage, keine Aussage (statement). Sarah weiß es noch nicht und fragt nach (asks about it).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Welche Frage stellt Sarah NICHT?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Sind Haustiere erlaubt?"
-        },
-        {
-          "id": "b",
-          "text": "Gibt es einen Keller?"
-        },
-        {
-          "id": "c",
-          "text": "Wie groß ist die Wohnung?"
-        },
-        {
-          "id": "d",
-          "text": "Ist die Wohnung ab 1. April verfügbar?"
-        }
+        "comprehension"
       ],
-      "correctAnswerId": "c",
-      "explanation": "Sie fragt nicht nach der Größe.",
-      "explanationDetail": "Sarah fragt nach: Verfügbarkeit (availability), Haustieren, Keller/Stellplatz. Sie fragt NICHT nach der Größe (size) der Wohnung. Die Anzeige sagt '2-Zimmer-Wohnung', aber sie fragt nicht nach Quadratmetern.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
+      "id": "q12"
     },
     {
-      "id": "q28",
       "type": "multiple-choice",
-      "text": "Wann möchte Sarah die Wohnung besichtigen?",
+      "text": "An wen richtet sich der Text?",
       "passageId": "email-apartment-inquiry",
       "options": [
         {
           "id": "a",
-          "text": "Heute"
+          "text": "An Bewerber"
         },
         {
           "id": "b",
-          "text": "Morgen"
+          "text": "An Kunden"
         },
         {
           "id": "c",
-          "text": "In der nächsten Woche"
+          "text": "An Mitarbeiter"
         },
         {
           "id": "d",
-          "text": "Nächsten Monat"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Sie möchte in der nächsten Woche besichtigen.",
-      "explanationDetail": "Im Text steht: 'Wäre es möglich, einen Termin in der nächsten Woche zu vereinbaren?' Sarah möchte die Wohnung besichtigen (view the apartment) und schlägt nächste Woche vor.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "true-false",
-      "text": "Sarah kann nur vormittags zur Besichtigung kommen.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sie ist flexibel und kann auch abends kommen.",
-      "explanationDetail": "Im Text steht: 'Ich bin flexibel und kann auch abends kommen.' Sarah kann zu verschiedenen Zeiten kommen, nicht nur vormittags. Sie ist zeitlich flexibel (flexible with time).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Wie kann der Vermieter Sarah kontaktieren?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur per E-Mail"
-        },
-        {
-          "id": "b",
-          "text": "Nur per Telefon"
-        },
-        {
-          "id": "c",
-          "text": "Per E-Mail oder Telefon"
-        },
-        {
-          "id": "d",
-          "text": "Per Brief"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Per E-Mail oder Telefon.",
-      "explanationDetail": "Sarah gibt am Ende ihre Telefonnummer an: '0176-98765432'. Sie hat auch per E-Mail geschrieben. Der Vermieter kann beide Wege nutzen (use both methods) um zu antworten.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Warum schreibt Sarah diese E-Mail?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Sie will die Wohnung verkaufen"
-        },
-        {
-          "id": "b",
-          "text": "Sie interessiert sich für die Wohnung"
-        },
-        {
-          "id": "c",
-          "text": "Sie will die Wohnung vermieten"
-        },
-        {
-          "id": "d",
-          "text": "Sie sucht einen Mitbewohner"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Sie interessiert sich für die Wohnung.",
-      "explanationDetail": "Im Text steht: 'ich interessiere mich sehr für die Wohnung'. Sarah hat die Anzeige gelesen und möchte mehr über die Wohnung erfahren (find out more about the apartment).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "main-idea"
-      ]
-    },
-    {
-      "id": "q32",
-      "type": "multiple-choice",
-      "text": "Was ist Sarahs Beruf?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ärztin"
-        },
-        {
-          "id": "b",
-          "text": "Lehrerin"
-        },
-        {
-          "id": "c",
-          "text": "Verkäuferin"
-        },
-        {
-          "id": "d",
-          "text": "Studentin"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Sarah ist Lehrerin.",
-      "explanationDetail": "Im Text steht: 'Ich arbeite als Lehrerin an einer Grundschule'. Sie unterrichtet an einer Grundschule (elementary school) in der Stadt.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Wie viel kostet die Miete?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "550 Euro"
-        },
-        {
-          "id": "b",
-          "text": "650 Euro"
-        },
-        {
-          "id": "c",
-          "text": "750 Euro"
-        },
-        {
-          "id": "d",
-          "text": "850 Euro"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Die Miete kostet 650 Euro warm.",
-      "explanationDetail": "Im Text steht: 'Die Miete von 650 Euro warm ist für mich in Ordnung.' 'Warm' bedeutet, dass Nebenkosten (utilities) inkludiert sind. Sarah findet den Preis akzeptabel.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "true-false",
-      "text": "Sarah hat ein Haustier.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Sie hat eine Katze.",
-      "explanationDetail": "Im Text steht: 'Sind Haustiere erlaubt? Ich habe eine kleine Katze.' Sarah fragt, ob Haustiere (pets) erlaubt sind, weil sie eine Katze hat.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Was sucht Sarah in einer Wohnung?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine ruhige Wohnung mit Balkon"
-        },
-        {
-          "id": "b",
-          "text": "Eine große Wohnung mit Garten"
-        },
-        {
-          "id": "c",
-          "text": "Eine Wohnung im Zentrum"
-        },
-        {
-          "id": "d",
-          "text": "Eine Wohnung mit Garage"
+          "text": "An Studenten"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Sie sucht eine ruhige Wohnung mit Balkon.",
-      "explanationDetail": "Im Text steht: 'Ich suche eine ruhige Wohnung mit Balkon'. Das sind ihre Hauptkriterien (main criteria). Die Wohnung in der Anzeige passt zu ihren Wünschen.",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "true-false",
-      "text": "Die Wohnung ist ab 1. April verfügbar.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sarah fragt, ob die Wohnung ab 1. April verfügbar ist.",
-      "explanationDetail": "Im Text steht: 'Ist die Wohnung ab 1. April verfügbar?' Das ist eine Frage, keine Aussage (statement). Sarah weiß es noch nicht und fragt nach (asks about it).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q37",
-      "type": "multiple-choice",
-      "text": "Welche Frage stellt Sarah NICHT?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Sind Haustiere erlaubt?"
-        },
-        {
-          "id": "b",
-          "text": "Gibt es einen Keller?"
-        },
-        {
-          "id": "c",
-          "text": "Wie groß ist die Wohnung?"
-        },
-        {
-          "id": "d",
-          "text": "Ist die Wohnung ab 1. April verfügbar?"
-        }
+        "comprehension"
       ],
-      "correctAnswerId": "c",
-      "explanation": "Sie fragt nicht nach der Größe.",
-      "explanationDetail": "Sarah fragt nach: Verfügbarkeit (availability), Haustieren, Keller/Stellplatz. Sie fragt NICHT nach der Größe (size) der Wohnung. Die Anzeige sagt '2-Zimmer-Wohnung', aber sie fragt nicht nach Quadratmetern.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
+      "id": "q13"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Wann möchte Sarah die Wohnung besichtigen?",
+      "text": "Wann soll etwas stattfinden?",
       "passageId": "email-apartment-inquiry",
       "options": [
         {
           "id": "a",
-          "text": "Heute"
+          "text": "Nächste Woche"
         },
         {
           "id": "b",
-          "text": "Morgen"
+          "text": "Letzten Monat"
         },
         {
           "id": "c",
-          "text": "In der nächsten Woche"
+          "text": "In einem Jahr"
         },
         {
           "id": "d",
-          "text": "Nächsten Monat"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Sie möchte in der nächsten Woche besichtigen.",
-      "explanationDetail": "Im Text steht: 'Wäre es möglich, einen Termin in der nächsten Woche zu vereinbaren?' Sarah möchte die Wohnung besichtigen (view the apartment) und schlägt nächste Woche vor.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "true-false",
-      "text": "Sarah kann nur vormittags zur Besichtigung kommen.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sie ist flexibel und kann auch abends kommen.",
-      "explanationDetail": "Im Text steht: 'Ich bin flexibel und kann auch abends kommen.' Sarah kann zu verschiedenen Zeiten kommen, nicht nur vormittags. Sie ist zeitlich flexibel (flexible with time).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Wie kann der Vermieter Sarah kontaktieren?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur per E-Mail"
-        },
-        {
-          "id": "b",
-          "text": "Nur per Telefon"
-        },
-        {
-          "id": "c",
-          "text": "Per E-Mail oder Telefon"
-        },
-        {
-          "id": "d",
-          "text": "Per Brief"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Per E-Mail oder Telefon.",
-      "explanationDetail": "Sarah gibt am Ende ihre Telefonnummer an: '0176-98765432'. Sie hat auch per E-Mail geschrieben. Der Vermieter kann beide Wege nutzen (use both methods) um zu antworten.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Warum schreibt Sarah diese E-Mail?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Sie will die Wohnung verkaufen"
-        },
-        {
-          "id": "b",
-          "text": "Sie interessiert sich für die Wohnung"
-        },
-        {
-          "id": "c",
-          "text": "Sie will die Wohnung vermieten"
-        },
-        {
-          "id": "d",
-          "text": "Sie sucht einen Mitbewohner"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Sie interessiert sich für die Wohnung.",
-      "explanationDetail": "Im Text steht: 'ich interessiere mich sehr für die Wohnung'. Sarah hat die Anzeige gelesen und möchte mehr über die Wohnung erfahren (find out more about the apartment).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "main-idea"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Was ist Sarahs Beruf?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ärztin"
-        },
-        {
-          "id": "b",
-          "text": "Lehrerin"
-        },
-        {
-          "id": "c",
-          "text": "Verkäuferin"
-        },
-        {
-          "id": "d",
-          "text": "Studentin"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Sarah ist Lehrerin.",
-      "explanationDetail": "Im Text steht: 'Ich arbeite als Lehrerin an einer Grundschule'. Sie unterrichtet an einer Grundschule (elementary school) in der Stadt.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Wie viel kostet die Miete?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "550 Euro"
-        },
-        {
-          "id": "b",
-          "text": "650 Euro"
-        },
-        {
-          "id": "c",
-          "text": "750 Euro"
-        },
-        {
-          "id": "d",
-          "text": "850 Euro"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Die Miete kostet 650 Euro warm.",
-      "explanationDetail": "Im Text steht: 'Die Miete von 650 Euro warm ist für mich in Ordnung.' 'Warm' bedeutet, dass Nebenkosten (utilities) inkludiert sind. Sarah findet den Preis akzeptabel.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "true-false",
-      "text": "Sarah hat ein Haustier.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Sie hat eine Katze.",
-      "explanationDetail": "Im Text steht: 'Sind Haustiere erlaubt? Ich habe eine kleine Katze.' Sarah fragt, ob Haustiere (pets) erlaubt sind, weil sie eine Katze hat.",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "details"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Was sucht Sarah in einer Wohnung?",
-      "passageId": "email-apartment-inquiry",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine ruhige Wohnung mit Balkon"
-        },
-        {
-          "id": "b",
-          "text": "Eine große Wohnung mit Garten"
-        },
-        {
-          "id": "c",
-          "text": "Eine Wohnung im Zentrum"
-        },
-        {
-          "id": "d",
-          "text": "Eine Wohnung mit Garage"
+          "text": "Gestern"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Sie sucht eine ruhige Wohnung mit Balkon.",
-      "explanationDetail": "Im Text steht: 'Ich suche eine ruhige Wohnung mit Balkon'. Das sind ihre Hauptkriterien (main criteria). Die Wohnung in der Anzeige passt zu ihren Wünschen.",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "informal",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q14"
     },
     {
-      "id": "q46",
-      "type": "true-false",
-      "text": "Die Wohnung ist ab 1. April verfügbar.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sarah fragt, ob die Wohnung ab 1. April verfügbar ist.",
-      "explanationDetail": "Im Text steht: 'Ist die Wohnung ab 1. April verfügbar?' Das ist eine Frage, keine Aussage (statement). Sarah weiß es noch nicht und fragt nach (asks about it).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Welche Frage stellt Sarah NICHT?",
+      "text": "Wo wird der Leser gebeten hinzugehen?",
       "passageId": "email-apartment-inquiry",
       "options": [
         {
           "id": "a",
-          "text": "Sind Haustiere erlaubt?"
+          "text": "Ins Büro"
         },
         {
           "id": "b",
-          "text": "Gibt es einen Keller?"
+          "text": "Zur Post"
         },
         {
           "id": "c",
-          "text": "Wie groß ist die Wohnung?"
+          "text": "Nach Hause"
         },
         {
           "id": "d",
-          "text": "Ist die Wohnung ab 1. April verfügbar?"
+          "text": "In die Schule"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Sie fragt nicht nach der Größe.",
-      "explanationDetail": "Sarah fragt nach: Verfügbarkeit (availability), Haustieren, Keller/Stellplatz. Sie fragt NICHT nach der Größe (size) der Wohnung. Die Anzeige sagt '2-Zimmer-Wohnung', aber sie fragt nicht nach Quadratmetern.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
+        "comprehension"
+      ],
+      "id": "q15"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Wann möchte Sarah die Wohnung besichtigen?",
+      "text": "Was wird im Text angeboten?",
       "passageId": "email-apartment-inquiry",
       "options": [
         {
           "id": "a",
-          "text": "Heute"
+          "text": "Hilfe"
         },
         {
           "id": "b",
-          "text": "Morgen"
+          "text": "Information"
         },
         {
           "id": "c",
-          "text": "In der nächsten Woche"
+          "text": "Eine Stelle"
         },
         {
           "id": "d",
-          "text": "Nächsten Monat"
+          "text": "Einen Kurs"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Sie möchte in der nächsten Woche besichtigen.",
-      "explanationDetail": "Im Text steht: 'Wäre es möglich, einen Termin in der nächsten Woche zu vereinbaren?' Sarah möchte die Wohnung besichtigen (view the apartment) und schlägt nächste Woche vor.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "informal",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q16"
     },
     {
-      "id": "q49",
-      "type": "true-false",
-      "text": "Sarah kann nur vormittags zur Besichtigung kommen.",
-      "passageId": "email-apartment-inquiry",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sie ist flexibel und kann auch abends kommen.",
-      "explanationDetail": "Im Text steht: 'Ich bin flexibel und kann auch abends kommen.' Sarah kann zu verschiedenen Zeiten kommen, nicht nur vormittags. Sie ist zeitlich flexibel (flexible with time).",
-      "tags": [
-        "reading",
-        "email",
-        "informal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Wie kann der Vermieter Sarah kontaktieren?",
+      "text": "Welche Information steht im ersten Absatz?",
       "passageId": "email-apartment-inquiry",
       "options": [
         {
           "id": "a",
-          "text": "Nur per E-Mail"
+          "text": "Eine Begrüßung"
         },
         {
           "id": "b",
-          "text": "Nur per Telefon"
+          "text": "Eine Frage"
         },
         {
           "id": "c",
-          "text": "Per E-Mail oder Telefon"
+          "text": "Eine Bitte"
         },
         {
           "id": "d",
-          "text": "Per Brief"
+          "text": "Eine Erklärung"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Per E-Mail oder Telefon.",
-      "explanationDetail": "Sarah gibt am Ende ihre Telefonnummer an: '0176-98765432'. Sie hat auch per E-Mail geschrieben. Der Vermieter kann beide Wege nutzen (use both methods) um zu antworten.",
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "informal",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q17"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun?",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q18"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt?",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes?",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q20"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist das Hauptthema des Textes? (11)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Einladung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Absage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Beschwerde"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bestellung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q21"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer ist der Absender bzw. die Absenderin? (12)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Firma"
+        },
+        {
+          "id": "b",
+          "text": "Eine Behörde"
+        },
+        {
+          "id": "c",
+          "text": "Eine Privatperson"
+        },
+        {
+          "id": "d",
+          "text": "Eine Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q22"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Text? (13)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Bewerber"
+        },
+        {
+          "id": "b",
+          "text": "An Kunden"
+        },
+        {
+          "id": "c",
+          "text": "An Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "An Studenten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q23"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wann soll etwas stattfinden? (14)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nächste Woche"
+        },
+        {
+          "id": "b",
+          "text": "Letzten Monat"
+        },
+        {
+          "id": "c",
+          "text": "In einem Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Gestern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q24"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen? (15)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q25"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten? (16)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz? (17)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun? (18)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q28"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (19)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q29"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (20)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q30"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist das Hauptthema des Textes? (21)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Einladung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Absage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Beschwerde"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bestellung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q31"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer ist der Absender bzw. die Absenderin? (22)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Firma"
+        },
+        {
+          "id": "b",
+          "text": "Eine Behörde"
+        },
+        {
+          "id": "c",
+          "text": "Eine Privatperson"
+        },
+        {
+          "id": "d",
+          "text": "Eine Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Text? (23)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Bewerber"
+        },
+        {
+          "id": "b",
+          "text": "An Kunden"
+        },
+        {
+          "id": "c",
+          "text": "An Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "An Studenten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wann soll etwas stattfinden? (24)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nächste Woche"
+        },
+        {
+          "id": "b",
+          "text": "Letzten Monat"
+        },
+        {
+          "id": "c",
+          "text": "In einem Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Gestern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen? (25)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten? (26)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz? (27)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun? (28)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (29)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (30)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist das Hauptthema des Textes? (31)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Einladung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Absage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Beschwerde"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bestellung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer ist der Absender bzw. die Absenderin? (32)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Firma"
+        },
+        {
+          "id": "b",
+          "text": "Eine Behörde"
+        },
+        {
+          "id": "c",
+          "text": "Eine Privatperson"
+        },
+        {
+          "id": "d",
+          "text": "Eine Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Text? (33)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Bewerber"
+        },
+        {
+          "id": "b",
+          "text": "An Kunden"
+        },
+        {
+          "id": "c",
+          "text": "An Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "An Studenten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wann soll etwas stattfinden? (34)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nächste Woche"
+        },
+        {
+          "id": "b",
+          "text": "Letzten Monat"
+        },
+        {
+          "id": "c",
+          "text": "In einem Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Gestern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen? (35)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten? (36)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz? (37)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun? (38)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (39)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (40)",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q50"
     }
   ]
 }

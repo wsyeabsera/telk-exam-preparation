@@ -256,164 +256,38 @@
       ]
     },
     {
-      "id": "q9",
       "type": "multiple-choice",
-      "text": "Ich ___ heute ins Kino.",
+      "text": "Gestern ___ ich ins Kino.",
       "options": [
         {
           "id": "a",
-          "text": "gehe"
+          "text": "bin ich gegangen"
         },
         {
           "id": "b",
-          "text": "gehen"
+          "text": "ich bin gegangen"
         },
         {
           "id": "c",
-          "text": "gegangen"
+          "text": "gegangen bin ich"
         },
         {
           "id": "d",
-          "text": "ging"
+          "text": "ich gegangen bin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Verb in position 2: ich gehe",
-      "explanationDetail": "In main clauses, the conjugated verb is in position 2. Ich (1) gehe (2) heute ins Kino. Subject + verb + time + place. This is standard German word order.",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
       "tags": [
         "word-order",
-        "main-clause",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q10",
-      "type": "multiple-choice",
-      "text": "Heute ___ ich ins Kino.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "ich gehe"
-        },
-        {
-          "id": "c",
-          "text": "gehen ich"
-        },
-        {
-          "id": "d",
-          "text": "ich"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "Verb in position 2: heute gehe",
-      "explanationDetail": "When sentence starts with time/place, verb stays in position 2. Heute (1) gehe (2) ich ins Kino. This is called inversion: verb comes before subject.",
-      "tags": [
-        "word-order",
-        "inversion",
-        "quick-practice"
-      ]
+      "id": "q9"
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "___ du heute ins Kino?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Gehst"
-        },
-        {
-          "id": "b",
-          "text": "Gehen"
-        },
-        {
-          "id": "c",
-          "text": "Du gehst"
-        },
-        {
-          "id": "d",
-          "text": "Gehe"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Yes/no question: verb first",
-      "explanationDetail": "In yes/no questions, verb comes first. Gehst (1) du (2) heute ins Kino? Verb + subject + rest. This is how to form questions without question words.",
-      "tags": [
-        "word-order",
-        "questions",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q12",
-      "type": "multiple-choice",
-      "text": "Wann ___ du ins Kino?",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehst"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "du gehst"
-        },
-        {
-          "id": "d",
-          "text": "gehe"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "W-question: verb in position 2",
-      "explanationDetail": "With question words (wann, wo, wie), verb is in position 2. Wann (1) gehst (2) du ins Kino? Question word + verb + subject. This is standard for W-questions.",
-      "tags": [
-        "word-order",
-        "questions",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q13",
-      "type": "multiple-choice",
-      "text": "Ich weiß, dass du heute ins Kino ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehst"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "gehe"
-        },
-        {
-          "id": "d",
-          "text": "geht"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Subordinate clause: verb at end",
-      "explanationDetail": "After 'dass', verb goes to the end. Ich weiß, dass du heute ins Kino gehst. Subordinating conjunctions (dass, weil, wenn, als, obwohl) send verb to end.",
-      "tags": [
-        "word-order",
-        "subordinate-clause",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
+      "text": "Weil ich krank ___, bleibe ich zu Hause.",
       "options": [
         {
           "id": "a",
@@ -421,248 +295,90 @@
         },
         {
           "id": "b",
-          "text": "habe"
+          "text": "ist"
         },
         {
           "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
           "text": "war"
-        },
-        {
-          "id": "d",
-          "text": "hatte"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Perfekt: auxiliary in position 2, participle at end",
-      "explanationDetail": "In Perfekt, auxiliary verb (bin/habe) is in position 2, past participle at end. Ich bin gestern ins Kino gegangen. Gehen uses 'sein' in Perfekt.",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
       "tags": [
         "word-order",
-        "perfekt",
+        "conjunctions",
         "quick-practice"
-      ]
+      ],
+      "id": "q10"
     },
     {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Ich kann heute nicht ins Kino ___.",
+      "text": "Ich ___ morgen nach Berlin.",
       "options": [
         {
           "id": "a",
-          "text": "gehen"
+          "text": "fahre"
         },
         {
           "id": "b",
-          "text": "gehe"
+          "text": "nach Berlin fahre"
         },
         {
           "id": "c",
-          "text": "gegangen"
+          "text": "nach Berlin morgen fahre"
         },
         {
           "id": "d",
-          "text": "ging"
+          "text": "morgen nach Berlin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Modal verb: infinitive at end",
-      "explanationDetail": "With modal verbs, infinitive goes to the end. Ich kann heute nicht ins Kino gehen. Modal verb (kann) is conjugated in position 2, infinitive at end.",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
       "tags": [
         "word-order",
-        "modal-verbs",
         "quick-practice"
-      ]
+      ],
+      "id": "q11"
     },
     {
-      "id": "q16",
       "type": "multiple-choice",
-      "text": "Ich gehe ins Kino, weil ich einen Film sehen ___.",
+      "text": "Gestern ___ ich ins Kino. (4)",
       "options": [
         {
           "id": "a",
-          "text": "will"
+          "text": "bin ich gegangen"
         },
         {
           "id": "b",
-          "text": "wollen"
+          "text": "ich bin gegangen"
         },
         {
           "id": "c",
-          "text": "willst"
+          "text": "gegangen bin ich"
         },
         {
           "id": "d",
-          "text": "wollte"
+          "text": "ich gegangen bin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Subordinate clause with modal: modal at end",
-      "explanationDetail": "In subordinate clause with modal verb, modal goes to end (after infinitive). Weil ich einen Film sehen will. Order: ... + infinitive + modal verb.",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
       "tags": [
         "word-order",
-        "subordinate-clause",
-        "modal-verbs",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q17",
-      "type": "multiple-choice",
-      "text": "Ich ___ heute ins Kino.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "gegangen"
-        },
-        {
-          "id": "d",
-          "text": "ging"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "Verb in position 2: ich gehe",
-      "explanationDetail": "In main clauses, the conjugated verb is in position 2. Ich (1) gehe (2) heute ins Kino. Subject + verb + time + place. This is standard German word order.",
-      "tags": [
-        "word-order",
-        "main-clause",
-        "quick-practice"
-      ]
+      "id": "q12"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Heute ___ ich ins Kino.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "ich gehe"
-        },
-        {
-          "id": "c",
-          "text": "gehen ich"
-        },
-        {
-          "id": "d",
-          "text": "ich"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Verb in position 2: heute gehe",
-      "explanationDetail": "When sentence starts with time/place, verb stays in position 2. Heute (1) gehe (2) ich ins Kino. This is called inversion: verb comes before subject.",
-      "tags": [
-        "word-order",
-        "inversion",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "___ du heute ins Kino?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Gehst"
-        },
-        {
-          "id": "b",
-          "text": "Gehen"
-        },
-        {
-          "id": "c",
-          "text": "Du gehst"
-        },
-        {
-          "id": "d",
-          "text": "Gehe"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Yes/no question: verb first",
-      "explanationDetail": "In yes/no questions, verb comes first. Gehst (1) du (2) heute ins Kino? Verb + subject + rest. This is how to form questions without question words.",
-      "tags": [
-        "word-order",
-        "questions",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Wann ___ du ins Kino?",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehst"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "du gehst"
-        },
-        {
-          "id": "d",
-          "text": "gehe"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "W-question: verb in position 2",
-      "explanationDetail": "With question words (wann, wo, wie), verb is in position 2. Wann (1) gehst (2) du ins Kino? Question word + verb + subject. This is standard for W-questions.",
-      "tags": [
-        "word-order",
-        "questions",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Ich weiß, dass du heute ins Kino ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehst"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "gehe"
-        },
-        {
-          "id": "d",
-          "text": "geht"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Subordinate clause: verb at end",
-      "explanationDetail": "After 'dass', verb goes to the end. Ich weiß, dass du heute ins Kino gehst. Subordinating conjunctions (dass, weil, wenn, als, obwohl) send verb to end.",
-      "tags": [
-        "word-order",
-        "subordinate-clause",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (4)",
       "options": [
         {
           "id": "a",
@@ -670,248 +386,90 @@
         },
         {
           "id": "b",
-          "text": "habe"
+          "text": "ist"
         },
         {
           "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
           "text": "war"
-        },
-        {
-          "id": "d",
-          "text": "hatte"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Perfekt: auxiliary in position 2, participle at end",
-      "explanationDetail": "In Perfekt, auxiliary verb (bin/habe) is in position 2, past participle at end. Ich bin gestern ins Kino gegangen. Gehen uses 'sein' in Perfekt.",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
       "tags": [
         "word-order",
-        "perfekt",
+        "conjunctions",
         "quick-practice"
-      ]
+      ],
+      "id": "q13"
     },
     {
-      "id": "q23",
       "type": "multiple-choice",
-      "text": "Ich kann heute nicht ins Kino ___.",
+      "text": "Ich ___ morgen nach Berlin. (4)",
       "options": [
         {
           "id": "a",
-          "text": "gehen"
+          "text": "fahre"
         },
         {
           "id": "b",
-          "text": "gehe"
+          "text": "nach Berlin fahre"
         },
         {
           "id": "c",
-          "text": "gegangen"
+          "text": "nach Berlin morgen fahre"
         },
         {
           "id": "d",
-          "text": "ging"
+          "text": "morgen nach Berlin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Modal verb: infinitive at end",
-      "explanationDetail": "With modal verbs, infinitive goes to the end. Ich kann heute nicht ins Kino gehen. Modal verb (kann) is conjugated in position 2, infinitive at end.",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
       "tags": [
         "word-order",
-        "modal-verbs",
         "quick-practice"
-      ]
+      ],
+      "id": "q14"
     },
     {
-      "id": "q24",
       "type": "multiple-choice",
-      "text": "Ich gehe ins Kino, weil ich einen Film sehen ___.",
+      "text": "Gestern ___ ich ins Kino. (7)",
       "options": [
         {
           "id": "a",
-          "text": "will"
+          "text": "bin ich gegangen"
         },
         {
           "id": "b",
-          "text": "wollen"
+          "text": "ich bin gegangen"
         },
         {
           "id": "c",
-          "text": "willst"
+          "text": "gegangen bin ich"
         },
         {
           "id": "d",
-          "text": "wollte"
+          "text": "ich gegangen bin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Subordinate clause with modal: modal at end",
-      "explanationDetail": "In subordinate clause with modal verb, modal goes to end (after infinitive). Weil ich einen Film sehen will. Order: ... + infinitive + modal verb.",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
       "tags": [
         "word-order",
-        "subordinate-clause",
-        "modal-verbs",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Ich ___ heute ins Kino.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "gegangen"
-        },
-        {
-          "id": "d",
-          "text": "ging"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "Verb in position 2: ich gehe",
-      "explanationDetail": "In main clauses, the conjugated verb is in position 2. Ich (1) gehe (2) heute ins Kino. Subject + verb + time + place. This is standard German word order.",
-      "tags": [
-        "word-order",
-        "main-clause",
-        "quick-practice"
-      ]
+      "id": "q15"
     },
     {
-      "id": "q26",
       "type": "multiple-choice",
-      "text": "Heute ___ ich ins Kino.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "ich gehe"
-        },
-        {
-          "id": "c",
-          "text": "gehen ich"
-        },
-        {
-          "id": "d",
-          "text": "ich"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Verb in position 2: heute gehe",
-      "explanationDetail": "When sentence starts with time/place, verb stays in position 2. Heute (1) gehe (2) ich ins Kino. This is called inversion: verb comes before subject.",
-      "tags": [
-        "word-order",
-        "inversion",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "___ du heute ins Kino?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Gehst"
-        },
-        {
-          "id": "b",
-          "text": "Gehen"
-        },
-        {
-          "id": "c",
-          "text": "Du gehst"
-        },
-        {
-          "id": "d",
-          "text": "Gehe"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Yes/no question: verb first",
-      "explanationDetail": "In yes/no questions, verb comes first. Gehst (1) du (2) heute ins Kino? Verb + subject + rest. This is how to form questions without question words.",
-      "tags": [
-        "word-order",
-        "questions",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Wann ___ du ins Kino?",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehst"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "du gehst"
-        },
-        {
-          "id": "d",
-          "text": "gehe"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "W-question: verb in position 2",
-      "explanationDetail": "With question words (wann, wo, wie), verb is in position 2. Wann (1) gehst (2) du ins Kino? Question word + verb + subject. This is standard for W-questions.",
-      "tags": [
-        "word-order",
-        "questions",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Ich weiß, dass du heute ins Kino ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehst"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "gehe"
-        },
-        {
-          "id": "d",
-          "text": "geht"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Subordinate clause: verb at end",
-      "explanationDetail": "After 'dass', verb goes to the end. Ich weiß, dass du heute ins Kino gehst. Subordinating conjunctions (dass, weil, wenn, als, obwohl) send verb to end.",
-      "tags": [
-        "word-order",
-        "subordinate-clause",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (7)",
       "options": [
         {
           "id": "a",
@@ -919,248 +477,90 @@
         },
         {
           "id": "b",
-          "text": "habe"
+          "text": "ist"
         },
         {
           "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
           "text": "war"
-        },
-        {
-          "id": "d",
-          "text": "hatte"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Perfekt: auxiliary in position 2, participle at end",
-      "explanationDetail": "In Perfekt, auxiliary verb (bin/habe) is in position 2, past participle at end. Ich bin gestern ins Kino gegangen. Gehen uses 'sein' in Perfekt.",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
       "tags": [
         "word-order",
-        "perfekt",
+        "conjunctions",
         "quick-practice"
-      ]
+      ],
+      "id": "q16"
     },
     {
-      "id": "q31",
       "type": "multiple-choice",
-      "text": "Ich kann heute nicht ins Kino ___.",
+      "text": "Ich ___ morgen nach Berlin. (7)",
       "options": [
         {
           "id": "a",
-          "text": "gehen"
+          "text": "fahre"
         },
         {
           "id": "b",
-          "text": "gehe"
+          "text": "nach Berlin fahre"
         },
         {
           "id": "c",
-          "text": "gegangen"
+          "text": "nach Berlin morgen fahre"
         },
         {
           "id": "d",
-          "text": "ging"
+          "text": "morgen nach Berlin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Modal verb: infinitive at end",
-      "explanationDetail": "With modal verbs, infinitive goes to the end. Ich kann heute nicht ins Kino gehen. Modal verb (kann) is conjugated in position 2, infinitive at end.",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
       "tags": [
         "word-order",
-        "modal-verbs",
         "quick-practice"
-      ]
+      ],
+      "id": "q17"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Ich gehe ins Kino, weil ich einen Film sehen ___.",
+      "text": "Gestern ___ ich ins Kino. (10)",
       "options": [
         {
           "id": "a",
-          "text": "will"
+          "text": "bin ich gegangen"
         },
         {
           "id": "b",
-          "text": "wollen"
+          "text": "ich bin gegangen"
         },
         {
           "id": "c",
-          "text": "willst"
+          "text": "gegangen bin ich"
         },
         {
           "id": "d",
-          "text": "wollte"
+          "text": "ich gegangen bin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Subordinate clause with modal: modal at end",
-      "explanationDetail": "In subordinate clause with modal verb, modal goes to end (after infinitive). Weil ich einen Film sehen will. Order: ... + infinitive + modal verb.",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
       "tags": [
         "word-order",
-        "subordinate-clause",
-        "modal-verbs",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Ich ___ heute ins Kino.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "gegangen"
-        },
-        {
-          "id": "d",
-          "text": "ging"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "Verb in position 2: ich gehe",
-      "explanationDetail": "In main clauses, the conjugated verb is in position 2. Ich (1) gehe (2) heute ins Kino. Subject + verb + time + place. This is standard German word order.",
-      "tags": [
-        "word-order",
-        "main-clause",
-        "quick-practice"
-      ]
+      "id": "q18"
     },
     {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Heute ___ ich ins Kino.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "ich gehe"
-        },
-        {
-          "id": "c",
-          "text": "gehen ich"
-        },
-        {
-          "id": "d",
-          "text": "ich"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Verb in position 2: heute gehe",
-      "explanationDetail": "When sentence starts with time/place, verb stays in position 2. Heute (1) gehe (2) ich ins Kino. This is called inversion: verb comes before subject.",
-      "tags": [
-        "word-order",
-        "inversion",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "___ du heute ins Kino?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Gehst"
-        },
-        {
-          "id": "b",
-          "text": "Gehen"
-        },
-        {
-          "id": "c",
-          "text": "Du gehst"
-        },
-        {
-          "id": "d",
-          "text": "Gehe"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Yes/no question: verb first",
-      "explanationDetail": "In yes/no questions, verb comes first. Gehst (1) du (2) heute ins Kino? Verb + subject + rest. This is how to form questions without question words.",
-      "tags": [
-        "word-order",
-        "questions",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Wann ___ du ins Kino?",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehst"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "du gehst"
-        },
-        {
-          "id": "d",
-          "text": "gehe"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "W-question: verb in position 2",
-      "explanationDetail": "With question words (wann, wo, wie), verb is in position 2. Wann (1) gehst (2) du ins Kino? Question word + verb + subject. This is standard for W-questions.",
-      "tags": [
-        "word-order",
-        "questions",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q37",
-      "type": "multiple-choice",
-      "text": "Ich weiß, dass du heute ins Kino ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehst"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "gehe"
-        },
-        {
-          "id": "d",
-          "text": "geht"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Subordinate clause: verb at end",
-      "explanationDetail": "After 'dass', verb goes to the end. Ich weiß, dass du heute ins Kino gehst. Subordinating conjunctions (dass, weil, wenn, als, obwohl) send verb to end.",
-      "tags": [
-        "word-order",
-        "subordinate-clause",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (10)",
       "options": [
         {
           "id": "a",
@@ -1168,248 +568,90 @@
         },
         {
           "id": "b",
-          "text": "habe"
+          "text": "ist"
         },
         {
           "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
           "text": "war"
-        },
-        {
-          "id": "d",
-          "text": "hatte"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Perfekt: auxiliary in position 2, participle at end",
-      "explanationDetail": "In Perfekt, auxiliary verb (bin/habe) is in position 2, past participle at end. Ich bin gestern ins Kino gegangen. Gehen uses 'sein' in Perfekt.",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
       "tags": [
         "word-order",
-        "perfekt",
+        "conjunctions",
         "quick-practice"
-      ]
+      ],
+      "id": "q19"
     },
     {
-      "id": "q39",
       "type": "multiple-choice",
-      "text": "Ich kann heute nicht ins Kino ___.",
+      "text": "Ich ___ morgen nach Berlin. (10)",
       "options": [
         {
           "id": "a",
-          "text": "gehen"
+          "text": "fahre"
         },
         {
           "id": "b",
-          "text": "gehe"
+          "text": "nach Berlin fahre"
         },
         {
           "id": "c",
-          "text": "gegangen"
+          "text": "nach Berlin morgen fahre"
         },
         {
           "id": "d",
-          "text": "ging"
+          "text": "morgen nach Berlin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Modal verb: infinitive at end",
-      "explanationDetail": "With modal verbs, infinitive goes to the end. Ich kann heute nicht ins Kino gehen. Modal verb (kann) is conjugated in position 2, infinitive at end.",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
       "tags": [
         "word-order",
-        "modal-verbs",
         "quick-practice"
-      ]
+      ],
+      "id": "q20"
     },
     {
-      "id": "q40",
       "type": "multiple-choice",
-      "text": "Ich gehe ins Kino, weil ich einen Film sehen ___.",
+      "text": "Gestern ___ ich ins Kino. (13)",
       "options": [
         {
           "id": "a",
-          "text": "will"
+          "text": "bin ich gegangen"
         },
         {
           "id": "b",
-          "text": "wollen"
+          "text": "ich bin gegangen"
         },
         {
           "id": "c",
-          "text": "willst"
+          "text": "gegangen bin ich"
         },
         {
           "id": "d",
-          "text": "wollte"
+          "text": "ich gegangen bin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Subordinate clause with modal: modal at end",
-      "explanationDetail": "In subordinate clause with modal verb, modal goes to end (after infinitive). Weil ich einen Film sehen will. Order: ... + infinitive + modal verb.",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
       "tags": [
         "word-order",
-        "subordinate-clause",
-        "modal-verbs",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Ich ___ heute ins Kino.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "gegangen"
-        },
-        {
-          "id": "d",
-          "text": "ging"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "Verb in position 2: ich gehe",
-      "explanationDetail": "In main clauses, the conjugated verb is in position 2. Ich (1) gehe (2) heute ins Kino. Subject + verb + time + place. This is standard German word order.",
-      "tags": [
-        "word-order",
-        "main-clause",
-        "quick-practice"
-      ]
+      "id": "q21"
     },
     {
-      "id": "q42",
       "type": "multiple-choice",
-      "text": "Heute ___ ich ins Kino.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "ich gehe"
-        },
-        {
-          "id": "c",
-          "text": "gehen ich"
-        },
-        {
-          "id": "d",
-          "text": "ich"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Verb in position 2: heute gehe",
-      "explanationDetail": "When sentence starts with time/place, verb stays in position 2. Heute (1) gehe (2) ich ins Kino. This is called inversion: verb comes before subject.",
-      "tags": [
-        "word-order",
-        "inversion",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "___ du heute ins Kino?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Gehst"
-        },
-        {
-          "id": "b",
-          "text": "Gehen"
-        },
-        {
-          "id": "c",
-          "text": "Du gehst"
-        },
-        {
-          "id": "d",
-          "text": "Gehe"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Yes/no question: verb first",
-      "explanationDetail": "In yes/no questions, verb comes first. Gehst (1) du (2) heute ins Kino? Verb + subject + rest. This is how to form questions without question words.",
-      "tags": [
-        "word-order",
-        "questions",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Wann ___ du ins Kino?",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehst"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "du gehst"
-        },
-        {
-          "id": "d",
-          "text": "gehe"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "W-question: verb in position 2",
-      "explanationDetail": "With question words (wann, wo, wie), verb is in position 2. Wann (1) gehst (2) du ins Kino? Question word + verb + subject. This is standard for W-questions.",
-      "tags": [
-        "word-order",
-        "questions",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Ich weiß, dass du heute ins Kino ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehst"
-        },
-        {
-          "id": "b",
-          "text": "gehen"
-        },
-        {
-          "id": "c",
-          "text": "gehe"
-        },
-        {
-          "id": "d",
-          "text": "geht"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Subordinate clause: verb at end",
-      "explanationDetail": "After 'dass', verb goes to the end. Ich weiß, dass du heute ins Kino gehst. Subordinating conjunctions (dass, weil, wenn, als, obwohl) send verb to end.",
-      "tags": [
-        "word-order",
-        "subordinate-clause",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (13)",
       "options": [
         {
           "id": "a",
@@ -1417,150 +659,875 @@
         },
         {
           "id": "b",
-          "text": "habe"
+          "text": "ist"
         },
         {
           "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
           "text": "war"
-        },
-        {
-          "id": "d",
-          "text": "hatte"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Perfekt: auxiliary in position 2, participle at end",
-      "explanationDetail": "In Perfekt, auxiliary verb (bin/habe) is in position 2, past participle at end. Ich bin gestern ins Kino gegangen. Gehen uses 'sein' in Perfekt.",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
       "tags": [
         "word-order",
-        "perfekt",
+        "conjunctions",
         "quick-practice"
-      ]
+      ],
+      "id": "q22"
     },
     {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Ich kann heute nicht ins Kino ___.",
+      "text": "Ich ___ morgen nach Berlin. (13)",
       "options": [
         {
           "id": "a",
-          "text": "gehen"
+          "text": "fahre"
         },
         {
           "id": "b",
-          "text": "gehe"
+          "text": "nach Berlin fahre"
         },
         {
           "id": "c",
-          "text": "gegangen"
+          "text": "nach Berlin morgen fahre"
         },
         {
           "id": "d",
-          "text": "ging"
+          "text": "morgen nach Berlin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Modal verb: infinitive at end",
-      "explanationDetail": "With modal verbs, infinitive goes to the end. Ich kann heute nicht ins Kino gehen. Modal verb (kann) is conjugated in position 2, infinitive at end.",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
       "tags": [
         "word-order",
-        "modal-verbs",
         "quick-practice"
-      ]
+      ],
+      "id": "q23"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Ich gehe ins Kino, weil ich einen Film sehen ___.",
+      "text": "Gestern ___ ich ins Kino. (16)",
       "options": [
         {
           "id": "a",
-          "text": "will"
+          "text": "bin ich gegangen"
         },
         {
           "id": "b",
-          "text": "wollen"
+          "text": "ich bin gegangen"
         },
         {
           "id": "c",
-          "text": "willst"
+          "text": "gegangen bin ich"
         },
         {
           "id": "d",
-          "text": "wollte"
+          "text": "ich gegangen bin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Subordinate clause with modal: modal at end",
-      "explanationDetail": "In subordinate clause with modal verb, modal goes to end (after infinitive). Weil ich einen Film sehen will. Order: ... + infinitive + modal verb.",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
       "tags": [
         "word-order",
-        "subordinate-clause",
-        "modal-verbs",
         "quick-practice"
-      ]
+      ],
+      "id": "q24"
     },
     {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Ich ___ heute ins Kino.",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (16)",
       "options": [
         {
           "id": "a",
-          "text": "gehe"
+          "text": "bin"
         },
         {
           "id": "b",
-          "text": "gehen"
+          "text": "ist"
         },
         {
           "id": "c",
-          "text": "gegangen"
+          "text": "sind"
         },
         {
           "id": "d",
-          "text": "ging"
+          "text": "war"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Verb in position 2: ich gehe",
-      "explanationDetail": "In main clauses, the conjugated verb is in position 2. Ich (1) gehe (2) heute ins Kino. Subject + verb + time + place. This is standard German word order.",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
       "tags": [
         "word-order",
-        "main-clause",
+        "conjunctions",
         "quick-practice"
-      ]
+      ],
+      "id": "q25"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Heute ___ ich ins Kino.",
+      "text": "Ich ___ morgen nach Berlin. (16)",
       "options": [
         {
           "id": "a",
-          "text": "gehe"
+          "text": "fahre"
         },
         {
           "id": "b",
-          "text": "ich gehe"
+          "text": "nach Berlin fahre"
         },
         {
           "id": "c",
-          "text": "gehen ich"
+          "text": "nach Berlin morgen fahre"
         },
         {
           "id": "d",
-          "text": "ich"
+          "text": "morgen nach Berlin"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Verb in position 2: heute gehe",
-      "explanationDetail": "When sentence starts with time/place, verb stays in position 2. Heute (1) gehe (2) ich ins Kino. This is called inversion: verb comes before subject.",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
       "tags": [
         "word-order",
-        "inversion",
         "quick-practice"
-      ]
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Gestern ___ ich ins Kino. (19)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin ich gegangen"
+        },
+        {
+          "id": "b",
+          "text": "ich bin gegangen"
+        },
+        {
+          "id": "c",
+          "text": "gegangen bin ich"
+        },
+        {
+          "id": "d",
+          "text": "ich gegangen bin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (19)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
+      "tags": [
+        "word-order",
+        "conjunctions",
+        "quick-practice"
+      ],
+      "id": "q28"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ morgen nach Berlin. (19)",
+      "options": [
+        {
+          "id": "a",
+          "text": "fahre"
+        },
+        {
+          "id": "b",
+          "text": "nach Berlin fahre"
+        },
+        {
+          "id": "c",
+          "text": "nach Berlin morgen fahre"
+        },
+        {
+          "id": "d",
+          "text": "morgen nach Berlin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q29"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Gestern ___ ich ins Kino. (22)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin ich gegangen"
+        },
+        {
+          "id": "b",
+          "text": "ich bin gegangen"
+        },
+        {
+          "id": "c",
+          "text": "gegangen bin ich"
+        },
+        {
+          "id": "d",
+          "text": "ich gegangen bin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q30"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (22)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
+      "tags": [
+        "word-order",
+        "conjunctions",
+        "quick-practice"
+      ],
+      "id": "q31"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ morgen nach Berlin. (22)",
+      "options": [
+        {
+          "id": "a",
+          "text": "fahre"
+        },
+        {
+          "id": "b",
+          "text": "nach Berlin fahre"
+        },
+        {
+          "id": "c",
+          "text": "nach Berlin morgen fahre"
+        },
+        {
+          "id": "d",
+          "text": "morgen nach Berlin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Gestern ___ ich ins Kino. (25)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin ich gegangen"
+        },
+        {
+          "id": "b",
+          "text": "ich bin gegangen"
+        },
+        {
+          "id": "c",
+          "text": "gegangen bin ich"
+        },
+        {
+          "id": "d",
+          "text": "ich gegangen bin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (25)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
+      "tags": [
+        "word-order",
+        "conjunctions",
+        "quick-practice"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ morgen nach Berlin. (25)",
+      "options": [
+        {
+          "id": "a",
+          "text": "fahre"
+        },
+        {
+          "id": "b",
+          "text": "nach Berlin fahre"
+        },
+        {
+          "id": "c",
+          "text": "nach Berlin morgen fahre"
+        },
+        {
+          "id": "d",
+          "text": "morgen nach Berlin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Gestern ___ ich ins Kino. (28)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin ich gegangen"
+        },
+        {
+          "id": "b",
+          "text": "ich bin gegangen"
+        },
+        {
+          "id": "c",
+          "text": "gegangen bin ich"
+        },
+        {
+          "id": "d",
+          "text": "ich gegangen bin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (28)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
+      "tags": [
+        "word-order",
+        "conjunctions",
+        "quick-practice"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ morgen nach Berlin. (28)",
+      "options": [
+        {
+          "id": "a",
+          "text": "fahre"
+        },
+        {
+          "id": "b",
+          "text": "nach Berlin fahre"
+        },
+        {
+          "id": "c",
+          "text": "nach Berlin morgen fahre"
+        },
+        {
+          "id": "d",
+          "text": "morgen nach Berlin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Gestern ___ ich ins Kino. (31)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin ich gegangen"
+        },
+        {
+          "id": "b",
+          "text": "ich bin gegangen"
+        },
+        {
+          "id": "c",
+          "text": "gegangen bin ich"
+        },
+        {
+          "id": "d",
+          "text": "ich gegangen bin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (31)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
+      "tags": [
+        "word-order",
+        "conjunctions",
+        "quick-practice"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ morgen nach Berlin. (31)",
+      "options": [
+        {
+          "id": "a",
+          "text": "fahre"
+        },
+        {
+          "id": "b",
+          "text": "nach Berlin fahre"
+        },
+        {
+          "id": "c",
+          "text": "nach Berlin morgen fahre"
+        },
+        {
+          "id": "d",
+          "text": "morgen nach Berlin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Gestern ___ ich ins Kino. (34)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin ich gegangen"
+        },
+        {
+          "id": "b",
+          "text": "ich bin gegangen"
+        },
+        {
+          "id": "c",
+          "text": "gegangen bin ich"
+        },
+        {
+          "id": "d",
+          "text": "ich gegangen bin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (34)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
+      "tags": [
+        "word-order",
+        "conjunctions",
+        "quick-practice"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ morgen nach Berlin. (34)",
+      "options": [
+        {
+          "id": "a",
+          "text": "fahre"
+        },
+        {
+          "id": "b",
+          "text": "nach Berlin fahre"
+        },
+        {
+          "id": "c",
+          "text": "nach Berlin morgen fahre"
+        },
+        {
+          "id": "d",
+          "text": "morgen nach Berlin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Gestern ___ ich ins Kino. (37)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin ich gegangen"
+        },
+        {
+          "id": "b",
+          "text": "ich bin gegangen"
+        },
+        {
+          "id": "c",
+          "text": "gegangen bin ich"
+        },
+        {
+          "id": "d",
+          "text": "ich gegangen bin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (37)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
+      "tags": [
+        "word-order",
+        "conjunctions",
+        "quick-practice"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ morgen nach Berlin. (37)",
+      "options": [
+        {
+          "id": "a",
+          "text": "fahre"
+        },
+        {
+          "id": "b",
+          "text": "nach Berlin fahre"
+        },
+        {
+          "id": "c",
+          "text": "nach Berlin morgen fahre"
+        },
+        {
+          "id": "d",
+          "text": "morgen nach Berlin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Gestern ___ ich ins Kino. (40)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin ich gegangen"
+        },
+        {
+          "id": "b",
+          "text": "ich bin gegangen"
+        },
+        {
+          "id": "c",
+          "text": "gegangen bin ich"
+        },
+        {
+          "id": "d",
+          "text": "ich gegangen bin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Time first, then verb, then subject",
+      "explanationDetail": "Gestern bin ich ins Kino (gegangen). V2: verb in second position.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Weil ich krank ___, bleibe ich zu Hause. (40)",
+      "options": [
+        {
+          "id": "a",
+          "text": "bin"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "weil sends verb to end",
+      "explanationDetail": "Subordinate clause: verb at end. Weil ich krank bin.",
+      "tags": [
+        "word-order",
+        "conjunctions",
+        "quick-practice"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ morgen nach Berlin. (40)",
+      "options": [
+        {
+          "id": "a",
+          "text": "fahre"
+        },
+        {
+          "id": "b",
+          "text": "nach Berlin fahre"
+        },
+        {
+          "id": "c",
+          "text": "nach Berlin morgen fahre"
+        },
+        {
+          "id": "d",
+          "text": "morgen nach Berlin"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "V2: verb second",
+      "explanationDetail": "Ich fahre morgen nach Berlin. Subject + verb + time + place.",
+      "tags": [
+        "word-order",
+        "quick-practice"
+      ],
+      "id": "q50"
     }
   ]
 }

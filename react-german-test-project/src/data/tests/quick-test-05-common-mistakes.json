@@ -256,9 +256,8 @@
       ]
     },
     {
-      "id": "q9",
       "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I know German)",
+      "text": "Ich ___ die Antwort. (I know the answer)",
       "options": [
         {
           "id": "a",
@@ -274,302 +273,115 @@
         },
         {
           "id": "d",
-          "text": "kannte"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "können = to know (a language/skill)",
-      "explanationDetail": "Ich kann Deutsch (I know German / I can speak German). Use 'können' for languages and skills. 'Kennen' is for people/places, 'wissen' is for facts.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q10",
-      "type": "multiple-choice",
-      "text": "Ich ___ Berlin. (I know Berlin)",
-      "options": [
-        {
-          "id": "a",
-          "text": "kenne"
-        },
-        {
-          "id": "b",
-          "text": "weiß"
-        },
-        {
-          "id": "c",
-          "text": "kann"
-        },
-        {
-          "id": "d",
-          "text": "kannte"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "kennen = to know (people/places)",
-      "explanationDetail": "Ich kenne Berlin (I know Berlin / I'm familiar with Berlin). Use 'kennen' for people, places, things. It means 'to be acquainted with'.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q11",
-      "type": "multiple-choice",
-      "text": "Ich ___, dass Berlin groß ist. (I know that...)",
-      "options": [
-        {
-          "id": "a",
-          "text": "kenne"
-        },
-        {
-          "id": "b",
-          "text": "weiß"
-        },
-        {
-          "id": "c",
-          "text": "kann"
-        },
-        {
-          "id": "d",
-          "text": "kannte"
+          "text": "weiße"
         }
       ],
       "correctAnswerId": "b",
       "explanation": "wissen = to know (facts)",
-      "explanationDetail": "Ich weiß, dass Berlin groß ist (I know that Berlin is big). Use 'wissen' for facts and information. Often followed by 'dass' clause.",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q12",
-      "type": "multiple-choice",
-      "text": "Ich ___ ein Buch. (I'm reading)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lese"
-        },
-        {
-          "id": "b",
-          "text": "lerne"
-        },
-        {
-          "id": "c",
-          "text": "lehre"
-        },
-        {
-          "id": "d",
-          "text": "liebe"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "lesen = to read",
-      "explanationDetail": "Ich lese ein Buch (I'm reading a book). Don't confuse: lesen (read), lernen (learn), lehren (teach). Lesen is for reading books, newspapers, etc.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
+      "id": "q9"
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I'm learning)",
+      "text": "Das ___ mir. (That matters to me)",
       "options": [
         {
           "id": "a",
-          "text": "lese"
+          "text": "ist wichtig"
         },
         {
           "id": "b",
-          "text": "lerne"
+          "text": "macht"
         },
         {
           "id": "c",
-          "text": "lehre"
+          "text": "ist egal"
         },
         {
           "id": "d",
-          "text": "liebe"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "lernen = to learn",
-      "explanationDetail": "Ich lerne Deutsch (I'm learning German). Lernen is for learning languages, subjects, skills. Don't confuse with lesen (read) or lehren (teach).",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Ich ___ in Berlin. (I live)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lebe"
-        },
-        {
-          "id": "b",
-          "text": "wohne"
-        },
-        {
-          "id": "c",
-          "text": "bin"
-        },
-        {
-          "id": "d",
-          "text": "habe"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "wohnen = to live (reside)",
-      "explanationDetail": "Ich wohne in Berlin (I live in Berlin). Use 'wohnen' for where you live/reside. 'Leben' is more philosophical (to be alive, to live life). For addresses, use 'wohnen'.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q15",
-      "type": "multiple-choice",
-      "text": "Ich ___ nach Berlin. (I'm going)",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "fahre"
-        },
-        {
-          "id": "c",
-          "text": "komme"
-        },
-        {
-          "id": "d",
-          "text": "bin"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "fahren = to go (by vehicle)",
-      "explanationDetail": "Ich fahre nach Berlin (I'm going to Berlin). Use 'fahren' when using transportation (car, train, bus). Use 'gehen' for walking. 'Nach' is used with cities/countries.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "multiple-choice",
-      "text": "Das ___ mir. (I like it)",
-      "options": [
-        {
-          "id": "a",
-          "text": "gefällt"
-        },
-        {
-          "id": "b",
-          "text": "mag"
-        },
-        {
-          "id": "c",
-          "text": "liebt"
-        },
-        {
-          "id": "d",
-          "text": "will"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "gefallen = to like (pleases me)",
-      "explanationDetail": "Das gefällt mir (I like it / it pleases me). Gefallen takes Dativ. Literally: 'it pleases to-me'. Different from 'mögen' (to like in general). Gefallen is for things that please you.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q17",
-      "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I know German)",
-      "options": [
-        {
-          "id": "a",
-          "text": "kenne"
-        },
-        {
-          "id": "b",
-          "text": "weiß"
-        },
-        {
-          "id": "c",
-          "text": "kann"
-        },
-        {
-          "id": "d",
-          "text": "kannte"
+          "text": "bedeutet"
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "können = to know (a language/skill)",
-      "explanationDetail": "Ich kann Deutsch (I know German / I can speak German). Use 'können' for languages and skills. 'Kennen' is for people/places, 'wissen' is for facts.",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
+      ],
+      "id": "q10"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Ich ___ Berlin. (I know Berlin)",
+      "text": "Er wird ___ (He becomes a teacher)",
       "options": [
         {
           "id": "a",
-          "text": "kenne"
+          "text": "Lehrer"
         },
         {
           "id": "b",
-          "text": "weiß"
+          "text": "ein Lehrer"
         },
         {
           "id": "c",
-          "text": "kann"
+          "text": "der Lehrer"
         },
         {
           "id": "d",
-          "text": "kannte"
+          "text": "Lehrern"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "kennen = to know (people/places)",
-      "explanationDetail": "Ich kenne Berlin (I know Berlin / I'm familiar with Berlin). Use 'kennen' for people, places, things. It means 'to be acquainted with'.",
+      "explanation": "werden + profession without article",
+      "explanationDetail": "Er wird Lehrer (he becomes a teacher). No article with profession after werden.",
       "tags": [
         "vocabulary",
-        "common-mistakes",
+        "grammar",
         "quick-practice"
-      ]
+      ],
+      "id": "q11"
     },
     {
-      "id": "q19",
       "type": "multiple-choice",
-      "text": "Ich ___, dass Berlin groß ist. (I know that...)",
+      "text": "Sie hat ___ (She made a mistake)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Fehler gemacht"
+        },
+        {
+          "id": "b",
+          "text": "einen Fehler gemacht"
+        },
+        {
+          "id": "c",
+          "text": "einer Fehler gemacht"
+        },
+        {
+          "id": "d",
+          "text": "einen Fehler machen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "einen Fehler machen",
+      "explanationDetail": "Einen Fehler machen. Fehler is masculine Akkusativ. Haben + past participle.",
+      "tags": [
+        "vocabulary",
+        "cases",
+        "quick-practice"
+      ],
+      "id": "q12"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ die Antwort. (I know the answer) (5)",
       "options": [
         {
           "id": "a",
@@ -585,240 +397,115 @@
         },
         {
           "id": "d",
-          "text": "kannte"
+          "text": "weiße"
         }
       ],
       "correctAnswerId": "b",
       "explanation": "wissen = to know (facts)",
-      "explanationDetail": "Ich weiß, dass Berlin groß ist (I know that Berlin is big). Use 'wissen' for facts and information. Often followed by 'dass' clause.",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Ich ___ ein Buch. (I'm reading)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lese"
-        },
-        {
-          "id": "b",
-          "text": "lerne"
-        },
-        {
-          "id": "c",
-          "text": "lehre"
-        },
-        {
-          "id": "d",
-          "text": "liebe"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "lesen = to read",
-      "explanationDetail": "Ich lese ein Buch (I'm reading a book). Don't confuse: lesen (read), lernen (learn), lehren (teach). Lesen is for reading books, newspapers, etc.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
+      "id": "q13"
     },
     {
-      "id": "q21",
       "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I'm learning)",
+      "text": "Das ___ mir. (That matters to me) (5)",
       "options": [
         {
           "id": "a",
-          "text": "lese"
+          "text": "ist wichtig"
         },
         {
           "id": "b",
-          "text": "lerne"
+          "text": "macht"
         },
         {
           "id": "c",
-          "text": "lehre"
+          "text": "ist egal"
         },
         {
           "id": "d",
-          "text": "liebe"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "lernen = to learn",
-      "explanationDetail": "Ich lerne Deutsch (I'm learning German). Lernen is for learning languages, subjects, skills. Don't confuse with lesen (read) or lehren (teach).",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Ich ___ in Berlin. (I live)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lebe"
-        },
-        {
-          "id": "b",
-          "text": "wohne"
-        },
-        {
-          "id": "c",
-          "text": "bin"
-        },
-        {
-          "id": "d",
-          "text": "habe"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "wohnen = to live (reside)",
-      "explanationDetail": "Ich wohne in Berlin (I live in Berlin). Use 'wohnen' for where you live/reside. 'Leben' is more philosophical (to be alive, to live life). For addresses, use 'wohnen'.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Ich ___ nach Berlin. (I'm going)",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "fahre"
-        },
-        {
-          "id": "c",
-          "text": "komme"
-        },
-        {
-          "id": "d",
-          "text": "bin"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "fahren = to go (by vehicle)",
-      "explanationDetail": "Ich fahre nach Berlin (I'm going to Berlin). Use 'fahren' when using transportation (car, train, bus). Use 'gehen' for walking. 'Nach' is used with cities/countries.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "multiple-choice",
-      "text": "Das ___ mir. (I like it)",
-      "options": [
-        {
-          "id": "a",
-          "text": "gefällt"
-        },
-        {
-          "id": "b",
-          "text": "mag"
-        },
-        {
-          "id": "c",
-          "text": "liebt"
-        },
-        {
-          "id": "d",
-          "text": "will"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "gefallen = to like (pleases me)",
-      "explanationDetail": "Das gefällt mir (I like it / it pleases me). Gefallen takes Dativ. Literally: 'it pleases to-me'. Different from 'mögen' (to like in general). Gefallen is for things that please you.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I know German)",
-      "options": [
-        {
-          "id": "a",
-          "text": "kenne"
-        },
-        {
-          "id": "b",
-          "text": "weiß"
-        },
-        {
-          "id": "c",
-          "text": "kann"
-        },
-        {
-          "id": "d",
-          "text": "kannte"
+          "text": "bedeutet"
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "können = to know (a language/skill)",
-      "explanationDetail": "Ich kann Deutsch (I know German / I can speak German). Use 'können' for languages and skills. 'Kennen' is for people/places, 'wissen' is for facts.",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
+      ],
+      "id": "q14"
     },
     {
-      "id": "q26",
       "type": "multiple-choice",
-      "text": "Ich ___ Berlin. (I know Berlin)",
+      "text": "Er wird ___ (He becomes a teacher) (5)",
       "options": [
         {
           "id": "a",
-          "text": "kenne"
+          "text": "Lehrer"
         },
         {
           "id": "b",
-          "text": "weiß"
+          "text": "ein Lehrer"
         },
         {
           "id": "c",
-          "text": "kann"
+          "text": "der Lehrer"
         },
         {
           "id": "d",
-          "text": "kannte"
+          "text": "Lehrern"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "kennen = to know (people/places)",
-      "explanationDetail": "Ich kenne Berlin (I know Berlin / I'm familiar with Berlin). Use 'kennen' for people, places, things. It means 'to be acquainted with'.",
+      "explanation": "werden + profession without article",
+      "explanationDetail": "Er wird Lehrer (he becomes a teacher). No article with profession after werden.",
       "tags": [
         "vocabulary",
-        "common-mistakes",
+        "grammar",
         "quick-practice"
-      ]
+      ],
+      "id": "q15"
     },
     {
-      "id": "q27",
       "type": "multiple-choice",
-      "text": "Ich ___, dass Berlin groß ist. (I know that...)",
+      "text": "Sie hat ___ (She made a mistake) (5)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Fehler gemacht"
+        },
+        {
+          "id": "b",
+          "text": "einen Fehler gemacht"
+        },
+        {
+          "id": "c",
+          "text": "einer Fehler gemacht"
+        },
+        {
+          "id": "d",
+          "text": "einen Fehler machen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "einen Fehler machen",
+      "explanationDetail": "Einen Fehler machen. Fehler is masculine Akkusativ. Haben + past participle.",
+      "tags": [
+        "vocabulary",
+        "cases",
+        "quick-practice"
+      ],
+      "id": "q16"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ die Antwort. (I know the answer) (9)",
       "options": [
         {
           "id": "a",
@@ -834,240 +521,115 @@
         },
         {
           "id": "d",
-          "text": "kannte"
+          "text": "weiße"
         }
       ],
       "correctAnswerId": "b",
       "explanation": "wissen = to know (facts)",
-      "explanationDetail": "Ich weiß, dass Berlin groß ist (I know that Berlin is big). Use 'wissen' for facts and information. Often followed by 'dass' clause.",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Ich ___ ein Buch. (I'm reading)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lese"
-        },
-        {
-          "id": "b",
-          "text": "lerne"
-        },
-        {
-          "id": "c",
-          "text": "lehre"
-        },
-        {
-          "id": "d",
-          "text": "liebe"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "lesen = to read",
-      "explanationDetail": "Ich lese ein Buch (I'm reading a book). Don't confuse: lesen (read), lernen (learn), lehren (teach). Lesen is for reading books, newspapers, etc.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
+      "id": "q17"
     },
     {
-      "id": "q29",
       "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I'm learning)",
+      "text": "Das ___ mir. (That matters to me) (9)",
       "options": [
         {
           "id": "a",
-          "text": "lese"
+          "text": "ist wichtig"
         },
         {
           "id": "b",
-          "text": "lerne"
+          "text": "macht"
         },
         {
           "id": "c",
-          "text": "lehre"
+          "text": "ist egal"
         },
         {
           "id": "d",
-          "text": "liebe"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "lernen = to learn",
-      "explanationDetail": "Ich lerne Deutsch (I'm learning German). Lernen is for learning languages, subjects, skills. Don't confuse with lesen (read) or lehren (teach).",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Ich ___ in Berlin. (I live)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lebe"
-        },
-        {
-          "id": "b",
-          "text": "wohne"
-        },
-        {
-          "id": "c",
-          "text": "bin"
-        },
-        {
-          "id": "d",
-          "text": "habe"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "wohnen = to live (reside)",
-      "explanationDetail": "Ich wohne in Berlin (I live in Berlin). Use 'wohnen' for where you live/reside. 'Leben' is more philosophical (to be alive, to live life). For addresses, use 'wohnen'.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Ich ___ nach Berlin. (I'm going)",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "fahre"
-        },
-        {
-          "id": "c",
-          "text": "komme"
-        },
-        {
-          "id": "d",
-          "text": "bin"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "fahren = to go (by vehicle)",
-      "explanationDetail": "Ich fahre nach Berlin (I'm going to Berlin). Use 'fahren' when using transportation (car, train, bus). Use 'gehen' for walking. 'Nach' is used with cities/countries.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q32",
-      "type": "multiple-choice",
-      "text": "Das ___ mir. (I like it)",
-      "options": [
-        {
-          "id": "a",
-          "text": "gefällt"
-        },
-        {
-          "id": "b",
-          "text": "mag"
-        },
-        {
-          "id": "c",
-          "text": "liebt"
-        },
-        {
-          "id": "d",
-          "text": "will"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "gefallen = to like (pleases me)",
-      "explanationDetail": "Das gefällt mir (I like it / it pleases me). Gefallen takes Dativ. Literally: 'it pleases to-me'. Different from 'mögen' (to like in general). Gefallen is for things that please you.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I know German)",
-      "options": [
-        {
-          "id": "a",
-          "text": "kenne"
-        },
-        {
-          "id": "b",
-          "text": "weiß"
-        },
-        {
-          "id": "c",
-          "text": "kann"
-        },
-        {
-          "id": "d",
-          "text": "kannte"
+          "text": "bedeutet"
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "können = to know (a language/skill)",
-      "explanationDetail": "Ich kann Deutsch (I know German / I can speak German). Use 'können' for languages and skills. 'Kennen' is for people/places, 'wissen' is for facts.",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
+      ],
+      "id": "q18"
     },
     {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Ich ___ Berlin. (I know Berlin)",
+      "text": "Er wird ___ (He becomes a teacher) (9)",
       "options": [
         {
           "id": "a",
-          "text": "kenne"
+          "text": "Lehrer"
         },
         {
           "id": "b",
-          "text": "weiß"
+          "text": "ein Lehrer"
         },
         {
           "id": "c",
-          "text": "kann"
+          "text": "der Lehrer"
         },
         {
           "id": "d",
-          "text": "kannte"
+          "text": "Lehrern"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "kennen = to know (people/places)",
-      "explanationDetail": "Ich kenne Berlin (I know Berlin / I'm familiar with Berlin). Use 'kennen' for people, places, things. It means 'to be acquainted with'.",
+      "explanation": "werden + profession without article",
+      "explanationDetail": "Er wird Lehrer (he becomes a teacher). No article with profession after werden.",
       "tags": [
         "vocabulary",
-        "common-mistakes",
+        "grammar",
         "quick-practice"
-      ]
+      ],
+      "id": "q19"
     },
     {
-      "id": "q35",
       "type": "multiple-choice",
-      "text": "Ich ___, dass Berlin groß ist. (I know that...)",
+      "text": "Sie hat ___ (She made a mistake) (9)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Fehler gemacht"
+        },
+        {
+          "id": "b",
+          "text": "einen Fehler gemacht"
+        },
+        {
+          "id": "c",
+          "text": "einer Fehler gemacht"
+        },
+        {
+          "id": "d",
+          "text": "einen Fehler machen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "einen Fehler machen",
+      "explanationDetail": "Einen Fehler machen. Fehler is masculine Akkusativ. Haben + past participle.",
+      "tags": [
+        "vocabulary",
+        "cases",
+        "quick-practice"
+      ],
+      "id": "q20"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ die Antwort. (I know the answer) (13)",
       "options": [
         {
           "id": "a",
@@ -1083,240 +645,115 @@
         },
         {
           "id": "d",
-          "text": "kannte"
+          "text": "weiße"
         }
       ],
       "correctAnswerId": "b",
       "explanation": "wissen = to know (facts)",
-      "explanationDetail": "Ich weiß, dass Berlin groß ist (I know that Berlin is big). Use 'wissen' for facts and information. Often followed by 'dass' clause.",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Ich ___ ein Buch. (I'm reading)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lese"
-        },
-        {
-          "id": "b",
-          "text": "lerne"
-        },
-        {
-          "id": "c",
-          "text": "lehre"
-        },
-        {
-          "id": "d",
-          "text": "liebe"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "lesen = to read",
-      "explanationDetail": "Ich lese ein Buch (I'm reading a book). Don't confuse: lesen (read), lernen (learn), lehren (teach). Lesen is for reading books, newspapers, etc.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
+      "id": "q21"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I'm learning)",
+      "text": "Das ___ mir. (That matters to me) (13)",
       "options": [
         {
           "id": "a",
-          "text": "lese"
+          "text": "ist wichtig"
         },
         {
           "id": "b",
-          "text": "lerne"
+          "text": "macht"
         },
         {
           "id": "c",
-          "text": "lehre"
+          "text": "ist egal"
         },
         {
           "id": "d",
-          "text": "liebe"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "lernen = to learn",
-      "explanationDetail": "Ich lerne Deutsch (I'm learning German). Lernen is for learning languages, subjects, skills. Don't confuse with lesen (read) or lehren (teach).",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "multiple-choice",
-      "text": "Ich ___ in Berlin. (I live)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lebe"
-        },
-        {
-          "id": "b",
-          "text": "wohne"
-        },
-        {
-          "id": "c",
-          "text": "bin"
-        },
-        {
-          "id": "d",
-          "text": "habe"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "wohnen = to live (reside)",
-      "explanationDetail": "Ich wohne in Berlin (I live in Berlin). Use 'wohnen' for where you live/reside. 'Leben' is more philosophical (to be alive, to live life). For addresses, use 'wohnen'.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "multiple-choice",
-      "text": "Ich ___ nach Berlin. (I'm going)",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "fahre"
-        },
-        {
-          "id": "c",
-          "text": "komme"
-        },
-        {
-          "id": "d",
-          "text": "bin"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "fahren = to go (by vehicle)",
-      "explanationDetail": "Ich fahre nach Berlin (I'm going to Berlin). Use 'fahren' when using transportation (car, train, bus). Use 'gehen' for walking. 'Nach' is used with cities/countries.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Das ___ mir. (I like it)",
-      "options": [
-        {
-          "id": "a",
-          "text": "gefällt"
-        },
-        {
-          "id": "b",
-          "text": "mag"
-        },
-        {
-          "id": "c",
-          "text": "liebt"
-        },
-        {
-          "id": "d",
-          "text": "will"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "gefallen = to like (pleases me)",
-      "explanationDetail": "Das gefällt mir (I like it / it pleases me). Gefallen takes Dativ. Literally: 'it pleases to-me'. Different from 'mögen' (to like in general). Gefallen is for things that please you.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I know German)",
-      "options": [
-        {
-          "id": "a",
-          "text": "kenne"
-        },
-        {
-          "id": "b",
-          "text": "weiß"
-        },
-        {
-          "id": "c",
-          "text": "kann"
-        },
-        {
-          "id": "d",
-          "text": "kannte"
+          "text": "bedeutet"
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "können = to know (a language/skill)",
-      "explanationDetail": "Ich kann Deutsch (I know German / I can speak German). Use 'können' for languages and skills. 'Kennen' is for people/places, 'wissen' is for facts.",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
+      ],
+      "id": "q22"
     },
     {
-      "id": "q42",
       "type": "multiple-choice",
-      "text": "Ich ___ Berlin. (I know Berlin)",
+      "text": "Er wird ___ (He becomes a teacher) (13)",
       "options": [
         {
           "id": "a",
-          "text": "kenne"
+          "text": "Lehrer"
         },
         {
           "id": "b",
-          "text": "weiß"
+          "text": "ein Lehrer"
         },
         {
           "id": "c",
-          "text": "kann"
+          "text": "der Lehrer"
         },
         {
           "id": "d",
-          "text": "kannte"
+          "text": "Lehrern"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "kennen = to know (people/places)",
-      "explanationDetail": "Ich kenne Berlin (I know Berlin / I'm familiar with Berlin). Use 'kennen' for people, places, things. It means 'to be acquainted with'.",
+      "explanation": "werden + profession without article",
+      "explanationDetail": "Er wird Lehrer (he becomes a teacher). No article with profession after werden.",
       "tags": [
         "vocabulary",
-        "common-mistakes",
+        "grammar",
         "quick-practice"
-      ]
+      ],
+      "id": "q23"
     },
     {
-      "id": "q43",
       "type": "multiple-choice",
-      "text": "Ich ___, dass Berlin groß ist. (I know that...)",
+      "text": "Sie hat ___ (She made a mistake) (13)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Fehler gemacht"
+        },
+        {
+          "id": "b",
+          "text": "einen Fehler gemacht"
+        },
+        {
+          "id": "c",
+          "text": "einer Fehler gemacht"
+        },
+        {
+          "id": "d",
+          "text": "einen Fehler machen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "einen Fehler machen",
+      "explanationDetail": "Einen Fehler machen. Fehler is masculine Akkusativ. Haben + past participle.",
+      "tags": [
+        "vocabulary",
+        "cases",
+        "quick-practice"
+      ],
+      "id": "q24"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ die Antwort. (I know the answer) (17)",
       "options": [
         {
           "id": "a",
@@ -1332,209 +769,115 @@
         },
         {
           "id": "d",
-          "text": "kannte"
+          "text": "weiße"
         }
       ],
       "correctAnswerId": "b",
       "explanation": "wissen = to know (facts)",
-      "explanationDetail": "Ich weiß, dass Berlin groß ist (I know that Berlin is big). Use 'wissen' for facts and information. Often followed by 'dass' clause.",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Ich ___ ein Buch. (I'm reading)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lese"
-        },
-        {
-          "id": "b",
-          "text": "lerne"
-        },
-        {
-          "id": "c",
-          "text": "lehre"
-        },
-        {
-          "id": "d",
-          "text": "liebe"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "lesen = to read",
-      "explanationDetail": "Ich lese ein Buch (I'm reading a book). Don't confuse: lesen (read), lernen (learn), lehren (teach). Lesen is for reading books, newspapers, etc.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
+      "id": "q25"
     },
     {
-      "id": "q45",
       "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I'm learning)",
+      "text": "Das ___ mir. (That matters to me) (17)",
       "options": [
         {
           "id": "a",
-          "text": "lese"
+          "text": "ist wichtig"
         },
         {
           "id": "b",
-          "text": "lerne"
+          "text": "macht"
         },
         {
           "id": "c",
-          "text": "lehre"
+          "text": "ist egal"
         },
         {
           "id": "d",
-          "text": "liebe"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "lernen = to learn",
-      "explanationDetail": "Ich lerne Deutsch (I'm learning German). Lernen is for learning languages, subjects, skills. Don't confuse with lesen (read) or lehren (teach).",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Ich ___ in Berlin. (I live)",
-      "options": [
-        {
-          "id": "a",
-          "text": "lebe"
-        },
-        {
-          "id": "b",
-          "text": "wohne"
-        },
-        {
-          "id": "c",
-          "text": "bin"
-        },
-        {
-          "id": "d",
-          "text": "habe"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "wohnen = to live (reside)",
-      "explanationDetail": "Ich wohne in Berlin (I live in Berlin). Use 'wohnen' for where you live/reside. 'Leben' is more philosophical (to be alive, to live life). For addresses, use 'wohnen'.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Ich ___ nach Berlin. (I'm going)",
-      "options": [
-        {
-          "id": "a",
-          "text": "gehe"
-        },
-        {
-          "id": "b",
-          "text": "fahre"
-        },
-        {
-          "id": "c",
-          "text": "komme"
-        },
-        {
-          "id": "d",
-          "text": "bin"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "fahren = to go (by vehicle)",
-      "explanationDetail": "Ich fahre nach Berlin (I'm going to Berlin). Use 'fahren' when using transportation (car, train, bus). Use 'gehen' for walking. 'Nach' is used with cities/countries.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q48",
-      "type": "multiple-choice",
-      "text": "Das ___ mir. (I like it)",
-      "options": [
-        {
-          "id": "a",
-          "text": "gefällt"
-        },
-        {
-          "id": "b",
-          "text": "mag"
-        },
-        {
-          "id": "c",
-          "text": "liebt"
-        },
-        {
-          "id": "d",
-          "text": "will"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "gefallen = to like (pleases me)",
-      "explanationDetail": "Das gefällt mir (I like it / it pleases me). Gefallen takes Dativ. Literally: 'it pleases to-me'. Different from 'mögen' (to like in general). Gefallen is for things that please you.",
-      "tags": [
-        "vocabulary",
-        "common-mistakes",
-        "dativ",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "multiple-choice",
-      "text": "Ich ___ Deutsch. (I know German)",
-      "options": [
-        {
-          "id": "a",
-          "text": "kenne"
-        },
-        {
-          "id": "b",
-          "text": "weiß"
-        },
-        {
-          "id": "c",
-          "text": "kann"
-        },
-        {
-          "id": "d",
-          "text": "kannte"
+          "text": "bedeutet"
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "können = to know (a language/skill)",
-      "explanationDetail": "Ich kann Deutsch (I know German / I can speak German). Use 'können' for languages and skills. 'Kennen' is for people/places, 'wissen' is for facts.",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
+      ],
+      "id": "q26"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Ich ___ Berlin. (I know Berlin)",
+      "text": "Er wird ___ (He becomes a teacher) (17)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "ein Lehrer"
+        },
+        {
+          "id": "c",
+          "text": "der Lehrer"
+        },
+        {
+          "id": "d",
+          "text": "Lehrern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "werden + profession without article",
+      "explanationDetail": "Er wird Lehrer (he becomes a teacher). No article with profession after werden.",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "quick-practice"
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat ___ (She made a mistake) (17)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Fehler gemacht"
+        },
+        {
+          "id": "b",
+          "text": "einen Fehler gemacht"
+        },
+        {
+          "id": "c",
+          "text": "einer Fehler gemacht"
+        },
+        {
+          "id": "d",
+          "text": "einen Fehler machen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "einen Fehler machen",
+      "explanationDetail": "Einen Fehler machen. Fehler is masculine Akkusativ. Haben + past participle.",
+      "tags": [
+        "vocabulary",
+        "cases",
+        "quick-practice"
+      ],
+      "id": "q28"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ die Antwort. (I know the answer) (21)",
       "options": [
         {
           "id": "a",
@@ -1550,17 +893,669 @@
         },
         {
           "id": "d",
-          "text": "kannte"
+          "text": "weiße"
         }
       ],
-      "correctAnswerId": "a",
-      "explanation": "kennen = to know (people/places)",
-      "explanationDetail": "Ich kenne Berlin (I know Berlin / I'm familiar with Berlin). Use 'kennen' for people, places, things. It means 'to be acquainted with'.",
+      "correctAnswerId": "b",
+      "explanation": "wissen = to know (facts)",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
       "tags": [
         "vocabulary",
         "common-mistakes",
         "quick-practice"
-      ]
+      ],
+      "id": "q29"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ___ mir. (That matters to me) (21)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist wichtig"
+        },
+        {
+          "id": "b",
+          "text": "macht"
+        },
+        {
+          "id": "c",
+          "text": "ist egal"
+        },
+        {
+          "id": "d",
+          "text": "bedeutet"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q30"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er wird ___ (He becomes a teacher) (21)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "ein Lehrer"
+        },
+        {
+          "id": "c",
+          "text": "der Lehrer"
+        },
+        {
+          "id": "d",
+          "text": "Lehrern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "werden + profession without article",
+      "explanationDetail": "Er wird Lehrer (he becomes a teacher). No article with profession after werden.",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "quick-practice"
+      ],
+      "id": "q31"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat ___ (She made a mistake) (21)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Fehler gemacht"
+        },
+        {
+          "id": "b",
+          "text": "einen Fehler gemacht"
+        },
+        {
+          "id": "c",
+          "text": "einer Fehler gemacht"
+        },
+        {
+          "id": "d",
+          "text": "einen Fehler machen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "einen Fehler machen",
+      "explanationDetail": "Einen Fehler machen. Fehler is masculine Akkusativ. Haben + past participle.",
+      "tags": [
+        "vocabulary",
+        "cases",
+        "quick-practice"
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ die Antwort. (I know the answer) (25)",
+      "options": [
+        {
+          "id": "a",
+          "text": "kenne"
+        },
+        {
+          "id": "b",
+          "text": "weiß"
+        },
+        {
+          "id": "c",
+          "text": "kann"
+        },
+        {
+          "id": "d",
+          "text": "weiße"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "wissen = to know (facts)",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ___ mir. (That matters to me) (25)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist wichtig"
+        },
+        {
+          "id": "b",
+          "text": "macht"
+        },
+        {
+          "id": "c",
+          "text": "ist egal"
+        },
+        {
+          "id": "d",
+          "text": "bedeutet"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er wird ___ (He becomes a teacher) (25)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "ein Lehrer"
+        },
+        {
+          "id": "c",
+          "text": "der Lehrer"
+        },
+        {
+          "id": "d",
+          "text": "Lehrern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "werden + profession without article",
+      "explanationDetail": "Er wird Lehrer (he becomes a teacher). No article with profession after werden.",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "quick-practice"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat ___ (She made a mistake) (25)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Fehler gemacht"
+        },
+        {
+          "id": "b",
+          "text": "einen Fehler gemacht"
+        },
+        {
+          "id": "c",
+          "text": "einer Fehler gemacht"
+        },
+        {
+          "id": "d",
+          "text": "einen Fehler machen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "einen Fehler machen",
+      "explanationDetail": "Einen Fehler machen. Fehler is masculine Akkusativ. Haben + past participle.",
+      "tags": [
+        "vocabulary",
+        "cases",
+        "quick-practice"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ die Antwort. (I know the answer) (29)",
+      "options": [
+        {
+          "id": "a",
+          "text": "kenne"
+        },
+        {
+          "id": "b",
+          "text": "weiß"
+        },
+        {
+          "id": "c",
+          "text": "kann"
+        },
+        {
+          "id": "d",
+          "text": "weiße"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "wissen = to know (facts)",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ___ mir. (That matters to me) (29)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist wichtig"
+        },
+        {
+          "id": "b",
+          "text": "macht"
+        },
+        {
+          "id": "c",
+          "text": "ist egal"
+        },
+        {
+          "id": "d",
+          "text": "bedeutet"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er wird ___ (He becomes a teacher) (29)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "ein Lehrer"
+        },
+        {
+          "id": "c",
+          "text": "der Lehrer"
+        },
+        {
+          "id": "d",
+          "text": "Lehrern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "werden + profession without article",
+      "explanationDetail": "Er wird Lehrer (he becomes a teacher). No article with profession after werden.",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "quick-practice"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat ___ (She made a mistake) (29)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Fehler gemacht"
+        },
+        {
+          "id": "b",
+          "text": "einen Fehler gemacht"
+        },
+        {
+          "id": "c",
+          "text": "einer Fehler gemacht"
+        },
+        {
+          "id": "d",
+          "text": "einen Fehler machen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "einen Fehler machen",
+      "explanationDetail": "Einen Fehler machen. Fehler is masculine Akkusativ. Haben + past participle.",
+      "tags": [
+        "vocabulary",
+        "cases",
+        "quick-practice"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ die Antwort. (I know the answer) (33)",
+      "options": [
+        {
+          "id": "a",
+          "text": "kenne"
+        },
+        {
+          "id": "b",
+          "text": "weiß"
+        },
+        {
+          "id": "c",
+          "text": "kann"
+        },
+        {
+          "id": "d",
+          "text": "weiße"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "wissen = to know (facts)",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ___ mir. (That matters to me) (33)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist wichtig"
+        },
+        {
+          "id": "b",
+          "text": "macht"
+        },
+        {
+          "id": "c",
+          "text": "ist egal"
+        },
+        {
+          "id": "d",
+          "text": "bedeutet"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er wird ___ (He becomes a teacher) (33)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "ein Lehrer"
+        },
+        {
+          "id": "c",
+          "text": "der Lehrer"
+        },
+        {
+          "id": "d",
+          "text": "Lehrern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "werden + profession without article",
+      "explanationDetail": "Er wird Lehrer (he becomes a teacher). No article with profession after werden.",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "quick-practice"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat ___ (She made a mistake) (33)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Fehler gemacht"
+        },
+        {
+          "id": "b",
+          "text": "einen Fehler gemacht"
+        },
+        {
+          "id": "c",
+          "text": "einer Fehler gemacht"
+        },
+        {
+          "id": "d",
+          "text": "einen Fehler machen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "einen Fehler machen",
+      "explanationDetail": "Einen Fehler machen. Fehler is masculine Akkusativ. Haben + past participle.",
+      "tags": [
+        "vocabulary",
+        "cases",
+        "quick-practice"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ die Antwort. (I know the answer) (37)",
+      "options": [
+        {
+          "id": "a",
+          "text": "kenne"
+        },
+        {
+          "id": "b",
+          "text": "weiß"
+        },
+        {
+          "id": "c",
+          "text": "kann"
+        },
+        {
+          "id": "d",
+          "text": "weiße"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "wissen = to know (facts)",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ___ mir. (That matters to me) (37)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist wichtig"
+        },
+        {
+          "id": "b",
+          "text": "macht"
+        },
+        {
+          "id": "c",
+          "text": "ist egal"
+        },
+        {
+          "id": "d",
+          "text": "bedeutet"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er wird ___ (He becomes a teacher) (37)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lehrer"
+        },
+        {
+          "id": "b",
+          "text": "ein Lehrer"
+        },
+        {
+          "id": "c",
+          "text": "der Lehrer"
+        },
+        {
+          "id": "d",
+          "text": "Lehrern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "werden + profession without article",
+      "explanationDetail": "Er wird Lehrer (he becomes a teacher). No article with profession after werden.",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "quick-practice"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat ___ (She made a mistake) (37)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ein Fehler gemacht"
+        },
+        {
+          "id": "b",
+          "text": "einen Fehler gemacht"
+        },
+        {
+          "id": "c",
+          "text": "einer Fehler gemacht"
+        },
+        {
+          "id": "d",
+          "text": "einen Fehler machen"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "einen Fehler machen",
+      "explanationDetail": "Einen Fehler machen. Fehler is masculine Akkusativ. Haben + past participle.",
+      "tags": [
+        "vocabulary",
+        "cases",
+        "quick-practice"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ die Antwort. (I know the answer) (41)",
+      "options": [
+        {
+          "id": "a",
+          "text": "kenne"
+        },
+        {
+          "id": "b",
+          "text": "weiß"
+        },
+        {
+          "id": "c",
+          "text": "kann"
+        },
+        {
+          "id": "d",
+          "text": "weiße"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "wissen = to know (facts)",
+      "explanationDetail": "Ich weiß die Antwort. Wissen for facts, kennen for people/places.",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ___ mir. (That matters to me) (41)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist wichtig"
+        },
+        {
+          "id": "b",
+          "text": "macht"
+        },
+        {
+          "id": "c",
+          "text": "ist egal"
+        },
+        {
+          "id": "d",
+          "text": "bedeutet"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Das ist mir egal",
+      "explanationDetail": "Egal = doesn't matter. Das ist mir egal (I don't care / that doesn't matter to me).",
+      "tags": [
+        "vocabulary",
+        "common-mistakes",
+        "quick-practice"
+      ],
+      "id": "q50"
     }
   ]
 }

@@ -256,9 +256,567 @@
       ]
     },
     {
-      "id": "q9",
       "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
+      "text": "Sie ___ gestern nach Wien gefahren.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "fahren uses sein in Perfekt",
+      "explanationDetail": "Motion verbs use sein in Perfekt. Sie ist gefahren (she drove/went).",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "quick-practice"
+      ],
+      "id": "q9"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du ___ gestern den Arzt besucht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hast"
+        },
+        {
+          "id": "b",
+          "text": "bist"
+        },
+        {
+          "id": "c",
+          "text": "hattest"
+        },
+        {
+          "id": "d",
+          "text": "warst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "besuchen uses haben in Perfekt",
+      "explanationDetail": "Besuchen (to visit) uses haben. Du hast besucht (you visited).",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "quick-practice"
+      ],
+      "id": "q10"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir ___ gestern Abend fern.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sehen"
+        },
+        {
+          "id": "b",
+          "text": "sah"
+        },
+        {
+          "id": "c",
+          "text": "sahen"
+        },
+        {
+          "id": "d",
+          "text": "gesehen"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "sehen in Präteritum: wir sahen",
+      "explanationDetail": "Sehen in Präteritum: wir sahen (we saw). Often used in narrative.",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "quick-practice"
+      ],
+      "id": "q11"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ das Licht ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "macht... aus"
+        },
+        {
+          "id": "b",
+          "text": "ausmacht"
+        },
+        {
+          "id": "c",
+          "text": "macht ausmachen"
+        },
+        {
+          "id": "d",
+          "text": "aus... macht"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "ausmachen separable: prefix to end",
+      "explanationDetail": "Ausmachen (to turn off): Er macht das Licht aus. Prefix goes to end.",
+      "tags": [
+        "verbs",
+        "separable-verbs",
+        "quick-practice"
+      ],
+      "id": "q12"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr ___ heute nicht arbeiten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "müsst"
+        },
+        {
+          "id": "b",
+          "text": "müsstet"
+        },
+        {
+          "id": "c",
+          "text": "sollt"
+        },
+        {
+          "id": "d",
+          "text": "solltet"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "sollen = should (advice)",
+      "explanationDetail": "Ihr sollt nicht arbeiten (you shouldn't work). Sollen for advice.",
+      "tags": [
+        "verbs",
+        "modal-verbs",
+        "quick-practice"
+      ],
+      "id": "q13"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ gestern einen Kuchen gebacken.",
+      "options": [
+        {
+          "id": "a",
+          "text": "habe"
+        },
+        {
+          "id": "b",
+          "text": "bin"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "backen uses haben in Perfekt",
+      "explanationDetail": "Backen uses haben. Ich habe gebacken (I baked).",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "quick-practice"
+      ],
+      "id": "q14"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ gestern sehr müde.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ist"
+        },
+        {
+          "id": "b",
+          "text": "war"
+        },
+        {
+          "id": "c",
+          "text": "hat"
+        },
+        {
+          "id": "d",
+          "text": "hatte"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "sein in Präteritum: sie war",
+      "explanationDetail": "Sie war müde (she was tired). Sein in Präteritum.",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "quick-practice"
+      ],
+      "id": "q15"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du ___ hier parken.",
+      "options": [
+        {
+          "id": "a",
+          "text": "musst"
+        },
+        {
+          "id": "b",
+          "text": "kannst"
+        },
+        {
+          "id": "c",
+          "text": "darfst"
+        },
+        {
+          "id": "d",
+          "text": "sollst"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "dürfen = may (permission)",
+      "explanationDetail": "Du darfst parken (you may park). Permission.",
+      "tags": [
+        "verbs",
+        "modal-verbs",
+        "quick-practice"
+      ],
+      "id": "q16"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir ___ gestern den Film gesehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "haben"
+        },
+        {
+          "id": "b",
+          "text": "sind"
+        },
+        {
+          "id": "c",
+          "text": "hatten"
+        },
+        {
+          "id": "d",
+          "text": "waren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sehen uses haben in Perfekt",
+      "explanationDetail": "Wir haben gesehen (we saw). Haben + past participle.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "quick-practice"
+      ],
+      "id": "q17"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ um 8 Uhr ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kommt... an"
+        },
+        {
+          "id": "b",
+          "text": "ankommt"
+        },
+        {
+          "id": "c",
+          "text": "kommt ankommen"
+        },
+        {
+          "id": "d",
+          "text": "an... kommt"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "ankommen separable",
+      "explanationDetail": "Er kommt um 8 Uhr an (he arrives at 8). Prefix at end.",
+      "tags": [
+        "verbs",
+        "separable-verbs",
+        "quick-practice"
+      ],
+      "id": "q18"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ nicht kommen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "muss"
+        },
+        {
+          "id": "b",
+          "text": "kann"
+        },
+        {
+          "id": "c",
+          "text": "will"
+        },
+        {
+          "id": "d",
+          "text": "soll"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "wollen (negative) = not want to",
+      "explanationDetail": "Sie will nicht kommen (she doesn't want to come).",
+      "tags": [
+        "verbs",
+        "modal-verbs",
+        "quick-practice"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ gestern einen Brief geschrieben.",
+      "options": [
+        {
+          "id": "a",
+          "text": "habe"
+        },
+        {
+          "id": "b",
+          "text": "bin"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "schreiben uses haben in Perfekt",
+      "explanationDetail": "Ich habe geschrieben (I wrote). Schreiben → geschrieben.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "quick-practice"
+      ],
+      "id": "q20"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Kinder ___ gestern im Park.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sind"
+        },
+        {
+          "id": "b",
+          "text": "waren"
+        },
+        {
+          "id": "c",
+          "text": "haben"
+        },
+        {
+          "id": "d",
+          "text": "hatten"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "sein in Präteritum: sie waren",
+      "explanationDetail": "Die Kinder waren im Park (the children were in the park).",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "quick-practice"
+      ],
+      "id": "q21"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du ___ die Tür ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "machst... zu"
+        },
+        {
+          "id": "b",
+          "text": "zumachst"
+        },
+        {
+          "id": "c",
+          "text": "machst zumachen"
+        },
+        {
+          "id": "d",
+          "text": "zu... machst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "zumachen separable",
+      "explanationDetail": "Du machst die Tür zu (you close the door).",
+      "tags": [
+        "verbs",
+        "separable-verbs",
+        "quick-practice"
+      ],
+      "id": "q22"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ gestern nicht arbeiten.",
+      "options": [
+        {
+          "id": "a",
+          "text": "musste"
+        },
+        {
+          "id": "b",
+          "text": "muss"
+        },
+        {
+          "id": "c",
+          "text": "gemusst"
+        },
+        {
+          "id": "d",
+          "text": "habe gemusst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "müssen in Präteritum: er musste",
+      "explanationDetail": "Er musste nicht arbeiten (he didn't have to work). Modal in Präteritum.",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "modal-verbs",
+        "quick-practice"
+      ],
+      "id": "q23"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir ___ gestern Pizza gegessen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "haben"
+        },
+        {
+          "id": "b",
+          "text": "sind"
+        },
+        {
+          "id": "c",
+          "text": "hatten"
+        },
+        {
+          "id": "d",
+          "text": "waren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "essen uses haben in Perfekt",
+      "explanationDetail": "Wir haben gegessen (we ate). Essen → gegessen.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "quick-practice"
+      ],
+      "id": "q24"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ jeden Tag um 6 ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "steht... auf"
+        },
+        {
+          "id": "b",
+          "text": "aufsteht"
+        },
+        {
+          "id": "c",
+          "text": "steht aufstehen"
+        },
+        {
+          "id": "d",
+          "text": "auf... steht"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "aufstehen separable",
+      "explanationDetail": "Sie steht um 6 auf (she gets up at 6).",
+      "tags": [
+        "verbs",
+        "separable-verbs",
+        "quick-practice"
+      ],
+      "id": "q25"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr ___ morgen kommen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "müsst"
+        },
+        {
+          "id": "b",
+          "text": "könnt"
+        },
+        {
+          "id": "c",
+          "text": "wollt"
+        },
+        {
+          "id": "d",
+          "text": "dürft"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "wollen = to want to",
+      "explanationDetail": "Ihr wollt kommen (you want to come).",
+      "tags": [
+        "verbs",
+        "modal-verbs",
+        "quick-practice"
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ gestern ins Museum gegangen.",
       "options": [
         {
           "id": "a",
@@ -279,141 +837,17 @@
       ],
       "correctAnswerId": "b",
       "explanation": "gehen uses sein in Perfekt",
-      "explanationDetail": "Motion verbs use 'sein' in Perfekt. Ich bin gegangen (I went). Other motion verbs: fahren, kommen, fliegen, laufen.",
+      "explanationDetail": "Ich bin gegangen (I went). Motion verb + sein.",
       "tags": [
         "verbs",
         "perfekt",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q10",
-      "type": "multiple-choice",
-      "text": "Er ___ gestern krank.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "wurde"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: er war",
-      "explanationDetail": "Sein in Präteritum: ich war, du warst, er war, wir waren. Er war krank (he was sick).",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "quick-practice"
-      ]
+      "id": "q27"
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Du ___ hier nicht rauchen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "musst"
-        },
-        {
-          "id": "b",
-          "text": "kannst"
-        },
-        {
-          "id": "c",
-          "text": "willst"
-        },
-        {
-          "id": "d",
-          "text": "darfst"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "dürfen (negative) = must not",
-      "explanationDetail": "Du darfst nicht rauchen (you must not smoke / you're not allowed to smoke). Dürfen expresses permission/prohibition.",
-      "tags": [
-        "verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q12",
-      "type": "multiple-choice",
-      "text": "Ich stehe jeden Tag um 7 Uhr ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "auf"
-        },
-        {
-          "id": "b",
-          "text": "aufstehe"
-        },
-        {
-          "id": "c",
-          "text": "stehe auf"
-        },
-        {
-          "id": "d",
-          "text": "aufstehen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Separable prefix goes to end",
-      "explanationDetail": "Aufstehen (to get up): Ich stehe... auf. The prefix 'auf' separates and goes to the end in present tense.",
-      "tags": [
-        "verbs",
-        "separable-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q13",
-      "type": "multiple-choice",
-      "text": "Wir ___ morgen nach Berlin fahren.",
-      "options": [
-        {
-          "id": "a",
-          "text": "müssen"
-        },
-        {
-          "id": "b",
-          "text": "können"
-        },
-        {
-          "id": "c",
-          "text": "wollen"
-        },
-        {
-          "id": "d",
-          "text": "sollen"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "wollen = to want to",
-      "explanationDetail": "Wollen expresses desire or intention. Wir wollen fahren (we want to go). Modal verb + infinitive at end.",
-      "tags": [
-        "verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Sie ___ gestern ein Buch gelesen.",
+      "text": "Er ___ gestern viel gearbeitet.",
       "options": [
         {
           "id": "a",
@@ -433,81 +867,111 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "lesen uses haben in Perfekt",
-      "explanationDetail": "Most verbs use 'haben' in Perfekt. Sie hat gelesen (she read). Strong verb: lesen → gelesen.",
+      "explanation": "arbeiten uses haben in Perfekt",
+      "explanationDetail": "Er hat gearbeitet (he worked). Haben + past participle.",
       "tags": [
         "verbs",
         "perfekt",
         "quick-practice"
-      ]
+      ],
+      "id": "q28"
     },
     {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Er kann nicht ___.",
+      "text": "Du ___ gestern zu Hause.",
       "options": [
         {
           "id": "a",
-          "text": "mitkommen"
+          "text": "bist"
         },
         {
           "id": "b",
-          "text": "kommt mit"
+          "text": "warst"
         },
         {
           "id": "c",
-          "text": "mitgekommen"
+          "text": "hast"
         },
         {
           "id": "d",
-          "text": "mit kommen"
+          "text": "hattest"
         }
       ],
-      "correctAnswerId": "a",
-      "explanation": "With modal verbs, separable verb stays together",
-      "explanationDetail": "Mitkommen with modal verb: Er kann mitkommen (he can come along). Separable verb stays as one word with modal verbs.",
-      "tags": [
-        "verbs",
-        "separable-verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern keine Zeit.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "wurde"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "haben in Präteritum: ich hatte",
-      "explanationDetail": "Haben in Präteritum: ich hatte, du hattest, er hatte, wir hatten. Ich hatte keine Zeit (I had no time).",
+      "correctAnswerId": "b",
+      "explanation": "sein in Präteritum: du warst",
+      "explanationDetail": "Du warst zu Hause (you were at home).",
       "tags": [
         "verbs",
         "praeteritum",
         "quick-practice"
-      ]
+      ],
+      "id": "q29"
     },
     {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
+      "text": "Wir ___ heute ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kaufen... ein"
+        },
+        {
+          "id": "b",
+          "text": "einkaufen"
+        },
+        {
+          "id": "c",
+          "text": "kaufen einkaufen"
+        },
+        {
+          "id": "d",
+          "text": "ein... kaufen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "einkaufen separable",
+      "explanationDetail": "Wir kaufen heute ein (we're shopping today).",
+      "tags": [
+        "verbs",
+        "separable-verbs",
+        "quick-practice"
+      ],
+      "id": "q30"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ den Text lesen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "soll"
+        },
+        {
+          "id": "b",
+          "text": "kann"
+        },
+        {
+          "id": "c",
+          "text": "will"
+        },
+        {
+          "id": "d",
+          "text": "mag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sollen = supposed to",
+      "explanationDetail": "Sie soll lesen (she is supposed to read).",
+      "tags": [
+        "verbs",
+        "modal-verbs",
+        "quick-practice"
+      ],
+      "id": "q31"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ gestern lange geschlafen.",
       "options": [
         {
           "id": "a",
@@ -526,19 +990,19 @@
           "text": "war"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "gehen uses sein in Perfekt",
-      "explanationDetail": "Motion verbs use 'sein' in Perfekt. Ich bin gegangen (I went). Other motion verbs: fahren, kommen, fliegen, laufen.",
+      "correctAnswerId": "a",
+      "explanation": "schlafen uses haben in Perfekt",
+      "explanationDetail": "Ich habe geschlafen (I slept). Schlafen → geschlafen.",
       "tags": [
         "verbs",
         "perfekt",
         "quick-practice"
-      ]
+      ],
+      "id": "q32"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Er ___ gestern krank.",
+      "text": "Die Frau ___ gestern krank.",
       "options": [
         {
           "id": "a",
@@ -550,26 +1014,57 @@
         },
         {
           "id": "c",
-          "text": "hatte"
+          "text": "hat"
         },
         {
           "id": "d",
-          "text": "wurde"
+          "text": "hatte"
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: er war",
-      "explanationDetail": "Sein in Präteritum: ich war, du warst, er war, wir waren. Er war krank (he was sick).",
+      "explanation": "sein in Präteritum: sie war",
+      "explanationDetail": "Die Frau war krank (the woman was sick).",
       "tags": [
         "verbs",
         "praeteritum",
         "quick-practice"
-      ]
+      ],
+      "id": "q33"
     },
     {
-      "id": "q19",
       "type": "multiple-choice",
-      "text": "Du ___ hier nicht rauchen.",
+      "text": "Er ___ das Fenster ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "macht... auf"
+        },
+        {
+          "id": "b",
+          "text": "aufmacht"
+        },
+        {
+          "id": "c",
+          "text": "macht aufmachen"
+        },
+        {
+          "id": "d",
+          "text": "auf... macht"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "aufmachen separable: er macht auf",
+      "explanationDetail": "Er macht das Fenster auf (he opens the window). Aufmachen is separable; prefix goes to end.",
+      "tags": [
+        "verbs",
+        "separable-verbs",
+        "quick-practice"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du ___ nicht so laut sein.",
       "options": [
         {
           "id": "a",
@@ -581,57 +1076,150 @@
         },
         {
           "id": "c",
-          "text": "willst"
+          "text": "sollst"
         },
         {
           "id": "d",
           "text": "darfst"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "dürfen (negative) = must not",
-      "explanationDetail": "Du darfst nicht rauchen (you must not smoke / you're not allowed to smoke). Dürfen expresses permission/prohibition.",
+      "correctAnswerId": "c",
+      "explanation": "sollen = should (advice)",
+      "explanationDetail": "Du sollst nicht laut sein (you shouldn't be so loud).",
       "tags": [
         "verbs",
         "modal-verbs",
         "quick-practice"
-      ]
+      ],
+      "id": "q35"
     },
     {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Ich stehe jeden Tag um 7 Uhr ___.",
+      "text": "Wir ___ gestern einen Unfall gehabt.",
       "options": [
         {
           "id": "a",
-          "text": "auf"
+          "text": "haben"
         },
         {
           "id": "b",
-          "text": "aufstehe"
+          "text": "sind"
         },
         {
           "id": "c",
-          "text": "stehe auf"
+          "text": "hatten"
         },
         {
           "id": "d",
-          "text": "aufstehen"
+          "text": "waren"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Separable prefix goes to end",
-      "explanationDetail": "Aufstehen (to get up): Ich stehe... auf. The prefix 'auf' separates and goes to the end in present tense.",
+      "explanation": "haben in Perfekt",
+      "explanationDetail": "Wir haben einen Unfall gehabt (we had an accident). Haben + gehabt.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "quick-practice"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ gestern um 10 Uhr angekommen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "ankommen uses sein in Perfekt",
+      "explanationDetail": "Sie ist angekommen (she arrived). Ankommen is motion, uses sein.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "quick-practice"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ gestern keine Lust.",
+      "options": [
+        {
+          "id": "a",
+          "text": "habe"
+        },
+        {
+          "id": "b",
+          "text": "hatte"
+        },
+        {
+          "id": "c",
+          "text": "bin"
+        },
+        {
+          "id": "d",
+          "text": "war"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "haben in Präteritum: ich hatte",
+      "explanationDetail": "Ich hatte keine Lust (I didn't feel like it). Haben in Präteritum.",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "quick-practice"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ den Computer ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schaltet... ein"
+        },
+        {
+          "id": "b",
+          "text": "einschaltet"
+        },
+        {
+          "id": "c",
+          "text": "schaltet einschalten"
+        },
+        {
+          "id": "d",
+          "text": "ein... schaltet"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "einschalten separable",
+      "explanationDetail": "Er schaltet den Computer ein (he switches on the computer).",
       "tags": [
         "verbs",
         "separable-verbs",
         "quick-practice"
-      ]
+      ],
+      "id": "q39"
     },
     {
-      "id": "q21",
       "type": "multiple-choice",
-      "text": "Wir ___ morgen nach Berlin fahren.",
+      "text": "Die Schüler ___ die Hausaufgaben machen.",
       "options": [
         {
           "id": "a",
@@ -647,22 +1235,146 @@
         },
         {
           "id": "d",
-          "text": "sollen"
+          "text": "dürfen"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "wollen = to want to",
-      "explanationDetail": "Wollen expresses desire or intention. Wir wollen fahren (we want to go). Modal verb + infinitive at end.",
+      "correctAnswerId": "a",
+      "explanation": "müssen = must",
+      "explanationDetail": "Die Schüler müssen machen (the students must do). Obligation.",
       "tags": [
         "verbs",
         "modal-verbs",
         "quick-practice"
-      ]
+      ],
+      "id": "q40"
     },
     {
-      "id": "q22",
       "type": "multiple-choice",
-      "text": "Sie ___ gestern ein Buch gelesen.",
+      "text": "Du ___ gestern einen Fehler gemacht.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hast"
+        },
+        {
+          "id": "b",
+          "text": "bist"
+        },
+        {
+          "id": "c",
+          "text": "hattest"
+        },
+        {
+          "id": "d",
+          "text": "warst"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "machen uses haben in Perfekt",
+      "explanationDetail": "Du hast gemacht (you made). Machen → gemacht.",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "quick-practice"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir ___ gestern sehr spät.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sind"
+        },
+        {
+          "id": "b",
+          "text": "waren"
+        },
+        {
+          "id": "c",
+          "text": "haben"
+        },
+        {
+          "id": "d",
+          "text": "hatten"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "sein in Präteritum: wir waren",
+      "explanationDetail": "Wir waren spät (we were late).",
+      "tags": [
+        "verbs",
+        "praeteritum",
+        "quick-practice"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ___ gestern ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hat... angerufen"
+        },
+        {
+          "id": "b",
+          "text": "ist... angerufen"
+        },
+        {
+          "id": "c",
+          "text": "hatte... angerufen"
+        },
+        {
+          "id": "d",
+          "text": "ruft an"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "anrufen in Perfekt: hat angerufen",
+      "explanationDetail": "Sie hat gestern angerufen (she called yesterday).",
+      "tags": [
+        "verbs",
+        "perfekt",
+        "quick-practice"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich ___ hier nicht rauchen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "muss"
+        },
+        {
+          "id": "b",
+          "text": "kann"
+        },
+        {
+          "id": "c",
+          "text": "darf"
+        },
+        {
+          "id": "d",
+          "text": "soll"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "dürfen (negative) = must not",
+      "explanationDetail": "Ich darf nicht rauchen (I must not smoke). Prohibition.",
+      "tags": [
+        "verbs",
+        "modal-verbs",
+        "quick-practice"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er ___ gestern den Bus verpasst.",
       "options": [
         {
           "id": "a",
@@ -682,147 +1394,53 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "lesen uses haben in Perfekt",
-      "explanationDetail": "Most verbs use 'haben' in Perfekt. Sie hat gelesen (she read). Strong verb: lesen → gelesen.",
+      "explanation": "verpassen uses haben in Perfekt",
+      "explanationDetail": "Er hat verpasst (he missed). Verpassen → verpasst.",
       "tags": [
         "verbs",
         "perfekt",
         "quick-practice"
-      ]
+      ],
+      "id": "q45"
     },
     {
-      "id": "q23",
       "type": "multiple-choice",
-      "text": "Er kann nicht ___.",
+      "text": "Die Kinder ___ im Garten ___.",
       "options": [
         {
           "id": "a",
-          "text": "mitkommen"
+          "text": "spielen... mit"
         },
         {
           "id": "b",
-          "text": "kommt mit"
+          "text": "mitspielen"
         },
         {
           "id": "c",
-          "text": "mitgekommen"
+          "text": "spielen mitspielen"
         },
         {
           "id": "d",
-          "text": "mit kommen"
+          "text": "mit... spielen"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "With modal verbs, separable verb stays together",
-      "explanationDetail": "Mitkommen with modal verb: Er kann mitkommen (he can come along). Separable verb stays as one word with modal verbs.",
+      "explanation": "mitspielen separable: prefix to end",
+      "explanationDetail": "Mitspielen (to join in) is separable. Die Kinder spielen im Garten mit (the children join in playing in the garden).",
       "tags": [
         "verbs",
         "separable-verbs",
-        "modal-verbs",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern keine Zeit.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "wurde"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "haben in Präteritum: ich hatte",
-      "explanationDetail": "Haben in Präteritum: ich hatte, du hattest, er hatte, wir hatten. Ich hatte keine Zeit (I had no time).",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "quick-practice"
-      ]
+      "id": "q46"
     },
     {
-      "id": "q25",
       "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
+      "text": "Du ___ gestern nicht kommen.",
       "options": [
         {
           "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "bin"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "gehen uses sein in Perfekt",
-      "explanationDetail": "Motion verbs use 'sein' in Perfekt. Ich bin gegangen (I went). Other motion verbs: fahren, kommen, fliegen, laufen.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "multiple-choice",
-      "text": "Er ___ gestern krank.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "wurde"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: er war",
-      "explanationDetail": "Sein in Präteritum: ich war, du warst, er war, wir waren. Er war krank (he was sick).",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Du ___ hier nicht rauchen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "musst"
+          "text": "konntest"
         },
         {
           "id": "b",
@@ -830,737 +1448,115 @@
         },
         {
           "id": "c",
-          "text": "willst"
+          "text": "gekonnt"
         },
         {
           "id": "d",
-          "text": "darfst"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "dürfen (negative) = must not",
-      "explanationDetail": "Du darfst nicht rauchen (you must not smoke / you're not allowed to smoke). Dürfen expresses permission/prohibition.",
-      "tags": [
-        "verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Ich stehe jeden Tag um 7 Uhr ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "auf"
-        },
-        {
-          "id": "b",
-          "text": "aufstehe"
-        },
-        {
-          "id": "c",
-          "text": "stehe auf"
-        },
-        {
-          "id": "d",
-          "text": "aufstehen"
+          "text": "habe gekonnt"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Separable prefix goes to end",
-      "explanationDetail": "Aufstehen (to get up): Ich stehe... auf. The prefix 'auf' separates and goes to the end in present tense.",
-      "tags": [
-        "verbs",
-        "separable-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Wir ___ morgen nach Berlin fahren.",
-      "options": [
-        {
-          "id": "a",
-          "text": "müssen"
-        },
-        {
-          "id": "b",
-          "text": "können"
-        },
-        {
-          "id": "c",
-          "text": "wollen"
-        },
-        {
-          "id": "d",
-          "text": "sollen"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "wollen = to want to",
-      "explanationDetail": "Wollen expresses desire or intention. Wir wollen fahren (we want to go). Modal verb + infinitive at end.",
-      "tags": [
-        "verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Sie ___ gestern ein Buch gelesen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "hat"
-        },
-        {
-          "id": "b",
-          "text": "ist"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "lesen uses haben in Perfekt",
-      "explanationDetail": "Most verbs use 'haben' in Perfekt. Sie hat gelesen (she read). Strong verb: lesen → gelesen.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Er kann nicht ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "mitkommen"
-        },
-        {
-          "id": "b",
-          "text": "kommt mit"
-        },
-        {
-          "id": "c",
-          "text": "mitgekommen"
-        },
-        {
-          "id": "d",
-          "text": "mit kommen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "With modal verbs, separable verb stays together",
-      "explanationDetail": "Mitkommen with modal verb: Er kann mitkommen (he can come along). Separable verb stays as one word with modal verbs.",
-      "tags": [
-        "verbs",
-        "separable-verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q32",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern keine Zeit.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "wurde"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "haben in Präteritum: ich hatte",
-      "explanationDetail": "Haben in Präteritum: ich hatte, du hattest, er hatte, wir hatten. Ich hatte keine Zeit (I had no time).",
+      "explanation": "können in Präteritum: du konntest",
+      "explanationDetail": "Du konntest nicht kommen (you couldn't come).",
       "tags": [
         "verbs",
         "praeteritum",
         "quick-practice"
-      ]
+      ],
+      "id": "q47"
     },
     {
-      "id": "q33",
       "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
+      "text": "Wir ___ gestern das Zimmer aufgeräumt.",
       "options": [
         {
           "id": "a",
-          "text": "habe"
+          "text": "haben"
         },
         {
           "id": "b",
-          "text": "bin"
+          "text": "sind"
         },
         {
           "id": "c",
-          "text": "hatte"
+          "text": "hatten"
         },
         {
           "id": "d",
-          "text": "war"
+          "text": "waren"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "gehen uses sein in Perfekt",
-      "explanationDetail": "Motion verbs use 'sein' in Perfekt. Ich bin gegangen (I went). Other motion verbs: fahren, kommen, fliegen, laufen.",
+      "correctAnswerId": "a",
+      "explanation": "aufräumen uses haben in Perfekt",
+      "explanationDetail": "Wir haben aufgeräumt (we tidied up). Separable verb in Perfekt.",
       "tags": [
         "verbs",
         "perfekt",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "multiple-choice",
-      "text": "Er ___ gestern krank.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "wurde"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: er war",
-      "explanationDetail": "Sein in Präteritum: ich war, du warst, er war, wir waren. Er war krank (he was sick).",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "quick-practice"
-      ]
+      "id": "q48"
     },
     {
-      "id": "q35",
       "type": "multiple-choice",
-      "text": "Du ___ hier nicht rauchen.",
+      "text": "Sie ___ das Licht ___.",
       "options": [
         {
           "id": "a",
-          "text": "musst"
+          "text": "macht... an"
         },
         {
           "id": "b",
-          "text": "kannst"
+          "text": "anmacht"
         },
         {
           "id": "c",
-          "text": "willst"
+          "text": "macht anmachen"
         },
         {
           "id": "d",
-          "text": "darfst"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "dürfen (negative) = must not",
-      "explanationDetail": "Du darfst nicht rauchen (you must not smoke / you're not allowed to smoke). Dürfen expresses permission/prohibition.",
-      "tags": [
-        "verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Ich stehe jeden Tag um 7 Uhr ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "auf"
-        },
-        {
-          "id": "b",
-          "text": "aufstehe"
-        },
-        {
-          "id": "c",
-          "text": "stehe auf"
-        },
-        {
-          "id": "d",
-          "text": "aufstehen"
+          "text": "an... macht"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Separable prefix goes to end",
-      "explanationDetail": "Aufstehen (to get up): Ich stehe... auf. The prefix 'auf' separates and goes to the end in present tense.",
+      "explanation": "anmachen separable (turn on)",
+      "explanationDetail": "Sie macht das Licht an (she turns on the light).",
       "tags": [
         "verbs",
         "separable-verbs",
         "quick-practice"
-      ]
+      ],
+      "id": "q49"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Wir ___ morgen nach Berlin fahren.",
+      "text": "Ihr ___ heute früher aufstehen.",
       "options": [
         {
           "id": "a",
-          "text": "müssen"
+          "text": "müsst"
         },
         {
           "id": "b",
-          "text": "können"
+          "text": "könnt"
         },
         {
           "id": "c",
-          "text": "wollen"
+          "text": "wollt"
         },
         {
           "id": "d",
-          "text": "sollen"
+          "text": "sollt"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "wollen = to want to",
-      "explanationDetail": "Wollen expresses desire or intention. Wir wollen fahren (we want to go). Modal verb + infinitive at end.",
+      "correctAnswerId": "a",
+      "explanation": "müssen = must",
+      "explanationDetail": "Ihr müsst aufstehen (you have to get up).",
       "tags": [
         "verbs",
         "modal-verbs",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "multiple-choice",
-      "text": "Sie ___ gestern ein Buch gelesen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "hat"
-        },
-        {
-          "id": "b",
-          "text": "ist"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "lesen uses haben in Perfekt",
-      "explanationDetail": "Most verbs use 'haben' in Perfekt. Sie hat gelesen (she read). Strong verb: lesen → gelesen.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "multiple-choice",
-      "text": "Er kann nicht ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "mitkommen"
-        },
-        {
-          "id": "b",
-          "text": "kommt mit"
-        },
-        {
-          "id": "c",
-          "text": "mitgekommen"
-        },
-        {
-          "id": "d",
-          "text": "mit kommen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "With modal verbs, separable verb stays together",
-      "explanationDetail": "Mitkommen with modal verb: Er kann mitkommen (he can come along). Separable verb stays as one word with modal verbs.",
-      "tags": [
-        "verbs",
-        "separable-verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern keine Zeit.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "wurde"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "haben in Präteritum: ich hatte",
-      "explanationDetail": "Haben in Präteritum: ich hatte, du hattest, er hatte, wir hatten. Ich hatte keine Zeit (I had no time).",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "bin"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "gehen uses sein in Perfekt",
-      "explanationDetail": "Motion verbs use 'sein' in Perfekt. Ich bin gegangen (I went). Other motion verbs: fahren, kommen, fliegen, laufen.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Er ___ gestern krank.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "wurde"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: er war",
-      "explanationDetail": "Sein in Präteritum: ich war, du warst, er war, wir waren. Er war krank (he was sick).",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Du ___ hier nicht rauchen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "musst"
-        },
-        {
-          "id": "b",
-          "text": "kannst"
-        },
-        {
-          "id": "c",
-          "text": "willst"
-        },
-        {
-          "id": "d",
-          "text": "darfst"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "dürfen (negative) = must not",
-      "explanationDetail": "Du darfst nicht rauchen (you must not smoke / you're not allowed to smoke). Dürfen expresses permission/prohibition.",
-      "tags": [
-        "verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Ich stehe jeden Tag um 7 Uhr ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "auf"
-        },
-        {
-          "id": "b",
-          "text": "aufstehe"
-        },
-        {
-          "id": "c",
-          "text": "stehe auf"
-        },
-        {
-          "id": "d",
-          "text": "aufstehen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Separable prefix goes to end",
-      "explanationDetail": "Aufstehen (to get up): Ich stehe... auf. The prefix 'auf' separates and goes to the end in present tense.",
-      "tags": [
-        "verbs",
-        "separable-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Wir ___ morgen nach Berlin fahren.",
-      "options": [
-        {
-          "id": "a",
-          "text": "müssen"
-        },
-        {
-          "id": "b",
-          "text": "können"
-        },
-        {
-          "id": "c",
-          "text": "wollen"
-        },
-        {
-          "id": "d",
-          "text": "sollen"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "wollen = to want to",
-      "explanationDetail": "Wollen expresses desire or intention. Wir wollen fahren (we want to go). Modal verb + infinitive at end.",
-      "tags": [
-        "verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Sie ___ gestern ein Buch gelesen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "hat"
-        },
-        {
-          "id": "b",
-          "text": "ist"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "lesen uses haben in Perfekt",
-      "explanationDetail": "Most verbs use 'haben' in Perfekt. Sie hat gelesen (she read). Strong verb: lesen → gelesen.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Er kann nicht ___.",
-      "options": [
-        {
-          "id": "a",
-          "text": "mitkommen"
-        },
-        {
-          "id": "b",
-          "text": "kommt mit"
-        },
-        {
-          "id": "c",
-          "text": "mitgekommen"
-        },
-        {
-          "id": "d",
-          "text": "mit kommen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "With modal verbs, separable verb stays together",
-      "explanationDetail": "Mitkommen with modal verb: Er kann mitkommen (he can come along). Separable verb stays as one word with modal verbs.",
-      "tags": [
-        "verbs",
-        "separable-verbs",
-        "modal-verbs",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q48",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern keine Zeit.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "wurde"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "haben in Präteritum: ich hatte",
-      "explanationDetail": "Haben in Präteritum: ich hatte, du hattest, er hatte, wir hatten. Ich hatte keine Zeit (I had no time).",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "multiple-choice",
-      "text": "Ich ___ gestern ins Kino gegangen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "bin"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "war"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "gehen uses sein in Perfekt",
-      "explanationDetail": "Motion verbs use 'sein' in Perfekt. Ich bin gegangen (I went). Other motion verbs: fahren, kommen, fliegen, laufen.",
-      "tags": [
-        "verbs",
-        "perfekt",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q50",
-      "type": "multiple-choice",
-      "text": "Er ___ gestern krank.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ist"
-        },
-        {
-          "id": "b",
-          "text": "war"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "wurde"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sein in Präteritum: er war",
-      "explanationDetail": "Sein in Präteritum: ich war, du warst, er war, wir waren. Er war krank (he was sick).",
-      "tags": [
-        "verbs",
-        "praeteritum",
-        "quick-practice"
-      ]
+      "id": "q50"
     }
   ]
 }

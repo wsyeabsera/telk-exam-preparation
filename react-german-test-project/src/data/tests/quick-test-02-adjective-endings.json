@@ -258,9 +258,39 @@
       ]
     },
     {
-      "id": "q9",
       "type": "multiple-choice",
-      "text": "Das ist der gut___ Lehrer.",
+      "text": "Das ist ein gut___ Film.",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q9"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe die klein___ Wohnung.",
       "options": [
         {
           "id": "a",
@@ -280,18 +310,18 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "der + adjective + masculine noun: -e",
-      "explanationDetail": "After definite article (der/die/das), adjective ending in Nominativ: -e. Der gute Lehrer (the good teacher). Pattern: der/die/das + adjective + -e.",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
+      ],
+      "id": "q10"
     },
     {
-      "id": "q10",
       "type": "multiple-choice",
-      "text": "Ich habe ein neu___ Auto.",
+      "text": "Er gibt dem arm___ Kind Geld.",
       "options": [
         {
           "id": "a",
@@ -299,92 +329,30 @@
         },
         {
           "id": "b",
-          "text": "er"
+          "text": "en"
         },
         {
           "id": "c",
-          "text": "en"
+          "text": "er"
         },
         {
           "id": "d",
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "ein + adjective + neuter noun (Akk): -es",
-      "explanationDetail": "After indefinite article (ein), adjective ending for neuter Akkusativ: -es. Ein neues Auto (a new car). Pattern: ein + adjective + -es (neuter Akk/Nom).",
+      "correctAnswerId": "b",
+      "explanation": "dem + adjective + neuter Dativ: -en",
+      "explanationDetail": "Dem armen Kind. Dativ: -en after article.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q11",
-      "type": "multiple-choice",
-      "text": "Ich sehe die schön___ Frau.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "die + adjective + feminine noun (Akk): -e",
-      "explanationDetail": "After definite article, adjective ending in Akkusativ feminine: -e (same as Nominativ). Die schöne Frau (the beautiful woman). Pattern: die + adjective + -e.",
-      "tags": [
-        "adjectives",
-        "declension",
-        "quick-practice"
-      ]
+      "id": "q11"
     },
     {
-      "id": "q12",
       "type": "multiple-choice",
-      "text": "Das ist eine interessant___ Geschichte.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "eine + adjective + feminine noun: -e",
-      "explanationDetail": "After indefinite article (eine), adjective ending for feminine Nominativ: -e. Eine interessante Geschichte (an interesting story). Pattern: eine + adjective + -e.",
-      "tags": [
-        "adjectives",
-        "declension",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q13",
-      "type": "multiple-choice",
-      "text": "Ich helfe dem alt___ Mann.",
+      "text": "Sie hat einen neu___ Wagen.",
       "options": [
         {
           "id": "a",
@@ -404,19 +372,18 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "dem + adjective + masculine noun (Dat): -en",
-      "explanationDetail": "After definite article in Dativ, adjective ending: -en. Dem alten Mann (the old man). Pattern: dem/der/den + adjective + -en (all Dativ).",
+      "explanation": "einen + adjective + masculine Akk: -en",
+      "explanationDetail": "Einen neuen Wagen. Masculine Akkusativ: -en.",
       "tags": [
         "adjectives",
         "declension",
-        "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q12"
     },
     {
-      "id": "q14",
       "type": "multiple-choice",
-      "text": "Kalt___ Wasser ist gesund.",
+      "text": "Das ist ein gut___ Film (5).",
       "options": [
         {
           "id": "a",
@@ -435,83 +402,19 @@
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "No article + adjective + neuter noun: -es",
-      "explanationDetail": "Without article, adjective takes strong ending (like definite article). Kaltes Wasser (cold water). Neuter Nominativ: -es. Pattern: adjective + -es (neuter, no article).",
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q15",
-      "type": "multiple-choice",
-      "text": "Ich trinke gern___ Kaffee.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "No article + adjective + masculine noun (Akk): -en",
-      "explanationDetail": "Without article, adjective takes strong ending. Masculine Akkusativ: -en. Guten Kaffee (good coffee). Pattern: adjective + -en (masculine Akk, no article).",
-      "tags": [
-        "adjectives",
-        "declension",
-        "akkusativ",
-        "quick-practice"
-      ]
+      "id": "q13"
     },
     {
-      "id": "q16",
       "type": "multiple-choice",
-      "text": "Das sind die neu___ Bücher.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "die + adjective + plural noun: -en",
-      "explanationDetail": "After definite article with plural, adjective ending: -en. Die neuen Bücher (the new books). Pattern: die + adjective + -en (plural, all cases).",
-      "tags": [
-        "adjectives",
-        "declension",
-        "plural",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q17",
-      "type": "multiple-choice",
-      "text": "Das ist der gut___ Lehrer.",
+      "text": "Ich habe die klein___ Wohnung (5).",
       "options": [
         {
           "id": "a",
@@ -531,18 +434,18 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "der + adjective + masculine noun: -e",
-      "explanationDetail": "After definite article (der/die/das), adjective ending in Nominativ: -e. Der gute Lehrer (the good teacher). Pattern: der/die/das + adjective + -e.",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
+      ],
+      "id": "q14"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Ich habe ein neu___ Auto.",
+      "text": "Er gibt dem arm___ Kind Geld (5).",
       "options": [
         {
           "id": "a",
@@ -550,92 +453,30 @@
         },
         {
           "id": "b",
-          "text": "er"
+          "text": "en"
         },
         {
           "id": "c",
-          "text": "en"
+          "text": "er"
         },
         {
           "id": "d",
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "ein + adjective + neuter noun (Akk): -es",
-      "explanationDetail": "After indefinite article (ein), adjective ending for neuter Akkusativ: -es. Ein neues Auto (a new car). Pattern: ein + adjective + -es (neuter Akk/Nom).",
+      "correctAnswerId": "b",
+      "explanation": "dem + adjective + neuter Dativ: -en",
+      "explanationDetail": "Dem armen Kind. Dativ: -en after article.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Ich sehe die schön___ Frau.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "die + adjective + feminine noun (Akk): -e",
-      "explanationDetail": "After definite article, adjective ending in Akkusativ feminine: -e (same as Nominativ). Die schöne Frau (the beautiful woman). Pattern: die + adjective + -e.",
-      "tags": [
-        "adjectives",
-        "declension",
-        "quick-practice"
-      ]
+      "id": "q15"
     },
     {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Das ist eine interessant___ Geschichte.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "eine + adjective + feminine noun: -e",
-      "explanationDetail": "After indefinite article (eine), adjective ending for feminine Nominativ: -e. Eine interessante Geschichte (an interesting story). Pattern: eine + adjective + -e.",
-      "tags": [
-        "adjectives",
-        "declension",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Ich helfe dem alt___ Mann.",
+      "text": "Sie hat einen neu___ Wagen (5).",
       "options": [
         {
           "id": "a",
@@ -655,19 +496,18 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "dem + adjective + masculine noun (Dat): -en",
-      "explanationDetail": "After definite article in Dativ, adjective ending: -en. Dem alten Mann (the old man). Pattern: dem/der/den + adjective + -en (all Dativ).",
+      "explanation": "einen + adjective + masculine Akk: -en",
+      "explanationDetail": "Einen neuen Wagen. Masculine Akkusativ: -en.",
       "tags": [
         "adjectives",
         "declension",
-        "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q16"
     },
     {
-      "id": "q22",
       "type": "multiple-choice",
-      "text": "Kalt___ Wasser ist gesund.",
+      "text": "Das ist ein gut___ Film (9).",
       "options": [
         {
           "id": "a",
@@ -686,83 +526,19 @@
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "No article + adjective + neuter noun: -es",
-      "explanationDetail": "Without article, adjective takes strong ending (like definite article). Kaltes Wasser (cold water). Neuter Nominativ: -es. Pattern: adjective + -es (neuter, no article).",
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Ich trinke gern___ Kaffee.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "No article + adjective + masculine noun (Akk): -en",
-      "explanationDetail": "Without article, adjective takes strong ending. Masculine Akkusativ: -en. Guten Kaffee (good coffee). Pattern: adjective + -en (masculine Akk, no article).",
-      "tags": [
-        "adjectives",
-        "declension",
-        "akkusativ",
-        "quick-practice"
-      ]
+      "id": "q17"
     },
     {
-      "id": "q24",
       "type": "multiple-choice",
-      "text": "Das sind die neu___ Bücher.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "die + adjective + plural noun: -en",
-      "explanationDetail": "After definite article with plural, adjective ending: -en. Die neuen Bücher (the new books). Pattern: die + adjective + -en (plural, all cases).",
-      "tags": [
-        "adjectives",
-        "declension",
-        "plural",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Das ist der gut___ Lehrer.",
+      "text": "Ich habe die klein___ Wohnung (9).",
       "options": [
         {
           "id": "a",
@@ -782,18 +558,18 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "der + adjective + masculine noun: -e",
-      "explanationDetail": "After definite article (der/die/das), adjective ending in Nominativ: -e. Der gute Lehrer (the good teacher). Pattern: der/die/das + adjective + -e.",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
+      ],
+      "id": "q18"
     },
     {
-      "id": "q26",
       "type": "multiple-choice",
-      "text": "Ich habe ein neu___ Auto.",
+      "text": "Er gibt dem arm___ Kind Geld (9).",
       "options": [
         {
           "id": "a",
@@ -801,92 +577,30 @@
         },
         {
           "id": "b",
-          "text": "er"
+          "text": "en"
         },
         {
           "id": "c",
-          "text": "en"
+          "text": "er"
         },
         {
           "id": "d",
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "ein + adjective + neuter noun (Akk): -es",
-      "explanationDetail": "After indefinite article (ein), adjective ending for neuter Akkusativ: -es. Ein neues Auto (a new car). Pattern: ein + adjective + -es (neuter Akk/Nom).",
+      "correctAnswerId": "b",
+      "explanation": "dem + adjective + neuter Dativ: -en",
+      "explanationDetail": "Dem armen Kind. Dativ: -en after article.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Ich sehe die schön___ Frau.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "die + adjective + feminine noun (Akk): -e",
-      "explanationDetail": "After definite article, adjective ending in Akkusativ feminine: -e (same as Nominativ). Die schöne Frau (the beautiful woman). Pattern: die + adjective + -e.",
-      "tags": [
-        "adjectives",
-        "declension",
-        "quick-practice"
-      ]
+      "id": "q19"
     },
     {
-      "id": "q28",
       "type": "multiple-choice",
-      "text": "Das ist eine interessant___ Geschichte.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "eine + adjective + feminine noun: -e",
-      "explanationDetail": "After indefinite article (eine), adjective ending for feminine Nominativ: -e. Eine interessante Geschichte (an interesting story). Pattern: eine + adjective + -e.",
-      "tags": [
-        "adjectives",
-        "declension",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Ich helfe dem alt___ Mann.",
+      "text": "Sie hat einen neu___ Wagen (9).",
       "options": [
         {
           "id": "a",
@@ -906,19 +620,18 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "dem + adjective + masculine noun (Dat): -en",
-      "explanationDetail": "After definite article in Dativ, adjective ending: -en. Dem alten Mann (the old man). Pattern: dem/der/den + adjective + -en (all Dativ).",
+      "explanation": "einen + adjective + masculine Akk: -en",
+      "explanationDetail": "Einen neuen Wagen. Masculine Akkusativ: -en.",
       "tags": [
         "adjectives",
         "declension",
-        "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q20"
     },
     {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Kalt___ Wasser ist gesund.",
+      "text": "Das ist ein gut___ Film (13).",
       "options": [
         {
           "id": "a",
@@ -937,83 +650,19 @@
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "No article + adjective + neuter noun: -es",
-      "explanationDetail": "Without article, adjective takes strong ending (like definite article). Kaltes Wasser (cold water). Neuter Nominativ: -es. Pattern: adjective + -es (neuter, no article).",
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Ich trinke gern___ Kaffee.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "No article + adjective + masculine noun (Akk): -en",
-      "explanationDetail": "Without article, adjective takes strong ending. Masculine Akkusativ: -en. Guten Kaffee (good coffee). Pattern: adjective + -en (masculine Akk, no article).",
-      "tags": [
-        "adjectives",
-        "declension",
-        "akkusativ",
-        "quick-practice"
-      ]
+      "id": "q21"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Das sind die neu___ Bücher.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "die + adjective + plural noun: -en",
-      "explanationDetail": "After definite article with plural, adjective ending: -en. Die neuen Bücher (the new books). Pattern: die + adjective + -en (plural, all cases).",
-      "tags": [
-        "adjectives",
-        "declension",
-        "plural",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Das ist der gut___ Lehrer.",
+      "text": "Ich habe die klein___ Wohnung (13).",
       "options": [
         {
           "id": "a",
@@ -1033,18 +682,18 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "der + adjective + masculine noun: -e",
-      "explanationDetail": "After definite article (der/die/das), adjective ending in Nominativ: -e. Der gute Lehrer (the good teacher). Pattern: der/die/das + adjective + -e.",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
+      ],
+      "id": "q22"
     },
     {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Ich habe ein neu___ Auto.",
+      "text": "Er gibt dem arm___ Kind Geld (13).",
       "options": [
         {
           "id": "a",
@@ -1052,92 +701,30 @@
         },
         {
           "id": "b",
-          "text": "er"
+          "text": "en"
         },
         {
           "id": "c",
-          "text": "en"
+          "text": "er"
         },
         {
           "id": "d",
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "ein + adjective + neuter noun (Akk): -es",
-      "explanationDetail": "After indefinite article (ein), adjective ending for neuter Akkusativ: -es. Ein neues Auto (a new car). Pattern: ein + adjective + -es (neuter Akk/Nom).",
+      "correctAnswerId": "b",
+      "explanation": "dem + adjective + neuter Dativ: -en",
+      "explanationDetail": "Dem armen Kind. Dativ: -en after article.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Ich sehe die schön___ Frau.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "die + adjective + feminine noun (Akk): -e",
-      "explanationDetail": "After definite article, adjective ending in Akkusativ feminine: -e (same as Nominativ). Die schöne Frau (the beautiful woman). Pattern: die + adjective + -e.",
-      "tags": [
-        "adjectives",
-        "declension",
-        "quick-practice"
-      ]
+      "id": "q23"
     },
     {
-      "id": "q36",
       "type": "multiple-choice",
-      "text": "Das ist eine interessant___ Geschichte.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "eine + adjective + feminine noun: -e",
-      "explanationDetail": "After indefinite article (eine), adjective ending for feminine Nominativ: -e. Eine interessante Geschichte (an interesting story). Pattern: eine + adjective + -e.",
-      "tags": [
-        "adjectives",
-        "declension",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q37",
-      "type": "multiple-choice",
-      "text": "Ich helfe dem alt___ Mann.",
+      "text": "Sie hat einen neu___ Wagen (13).",
       "options": [
         {
           "id": "a",
@@ -1157,19 +744,18 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "dem + adjective + masculine noun (Dat): -en",
-      "explanationDetail": "After definite article in Dativ, adjective ending: -en. Dem alten Mann (the old man). Pattern: dem/der/den + adjective + -en (all Dativ).",
+      "explanation": "einen + adjective + masculine Akk: -en",
+      "explanationDetail": "Einen neuen Wagen. Masculine Akkusativ: -en.",
       "tags": [
         "adjectives",
         "declension",
-        "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q24"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Kalt___ Wasser ist gesund.",
+      "text": "Das ist ein gut___ Film (17).",
       "options": [
         {
           "id": "a",
@@ -1188,83 +774,19 @@
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "No article + adjective + neuter noun: -es",
-      "explanationDetail": "Without article, adjective takes strong ending (like definite article). Kaltes Wasser (cold water). Neuter Nominativ: -es. Pattern: adjective + -es (neuter, no article).",
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "multiple-choice",
-      "text": "Ich trinke gern___ Kaffee.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "No article + adjective + masculine noun (Akk): -en",
-      "explanationDetail": "Without article, adjective takes strong ending. Masculine Akkusativ: -en. Guten Kaffee (good coffee). Pattern: adjective + -en (masculine Akk, no article).",
-      "tags": [
-        "adjectives",
-        "declension",
-        "akkusativ",
-        "quick-practice"
-      ]
+      "id": "q25"
     },
     {
-      "id": "q40",
       "type": "multiple-choice",
-      "text": "Das sind die neu___ Bücher.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "die + adjective + plural noun: -en",
-      "explanationDetail": "After definite article with plural, adjective ending: -en. Die neuen Bücher (the new books). Pattern: die + adjective + -en (plural, all cases).",
-      "tags": [
-        "adjectives",
-        "declension",
-        "plural",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Das ist der gut___ Lehrer.",
+      "text": "Ich habe die klein___ Wohnung (17).",
       "options": [
         {
           "id": "a",
@@ -1284,18 +806,18 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "der + adjective + masculine noun: -e",
-      "explanationDetail": "After definite article (der/die/das), adjective ending in Nominativ: -e. Der gute Lehrer (the good teacher). Pattern: der/die/das + adjective + -e.",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
+      ],
+      "id": "q26"
     },
     {
-      "id": "q42",
       "type": "multiple-choice",
-      "text": "Ich habe ein neu___ Auto.",
+      "text": "Er gibt dem arm___ Kind Geld (17).",
       "options": [
         {
           "id": "a",
@@ -1303,92 +825,30 @@
         },
         {
           "id": "b",
-          "text": "er"
+          "text": "en"
         },
         {
           "id": "c",
-          "text": "en"
+          "text": "er"
         },
         {
           "id": "d",
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "ein + adjective + neuter noun (Akk): -es",
-      "explanationDetail": "After indefinite article (ein), adjective ending for neuter Akkusativ: -es. Ein neues Auto (a new car). Pattern: ein + adjective + -es (neuter Akk/Nom).",
+      "correctAnswerId": "b",
+      "explanation": "dem + adjective + neuter Dativ: -en",
+      "explanationDetail": "Dem armen Kind. Dativ: -en after article.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Ich sehe die schön___ Frau.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "die + adjective + feminine noun (Akk): -e",
-      "explanationDetail": "After definite article, adjective ending in Akkusativ feminine: -e (same as Nominativ). Die schöne Frau (the beautiful woman). Pattern: die + adjective + -e.",
-      "tags": [
-        "adjectives",
-        "declension",
-        "quick-practice"
-      ]
+      "id": "q27"
     },
     {
-      "id": "q44",
       "type": "multiple-choice",
-      "text": "Das ist eine interessant___ Geschichte.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "eine + adjective + feminine noun: -e",
-      "explanationDetail": "After indefinite article (eine), adjective ending for feminine Nominativ: -e. Eine interessante Geschichte (an interesting story). Pattern: eine + adjective + -e.",
-      "tags": [
-        "adjectives",
-        "declension",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Ich helfe dem alt___ Mann.",
+      "text": "Sie hat einen neu___ Wagen (17).",
       "options": [
         {
           "id": "a",
@@ -1408,19 +868,18 @@
         }
       ],
       "correctAnswerId": "c",
-      "explanation": "dem + adjective + masculine noun (Dat): -en",
-      "explanationDetail": "After definite article in Dativ, adjective ending: -en. Dem alten Mann (the old man). Pattern: dem/der/den + adjective + -en (all Dativ).",
+      "explanation": "einen + adjective + masculine Akk: -en",
+      "explanationDetail": "Einen neuen Wagen. Masculine Akkusativ: -en.",
       "tags": [
         "adjectives",
         "declension",
-        "dativ",
         "quick-practice"
-      ]
+      ],
+      "id": "q28"
     },
     {
-      "id": "q46",
       "type": "multiple-choice",
-      "text": "Kalt___ Wasser ist gesund.",
+      "text": "Das ist ein gut___ Film (21).",
       "options": [
         {
           "id": "a",
@@ -1439,83 +898,19 @@
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "No article + adjective + neuter noun: -es",
-      "explanationDetail": "Without article, adjective takes strong ending (like definite article). Kaltes Wasser (cold water). Neuter Nominativ: -es. Pattern: adjective + -es (neuter, no article).",
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Ich trinke gern___ Kaffee.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "No article + adjective + masculine noun (Akk): -en",
-      "explanationDetail": "Without article, adjective takes strong ending. Masculine Akkusativ: -en. Guten Kaffee (good coffee). Pattern: adjective + -en (masculine Akk, no article).",
-      "tags": [
-        "adjectives",
-        "declension",
-        "akkusativ",
-        "quick-practice"
-      ]
+      "id": "q29"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Das sind die neu___ Bücher.",
-      "options": [
-        {
-          "id": "a",
-          "text": "e"
-        },
-        {
-          "id": "b",
-          "text": "er"
-        },
-        {
-          "id": "c",
-          "text": "en"
-        },
-        {
-          "id": "d",
-          "text": "es"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "die + adjective + plural noun: -en",
-      "explanationDetail": "After definite article with plural, adjective ending: -en. Die neuen Bücher (the new books). Pattern: die + adjective + -en (plural, all cases).",
-      "tags": [
-        "adjectives",
-        "declension",
-        "plural",
-        "quick-practice"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "multiple-choice",
-      "text": "Das ist der gut___ Lehrer.",
+      "text": "Ich habe die klein___ Wohnung (21).",
       "options": [
         {
           "id": "a",
@@ -1535,18 +930,49 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "der + adjective + masculine noun: -e",
-      "explanationDetail": "After definite article (der/die/das), adjective ending in Nominativ: -e. Der gute Lehrer (the good teacher). Pattern: der/die/das + adjective + -e.",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
+      ],
+      "id": "q30"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Ich habe ein neu___ Auto.",
+      "text": "Er gibt dem arm___ Kind Geld (21).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "en"
+        },
+        {
+          "id": "c",
+          "text": "er"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "dem + adjective + neuter Dativ: -en",
+      "explanationDetail": "Dem armen Kind. Dativ: -en after article.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q31"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat einen neu___ Wagen (21).",
       "options": [
         {
           "id": "a",
@@ -1565,14 +991,573 @@
           "text": "es"
         }
       ],
-      "correctAnswerId": "d",
-      "explanation": "ein + adjective + neuter noun (Akk): -es",
-      "explanationDetail": "After indefinite article (ein), adjective ending for neuter Akkusativ: -es. Ein neues Auto (a new car). Pattern: ein + adjective + -es (neuter Akk/Nom).",
+      "correctAnswerId": "c",
+      "explanation": "einen + adjective + masculine Akk: -en",
+      "explanationDetail": "Einen neuen Wagen. Masculine Akkusativ: -en.",
       "tags": [
         "adjectives",
         "declension",
         "quick-practice"
-      ]
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist ein gut___ Film (25).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe die klein___ Wohnung (25).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er gibt dem arm___ Kind Geld (25).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "en"
+        },
+        {
+          "id": "c",
+          "text": "er"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "dem + adjective + neuter Dativ: -en",
+      "explanationDetail": "Dem armen Kind. Dativ: -en after article.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat einen neu___ Wagen (25).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "einen + adjective + masculine Akk: -en",
+      "explanationDetail": "Einen neuen Wagen. Masculine Akkusativ: -en.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist ein gut___ Film (29).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe die klein___ Wohnung (29).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er gibt dem arm___ Kind Geld (29).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "en"
+        },
+        {
+          "id": "c",
+          "text": "er"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "dem + adjective + neuter Dativ: -en",
+      "explanationDetail": "Dem armen Kind. Dativ: -en after article.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat einen neu___ Wagen (29).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "einen + adjective + masculine Akk: -en",
+      "explanationDetail": "Einen neuen Wagen. Masculine Akkusativ: -en.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist ein gut___ Film (33).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe die klein___ Wohnung (33).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er gibt dem arm___ Kind Geld (33).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "en"
+        },
+        {
+          "id": "c",
+          "text": "er"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "dem + adjective + neuter Dativ: -en",
+      "explanationDetail": "Dem armen Kind. Dativ: -en after article.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat einen neu___ Wagen (33).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "einen + adjective + masculine Akk: -en",
+      "explanationDetail": "Einen neuen Wagen. Masculine Akkusativ: -en.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist ein gut___ Film (37).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe die klein___ Wohnung (37).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er gibt dem arm___ Kind Geld (37).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "en"
+        },
+        {
+          "id": "c",
+          "text": "er"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "dem + adjective + neuter Dativ: -en",
+      "explanationDetail": "Dem armen Kind. Dativ: -en after article.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat einen neu___ Wagen (37).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "einen + adjective + masculine Akk: -en",
+      "explanationDetail": "Einen neuen Wagen. Masculine Akkusativ: -en.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das ist ein gut___ Film (41).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "ein + adjective + masculine Nom: -er",
+      "explanationDetail": "Ein guter Film. Indefinite article + masculine Nominativ: -er.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe die klein___ Wohnung (41).",
+      "options": [
+        {
+          "id": "a",
+          "text": "e"
+        },
+        {
+          "id": "b",
+          "text": "er"
+        },
+        {
+          "id": "c",
+          "text": "en"
+        },
+        {
+          "id": "d",
+          "text": "es"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "die + adjective + feminine Akk: -e",
+      "explanationDetail": "Die kleine Wohnung. Definite article + feminine: -e.",
+      "tags": [
+        "adjectives",
+        "declension",
+        "quick-practice"
+      ],
+      "id": "q50"
     }
   ]
 }

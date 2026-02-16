@@ -314,9 +314,8 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Berlin ist größer ___ München.",
+      "text": "Hamburg ist teurer ___ Leipzig.",
       "options": [
         {
           "id": "a",
@@ -337,17 +336,17 @@
       ],
       "correctAnswerId": "a",
       "explanation": "Comparative + als",
-      "explanationDetail": "With comparatives, use 'als' (than). Berlin ist größer als München (Berlin is bigger than Munich). Pattern: adjective + -er + als. Groß → größer.",
+      "explanationDetail": "With comparatives use als (than). Teurer als.",
       "tags": [
         "comparatives",
         "adjectives",
         "als"
-      ]
+      ],
+      "id": "q11"
     },
     {
-      "id": "q12",
       "type": "multiple-choice",
-      "text": "Er läuft so schnell ___ ich.",
+      "text": "Sie ist genauso groß ___ ich.",
       "options": [
         {
           "id": "a",
@@ -367,263 +366,48 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "so... wie = as... as",
-      "explanationDetail": "With 'so... wie', use 'wie' (as). Er läuft so schnell wie ich (he runs as fast as I do). Pattern: so + adjective + wie. Use for equal comparison.",
+      "explanation": "genauso... wie = as... as",
+      "explanationDetail": "Equal comparison: genauso + adjective + wie. Wie (as).",
       "tags": [
         "comparatives",
         "adjectives",
         "wie"
-      ]
+      ],
+      "id": "q12"
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
-      "text": "Dieses Buch ist ___ als das andere.",
+      "text": "Dieser Kaffee ist ___ als der andere.",
       "options": [
         {
           "id": "a",
-          "text": "interessant"
+          "text": "stärker"
         },
         {
           "id": "b",
-          "text": "interessanter"
+          "text": "stark"
         },
         {
           "id": "c",
-          "text": "am interessantesten"
+          "text": "stärkste"
         },
         {
           "id": "d",
-          "text": "interessanteren"
+          "text": "am stärksten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: interessanter",
-      "explanationDetail": "Comparative form: add -er to adjective. Interessant → interessanter (more interesting). Dieses Buch ist interessanter (this book is more interesting). Use with als for comparison.",
+      "correctAnswerId": "a",
+      "explanation": "Comparative form: stärker",
+      "explanationDetail": "Stark → stärker (stronger). Comparative: adjective + -er.",
       "tags": [
         "comparatives",
         "adjectives"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Sie ist ___ als ihre Schwester.",
-      "options": [
-        {
-          "id": "a",
-          "text": "jung"
-        },
-        {
-          "id": "b",
-          "text": "jünger"
-        },
-        {
-          "id": "c",
-          "text": "am jüngsten"
-        },
-        {
-          "id": "d",
-          "text": "jüngeren"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: jünger",
-      "explanationDetail": "Jung → jünger (younger). Many one-syllable adjectives add umlaut in comparative: jung → jünger, alt → älter, groß → größer. Sie ist jünger als ihre Schwester (she's younger than her sister).",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
+      "id": "q13"
     },
     {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Dieser Film ist genauso gut ___ der andere.",
-      "options": [
-        {
-          "id": "a",
-          "text": "als"
-        },
-        {
-          "id": "b",
-          "text": "wie"
-        },
-        {
-          "id": "c",
-          "text": "dass"
-        },
-        {
-          "id": "d",
-          "text": "von"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "genauso... wie = just as... as",
-      "explanationDetail": "Genauso... wie (just as... as) shows equal comparison. Dieser Film ist genauso gut wie der andere (this film is just as good as the other). Use wie for equality.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "wie"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "multiple-choice",
-      "text": "Das Wetter ist heute ___ als gestern.",
-      "options": [
-        {
-          "id": "a",
-          "text": "schön"
-        },
-        {
-          "id": "b",
-          "text": "schöner"
-        },
-        {
-          "id": "c",
-          "text": "am schönsten"
-        },
-        {
-          "id": "d",
-          "text": "schöneren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: schöner",
-      "explanationDetail": "Schön → schöner (nicer/more beautiful). Das Wetter ist schöner (the weather is nicer). Use comparative + als for comparison.",
-      "tags": [
-        "comparatives",
-        "adjectives"
-      ]
-    },
-    {
-      "id": "q17",
-      "type": "multiple-choice",
-      "text": "Ich bin ___ als du.",
-      "options": [
-        {
-          "id": "a",
-          "text": "alt"
-        },
-        {
-          "id": "b",
-          "text": "älter"
-        },
-        {
-          "id": "c",
-          "text": "am ältesten"
-        },
-        {
-          "id": "d",
-          "text": "älteren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: älter",
-      "explanationDetail": "Alt → älter (older). One-syllable adjectives often add umlaut: alt → älter. Ich bin älter als du (I'm older than you).",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q18",
-      "type": "multiple-choice",
-      "text": "Dieser Test ist ___ als der letzte.",
-      "options": [
-        {
-          "id": "a",
-          "text": "leicht"
-        },
-        {
-          "id": "b",
-          "text": "leichter"
-        },
-        {
-          "id": "c",
-          "text": "am leichtesten"
-        },
-        {
-          "id": "d",
-          "text": "leichteren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: leichter",
-      "explanationDetail": "Leicht → leichter (easier). Dieser Test ist leichter (this test is easier). Comparative form: adjective + -er.",
-      "tags": [
-        "comparatives",
-        "adjectives"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Er spricht Deutsch ___ als ich.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gut"
-        },
-        {
-          "id": "b",
-          "text": "besser"
-        },
-        {
-          "id": "c",
-          "text": "am besten"
-        },
-        {
-          "id": "d",
-          "text": "guter"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Irregular comparative: besser",
-      "explanationDetail": "Gut → besser (better) is irregular. Er spricht besser als ich (he speaks better than I do). Other irregular comparatives: viel → mehr, gern → lieber.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "irregular"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Sie hat ___ Geld als er.",
-      "options": [
-        {
-          "id": "a",
-          "text": "viel"
-        },
-        {
-          "id": "b",
-          "text": "mehr"
-        },
-        {
-          "id": "c",
-          "text": "am meisten"
-        },
-        {
-          "id": "d",
-          "text": "vieler"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Irregular comparative: mehr",
-      "explanationDetail": "Viel → mehr (more) is irregular. Sie hat mehr Geld (she has more money). Mehr doesn't change form. Use with als for comparison.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "irregular"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Berlin ist größer ___ München.",
+      "text": "Er arbeitet schneller ___ sein Kollege.",
       "options": [
         {
           "id": "a",
@@ -644,17 +428,47 @@
       ],
       "correctAnswerId": "a",
       "explanation": "Comparative + als",
-      "explanationDetail": "With comparatives, use 'als' (than). Berlin ist größer als München (Berlin is bigger than Munich). Pattern: adjective + -er + als. Groß → größer.",
+      "explanationDetail": "Schneller als (faster than). Adverb comparative + als.",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q14"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Wetter ist heute ___ als gestern.",
+      "options": [
+        {
+          "id": "a",
+          "text": "besser"
+        },
+        {
+          "id": "b",
+          "text": "gut"
+        },
+        {
+          "id": "c",
+          "text": "beste"
+        },
+        {
+          "id": "d",
+          "text": "am besten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative: besser",
+      "explanationDetail": "Gut → besser (better, irregular).",
       "tags": [
         "comparatives",
         "adjectives",
-        "als"
-      ]
+        "irregular"
+      ],
+      "id": "q15"
     },
     {
-      "id": "q22",
       "type": "multiple-choice",
-      "text": "Er läuft so schnell ___ ich.",
+      "text": "Mein Bruder ist so alt ___ ich.",
       "options": [
         {
           "id": "a",
@@ -675,262 +489,46 @@
       ],
       "correctAnswerId": "b",
       "explanation": "so... wie = as... as",
-      "explanationDetail": "With 'so... wie', use 'wie' (as). Er läuft so schnell wie ich (he runs as fast as I do). Pattern: so + adjective + wie. Use for equal comparison.",
+      "explanationDetail": "So alt wie ich (as old as I am). Equal comparison.",
       "tags": [
         "comparatives",
-        "adjectives",
         "wie"
-      ]
+      ],
+      "id": "q16"
     },
     {
-      "id": "q23",
       "type": "multiple-choice",
-      "text": "Dieses Buch ist ___ als das andere.",
+      "text": "Diese Aufgabe ist ___ als die erste.",
       "options": [
         {
           "id": "a",
-          "text": "interessant"
+          "text": "schwieriger"
         },
         {
           "id": "b",
-          "text": "interessanter"
+          "text": "schwierig"
         },
         {
           "id": "c",
-          "text": "am interessantesten"
+          "text": "schwierigste"
         },
         {
           "id": "d",
-          "text": "interessanteren"
+          "text": "am schwierigsten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: interessanter",
-      "explanationDetail": "Comparative form: add -er to adjective. Interessant → interessanter (more interesting). Dieses Buch ist interessanter (this book is more interesting). Use with als for comparison.",
+      "correctAnswerId": "a",
+      "explanation": "Comparative: schwieriger",
+      "explanationDetail": "Schwierig → schwieriger (more difficult).",
       "tags": [
         "comparatives",
         "adjectives"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "multiple-choice",
-      "text": "Sie ist ___ als ihre Schwester.",
-      "options": [
-        {
-          "id": "a",
-          "text": "jung"
-        },
-        {
-          "id": "b",
-          "text": "jünger"
-        },
-        {
-          "id": "c",
-          "text": "am jüngsten"
-        },
-        {
-          "id": "d",
-          "text": "jüngeren"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: jünger",
-      "explanationDetail": "Jung → jünger (younger). Many one-syllable adjectives add umlaut in comparative: jung → jünger, alt → älter, groß → größer. Sie ist jünger als ihre Schwester (she's younger than her sister).",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
+      "id": "q17"
     },
     {
-      "id": "q25",
       "type": "multiple-choice",
-      "text": "Dieser Film ist genauso gut ___ der andere.",
-      "options": [
-        {
-          "id": "a",
-          "text": "als"
-        },
-        {
-          "id": "b",
-          "text": "wie"
-        },
-        {
-          "id": "c",
-          "text": "dass"
-        },
-        {
-          "id": "d",
-          "text": "von"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "genauso... wie = just as... as",
-      "explanationDetail": "Genauso... wie (just as... as) shows equal comparison. Dieser Film ist genauso gut wie der andere (this film is just as good as the other). Use wie for equality.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "wie"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "multiple-choice",
-      "text": "Das Wetter ist heute ___ als gestern.",
-      "options": [
-        {
-          "id": "a",
-          "text": "schön"
-        },
-        {
-          "id": "b",
-          "text": "schöner"
-        },
-        {
-          "id": "c",
-          "text": "am schönsten"
-        },
-        {
-          "id": "d",
-          "text": "schöneren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: schöner",
-      "explanationDetail": "Schön → schöner (nicer/more beautiful). Das Wetter ist schöner (the weather is nicer). Use comparative + als for comparison.",
-      "tags": [
-        "comparatives",
-        "adjectives"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Ich bin ___ als du.",
-      "options": [
-        {
-          "id": "a",
-          "text": "alt"
-        },
-        {
-          "id": "b",
-          "text": "älter"
-        },
-        {
-          "id": "c",
-          "text": "am ältesten"
-        },
-        {
-          "id": "d",
-          "text": "älteren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: älter",
-      "explanationDetail": "Alt → älter (older). One-syllable adjectives often add umlaut: alt → älter. Ich bin älter als du (I'm older than you).",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Dieser Test ist ___ als der letzte.",
-      "options": [
-        {
-          "id": "a",
-          "text": "leicht"
-        },
-        {
-          "id": "b",
-          "text": "leichter"
-        },
-        {
-          "id": "c",
-          "text": "am leichtesten"
-        },
-        {
-          "id": "d",
-          "text": "leichteren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: leichter",
-      "explanationDetail": "Leicht → leichter (easier). Dieser Test ist leichter (this test is easier). Comparative form: adjective + -er.",
-      "tags": [
-        "comparatives",
-        "adjectives"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Er spricht Deutsch ___ als ich.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gut"
-        },
-        {
-          "id": "b",
-          "text": "besser"
-        },
-        {
-          "id": "c",
-          "text": "am besten"
-        },
-        {
-          "id": "d",
-          "text": "guter"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Irregular comparative: besser",
-      "explanationDetail": "Gut → besser (better) is irregular. Er spricht besser als ich (he speaks better than I do). Other irregular comparatives: viel → mehr, gern → lieber.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "irregular"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Sie hat ___ Geld als er.",
-      "options": [
-        {
-          "id": "a",
-          "text": "viel"
-        },
-        {
-          "id": "b",
-          "text": "mehr"
-        },
-        {
-          "id": "c",
-          "text": "am meisten"
-        },
-        {
-          "id": "d",
-          "text": "vieler"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Irregular comparative: mehr",
-      "explanationDetail": "Viel → mehr (more) is irregular. Sie hat mehr Geld (she has more money). Mehr doesn't change form. Use with als for comparison.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "irregular"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Berlin ist größer ___ München.",
+      "text": "Sie spricht lauter ___ du.",
       "options": [
         {
           "id": "a",
@@ -951,17 +549,16 @@
       ],
       "correctAnswerId": "a",
       "explanation": "Comparative + als",
-      "explanationDetail": "With comparatives, use 'als' (than). Berlin ist größer als München (Berlin is bigger than Munich). Pattern: adjective + -er + als. Groß → größer.",
+      "explanationDetail": "Lauter als (louder than).",
       "tags": [
         "comparatives",
-        "adjectives",
         "als"
-      ]
+      ],
+      "id": "q18"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Er läuft so schnell ___ ich.",
+      "text": "Es ist nicht so kalt ___ letzte Woche.",
       "options": [
         {
           "id": "a",
@@ -981,263 +578,47 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "so... wie = as... as",
-      "explanationDetail": "With 'so... wie', use 'wie' (as). Er läuft so schnell wie ich (he runs as fast as I do). Pattern: so + adjective + wie. Use for equal comparison.",
+      "explanation": "nicht so... wie",
+      "explanationDetail": "Nicht so kalt wie (not as cold as). Wie for equal comparison.",
       "tags": [
         "comparatives",
-        "adjectives",
         "wie"
-      ]
+      ],
+      "id": "q19"
     },
     {
-      "id": "q33",
       "type": "multiple-choice",
-      "text": "Dieses Buch ist ___ als das andere.",
+      "text": "Der neue Film ist ___ als der alte.",
       "options": [
         {
           "id": "a",
-          "text": "interessant"
+          "text": "länger"
         },
         {
           "id": "b",
-          "text": "interessanter"
+          "text": "lang"
         },
         {
           "id": "c",
-          "text": "am interessantesten"
+          "text": "längste"
         },
         {
           "id": "d",
-          "text": "interessanteren"
+          "text": "am längsten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: interessanter",
-      "explanationDetail": "Comparative form: add -er to adjective. Interessant → interessanter (more interesting). Dieses Buch ist interessanter (this book is more interesting). Use with als for comparison.",
+      "correctAnswerId": "a",
+      "explanation": "Comparative: länger",
+      "explanationDetail": "Lang → länger (longer). Mixed: add -er, change a to ä.",
       "tags": [
         "comparatives",
         "adjectives"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "multiple-choice",
-      "text": "Sie ist ___ als ihre Schwester.",
-      "options": [
-        {
-          "id": "a",
-          "text": "jung"
-        },
-        {
-          "id": "b",
-          "text": "jünger"
-        },
-        {
-          "id": "c",
-          "text": "am jüngsten"
-        },
-        {
-          "id": "d",
-          "text": "jüngeren"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: jünger",
-      "explanationDetail": "Jung → jünger (younger). Many one-syllable adjectives add umlaut in comparative: jung → jünger, alt → älter, groß → größer. Sie ist jünger als ihre Schwester (she's younger than her sister).",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
+      "id": "q20"
     },
     {
-      "id": "q35",
       "type": "multiple-choice",
-      "text": "Dieser Film ist genauso gut ___ der andere.",
-      "options": [
-        {
-          "id": "a",
-          "text": "als"
-        },
-        {
-          "id": "b",
-          "text": "wie"
-        },
-        {
-          "id": "c",
-          "text": "dass"
-        },
-        {
-          "id": "d",
-          "text": "von"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "genauso... wie = just as... as",
-      "explanationDetail": "Genauso... wie (just as... as) shows equal comparison. Dieser Film ist genauso gut wie der andere (this film is just as good as the other). Use wie for equality.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "wie"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Das Wetter ist heute ___ als gestern.",
-      "options": [
-        {
-          "id": "a",
-          "text": "schön"
-        },
-        {
-          "id": "b",
-          "text": "schöner"
-        },
-        {
-          "id": "c",
-          "text": "am schönsten"
-        },
-        {
-          "id": "d",
-          "text": "schöneren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: schöner",
-      "explanationDetail": "Schön → schöner (nicer/more beautiful). Das Wetter ist schöner (the weather is nicer). Use comparative + als for comparison.",
-      "tags": [
-        "comparatives",
-        "adjectives"
-      ]
-    },
-    {
-      "id": "q37",
-      "type": "multiple-choice",
-      "text": "Ich bin ___ als du.",
-      "options": [
-        {
-          "id": "a",
-          "text": "alt"
-        },
-        {
-          "id": "b",
-          "text": "älter"
-        },
-        {
-          "id": "c",
-          "text": "am ältesten"
-        },
-        {
-          "id": "d",
-          "text": "älteren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: älter",
-      "explanationDetail": "Alt → älter (older). One-syllable adjectives often add umlaut: alt → älter. Ich bin älter als du (I'm older than you).",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "multiple-choice",
-      "text": "Dieser Test ist ___ als der letzte.",
-      "options": [
-        {
-          "id": "a",
-          "text": "leicht"
-        },
-        {
-          "id": "b",
-          "text": "leichter"
-        },
-        {
-          "id": "c",
-          "text": "am leichtesten"
-        },
-        {
-          "id": "d",
-          "text": "leichteren"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: leichter",
-      "explanationDetail": "Leicht → leichter (easier). Dieser Test ist leichter (this test is easier). Comparative form: adjective + -er.",
-      "tags": [
-        "comparatives",
-        "adjectives"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "multiple-choice",
-      "text": "Er spricht Deutsch ___ als ich.",
-      "options": [
-        {
-          "id": "a",
-          "text": "gut"
-        },
-        {
-          "id": "b",
-          "text": "besser"
-        },
-        {
-          "id": "c",
-          "text": "am besten"
-        },
-        {
-          "id": "d",
-          "text": "guter"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Irregular comparative: besser",
-      "explanationDetail": "Gut → besser (better) is irregular. Er spricht besser als ich (he speaks better than I do). Other irregular comparatives: viel → mehr, gern → lieber.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "irregular"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Sie hat ___ Geld als er.",
-      "options": [
-        {
-          "id": "a",
-          "text": "viel"
-        },
-        {
-          "id": "b",
-          "text": "mehr"
-        },
-        {
-          "id": "c",
-          "text": "am meisten"
-        },
-        {
-          "id": "d",
-          "text": "vieler"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Irregular comparative: mehr",
-      "explanationDetail": "Viel → mehr (more) is irregular. Sie hat mehr Geld (she has more money). Mehr doesn't change form. Use with als for comparison.",
-      "tags": [
-        "comparatives",
-        "adjectives",
-        "irregular"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Berlin ist größer ___ München.",
+      "text": "Ich bin größer ___ meine Schwester.",
       "options": [
         {
           "id": "a",
@@ -1258,17 +639,16 @@
       ],
       "correctAnswerId": "a",
       "explanation": "Comparative + als",
-      "explanationDetail": "With comparatives, use 'als' (than). Berlin ist größer als München (Berlin is bigger than Munich). Pattern: adjective + -er + als. Groß → größer.",
+      "explanationDetail": "Größer als (bigger than).",
       "tags": [
         "comparatives",
-        "adjectives",
         "als"
-      ]
+      ],
+      "id": "q21"
     },
     {
-      "id": "q42",
       "type": "multiple-choice",
-      "text": "Er läuft so schnell ___ ich.",
+      "text": "Er fährt so vorsichtig ___ ich.",
       "options": [
         {
           "id": "a",
@@ -1288,79 +668,197 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "so... wie = as... as",
-      "explanationDetail": "With 'so... wie', use 'wie' (as). Er läuft so schnell wie ich (he runs as fast as I do). Pattern: so + adjective + wie. Use for equal comparison.",
+      "explanation": "so... wie",
+      "explanationDetail": "So vorsichtig wie (as carefully as).",
       "tags": [
         "comparatives",
-        "adjectives",
         "wie"
-      ]
+      ],
+      "id": "q22"
     },
     {
-      "id": "q43",
       "type": "multiple-choice",
-      "text": "Dieses Buch ist ___ als das andere.",
+      "text": "Das Zimmer ist ___ als das andere.",
       "options": [
         {
           "id": "a",
-          "text": "interessant"
+          "text": "heller"
         },
         {
           "id": "b",
-          "text": "interessanter"
+          "text": "hell"
         },
         {
           "id": "c",
-          "text": "am interessantesten"
+          "text": "hellste"
         },
         {
           "id": "d",
-          "text": "interessanteren"
+          "text": "am hellsten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: interessanter",
-      "explanationDetail": "Comparative form: add -er to adjective. Interessant → interessanter (more interesting). Dieses Buch ist interessanter (this book is more interesting). Use with als for comparison.",
+      "correctAnswerId": "a",
+      "explanation": "Comparative: heller",
+      "explanationDetail": "Hell → heller (brighter).",
       "tags": [
         "comparatives",
         "adjectives"
-      ]
+      ],
+      "id": "q23"
     },
     {
-      "id": "q44",
       "type": "multiple-choice",
-      "text": "Sie ist ___ als ihre Schwester.",
+      "text": "Sie ist jünger ___ ihr Bruder.",
       "options": [
         {
           "id": "a",
-          "text": "jung"
+          "text": "als"
         },
         {
           "id": "b",
-          "text": "jünger"
+          "text": "wie"
         },
         {
           "id": "c",
-          "text": "am jüngsten"
+          "text": "dass"
         },
         {
           "id": "d",
-          "text": "jüngeren"
+          "text": "von"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: jünger",
-      "explanationDetail": "Jung → jünger (younger). Many one-syllable adjectives add umlaut in comparative: jung → jünger, alt → älter, groß → größer. Sie ist jünger als ihre Schwester (she's younger than her sister).",
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Jünger als (younger than). Jung → jünger.",
       "tags": [
         "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
+        "als"
+      ],
+      "id": "q24"
     },
     {
-      "id": "q45",
       "type": "multiple-choice",
-      "text": "Dieser Film ist genauso gut ___ der andere.",
+      "text": "Heute ist es wärmer ___ gestern.",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Wärmer als (warmer than).",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q25"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Mehr ___ zehn Leute waren da.",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "mehr als = more than",
+      "explanationDetail": "Mehr als zehn (more than ten). Quantity comparison.",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Dieser Weg ist ___ als der andere.",
+      "options": [
+        {
+          "id": "a",
+          "text": "kürzer"
+        },
+        {
+          "id": "b",
+          "text": "kurz"
+        },
+        {
+          "id": "c",
+          "text": "kürzeste"
+        },
+        {
+          "id": "d",
+          "text": "am kürzesten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative: kürzer",
+      "explanationDetail": "Kurz → kürzer (shorter). Vowel change.",
+      "tags": [
+        "comparatives",
+        "adjectives"
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er verdient weniger ___ sie.",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Weniger als (less than).",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q28"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie ist genauso intelligent ___ er.",
       "options": [
         {
           "id": "a",
@@ -1380,166 +878,643 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "genauso... wie = just as... as",
-      "explanationDetail": "Genauso... wie (just as... as) shows equal comparison. Dieser Film ist genauso gut wie der andere (this film is just as good as the other). Use wie for equality.",
+      "explanation": "genauso... wie",
+      "explanationDetail": "Genauso intelligent wie (as intelligent as).",
       "tags": [
         "comparatives",
-        "adjectives",
         "wie"
-      ]
+      ],
+      "id": "q29"
     },
     {
-      "id": "q46",
       "type": "multiple-choice",
-      "text": "Das Wetter ist heute ___ als gestern.",
+      "text": "Das Problem ist ___ als ich dachte.",
       "options": [
         {
           "id": "a",
-          "text": "schön"
+          "text": "einfacher"
         },
         {
           "id": "b",
-          "text": "schöner"
+          "text": "einfach"
         },
         {
           "id": "c",
-          "text": "am schönsten"
+          "text": "einfachste"
         },
         {
           "id": "d",
-          "text": "schöneren"
+          "text": "am einfachsten"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative: schöner",
-      "explanationDetail": "Schön → schöner (nicer/more beautiful). Das Wetter ist schöner (the weather is nicer). Use comparative + als for comparison.",
+      "correctAnswerId": "a",
+      "explanation": "Comparative: einfacher",
+      "explanationDetail": "Einfach → einfacher (simpler).",
       "tags": [
         "comparatives",
         "adjectives"
-      ]
+      ],
+      "id": "q30"
     },
     {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Ich bin ___ als du.",
+      "text": "Der Berg ist höher ___ der Hügel. (0)",
       "options": [
         {
           "id": "a",
-          "text": "alt"
+          "text": "als"
         },
         {
           "id": "b",
-          "text": "älter"
+          "text": "wie"
         },
         {
           "id": "c",
-          "text": "am ältesten"
+          "text": "dass"
         },
         {
           "id": "d",
-          "text": "älteren"
+          "text": "von"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Comparative with umlaut: älter",
-      "explanationDetail": "Alt → älter (older). One-syllable adjectives often add umlaut: alt → älter. Ich bin älter als du (I'm older than you).",
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Höher als (higher than).",
       "tags": [
         "comparatives",
-        "adjectives",
-        "umlaut"
-      ]
+        "als"
+      ],
+      "id": "q31"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Dieser Test ist ___ als der letzte.",
+      "text": "Sie läuft so schnell ___ ihr Bruder. (1)",
       "options": [
         {
           "id": "a",
-          "text": "leicht"
+          "text": "als"
         },
         {
           "id": "b",
-          "text": "leichter"
+          "text": "wie"
         },
         {
           "id": "c",
-          "text": "am leichtesten"
+          "text": "dass"
         },
         {
           "id": "d",
-          "text": "leichteren"
+          "text": "von"
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Comparative: leichter",
-      "explanationDetail": "Leicht → leichter (easier). Dieser Test ist leichter (this test is easier). Comparative form: adjective + -er.",
+      "explanation": "so... wie",
+      "explanationDetail": "So schnell wie (as fast as).",
       "tags": [
         "comparatives",
-        "adjectives"
-      ]
+        "wie"
+      ],
+      "id": "q32"
     },
     {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Er spricht Deutsch ___ als ich.",
+      "text": "Der Berg ist höher ___ der Hügel. (2)",
       "options": [
         {
           "id": "a",
-          "text": "gut"
+          "text": "als"
         },
         {
           "id": "b",
-          "text": "besser"
+          "text": "wie"
         },
         {
           "id": "c",
-          "text": "am besten"
+          "text": "dass"
         },
         {
           "id": "d",
-          "text": "guter"
+          "text": "von"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Irregular comparative: besser",
-      "explanationDetail": "Gut → besser (better) is irregular. Er spricht besser als ich (he speaks better than I do). Other irregular comparatives: viel → mehr, gern → lieber.",
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Höher als (higher than).",
       "tags": [
         "comparatives",
-        "adjectives",
-        "irregular"
-      ]
+        "als"
+      ],
+      "id": "q33"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Sie hat ___ Geld als er.",
+      "text": "Sie läuft so schnell ___ ihr Bruder. (3)",
       "options": [
         {
           "id": "a",
-          "text": "viel"
+          "text": "als"
         },
         {
           "id": "b",
-          "text": "mehr"
+          "text": "wie"
         },
         {
           "id": "c",
-          "text": "am meisten"
+          "text": "dass"
         },
         {
           "id": "d",
-          "text": "vieler"
+          "text": "von"
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Irregular comparative: mehr",
-      "explanationDetail": "Viel → mehr (more) is irregular. Sie hat mehr Geld (she has more money). Mehr doesn't change form. Use with als for comparison.",
+      "explanation": "so... wie",
+      "explanationDetail": "So schnell wie (as fast as).",
       "tags": [
         "comparatives",
-        "adjectives",
-        "irregular"
-      ]
+        "wie"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Berg ist höher ___ der Hügel. (4)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Höher als (higher than).",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft so schnell ___ ihr Bruder. (5)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "so... wie",
+      "explanationDetail": "So schnell wie (as fast as).",
+      "tags": [
+        "comparatives",
+        "wie"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Berg ist höher ___ der Hügel. (6)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Höher als (higher than).",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft so schnell ___ ihr Bruder. (7)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "so... wie",
+      "explanationDetail": "So schnell wie (as fast as).",
+      "tags": [
+        "comparatives",
+        "wie"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Berg ist höher ___ der Hügel. (8)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Höher als (higher than).",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft so schnell ___ ihr Bruder. (9)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "so... wie",
+      "explanationDetail": "So schnell wie (as fast as).",
+      "tags": [
+        "comparatives",
+        "wie"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Berg ist höher ___ der Hügel. (10)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Höher als (higher than).",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft so schnell ___ ihr Bruder. (11)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "so... wie",
+      "explanationDetail": "So schnell wie (as fast as).",
+      "tags": [
+        "comparatives",
+        "wie"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Berg ist höher ___ der Hügel. (12)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Höher als (higher than).",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft so schnell ___ ihr Bruder. (13)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "so... wie",
+      "explanationDetail": "So schnell wie (as fast as).",
+      "tags": [
+        "comparatives",
+        "wie"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Berg ist höher ___ der Hügel. (14)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Höher als (higher than).",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft so schnell ___ ihr Bruder. (15)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "so... wie",
+      "explanationDetail": "So schnell wie (as fast as).",
+      "tags": [
+        "comparatives",
+        "wie"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Berg ist höher ___ der Hügel. (16)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Höher als (higher than).",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft so schnell ___ ihr Bruder. (17)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "so... wie",
+      "explanationDetail": "So schnell wie (as fast as).",
+      "tags": [
+        "comparatives",
+        "wie"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Berg ist höher ___ der Hügel. (18)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Comparative + als",
+      "explanationDetail": "Höher als (higher than).",
+      "tags": [
+        "comparatives",
+        "als"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie läuft so schnell ___ ihr Bruder. (19)",
+      "options": [
+        {
+          "id": "a",
+          "text": "als"
+        },
+        {
+          "id": "b",
+          "text": "wie"
+        },
+        {
+          "id": "c",
+          "text": "dass"
+        },
+        {
+          "id": "d",
+          "text": "von"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "so... wie",
+      "explanationDetail": "So schnell wie (as fast as).",
+      "tags": [
+        "comparatives",
+        "wie"
+      ],
+      "id": "q50"
     }
   ]
 }

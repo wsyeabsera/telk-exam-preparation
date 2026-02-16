@@ -383,9 +383,8 @@
       ]
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
-      "text": "Der Mann, ___ ich gesehen habe, ist mein Lehrer.",
+      "text": "Der Mann, ___ dort steht, ist mein Lehrer.",
       "options": [
         {
           "id": "a",
@@ -401,593 +400,92 @@
         },
         {
           "id": "d",
-          "text": "dessen"
+          "text": "des"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Akkusativ masculine: den",
-      "explanationDetail": "The relative pronoun takes the case needed in the relative clause. 'Ich habe den Mann gesehen' → Akkusativ. Masculine Akkusativ: den. Der Mann, den ich gesehen habe (the man whom I saw).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "akkusativ"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Die Frau, ___ Buch ich lese, ist sehr bekannt.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "deren"
-        },
-        {
-          "id": "d",
-          "text": "dessen"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Genitive feminine: deren",
-      "explanationDetail": "Possession in relative clause needs Genitive. 'Das Buch der Frau' → deren Buch. Feminine Genitive: deren. Die Frau, deren Buch ich lese (the woman whose book I'm reading).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "genitiv"
-      ]
-    },
-    {
-      "id": "q15",
-      "type": "multiple-choice",
-      "text": "Das Buch, ___ auf dem Tisch liegt, gehört mir.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "die"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Nominative neuter: das",
-      "explanationDetail": "The relative pronoun is the subject of the relative clause. 'Das Buch liegt' → Nominativ. Neuter Nominativ: das. Das Buch, das liegt (the book that is lying).",
+      "correctAnswerId": "a",
+      "explanation": "relative pronoun Nominativ masculine: der",
+      "explanationDetail": "Subject of the relative clause: der Mann steht. Nominativ masculine: der.",
       "tags": [
         "pronouns",
         "relative-pronouns",
         "nominativ"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "multiple-choice",
-      "text": "Der Lehrer, ___ ich helfe, ist sehr nett.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "den"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "dessen"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Dativ masculine: dem",
-      "explanationDetail": "Helfen takes Dativ. 'Ich helfe dem Lehrer' → Dativ. Masculine Dativ: dem. Der Lehrer, dem ich helfe (the teacher whom I help).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ"
-      ]
+      "id": "q13"
     },
     {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Die Kinder, ___ im Park spielen, sind laut.",
+      "text": "Die Frau, ___ ich gestern traf, heißt Anna.",
       "options": [
         {
           "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
           "text": "die"
         },
         {
-          "id": "c",
-          "text": "das"
+          "id": "b",
+          "text": "der"
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "denen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Nominative plural: die",
-      "explanationDetail": "The relative pronoun is the subject. 'Die Kinder spielen' → Nominativ. Plural Nominativ: die. Die Kinder, die spielen (the children who are playing).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "nominativ",
-        "plural"
-      ]
-    },
-    {
-      "id": "q18",
-      "type": "multiple-choice",
-      "text": "Das Auto, ___ Auto ich fahre, ist neu.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "die"
-        },
-        {
-          "id": "c",
-          "text": "dessen"
         },
         {
           "id": "d",
           "text": "deren"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Genitive neuter: dessen",
-      "explanationDetail": "Possession needs Genitive. 'Das Auto des Autos' → dessen Auto. Neuter Genitive: dessen. Das Auto, dessen... (the car whose...). Dessen for masculine/neuter, deren for feminine/plural.",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "genitiv"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Die Frau, ___ ich danke, hat mir geholfen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "den"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Dativ feminine: der",
-      "explanationDetail": "Danken takes Dativ. 'Ich danke der Frau' → Dativ. Feminine Dativ: der. Die Frau, der ich danke (the woman whom I thank).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Der Film, ___ wir gesehen haben, war langweilig.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "den"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "dessen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Akkusativ masculine: den",
-      "explanationDetail": "Sehen takes Akkusativ. 'Wir haben den Film gesehen' → Akkusativ. Masculine Akkusativ: den. Der Film, den wir gesehen haben (the film that we saw).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "akkusativ"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Die Stadt, in ___ ich wohne, ist klein.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "in + Dativ feminine: der",
-      "explanationDetail": "After preposition 'in' (location), use Dativ. 'Ich wohne in der Stadt' → Dativ. Feminine Dativ: der. Die Stadt, in der ich wohne (the city in which I live).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ",
-        "prepositions"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Das Mädchen, ___ Eltern ich kenne, ist sehr nett.",
-      "options": [
-        {
-          "id": "a",
-          "text": "das"
-        },
-        {
-          "id": "b",
-          "text": "dem"
-        },
-        {
-          "id": "c",
-          "text": "dessen"
-        },
-        {
-          "id": "d",
-          "text": "deren"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Genitive neuter: dessen",
-      "explanationDetail": "Possession needs Genitive. 'Die Eltern des Mädchens' → dessen Eltern. Neuter Genitive: dessen. Das Mädchen, dessen Eltern ich kenne (the girl whose parents I know).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "genitiv"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Die Leute, mit ___ ich arbeite, sind freundlich.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "denen"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "mit + Dativ plural: denen",
-      "explanationDetail": "After preposition 'mit', use Dativ. 'Ich arbeite mit den Leuten' → Dativ. Plural Dativ: denen. Die Leute, mit denen ich arbeite (the people with whom I work).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ",
-        "plural",
-        "prepositions"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "multiple-choice",
-      "text": "Die Studentin, ___ ich kenne, studiert Medizin.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "dem"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Akkusativ feminine: die",
-      "explanationDetail": "Kennen takes Akkusativ. 'Ich kenne die Studentin' → Akkusativ. Feminine Akkusativ: die (no change). Die Studentin, die ich kenne (the student whom I know).",
+      "explanation": "relative Akkusativ feminine: die",
+      "explanationDetail": "Object: ich traf die Frau. Akkusativ feminine: die.",
       "tags": [
         "pronouns",
         "relative-pronouns",
         "akkusativ"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Der Mann, ___ ich gesehen habe, ist mein Lehrer.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "den"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "dessen"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Akkusativ masculine: den",
-      "explanationDetail": "The relative pronoun takes the case needed in the relative clause. 'Ich habe den Mann gesehen' → Akkusativ. Masculine Akkusativ: den. Der Mann, den ich gesehen habe (the man whom I saw).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "akkusativ"
-      ]
+      "id": "q14"
     },
     {
-      "id": "q26",
       "type": "multiple-choice",
-      "text": "Die Frau, ___ Buch ich lese, ist sehr bekannt.",
+      "text": "Das Kind, ___ spielt, ist fünf.",
       "options": [
         {
           "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "deren"
-        },
-        {
-          "id": "d",
-          "text": "dessen"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Genitive feminine: deren",
-      "explanationDetail": "Possession in relative clause needs Genitive. 'Das Buch der Frau' → deren Buch. Feminine Genitive: deren. Die Frau, deren Buch ich lese (the woman whose book I'm reading).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "genitiv"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Das Buch, ___ auf dem Tisch liegt, gehört mir.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "die"
-        },
-        {
-          "id": "c",
           "text": "das"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dessen"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Nominative neuter: das",
-      "explanationDetail": "The relative pronoun is the subject of the relative clause. 'Das Buch liegt' → Nominativ. Neuter Nominativ: das. Das Buch, das liegt (the book that is lying).",
+      "correctAnswerId": "a",
+      "explanation": "relative Nominativ neuter: das",
+      "explanationDetail": "Subject: das Kind spielt. Nominativ neuter: das.",
       "tags": [
         "pronouns",
         "relative-pronouns",
         "nominativ"
-      ]
+      ],
+      "id": "q15"
     },
     {
-      "id": "q28",
       "type": "multiple-choice",
-      "text": "Der Lehrer, ___ ich helfe, ist sehr nett.",
+      "text": "Der Film, ___ wir gesehen haben, war gut.",
       "options": [
         {
           "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
           "text": "den"
         },
         {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "dessen"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Dativ masculine: dem",
-      "explanationDetail": "Helfen takes Dativ. 'Ich helfe dem Lehrer' → Dativ. Masculine Dativ: dem. Der Lehrer, dem ich helfe (the teacher whom I help).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Die Kinder, ___ im Park spielen, sind laut.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "die"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "denen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Nominative plural: die",
-      "explanationDetail": "The relative pronoun is the subject. 'Die Kinder spielen' → Nominativ. Plural Nominativ: die. Die Kinder, die spielen (the children who are playing).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "nominativ",
-        "plural"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Das Auto, ___ Auto ich fahre, ist neu.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "die"
-        },
-        {
-          "id": "c",
-          "text": "dessen"
-        },
-        {
-          "id": "d",
-          "text": "deren"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Genitive neuter: dessen",
-      "explanationDetail": "Possession needs Genitive. 'Das Auto des Autos' → dessen Auto. Neuter Genitive: dessen. Das Auto, dessen... (the car whose...). Dessen for masculine/neuter, deren for feminine/plural.",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "genitiv"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Die Frau, ___ ich danke, hat mir geholfen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
           "id": "b",
           "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "den"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Dativ feminine: der",
-      "explanationDetail": "Danken takes Dativ. 'Ich danke der Frau' → Dativ. Feminine Dativ: der. Die Frau, der ich danke (the woman whom I thank).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ"
-      ]
-    },
-    {
-      "id": "q32",
-      "type": "multiple-choice",
-      "text": "Der Film, ___ wir gesehen haben, war langweilig.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "den"
         },
         {
           "id": "c",
@@ -995,153 +493,26 @@
         },
         {
           "id": "d",
-          "text": "dessen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Akkusativ masculine: den",
-      "explanationDetail": "Sehen takes Akkusativ. 'Wir haben den Film gesehen' → Akkusativ. Masculine Akkusativ: den. Der Film, den wir gesehen haben (the film that we saw).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "akkusativ"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Die Stadt, in ___ ich wohne, ist klein.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "in + Dativ feminine: der",
-      "explanationDetail": "After preposition 'in' (location), use Dativ. 'Ich wohne in der Stadt' → Dativ. Feminine Dativ: der. Die Stadt, in der ich wohne (the city in which I live).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ",
-        "prepositions"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "multiple-choice",
-      "text": "Das Mädchen, ___ Eltern ich kenne, ist sehr nett.",
-      "options": [
-        {
-          "id": "a",
-          "text": "das"
-        },
-        {
-          "id": "b",
-          "text": "dem"
-        },
-        {
-          "id": "c",
-          "text": "dessen"
-        },
-        {
-          "id": "d",
-          "text": "deren"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Genitive neuter: dessen",
-      "explanationDetail": "Possession needs Genitive. 'Die Eltern des Mädchens' → dessen Eltern. Neuter Genitive: dessen. Das Mädchen, dessen Eltern ich kenne (the girl whose parents I know).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "genitiv"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Die Leute, mit ___ ich arbeite, sind freundlich.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "denen"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "mit + Dativ plural: denen",
-      "explanationDetail": "After preposition 'mit', use Dativ. 'Ich arbeite mit den Leuten' → Dativ. Plural Dativ: denen. Die Leute, mit denen ich arbeite (the people with whom I work).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ",
-        "plural",
-        "prepositions"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Die Studentin, ___ ich kenne, studiert Medizin.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "dem"
+          "text": "des"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Akkusativ feminine: die",
-      "explanationDetail": "Kennen takes Akkusativ. 'Ich kenne die Studentin' → Akkusativ. Feminine Akkusativ: die (no change). Die Studentin, die ich kenne (the student whom I know).",
+      "explanation": "relative Akkusativ masculine: den",
+      "explanationDetail": "Object: wir haben den Film gesehen. Akkusativ masculine: den.",
       "tags": [
         "pronouns",
         "relative-pronouns",
         "akkusativ"
-      ]
+      ],
+      "id": "q16"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Der Mann, ___ ich gesehen habe, ist mein Lehrer.",
+      "text": "Ich gebe dem Mann, ___ ich vertraue, das Buch.",
       "options": [
         {
           "id": "a",
-          "text": "der"
+          "text": "dem"
         },
         {
           "id": "b",
@@ -1149,26 +520,26 @@
         },
         {
           "id": "c",
-          "text": "dem"
+          "text": "der"
         },
         {
           "id": "d",
-          "text": "dessen"
+          "text": "des"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Akkusativ masculine: den",
-      "explanationDetail": "The relative pronoun takes the case needed in the relative clause. 'Ich habe den Mann gesehen' → Akkusativ. Masculine Akkusativ: den. Der Mann, den ich gesehen habe (the man whom I saw).",
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ masculine: dem",
+      "explanationDetail": "Dativ: ich vertraue dem Mann. Dativ masculine: dem.",
       "tags": [
         "pronouns",
         "relative-pronouns",
-        "akkusativ"
-      ]
+        "dativ"
+      ],
+      "id": "q17"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Die Frau, ___ Buch ich lese, ist sehr bekannt.",
+      "text": "Die Bücher, ___ auf dem Tisch liegen, sind neu.",
       "options": [
         {
           "id": "a",
@@ -1180,340 +551,570 @@
         },
         {
           "id": "c",
-          "text": "deren"
+          "text": "denen"
         },
         {
           "id": "d",
-          "text": "dessen"
+          "text": "den"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Genitive feminine: deren",
-      "explanationDetail": "Possession in relative clause needs Genitive. 'Das Buch der Frau' → deren Buch. Feminine Genitive: deren. Die Frau, deren Buch ich lese (the woman whose book I'm reading).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "genitiv"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "multiple-choice",
-      "text": "Das Buch, ___ auf dem Tisch liegt, gehört mir.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "die"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Nominative neuter: das",
-      "explanationDetail": "The relative pronoun is the subject of the relative clause. 'Das Buch liegt' → Nominativ. Neuter Nominativ: das. Das Buch, das liegt (the book that is lying).",
+      "correctAnswerId": "a",
+      "explanation": "relative Nominativ plural: die",
+      "explanationDetail": "Subject plural: die Bücher liegen. Nominativ plural: die.",
       "tags": [
         "pronouns",
         "relative-pronouns",
         "nominativ"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Der Lehrer, ___ ich helfe, ist sehr nett.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "den"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "dessen"
-        }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Dativ masculine: dem",
-      "explanationDetail": "Helfen takes Dativ. 'Ich helfe dem Lehrer' → Dativ. Masculine Dativ: dem. Der Lehrer, dem ich helfe (the teacher whom I help).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ"
-      ]
+      "id": "q18"
     },
     {
-      "id": "q41",
       "type": "multiple-choice",
-      "text": "Die Kinder, ___ im Park spielen, sind laut.",
+      "text": "Die Stadt, ___ wir besucht haben, ist schön.",
       "options": [
         {
           "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
           "text": "die"
         },
         {
-          "id": "c",
-          "text": "das"
+          "id": "b",
+          "text": "der"
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "denen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Nominative plural: die",
-      "explanationDetail": "The relative pronoun is the subject. 'Die Kinder spielen' → Nominativ. Plural Nominativ: die. Die Kinder, die spielen (the children who are playing).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "nominativ",
-        "plural"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Das Auto, ___ Auto ich fahre, ist neu.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "die"
-        },
-        {
-          "id": "c",
-          "text": "dessen"
         },
         {
           "id": "d",
           "text": "deren"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Genitive neuter: dessen",
-      "explanationDetail": "Possession needs Genitive. 'Das Auto des Autos' → dessen Auto. Neuter Genitive: dessen. Das Auto, dessen... (the car whose...). Dessen for masculine/neuter, deren for feminine/plural.",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "genitiv"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Die Frau, ___ ich danke, hat mir geholfen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "den"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Dativ feminine: der",
-      "explanationDetail": "Danken takes Dativ. 'Ich danke der Frau' → Dativ. Feminine Dativ: der. Die Frau, der ich danke (the woman whom I thank).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Der Film, ___ wir gesehen haben, war langweilig.",
-      "options": [
-        {
-          "id": "a",
-          "text": "der"
-        },
-        {
-          "id": "b",
-          "text": "den"
-        },
-        {
-          "id": "c",
-          "text": "dem"
-        },
-        {
-          "id": "d",
-          "text": "dessen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Akkusativ masculine: den",
-      "explanationDetail": "Sehen takes Akkusativ. 'Wir haben den Film gesehen' → Akkusativ. Masculine Akkusativ: den. Der Film, den wir gesehen haben (the film that we saw).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "akkusativ"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Die Stadt, in ___ ich wohne, ist klein.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "dem"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "in + Dativ feminine: der",
-      "explanationDetail": "After preposition 'in' (location), use Dativ. 'Ich wohne in der Stadt' → Dativ. Feminine Dativ: der. Die Stadt, in der ich wohne (the city in which I live).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ",
-        "prepositions"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Das Mädchen, ___ Eltern ich kenne, ist sehr nett.",
-      "options": [
-        {
-          "id": "a",
-          "text": "das"
-        },
-        {
-          "id": "b",
-          "text": "dem"
-        },
-        {
-          "id": "c",
-          "text": "dessen"
-        },
-        {
-          "id": "d",
-          "text": "deren"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Genitive neuter: dessen",
-      "explanationDetail": "Possession needs Genitive. 'Die Eltern des Mädchens' → dessen Eltern. Neuter Genitive: dessen. Das Mädchen, dessen Eltern ich kenne (the girl whose parents I know).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "genitiv"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Die Leute, mit ___ ich arbeite, sind freundlich.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "denen"
-        }
-      ],
-      "correctAnswerId": "d",
-      "explanation": "mit + Dativ plural: denen",
-      "explanationDetail": "After preposition 'mit', use Dativ. 'Ich arbeite mit den Leuten' → Dativ. Plural Dativ: denen. Die Leute, mit denen ich arbeite (the people with whom I work).",
-      "tags": [
-        "pronouns",
-        "relative-pronouns",
-        "dativ",
-        "plural",
-        "prepositions"
-      ]
-    },
-    {
-      "id": "q48",
-      "type": "multiple-choice",
-      "text": "Die Studentin, ___ ich kenne, studiert Medizin.",
-      "options": [
-        {
-          "id": "a",
-          "text": "die"
-        },
-        {
-          "id": "b",
-          "text": "der"
-        },
-        {
-          "id": "c",
-          "text": "das"
-        },
-        {
-          "id": "d",
-          "text": "dem"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Akkusativ feminine: die",
-      "explanationDetail": "Kennen takes Akkusativ. 'Ich kenne die Studentin' → Akkusativ. Feminine Akkusativ: die (no change). Die Studentin, die ich kenne (the student whom I know).",
+      "explanation": "relative Akkusativ feminine: die",
+      "explanationDetail": "Object: wir haben die Stadt besucht. Akkusativ feminine: die.",
       "tags": [
         "pronouns",
         "relative-pronouns",
         "akkusativ"
-      ]
+      ],
+      "id": "q19"
     },
     {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Der Mann, ___ ich gesehen habe, ist mein Lehrer.",
+      "text": "Das Haus, ___ ich wohne, ist alt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in dem"
+        },
+        {
+          "id": "b",
+          "text": "in den"
+        },
+        {
+          "id": "c",
+          "text": "in der"
+        },
+        {
+          "id": "d",
+          "text": "in das"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ neuter: in dem",
+      "explanationDetail": "Wo ich wohne: in dem Haus. Dativ neuter: in dem (wo?).",
+      "tags": [
+        "pronouns",
+        "relative-pronouns",
+        "dativ"
+      ],
+      "id": "q20"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Student, ___ Prüfung schwer war, hat bestanden.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dessen"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Genitiv: dessen (his)",
+      "explanationDetail": "Dessen = whose (masculine/neuter). Dessen Prüfung (whose exam).",
+      "tags": [
+        "pronouns",
+        "relative-pronouns",
+        "genitiv"
+      ],
+      "id": "q21"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Kinder, ___ ich helfe, lernen schnell.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denen"
+        },
+        {
+          "id": "b",
+          "text": "die"
+        },
+        {
+          "id": "c",
+          "text": "der"
+        },
+        {
+          "id": "d",
+          "text": "den"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ plural: denen",
+      "explanationDetail": "Dativ: ich helfe den Kindern. Dativ plural: denen.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns",
+        "dativ"
+      ],
+      "id": "q22"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Brief, ___ ich schreibe, ist lang.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ masculine: den",
+      "explanationDetail": "Object: ich schreibe den Brief. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q23"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Blume, ___ du mir gegeben hast, ist schön.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "denen"
+        },
+        {
+          "id": "d",
+          "text": "deren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ feminine: die",
+      "explanationDetail": "Object: du hast die Blume gegeben. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q24"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Problem, ___ wir lösen müssen, ist schwer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dessen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ neuter: das",
+      "explanationDetail": "Object: wir müssen das Problem lösen. Akkusativ neuter.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q25"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Freund, ___ ich vertraue, hilft mir.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dem"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "der"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ masculine: dem",
+      "explanationDetail": "Ich vertraue dem Freund. Dativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Frau, ___ ich begegnet bin, war nett.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "die"
+        },
+        {
+          "id": "c",
+          "text": "denen"
+        },
+        {
+          "id": "d",
+          "text": "deren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ feminine: der",
+      "explanationDetail": "Ich bin der Frau begegnet. Dativ feminine: der.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Auto, ___ kaputt ist, gehört meinem Bruder.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dessen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Nominativ neuter: das",
+      "explanationDetail": "Subject: das Auto ist kaputt. Nominativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q28"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Leute, ___ ich kenne, wohnen in Berlin.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "denen"
+        },
+        {
+          "id": "d",
+          "text": "den"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ plural: die",
+      "explanationDetail": "Object: ich kenne die Leute. Akkusativ plural: die.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q29"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Junge, ___ Ball verloren ist, weint.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dessen"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "der"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Genitiv: dessen",
+      "explanationDetail": "Dessen Ball (whose ball). Genitiv masculine.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q30"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Buch, ___ ich lese, ist spannend.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dessen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ neuter: das",
+      "explanationDetail": "Object: ich lese das Buch. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q31"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Schüler, ___ ich die Aufgabe erkläre, verstehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denen"
+        },
+        {
+          "id": "b",
+          "text": "die"
+        },
+        {
+          "id": "c",
+          "text": "der"
+        },
+        {
+          "id": "d",
+          "text": "den"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ plural: denen",
+      "explanationDetail": "Ich erkläre den Schülern. Dativ plural: denen.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Lehrer, ___ ich gefragt habe, war hilfsbereit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ: den",
+      "explanationDetail": "Ich habe den Lehrer gefragt. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Mutter, ___ Kind krank ist, bleibt zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deren"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "die"
+        },
+        {
+          "id": "d",
+          "text": "denen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Genitiv feminine: deren",
+      "explanationDetail": "Deren Kind (whose child). Genitiv feminine.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Zimmer, ___ ich schlafe, ist klein.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in dem"
+        },
+        {
+          "id": "b",
+          "text": "in den"
+        },
+        {
+          "id": "c",
+          "text": "in der"
+        },
+        {
+          "id": "d",
+          "text": "in das"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ neuter: in dem",
+      "explanationDetail": "In dem Zimmer (in which). Dativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Männer, ___ ich geholfen habe, danken mir.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denen"
+        },
+        {
+          "id": "b",
+          "text": "die"
+        },
+        {
+          "id": "c",
+          "text": "der"
+        },
+        {
+          "id": "d",
+          "text": "den"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ plural: denen",
+      "explanationDetail": "Ich habe den Männern geholfen. Dativ plural.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Hund, ___ bellt, gehört dem Nachbarn.",
       "options": [
         {
           "id": "a",
@@ -1529,22 +1130,21 @@
         },
         {
           "id": "d",
-          "text": "dessen"
+          "text": "des"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Akkusativ masculine: den",
-      "explanationDetail": "The relative pronoun takes the case needed in the relative clause. 'Ich habe den Mann gesehen' → Akkusativ. Masculine Akkusativ: den. Der Mann, den ich gesehen habe (the man whom I saw).",
+      "correctAnswerId": "a",
+      "explanation": "relative Nominativ: der",
+      "explanationDetail": "Subject: der Hund bellt. Nominativ.",
       "tags": [
         "pronouns",
-        "relative-pronouns",
-        "akkusativ"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q37"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Die Frau, ___ Buch ich lese, ist sehr bekannt.",
+      "text": "Die Idee, ___ du hattest, war gut.",
       "options": [
         {
           "id": "a",
@@ -1556,21 +1156,381 @@
         },
         {
           "id": "c",
+          "text": "denen"
+        },
+        {
+          "id": "d",
           "text": "deren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ feminine: die",
+      "explanationDetail": "Du hattest die Idee. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Geschenk, ___ ich bekommen habe, freut mich.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
         },
         {
           "id": "d",
           "text": "dessen"
         }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Genitive feminine: deren",
-      "explanationDetail": "Possession in relative clause needs Genitive. 'Das Buch der Frau' → deren Buch. Feminine Genitive: deren. Die Frau, deren Buch ich lese (the woman whose book I'm reading).",
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ neuter: das",
+      "explanationDetail": "Ich habe das Geschenk bekommen. Akkusativ.",
       "tags": [
         "pronouns",
-        "relative-pronouns",
-        "genitiv"
-      ]
+        "relative-pronouns"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Weg, ___ wir gehen, ist kurz.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ masculine: den",
+      "explanationDetail": "Wir gehen den Weg. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Lehrer, ___ ich gefragt habe, war hilfsbereit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ: den",
+      "explanationDetail": "Ich habe den Lehrer gefragt. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Mutter, ___ Kind krank ist, bleibt zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deren"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "die"
+        },
+        {
+          "id": "d",
+          "text": "denen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Genitiv feminine: deren",
+      "explanationDetail": "Deren Kind (whose child). Genitiv feminine.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Zimmer, ___ ich schlafe, ist klein.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in dem"
+        },
+        {
+          "id": "b",
+          "text": "in den"
+        },
+        {
+          "id": "c",
+          "text": "in der"
+        },
+        {
+          "id": "d",
+          "text": "in das"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ neuter: in dem",
+      "explanationDetail": "In dem Zimmer (in which). Dativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Männer, ___ ich geholfen habe, danken mir.",
+      "options": [
+        {
+          "id": "a",
+          "text": "denen"
+        },
+        {
+          "id": "b",
+          "text": "die"
+        },
+        {
+          "id": "c",
+          "text": "der"
+        },
+        {
+          "id": "d",
+          "text": "den"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Dativ plural: denen",
+      "explanationDetail": "Ich habe den Männern geholfen. Dativ plural.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Hund, ___ bellt, gehört dem Nachbarn.",
+      "options": [
+        {
+          "id": "a",
+          "text": "der"
+        },
+        {
+          "id": "b",
+          "text": "den"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Nominativ: der",
+      "explanationDetail": "Subject: der Hund bellt. Nominativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Idee, ___ du hattest, war gut.",
+      "options": [
+        {
+          "id": "a",
+          "text": "die"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "denen"
+        },
+        {
+          "id": "d",
+          "text": "deren"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ feminine: die",
+      "explanationDetail": "Du hattest die Idee. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Geschenk, ___ ich bekommen habe, freut mich.",
+      "options": [
+        {
+          "id": "a",
+          "text": "das"
+        },
+        {
+          "id": "b",
+          "text": "dem"
+        },
+        {
+          "id": "c",
+          "text": "den"
+        },
+        {
+          "id": "d",
+          "text": "dessen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ neuter: das",
+      "explanationDetail": "Ich habe das Geschenk bekommen. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Weg, ___ wir gehen, ist kurz.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ masculine: den",
+      "explanationDetail": "Wir gehen den Weg. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Lehrer, ___ ich gefragt habe, war hilfsbereit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "den"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "dem"
+        },
+        {
+          "id": "d",
+          "text": "des"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Akkusativ: den",
+      "explanationDetail": "Ich habe den Lehrer gefragt. Akkusativ.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Mutter, ___ Kind krank ist, bleibt zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deren"
+        },
+        {
+          "id": "b",
+          "text": "der"
+        },
+        {
+          "id": "c",
+          "text": "die"
+        },
+        {
+          "id": "d",
+          "text": "denen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "relative Genitiv feminine: deren",
+      "explanationDetail": "Deren Kind (whose child). Genitiv feminine.",
+      "tags": [
+        "pronouns",
+        "relative-pronouns"
+      ],
+      "id": "q50"
     }
   ]
 }

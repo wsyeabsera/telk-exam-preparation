@@ -373,98 +373,6 @@
       ]
     },
     {
-      "id": "q13",
-      "type": "multiple-choice",
-      "text": "Ich wasche ___ jeden Morgen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "mich"
-        },
-        {
-          "id": "b",
-          "text": "mir"
-        },
-        {
-          "id": "c",
-          "text": "dich"
-        },
-        {
-          "id": "d",
-          "text": "sich"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "sich waschen: ich wasche mich (Akkusativ)",
-      "explanationDetail": "Sich waschen (to wash oneself) uses Akkusativ reflexive pronoun. Ich wasche mich (I wash myself). Reflexive pronouns Akk: mich, dich, sich, uns, euch, sich. Most reflexive verbs use Akkusativ.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "akkusativ"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Er freut ___ auf die Ferien.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ihm"
-        },
-        {
-          "id": "b",
-          "text": "sich"
-        },
-        {
-          "id": "c",
-          "text": "ihn"
-        },
-        {
-          "id": "d",
-          "text": "er"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sich freuen: er freut sich",
-      "explanationDetail": "Sich freuen (to be happy/look forward to) is reflexive. Er freut sich (he's happy / he's looking forward). Reflexive pronoun for er/sie/es: sich. Sich freuen auf + Akkusativ.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs"
-      ]
-    },
-    {
-      "id": "q15",
-      "type": "multiple-choice",
-      "text": "Wir treffen ___ um 8 Uhr.",
-      "options": [
-        {
-          "id": "a",
-          "text": "uns"
-        },
-        {
-          "id": "b",
-          "text": "sich"
-        },
-        {
-          "id": "c",
-          "text": "euch"
-        },
-        {
-          "id": "d",
-          "text": "ihnen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "sich treffen: wir treffen uns",
-      "explanationDetail": "Sich treffen (to meet each other) is reflexive. Wir treffen uns (we're meeting / we meet). Reflexive pronoun for wir: uns. Can mean 'each other' or 'ourselves'.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs"
-      ]
-    },
-    {
-      "id": "q16",
       "type": "multiple-choice",
       "text": "Du musst ___ beeilen.",
       "options": [
@@ -486,384 +394,18 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "sich beeilen: du musst dich beeilen",
-      "explanationDetail": "Sich beeilen (to hurry) is reflexive. Du musst dich beeilen (you must hurry). Reflexive pronoun for du: dich (Akk). With modal verbs, reflexive pronoun comes before infinitive.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q17",
-      "type": "multiple-choice",
-      "text": "Sie erinnert ___ an den Termin.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ihr"
-        },
-        {
-          "id": "b",
-          "text": "sich"
-        },
-        {
-          "id": "c",
-          "text": "sie"
-        },
-        {
-          "id": "d",
-          "text": "ihnen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sich erinnern: sie erinnert sich",
-      "explanationDetail": "Sich erinnern (to remember) is reflexive. Sie erinnert sich (she remembers). Reflexive pronoun for sie: sich. Sich erinnern an + Akkusativ.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs"
-      ]
-    },
-    {
-      "id": "q18",
-      "type": "multiple-choice",
-      "text": "Ich ziehe ___ warm an.",
-      "options": [
-        {
-          "id": "a",
-          "text": "mich"
-        },
-        {
-          "id": "b",
-          "text": "mir"
-        },
-        {
-          "id": "c",
-          "text": "dich"
-        },
-        {
-          "id": "d",
-          "text": "sich"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "sich anziehen: ich ziehe mich an",
-      "explanationDetail": "Sich anziehen (to get dressed) is reflexive and separable. Ich ziehe mich an (I get dressed). Reflexive pronoun mich (Akk). Separable prefix 'an' goes to end.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "separable-verbs"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Ihr müsst ___ entscheiden.",
-      "options": [
-        {
-          "id": "a",
-          "text": "uns"
-        },
-        {
-          "id": "b",
-          "text": "euch"
-        },
-        {
-          "id": "c",
-          "text": "sich"
-        },
-        {
-          "id": "d",
-          "text": "ihnen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sich entscheiden: ihr müsst euch entscheiden",
-      "explanationDetail": "Sich entscheiden (to decide) is reflexive. Ihr müsst euch entscheiden (you all must decide). Reflexive pronoun for ihr: euch. With modal verbs, reflexive pronoun comes before infinitive.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Er interessiert ___ für Musik.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ihm"
-        },
-        {
-          "id": "b",
-          "text": "sich"
-        },
-        {
-          "id": "c",
-          "text": "ihn"
-        },
-        {
-          "id": "d",
-          "text": "er"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sich interessieren: er interessiert sich",
-      "explanationDetail": "Sich interessieren (to be interested) is reflexive. Er interessiert sich (he's interested). Reflexive pronoun: sich. Sich interessieren für + Akkusativ.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Ich putze ___ die Zähne.",
-      "options": [
-        {
-          "id": "a",
-          "text": "mich"
-        },
-        {
-          "id": "b",
-          "text": "mir"
-        },
-        {
-          "id": "c",
-          "text": "dich"
-        },
-        {
-          "id": "d",
-          "text": "sich"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sich die Zähne putzen: ich putze mir (Dativ)",
-      "explanationDetail": "When the reflexive verb has a direct object (die Zähne), the reflexive pronoun is Dativ. Ich putze mir die Zähne (I brush my teeth). Reflexive Dativ: mir, dir, sich, uns, euch, sich. Literally: 'I brush to-me the teeth'.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "dativ"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Du solltest ___ ausruhen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "dich"
-        },
-        {
-          "id": "b",
-          "text": "dir"
-        },
-        {
-          "id": "c",
-          "text": "sich"
-        },
-        {
-          "id": "d",
-          "text": "mich"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "sich ausruhen: du solltest dich ausruhen",
-      "explanationDetail": "Sich ausruhen (to rest) is reflexive. Du solltest dich ausruhen (you should rest). Reflexive pronoun for du: dich. With modal verbs, reflexive pronoun comes before infinitive.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Wir setzen ___ an den Tisch.",
-      "options": [
-        {
-          "id": "a",
-          "text": "uns"
-        },
-        {
-          "id": "b",
-          "text": "sich"
-        },
-        {
-          "id": "c",
-          "text": "euch"
-        },
-        {
-          "id": "d",
-          "text": "ihnen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "sich setzen: wir setzen uns",
-      "explanationDetail": "Sich setzen (to sit down) is reflexive. Wir setzen uns (we sit down). Reflexive pronoun for wir: uns. Sich setzen is different from sitzen (to sit, not reflexive).",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "multiple-choice",
-      "text": "Sie ärgert ___ über den Fehler.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ihr"
-        },
-        {
-          "id": "b",
-          "text": "sich"
-        },
-        {
-          "id": "c",
-          "text": "sie"
-        },
-        {
-          "id": "d",
-          "text": "ihnen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sich ärgern: sie ärgert sich",
-      "explanationDetail": "Sich ärgern (to be annoyed) is reflexive. Sie ärgert sich (she's annoyed). Reflexive pronoun: sich. Sich ärgern über + Akkusativ.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Ich wasche ___ jeden Morgen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "mich"
-        },
-        {
-          "id": "b",
-          "text": "mir"
-        },
-        {
-          "id": "c",
-          "text": "dich"
-        },
-        {
-          "id": "d",
-          "text": "sich"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "sich waschen: ich wasche mich (Akkusativ)",
-      "explanationDetail": "Sich waschen (to wash oneself) uses Akkusativ reflexive pronoun. Ich wasche mich (I wash myself). Reflexive pronouns Akk: mich, dich, sich, uns, euch, sich. Most reflexive verbs use Akkusativ.",
+      "explanation": "sich beeilen: du beeilst dich (Akk)",
+      "explanationDetail": "Sich beeilen (to hurry) uses Akkusativ. Du beeilst dich.",
       "tags": [
         "pronouns",
         "reflexive-verbs",
         "akkusativ"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "multiple-choice",
-      "text": "Er freut ___ auf die Ferien.",
-      "options": [
-        {
-          "id": "a",
-          "text": "ihm"
-        },
-        {
-          "id": "b",
-          "text": "sich"
-        },
-        {
-          "id": "c",
-          "text": "ihn"
-        },
-        {
-          "id": "d",
-          "text": "er"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "sich freuen: er freut sich",
-      "explanationDetail": "Sich freuen (to be happy/look forward to) is reflexive. Er freut sich (he's happy / he's looking forward). Reflexive pronoun for er/sie/es: sich. Sich freuen auf + Akkusativ.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs"
-      ]
+      "id": "q13"
     },
     {
-      "id": "q27",
       "type": "multiple-choice",
-      "text": "Wir treffen ___ um 8 Uhr.",
-      "options": [
-        {
-          "id": "a",
-          "text": "uns"
-        },
-        {
-          "id": "b",
-          "text": "sich"
-        },
-        {
-          "id": "c",
-          "text": "euch"
-        },
-        {
-          "id": "d",
-          "text": "ihnen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "sich treffen: wir treffen uns",
-      "explanationDetail": "Sich treffen (to meet each other) is reflexive. Wir treffen uns (we're meeting / we meet). Reflexive pronoun for wir: uns. Can mean 'each other' or 'ourselves'.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Du musst ___ beeilen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "dich"
-        },
-        {
-          "id": "b",
-          "text": "dir"
-        },
-        {
-          "id": "c",
-          "text": "sich"
-        },
-        {
-          "id": "d",
-          "text": "mich"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "sich beeilen: du musst dich beeilen",
-      "explanationDetail": "Sich beeilen (to hurry) is reflexive. Du musst dich beeilen (you must hurry). Reflexive pronoun for du: dich (Akk). With modal verbs, reflexive pronoun comes before infinitive.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Sie erinnert ___ an den Termin.",
+      "text": "Sie erinnert ___ an die Kindheit.",
       "options": [
         {
           "id": "a",
@@ -879,83 +421,51 @@
         },
         {
           "id": "d",
-          "text": "ihnen"
+          "text": "ihn"
         }
       ],
       "correctAnswerId": "b",
       "explanation": "sich erinnern: sie erinnert sich",
-      "explanationDetail": "Sich erinnern (to remember) is reflexive. Sie erinnert sich (she remembers). Reflexive pronoun for sie: sich. Sich erinnern an + Akkusativ.",
+      "explanationDetail": "Sich erinnern (to remember) is reflexive. Sie erinnert sich.",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Ich ziehe ___ warm an.",
-      "options": [
-        {
-          "id": "a",
-          "text": "mich"
-        },
-        {
-          "id": "b",
-          "text": "mir"
-        },
-        {
-          "id": "c",
-          "text": "dich"
-        },
-        {
-          "id": "d",
-          "text": "sich"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "sich anziehen: ich ziehe mich an",
-      "explanationDetail": "Sich anziehen (to get dressed) is reflexive and separable. Ich ziehe mich an (I get dressed). Reflexive pronoun mich (Akk). Separable prefix 'an' goes to end.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "separable-verbs"
-      ]
+      "id": "q14"
     },
     {
-      "id": "q31",
       "type": "multiple-choice",
-      "text": "Ihr müsst ___ entscheiden.",
+      "text": "Ihr sollt ___ ausruhen.",
       "options": [
         {
           "id": "a",
-          "text": "uns"
-        },
-        {
-          "id": "b",
           "text": "euch"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "uns"
         },
         {
           "id": "d",
           "text": "ihnen"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "sich entscheiden: ihr müsst euch entscheiden",
-      "explanationDetail": "Sich entscheiden (to decide) is reflexive. Ihr müsst euch entscheiden (you all must decide). Reflexive pronoun for ihr: euch. With modal verbs, reflexive pronoun comes before infinitive.",
+      "correctAnswerId": "a",
+      "explanation": "sich ausruhen: ihr ruht euch aus",
+      "explanationDetail": "Sich ausruhen (to rest). Ihr ruht euch aus. Reflexive for ihr: euch.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "modal-verbs"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q15"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Er interessiert ___ für Musik.",
+      "text": "Er hat ___ verletzt.",
       "options": [
         {
           "id": "a",
@@ -975,17 +485,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "sich interessieren: er interessiert sich",
-      "explanationDetail": "Sich interessieren (to be interested) is reflexive. Er interessiert sich (he's interested). Reflexive pronoun: sich. Sich interessieren für + Akkusativ.",
+      "explanation": "sich verletzen: er hat sich verletzt",
+      "explanationDetail": "Sich verletzen (to hurt oneself). Er hat sich verletzt.",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
+      ],
+      "id": "q16"
     },
     {
-      "id": "q33",
       "type": "multiple-choice",
-      "text": "Ich putze ___ die Zähne.",
+      "text": "Ich habe ___ gefreut.",
       "options": [
         {
           "id": "a",
@@ -1004,19 +514,78 @@
           "text": "sich"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "sich die Zähne putzen: ich putze mir (Dativ)",
-      "explanationDetail": "When the reflexive verb has a direct object (die Zähne), the reflexive pronoun is Dativ. Ich putze mir die Zähne (I brush my teeth). Reflexive Dativ: mir, dir, sich, uns, euch, sich. Literally: 'I brush to-me the teeth'.",
+      "correctAnswerId": "a",
+      "explanation": "sich freuen: ich habe mich gefreut",
+      "explanationDetail": "Sich freuen in Perfekt: ich habe mich gefreut (I was happy).",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "dativ"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q17"
     },
     {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Du solltest ___ ausruhen.",
+      "text": "Die Kinder waschen ___ vor dem Essen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich"
+        },
+        {
+          "id": "b",
+          "text": "ihnen"
+        },
+        {
+          "id": "c",
+          "text": "sie"
+        },
+        {
+          "id": "d",
+          "text": "ihr"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich waschen: 3rd plural = sich",
+      "explanationDetail": "Plural 3rd person reflexive: sich. Die Kinder waschen sich.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q18"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir freuen ___ auf das Wochenende.",
+      "options": [
+        {
+          "id": "a",
+          "text": "uns"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "euch"
+        },
+        {
+          "id": "d",
+          "text": "ihnen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich freuen: wir freuen uns",
+      "explanationDetail": "Wir freuen uns (we're looking forward). Reflexive for wir: uns.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du erkältest ___ leicht.",
       "options": [
         {
           "id": "a",
@@ -1036,48 +605,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "sich ausruhen: du solltest dich ausruhen",
-      "explanationDetail": "Sich ausruhen (to rest) is reflexive. Du solltest dich ausruhen (you should rest). Reflexive pronoun for du: dich. With modal verbs, reflexive pronoun comes before infinitive.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Wir setzen ___ an den Tisch.",
-      "options": [
-        {
-          "id": "a",
-          "text": "uns"
-        },
-        {
-          "id": "b",
-          "text": "sich"
-        },
-        {
-          "id": "c",
-          "text": "euch"
-        },
-        {
-          "id": "d",
-          "text": "ihnen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "sich setzen: wir setzen uns",
-      "explanationDetail": "Sich setzen (to sit down) is reflexive. Wir setzen uns (we sit down). Reflexive pronoun for wir: uns. Sich setzen is different from sitzen (to sit, not reflexive).",
+      "explanation": "sich erkälten: du erkältest dich",
+      "explanationDetail": "Sich erkälten (to catch a cold). Du erkältest dich.",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
+      ],
+      "id": "q20"
     },
     {
-      "id": "q36",
       "type": "multiple-choice",
-      "text": "Sie ärgert ___ über den Fehler.",
+      "text": "Sie interessiert ___ für Kunst.",
       "options": [
         {
           "id": "a",
@@ -1093,21 +631,21 @@
         },
         {
           "id": "d",
-          "text": "ihnen"
+          "text": "ihn"
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "sich ärgern: sie ärgert sich",
-      "explanationDetail": "Sich ärgern (to be annoyed) is reflexive. Sie ärgert sich (she's annoyed). Reflexive pronoun: sich. Sich ärgern über + Akkusativ.",
+      "explanation": "sich interessieren: sie interessiert sich",
+      "explanationDetail": "Sich interessieren für (to be interested in). Sie interessiert sich.",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
+      ],
+      "id": "q21"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Ich wasche ___ jeden Morgen.",
+      "text": "Ich schäme ___ für meinen Fehler.",
       "options": [
         {
           "id": "a",
@@ -1127,18 +665,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "sich waschen: ich wasche mich (Akkusativ)",
-      "explanationDetail": "Sich waschen (to wash oneself) uses Akkusativ reflexive pronoun. Ich wasche mich (I wash myself). Reflexive pronouns Akk: mich, dich, sich, uns, euch, sich. Most reflexive verbs use Akkusativ.",
+      "explanation": "sich schämen: ich schäme mich",
+      "explanationDetail": "Sich schämen (to be ashamed). Ich schäme mich. Akkusativ reflexive.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "akkusativ"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q22"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Er freut ___ auf die Ferien.",
+      "text": "Er wundert ___ über die Nachricht.",
       "options": [
         {
           "id": "a",
@@ -1158,21 +695,21 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "sich freuen: er freut sich",
-      "explanationDetail": "Sich freuen (to be happy/look forward to) is reflexive. Er freut sich (he's happy / he's looking forward). Reflexive pronoun for er/sie/es: sich. Sich freuen auf + Akkusativ.",
+      "explanation": "sich wundern: er wundert sich",
+      "explanationDetail": "Sich wundern (to be surprised). Er wundert sich.",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
+      ],
+      "id": "q23"
     },
     {
-      "id": "q39",
       "type": "multiple-choice",
-      "text": "Wir treffen ___ um 8 Uhr.",
+      "text": "Ihr müsst ___ entschuldigen.",
       "options": [
         {
           "id": "a",
-          "text": "uns"
+          "text": "euch"
         },
         {
           "id": "b",
@@ -1180,7 +717,7 @@
         },
         {
           "id": "c",
-          "text": "euch"
+          "text": "uns"
         },
         {
           "id": "d",
@@ -1188,17 +725,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "sich treffen: wir treffen uns",
-      "explanationDetail": "Sich treffen (to meet each other) is reflexive. Wir treffen uns (we're meeting / we meet). Reflexive pronoun for wir: uns. Can mean 'each other' or 'ourselves'.",
+      "explanation": "sich entschuldigen: ihr entschuldigt euch",
+      "explanationDetail": "Sich entschuldigen (to apologize). Ihr entschuldigt euch.",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
+      ],
+      "id": "q24"
     },
     {
-      "id": "q40",
       "type": "multiple-choice",
-      "text": "Du musst ___ beeilen.",
+      "text": "Du musst ___ mehr anstrengen.",
       "options": [
         {
           "id": "a",
@@ -1218,18 +755,47 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "sich beeilen: du musst dich beeilen",
-      "explanationDetail": "Sich beeilen (to hurry) is reflexive. Du musst dich beeilen (you must hurry). Reflexive pronoun for du: dich (Akk). With modal verbs, reflexive pronoun comes before infinitive.",
+      "explanation": "sich anstrengen: du strengst dich an",
+      "explanationDetail": "Sich anstrengen (to make an effort). Du strengst dich an.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "modal-verbs"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q25"
     },
     {
-      "id": "q41",
       "type": "multiple-choice",
-      "text": "Sie erinnert ___ an den Termin.",
+      "text": "Wir haben ___ verlaufen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "uns"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "euch"
+        },
+        {
+          "id": "d",
+          "text": "ihnen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich verlaufen: wir haben uns verlaufen",
+      "explanationDetail": "Sich verlaufen (to get lost). Wir haben uns verlaufen.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie hat ___ erkältet.",
       "options": [
         {
           "id": "a",
@@ -1245,83 +811,21 @@
         },
         {
           "id": "d",
-          "text": "ihnen"
+          "text": "ihn"
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "sich erinnern: sie erinnert sich",
-      "explanationDetail": "Sich erinnern (to remember) is reflexive. Sie erinnert sich (she remembers). Reflexive pronoun for sie: sich. Sich erinnern an + Akkusativ.",
+      "explanation": "sich erkälten: sie hat sich erkältet",
+      "explanationDetail": "Sie hat sich erkältet (she caught a cold).",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Ich ziehe ___ warm an.",
-      "options": [
-        {
-          "id": "a",
-          "text": "mich"
-        },
-        {
-          "id": "b",
-          "text": "mir"
-        },
-        {
-          "id": "c",
-          "text": "dich"
-        },
-        {
-          "id": "d",
-          "text": "sich"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "sich anziehen: ich ziehe mich an",
-      "explanationDetail": "Sich anziehen (to get dressed) is reflexive and separable. Ich ziehe mich an (I get dressed). Reflexive pronoun mich (Akk). Separable prefix 'an' goes to end.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "separable-verbs"
-      ]
+      "id": "q27"
     },
     {
-      "id": "q43",
       "type": "multiple-choice",
-      "text": "Ihr müsst ___ entscheiden.",
-      "options": [
-        {
-          "id": "a",
-          "text": "uns"
-        },
-        {
-          "id": "b",
-          "text": "euch"
-        },
-        {
-          "id": "c",
-          "text": "sich"
-        },
-        {
-          "id": "d",
-          "text": "ihnen"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "sich entscheiden: ihr müsst euch entscheiden",
-      "explanationDetail": "Sich entscheiden (to decide) is reflexive. Ihr müsst euch entscheiden (you all must decide). Reflexive pronoun for ihr: euch. With modal verbs, reflexive pronoun comes before infinitive.",
-      "tags": [
-        "pronouns",
-        "reflexive-verbs",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Er interessiert ___ für Musik.",
+      "text": "Der Mann rasiert ___ jeden Tag.",
       "options": [
         {
           "id": "a",
@@ -1341,17 +845,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "sich interessieren: er interessiert sich",
-      "explanationDetail": "Sich interessieren (to be interested) is reflexive. Er interessiert sich (he's interested). Reflexive pronoun: sich. Sich interessieren für + Akkusativ.",
+      "explanation": "sich rasieren: er rasiert sich",
+      "explanationDetail": "Sich rasieren (to shave). Der Mann rasiert sich.",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
+      ],
+      "id": "q28"
     },
     {
-      "id": "q45",
       "type": "multiple-choice",
-      "text": "Ich putze ___ die Zähne.",
+      "text": "Ich fühle ___ wohl hier.",
       "options": [
         {
           "id": "a",
@@ -1370,19 +874,108 @@
           "text": "sich"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "sich die Zähne putzen: ich putze mir (Dativ)",
-      "explanationDetail": "When the reflexive verb has a direct object (die Zähne), the reflexive pronoun is Dativ. Ich putze mir die Zähne (I brush my teeth). Reflexive Dativ: mir, dir, sich, uns, euch, sich. Literally: 'I brush to-me the teeth'.",
+      "correctAnswerId": "a",
+      "explanation": "sich fühlen: ich fühle mich (Akk)",
+      "explanationDetail": "Sich fühlen (to feel). Ich fühle mich wohl. Akkusativ.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "dativ"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q29"
     },
     {
-      "id": "q46",
       "type": "multiple-choice",
-      "text": "Du solltest ___ ausruhen.",
+      "text": "Die Frau hat ___ verspätet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihr"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "sie"
+        },
+        {
+          "id": "d",
+          "text": "ihn"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "sich verspäten: sie hat sich verspätet",
+      "explanationDetail": "Sich verspäten (to be late). Sie hat sich verspätet.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q30"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr habt ___ gut vorbereitet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "euch"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "uns"
+        },
+        {
+          "id": "d",
+          "text": "ihnen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich vorbereiten: ihr habt euch vorbereitet",
+      "explanationDetail": "Sich vorbereiten (to prepare). Ihr habt euch vorbereitet.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q31"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er setzt ___ auf die Bank.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihm"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "ihn"
+        },
+        {
+          "id": "d",
+          "text": "er"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "sich setzen: er setzt sich (Akk)",
+      "explanationDetail": "Sich setzen (to sit down). Er setzt sich. Akkusativ reflexive.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du hast ___ gewaschen.",
       "options": [
         {
           "id": "a",
@@ -1402,18 +995,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "sich ausruhen: du solltest dich ausruhen",
-      "explanationDetail": "Sich ausruhen (to rest) is reflexive. Du solltest dich ausruhen (you should rest). Reflexive pronoun for du: dich. With modal verbs, reflexive pronoun comes before infinitive.",
+      "explanation": "sich waschen: du hast dich gewaschen",
+      "explanationDetail": "Perfekt: du hast dich gewaschen.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "modal-verbs"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q33"
     },
     {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Wir setzen ___ an den Tisch.",
+      "text": "Wir ärgern ___ über das Wetter.",
       "options": [
         {
           "id": "a",
@@ -1433,17 +1025,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "sich setzen: wir setzen uns",
-      "explanationDetail": "Sich setzen (to sit down) is reflexive. Wir setzen uns (we sit down). Reflexive pronoun for wir: uns. Sich setzen is different from sitzen (to sit, not reflexive).",
+      "explanation": "sich ärgern: wir ärgern uns",
+      "explanationDetail": "Sich ärgern über (to be annoyed about). Wir ärgern uns.",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
+      ],
+      "id": "q34"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Sie ärgert ___ über den Fehler.",
+      "text": "Sie langweilt ___.",
       "options": [
         {
           "id": "a",
@@ -1459,21 +1051,21 @@
         },
         {
           "id": "d",
-          "text": "ihnen"
+          "text": "ihn"
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "sich ärgern: sie ärgert sich",
-      "explanationDetail": "Sich ärgern (to be annoyed) is reflexive. Sie ärgert sich (she's annoyed). Reflexive pronoun: sich. Sich ärgern über + Akkusativ.",
+      "explanation": "sich langweilen: sie langweilt sich",
+      "explanationDetail": "Sich langweilen (to be bored). Sie langweilt sich.",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
+      ],
+      "id": "q35"
     },
     {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Ich wasche ___ jeden Morgen.",
+      "text": "Ich habe ___ gefürchtet.",
       "options": [
         {
           "id": "a",
@@ -1493,18 +1085,47 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "sich waschen: ich wasche mich (Akkusativ)",
-      "explanationDetail": "Sich waschen (to wash oneself) uses Akkusativ reflexive pronoun. Ich wasche mich (I wash myself). Reflexive pronouns Akk: mich, dich, sich, uns, euch, sich. Most reflexive verbs use Akkusativ.",
+      "explanation": "sich fürchten: ich habe mich gefürchtet",
+      "explanationDetail": "Sich fürchten (to be afraid). Ich habe mich gefürchtet.",
       "tags": [
         "pronouns",
-        "reflexive-verbs",
-        "akkusativ"
-      ]
+        "reflexive-verbs"
+      ],
+      "id": "q36"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Er freut ___ auf die Ferien.",
+      "text": "Die Schüler konzentrieren ___ auf die Aufgabe.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich"
+        },
+        {
+          "id": "b",
+          "text": "ihnen"
+        },
+        {
+          "id": "c",
+          "text": "sie"
+        },
+        {
+          "id": "d",
+          "text": "ihr"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich konzentrieren: sie konzentrieren sich",
+      "explanationDetail": "Sich konzentrieren auf (to concentrate on). Plural: sich.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er hat ___ hingelegt.",
       "options": [
         {
           "id": "a",
@@ -1524,12 +1145,373 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "sich freuen: er freut sich",
-      "explanationDetail": "Sich freuen (to be happy/look forward to) is reflexive. Er freut sich (he's happy / he's looking forward). Reflexive pronoun for er/sie/es: sich. Sich freuen auf + Akkusativ.",
+      "explanation": "sich hinlegen: er hat sich hingelegt",
+      "explanationDetail": "Sich hinlegen (to lie down). Er hat sich hingelegt.",
       "tags": [
         "pronouns",
         "reflexive-verbs"
-      ]
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr müsst ___ beeilen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "euch"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "uns"
+        },
+        {
+          "id": "d",
+          "text": "ihnen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich beeilen: ihr beeilt euch",
+      "explanationDetail": "Ihr beeilt euch (you hurry).",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du sollst ___ nicht schämen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dich"
+        },
+        {
+          "id": "b",
+          "text": "dir"
+        },
+        {
+          "id": "c",
+          "text": "sich"
+        },
+        {
+          "id": "d",
+          "text": "mich"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich schämen: du schämst dich",
+      "explanationDetail": "Du schämst dich (you should not be ashamed).",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du hast ___ gewaschen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dich"
+        },
+        {
+          "id": "b",
+          "text": "dir"
+        },
+        {
+          "id": "c",
+          "text": "sich"
+        },
+        {
+          "id": "d",
+          "text": "mich"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich waschen: du hast dich gewaschen",
+      "explanationDetail": "Perfekt: du hast dich gewaschen.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir ärgern ___ über das Wetter.",
+      "options": [
+        {
+          "id": "a",
+          "text": "uns"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "euch"
+        },
+        {
+          "id": "d",
+          "text": "ihnen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich ärgern: wir ärgern uns",
+      "explanationDetail": "Sich ärgern über (to be annoyed about). Wir ärgern uns.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Sie langweilt ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihr"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "sie"
+        },
+        {
+          "id": "d",
+          "text": "ihn"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "sich langweilen: sie langweilt sich",
+      "explanationDetail": "Sich langweilen (to be bored). Sie langweilt sich.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ich habe ___ gefürchtet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "mich"
+        },
+        {
+          "id": "b",
+          "text": "mir"
+        },
+        {
+          "id": "c",
+          "text": "dich"
+        },
+        {
+          "id": "d",
+          "text": "sich"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich fürchten: ich habe mich gefürchtet",
+      "explanationDetail": "Sich fürchten (to be afraid). Ich habe mich gefürchtet.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Schüler konzentrieren ___ auf die Aufgabe.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sich"
+        },
+        {
+          "id": "b",
+          "text": "ihnen"
+        },
+        {
+          "id": "c",
+          "text": "sie"
+        },
+        {
+          "id": "d",
+          "text": "ihr"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich konzentrieren: sie konzentrieren sich",
+      "explanationDetail": "Sich konzentrieren auf (to concentrate on). Plural: sich.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Er hat ___ hingelegt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ihm"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "ihn"
+        },
+        {
+          "id": "d",
+          "text": "er"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "sich hinlegen: er hat sich hingelegt",
+      "explanationDetail": "Sich hinlegen (to lie down). Er hat sich hingelegt.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Ihr müsst ___ beeilen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "euch"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "uns"
+        },
+        {
+          "id": "d",
+          "text": "ihnen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich beeilen: ihr beeilt euch",
+      "explanationDetail": "Ihr beeilt euch (you hurry).",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du sollst ___ nicht schämen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dich"
+        },
+        {
+          "id": "b",
+          "text": "dir"
+        },
+        {
+          "id": "c",
+          "text": "sich"
+        },
+        {
+          "id": "d",
+          "text": "mich"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich schämen: du schämst dich",
+      "explanationDetail": "Du schämst dich (you should not be ashamed).",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Du hast ___ gewaschen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dich"
+        },
+        {
+          "id": "b",
+          "text": "dir"
+        },
+        {
+          "id": "c",
+          "text": "sich"
+        },
+        {
+          "id": "d",
+          "text": "mich"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich waschen: du hast dich gewaschen",
+      "explanationDetail": "Perfekt: du hast dich gewaschen.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wir ärgern ___ über das Wetter.",
+      "options": [
+        {
+          "id": "a",
+          "text": "uns"
+        },
+        {
+          "id": "b",
+          "text": "sich"
+        },
+        {
+          "id": "c",
+          "text": "euch"
+        },
+        {
+          "id": "d",
+          "text": "ihnen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sich ärgern: wir ärgern uns",
+      "explanationDetail": "Sich ärgern über (to be annoyed about). Wir ärgern uns.",
+      "tags": [
+        "pronouns",
+        "reflexive-verbs"
+      ],
+      "id": "q50"
     }
   ]
 }

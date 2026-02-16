@@ -325,17 +325,16 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Wenn ich reich ___, würde ich ein Haus kaufen.",
+      "text": "Wenn ich du ___, würde ich das nicht tun.",
       "options": [
         {
           "id": "a",
-          "text": "bin"
+          "text": "wäre"
         },
         {
           "id": "b",
-          "text": "wäre"
+          "text": "bin"
         },
         {
           "id": "c",
@@ -346,28 +345,27 @@
           "text": "würde sein"
         }
       ],
-      "correctAnswerId": "b",
+      "correctAnswerId": "a",
       "explanation": "Konjunktiv II of sein: wäre",
-      "explanationDetail": "Sein in Konjunktiv II: ich wäre, du wärest, er/sie wäre, wir wären, ihr wäret, sie wären. Wenn ich reich wäre (if I were rich). This is an unreal condition.",
+      "explanationDetail": "Sein → wäre (would be). Wenn ich du wäre (if I were you).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
+        "konjunktiv",
         "irregular",
         "sein"
-      ]
+      ],
+      "id": "q11"
     },
     {
-      "id": "q12",
       "type": "multiple-choice",
-      "text": "Ich ___ gerne mehr Zeit.",
+      "text": "Wenn er mehr Zeit ___, käme er mit.",
       "options": [
         {
           "id": "a",
-          "text": "habe"
+          "text": "hätte"
         },
         {
           "id": "b",
-          "text": "hätte"
+          "text": "hat"
         },
         {
           "id": "c",
@@ -375,31 +373,274 @@
         },
         {
           "id": "d",
-          "text": "würde haben"
+          "text": "haben würde"
         }
       ],
-      "correctAnswerId": "b",
+      "correctAnswerId": "a",
       "explanation": "Konjunktiv II of haben: hätte",
-      "explanationDetail": "Haben in Konjunktiv II: ich hätte, du hättest, er/sie hätte, wir hätten, ihr hättet, sie hätten. Ich hätte gerne (I would like to have). Used for polite wishes.",
+      "explanationDetail": "Haben → hätte (would have).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
+        "konjunktiv",
         "irregular",
         "haben"
-      ]
+      ],
+      "id": "q12"
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
-      "text": "Er ___ gerne mitkommen.",
+      "text": "Wenn du mich ___, würde ich dir helfen.",
       "options": [
         {
           "id": "a",
-          "text": "kann"
+          "text": "bräuchtest"
         },
         {
           "id": "b",
+          "text": "brauchst"
+        },
+        {
+          "id": "c",
+          "text": "brauchtest"
+        },
+        {
+          "id": "d",
+          "text": "brauchen würdest"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Konjunktiv II of brauchen: bräuchtest",
+      "explanationDetail": "Brauchen → bräuchte (would need). Du bräuchtest.",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q13"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn sie reich ___, würde sie viel reisen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wäre"
+        },
+        {
+          "id": "b",
+          "text": "ist"
+        },
+        {
+          "id": "c",
+          "text": "war"
+        },
+        {
+          "id": "d",
+          "text": "würde sein"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sein → wäre",
+      "explanationDetail": "Sie wäre (she would be).",
+      "tags": [
+        "konjunktiv",
+        "irregular",
+        "sein"
+      ],
+      "id": "q14"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ich das ___, hätte ich es gesagt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "gewusst hätte"
+        },
+        {
+          "id": "b",
+          "text": "wusste"
+        },
+        {
+          "id": "c",
+          "text": "wüsste"
+        },
+        {
+          "id": "d",
+          "text": "gewusst habe"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Konjunktiv II Perfekt: gewusst hätte",
+      "explanationDetail": "Wenn ich das gewusst hätte (if I had known that). Past unreal: gewusst + hätte.",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q15"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn er ___, könnte er helfen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "käme"
+        },
+        {
+          "id": "b",
+          "text": "kommt"
+        },
+        {
+          "id": "c",
+          "text": "kam"
+        },
+        {
+          "id": "d",
+          "text": "kommen würde"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Konjunktiv II of kommen: käme",
+      "explanationDetail": "Kommen → käme (would come). Irregular form.",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q16"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn du mehr ___, wärst du nicht so müde.",
+      "options": [
+        {
+          "id": "a",
+          "text": "schliefest"
+        },
+        {
+          "id": "b",
+          "text": "schläfst"
+        },
+        {
+          "id": "c",
+          "text": "schliefst"
+        },
+        {
+          "id": "d",
+          "text": "schlafen würdest"
+        }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Konjunktiv II of schlafen: schliefest/schliefe",
+      "explanationDetail": "Schlafen → schliefe (would sleep). Du schliefest.",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q17"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn wir das ___, wären wir glücklich.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hätten"
+        },
+        {
+          "id": "b",
+          "text": "haben"
+        },
+        {
+          "id": "c",
+          "text": "hatten"
+        },
+        {
+          "id": "d",
+          "text": "haben würden"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "haben → hätten",
+      "explanationDetail": "Wir hätten (we would have).",
+      "tags": [
+        "konjunktiv",
+        "irregular",
+        "haben"
+      ],
+      "id": "q18"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ich genug Geld ___, kaufte ich ein Auto.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hätte"
+        },
+        {
+          "id": "b",
+          "text": "habe"
+        },
+        {
+          "id": "c",
+          "text": "hatte"
+        },
+        {
+          "id": "d",
+          "text": "haben würde"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "haben → hätte",
+      "explanationDetail": "Ich hätte (I would have).",
+      "tags": [
+        "konjunktiv",
+        "irregular",
+        "haben"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn du ___, würdest du es verstehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "dabei wärst"
+        },
+        {
+          "id": "b",
+          "text": "dabei bist"
+        },
+        {
+          "id": "c",
+          "text": "dabei warst"
+        },
+        {
+          "id": "d",
+          "text": "dabei sein würdest"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sein → wärst",
+      "explanationDetail": "Du wärst dabei (you would be there).",
+      "tags": [
+        "konjunktiv",
+        "irregular",
+        "sein"
+      ],
+      "id": "q20"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn sie ___, würde sie uns besuchen.",
+      "options": [
+        {
+          "id": "a",
           "text": "könnte"
+        },
+        {
+          "id": "b",
+          "text": "kann"
         },
         {
           "id": "c",
@@ -407,63 +648,59 @@
         },
         {
           "id": "d",
-          "text": "würde können"
+          "text": "können würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of können: könnte",
-      "explanationDetail": "Können in Konjunktiv II: ich könnte, du könntest, er/sie könnte, wir könnten, ihr könntet, sie könnten. Er könnte mitkommen (he could come along). Used for polite suggestions or hypothetical ability.",
+      "correctAnswerId": "a",
+      "explanation": "können → könnte",
+      "explanationDetail": "Sie könnte (she could/would be able to).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q21"
     },
     {
-      "id": "q14",
       "type": "multiple-choice",
-      "text": "Wenn du Zeit ___, könnten wir ins Kino gehen.",
+      "text": "Wenn ich ___, bliebe ich zu Hause.",
       "options": [
         {
           "id": "a",
-          "text": "hast"
+          "text": "krank wäre"
         },
         {
           "id": "b",
-          "text": "hättest"
+          "text": "krank bin"
         },
         {
           "id": "c",
-          "text": "hattest"
+          "text": "krank war"
         },
         {
           "id": "d",
-          "text": "würdest haben"
+          "text": "krank sein würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hättest",
-      "explanationDetail": "Haben in Konjunktiv II, 2nd person: du hättest. Wenn du Zeit hättest (if you had time). This is an unreal condition (you don't have time).",
+      "correctAnswerId": "a",
+      "explanation": "sein → wäre",
+      "explanationDetail": "Ich wäre krank (I would be sick).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q22"
     },
     {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Wir ___ gerne länger bleiben.",
+      "text": "Wenn er ___, ginge er mit.",
       "options": [
         {
           "id": "a",
-          "text": "wollen"
+          "text": "wollte"
         },
         {
           "id": "b",
-          "text": "würden"
+          "text": "will"
         },
         {
           "id": "c",
@@ -471,253 +708,89 @@
         },
         {
           "id": "d",
-          "text": "werden"
+          "text": "wollen würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würden bleiben",
-      "explanationDetail": "Würden + infinitive for wishes. Wir würden bleiben (we would like to stay). Plural form: würden. This is polite or hypothetical.",
+      "correctAnswerId": "a",
+      "explanation": "wollen → wollte",
+      "explanationDetail": "Er wollte (he would want to). Modal in Konjunktiv II.",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q23"
     },
     {
-      "id": "q16",
       "type": "multiple-choice",
-      "text": "Du ___ mehr lernen.",
+      "text": "Wenn ihr ___, könntet ihr helfen.",
       "options": [
         {
           "id": "a",
-          "text": "musst"
+          "text": "wüsstet"
         },
         {
           "id": "b",
-          "text": "müsstest"
+          "text": "wisst"
         },
         {
           "id": "c",
-          "text": "musstest"
+          "text": "wusstet"
         },
         {
           "id": "d",
-          "text": "würdest müssen"
+          "text": "wissen würdet"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of müssen: müsstest",
-      "explanationDetail": "Müssen in Konjunktiv II: ich müsste, du müsstest, er/sie müsste, wir müssten, ihr müsstet, sie müssten. Du müsstest lernen (you should learn / you would have to learn). Softer than 'du musst'.",
+      "correctAnswerId": "a",
+      "explanation": "wissen → wüsstet",
+      "explanationDetail": "Ihr wüsstet (you would know).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q24"
     },
     {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Wenn ich du ___, würde ich das nicht tun.",
+      "text": "Wenn du ___, wäre alles einfacher.",
       "options": [
         {
           "id": "a",
-          "text": "bin"
+          "text": "hier wärst"
         },
         {
           "id": "b",
-          "text": "wäre"
+          "text": "hier bist"
         },
         {
           "id": "c",
-          "text": "war"
+          "text": "hier warst"
         },
         {
           "id": "d",
-          "text": "würde sein"
+          "text": "hier sein würdest"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sein: wäre",
-      "explanationDetail": "Sein in Konjunktiv II: ich wäre. Wenn ich du wäre (if I were you). This is a common hypothetical expression. Use wäre, not 'würde sein'.",
+      "correctAnswerId": "a",
+      "explanation": "sein → wärst",
+      "explanationDetail": "Du wärst hier (you would be here).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "sein"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q25"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Sie ___ gerne eine Pause machen.",
+      "text": "Wenn sie ___, würde sie uns besuchen.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "wird"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for polite wishes. Sie würde machen (she would like to do). This is more polite than 'sie will' (she wants to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Wenn ich mehr Geld ___, würde ich reisen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "hätte"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "würde haben"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hätte",
-      "explanationDetail": "Haben in Konjunktiv II: ich hätte. Wenn ich mehr Geld hätte (if I had more money). This is an unreal condition. Use hätte, not 'würde haben'.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Ihr ___ das auch machen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "könnt"
-        },
-        {
-          "id": "b",
-          "text": "könntet"
-        },
-        {
-          "id": "c",
-          "text": "konntet"
-        },
-        {
-          "id": "d",
-          "text": "würdet können"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of können: könntet",
-      "explanationDetail": "Können in Konjunktiv II, 2nd person plural: ihr könntet. Ihr könntet machen (you all could do). This is a polite suggestion or hypothetical possibility.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Wenn ich reich ___, würde ich ein Haus kaufen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "wäre"
-        },
-        {
-          "id": "c",
-          "text": "war"
-        },
-        {
-          "id": "d",
-          "text": "würde sein"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sein: wäre",
-      "explanationDetail": "Sein in Konjunktiv II: ich wäre, du wärest, er/sie wäre, wir wären, ihr wäret, sie wären. Wenn ich reich wäre (if I were rich). This is an unreal condition.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "sein"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Ich ___ gerne mehr Zeit.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "hätte"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "würde haben"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hätte",
-      "explanationDetail": "Haben in Konjunktiv II: ich hätte, du hättest, er/sie hätte, wir hätten, ihr hättet, sie hätten. Ich hätte gerne (I would like to have). Used for polite wishes.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Er ___ gerne mitkommen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kann"
-        },
-        {
-          "id": "b",
           "text": "könnte"
+        },
+        {
+          "id": "b",
+          "text": "kann"
         },
         {
           "id": "c",
@@ -725,63 +798,59 @@
         },
         {
           "id": "d",
-          "text": "würde können"
+          "text": "können würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of können: könnte",
-      "explanationDetail": "Können in Konjunktiv II: ich könnte, du könntest, er/sie könnte, wir könnten, ihr könntet, sie könnten. Er könnte mitkommen (he could come along). Used for polite suggestions or hypothetical ability.",
+      "correctAnswerId": "a",
+      "explanation": "können → könnte",
+      "explanationDetail": "Sie könnte (she could/would be able to).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q26"
     },
     {
-      "id": "q24",
       "type": "multiple-choice",
-      "text": "Wenn du Zeit ___, könnten wir ins Kino gehen.",
+      "text": "Wenn ich ___, bliebe ich zu Hause.",
       "options": [
         {
           "id": "a",
-          "text": "hast"
+          "text": "krank wäre"
         },
         {
           "id": "b",
-          "text": "hättest"
+          "text": "krank bin"
         },
         {
           "id": "c",
-          "text": "hattest"
+          "text": "krank war"
         },
         {
           "id": "d",
-          "text": "würdest haben"
+          "text": "krank sein würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hättest",
-      "explanationDetail": "Haben in Konjunktiv II, 2nd person: du hättest. Wenn du Zeit hättest (if you had time). This is an unreal condition (you don't have time).",
+      "correctAnswerId": "a",
+      "explanation": "sein → wäre",
+      "explanationDetail": "Ich wäre krank (I would be sick).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q27"
     },
     {
-      "id": "q25",
       "type": "multiple-choice",
-      "text": "Wir ___ gerne länger bleiben.",
+      "text": "Wenn er ___, ginge er mit.",
       "options": [
         {
           "id": "a",
-          "text": "wollen"
+          "text": "wollte"
         },
         {
           "id": "b",
-          "text": "würden"
+          "text": "will"
         },
         {
           "id": "c",
@@ -789,253 +858,89 @@
         },
         {
           "id": "d",
-          "text": "werden"
+          "text": "wollen würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würden bleiben",
-      "explanationDetail": "Würden + infinitive for wishes. Wir würden bleiben (we would like to stay). Plural form: würden. This is polite or hypothetical.",
+      "correctAnswerId": "a",
+      "explanation": "wollen → wollte",
+      "explanationDetail": "Er wollte (he would want to). Modal in Konjunktiv II.",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q28"
     },
     {
-      "id": "q26",
       "type": "multiple-choice",
-      "text": "Du ___ mehr lernen.",
+      "text": "Wenn ihr ___, könntet ihr helfen.",
       "options": [
         {
           "id": "a",
-          "text": "musst"
+          "text": "wüsstet"
         },
         {
           "id": "b",
-          "text": "müsstest"
+          "text": "wisst"
         },
         {
           "id": "c",
-          "text": "musstest"
+          "text": "wusstet"
         },
         {
           "id": "d",
-          "text": "würdest müssen"
+          "text": "wissen würdet"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of müssen: müsstest",
-      "explanationDetail": "Müssen in Konjunktiv II: ich müsste, du müsstest, er/sie müsste, wir müssten, ihr müsstet, sie müssten. Du müsstest lernen (you should learn / you would have to learn). Softer than 'du musst'.",
+      "correctAnswerId": "a",
+      "explanation": "wissen → wüsstet",
+      "explanationDetail": "Ihr wüsstet (you would know).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q29"
     },
     {
-      "id": "q27",
       "type": "multiple-choice",
-      "text": "Wenn ich du ___, würde ich das nicht tun.",
+      "text": "Wenn du ___, wäre alles einfacher.",
       "options": [
         {
           "id": "a",
-          "text": "bin"
+          "text": "hier wärst"
         },
         {
           "id": "b",
-          "text": "wäre"
+          "text": "hier bist"
         },
         {
           "id": "c",
-          "text": "war"
+          "text": "hier warst"
         },
         {
           "id": "d",
-          "text": "würde sein"
+          "text": "hier sein würdest"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sein: wäre",
-      "explanationDetail": "Sein in Konjunktiv II: ich wäre. Wenn ich du wäre (if I were you). This is a common hypothetical expression. Use wäre, not 'würde sein'.",
+      "correctAnswerId": "a",
+      "explanation": "sein → wärst",
+      "explanationDetail": "Du wärst hier (you would be here).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "sein"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q30"
     },
     {
-      "id": "q28",
       "type": "multiple-choice",
-      "text": "Sie ___ gerne eine Pause machen.",
+      "text": "Wenn sie ___, würde sie uns besuchen.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "wird"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for polite wishes. Sie würde machen (she would like to do). This is more polite than 'sie will' (she wants to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "multiple-choice",
-      "text": "Wenn ich mehr Geld ___, würde ich reisen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "hätte"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "würde haben"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hätte",
-      "explanationDetail": "Haben in Konjunktiv II: ich hätte. Wenn ich mehr Geld hätte (if I had more money). This is an unreal condition. Use hätte, not 'würde haben'.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Ihr ___ das auch machen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "könnt"
-        },
-        {
-          "id": "b",
-          "text": "könntet"
-        },
-        {
-          "id": "c",
-          "text": "konntet"
-        },
-        {
-          "id": "d",
-          "text": "würdet können"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of können: könntet",
-      "explanationDetail": "Können in Konjunktiv II, 2nd person plural: ihr könntet. Ihr könntet machen (you all could do). This is a polite suggestion or hypothetical possibility.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Wenn ich reich ___, würde ich ein Haus kaufen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "wäre"
-        },
-        {
-          "id": "c",
-          "text": "war"
-        },
-        {
-          "id": "d",
-          "text": "würde sein"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sein: wäre",
-      "explanationDetail": "Sein in Konjunktiv II: ich wäre, du wärest, er/sie wäre, wir wären, ihr wäret, sie wären. Wenn ich reich wäre (if I were rich). This is an unreal condition.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "sein"
-      ]
-    },
-    {
-      "id": "q32",
-      "type": "multiple-choice",
-      "text": "Ich ___ gerne mehr Zeit.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "hätte"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "würde haben"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hätte",
-      "explanationDetail": "Haben in Konjunktiv II: ich hätte, du hättest, er/sie hätte, wir hätten, ihr hättet, sie hätten. Ich hätte gerne (I would like to have). Used for polite wishes.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Er ___ gerne mitkommen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kann"
-        },
-        {
-          "id": "b",
           "text": "könnte"
+        },
+        {
+          "id": "b",
+          "text": "kann"
         },
         {
           "id": "c",
@@ -1043,63 +948,59 @@
         },
         {
           "id": "d",
-          "text": "würde können"
+          "text": "können würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of können: könnte",
-      "explanationDetail": "Können in Konjunktiv II: ich könnte, du könntest, er/sie könnte, wir könnten, ihr könntet, sie könnten. Er könnte mitkommen (he could come along). Used for polite suggestions or hypothetical ability.",
+      "correctAnswerId": "a",
+      "explanation": "können → könnte",
+      "explanationDetail": "Sie könnte (she could/would be able to).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q31"
     },
     {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Wenn du Zeit ___, könnten wir ins Kino gehen.",
+      "text": "Wenn ich ___, bliebe ich zu Hause.",
       "options": [
         {
           "id": "a",
-          "text": "hast"
+          "text": "krank wäre"
         },
         {
           "id": "b",
-          "text": "hättest"
+          "text": "krank bin"
         },
         {
           "id": "c",
-          "text": "hattest"
+          "text": "krank war"
         },
         {
           "id": "d",
-          "text": "würdest haben"
+          "text": "krank sein würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hättest",
-      "explanationDetail": "Haben in Konjunktiv II, 2nd person: du hättest. Wenn du Zeit hättest (if you had time). This is an unreal condition (you don't have time).",
+      "correctAnswerId": "a",
+      "explanation": "sein → wäre",
+      "explanationDetail": "Ich wäre krank (I would be sick).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q32"
     },
     {
-      "id": "q35",
       "type": "multiple-choice",
-      "text": "Wir ___ gerne länger bleiben.",
+      "text": "Wenn er ___, ginge er mit.",
       "options": [
         {
           "id": "a",
-          "text": "wollen"
+          "text": "wollte"
         },
         {
           "id": "b",
-          "text": "würden"
+          "text": "will"
         },
         {
           "id": "c",
@@ -1107,253 +1008,89 @@
         },
         {
           "id": "d",
-          "text": "werden"
+          "text": "wollen würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würden bleiben",
-      "explanationDetail": "Würden + infinitive for wishes. Wir würden bleiben (we would like to stay). Plural form: würden. This is polite or hypothetical.",
+      "correctAnswerId": "a",
+      "explanation": "wollen → wollte",
+      "explanationDetail": "Er wollte (he would want to). Modal in Konjunktiv II.",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q33"
     },
     {
-      "id": "q36",
       "type": "multiple-choice",
-      "text": "Du ___ mehr lernen.",
+      "text": "Wenn ihr ___, könntet ihr helfen.",
       "options": [
         {
           "id": "a",
-          "text": "musst"
+          "text": "wüsstet"
         },
         {
           "id": "b",
-          "text": "müsstest"
+          "text": "wisst"
         },
         {
           "id": "c",
-          "text": "musstest"
+          "text": "wusstet"
         },
         {
           "id": "d",
-          "text": "würdest müssen"
+          "text": "wissen würdet"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of müssen: müsstest",
-      "explanationDetail": "Müssen in Konjunktiv II: ich müsste, du müsstest, er/sie müsste, wir müssten, ihr müsstet, sie müssten. Du müsstest lernen (you should learn / you would have to learn). Softer than 'du musst'.",
+      "correctAnswerId": "a",
+      "explanation": "wissen → wüsstet",
+      "explanationDetail": "Ihr wüsstet (you would know).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q34"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Wenn ich du ___, würde ich das nicht tun.",
+      "text": "Wenn du ___, wäre alles einfacher.",
       "options": [
         {
           "id": "a",
-          "text": "bin"
+          "text": "hier wärst"
         },
         {
           "id": "b",
-          "text": "wäre"
+          "text": "hier bist"
         },
         {
           "id": "c",
-          "text": "war"
+          "text": "hier warst"
         },
         {
           "id": "d",
-          "text": "würde sein"
+          "text": "hier sein würdest"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sein: wäre",
-      "explanationDetail": "Sein in Konjunktiv II: ich wäre. Wenn ich du wäre (if I were you). This is a common hypothetical expression. Use wäre, not 'würde sein'.",
+      "correctAnswerId": "a",
+      "explanation": "sein → wärst",
+      "explanationDetail": "Du wärst hier (you would be here).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "sein"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q35"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Sie ___ gerne eine Pause machen.",
+      "text": "Wenn sie ___, würde sie uns besuchen.",
       "options": [
         {
           "id": "a",
-          "text": "will"
-        },
-        {
-          "id": "b",
-          "text": "würde"
-        },
-        {
-          "id": "c",
-          "text": "wird"
-        },
-        {
-          "id": "d",
-          "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for polite wishes. Sie würde machen (she would like to do). This is more polite than 'sie will' (she wants to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "multiple-choice",
-      "text": "Wenn ich mehr Geld ___, würde ich reisen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "hätte"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "würde haben"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hätte",
-      "explanationDetail": "Haben in Konjunktiv II: ich hätte. Wenn ich mehr Geld hätte (if I had more money). This is an unreal condition. Use hätte, not 'würde haben'.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Ihr ___ das auch machen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "könnt"
-        },
-        {
-          "id": "b",
-          "text": "könntet"
-        },
-        {
-          "id": "c",
-          "text": "konntet"
-        },
-        {
-          "id": "d",
-          "text": "würdet können"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of können: könntet",
-      "explanationDetail": "Können in Konjunktiv II, 2nd person plural: ihr könntet. Ihr könntet machen (you all could do). This is a polite suggestion or hypothetical possibility.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Wenn ich reich ___, würde ich ein Haus kaufen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "bin"
-        },
-        {
-          "id": "b",
-          "text": "wäre"
-        },
-        {
-          "id": "c",
-          "text": "war"
-        },
-        {
-          "id": "d",
-          "text": "würde sein"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sein: wäre",
-      "explanationDetail": "Sein in Konjunktiv II: ich wäre, du wärest, er/sie wäre, wir wären, ihr wäret, sie wären. Wenn ich reich wäre (if I were rich). This is an unreal condition.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "sein"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Ich ___ gerne mehr Zeit.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
-        },
-        {
-          "id": "b",
-          "text": "hätte"
-        },
-        {
-          "id": "c",
-          "text": "hatte"
-        },
-        {
-          "id": "d",
-          "text": "würde haben"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hätte",
-      "explanationDetail": "Haben in Konjunktiv II: ich hätte, du hättest, er/sie hätte, wir hätten, ihr hättet, sie hätten. Ich hätte gerne (I would like to have). Used for polite wishes.",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Er ___ gerne mitkommen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "kann"
-        },
-        {
-          "id": "b",
           "text": "könnte"
+        },
+        {
+          "id": "b",
+          "text": "kann"
         },
         {
           "id": "c",
@@ -1361,63 +1098,59 @@
         },
         {
           "id": "d",
-          "text": "würde können"
+          "text": "können würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of können: könnte",
-      "explanationDetail": "Können in Konjunktiv II: ich könnte, du könntest, er/sie könnte, wir könnten, ihr könntet, sie könnten. Er könnte mitkommen (he could come along). Used for polite suggestions or hypothetical ability.",
+      "correctAnswerId": "a",
+      "explanation": "können → könnte",
+      "explanationDetail": "Sie könnte (she could/would be able to).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q36"
     },
     {
-      "id": "q44",
       "type": "multiple-choice",
-      "text": "Wenn du Zeit ___, könnten wir ins Kino gehen.",
+      "text": "Wenn ich ___, bliebe ich zu Hause.",
       "options": [
         {
           "id": "a",
-          "text": "hast"
+          "text": "krank wäre"
         },
         {
           "id": "b",
-          "text": "hättest"
+          "text": "krank bin"
         },
         {
           "id": "c",
-          "text": "hattest"
+          "text": "krank war"
         },
         {
           "id": "d",
-          "text": "würdest haben"
+          "text": "krank sein würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hättest",
-      "explanationDetail": "Haben in Konjunktiv II, 2nd person: du hättest. Wenn du Zeit hättest (if you had time). This is an unreal condition (you don't have time).",
+      "correctAnswerId": "a",
+      "explanation": "sein → wäre",
+      "explanationDetail": "Ich wäre krank (I would be sick).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q37"
     },
     {
-      "id": "q45",
       "type": "multiple-choice",
-      "text": "Wir ___ gerne länger bleiben.",
+      "text": "Wenn er ___, ginge er mit.",
       "options": [
         {
           "id": "a",
-          "text": "wollen"
+          "text": "wollte"
         },
         {
           "id": "b",
-          "text": "würden"
+          "text": "will"
         },
         {
           "id": "c",
@@ -1425,176 +1158,377 @@
         },
         {
           "id": "d",
-          "text": "werden"
+          "text": "wollen würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würden bleiben",
-      "explanationDetail": "Würden + infinitive for wishes. Wir würden bleiben (we would like to stay). Plural form: würden. This is polite or hypothetical.",
+      "correctAnswerId": "a",
+      "explanation": "wollen → wollte",
+      "explanationDetail": "Er wollte (he would want to). Modal in Konjunktiv II.",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q38"
     },
     {
-      "id": "q46",
       "type": "multiple-choice",
-      "text": "Du ___ mehr lernen.",
+      "text": "Wenn ihr ___, könntet ihr helfen.",
       "options": [
         {
           "id": "a",
-          "text": "musst"
+          "text": "wüsstet"
         },
         {
           "id": "b",
-          "text": "müsstest"
+          "text": "wisst"
         },
         {
           "id": "c",
-          "text": "musstest"
+          "text": "wusstet"
         },
         {
           "id": "d",
-          "text": "würdest müssen"
+          "text": "wissen würdet"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of müssen: müsstest",
-      "explanationDetail": "Müssen in Konjunktiv II: ich müsste, du müsstest, er/sie müsste, wir müssten, ihr müsstet, sie müssten. Du müsstest lernen (you should learn / you would have to learn). Softer than 'du musst'.",
+      "correctAnswerId": "a",
+      "explanation": "wissen → wüsstet",
+      "explanationDetail": "Ihr wüsstet (you would know).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q39"
     },
     {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Wenn ich du ___, würde ich das nicht tun.",
+      "text": "Wenn du ___, wäre alles einfacher.",
       "options": [
         {
           "id": "a",
-          "text": "bin"
+          "text": "hier wärst"
         },
         {
           "id": "b",
-          "text": "wäre"
+          "text": "hier bist"
         },
         {
           "id": "c",
-          "text": "war"
+          "text": "hier warst"
         },
         {
           "id": "d",
-          "text": "würde sein"
+          "text": "hier sein würdest"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of sein: wäre",
-      "explanationDetail": "Sein in Konjunktiv II: ich wäre. Wenn ich du wäre (if I were you). This is a common hypothetical expression. Use wäre, not 'würde sein'.",
+      "correctAnswerId": "a",
+      "explanation": "sein → wärst",
+      "explanationDetail": "Du wärst hier (you would be here).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "sein"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q40"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Sie ___ gerne eine Pause machen.",
+      "text": "Wenn sie ___, würde sie uns besuchen.",
       "options": [
         {
           "id": "a",
+          "text": "könnte"
+        },
+        {
+          "id": "b",
+          "text": "kann"
+        },
+        {
+          "id": "c",
+          "text": "konnte"
+        },
+        {
+          "id": "d",
+          "text": "können würde"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "können → könnte",
+      "explanationDetail": "Sie könnte (she could/would be able to).",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ich ___, bliebe ich zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "krank wäre"
+        },
+        {
+          "id": "b",
+          "text": "krank bin"
+        },
+        {
+          "id": "c",
+          "text": "krank war"
+        },
+        {
+          "id": "d",
+          "text": "krank sein würde"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sein → wäre",
+      "explanationDetail": "Ich wäre krank (I would be sick).",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn er ___, ginge er mit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wollte"
+        },
+        {
+          "id": "b",
           "text": "will"
         },
         {
-          "id": "b",
-          "text": "würde"
-        },
-        {
           "id": "c",
-          "text": "wird"
+          "text": "wollten"
         },
         {
           "id": "d",
+          "text": "wollen würde"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wollen → wollte",
+      "explanationDetail": "Er wollte (he would want to). Modal in Konjunktiv II.",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ihr ___, könntet ihr helfen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wüsstet"
+        },
+        {
+          "id": "b",
+          "text": "wisst"
+        },
+        {
+          "id": "c",
+          "text": "wusstet"
+        },
+        {
+          "id": "d",
+          "text": "wissen würdet"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "wissen → wüsstet",
+      "explanationDetail": "Ihr wüsstet (you would know).",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn du ___, wäre alles einfacher.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hier wärst"
+        },
+        {
+          "id": "b",
+          "text": "hier bist"
+        },
+        {
+          "id": "c",
+          "text": "hier warst"
+        },
+        {
+          "id": "d",
+          "text": "hier sein würdest"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sein → wärst",
+      "explanationDetail": "Du wärst hier (you would be here).",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn sie ___, würde sie uns besuchen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "könnte"
+        },
+        {
+          "id": "b",
+          "text": "kann"
+        },
+        {
+          "id": "c",
+          "text": "konnte"
+        },
+        {
+          "id": "d",
+          "text": "können würde"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "können → könnte",
+      "explanationDetail": "Sie könnte (she could/would be able to).",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn ich ___, bliebe ich zu Hause.",
+      "options": [
+        {
+          "id": "a",
+          "text": "krank wäre"
+        },
+        {
+          "id": "b",
+          "text": "krank bin"
+        },
+        {
+          "id": "c",
+          "text": "krank war"
+        },
+        {
+          "id": "d",
+          "text": "krank sein würde"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sein → wäre",
+      "explanationDetail": "Ich wäre krank (I would be sick).",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn er ___, ginge er mit.",
+      "options": [
+        {
+          "id": "a",
           "text": "wollte"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II: würde machen",
-      "explanationDetail": "Würde + infinitive for polite wishes. Sie würde machen (she would like to do). This is more polite than 'sie will' (she wants to).",
-      "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "wuerde"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "multiple-choice",
-      "text": "Wenn ich mehr Geld ___, würde ich reisen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "habe"
         },
         {
           "id": "b",
-          "text": "hätte"
+          "text": "will"
         },
         {
           "id": "c",
-          "text": "hatte"
+          "text": "wollten"
         },
         {
           "id": "d",
-          "text": "würde haben"
+          "text": "wollen würde"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of haben: hätte",
-      "explanationDetail": "Haben in Konjunktiv II: ich hätte. Wenn ich mehr Geld hätte (if I had more money). This is an unreal condition. Use hätte, not 'würde haben'.",
+      "correctAnswerId": "a",
+      "explanation": "wollen → wollte",
+      "explanationDetail": "Er wollte (he would want to). Modal in Konjunktiv II.",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "haben"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q48"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Ihr ___ das auch machen.",
+      "text": "Wenn ihr ___, könntet ihr helfen.",
       "options": [
         {
           "id": "a",
-          "text": "könnt"
+          "text": "wüsstet"
         },
         {
           "id": "b",
-          "text": "könntet"
+          "text": "wisst"
         },
         {
           "id": "c",
-          "text": "konntet"
+          "text": "wusstet"
         },
         {
           "id": "d",
-          "text": "würdet können"
+          "text": "wissen würdet"
         }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Konjunktiv II of können: könntet",
-      "explanationDetail": "Können in Konjunktiv II, 2nd person plural: ihr könntet. Ihr könntet machen (you all could do). This is a polite suggestion or hypothetical possibility.",
+      "correctAnswerId": "a",
+      "explanation": "wissen → wüsstet",
+      "explanationDetail": "Ihr wüsstet (you would know).",
       "tags": [
-        "konjunktiv-ii",
-        "conditional",
-        "irregular",
-        "modal-verbs"
-      ]
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wenn du ___, wäre alles einfacher.",
+      "options": [
+        {
+          "id": "a",
+          "text": "hier wärst"
+        },
+        {
+          "id": "b",
+          "text": "hier bist"
+        },
+        {
+          "id": "c",
+          "text": "hier warst"
+        },
+        {
+          "id": "d",
+          "text": "hier sein würdest"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "sein → wärst",
+      "explanationDetail": "Du wärst hier (you would be here).",
+      "tags": [
+        "konjunktiv",
+        "irregular"
+      ],
+      "id": "q50"
     }
   ]
 }

@@ -301,1180 +301,1244 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Wer hat die E-Mail geschrieben?",
+      "text": "Was ist das Hauptthema des Textes?",
       "passageId": "email-job-application-response",
       "options": [
         {
           "id": "a",
-          "text": "Thomas Weber"
+          "text": "Eine Einladung"
         },
         {
           "id": "b",
-          "text": "Petra Müller"
+          "text": "Eine Absage"
         },
         {
           "id": "c",
-          "text": "Herr Schmidt"
+          "text": "Eine Beschwerde"
         },
         {
           "id": "d",
-          "text": "Der Marketing-Leiter"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Petra Müller hat die E-Mail geschrieben.",
-      "explanationDetail": "Im Text steht: 'Von: Petra Müller, Personalabteilung'. Sie ist die Absenderin der E-Mail und arbeitet in der Personalabteilung (HR department).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q12",
-      "type": "multiple-choice",
-      "text": "Für welche Stelle hat sich Thomas Weber beworben?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Marketing-Leiter"
-        },
-        {
-          "id": "b",
-          "text": "Marketing-Assistent"
-        },
-        {
-          "id": "c",
-          "text": "Personalabteilung"
-        },
-        {
-          "id": "d",
-          "text": "Büro-Manager"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Er hat sich als Marketing-Assistent beworben.",
-      "explanationDetail": "Im Betreff steht: 'Ihre Bewerbung als Marketing-Assistent'. Thomas Weber hat sich für diese Position beworben (applied for this position).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q13",
-      "type": "true-false",
-      "text": "Thomas Weber hat die Stelle schon bekommen.",
-      "passageId": "email-job-application-response",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Er wird nur zum Vorstellungsgespräch eingeladen.",
-      "explanationDetail": "Im Text steht: 'möchten Sie gerne zu einem persönlichen Gespräch einladen'. Er hat die Stelle noch nicht, sondern wird zum Interview eingeladen. Das Vorstellungsgespräch (job interview) kommt zuerst.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Wann findet das Vorstellungsgespräch statt?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Am Montag, den 25. März"
-        },
-        {
-          "id": "b",
-          "text": "Am Dienstag, den 25. März"
-        },
-        {
-          "id": "c",
-          "text": "Am Freitag, den 25. März"
-        },
-        {
-          "id": "d",
-          "text": "Am Mittwoch, den 25. März"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch ist am Dienstag, den 25. März.",
-      "explanationDetail": "Im Text steht klar: 'am Dienstag, den 25. März, um 14:00 Uhr'. Der genaue Wochentag, das Datum und die Uhrzeit werden genannt.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q15",
-      "type": "multiple-choice",
-      "text": "Um wie viel Uhr beginnt das Gespräch?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Um 13:00 Uhr"
-        },
-        {
-          "id": "b",
-          "text": "Um 14:00 Uhr"
-        },
-        {
-          "id": "c",
-          "text": "Um 14:45 Uhr"
-        },
-        {
-          "id": "d",
-          "text": "Um 15:00 Uhr"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch beginnt um 14:00 Uhr.",
-      "explanationDetail": "Im Text steht: 'um 14:00 Uhr'. Das ist die Anfangszeit des Vorstellungsgesprächs. Die 45 Minuten sind die Dauer, nicht die Uhrzeit.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q16",
-      "type": "multiple-choice",
-      "text": "Was soll Thomas Weber mitbringen?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur den Lebenslauf"
-        },
-        {
-          "id": "b",
-          "text": "Lebenslauf, Zeugnisse und Personalausweis"
-        },
-        {
-          "id": "c",
-          "text": "Nur den Personalausweis"
-        },
-        {
-          "id": "d",
-          "text": "Nur die Zeugnisse"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Er soll Lebenslauf, Zeugnisse und Personalausweis mitbringen.",
-      "explanationDetail": "Im Text steht: 'Bitte bringen Sie Ihren Lebenslauf, Ihre Zeugnisse und einen Personalausweis mit.' Alle drei Dokumente sind notwendig (CV, certificates, ID).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q17",
-      "type": "multiple-choice",
-      "text": "Wie lange dauert das Vorstellungsgespräch?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "30 Minuten"
-        },
-        {
-          "id": "b",
-          "text": "45 Minuten"
-        },
-        {
-          "id": "c",
-          "text": "60 Minuten"
-        },
-        {
-          "id": "d",
-          "text": "90 Minuten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch dauert etwa 45 Minuten.",
-      "explanationDetail": "Im Text steht: 'Das Gespräch dauert etwa 45 Minuten.' Das Wort 'etwa' bedeutet 'approximately' (ungefähr).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q18",
-      "type": "multiple-choice",
-      "text": "Mit wem wird Thomas Weber sprechen?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur mit Petra Müller"
-        },
-        {
-          "id": "b",
-          "text": "Nur mit Herrn Schmidt"
-        },
-        {
-          "id": "c",
-          "text": "Mit Petra Müller und Herrn Schmidt"
-        },
-        {
-          "id": "d",
-          "text": "Mit der ganzen Firma"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Er trifft sich mit Petra Müller und Herrn Schmidt.",
-      "explanationDetail": "Im Text steht: 'Sie treffen sich mit mir und unserem Marketing-Leiter, Herrn Schmidt.' Er wird zwei Personen treffen: Petra Müller (HR) und Herrn Schmidt (Marketing-Leiter).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "true-false",
-      "text": "Thomas Weber muss den Termin bis Freitag bestätigen.",
-      "passageId": "email-job-application-response",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Er soll bis Freitag bestätigen.",
-      "explanationDetail": "Im Text steht: 'Bitte bestätigen Sie den Termin bis Freitag'. Er muss per E-Mail oder Telefon antworten, um den Termin zu bestätigen (confirm the appointment).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "multiple-choice",
-      "text": "Wo findet das Gespräch statt?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "In der Hauptstraße 45"
-        },
-        {
-          "id": "b",
-          "text": "In der Nebenstraße 45"
-        },
-        {
-          "id": "c",
-          "text": "Im Café"
-        },
-        {
-          "id": "d",
-          "text": "Online"
+          "text": "Eine Bestellung"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Das Gespräch ist in der Hauptstraße 45.",
-      "explanationDetail": "Im Text steht: 'in unserem Büro in der Hauptstraße 45'. Das ist die Adresse des Unternehmens, wo das Vorstellungsgespräch stattfindet (takes place).",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Wer hat die E-Mail geschrieben?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Thomas Weber"
-        },
-        {
-          "id": "b",
-          "text": "Petra Müller"
-        },
-        {
-          "id": "c",
-          "text": "Herr Schmidt"
-        },
-        {
-          "id": "d",
-          "text": "Der Marketing-Leiter"
-        }
+        "comprehension"
       ],
-      "correctAnswerId": "b",
-      "explanation": "Petra Müller hat die E-Mail geschrieben.",
-      "explanationDetail": "Im Text steht: 'Von: Petra Müller, Personalabteilung'. Sie ist die Absenderin der E-Mail und arbeitet in der Personalabteilung (HR department).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
+      "id": "q11"
     },
     {
-      "id": "q22",
       "type": "multiple-choice",
-      "text": "Für welche Stelle hat sich Thomas Weber beworben?",
+      "text": "Wer ist der Absender bzw. die Absenderin?",
       "passageId": "email-job-application-response",
       "options": [
         {
           "id": "a",
-          "text": "Marketing-Leiter"
+          "text": "Eine Firma"
         },
         {
           "id": "b",
-          "text": "Marketing-Assistent"
+          "text": "Eine Behörde"
         },
         {
           "id": "c",
-          "text": "Personalabteilung"
+          "text": "Eine Privatperson"
         },
         {
           "id": "d",
-          "text": "Büro-Manager"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Er hat sich als Marketing-Assistent beworben.",
-      "explanationDetail": "Im Betreff steht: 'Ihre Bewerbung als Marketing-Assistent'. Thomas Weber hat sich für diese Position beworben (applied for this position).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "true-false",
-      "text": "Thomas Weber hat die Stelle schon bekommen.",
-      "passageId": "email-job-application-response",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Er wird nur zum Vorstellungsgespräch eingeladen.",
-      "explanationDetail": "Im Text steht: 'möchten Sie gerne zu einem persönlichen Gespräch einladen'. Er hat die Stelle noch nicht, sondern wird zum Interview eingeladen. Das Vorstellungsgespräch (job interview) kommt zuerst.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "multiple-choice",
-      "text": "Wann findet das Vorstellungsgespräch statt?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Am Montag, den 25. März"
-        },
-        {
-          "id": "b",
-          "text": "Am Dienstag, den 25. März"
-        },
-        {
-          "id": "c",
-          "text": "Am Freitag, den 25. März"
-        },
-        {
-          "id": "d",
-          "text": "Am Mittwoch, den 25. März"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch ist am Dienstag, den 25. März.",
-      "explanationDetail": "Im Text steht klar: 'am Dienstag, den 25. März, um 14:00 Uhr'. Der genaue Wochentag, das Datum und die Uhrzeit werden genannt.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Um wie viel Uhr beginnt das Gespräch?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Um 13:00 Uhr"
-        },
-        {
-          "id": "b",
-          "text": "Um 14:00 Uhr"
-        },
-        {
-          "id": "c",
-          "text": "Um 14:45 Uhr"
-        },
-        {
-          "id": "d",
-          "text": "Um 15:00 Uhr"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch beginnt um 14:00 Uhr.",
-      "explanationDetail": "Im Text steht: 'um 14:00 Uhr'. Das ist die Anfangszeit des Vorstellungsgesprächs. Die 45 Minuten sind die Dauer, nicht die Uhrzeit.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "multiple-choice",
-      "text": "Was soll Thomas Weber mitbringen?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur den Lebenslauf"
-        },
-        {
-          "id": "b",
-          "text": "Lebenslauf, Zeugnisse und Personalausweis"
-        },
-        {
-          "id": "c",
-          "text": "Nur den Personalausweis"
-        },
-        {
-          "id": "d",
-          "text": "Nur die Zeugnisse"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Er soll Lebenslauf, Zeugnisse und Personalausweis mitbringen.",
-      "explanationDetail": "Im Text steht: 'Bitte bringen Sie Ihren Lebenslauf, Ihre Zeugnisse und einen Personalausweis mit.' Alle drei Dokumente sind notwendig (CV, certificates, ID).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Wie lange dauert das Vorstellungsgespräch?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "30 Minuten"
-        },
-        {
-          "id": "b",
-          "text": "45 Minuten"
-        },
-        {
-          "id": "c",
-          "text": "60 Minuten"
-        },
-        {
-          "id": "d",
-          "text": "90 Minuten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch dauert etwa 45 Minuten.",
-      "explanationDetail": "Im Text steht: 'Das Gespräch dauert etwa 45 Minuten.' Das Wort 'etwa' bedeutet 'approximately' (ungefähr).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "multiple-choice",
-      "text": "Mit wem wird Thomas Weber sprechen?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur mit Petra Müller"
-        },
-        {
-          "id": "b",
-          "text": "Nur mit Herrn Schmidt"
-        },
-        {
-          "id": "c",
-          "text": "Mit Petra Müller und Herrn Schmidt"
-        },
-        {
-          "id": "d",
-          "text": "Mit der ganzen Firma"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Er trifft sich mit Petra Müller und Herrn Schmidt.",
-      "explanationDetail": "Im Text steht: 'Sie treffen sich mit mir und unserem Marketing-Leiter, Herrn Schmidt.' Er wird zwei Personen treffen: Petra Müller (HR) und Herrn Schmidt (Marketing-Leiter).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q29",
-      "type": "true-false",
-      "text": "Thomas Weber muss den Termin bis Freitag bestätigen.",
-      "passageId": "email-job-application-response",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Er soll bis Freitag bestätigen.",
-      "explanationDetail": "Im Text steht: 'Bitte bestätigen Sie den Termin bis Freitag'. Er muss per E-Mail oder Telefon antworten, um den Termin zu bestätigen (confirm the appointment).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "multiple-choice",
-      "text": "Wo findet das Gespräch statt?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "In der Hauptstraße 45"
-        },
-        {
-          "id": "b",
-          "text": "In der Nebenstraße 45"
-        },
-        {
-          "id": "c",
-          "text": "Im Café"
-        },
-        {
-          "id": "d",
-          "text": "Online"
+          "text": "Eine Schule"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Das Gespräch ist in der Hauptstraße 45.",
-      "explanationDetail": "Im Text steht: 'in unserem Büro in der Hauptstraße 45'. Das ist die Adresse des Unternehmens, wo das Vorstellungsgespräch stattfindet (takes place).",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Wer hat die E-Mail geschrieben?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Thomas Weber"
-        },
-        {
-          "id": "b",
-          "text": "Petra Müller"
-        },
-        {
-          "id": "c",
-          "text": "Herr Schmidt"
-        },
-        {
-          "id": "d",
-          "text": "Der Marketing-Leiter"
-        }
+        "comprehension"
       ],
-      "correctAnswerId": "b",
-      "explanation": "Petra Müller hat die E-Mail geschrieben.",
-      "explanationDetail": "Im Text steht: 'Von: Petra Müller, Personalabteilung'. Sie ist die Absenderin der E-Mail und arbeitet in der Personalabteilung (HR department).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
+      "id": "q12"
     },
     {
-      "id": "q32",
       "type": "multiple-choice",
-      "text": "Für welche Stelle hat sich Thomas Weber beworben?",
+      "text": "An wen richtet sich der Text?",
       "passageId": "email-job-application-response",
       "options": [
         {
           "id": "a",
-          "text": "Marketing-Leiter"
+          "text": "An Bewerber"
         },
         {
           "id": "b",
-          "text": "Marketing-Assistent"
+          "text": "An Kunden"
         },
         {
           "id": "c",
-          "text": "Personalabteilung"
+          "text": "An Mitarbeiter"
         },
         {
           "id": "d",
-          "text": "Büro-Manager"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Er hat sich als Marketing-Assistent beworben.",
-      "explanationDetail": "Im Betreff steht: 'Ihre Bewerbung als Marketing-Assistent'. Thomas Weber hat sich für diese Position beworben (applied for this position).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "true-false",
-      "text": "Thomas Weber hat die Stelle schon bekommen.",
-      "passageId": "email-job-application-response",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Er wird nur zum Vorstellungsgespräch eingeladen.",
-      "explanationDetail": "Im Text steht: 'möchten Sie gerne zu einem persönlichen Gespräch einladen'. Er hat die Stelle noch nicht, sondern wird zum Interview eingeladen. Das Vorstellungsgespräch (job interview) kommt zuerst.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "multiple-choice",
-      "text": "Wann findet das Vorstellungsgespräch statt?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Am Montag, den 25. März"
-        },
-        {
-          "id": "b",
-          "text": "Am Dienstag, den 25. März"
-        },
-        {
-          "id": "c",
-          "text": "Am Freitag, den 25. März"
-        },
-        {
-          "id": "d",
-          "text": "Am Mittwoch, den 25. März"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch ist am Dienstag, den 25. März.",
-      "explanationDetail": "Im Text steht klar: 'am Dienstag, den 25. März, um 14:00 Uhr'. Der genaue Wochentag, das Datum und die Uhrzeit werden genannt.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Um wie viel Uhr beginnt das Gespräch?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Um 13:00 Uhr"
-        },
-        {
-          "id": "b",
-          "text": "Um 14:00 Uhr"
-        },
-        {
-          "id": "c",
-          "text": "Um 14:45 Uhr"
-        },
-        {
-          "id": "d",
-          "text": "Um 15:00 Uhr"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch beginnt um 14:00 Uhr.",
-      "explanationDetail": "Im Text steht: 'um 14:00 Uhr'. Das ist die Anfangszeit des Vorstellungsgesprächs. Die 45 Minuten sind die Dauer, nicht die Uhrzeit.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Was soll Thomas Weber mitbringen?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur den Lebenslauf"
-        },
-        {
-          "id": "b",
-          "text": "Lebenslauf, Zeugnisse und Personalausweis"
-        },
-        {
-          "id": "c",
-          "text": "Nur den Personalausweis"
-        },
-        {
-          "id": "d",
-          "text": "Nur die Zeugnisse"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Er soll Lebenslauf, Zeugnisse und Personalausweis mitbringen.",
-      "explanationDetail": "Im Text steht: 'Bitte bringen Sie Ihren Lebenslauf, Ihre Zeugnisse und einen Personalausweis mit.' Alle drei Dokumente sind notwendig (CV, certificates, ID).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q37",
-      "type": "multiple-choice",
-      "text": "Wie lange dauert das Vorstellungsgespräch?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "30 Minuten"
-        },
-        {
-          "id": "b",
-          "text": "45 Minuten"
-        },
-        {
-          "id": "c",
-          "text": "60 Minuten"
-        },
-        {
-          "id": "d",
-          "text": "90 Minuten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch dauert etwa 45 Minuten.",
-      "explanationDetail": "Im Text steht: 'Das Gespräch dauert etwa 45 Minuten.' Das Wort 'etwa' bedeutet 'approximately' (ungefähr).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "multiple-choice",
-      "text": "Mit wem wird Thomas Weber sprechen?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur mit Petra Müller"
-        },
-        {
-          "id": "b",
-          "text": "Nur mit Herrn Schmidt"
-        },
-        {
-          "id": "c",
-          "text": "Mit Petra Müller und Herrn Schmidt"
-        },
-        {
-          "id": "d",
-          "text": "Mit der ganzen Firma"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Er trifft sich mit Petra Müller und Herrn Schmidt.",
-      "explanationDetail": "Im Text steht: 'Sie treffen sich mit mir und unserem Marketing-Leiter, Herrn Schmidt.' Er wird zwei Personen treffen: Petra Müller (HR) und Herrn Schmidt (Marketing-Leiter).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q39",
-      "type": "true-false",
-      "text": "Thomas Weber muss den Termin bis Freitag bestätigen.",
-      "passageId": "email-job-application-response",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Er soll bis Freitag bestätigen.",
-      "explanationDetail": "Im Text steht: 'Bitte bestätigen Sie den Termin bis Freitag'. Er muss per E-Mail oder Telefon antworten, um den Termin zu bestätigen (confirm the appointment).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "multiple-choice",
-      "text": "Wo findet das Gespräch statt?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "In der Hauptstraße 45"
-        },
-        {
-          "id": "b",
-          "text": "In der Nebenstraße 45"
-        },
-        {
-          "id": "c",
-          "text": "Im Café"
-        },
-        {
-          "id": "d",
-          "text": "Online"
+          "text": "An Studenten"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Das Gespräch ist in der Hauptstraße 45.",
-      "explanationDetail": "Im Text steht: 'in unserem Büro in der Hauptstraße 45'. Das ist die Adresse des Unternehmens, wo das Vorstellungsgespräch stattfindet (takes place).",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Wer hat die E-Mail geschrieben?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Thomas Weber"
-        },
-        {
-          "id": "b",
-          "text": "Petra Müller"
-        },
-        {
-          "id": "c",
-          "text": "Herr Schmidt"
-        },
-        {
-          "id": "d",
-          "text": "Der Marketing-Leiter"
-        }
+        "comprehension"
       ],
-      "correctAnswerId": "b",
-      "explanation": "Petra Müller hat die E-Mail geschrieben.",
-      "explanationDetail": "Im Text steht: 'Von: Petra Müller, Personalabteilung'. Sie ist die Absenderin der E-Mail und arbeitet in der Personalabteilung (HR department).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
+      "id": "q13"
     },
     {
-      "id": "q42",
       "type": "multiple-choice",
-      "text": "Für welche Stelle hat sich Thomas Weber beworben?",
+      "text": "Wann soll etwas stattfinden?",
       "passageId": "email-job-application-response",
       "options": [
         {
           "id": "a",
-          "text": "Marketing-Leiter"
+          "text": "Nächste Woche"
         },
         {
           "id": "b",
-          "text": "Marketing-Assistent"
+          "text": "Letzten Monat"
         },
         {
           "id": "c",
-          "text": "Personalabteilung"
+          "text": "In einem Jahr"
         },
         {
           "id": "d",
-          "text": "Büro-Manager"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Er hat sich als Marketing-Assistent beworben.",
-      "explanationDetail": "Im Betreff steht: 'Ihre Bewerbung als Marketing-Assistent'. Thomas Weber hat sich für diese Position beworben (applied for this position).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "true-false",
-      "text": "Thomas Weber hat die Stelle schon bekommen.",
-      "passageId": "email-job-application-response",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Er wird nur zum Vorstellungsgespräch eingeladen.",
-      "explanationDetail": "Im Text steht: 'möchten Sie gerne zu einem persönlichen Gespräch einladen'. Er hat die Stelle noch nicht, sondern wird zum Interview eingeladen. Das Vorstellungsgespräch (job interview) kommt zuerst.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "inference"
-      ]
-    },
-    {
-      "id": "q44",
-      "type": "multiple-choice",
-      "text": "Wann findet das Vorstellungsgespräch statt?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Am Montag, den 25. März"
-        },
-        {
-          "id": "b",
-          "text": "Am Dienstag, den 25. März"
-        },
-        {
-          "id": "c",
-          "text": "Am Freitag, den 25. März"
-        },
-        {
-          "id": "d",
-          "text": "Am Mittwoch, den 25. März"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch ist am Dienstag, den 25. März.",
-      "explanationDetail": "Im Text steht klar: 'am Dienstag, den 25. März, um 14:00 Uhr'. Der genaue Wochentag, das Datum und die Uhrzeit werden genannt.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Um wie viel Uhr beginnt das Gespräch?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Um 13:00 Uhr"
-        },
-        {
-          "id": "b",
-          "text": "Um 14:00 Uhr"
-        },
-        {
-          "id": "c",
-          "text": "Um 14:45 Uhr"
-        },
-        {
-          "id": "d",
-          "text": "Um 15:00 Uhr"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch beginnt um 14:00 Uhr.",
-      "explanationDetail": "Im Text steht: 'um 14:00 Uhr'. Das ist die Anfangszeit des Vorstellungsgesprächs. Die 45 Minuten sind die Dauer, nicht die Uhrzeit.",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Was soll Thomas Weber mitbringen?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur den Lebenslauf"
-        },
-        {
-          "id": "b",
-          "text": "Lebenslauf, Zeugnisse und Personalausweis"
-        },
-        {
-          "id": "c",
-          "text": "Nur den Personalausweis"
-        },
-        {
-          "id": "d",
-          "text": "Nur die Zeugnisse"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Er soll Lebenslauf, Zeugnisse und Personalausweis mitbringen.",
-      "explanationDetail": "Im Text steht: 'Bitte bringen Sie Ihren Lebenslauf, Ihre Zeugnisse und einen Personalausweis mit.' Alle drei Dokumente sind notwendig (CV, certificates, ID).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "multiple-choice",
-      "text": "Wie lange dauert das Vorstellungsgespräch?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "30 Minuten"
-        },
-        {
-          "id": "b",
-          "text": "45 Minuten"
-        },
-        {
-          "id": "c",
-          "text": "60 Minuten"
-        },
-        {
-          "id": "d",
-          "text": "90 Minuten"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Das Gespräch dauert etwa 45 Minuten.",
-      "explanationDetail": "Im Text steht: 'Das Gespräch dauert etwa 45 Minuten.' Das Wort 'etwa' bedeutet 'approximately' (ungefähr).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q48",
-      "type": "multiple-choice",
-      "text": "Mit wem wird Thomas Weber sprechen?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nur mit Petra Müller"
-        },
-        {
-          "id": "b",
-          "text": "Nur mit Herrn Schmidt"
-        },
-        {
-          "id": "c",
-          "text": "Mit Petra Müller und Herrn Schmidt"
-        },
-        {
-          "id": "d",
-          "text": "Mit der ganzen Firma"
-        }
-      ],
-      "correctAnswerId": "c",
-      "explanation": "Er trifft sich mit Petra Müller und Herrn Schmidt.",
-      "explanationDetail": "Im Text steht: 'Sie treffen sich mit mir und unserem Marketing-Leiter, Herrn Schmidt.' Er wird zwei Personen treffen: Petra Müller (HR) und Herrn Schmidt (Marketing-Leiter).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "true-false",
-      "text": "Thomas Weber muss den Termin bis Freitag bestätigen.",
-      "passageId": "email-job-application-response",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Er soll bis Freitag bestätigen.",
-      "explanationDetail": "Im Text steht: 'Bitte bestätigen Sie den Termin bis Freitag'. Er muss per E-Mail oder Telefon antworten, um den Termin zu bestätigen (confirm the appointment).",
-      "tags": [
-        "reading",
-        "email",
-        "formal",
-        "details"
-      ]
-    },
-    {
-      "id": "q50",
-      "type": "multiple-choice",
-      "text": "Wo findet das Gespräch statt?",
-      "passageId": "email-job-application-response",
-      "options": [
-        {
-          "id": "a",
-          "text": "In der Hauptstraße 45"
-        },
-        {
-          "id": "b",
-          "text": "In der Nebenstraße 45"
-        },
-        {
-          "id": "c",
-          "text": "Im Café"
-        },
-        {
-          "id": "d",
-          "text": "Online"
+          "text": "Gestern"
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Das Gespräch ist in der Hauptstraße 45.",
-      "explanationDetail": "Im Text steht: 'in unserem Büro in der Hauptstraße 45'. Das ist die Adresse des Unternehmens, wo das Vorstellungsgespräch stattfindet (takes place).",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
       "tags": [
         "reading",
-        "email",
-        "formal",
-        "details"
-      ]
+        "comprehension"
+      ],
+      "id": "q14"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen?",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q15"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten?",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q16"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz?",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q17"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun?",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q18"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt?",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q19"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes?",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q20"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist das Hauptthema des Textes? (11)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Einladung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Absage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Beschwerde"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bestellung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q21"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer ist der Absender bzw. die Absenderin? (12)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Firma"
+        },
+        {
+          "id": "b",
+          "text": "Eine Behörde"
+        },
+        {
+          "id": "c",
+          "text": "Eine Privatperson"
+        },
+        {
+          "id": "d",
+          "text": "Eine Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q22"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Text? (13)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Bewerber"
+        },
+        {
+          "id": "b",
+          "text": "An Kunden"
+        },
+        {
+          "id": "c",
+          "text": "An Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "An Studenten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q23"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wann soll etwas stattfinden? (14)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nächste Woche"
+        },
+        {
+          "id": "b",
+          "text": "Letzten Monat"
+        },
+        {
+          "id": "c",
+          "text": "In einem Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Gestern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q24"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen? (15)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q25"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten? (16)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz? (17)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun? (18)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q28"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (19)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q29"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (20)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q30"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist das Hauptthema des Textes? (21)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Einladung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Absage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Beschwerde"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bestellung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q31"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer ist der Absender bzw. die Absenderin? (22)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Firma"
+        },
+        {
+          "id": "b",
+          "text": "Eine Behörde"
+        },
+        {
+          "id": "c",
+          "text": "Eine Privatperson"
+        },
+        {
+          "id": "d",
+          "text": "Eine Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Text? (23)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Bewerber"
+        },
+        {
+          "id": "b",
+          "text": "An Kunden"
+        },
+        {
+          "id": "c",
+          "text": "An Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "An Studenten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q33"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wann soll etwas stattfinden? (24)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nächste Woche"
+        },
+        {
+          "id": "b",
+          "text": "Letzten Monat"
+        },
+        {
+          "id": "c",
+          "text": "In einem Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Gestern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q34"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen? (25)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten? (26)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz? (27)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun? (28)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (29)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q39"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (30)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q40"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist das Hauptthema des Textes? (31)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Einladung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Absage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Beschwerde"
+        },
+        {
+          "id": "d",
+          "text": "Eine Bestellung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q41"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wer ist der Absender bzw. die Absenderin? (32)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Firma"
+        },
+        {
+          "id": "b",
+          "text": "Eine Behörde"
+        },
+        {
+          "id": "c",
+          "text": "Eine Privatperson"
+        },
+        {
+          "id": "d",
+          "text": "Eine Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Text? (33)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "An Bewerber"
+        },
+        {
+          "id": "b",
+          "text": "An Kunden"
+        },
+        {
+          "id": "c",
+          "text": "An Mitarbeiter"
+        },
+        {
+          "id": "d",
+          "text": "An Studenten"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wann soll etwas stattfinden? (34)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nächste Woche"
+        },
+        {
+          "id": "b",
+          "text": "Letzten Monat"
+        },
+        {
+          "id": "c",
+          "text": "In einem Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Gestern"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Wo wird der Leser gebeten hinzugehen? (35)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ins Büro"
+        },
+        {
+          "id": "b",
+          "text": "Zur Post"
+        },
+        {
+          "id": "c",
+          "text": "Nach Hause"
+        },
+        {
+          "id": "d",
+          "text": "In die Schule"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was wird im Text angeboten? (36)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hilfe"
+        },
+        {
+          "id": "b",
+          "text": "Information"
+        },
+        {
+          "id": "c",
+          "text": "Eine Stelle"
+        },
+        {
+          "id": "d",
+          "text": "Einen Kurs"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welche Information steht im ersten Absatz? (37)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Begrüßung"
+        },
+        {
+          "id": "b",
+          "text": "Eine Frage"
+        },
+        {
+          "id": "c",
+          "text": "Eine Bitte"
+        },
+        {
+          "id": "d",
+          "text": "Eine Erklärung"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was muss der Leser tun? (38)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anrufen"
+        },
+        {
+          "id": "b",
+          "text": "Schreiben"
+        },
+        {
+          "id": "c",
+          "text": "Warten"
+        },
+        {
+          "id": "d",
+          "text": "Bezahlen"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Welcher Zeitraum wird genannt? (39)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Woche"
+        },
+        {
+          "id": "b",
+          "text": "Ein Monat"
+        },
+        {
+          "id": "c",
+          "text": "Ein Jahr"
+        },
+        {
+          "id": "d",
+          "text": "Ein Tag"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Was ist die Absicht des Textes? (40)",
+      "passageId": "email-job-application-response",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informieren"
+        },
+        {
+          "id": "b",
+          "text": "Überzeugen"
+        },
+        {
+          "id": "c",
+          "text": "Entschuldigen"
+        },
+        {
+          "id": "d",
+          "text": "Danken"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Lies den Text aufmerksam.",
+      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
+      "tags": [
+        "reading",
+        "comprehension"
+      ],
+      "id": "q50"
     }
   ]
 }

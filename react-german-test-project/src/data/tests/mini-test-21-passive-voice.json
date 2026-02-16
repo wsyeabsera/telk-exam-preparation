@@ -320,9 +320,8 @@
       ]
     },
     {
-      "id": "q11",
       "type": "multiple-choice",
-      "text": "Das Haus ___ gebaut.",
+      "text": "Der Brief ___ geschrieben.",
       "options": [
         {
           "id": "a",
@@ -342,80 +341,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive present: wird + past participle",
-      "explanationDetail": "Passive voice uses werden + past participle. Das Haus wird gebaut (the house is being built). Present passive: wird/werden + past participle. The focus is on the action, not who does it.",
+      "explanation": "Passive present: wird",
+      "explanationDetail": "Present passive: wird + participle. Der Brief wird geschrieben.",
       "tags": [
         "passive",
-        "voice",
         "present-tense"
-      ]
-    },
-    {
-      "id": "q12",
-      "type": "multiple-choice",
-      "text": "Die Tür ___ geöffnet.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
       ],
-      "correctAnswerId": "b",
-      "explanation": "Passive past: wurde + past participle",
-      "explanationDetail": "Passive past uses wurde/wurden + past participle. Die Tür wurde geöffnet (the door was opened). Past passive: wurde/wurden + past participle.",
-      "tags": [
-        "passive",
-        "voice",
-        "past-tense"
-      ]
+      "id": "q11"
     },
     {
-      "id": "q13",
       "type": "multiple-choice",
-      "text": "Das Auto ___ repariert.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird repariert",
-      "explanationDetail": "Present passive: Das Auto wird repariert (the car is being repaired). Werden + past participle. The agent (who repairs) is not mentioned or is unimportant.",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
-    },
-    {
-      "id": "q14",
-      "type": "multiple-choice",
-      "text": "Die Briefe ___ geschrieben.",
+      "text": "Die Fenster ___ gestern repariert.",
       "options": [
         {
           "id": "a",
@@ -435,19 +371,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past plural: wurden geschrieben",
-      "explanationDetail": "Passive past with plural subject: Die Briefe wurden geschrieben (the letters were written). Wurden (plural) + past participle.",
+      "explanation": "Passive past: wurden",
+      "explanationDetail": "Past passive: wurden + participle. Die Fenster wurden repariert.",
       "tags": [
         "passive",
-        "voice",
-        "past-tense",
-        "plural"
-      ]
+        "past-tense"
+      ],
+      "id": "q12"
     },
     {
-      "id": "q15",
       "type": "multiple-choice",
-      "text": "Das Buch ___ von vielen Leuten gelesen.",
+      "text": "Das Essen ___ gerade gekocht.",
       "options": [
         {
           "id": "a",
@@ -467,18 +401,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive present: wird gelesen",
-      "explanationDetail": "Present passive: Das Buch wird gelesen (the book is read/being read). Agent can be mentioned with 'von + Dativ': von vielen Leuten (by many people).",
+      "explanation": "Passive present",
+      "explanationDetail": "Das Essen wird gekocht (the food is being cooked).",
       "tags": [
         "passive",
-        "voice",
         "present-tense"
-      ]
+      ],
+      "id": "q13"
     },
     {
-      "id": "q16",
       "type": "multiple-choice",
-      "text": "Die Wohnung ___ gestern geputzt.",
+      "text": "Die Straße ___ letzte Woche gebaut.",
       "options": [
         {
           "id": "a",
@@ -498,18 +431,77 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past: wurde geputzt",
-      "explanationDetail": "Past passive: Die Wohnung wurde geputzt (the apartment was cleaned). Wurde + past participle. Use for completed actions in the past.",
+      "explanation": "Passive past",
+      "explanationDetail": "Die Straße wurde gebaut (the street was built).",
       "tags": [
         "passive",
-        "voice",
         "past-tense"
-      ]
+      ],
+      "id": "q14"
     },
     {
-      "id": "q17",
       "type": "multiple-choice",
-      "text": "Die Aufgaben ___ heute gemacht.",
+      "text": "Die Zeitung ___ jeden Tag gelesen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Zeitung wird gelesen (the newspaper is read).",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q15"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Film ___ gestern gezeigt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Passive past",
+      "explanationDetail": "Der Film wurde gezeigt (the film was shown).",
+      "tags": [
+        "passive",
+        "past-tense"
+      ],
+      "id": "q16"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Kinder ___ zur Schule gebracht.",
       "options": [
         {
           "id": "a",
@@ -529,19 +521,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive present plural: werden gemacht",
-      "explanationDetail": "Present passive with plural: Die Aufgaben werden gemacht (the tasks are being done). Werden (plural) + past participle.",
+      "explanation": "Passive present plural",
+      "explanationDetail": "Die Kinder werden gebracht (the children are being taken).",
       "tags": [
         "passive",
-        "voice",
-        "present-tense",
-        "plural"
-      ]
+        "present-tense"
+      ],
+      "id": "q17"
     },
     {
-      "id": "q18",
       "type": "multiple-choice",
-      "text": "Das Fenster ___ geschlossen.",
+      "text": "Das Problem ___ gestern besprochen.",
       "options": [
         {
           "id": "a",
@@ -561,268 +551,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past: wurde geschlossen",
-      "explanationDetail": "Past passive: Das Fenster wurde geschlossen (the window was closed). Wurde + past participle. Focus on the action, not who did it.",
+      "explanation": "Passive past",
+      "explanationDetail": "Das Problem wurde besprochen (the problem was discussed).",
       "tags": [
         "passive",
-        "voice",
         "past-tense"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "multiple-choice",
-      "text": "Der Text ___ übersetzt.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird übersetzt",
-      "explanationDetail": "Present passive: Der Text wird übersetzt (the text is being translated). Wird + past participle. Used when the action is ongoing or habitual.",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
+      "id": "q18"
     },
     {
-      "id": "q20",
       "type": "multiple-choice",
-      "text": "Die Fragen ___ beantwortet.",
-      "options": [
-        {
-          "id": "a",
-          "text": "werden"
-        },
-        {
-          "id": "b",
-          "text": "wurden"
-        },
-        {
-          "id": "c",
-          "text": "sind"
-        },
-        {
-          "id": "d",
-          "text": "haben"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Passive past plural: wurden beantwortet",
-      "explanationDetail": "Past passive with plural: Die Fragen wurden beantwortet (the questions were answered). Wurden (plural) + past participle.",
-      "tags": [
-        "passive",
-        "voice",
-        "past-tense",
-        "plural"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "multiple-choice",
-      "text": "Das Haus ___ gebaut.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird + past participle",
-      "explanationDetail": "Passive voice uses werden + past participle. Das Haus wird gebaut (the house is being built). Present passive: wird/werden + past participle. The focus is on the action, not who does it.",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "multiple-choice",
-      "text": "Die Tür ___ geöffnet.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Passive past: wurde + past participle",
-      "explanationDetail": "Passive past uses wurde/wurden + past participle. Die Tür wurde geöffnet (the door was opened). Past passive: wurde/wurden + past participle.",
-      "tags": [
-        "passive",
-        "voice",
-        "past-tense"
-      ]
-    },
-    {
-      "id": "q23",
-      "type": "multiple-choice",
-      "text": "Das Auto ___ repariert.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird repariert",
-      "explanationDetail": "Present passive: Das Auto wird repariert (the car is being repaired). Werden + past participle. The agent (who repairs) is not mentioned or is unimportant.",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "multiple-choice",
-      "text": "Die Briefe ___ geschrieben.",
-      "options": [
-        {
-          "id": "a",
-          "text": "werden"
-        },
-        {
-          "id": "b",
-          "text": "wurden"
-        },
-        {
-          "id": "c",
-          "text": "sind"
-        },
-        {
-          "id": "d",
-          "text": "haben"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Passive past plural: wurden geschrieben",
-      "explanationDetail": "Passive past with plural subject: Die Briefe wurden geschrieben (the letters were written). Wurden (plural) + past participle.",
-      "tags": [
-        "passive",
-        "voice",
-        "past-tense",
-        "plural"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "multiple-choice",
-      "text": "Das Buch ___ von vielen Leuten gelesen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird gelesen",
-      "explanationDetail": "Present passive: Das Buch wird gelesen (the book is read/being read). Agent can be mentioned with 'von + Dativ': von vielen Leuten (by many people).",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "multiple-choice",
-      "text": "Die Wohnung ___ gestern geputzt.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Passive past: wurde geputzt",
-      "explanationDetail": "Past passive: Die Wohnung wurde geputzt (the apartment was cleaned). Wurde + past participle. Use for completed actions in the past.",
-      "tags": [
-        "passive",
-        "voice",
-        "past-tense"
-      ]
-    },
-    {
-      "id": "q27",
-      "type": "multiple-choice",
-      "text": "Die Aufgaben ___ heute gemacht.",
+      "text": "Die Mails ___ jeden Morgen gelesen.",
       "options": [
         {
           "id": "a",
@@ -842,19 +581,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive present plural: werden gemacht",
-      "explanationDetail": "Present passive with plural: Die Aufgaben werden gemacht (the tasks are being done). Werden (plural) + past participle.",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Mails werden gelesen (the emails are read).",
       "tags": [
         "passive",
-        "voice",
-        "present-tense",
-        "plural"
-      ]
+        "present-tense"
+      ],
+      "id": "q19"
     },
     {
-      "id": "q28",
       "type": "multiple-choice",
-      "text": "Das Fenster ___ geschlossen.",
+      "text": "Der Vertrag ___ vor einem Jahr unterschrieben.",
       "options": [
         {
           "id": "a",
@@ -874,18 +611,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past: wurde geschlossen",
-      "explanationDetail": "Past passive: Das Fenster wurde geschlossen (the window was closed). Wurde + past participle. Focus on the action, not who did it.",
+      "explanation": "Passive past",
+      "explanationDetail": "Der Vertrag wurde unterschrieben (the contract was signed).",
       "tags": [
         "passive",
-        "voice",
         "past-tense"
-      ]
+      ],
+      "id": "q20"
     },
     {
-      "id": "q29",
       "type": "multiple-choice",
-      "text": "Der Text ___ übersetzt.",
+      "text": "Das Zimmer ___ gerade aufgeräumt.",
       "options": [
         {
           "id": "a",
@@ -905,18 +641,47 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive present: wird übersetzt",
-      "explanationDetail": "Present passive: Der Text wird übersetzt (the text is being translated). Wird + past participle. Used when the action is ongoing or habitual.",
+      "explanation": "Passive present",
+      "explanationDetail": "Wird aufgeräumt (is being tidied).",
       "tags": [
         "passive",
-        "voice",
         "present-tense"
-      ]
+      ],
+      "id": "q21"
     },
     {
-      "id": "q30",
       "type": "multiple-choice",
-      "text": "Die Fragen ___ beantwortet.",
+      "text": "Die Frage ___ nicht beantwortet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Frage wird nicht beantwortet.",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q22"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Bücher ___ gestern zurückgegeben.",
       "options": [
         {
           "id": "a",
@@ -936,175 +701,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past plural: wurden beantwortet",
-      "explanationDetail": "Past passive with plural: Die Fragen wurden beantwortet (the questions were answered). Wurden (plural) + past participle.",
+      "explanation": "Passive past",
+      "explanationDetail": "Die Bücher wurden zurückgegeben.",
       "tags": [
         "passive",
-        "voice",
-        "past-tense",
-        "plural"
-      ]
-    },
-    {
-      "id": "q31",
-      "type": "multiple-choice",
-      "text": "Das Haus ___ gebaut.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird + past participle",
-      "explanationDetail": "Passive voice uses werden + past participle. Das Haus wird gebaut (the house is being built). Present passive: wird/werden + past participle. The focus is on the action, not who does it.",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
-    },
-    {
-      "id": "q32",
-      "type": "multiple-choice",
-      "text": "Die Tür ___ geöffnet.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Passive past: wurde + past participle",
-      "explanationDetail": "Passive past uses wurde/wurden + past participle. Die Tür wurde geöffnet (the door was opened). Past passive: wurde/wurden + past participle.",
-      "tags": [
-        "passive",
-        "voice",
         "past-tense"
-      ]
-    },
-    {
-      "id": "q33",
-      "type": "multiple-choice",
-      "text": "Das Auto ___ repariert.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird repariert",
-      "explanationDetail": "Present passive: Das Auto wird repariert (the car is being repaired). Werden + past participle. The agent (who repairs) is not mentioned or is unimportant.",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
+      "id": "q23"
     },
     {
-      "id": "q34",
       "type": "multiple-choice",
-      "text": "Die Briefe ___ geschrieben.",
-      "options": [
-        {
-          "id": "a",
-          "text": "werden"
-        },
-        {
-          "id": "b",
-          "text": "wurden"
-        },
-        {
-          "id": "c",
-          "text": "sind"
-        },
-        {
-          "id": "d",
-          "text": "haben"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Passive past plural: wurden geschrieben",
-      "explanationDetail": "Passive past with plural subject: Die Briefe wurden geschrieben (the letters were written). Wurden (plural) + past participle.",
-      "tags": [
-        "passive",
-        "voice",
-        "past-tense",
-        "plural"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "multiple-choice",
-      "text": "Das Buch ___ von vielen Leuten gelesen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird gelesen",
-      "explanationDetail": "Present passive: Das Buch wird gelesen (the book is read/being read). Agent can be mentioned with 'von + Dativ': von vielen Leuten (by many people).",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "multiple-choice",
-      "text": "Die Wohnung ___ gestern geputzt.",
+      "text": "Der Kuchen ___ von meiner Mutter gebacken.",
       "options": [
         {
           "id": "a",
@@ -1124,18 +731,137 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past: wurde geputzt",
-      "explanationDetail": "Past passive: Die Wohnung wurde geputzt (the apartment was cleaned). Wurde + past participle. Use for completed actions in the past.",
+      "explanation": "Passive past",
+      "explanationDetail": "Der Kuchen wurde gebacken.",
       "tags": [
         "passive",
-        "voice",
         "past-tense"
-      ]
+      ],
+      "id": "q24"
     },
     {
-      "id": "q37",
       "type": "multiple-choice",
-      "text": "Die Aufgaben ___ heute gemacht.",
+      "text": "Die Tür ___ jeden Abend geschlossen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Tür wird geschlossen.",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q25"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Einladung ___ vor einer Woche verschickt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Passive past",
+      "explanationDetail": "Die Einladung wurde verschickt.",
+      "tags": [
+        "passive",
+        "past-tense"
+      ],
+      "id": "q26"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Entscheidung ___ noch nicht getroffen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Entscheidung wird (noch nicht) getroffen.",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q27"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Projekt ___ im letzten Jahr beendet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Passive past",
+      "explanationDetail": "Das Projekt wurde beendet.",
+      "tags": [
+        "passive",
+        "past-tense"
+      ],
+      "id": "q28"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Blumen ___ jeden Tag gegossen.",
       "options": [
         {
           "id": "a",
@@ -1155,19 +881,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive present plural: werden gemacht",
-      "explanationDetail": "Present passive with plural: Die Aufgaben werden gemacht (the tasks are being done). Werden (plural) + past participle.",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Blumen werden gegossen.",
       "tags": [
         "passive",
-        "voice",
-        "present-tense",
-        "plural"
-      ]
+        "present-tense"
+      ],
+      "id": "q29"
     },
     {
-      "id": "q38",
       "type": "multiple-choice",
-      "text": "Das Fenster ___ geschlossen.",
+      "text": "Der Unfall ___ von mehreren Zeugen gesehen.",
       "options": [
         {
           "id": "a",
@@ -1187,18 +911,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past: wurde geschlossen",
-      "explanationDetail": "Past passive: Das Fenster wurde geschlossen (the window was closed). Wurde + past participle. Focus on the action, not who did it.",
+      "explanation": "Passive past",
+      "explanationDetail": "Der Unfall wurde gesehen.",
       "tags": [
         "passive",
-        "voice",
         "past-tense"
-      ]
+      ],
+      "id": "q30"
     },
     {
-      "id": "q39",
       "type": "multiple-choice",
-      "text": "Der Text ___ übersetzt.",
+      "text": "Das Zimmer ___ gerade aufgeräumt.",
       "options": [
         {
           "id": "a",
@@ -1218,18 +941,47 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive present: wird übersetzt",
-      "explanationDetail": "Present passive: Der Text wird übersetzt (the text is being translated). Wird + past participle. Used when the action is ongoing or habitual.",
+      "explanation": "Passive present",
+      "explanationDetail": "Wird aufgeräumt (is being tidied).",
       "tags": [
         "passive",
-        "voice",
         "present-tense"
-      ]
+      ],
+      "id": "q31"
     },
     {
-      "id": "q40",
       "type": "multiple-choice",
-      "text": "Die Fragen ___ beantwortet.",
+      "text": "Die Frage ___ nicht beantwortet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Frage wird nicht beantwortet.",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q32"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Bücher ___ gestern zurückgegeben.",
       "options": [
         {
           "id": "a",
@@ -1249,175 +1001,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past plural: wurden beantwortet",
-      "explanationDetail": "Past passive with plural: Die Fragen wurden beantwortet (the questions were answered). Wurden (plural) + past participle.",
+      "explanation": "Passive past",
+      "explanationDetail": "Die Bücher wurden zurückgegeben.",
       "tags": [
         "passive",
-        "voice",
-        "past-tense",
-        "plural"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "multiple-choice",
-      "text": "Das Haus ___ gebaut.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird + past participle",
-      "explanationDetail": "Passive voice uses werden + past participle. Das Haus wird gebaut (the house is being built). Present passive: wird/werden + past participle. The focus is on the action, not who does it.",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "multiple-choice",
-      "text": "Die Tür ___ geöffnet.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Passive past: wurde + past participle",
-      "explanationDetail": "Passive past uses wurde/wurden + past participle. Die Tür wurde geöffnet (the door was opened). Past passive: wurde/wurden + past participle.",
-      "tags": [
-        "passive",
-        "voice",
         "past-tense"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "multiple-choice",
-      "text": "Das Auto ___ repariert.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
       ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird repariert",
-      "explanationDetail": "Present passive: Das Auto wird repariert (the car is being repaired). Werden + past participle. The agent (who repairs) is not mentioned or is unimportant.",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
+      "id": "q33"
     },
     {
-      "id": "q44",
       "type": "multiple-choice",
-      "text": "Die Briefe ___ geschrieben.",
-      "options": [
-        {
-          "id": "a",
-          "text": "werden"
-        },
-        {
-          "id": "b",
-          "text": "wurden"
-        },
-        {
-          "id": "c",
-          "text": "sind"
-        },
-        {
-          "id": "d",
-          "text": "haben"
-        }
-      ],
-      "correctAnswerId": "b",
-      "explanation": "Passive past plural: wurden geschrieben",
-      "explanationDetail": "Passive past with plural subject: Die Briefe wurden geschrieben (the letters were written). Wurden (plural) + past participle.",
-      "tags": [
-        "passive",
-        "voice",
-        "past-tense",
-        "plural"
-      ]
-    },
-    {
-      "id": "q45",
-      "type": "multiple-choice",
-      "text": "Das Buch ___ von vielen Leuten gelesen.",
-      "options": [
-        {
-          "id": "a",
-          "text": "wird"
-        },
-        {
-          "id": "b",
-          "text": "wurde"
-        },
-        {
-          "id": "c",
-          "text": "ist"
-        },
-        {
-          "id": "d",
-          "text": "hat"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Passive present: wird gelesen",
-      "explanationDetail": "Present passive: Das Buch wird gelesen (the book is read/being read). Agent can be mentioned with 'von + Dativ': von vielen Leuten (by many people).",
-      "tags": [
-        "passive",
-        "voice",
-        "present-tense"
-      ]
-    },
-    {
-      "id": "q46",
-      "type": "multiple-choice",
-      "text": "Die Wohnung ___ gestern geputzt.",
+      "text": "Der Kuchen ___ von meiner Mutter gebacken.",
       "options": [
         {
           "id": "a",
@@ -1437,18 +1031,137 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past: wurde geputzt",
-      "explanationDetail": "Past passive: Die Wohnung wurde geputzt (the apartment was cleaned). Wurde + past participle. Use for completed actions in the past.",
+      "explanation": "Passive past",
+      "explanationDetail": "Der Kuchen wurde gebacken.",
       "tags": [
         "passive",
-        "voice",
         "past-tense"
-      ]
+      ],
+      "id": "q34"
     },
     {
-      "id": "q47",
       "type": "multiple-choice",
-      "text": "Die Aufgaben ___ heute gemacht.",
+      "text": "Die Tür ___ jeden Abend geschlossen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Tür wird geschlossen.",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q35"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Einladung ___ vor einer Woche verschickt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Passive past",
+      "explanationDetail": "Die Einladung wurde verschickt.",
+      "tags": [
+        "passive",
+        "past-tense"
+      ],
+      "id": "q36"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Entscheidung ___ noch nicht getroffen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Entscheidung wird (noch nicht) getroffen.",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q37"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Projekt ___ im letzten Jahr beendet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Passive past",
+      "explanationDetail": "Das Projekt wurde beendet.",
+      "tags": [
+        "passive",
+        "past-tense"
+      ],
+      "id": "q38"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Blumen ___ jeden Tag gegossen.",
       "options": [
         {
           "id": "a",
@@ -1468,19 +1181,17 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive present plural: werden gemacht",
-      "explanationDetail": "Present passive with plural: Die Aufgaben werden gemacht (the tasks are being done). Werden (plural) + past participle.",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Blumen werden gegossen.",
       "tags": [
         "passive",
-        "voice",
-        "present-tense",
-        "plural"
-      ]
+        "present-tense"
+      ],
+      "id": "q39"
     },
     {
-      "id": "q48",
       "type": "multiple-choice",
-      "text": "Das Fenster ___ geschlossen.",
+      "text": "Der Unfall ___ von mehreren Zeugen gesehen.",
       "options": [
         {
           "id": "a",
@@ -1500,18 +1211,17 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past: wurde geschlossen",
-      "explanationDetail": "Past passive: Das Fenster wurde geschlossen (the window was closed). Wurde + past participle. Focus on the action, not who did it.",
+      "explanation": "Passive past",
+      "explanationDetail": "Der Unfall wurde gesehen.",
       "tags": [
         "passive",
-        "voice",
         "past-tense"
-      ]
+      ],
+      "id": "q40"
     },
     {
-      "id": "q49",
       "type": "multiple-choice",
-      "text": "Der Text ___ übersetzt.",
+      "text": "Das Zimmer ___ gerade aufgeräumt.",
       "options": [
         {
           "id": "a",
@@ -1531,18 +1241,47 @@
         }
       ],
       "correctAnswerId": "a",
-      "explanation": "Passive present: wird übersetzt",
-      "explanationDetail": "Present passive: Der Text wird übersetzt (the text is being translated). Wird + past participle. Used when the action is ongoing or habitual.",
+      "explanation": "Passive present",
+      "explanationDetail": "Wird aufgeräumt (is being tidied).",
       "tags": [
         "passive",
-        "voice",
         "present-tense"
-      ]
+      ],
+      "id": "q41"
     },
     {
-      "id": "q50",
       "type": "multiple-choice",
-      "text": "Die Fragen ___ beantwortet.",
+      "text": "Die Frage ___ nicht beantwortet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Frage wird nicht beantwortet.",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q42"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Bücher ___ gestern zurückgegeben.",
       "options": [
         {
           "id": "a",
@@ -1562,14 +1301,223 @@
         }
       ],
       "correctAnswerId": "b",
-      "explanation": "Passive past plural: wurden beantwortet",
-      "explanationDetail": "Past passive with plural: Die Fragen wurden beantwortet (the questions were answered). Wurden (plural) + past participle.",
+      "explanation": "Passive past",
+      "explanationDetail": "Die Bücher wurden zurückgegeben.",
       "tags": [
         "passive",
-        "voice",
-        "past-tense",
-        "plural"
-      ]
+        "past-tense"
+      ],
+      "id": "q43"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Kuchen ___ von meiner Mutter gebacken.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Passive past",
+      "explanationDetail": "Der Kuchen wurde gebacken.",
+      "tags": [
+        "passive",
+        "past-tense"
+      ],
+      "id": "q44"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Tür ___ jeden Abend geschlossen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Tür wird geschlossen.",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q45"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Einladung ___ vor einer Woche verschickt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Passive past",
+      "explanationDetail": "Die Einladung wurde verschickt.",
+      "tags": [
+        "passive",
+        "past-tense"
+      ],
+      "id": "q46"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Entscheidung ___ noch nicht getroffen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Entscheidung wird (noch nicht) getroffen.",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q47"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Das Projekt ___ im letzten Jahr beendet.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Passive past",
+      "explanationDetail": "Das Projekt wurde beendet.",
+      "tags": [
+        "passive",
+        "past-tense"
+      ],
+      "id": "q48"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Die Blumen ___ jeden Tag gegossen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "werden"
+        },
+        {
+          "id": "b",
+          "text": "wurden"
+        },
+        {
+          "id": "c",
+          "text": "sind"
+        },
+        {
+          "id": "d",
+          "text": "haben"
+        }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Passive present",
+      "explanationDetail": "Die Blumen werden gegossen.",
+      "tags": [
+        "passive",
+        "present-tense"
+      ],
+      "id": "q49"
+    },
+    {
+      "type": "multiple-choice",
+      "text": "Der Unfall ___ von mehreren Zeugen gesehen.",
+      "options": [
+        {
+          "id": "a",
+          "text": "wird"
+        },
+        {
+          "id": "b",
+          "text": "wurde"
+        },
+        {
+          "id": "c",
+          "text": "ist"
+        },
+        {
+          "id": "d",
+          "text": "hat"
+        }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Passive past",
+      "explanationDetail": "Der Unfall wurde gesehen.",
+      "tags": [
+        "passive",
+        "past-tense"
+      ],
+      "id": "q50"
     }
   ]
 }
