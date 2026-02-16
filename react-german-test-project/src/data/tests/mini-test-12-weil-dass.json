@@ -1310,252 +1310,124 @@
       "id": "q42"
     },
     {
+      "id": "q43",
       "type": "multiple-choice",
-      "text": "Er geht nicht mit, weil er Kopfschmerzen ___.",
+      "text": "Ich muss gehen, weil ich noch ___.",
       "options": [
-        {
-          "id": "a",
-          "text": "hat"
-        },
-        {
-          "id": "b",
-          "text": "haben"
-        },
-        {
-          "id": "c",
-          "text": "hast"
-        },
-        {
-          "id": "d",
-          "text": "hatte"
-        }
+        {"id": "a", "text": "arbeiten muss"},
+        {"id": "b", "text": "muss arbeiten"},
+        {"id": "c", "text": "arbeiten müsste"},
+        {"id": "d", "text": "arbeite muss"}
       ],
       "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: er hat",
-      "explanationDetail": "Weil sends the verb to the end. Er hat Kopfschmerzen (he has a headache). Subject er → hat.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ],
-      "id": "q43"
+      "explanation": "weil + modal: infinitive + modal at end",
+      "explanationDetail": "In subordinate clauses with modal verbs, order is: ... + infinitive + modal. Weil ich noch arbeiten muss (because I still have to work).",
+      "tags": ["conjunctions", "subordinating", "weil", "modal"]
     },
     {
+      "id": "q44",
       "type": "multiple-choice",
-      "text": "Sie meint, dass das Konzert toll ___.",
+      "text": "Er sagt, dass er morgen ___.",
       "options": [
-        {
-          "id": "a",
-          "text": "war"
-        },
-        {
-          "id": "b",
-          "text": "sein"
-        },
-        {
-          "id": "c",
-          "text": "waren"
-        },
-        {
-          "id": "d",
-          "text": "warst"
-        }
+        {"id": "a", "text": "kommen wird"},
+        {"id": "b", "text": "wird kommen"},
+        {"id": "c", "text": "kommt"},
+        {"id": "d", "text": "kommen"}
       ],
       "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: war",
-      "explanationDetail": "Dass sends the verb to the end. Das Konzert war toll (the concert was great).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ],
-      "id": "q44"
+      "explanation": "dass + Futur I: infinitive + werden at end",
+      "explanationDetail": "Futur I in subordinate clause: subject + ... + infinitive + werden. Dass er morgen kommen wird (that he will come tomorrow).",
+      "tags": ["conjunctions", "subordinating", "dass", "futur"]
     },
     {
+      "id": "q45",
       "type": "multiple-choice",
-      "text": "Wir warten, weil der Bus Verspätung ___.",
+      "text": "Sie fragt, ob du Zeit ___.",
       "options": [
-        {
-          "id": "a",
-          "text": "hat"
-        },
-        {
-          "id": "b",
-          "text": "haben"
-        },
-        {
-          "id": "c",
-          "text": "hast"
-        },
-        {
-          "id": "d",
-          "text": "hatte"
-        }
+        {"id": "a", "text": "hast"},
+        {"id": "b", "text": "haben"},
+        {"id": "c", "text": "hat"},
+        {"id": "d", "text": "habt"}
       ],
       "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: der Bus hat",
-      "explanationDetail": "Weil sends the verb to the end. Der Bus hat Verspätung (the bus is delayed).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ],
-      "id": "q45"
+      "explanation": "ob sends verb to end: du hast",
+      "explanationDetail": "Ob (whether/if) is a subordinating conjunction like dass. Verb at end: ob du Zeit hast (whether you have time).",
+      "tags": ["conjunctions", "subordinating", "ob"]
     },
     {
+      "id": "q46",
       "type": "multiple-choice",
-      "text": "Ich habe gehört, dass ihr morgen ___.",
+      "text": "Wenn ich Zeit ___, helfe ich dir.",
       "options": [
-        {
-          "id": "a",
-          "text": "reist"
-        },
-        {
-          "id": "b",
-          "text": "reisen"
-        },
-        {
-          "id": "c",
-          "text": "fährst"
-        },
-        {
-          "id": "d",
-          "text": "reise"
-        }
+        {"id": "a", "text": "habe"},
+        {"id": "b", "text": "haben"},
+        {"id": "c", "text": "hat"},
+        {"id": "d", "text": "hast"}
       ],
       "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: ihr reist",
-      "explanationDetail": "Dass sends the verb to the end. Ihr reist (you're travelling).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ],
-      "id": "q46"
+      "explanation": "wenn sends verb to end: ich habe",
+      "explanationDetail": "Wenn (when/if) is a subordinating conjunction. Verb at end: Wenn ich Zeit habe (when/if I have time).",
+      "tags": ["conjunctions", "subordinating", "wenn"]
     },
     {
+      "id": "q47",
       "type": "multiple-choice",
-      "text": "Du bleibst im Bett, weil du Fieber ___.",
+      "text": "Ich freue mich, dass du ___.",
       "options": [
-        {
-          "id": "a",
-          "text": "hast"
-        },
-        {
-          "id": "b",
-          "text": "haben"
-        },
-        {
-          "id": "c",
-          "text": "hat"
-        },
-        {
-          "id": "d",
-          "text": "habt"
-        }
+        {"id": "a", "text": "gekommen bist"},
+        {"id": "b", "text": "bist gekommen"},
+        {"id": "c", "text": "gekommen hast"},
+        {"id": "d", "text": "kommst"}
       ],
       "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: du hast",
-      "explanationDetail": "Weil sends the verb to the end. Du hast Fieber (you have a fever).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ],
-      "id": "q47"
+      "explanation": "dass + Perfekt: participle + auxiliary at end",
+      "explanationDetail": "Perfekt in subordinate clause: past participle + auxiliary at end. Dass du gekommen bist (that you have come). Kommen uses sein.",
+      "tags": ["conjunctions", "subordinating", "dass", "perfekt"]
     },
     {
+      "id": "q48",
       "type": "multiple-choice",
-      "text": "Er sagt, dass die Geschäfte heute ___.",
+      "text": "Er hat gesagt, dass er gestern krank ___.",
       "options": [
-        {
-          "id": "a",
-          "text": "schließen"
-        },
-        {
-          "id": "b",
-          "text": "schließt"
-        },
-        {
-          "id": "c",
-          "text": "schließe"
-        },
-        {
-          "id": "d",
-          "text": "schließst"
-        }
+        {"id": "a", "text": "war"},
+        {"id": "b", "text": "ist"},
+        {"id": "c", "text": "warst"},
+        {"id": "d", "text": "gewesen"}
       ],
       "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: plural verb",
-      "explanationDetail": "Dass sends the verb to the end. Die Geschäfte schließen (the shops close). Plural subject.",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ],
-      "id": "q48"
+      "explanation": "dass + Präteritum: war at end",
+      "explanationDetail": "Reported speech with past tense. Dass er gestern krank war (that he was sick yesterday). Präteritum in subordinate clause.",
+      "tags": ["conjunctions", "subordinating", "dass", "präteritum"]
     },
     {
+      "id": "q49",
       "type": "multiple-choice",
-      "text": "Sie isst nichts, weil sie keinen Hunger ___.",
+      "text": "Sie bleibt, weil sie den Zug nicht ___.",
       "options": [
-        {
-          "id": "a",
-          "text": "hat"
-        },
-        {
-          "id": "b",
-          "text": "haben"
-        },
-        {
-          "id": "c",
-          "text": "hast"
-        },
-        {
-          "id": "d",
-          "text": "habt"
-        }
+        {"id": "a", "text": "verpassen will"},
+        {"id": "b", "text": "will verpassen"},
+        {"id": "c", "text": "verpasst will"},
+        {"id": "d", "text": "verpassen möchte"}
       ],
       "correctAnswerId": "a",
-      "explanation": "weil sends verb to end: sie hat",
-      "explanationDetail": "Weil sends the verb to the end. Sie hat keinen Hunger (she's not hungry).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "weil"
-      ],
-      "id": "q49"
+      "explanation": "weil + modal: infinitive + modal at end",
+      "explanationDetail": "Modal verb with infinitive in subordinate clause: ... + verpassen + will. Weil sie den Zug nicht verpassen will (because she doesn't want to miss the train).",
+      "tags": ["conjunctions", "subordinating", "weil", "modal"]
     },
     {
+      "id": "q50",
       "type": "multiple-choice",
-      "text": "Ich glaube, dass er heute Abend ___.",
+      "text": "Ich glaube, dass sie sich darüber ___.",
       "options": [
-        {
-          "id": "a",
-          "text": "anruft"
-        },
-        {
-          "id": "b",
-          "text": "anrufen"
-        },
-        {
-          "id": "c",
-          "text": "anrufe"
-        },
-        {
-          "id": "d",
-          "text": "anrufst"
-        }
+        {"id": "a", "text": "freut"},
+        {"id": "b", "text": "freuen"},
+        {"id": "c", "text": "freut sich"},
+        {"id": "d", "text": "gefreut"}
       ],
       "correctAnswerId": "a",
-      "explanation": "dass sends verb to end: er anruft",
-      "explanationDetail": "Dass sends the verb to the end. Er ruft an (separable: anruft at end).",
-      "tags": [
-        "conjunctions",
-        "subordinating",
-        "dass"
-      ],
-      "id": "q50"
+      "explanation": "dass + reflexive verb at end",
+      "explanationDetail": "Reflexive verb in subordinate clause: sich freuen goes to end. Dass sie sich darüber freut (that she is happy about it). Reflexive pronoun before verb.",
+      "tags": ["conjunctions", "subordinating", "dass", "reflexive"]
     }
   ]
 }

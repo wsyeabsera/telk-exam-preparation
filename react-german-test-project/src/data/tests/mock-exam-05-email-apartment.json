@@ -197,6 +197,38 @@
       "explanation": "Sie schreibt: Ich bin 28 Jahre alt.",
       "explanationDetail": "Sarah stellt sich mit „Ich bin 28 Jahre alt“ vor. Das steht wörtlich im Text.",
       "tags": ["reading", "details"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "text": "Was bedeutet „Anfrage“ im Betreff?",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        { "id": "a", "text": "Kündigung" },
+        { "id": "b", "text": "Frage / Bitte um Auskunft" },
+        { "id": "c", "text": "Beschwerde" },
+        { "id": "d", "text": "Vertrag" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Anfrage = Frage, Bitte um Auskunft zu etwas.",
+      "explanationDetail": "Eine Anfrage ist eine formelle Frage oder Bitte um Information. Sarah stellt eine Anfrage zur Wohnung = sie fragt nach der Wohnung und möchte mehr wissen / besichtigen.",
+      "tags": ["reading", "vocabulary"]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "text": "Wie wirkt Sarah in der E-Mail?",
+      "passageId": "email-apartment-inquiry",
+      "options": [
+        { "id": "a", "text": "unhöflich und fordernd" },
+        { "id": "b", "text": "höflich, interessiert und gut vorbereitet" },
+        { "id": "c", "text": "desinteressiert" },
+        { "id": "d", "text": "nur an der Miete interessiert" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Sie ist höflich, zeigt Interesse und stellt konkrete, durchdachte Fragen.",
+      "explanationDetail": "Sarah stellt sich vor, nennt Beruf und Wünsche, stellt klare Fragen (Verfügbarkeit, Haustiere, Keller) und bietet Flexibilität (auch abends). Das wirkt höflich und gut vorbereitet.",
+      "tags": ["reading", "tone", "inference"]
     }
   ]
 }

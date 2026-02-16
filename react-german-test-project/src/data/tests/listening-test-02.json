@@ -1,0 +1,207 @@
+{
+  "id": "listening-test-02",
+  "title": "Listening Test 02: Conversations and Announcements",
+  "description": "Listening comprehension with restaurant, doctor, station, airport, event and phone",
+  "duration": 25,
+  "category": "listening-test",
+  "focus": "Listening",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "text": "Was bestellt der Gast zuerst?",
+      "passageId": "listening-restaurant-conversation",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Zwei große Mineralwässer (eins mit, eins ohne Kohlensäure)" },
+        { "id": "b", "text": "Zwei Kaffees" },
+        { "id": "c", "text": "Suppe und Schnitzel" },
+        { "id": "d", "text": "Nur Salat" }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Zuerst zwei große Mineralwässer – eines mit und eines ohne Kohlensäure.",
+      "explanationDetail": "Der Gast sagt: 'Wir möchten zuerst etwas trinken. Zwei große Mineralwässer bitte, eines mit und eines ohne Kohlensäure.'",
+      "tags": ["listening", "restaurant"]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "text": "Was isst der Mann (der Ehemann)?",
+      "passageId": "listening-restaurant-conversation",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Schnitzel mit Pommes" },
+        { "id": "b", "text": "Nur einen großen Salat und Pasta mit Tomatensoße" },
+        { "id": "c", "text": "Gemüsesuppe" },
+        { "id": "d", "text": "Nichts" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Ein großer Salat und Pasta mit Tomatensoße.",
+      "explanationDetail": "Im Text: 'Mein Mann hat noch keinen Hunger – er nimmt nur einen großen Salat und die Pasta mit Tomatensoße.'",
+      "tags": ["listening", "restaurant"]
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "text": "Der Nachtisch wird sofort bestellt.",
+      "passageId": "listening-restaurant-conversation",
+      "hidePassageText": true,
+      "correctAnswer": false,
+      "explanation": "Falsch. Sie bestellen den Nachtisch später.",
+      "explanationDetail": "Der Gast sagt: 'Wir bestellen den Nachtisch später.'",
+      "tags": ["listening", "restaurant"]
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "text": "Bei wem hat der Patient einen Termin?",
+      "passageId": "listening-doctor-conversation",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Bei Herrn Dr. Weber" },
+        { "id": "b", "text": "Bei Frau Dr. Schneider" },
+        { "id": "c", "text": "Bei der Arzthelferin" },
+        { "id": "d", "text": "Im Zimmer 5" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Bei Frau Dr. Schneider.",
+      "explanationDetail": "Der Patient sagt: 'Ich habe um 10 Uhr einen Termin bei Frau Dr. Schneider.'",
+      "tags": ["listening", "doctor"]
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "text": "Was hat der Patient?",
+      "passageId": "listening-doctor-conversation",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Nur Husten" },
+        { "id": "b", "text": "Seit drei Tagen starke Kopfschmerzen und Fieber (38,5 Grad)" },
+        { "id": "c", "text": "Bauchschmerzen" },
+        { "id": "d", "text": "Nichts Ernstes" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Starke Kopfschmerzen und Fieber seit drei Tagen, gestern 38,5 Grad.",
+      "explanationDetail": "Der Patient: 'Ich habe seit drei Tagen starke Kopfschmerzen und Fieber. Gestern war ich bei 38,5 Grad.'",
+      "tags": ["listening", "doctor"]
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "text": "Von welchem Gleis fährt der ICE nach Frankfurt?",
+      "passageId": "listening-train-station-conversation",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Gleis 2" },
+        { "id": "b", "text": "Gleis 5" },
+        { "id": "c", "text": "Gleis 12" },
+        { "id": "d", "text": "Gleis 3" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Der ICE fährt von Gleis 5.",
+      "explanationDetail": "Der Mitarbeiter sagt: 'Der ICE fährt um 14:22 von Gleis 5.'",
+      "tags": ["listening", "train"]
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "text": "Der ICE 612 fährt direkt nach Frankfurt, ohne umzusteigen.",
+      "passageId": "listening-train-station-conversation",
+      "hidePassageText": true,
+      "correctAnswer": true,
+      "explanation": "Richtig. Direkt bis Frankfurt Hauptbahnhof.",
+      "explanationDetail": "Mitarbeiter: 'Nein, der ICE 612 fährt direkt bis Frankfurt Hauptbahnhof.'",
+      "tags": ["listening", "train"]
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "text": "Wohin geht der Flug LH 204?",
+      "passageId": "listening-airport-announcement",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Nach Berlin" },
+        { "id": "b", "text": "Nach Wien" },
+        { "id": "c", "text": "Nach München" },
+        { "id": "d", "text": "Nach Hamburg" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Nach Wien.",
+      "explanationDetail": "Die Durchsage: 'Passagiere des Fluges LH 204 nach Wien werden gebeten, sich zum Gate B 12 zu begeben.'",
+      "tags": ["listening", "airport"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "text": "Um wie viel Uhr soll der Flug abfliegen?",
+      "passageId": "listening-airport-announcement",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "14:45 Uhr" },
+        { "id": "b", "text": "15:30 Uhr" },
+        { "id": "c", "text": "16:00 Uhr" },
+        { "id": "d", "text": "15:00 Uhr" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Abflug um 15 Uhr 30.",
+      "explanationDetail": "Im Text: 'Der Abflug erfolgt in 45 Minuten um 15 Uhr 30.'",
+      "tags": ["listening", "airport"]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "Wie heißt der Vortrag und wo findet er statt?",
+      "passageId": "listening-event-announcement",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "„Deutsch im Beruf“, Saal 2, erste Etage" },
+        { "id": "b", "text": "„Beruf und Sprache“, Saal 1" },
+        { "id": "c", "text": "„Deutsch lernen“, im Erdgeschoss" },
+        { "id": "d", "text": "Der Eintritt ist kostenpflichtig" }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Vortrag „Deutsch im Beruf“ von Herrn Müller, Saal 2, erste Etage.",
+      "explanationDetail": "Durchsage: 'Der Vortrag „Deutsch im Beruf“ von Herrn Müller beginnt in zehn Minuten im Saal 2, erste Etage.'",
+      "tags": ["listening", "event"]
+    },
+    {
+      "id": "q11",
+      "type": "true-false",
+      "text": "Der Eintritt zum Vortrag ist frei.",
+      "passageId": "listening-event-announcement",
+      "hidePassageText": true,
+      "correctAnswer": true,
+      "explanation": "Richtig. Der Eintritt ist frei.",
+      "explanationDetail": "Im Text: 'Der Eintritt ist frei.'",
+      "tags": ["listening", "event"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "Warum kann Thomas morgen nicht zum Fußball kommen?",
+      "passageId": "listening-phone-message-02",
+      "hidePassageText": true,
+      "options": [
+        { "id": "a", "text": "Er hat keine Zeit" },
+        { "id": "b", "text": "Er ist krank" },
+        { "id": "c", "text": "Er fährt in den Urlaub" },
+        { "id": "d", "text": "Er hat einen Termin" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Er ist krank.",
+      "explanationDetail": "Thomas sagt: 'Leider kann ich nicht zum Fußball kommen, ich bin krank.'",
+      "tags": ["listening", "phone"]
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "text": "Thomas bittet darum, ihn heute Abend zurückzurufen.",
+      "passageId": "listening-phone-message-02",
+      "hidePassageText": true,
+      "correctAnswer": true,
+      "explanation": "Richtig. Am besten heute Abend zurückrufen.",
+      "explanationDetail": "Am Ende der Nachricht: 'Ruf mich bitte zurück, am besten heute Abend.'",
+      "tags": ["listening", "phone"]
+    }
+  ]
+}

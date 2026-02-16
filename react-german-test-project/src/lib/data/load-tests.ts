@@ -36,13 +36,22 @@ import mockExam08 from "@/data/tests/mock-exam-08-notice-library.json";
 import mockExam09 from "@/data/tests/mock-exam-09-ad-language.json";
 import mockExam10 from "@/data/tests/mock-exam-10-article-recycling.json";
 import mockExam11 from "@/data/tests/mock-exam-11-email-feedback.json";
+import mockExam12 from "@/data/tests/mock-exam-12-article-transport.json";
+import mockExam13 from "@/data/tests/mock-exam-13-email-course-cancellation.json";
+import mockExam14 from "@/data/tests/mock-exam-14-ad-gym.json";
+import miniTest25 from "@/data/tests/mini-test-25-genitiv.json";
+import miniTest26 from "@/data/tests/mini-test-26-futur-i.json";
+import miniTest27 from "@/data/tests/mini-test-27-infinitive-zu.json";
+import miniTest28 from "@/data/tests/mini-test-28-two-part-conjunctions.json";
 import quickTest01 from "@/data/tests/quick-test-01-dativ-akkusativ.json";
 import quickTest02 from "@/data/tests/quick-test-02-adjective-endings.json";
 import quickTest03 from "@/data/tests/quick-test-03-word-order.json";
 import quickTest04 from "@/data/tests/quick-test-04-prepositions-location.json";
 import quickTest05 from "@/data/tests/quick-test-05-common-mistakes.json";
 import writingPractice01 from "@/data/tests/writing-practice-01.json";
+import writingPractice02 from "@/data/tests/writing-practice-02.json";
 import listeningTest01 from "@/data/tests/listening-test-01.json";
+import listeningTest02 from "@/data/tests/listening-test-02.json";
 
 const testMap: Record<string, Test> = {
   "mini-test-01-dativ": miniTest01 as Test,
@@ -80,13 +89,22 @@ const testMap: Record<string, Test> = {
   "mock-exam-09-ad-language": mockExam09 as Test,
   "mock-exam-10-article-recycling": mockExam10 as Test,
   "mock-exam-11-email-feedback": mockExam11 as Test,
+  "mock-exam-12-article-transport": mockExam12 as Test,
+  "mock-exam-13-email-course-cancellation": mockExam13 as Test,
+  "mock-exam-14-ad-gym": mockExam14 as Test,
+  "mini-test-25-genitiv": miniTest25 as Test,
+  "mini-test-26-futur-i": miniTest26 as Test,
+  "mini-test-27-infinitive-zu": miniTest27 as Test,
+  "mini-test-28-two-part-conjunctions": miniTest28 as Test,
   "quick-test-01-dativ-akkusativ": quickTest01 as Test,
   "quick-test-02-adjective-endings": quickTest02 as Test,
   "quick-test-03-word-order": quickTest03 as Test,
   "quick-test-04-prepositions-location": quickTest04 as Test,
   "quick-test-05-common-mistakes": quickTest05 as Test,
   "writing-practice-01": writingPractice01 as Test,
+  "writing-practice-02": writingPractice02 as Test,
   "listening-test-01": listeningTest01 as Test,
+  "listening-test-02": listeningTest02 as Test,
 };
 
 const SUPER_SHORT_SIZE = 10;

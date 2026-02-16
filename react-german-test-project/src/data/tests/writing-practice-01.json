@@ -45,6 +45,46 @@
       "prompt": "Sie können am Mittwoch nicht zum Deutschkurs kommen. Schreiben Sie eine kurze Nachricht an die Lehrkraft.",
       "modelAnswer": "Guten Tag, leider kann ich am Mittwoch nicht zum Kurs kommen, weil ich einen Arzttermin habe. Ich hole den Stoff nach. Mit freundlichen Grüßen",
       "tags": ["writing", "message", "absence"]
+    },
+    {
+      "id": "q6",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie eine formelle E-Mail: Sie beschweren sich in einem Geschäft über ein defektes Produkt (Was Sie gekauft haben, was das Problem ist, was Sie erwarten).",
+      "prompt": "Schreiben Sie eine formelle E-Mail: Sie beschweren sich in einem Geschäft über ein defektes Produkt (Was Sie gekauft haben, was das Problem ist, was Sie erwarten).",
+      "modelAnswer": "Sehr geehrte Damen und Herren, am 1. März habe ich bei Ihnen einen Kaffeevollautomaten gekauft. Leider funktioniert die Maschine seit gestern nicht mehr – sie schaltet sich aus. Ich erwarte eine Reparatur oder Erstattung. Mit freundlichen Grüßen",
+      "tags": ["writing", "email", "complaint", "formal"]
+    },
+    {
+      "id": "q7",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie 2–3 Sätze: Sind Sie für oder gegen Homeoffice? Begründen Sie Ihre Meinung.",
+      "prompt": "Schreiben Sie 2–3 Sätze: Sind Sie für oder gegen Homeoffice? Begründen Sie Ihre Meinung.",
+      "modelAnswer": "Ich bin für Homeoffice, weil ich dann flexibler bin und keine Zeit im Verkehr verliere. Außerdem kann ich mich zu Hause oft besser konzentrieren. Aber manchmal vermisse ich die Kollegen.",
+      "tags": ["writing", "opinion", "argument"]
+    },
+    {
+      "id": "q8",
+      "type": "writing-prompt",
+      "text": "Vergleichen Sie in 2–3 Sätzen: Leben in der Stadt oder auf dem Land? Nennen Sie Vor- und Nachteile.",
+      "prompt": "Vergleichen Sie in 2–3 Sätzen: Leben in der Stadt oder auf dem Land? Nennen Sie Vor- und Nachteile.",
+      "modelAnswer": "In der Stadt gibt es mehr Läden, Kultur und Jobs, aber es ist oft laut und teuer. Auf dem Land ist es ruhiger und die Mieten sind niedriger, aber man braucht oft ein Auto. Ich wohne lieber in der Stadt.",
+      "tags": ["writing", "comparison", "pros-cons"]
+    },
+    {
+      "id": "q9",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie eine kurze formelle E-Mail an eine Firma: Sie fragen nach Informationen zu einem Sprachkurs (Termine, Preise, Anmeldung).",
+      "prompt": "Schreiben Sie eine kurze formelle E-Mail an eine Firma: Sie fragen nach Informationen zu einem Sprachkurs (Termine, Preise, Anmeldung).",
+      "modelAnswer": "Sehr geehrte Damen und Herren, ich interessiere mich für einen B1-Deutschkurs. Könnten Sie mir bitte die Termine, Preise und die Anmeldemöglichkeit mitteilen? Vielen Dank. Mit freundlichen Grüßen",
+      "tags": ["writing", "email", "inquiry", "formal"]
+    },
+    {
+      "id": "q10",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie 2–3 Sätze mit „weil“ und „obwohl“: Warum haben Sie letzte Woche etwas nicht gemacht, obwohl Sie es vorhatten?",
+      "prompt": "Schreiben Sie 2–3 Sätze mit „weil“ und „obwohl“: Warum haben Sie letzte Woche etwas nicht gemacht, obwohl Sie es vorhatten?",
+      "modelAnswer": "Obwohl ich Sport machen wollte, bin ich nicht ins Fitnessstudio gegangen. Ich hatte keine Zeit, weil ich viel arbeiten musste. Nächstes Woche versuche ich es wieder.",
+      "tags": ["writing", "grammar", "weil", "obwohl"]
     }
   ]
 }

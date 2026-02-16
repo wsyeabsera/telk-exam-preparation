@@ -197,6 +197,38 @@
       "explanation": "Soziale Kontakte sind wichtig für die mentale Gesundheit.",
       "explanationDetail": "Beim Thema Stress steht: „Sprechen Sie mit Freunden über Ihre Probleme. Soziale Kontakte sind wichtig für die mentale Gesundheit.“ Der Artikel verbindet Stressreduktion mit Beziehungen.",
       "tags": ["reading", "inference"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "text": "Was bedeutet „Check-up“ im Text?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        { "id": "a", "text": "Urlaub" },
+        { "id": "b", "text": "Vorsorgeuntersuchung beim Arzt" },
+        { "id": "c", "text": "Sportwettkampf" },
+        { "id": "d", "text": "Diät" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Check-up = Vorsorgeuntersuchung / Gesundheitsuntersuchung.",
+      "explanationDetail": "Der Artikel empfiehlt: „Gehen Sie einmal im Jahr zum Check-up.“ Im Kontext von Gesundheit und Arzt bedeutet Check-up die regelmäßige Vorsorgeuntersuchung.",
+      "tags": ["reading", "vocabulary"]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "text": "Welche Botschaft hat der Artikel insgesamt?",
+      "passageId": "article-healthy-lifestyle",
+      "options": [
+        { "id": "a", "text": "Nur Sport ist wichtig." },
+        { "id": "b", "text": "Ein gesunder Lebensstil umfasst Bewegung, Ernährung, Schlaf, Stress und Vorsorge – man kann selbst viel tun." },
+        { "id": "c", "text": "Gesundheit ist unwichtig." },
+        { "id": "d", "text": "Nur Ärzte können helfen." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Der Artikel verbindet mehrere Bereiche zu einem gesunden Lebensstil.",
+      "explanationDetail": "Der Text behandelt Bewegung, gesunde Ernährung, Schlaf, Stress und Früherkennung. Die Botschaft ist: Mit kleinen Schritten in diesen Bereichen kann man selbst einen großen Beitrag zur Gesundheit leisten.",
+      "tags": ["reading", "main-idea"]
     }
   ]
 }

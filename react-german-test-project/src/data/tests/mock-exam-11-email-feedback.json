@@ -165,6 +165,38 @@
       "explanation": "Dank für die Mitarbeit und Erfolg bei der Prüfungsvorbereitung.",
       "explanationDetail": "Am Ende steht: „Vielen Dank für Ihre Mitarbeit und viel Erfolg bei Ihrer weiteren Prüfungsvorbereitung!“ Das passt zu einem Kurs, der bald endet und auf Prüfungen vorbereitet.",
       "tags": ["reading", "details"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "text": "Was bedeutet „anonym“ in der E-Mail?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "Nur schriftlich" },
+        { "id": "b", "text": "Ohne Namen – die Antworten werden nicht mit der Person verbunden" },
+        { "id": "c", "text": "Schnell" },
+        { "id": "d", "text": "Kostenpflichtig" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Anonym = ohne Namensnennung, nicht zuordenbar.",
+      "explanationDetail": "Die Schule bittet um einen „anonymen“ Fragebogen. Das heißt: Die Teilnehmer müssen ihren Namen nicht angeben, die Antworten werden nicht mit ihrer Person verknüpft – so fühlen sich viele ehrlicher.",
+      "tags": ["reading", "vocabulary"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "Warum bittet die Schule um das Feedback?",
+      "passageId": "email-feedback-course",
+      "options": [
+        { "id": "a", "text": "Um Teilnehmer zu bestrafen" },
+        { "id": "b", "text": "Um den Kurs und den Unterricht zu verbessern und die Zufriedenheit zu erfahren" },
+        { "id": "c", "text": "Um mehr Geld zu verlangen" },
+        { "id": "d", "text": "Um den Kurs sofort zu beenden" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Feedback dient der Verbesserung und zeigt, ob die Teilnehmer zufrieden sind.",
+      "explanationDetail": "Fragebögen zu Zufriedenheit und Weiterempfehlung helfen der Schule, die Qualität einzuschätzen und Kurse zu verbessern. Das ist der übliche Zweck von Feedback-Bitten am Kursende.",
+      "tags": ["reading", "inference"]
     }
   ]
 }

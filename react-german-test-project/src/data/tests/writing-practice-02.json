@@ -1,0 +1,74 @@
+{
+  "id": "writing-practice-02",
+  "title": "Writing Practice 02",
+  "description": "B1 exam-style writing: graphs, formal letters, pros and cons",
+  "duration": 20,
+  "category": "mini-test",
+  "focus": "Writing",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "writing-prompt",
+      "text": "Beschreiben Sie eine Grafik: In einer Umfrage nutzen 60 % der Befragten täglich das Internet, 25 % mehrmals pro Woche, 15 % selten. Fassen Sie die Zahlen in 2–3 Sätzen zusammen.",
+      "prompt": "Beschreiben Sie eine Grafik: In einer Umfrage nutzen 60 % der Befragten täglich das Internet, 25 % mehrmals pro Woche, 15 % selten. Fassen Sie die Zahlen in 2–3 Sätzen zusammen.",
+      "modelAnswer": "Die Mehrheit der Befragten nutzt das Internet täglich (60 %). Ein Viertel (25 %) ist mehrmals pro Woche online. Nur 15 % nutzen das Internet selten. Das Internet ist also für die meisten Menschen sehr wichtig.",
+      "tags": ["writing", "chart", "description", "B1"]
+    },
+    {
+      "id": "q2",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie einen formellen Brief oder E-Mail: Sie bewerben sich um einen Ferienjob (z. B. in einem Café). Nennen Sie kurz, wer Sie sind, warum Sie sich bewerben und wann Sie verfügbar sind.",
+      "prompt": "Schreiben Sie einen formellen Brief oder E-Mail: Sie bewerben sich um einen Ferienjob (z. B. in einem Café). Nennen Sie kurz, wer Sie sind, warum Sie sich bewerben und wann Sie verfügbar sind.",
+      "modelAnswer": "Sehr geehrte Damen und Herren, ich habe Ihre Anzeige für einen Ferienjob gelesen und bewerbe mich bei Ihnen. Ich bin Student und suche in den Sommerferien eine Arbeit. Ich bin vom 1. Juli bis 31. August verfügbar und habe Erfahrung im Service. Über eine Einladung zum Vorstellungsgespräch freue ich mich. Mit freundlichen Grüßen",
+      "tags": ["writing", "formal", "application", "B1"]
+    },
+    {
+      "id": "q3",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie 3–4 Sätze: Vor- und Nachteile von öffentlichen Verkehrsmitteln (Bus, Bahn) im Vergleich zum Auto. Geben Sie am Ende Ihre eigene Meinung an.",
+      "prompt": "Schreiben Sie 3–4 Sätze: Vor- und Nachteile von öffentlichen Verkehrsmitteln (Bus, Bahn) im Vergleich zum Auto. Geben Sie am Ende Ihre eigene Meinung an.",
+      "modelAnswer": "Öffentliche Verkehrsmittel sind umweltfreundlicher und man muss nicht parken. Außerdem kann man unterwegs lesen oder arbeiten. Nachteile sind: man ist weniger flexibel und manchmal gibt es Verspätungen. Ich fahre lieber mit Bus und Bahn, weil ich in der Stadt wohne.",
+      "tags": ["writing", "pros-cons", "opinion", "B1"]
+    },
+    {
+      "id": "q4",
+      "type": "writing-prompt",
+      "text": "Sie haben in einer Zeitschrift gelesen: „Jugendliche verbringen zu viel Zeit am Handy.“ Schreiben Sie eine E-Mail an die Redaktion: Sind Sie einverstanden oder nicht? Begründen Sie in 3–4 Sätzen.",
+      "prompt": "Sie haben in einer Zeitschrift gelesen: „Jugendliche verbringen zu viel Zeit am Handy.“ Schreiben Sie eine E-Mail an die Redaktion: Sind Sie einverstanden oder nicht? Begründen Sie in 3–4 Sätzen.",
+      "modelAnswer": "Sehr geehrte Redaktion, ich bin teilweise einverstanden. Das Handy ist nützlich für Schule und Kontakt mit Freunden. Aber wenn man stundenlang spielt oder in sozialen Medien ist, ist das nicht gut. Man sollte Zeiten ohne Handy einplanen. Mit freundlichen Grüßen",
+      "tags": ["writing", "opinion", "email", "B1"]
+    },
+    {
+      "id": "q5",
+      "type": "writing-prompt",
+      "text": "Beschreiben Sie eine Tabelle: In Ihrer Klasse lernen 12 Personen Deutsch für den Beruf, 8 für das Studium, 5 aus Interesse. Fassen Sie die Informationen in 2–3 Sätzen zusammen und sagen Sie, was am häufigsten ist.",
+      "prompt": "Beschreiben Sie eine Tabelle: In Ihrer Klasse lernen 12 Personen Deutsch für den Beruf, 8 für das Studium, 5 aus Interesse. Fassen Sie die Informationen in 2–3 Sätzen zusammen und sagen Sie, was am häufigsten ist.",
+      "modelAnswer": "Die meisten in unserer Klasse (12 Personen) lernen Deutsch für den Beruf. Acht lernen für das Studium und fünf aus Interesse. Der Beruf ist also der häufigste Grund, Deutsch zu lernen.",
+      "tags": ["writing", "chart", "table", "B1"]
+    },
+    {
+      "id": "q6",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie eine formelle E-Mail an ein Hotel: Sie buchen ein Doppelzimmer für drei Nächte (Datum nennen), fragen nach dem Preis und ob Frühstück inklusive ist.",
+      "prompt": "Schreiben Sie eine formelle E-Mail an ein Hotel: Sie buchen ein Doppelzimmer für drei Nächte (Datum nennen), fragen nach dem Preis und ob Frühstück inklusive ist.",
+      "modelAnswer": "Sehr geehrte Damen und Herren, ich möchte ein Doppelzimmer für drei Nächte buchen, vom 15. bis 18. März. Könnten Sie mir bitte den Preis mitteilen? Ist das Frühstück im Preis enthalten? Vielen Dank. Mit freundlichen Grüßen",
+      "tags": ["writing", "formal", "hotel", "inquiry", "B1"]
+    },
+    {
+      "id": "q7",
+      "type": "writing-prompt",
+      "text": "Schreiben Sie 3–4 Sätze: Sollte man in der Schule eine Uniform tragen? Nennen Sie Vor- und Nachteile und Ihre Meinung.",
+      "prompt": "Schreiben Sie 3–4 Sätze: Sollte man in der Schule eine Uniform tragen? Nennen Sie Vor- und Nachteile und Ihre Meinung.",
+      "modelAnswer": "Vorteile einer Schuluniform: Alle sehen gleich aus, niemand wird wegen teurer Kleidung ausgelacht. Nachteile: Man kann sich nicht frei ausdrücken, und Uniformen kosten auch Geld. Ich finde eine lockere Kleiderordnung besser als eine strenge Uniform.",
+      "tags": ["writing", "pros-cons", "opinion", "B1"]
+    },
+    {
+      "id": "q8",
+      "type": "writing-prompt",
+      "text": "Sie antworten auf eine Einladung zu einer Geburtstagsparty. Schreiben Sie eine kurze E-Mail: Sie sagen zu oder lehnen ab, nennen einen Grund und wünschen etwas Nettes.",
+      "prompt": "Sie antworten auf eine Einladung zu einer Geburtstagsparty. Schreiben Sie eine kurze E-Mail: Sie sagen zu oder lehnen ab, nennen einen Grund und wünschen etwas Nettes.",
+      "modelAnswer": "Hallo! Vielen Dank für die Einladung. Ich komme gern zur Party am Samstag. Was soll ich mitbringen? Ich freue mich darauf! Oder: Leider kann ich nicht kommen, weil ich an dem Tag verreist bin. Ich wünsche dir trotzdem eine schöne Feier! Viele Grüße",
+      "tags": ["writing", "email", "invitation", "response", "B1"]
+    }
+  ]
+}

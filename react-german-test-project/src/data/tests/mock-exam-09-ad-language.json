@@ -181,6 +181,38 @@
       "explanation": "Telefon 030-789-4567, E-Mail, Online: www.sprachschule-berlin.de",
       "explanationDetail": "Unter „Jetzt anmelden!“: „Telefon: 030-789-4567, E-Mail: info@sprachschule-berlin.de, Online: www.sprachschule-berlin.de“. Drei Wege werden angeboten.",
       "tags": ["reading", "details"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "Was bedeutet „Intensivkurs“ in der Anzeige?",
+      "passageId": "advertisement-language-course",
+      "options": [
+        { "id": "a", "text": "Ein Kurs mit wenigen Stunden pro Woche" },
+        { "id": "b", "text": "Ein Kurs mit vielen Stunden / hoher Stundenzahl in kurzer Zeit" },
+        { "id": "c", "text": "Nur Online-Kurs" },
+        { "id": "d", "text": "Kostenloser Kurs" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Intensivkurs = viele Stunden, konzentriertes Lernen in kurzer Zeit.",
+      "explanationDetail": "Ein Intensivkurs hat typischerweise mehr Unterrichtsstunden pro Woche als ein Normal- oder Abendkurs. Die Anzeige wirbt mit „Intensivkurse“ für schnelleres Lernen in kürzerer Zeit.",
+      "tags": ["reading", "vocabulary"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "text": "Welches Ziel hat die Anzeige?",
+      "passageId": "advertisement-language-course",
+      "options": [
+        { "id": "a", "text": "Kritik an anderen Schulen" },
+        { "id": "b", "text": "Interessenten zum Anmelden bewegen (Werbung)" },
+        { "id": "c", "text": "Lehrer einstellen" },
+        { "id": "d", "text": "Kurse absagen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Werbung: Kurse anpreisen und zur Anmeldung auffordern.",
+      "explanationDetail": "Die Anzeige beschreibt Kurse, Preise, Vorteile und ruft mit „Jetzt anmelden!“ dazu auf, sich anzumelden. Das ist der typische Zweck einer Werbeanzeige für eine Sprachschule.",
+      "tags": ["reading", "inference"]
     }
   ]
 }

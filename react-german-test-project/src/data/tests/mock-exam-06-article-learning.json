@@ -181,6 +181,38 @@
       "explanation": "Praktische, umsetzbare Tipps für erfolgreiches Lernen.",
       "explanationDetail": "Der Artikel gibt fünf konkrete Tipps (regelmäßig, hören, sprechen, Grammatik/Kommunikation, Geduld) und endet mit „Viel Erfolg beim Deutschlernen!“. Die Botschaft ist: Mit diesen Schritten ist Deutschlernen machbar.",
       "tags": ["reading", "main-idea"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "Was meint der Artikel mit „kleine Erfolge“?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        { "id": "a", "text": "Nur die bestandene Prüfung" },
+        { "id": "b", "text": "Zwischenschritte wie das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch" },
+        { "id": "c", "text": "Schnell reich werden" },
+        { "id": "d", "text": "Keine Fehler machen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Kleine Erfolge = Zwischenschritte und Meilensteine beim Lernen.",
+      "explanationDetail": "Der Artikel nennt: „das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch“. Das sind kleine Erfolge – messbare Fortschritte, die man feiern soll.",
+      "tags": ["reading", "vocabulary"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "text": "An wen richtet sich der Artikel hauptsächlich?",
+      "passageId": "article-german-learning-tips",
+      "options": [
+        { "id": "a", "text": "Nur an Lehrer" },
+        { "id": "b", "text": "An Menschen, die Deutsch lernen (Lernende)" },
+        { "id": "c", "text": "Nur an Kinder" },
+        { "id": "d", "text": "An Muttersprachler" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Tipps richten sich an Deutschlernende.",
+      "explanationDetail": "Formulierungen wie „Deutschlernen“, „Viel Erfolg beim Deutschlernen!“, „regelmäßig üben“, „erste Gespräch auf Deutsch“ zeigen: Die Zielgruppe sind Menschen, die Deutsch als Fremdsprache lernen.",
+      "tags": ["reading", "inference"]
     }
   ]
 }

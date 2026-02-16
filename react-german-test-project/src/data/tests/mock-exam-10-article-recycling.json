@@ -165,6 +165,38 @@
       "explanation": "Mit richtiger Mülltrennung leistet man einen Beitrag zum Recycling und Umweltschutz.",
       "explanationDetail": "Der letzte Satz lautet: „Mit der richtigen Mülltrennung leisten Sie einen wichtigen Beitrag zum Recycling und zum Umweltschutz!“ Das ist die abschließende Botschaft.",
       "tags": ["reading", "main-idea"]
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "text": "Was bedeutet „Wertstoffhof“ im Text?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "Supermarkt" },
+        { "id": "b", "text": "Stelle, wo man z.B. Elektrogeräte und Sondermüll abgeben kann" },
+        { "id": "c", "text": "Park" },
+        { "id": "d", "text": "Schule" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Wertstoffhof = Annahmestelle für Wertstoffe und Sondermüll.",
+      "explanationDetail": "Der Text nennt „Wertstoffhof“ im Zusammenhang mit Batterien und Elektrogeräten. Ein Wertstoffhof ist eine kommunale Annahmestelle, wo man solche Dinge fachgerecht abgeben kann.",
+      "tags": ["reading", "vocabulary"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "Wer hat den Text wahrscheinlich geschrieben?",
+      "passageId": "article-recycling-tips",
+      "options": [
+        { "id": "a", "text": "Eine Privatperson ohne Auftrag" },
+        { "id": "b", "text": "Eine Stelle wie das Umweltamt der Stadt (offizielle Information)" },
+        { "id": "c", "text": "Ein Supermarkt" },
+        { "id": "d", "text": "Eine Schule" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Inhalt und Stil deuten auf offizielle städtische Information (z.B. Umweltamt) hin.",
+      "explanationDetail": "Der Text erklärt verbindliche Regeln zur Mülltrennung (Tonnen, Wertstoffhof). Solche Informationen kommen typischerweise von Kommunen oder dem Umweltamt, nicht von Privatpersonen oder Geschäften.",
+      "tags": ["reading", "inference"]
     }
   ]
 }

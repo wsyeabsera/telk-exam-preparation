@@ -181,6 +181,38 @@
       "explanation": "Renovierung = Erneuerung/Instandsetzung; danach wieder geöffnet mit neuen Angeboten.",
       "explanationDetail": "„Renovierung“ bedeutet hier bauliche/technische Erneuerung. Die Schließung ist zeitlich begrenzt (1.–15. März), und „Ab 16. März“ werden neue Öffnungszeiten und Einrichtungen (Computer, Kinderbereich, WLAN) genannt. Die Bibliothek öffnet also wieder mit Verbesserungen.",
       "tags": ["reading", "vocabulary"]
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "text": "Warum gibt die Bibliothek diese Information bekannt?",
+      "passageId": "notice-library-closure",
+      "options": [
+        { "id": "a", "text": "Um Werbung zu machen" },
+        { "id": "b", "text": "Damit Besucher über die Schließung und die neuen Öffnungszeiten informiert sind" },
+        { "id": "c", "text": "Um Bücher zu verkaufen" },
+        { "id": "d", "text": "Um zu kündigen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Zweck einer Bekanntmachung: Nutzer informieren.",
+      "explanationDetail": "Eine solche Mitteilung dient dazu, dass Nutzer wissen, wann die Bibliothek geschlossen ist und ab wann sie wieder mit welchen Angeboten geöffnet hat. Das ist der typische Zweck einer öffentlichen Bekanntmachung.",
+      "tags": ["reading", "inference"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "text": "Was ist nach der Renovierung neu?",
+      "passageId": "notice-library-closure",
+      "options": [
+        { "id": "a", "text": "Nichts" },
+        { "id": "b", "text": "Erweiterte Öffnungszeiten, Computerarbeitsplätze, Kinderbereich, WLAN" },
+        { "id": "c", "text": "Nur längere Öffnungszeiten" },
+        { "id": "d", "text": "Die Adresse" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Ab 16. März: neue Öffnungszeiten, Computer, Kinderbereich, WLAN.",
+      "explanationDetail": "Im Text steht: „Ab 16. März gelten erweiterte Öffnungszeiten. Neu: Computerarbeitsplätze, Kinderbereich, WLAN.“ Mehrere Verbesserungen werden genannt.",
+      "tags": ["reading", "details"]
     }
   ]
 }

@@ -197,6 +197,38 @@
       "explanation": "Von: Petra Müller, Personalabteilung.",
       "explanationDetail": "Im Kopf der E-Mail steht „Von: Petra Müller, Personalabteilung“. Die Personalabteilung (HR) ist für Bewerbungen und Einladungen zu Vorstellungsgesprächen zuständig.",
       "tags": ["reading", "details"]
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "text": "Was bedeutet „bestätigen“ in diesem Text?",
+      "passageId": "email-job-application-response",
+      "options": [
+        { "id": "a", "text": "absagen" },
+        { "id": "b", "text": "verschieben" },
+        { "id": "c", "text": "den Termin annehmen und zurückmelden" },
+        { "id": "d", "text": "vergessen" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Bestätigen = annehmen und zurückmelden, dass man kommt.",
+      "explanationDetail": "„Bitte bestätigen Sie den Termin“ bedeutet: Thomas Weber soll mitteilen (per E-Mail oder Telefon), dass er zum genannten Termin erscheint. Bestätigen = to confirm.",
+      "tags": ["reading", "vocabulary"]
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "text": "Welchen Ton hat die E-Mail?",
+      "passageId": "email-job-application-response",
+      "options": [
+        { "id": "a", "text": "sehr kritisch und abweisend" },
+        { "id": "b", "text": "höflich, positiv und einladend" },
+        { "id": "c", "text": "informell und locker" },
+        { "id": "d", "text": "unpersönlich und kurz" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die E-Mail ist höflich, positiv („mit großem Interesse“) und einladend.",
+      "explanationDetail": "Formulierungen wie „mit großem Interesse“, „gerne einladen“, „Bitte bringen Sie … mit“ zeigen einen höflichen, positiven und einladenden Ton – typisch für eine Einladung zum Vorstellungsgespräch.",
+      "tags": ["reading", "tone", "inference"]
     }
   ]
 }
