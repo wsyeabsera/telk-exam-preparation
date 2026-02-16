@@ -1,6 +1,13 @@
 import type { Question } from "./question";
 
-export type TestCategory = "mini-test" | "mock-exam" | "practice";
+export type TestCategory =
+  | "grammar"
+  | "writing-practice"
+  | "mock-exam"
+  | "listening-test"
+  | "quick-test"
+  | "practice-exam"
+  | "practice";
 
 export interface Test {
   id: string;

@@ -3,7 +3,7 @@
   "title": "Mini Test 06: Perfekt",
   "description": "Practice Perfekt (past tense) with haben and sein",
   "duration": 15,
-  "category": "mini-test",
+  "category": "grammar",
   "focus": "Verbs",
   "questions": [
     { "id": "q1", "type": "multiple-choice", "text": "Ich ___ gestern ins Kino gegangen.", "options": [{ "id": "a", "text": "habe" }, { "id": "b", "text": "bin" }, { "id": "c", "text": "hatte" }, { "id": "d", "text": "war" }], "correctAnswerId": "b", "explanation": "gehen uses sein in Perfekt: ich bin gegangen", "explanationDetail": "Verbs of motion (gehen, fahren, kommen) use 'sein' as auxiliary in Perfekt, not 'haben'. So: Ich bin gegangen (I went/have gone). Other motion verbs: fahren → bin gefahren, kommen → bin gekommen.", "tags": ["verbs", "perfekt", "past-tense", "sein"] },

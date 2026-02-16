@@ -3,7 +3,7 @@
   "title": "Mini Test 05: Präpositionen",
   "description": "Practice prepositions with Akkusativ and Dativ (Wechselpräpositionen and fixed)",
   "duration": 15,
-  "category": "mini-test",
+  "category": "grammar",
   "focus": "Präpositionen",
   "questions": [
     { "id": "q1", "type": "multiple-choice", "text": "Ich gehe ___ Kino. (motion)", "options": [{ "id": "a", "text": "ins" }, { "id": "b", "text": "im" }, { "id": "c", "text": "in den" }, { "id": "d", "text": "in der" }], "correctAnswerId": "a", "explanation": "in + Akkusativ (motion): ins Kino", "explanationDetail": "When 'in' shows motion (going to a place), use Akkusativ. 'In das' contracts to 'ins'. So: Ich gehe ins Kino (I'm going to the cinema). Motion → Akkusativ.", "nominativeHint": "das Kino", "tags": ["prepositions", "akkusativ", "wechselpraepositionen"] },

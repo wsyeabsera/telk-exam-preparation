@@ -37,10 +37,12 @@ interface DashboardContentProps {
 }
 
 const TAB_QUICK_PRACTICE = "quick-practice";
-const TAB_MINI_TEST = "mini-test";
-const TAB_MOCK_EXAM = "mock-exam";
+const TAB_GRAMMAR = "grammar";
+const TAB_READING = "reading";
 const TAB_LISTENING = "listening";
+const TAB_WRITING = "writing";
 const TAB_QUICK_TEST = "quick-test";
+const TAB_PRACTICE_EXAM = "practice-exam";
 
 function normalizeForSearch(s: string): string {
   return s.toLowerCase().trim();
@@ -84,11 +86,11 @@ export function DashboardContent({
     [quickPracticeConfig]
   );
 
-  const miniTests = useMemo(
-    () => tests.filter((t) => t.category === "mini-test"),
+  const grammarTests = useMemo(
+    () => tests.filter((t) => t.category === "grammar"),
     [tests]
   );
-  const mockExams = useMemo(
+  const readingTests = useMemo(
     () => tests.filter((t) => t.category === "mock-exam"),
     [tests]
   );
@@ -96,8 +98,16 @@ export function DashboardContent({
     () => tests.filter((t) => t.category === "listening-test"),
     [tests]
   );
+  const writingTests = useMemo(
+    () => tests.filter((t) => t.category === "writing-practice"),
+    [tests]
+  );
   const quickTests = useMemo(
     () => tests.filter((t) => t.category === "quick-test"),
+    [tests]
+  );
+  const practiceExams = useMemo(
+    () => tests.filter((t) => t.category === "practice-exam"),
     [tests]
   );
 
@@ -180,9 +190,11 @@ export function DashboardContent({
         <Tabs value={activeTab} onValueChange={setActiveTab}>
           <TabsList>
             <TabsTrigger value={TAB_QUICK_PRACTICE}>Quick Practice</TabsTrigger>
-            <TabsTrigger value={TAB_MINI_TEST}>Mini Tests</TabsTrigger>
-            <TabsTrigger value={TAB_MOCK_EXAM}>Mock Exams</TabsTrigger>
+            <TabsTrigger value={TAB_GRAMMAR}>Grammar</TabsTrigger>
+            <TabsTrigger value={TAB_READING}>Reading</TabsTrigger>
             <TabsTrigger value={TAB_LISTENING}>Listening</TabsTrigger>
+            <TabsTrigger value={TAB_WRITING}>Writing</TabsTrigger>
+            <TabsTrigger value={TAB_PRACTICE_EXAM}>Practice Exams</TabsTrigger>
             <TabsTrigger value={TAB_QUICK_TEST}>Quick Tests</TabsTrigger>
           </TabsList>
 
@@ -231,9 +243,9 @@ export function DashboardContent({
             </div>
           </TabsContent>
 
-          <TabsContent value={TAB_MINI_TEST}>
+          <TabsContent value={TAB_GRAMMAR}>
             <div className="grid gap-4 sm:grid-cols-2">
-              {miniTests.map((t) => (
+              {grammarTests.map((t) => (
                 <TestCard
                   key={t.id}
                   id={t.id}
@@ -248,9 +260,26 @@ export function DashboardContent({
             </div>
           </TabsContent>
 
-          <TabsContent value={TAB_MOCK_EXAM}>
+          <TabsContent value={TAB_READING}>
             <div className="grid gap-4 sm:grid-cols-2">
-              {mockExams.map((t) => (
+              {readingTests.map((t) => (
+                <TestCard
+                  key={t.id}
+                  id={t.id}
+                  title={t.title}
+                  description={t.description}
+                  duration={t.duration}
+                  questionCount={t.questionCount}
+                  focus={t.focus}
+                  category={t.category}
+                />
+              ))}
+            </div>
+          </TabsContent>
+
+          <TabsContent value={TAB_WRITING}>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {writingTests.map((t) => (
                 <TestCard
                   key={t.id}
                   id={t.id}
@@ -268,6 +297,23 @@ export function DashboardContent({
           <TabsContent value={TAB_LISTENING}>
             <div className="grid gap-4 sm:grid-cols-2">
               {listeningTests.map((t) => (
+                <TestCard
+                  key={t.id}
+                  id={t.id}
+                  title={t.title}
+                  description={t.description}
+                  duration={t.duration}
+                  questionCount={t.questionCount}
+                  focus={t.focus}
+                  category={t.category}
+                />
+              ))}
+            </div>
+          </TabsContent>
+
+          <TabsContent value={TAB_PRACTICE_EXAM}>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {practiceExams.map((t) => (
                 <TestCard
                   key={t.id}
                   id={t.id}

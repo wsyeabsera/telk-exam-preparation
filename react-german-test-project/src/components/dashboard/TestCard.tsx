@@ -7,9 +7,12 @@ import { Button } from "@/components/ui/Button";
 const CATEGORY_LABELS: Record<string, string> = {
   "quick-practice": "Quick Practice",
   "mini-test": "Mini Test",
-  "mock-exam": "Mock Exam",
+  grammar: "Grammar",
+  "mock-exam": "Reading",
   "listening-test": "Listening",
+  "writing-practice": "Writing",
   "quick-test": "Quick Test",
+  "practice-exam": "Practice Exam",
   practice: "Quick Practice",
 };
 

@@ -1,0 +1,3 @@
+# Anruf beim Kundenservice
+
+Kundenservice, guten Tag. – Guten Tag, ich habe vor zwei Wochen eine Bestellung aufgegeben und sie ist immer noch nicht angekommen. Können Sie mir helfen? – Natürlich. Wie ist bitte Ihre Bestellnummer? – 78452. Einen Moment … Die Sendung wurde am Montag verschickt. Normalerweise zwei bis drei Werktage. Haben Sie eine Benachrichtigung bekommen? – Nein, im Briefkasten war nichts. – Dann schicke ich Ihnen eine E-Mail mit der Sendungsverfolgung. Prüfen Sie bitte auch den Namen an der Klingel. Oft liegen die Pakete beim Nachbarn. Wenn bis Freitag nichts ankommt, rufen Sie bitte nochmal an. Dann starten wir eine Nachforschung. – Vielen Dank. – Gern geschehen. Einen schönen Tag noch.

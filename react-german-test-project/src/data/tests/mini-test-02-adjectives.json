@@ -3,7 +3,7 @@
   "title": "Mini Test 02: Adjective Endings",
   "description": "Practice adjective endings in Nominativ, Akkusativ, and Dativ",
   "duration": 25,
-  "category": "mini-test",
+  "category": "grammar",
   "focus": "Adjective Endings",
   "questions": [
     { "id": "q1", "type": "multiple-choice", "text": "Ich helfe der ___ (nett-) Kollegin.", "options": [{ "id": "a", "text": "nette" }, { "id": "b", "text": "netten" }, { "id": "c", "text": "nettes" }, { "id": "d", "text": "netter" }], "correctAnswerId": "b", "explanation": "Dativ feminine: der + -en", "explanationDetail": "After 'der' in Dativ feminine, the adjective always gets -en: der netten Kollegin. So the ending is -en for Dativ feminine with definite article.", "nominativeHint": "die nette Kollegin", "tags": ["adjectives", "dativ"] },

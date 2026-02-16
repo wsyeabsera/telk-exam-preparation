@@ -3,7 +3,7 @@
   "title": "Mini Test 07: Präteritum",
   "description": "Practice Präteritum (simple past) with sein, haben, werden, and modal verbs",
   "duration": 15,
-  "category": "mini-test",
+  "category": "grammar",
   "focus": "Verbs",
   "questions": [
     { "id": "q1", "type": "multiple-choice", "text": "Er ___ gestern krank.", "options": [{ "id": "a", "text": "ist" }, { "id": "b", "text": "war" }, { "id": "c", "text": "hatte" }, { "id": "d", "text": "wurde" }], "correctAnswerId": "b", "explanation": "sein in Präteritum: er war", "explanationDetail": "Sein (to be) in Präteritum: ich war, du warst, er/sie/es war, wir waren, ihr wart, sie waren. Er war krank (he was sick). Präteritum is used for narratives and with sein/haben/modal verbs.", "tags": ["verbs", "praeteritum", "past-tense", "sein"] },

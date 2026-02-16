@@ -3,7 +3,7 @@
   "title": "Mini Test 08: Modal Verbs",
   "description": "Practice modal verbs (können, müssen, wollen, dürfen, sollen, mögen)",
   "duration": 20,
-  "category": "mini-test",
+  "category": "grammar",
   "focus": "Verbs",
   "questions": [
     { "id": "q1", "type": "multiple-choice", "text": "Ich ___ heute nicht arbeiten.", "options": [{ "id": "a", "text": "muss" }, { "id": "b", "text": "kann" }, { "id": "c", "text": "will" }, { "id": "d", "text": "darf" }], "correctAnswerId": "a", "explanation": "müssen = must/have to", "explanationDetail": "Müssen (must/have to) expresses necessity or obligation. Ich muss arbeiten (I must/have to work). Conjugation: ich muss, du musst, er/sie/es muss, wir müssen, ihr müsst, sie müssen. Infinitive goes to end.", "tags": ["verbs", "modal-verbs", "muessen"] },

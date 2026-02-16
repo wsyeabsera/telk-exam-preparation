@@ -1,0 +1,3 @@
+# Bewerbungsgespräch
+
+Guten Tag, ich bin Frau Weber von der Personalabteilung. Setzen Sie sich bitte. Sie haben sich um die Stelle als Sachbearbeiter beworben. Erzählen Sie mir kurz, warum Sie wechseln möchten. – Danke. Und wie lange haben Sie in Ihrer jetzigen Firma gearbeitet? – Fünf Jahre. Verstehe. Wo liegen für Sie die größten Stärken? – Ich arbeite gern im Team und ich bin sehr organisiert. Gut. Die Stelle bei uns ist zunächst befristet auf ein Jahr. Danach ist eine Übernahme möglich. Haben Sie noch Fragen? – Ja, wann würde ich anfangen? – Bei uns im nächsten Monat, am ersten. Passt das? – Ja, das passt. Wir melden uns in einer Woche bei Ihnen.

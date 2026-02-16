@@ -7,7 +7,7 @@
       "duration": 25,
       "questionCount": 30,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Dativ"
     },
     {
@@ -17,7 +17,7 @@
       "duration": 25,
       "questionCount": 30,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Adjective Endings"
     },
     {
@@ -27,7 +27,7 @@
       "duration": 10,
       "questionCount": 8,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Dativ"
     },
     {
@@ -37,7 +37,7 @@
       "duration": 15,
       "questionCount": 12,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Akkusativ"
     },
     {
@@ -47,7 +47,7 @@
       "duration": 15,
       "questionCount": 12,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Präpositionen"
     },
     {
@@ -87,7 +87,7 @@
       "duration": 15,
       "questionCount": 62,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Verbs"
     },
     {
@@ -97,7 +97,7 @@
       "duration": 15,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Verbs"
     },
     {
@@ -107,7 +107,7 @@
       "duration": 20,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Verbs"
     },
     {
@@ -117,7 +117,7 @@
       "duration": 15,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Verbs"
     },
     {
@@ -127,7 +127,7 @@
       "duration": 20,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Verbs"
     },
     {
@@ -137,7 +137,7 @@
       "duration": 10,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Verbs"
     },
     {
@@ -147,7 +147,7 @@
       "duration": 15,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Conjunctions"
     },
     {
@@ -157,7 +157,7 @@
       "duration": 12,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Conjunctions"
     },
     {
@@ -167,7 +167,7 @@
       "duration": 15,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Conjunctions"
     },
     {
@@ -177,7 +177,7 @@
       "duration": 15,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Conjunctions"
     },
     {
@@ -187,7 +187,7 @@
       "duration": 15,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Pronouns"
     },
     {
@@ -197,7 +197,7 @@
       "duration": 15,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Pronouns"
     },
     {
@@ -207,7 +207,7 @@
       "duration": 15,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Pronouns"
     },
     {
@@ -217,7 +217,7 @@
       "duration": 12,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Comparatives"
     },
     {
@@ -227,7 +227,7 @@
       "duration": 12,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Comparatives"
     },
     {
@@ -237,7 +237,7 @@
       "duration": 12,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Passive"
     },
     {
@@ -247,7 +247,7 @@
       "duration": 12,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Passive"
     },
     {
@@ -257,7 +257,7 @@
       "duration": 12,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Konjunktiv II"
     },
     {
@@ -267,7 +267,7 @@
       "duration": 12,
       "questionCount": 50,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Konjunktiv II"
     },
     {
@@ -407,7 +407,7 @@
       "duration": 15,
       "questionCount": 10,
       "questionsPerAttempt": 10,
-      "category": "mini-test",
+      "category": "writing-practice",
       "focus": "Writing"
     },
     {
@@ -457,7 +457,7 @@
       "duration": 15,
       "questionCount": 20,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Genitiv"
     },
     {
@@ -467,7 +467,7 @@
       "duration": 12,
       "questionCount": 15,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Verbs"
     },
     {
@@ -477,7 +477,7 @@
       "duration": 15,
       "questionCount": 11,
       "questionsPerAttempt": 11,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Verbs"
     },
     {
@@ -487,7 +487,7 @@
       "duration": 15,
       "questionCount": 30,
       "questionsPerAttempt": 15,
-      "category": "mini-test",
+      "category": "grammar",
       "focus": "Conjunctions"
     },
     {
@@ -507,8 +507,28 @@
       "duration": 20,
       "questionCount": 8,
       "questionsPerAttempt": 8,
-      "category": "mini-test",
+      "category": "writing-practice",
       "focus": "Writing"
-    }
+    },
+    { "id": "mock-exam-15-job-posting", "title": "Mock Exam 15: Job Posting", "description": "Reading comprehension with office job advertisement", "duration": 15, "questionCount": 12, "questionsPerAttempt": 12, "category": "mock-exam", "focus": "Reading" },
+    { "id": "mock-exam-16-travel-info", "title": "Mock Exam 16: Travel - Hotel Booking", "description": "Reading comprehension with hotel booking email", "duration": 15, "questionCount": 11, "questionsPerAttempt": 11, "category": "mock-exam", "focus": "Reading" },
+    { "id": "mock-exam-17-blog-post", "title": "Mock Exam 17: Blog - Moving to Germany", "description": "Reading comprehension with personal blog", "duration": 18, "questionCount": 13, "questionsPerAttempt": 13, "category": "mock-exam", "focus": "Reading" },
+    { "id": "mock-exam-18-product-review", "title": "Mock Exam 18: Product Review", "description": "Reading comprehension with coffee machine review", "duration": 15, "questionCount": 12, "questionsPerAttempt": 12, "category": "mock-exam", "focus": "Reading" },
+    { "id": "mock-exam-19-event-invitation", "title": "Mock Exam 19: Event Invitation", "description": "Reading comprehension with company jubilee invitation", "duration": 12, "questionCount": 10, "questionsPerAttempt": 10, "category": "mock-exam", "focus": "Reading" },
+    { "id": "mini-test-29-demonstrative-pronouns", "title": "Mini Test 29: Demonstrative Pronouns", "description": "Practice dieser, jener, welcher, solcher in all cases", "duration": 18, "questionCount": 30, "questionsPerAttempt": 15, "category": "grammar", "focus": "Pronouns" },
+    { "id": "mini-test-30-possessive-pronouns", "title": "Mini Test 30: Possessive Pronouns", "description": "Practice meiner, deiner, seiner (independent) in all cases", "duration": 18, "questionCount": 30, "questionsPerAttempt": 15, "category": "grammar", "focus": "Pronouns" },
+    { "id": "mini-test-31-time-expressions", "title": "Mini Test 31: Time Expressions", "description": "Practice am, um, im, von...bis and time adverbs", "duration": 18, "questionCount": 30, "questionsPerAttempt": 15, "category": "grammar", "focus": "Prepositions" },
+    { "id": "mini-test-32-negation", "title": "Mini Test 32: Negation", "description": "Practice nicht vs kein, niemand, nichts, nie, nirgends", "duration": 18, "questionCount": 30, "questionsPerAttempt": 15, "category": "grammar", "focus": "Negation" },
+    { "id": "mini-test-33-impersonal", "title": "Mini Test 33: Impersonal Constructions", "description": "Practice es gibt, es ist, man + verb, impersonal passive", "duration": 18, "questionCount": 30, "questionsPerAttempt": 15, "category": "grammar", "focus": "Verbs" },
+    { "id": "listening-test-03", "title": "Listening Test 03: Workplace and Services", "description": "Listening with job interview, customer service, office", "duration": 25, "questionCount": 13, "questionsPerAttempt": 13, "category": "listening-test", "focus": "Listening" },
+    { "id": "listening-test-04", "title": "Listening Test 04: Shopping and Services", "description": "Listening with market, bank, post office, repair, store", "duration": 28, "questionCount": 14, "questionsPerAttempt": 14, "category": "listening-test", "focus": "Listening" },
+    { "id": "listening-test-05", "title": "Listening Test 05: Social and Leisure", "description": "Listening with party, cinema, sports club, museum, café", "duration": 25, "questionCount": 13, "questionsPerAttempt": 13, "category": "listening-test", "focus": "Listening" },
+    { "id": "writing-practice-03", "title": "Writing Practice 03", "description": "B1 writing: complaints, descriptions, requests, past events", "duration": 20, "questionCount": 8, "questionsPerAttempt": 8, "category": "writing-practice", "focus": "Writing" },
+    { "id": "writing-practice-04", "title": "Writing Practice 04", "description": "B1 writing: invitation, opinion, process, comparison, job", "duration": 20, "questionCount": 8, "questionsPerAttempt": 8, "category": "writing-practice", "focus": "Writing" },
+    { "id": "practice-exam-01", "title": "Practice Exam 01: Complete B1", "description": "Combined reading (email), listening and writing", "duration": 30, "questionCount": 10, "questionsPerAttempt": 10, "category": "practice-exam", "focus": "B1" },
+    { "id": "practice-exam-02", "title": "Practice Exam 02: Complete B1", "description": "Combined reading (article), listening and writing", "duration": 35, "questionCount": 13, "questionsPerAttempt": 13, "category": "practice-exam", "focus": "B1" },
+    { "id": "practice-exam-03", "title": "Practice Exam 03: Complete B1", "description": "Combined reading (ad), listening and writing", "duration": 30, "questionCount": 10, "questionsPerAttempt": 10, "category": "practice-exam", "focus": "B1" },
+    { "id": "practice-exam-04", "title": "Practice Exam 04: Complete B1", "description": "Combined reading (notice), listening and writing", "duration": 30, "questionCount": 10, "questionsPerAttempt": 10, "category": "practice-exam", "focus": "B1" },
+    { "id": "practice-exam-05", "title": "Practice Exam 05: Complete B1", "description": "Combined reading (blog), listening and writing", "duration": 35, "questionCount": 12, "questionsPerAttempt": 12, "category": "practice-exam", "focus": "B1" }
   ]
 }

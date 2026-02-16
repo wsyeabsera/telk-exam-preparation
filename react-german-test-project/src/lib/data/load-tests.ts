@@ -39,10 +39,20 @@ import mockExam11 from "@/data/tests/mock-exam-11-email-feedback.json";
 import mockExam12 from "@/data/tests/mock-exam-12-article-transport.json";
 import mockExam13 from "@/data/tests/mock-exam-13-email-course-cancellation.json";
 import mockExam14 from "@/data/tests/mock-exam-14-ad-gym.json";
+import mockExam15 from "@/data/tests/mock-exam-15-job-posting.json";
+import mockExam16 from "@/data/tests/mock-exam-16-travel-info.json";
+import mockExam17 from "@/data/tests/mock-exam-17-blog-post.json";
+import mockExam18 from "@/data/tests/mock-exam-18-product-review.json";
+import mockExam19 from "@/data/tests/mock-exam-19-event-invitation.json";
 import miniTest25 from "@/data/tests/mini-test-25-genitiv.json";
 import miniTest26 from "@/data/tests/mini-test-26-futur-i.json";
 import miniTest27 from "@/data/tests/mini-test-27-infinitive-zu.json";
 import miniTest28 from "@/data/tests/mini-test-28-two-part-conjunctions.json";
+import miniTest29 from "@/data/tests/mini-test-29-demonstrative-pronouns.json";
+import miniTest30 from "@/data/tests/mini-test-30-possessive-pronouns.json";
+import miniTest31 from "@/data/tests/mini-test-31-time-expressions.json";
+import miniTest32 from "@/data/tests/mini-test-32-negation.json";
+import miniTest33 from "@/data/tests/mini-test-33-impersonal.json";
 import quickTest01 from "@/data/tests/quick-test-01-dativ-akkusativ.json";
 import quickTest02 from "@/data/tests/quick-test-02-adjective-endings.json";
 import quickTest03 from "@/data/tests/quick-test-03-word-order.json";
@@ -50,8 +60,18 @@ import quickTest04 from "@/data/tests/quick-test-04-prepositions-location.json";
 import quickTest05 from "@/data/tests/quick-test-05-common-mistakes.json";
 import writingPractice01 from "@/data/tests/writing-practice-01.json";
 import writingPractice02 from "@/data/tests/writing-practice-02.json";
+import writingPractice03 from "@/data/tests/writing-practice-03.json";
+import writingPractice04 from "@/data/tests/writing-practice-04.json";
 import listeningTest01 from "@/data/tests/listening-test-01.json";
 import listeningTest02 from "@/data/tests/listening-test-02.json";
+import listeningTest03 from "@/data/tests/listening-test-03.json";
+import listeningTest04 from "@/data/tests/listening-test-04.json";
+import listeningTest05 from "@/data/tests/listening-test-05.json";
+import practiceExam01 from "@/data/tests/practice-exam-01.json";
+import practiceExam02 from "@/data/tests/practice-exam-02.json";
+import practiceExam03 from "@/data/tests/practice-exam-03.json";
+import practiceExam04 from "@/data/tests/practice-exam-04.json";
+import practiceExam05 from "@/data/tests/practice-exam-05.json";
 
 const testMap: Record<string, Test> = {
   "mini-test-01-dativ": miniTest01 as Test,
@@ -92,10 +112,20 @@ const testMap: Record<string, Test> = {
   "mock-exam-12-article-transport": mockExam12 as Test,
   "mock-exam-13-email-course-cancellation": mockExam13 as Test,
   "mock-exam-14-ad-gym": mockExam14 as Test,
+  "mock-exam-15-job-posting": mockExam15 as Test,
+  "mock-exam-16-travel-info": mockExam16 as Test,
+  "mock-exam-17-blog-post": mockExam17 as Test,
+  "mock-exam-18-product-review": mockExam18 as Test,
+  "mock-exam-19-event-invitation": mockExam19 as Test,
   "mini-test-25-genitiv": miniTest25 as Test,
   "mini-test-26-futur-i": miniTest26 as Test,
   "mini-test-27-infinitive-zu": miniTest27 as Test,
   "mini-test-28-two-part-conjunctions": miniTest28 as Test,
+  "mini-test-29-demonstrative-pronouns": miniTest29 as Test,
+  "mini-test-30-possessive-pronouns": miniTest30 as Test,
+  "mini-test-31-time-expressions": miniTest31 as Test,
+  "mini-test-32-negation": miniTest32 as Test,
+  "mini-test-33-impersonal": miniTest33 as Test,
   "quick-test-01-dativ-akkusativ": quickTest01 as Test,
   "quick-test-02-adjective-endings": quickTest02 as Test,
   "quick-test-03-word-order": quickTest03 as Test,
@@ -103,8 +133,18 @@ const testMap: Record<string, Test> = {
   "quick-test-05-common-mistakes": quickTest05 as Test,
   "writing-practice-01": writingPractice01 as Test,
   "writing-practice-02": writingPractice02 as Test,
+  "writing-practice-03": writingPractice03 as Test,
+  "writing-practice-04": writingPractice04 as Test,
   "listening-test-01": listeningTest01 as Test,
   "listening-test-02": listeningTest02 as Test,
+  "listening-test-03": listeningTest03 as Test,
+  "listening-test-04": listeningTest04 as Test,
+  "listening-test-05": listeningTest05 as Test,
+  "practice-exam-01": practiceExam01 as Test,
+  "practice-exam-02": practiceExam02 as Test,
+  "practice-exam-03": practiceExam03 as Test,
+  "practice-exam-04": practiceExam04 as Test,
+  "practice-exam-05": practiceExam05 as Test,
 };
 
 const SUPER_SHORT_SIZE = 10;

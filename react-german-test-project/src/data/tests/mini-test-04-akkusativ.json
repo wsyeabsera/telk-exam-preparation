@@ -3,7 +3,7 @@
   "title": "Mini Test 04: Akkusativ Focus",
   "description": "Practice Akkusativ articles, pronouns, and prepositions",
   "duration": 15,
-  "category": "mini-test",
+  "category": "grammar",
   "focus": "Akkusativ",
   "questions": [
     { "id": "q1", "type": "multiple-choice", "text": "Ich sehe ___ (der) Mann.", "options": [{ "id": "a", "text": "der" }, { "id": "b", "text": "den" }, { "id": "c", "text": "dem" }, { "id": "d", "text": "des" }], "correctAnswerId": "b", "explanation": "der Mann → Akkusativ: den Mann (masculine singular)", "explanationDetail": "Masculine nouns in Akkusativ change from 'der' to 'den'. The verb 'sehen' (to see) takes a direct object in Akkusativ. So: Ich sehe den Mann (not der Mann).", "nominativeHint": "der Mann", "tags": ["akkusativ", "articles"] },

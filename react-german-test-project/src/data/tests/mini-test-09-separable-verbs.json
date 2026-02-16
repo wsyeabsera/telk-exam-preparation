@@ -3,7 +3,7 @@
   "title": "Mini Test 09: Separable Verbs",
   "description": "Practice separable verbs (prefix position in different tenses)",
   "duration": 15,
-  "category": "mini-test",
+  "category": "grammar",
   "focus": "Verbs",
   "questions": [
     { "id": "q1", "type": "multiple-choice", "text": "Ich stehe jeden Tag um 7 Uhr ___.", "options": [{ "id": "a", "text": "auf" }, { "id": "b", "text": "aufstehe" }, { "id": "c", "text": "stehe auf" }, { "id": "d", "text": "aufstehen" }], "correctAnswerId": "a", "explanation": "Separable prefix goes to end in present tense", "explanationDetail": "Aufstehen (to get up) is separable. In present tense, the prefix 'auf' goes to the end: Ich stehe... auf. The verb stem 'stehe' is conjugated and stays in position 2. So: Ich stehe auf (I get up).", "tags": ["verbs", "separable-verbs", "present-tense"] },
