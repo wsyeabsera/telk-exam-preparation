@@ -163,6 +163,22 @@
       "explanation": "„Ausleihen können Sie wie gewohnt online verlängern.“",
       "explanationDetail": "Im Hinweis steht, dass Ausleihen online verlängert werden können.",
       "tags": ["reading", "notice"]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "Was will der Artikel über Bewegung vermitteln?",
+      "passageId": "article-daily-movement",
+      "options": [
+        { "id": "a", "text": "Man muss ins Fitnessstudio gehen." },
+        { "id": "b", "text": "Bewegung im Alltag reicht – man braucht keinen teuren Sport." },
+        { "id": "c", "text": "Nur Sport im Verein ist sinnvoll." },
+        { "id": "d", "text": "30 Minuten sind zu wenig." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Der Text betont: Treppen steigen, zu Fuß einkaufen reicht; man bleibt fit ohne teures Fitnessstudio.",
+      "explanationDetail": "Der Artikel empfiehlt mindestens 30 Minuten Bewegung und nennt Alltagsaktivitäten als Beispiele. Er sagt ausdrücklich, dass es kein Sport im Verein sein muss und man ohne teures Fitnessstudio fit bleibt. Die Botschaft ist: Alltagsbewegung reicht.",
+      "tags": ["reading", "main-idea"]
     }
   ]
 }

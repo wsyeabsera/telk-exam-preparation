@@ -1,88 +1,58 @@
 {
   "id": "mock-exam-08-notice-library",
   "title": "Mock Exam 08: Notice - Library",
-  "description": "Reading comprehension with public notice about library closure",
-  "duration": 15,
+  "description": "Reading comprehension with library closure notice",
+  "duration": 20,
   "category": "mock-exam",
   "focus": "Reading",
   "questions": [
     {
       "id": "q1",
       "type": "multiple-choice",
-      "text": "Warum ist die Bibliothek geschlossen?",
+      "text": "Was ist der Hauptzweck dieser Mitteilung?",
       "passageId": "notice-library-closure",
       "options": [
-        {
-          "id": "a",
-          "text": "Wegen Ferien"
-        },
-        {
-          "id": "b",
-          "text": "Wegen Renovierung"
-        },
-        {
-          "id": "c",
-          "text": "Wegen Krankheit"
-        },
-        {
-          "id": "d",
-          "text": "Wegen Feiertag"
-        }
+        { "id": "a", "text": "Neue Bücher anzukündigen" },
+        { "id": "b", "text": "Die Leser über die Schließung wegen Renovierung und die Folgen zu informieren" },
+        { "id": "c", "text": "Umzug der Bibliothek mitzuteilen" },
+        { "id": "d", "text": "Eintrittspreise zu ändern" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Die Bibliothek ist wegen Renovierung geschlossen.",
-      "explanationDetail": "Im Text steht: 'Stadtbibliothek - Schließung wegen Renovierungsarbeiten'. Die Bibliothek wird renoviert (renovated) und ist deshalb geschlossen.",
-      "tags": [
-        "reading",
-        "notice",
-        "main-idea"
-      ]
+      "explanation": "Die Bibliothek informiert über Schließung und was für die Nutzer gilt.",
+      "explanationDetail": "Die Überschrift lautet „Schließung wegen Renovierung“. Der Text erklärt, wann geschlossen ist, was mit ausgeliehenen Büchern gilt, was weiterhin funktioniert (Online-Ausleihe) und was ab 16. März neu ist. Das ist eine reine Informationsmitteilung.",
+      "tags": ["reading", "main-idea"]
     },
     {
       "id": "q2",
       "type": "multiple-choice",
-      "text": "Wie lange ist die Bibliothek geschlossen?",
+      "text": "Wann ist die Bibliothek geschlossen?",
       "passageId": "notice-library-closure",
       "options": [
-        {
-          "id": "a",
-          "text": "1 Woche"
-        },
-        {
-          "id": "b",
-          "text": "2 Wochen"
-        },
-        {
-          "id": "c",
-          "text": "3 Wochen"
-        },
-        {
-          "id": "d",
-          "text": "1 Monat"
-        }
+        { "id": "a", "text": "Vom 1. bis 10. März" },
+        { "id": "b", "text": "Vom 1. bis 15. März" },
+        { "id": "c", "text": "Im ganzen März" },
+        { "id": "d", "text": "Nur am Wochenende" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Die Bibliothek ist 2 Wochen geschlossen (1.-15. März).",
-      "explanationDetail": "Im Text steht: 'vom 1. bis 15. März'. Das sind 15 Tage, also etwa 2 Wochen. Die Bibliothek öffnet wieder am 16. März.",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
+      "explanation": "Vom 1. bis 15. März wegen Renovierungsarbeiten.",
+      "explanationDetail": "Im Text steht: „die Stadtbibliothek wird vom 1. bis 15. März wegen Renovierungsarbeiten geschlossen sein.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q3",
-      "type": "true-false",
-      "text": "Man muss Mahngebühren zahlen, wenn man Bücher zu spät zurückgibt.",
+      "type": "multiple-choice",
+      "text": "Bis wann können ausgeliehene Bücher zurückgegeben werden – ohne Mahngebühren?",
       "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Keine Mahngebühren bis 31. März.",
-      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!)'. Während der Renovierung gibt es keine Strafen (penalties) für verspätete Rückgabe.",
-      "tags": [
-        "reading",
-        "notice",
-        "inference"
-      ]
+      "options": [
+        { "id": "a", "text": "Bis 15. März" },
+        { "id": "b", "text": "Bis 31. März" },
+        { "id": "c", "text": "Bis 1. April" },
+        { "id": "d", "text": "Nur in der Schließzeit" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Alle ausgeliehenen Bücher können bis zum 31. März zurückgegeben werden (keine Mahngebühren).",
+      "explanationDetail": "Unter „Was bedeutet das für Sie?“ steht: „Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben (keine Mahngebühren!).“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q4",
@@ -90,1427 +60,127 @@
       "text": "Was funktioniert während der Schließung weiterhin?",
       "passageId": "notice-library-closure",
       "options": [
-        {
-          "id": "a",
-          "text": "Telefon"
-        },
-        {
-          "id": "b",
-          "text": "Bücher ausleihen vor Ort"
-        },
-        {
-          "id": "c",
-          "text": "Online-Ausleihe von E-Books"
-        },
-        {
-          "id": "d",
-          "text": "Computer-Arbeitsplätze"
-        }
+        { "id": "a", "text": "Der Besuch vor Ort und die Ausleihe vor Ort" },
+        { "id": "b", "text": "Die Online-Ausleihe von E-Books und Hörbüchern" },
+        { "id": "c", "text": "Telefon und E-Mail der Bibliothek" },
+        { "id": "d", "text": "Nichts" }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Die Online-Ausleihe funktioniert weiterhin.",
-      "explanationDetail": "Im Text steht: 'Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin'. Man kann keine physischen Bücher ausleihen, aber E-Books und Hörbücher (audiobooks) online.",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
+      "correctAnswerId": "b",
+      "explanation": "Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin.",
+      "explanationDetail": "Im Text steht: „Die Online-Ausleihe von E-Books und Hörbüchern funktioniert weiterhin.“ Telefon und E-Mail sind in dieser Zeit nicht erreichbar.",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q5",
-      "type": "true-false",
-      "text": "Telefon und E-Mail sind während der Renovierung erreichbar.",
+      "type": "multiple-choice",
+      "text": "Sind Telefon und E-Mail der Bibliothek in der Schließzeit erreichbar?",
       "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Sie sind nicht erreichbar.",
-      "explanationDetail": "Im Text steht: 'Telefon und E-Mail sind nicht erreichbar'. Während der Renovierung kann man die Bibliothek nicht kontaktieren. Man muss warten bis 16. März.",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
+      "options": [
+        { "id": "a", "text": "Ja, rund um die Uhr" },
+        { "id": "b", "text": "Nein, sie sind nicht erreichbar" },
+        { "id": "c", "text": "Nur E-Mail" },
+        { "id": "d", "text": "Nur am Wochenende" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Telefon und E-Mail sind nicht erreichbar.",
+      "explanationDetail": "Unter den Punkten zur Schließzeit steht: „Telefon und E-Mail sind nicht erreichbar.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q6",
       "type": "multiple-choice",
-      "text": "Bis wann kann man Bücher zurückgeben?",
+      "text": "Was gilt für Bücher, die vor dem 1. März ausgeliehen wurden?",
       "passageId": "notice-library-closure",
       "options": [
-        {
-          "id": "a",
-          "text": "Bis 1. März"
-        },
-        {
-          "id": "b",
-          "text": "Bis 15. März"
-        },
-        {
-          "id": "c",
-          "text": "Bis 31. März"
-        },
-        {
-          "id": "d",
-          "text": "Bis 1. April"
-        }
+        { "id": "a", "text": "Sie müssen sofort zurückgegeben werden." },
+        { "id": "b", "text": "Sie haben automatisch verlängerte Leihfrist bis 31. März." },
+        { "id": "c", "text": "Es gibt Mahngebühren." },
+        { "id": "d", "text": "Sie verfallen." }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Man kann Bücher bis 31. März zurückgeben.",
-      "explanationDetail": "Im Text steht: 'Alle ausgeliehenen Bücher können Sie bis zum 31. März zurückgeben'. Das ist die verlängerte Leihfrist (extended loan period) wegen der Renovierung.",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
+      "correctAnswerId": "b",
+      "explanation": "Automatisch verlängerte Leihfrist bis 31. März.",
+      "explanationDetail": "Unter „Wichtig“: „Bücher, die Sie vor dem 1. März ausleihen, haben automatisch eine verlängerte Leihfrist bis zum 31. März.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q7",
       "type": "multiple-choice",
-      "text": "Ab wann öffnet die Bibliothek wieder?",
+      "text": "Ab wann gelten die neuen Öffnungszeiten?",
       "passageId": "notice-library-closure",
       "options": [
-        {
-          "id": "a",
-          "text": "1. März"
-        },
-        {
-          "id": "b",
-          "text": "15. März"
-        },
-        {
-          "id": "c",
-          "text": "16. März"
-        },
-        {
-          "id": "d",
-          "text": "31. März"
-        }
+        { "id": "a", "text": "Ab 1. März" },
+        { "id": "b", "text": "Ab 15. März" },
+        { "id": "c", "text": "Ab 16. März" },
+        { "id": "d", "text": "Ab April" }
       ],
       "correctAnswerId": "c",
-      "explanation": "Die Bibliothek öffnet am 16. März wieder.",
-      "explanationDetail": "Im Text steht: 'Ab 16. März: Neue Öffnungszeiten...'. Nach der Renovierung (1.-15. März) öffnet die Bibliothek am 16. März wieder.",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
+      "explanation": "Ab 16. März: neue Öffnungszeiten und Angebote.",
+      "explanationDetail": "Der Abschnitt „Ab 16. März:“ listet die neuen Öffnungszeiten (Mo–Fr 9–19, Sa 10–16), neue Computer, vergrößerten Kinderbereich und kostenloses WLAN.",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q8",
       "type": "multiple-choice",
-      "text": "Was ist NEU nach der Renovierung?",
+      "text": "Was ist ab 16. März neu in der Bibliothek?",
       "passageId": "notice-library-closure",
       "options": [
-        {
-          "id": "a",
-          "text": "Nur neue Bücher"
-        },
-        {
-          "id": "b",
-          "text": "Kostenloses WLAN, neue Computer, größerer Kinderbereich"
-        },
-        {
-          "id": "c",
-          "text": "Nur längere Öffnungszeiten"
-        },
-        {
-          "id": "d",
-          "text": "Nichts"
-        }
+        { "id": "a", "text": "Nichts" },
+        { "id": "b", "text": "Neue Öffnungszeiten, neue Computer-Arbeitsplätze, vergrößerter Kinderbereich, kostenloses WLAN" },
+        { "id": "c", "text": "Nur längere Öffnungszeiten" },
+        { "id": "d", "text": "Umzug in ein anderes Gebäude" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Es gibt WLAN, neue Computer und einen größeren Kinderbereich.",
-      "explanationDetail": "Im Text steht: 'Neue Computer-Arbeitsplätze, Vergrößerter Kinderbereich, Kostenloses WLAN im ganzen Gebäude'. Das sind die Verbesserungen (improvements) nach der Renovierung.",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
+      "explanation": "Neue Öffnungszeiten, Computer, Kinderbereich, WLAN.",
+      "explanationDetail": "Unter „Ab 16. März:“ werden genannt: neue Öffnungszeiten, neue Computer-Arbeitsplätze, vergrößerter Kinderbereich, kostenloses WLAN im ganzen Gebäude.",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q9",
-      "type": "true-false",
-      "text": "Die Öffnungszeiten bleiben nach der Renovierung gleich.",
+      "type": "multiple-choice",
+      "text": "Warum erwähnt die Bibliothek „keine Mahngebühren“?",
       "passageId": "notice-library-closure",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Es gibt neue Öffnungszeiten.",
-      "explanationDetail": "Im Text steht: 'Neue Öffnungszeiten: Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Das Wort 'neue' zeigt, dass sich die Zeiten ändern (change). Die Bibliothek hat nach der Renovierung andere Öffnungszeiten.",
-      "tags": [
-        "reading",
-        "notice",
-        "inference"
-      ]
+      "options": [
+        { "id": "a", "text": "Um mehr Geld zu verlangen." },
+        { "id": "b", "text": "Um die Leser zu beruhigen: Sie müssen Bücher bis 31. März zurückgeben, ohne Strafe zu zahlen." },
+        { "id": "c", "text": "Weil alle Bücher weg sind." },
+        { "id": "d", "text": "Es gibt nie Mahngebühren." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Die Bibliothek will klarstellen, dass in dieser Sonderzeit keine Gebühren anfallen.",
+      "explanationDetail": "Während der Schließung können Leser ihre Bücher erst wieder ab 16. März abgeben. Die Bibliothek verlängert die Frist bis 31. März und verzichtet auf Mahngebühren, damit niemand benachteiligt wird. Das ist eine kundenorientierte Information.",
+      "tags": ["reading", "inference"]
     },
     {
       "id": "q10",
       "type": "multiple-choice",
-      "text": "Wann ist die Bibliothek am Samstag geöffnet?",
+      "text": "Wie kann man die Bibliothek nach der Renovierung kontaktieren?",
       "passageId": "notice-library-closure",
       "options": [
-        {
-          "id": "a",
-          "text": "9:00-19:00 Uhr"
-        },
-        {
-          "id": "b",
-          "text": "10:00-16:00 Uhr"
-        },
-        {
-          "id": "c",
-          "text": "9:00-16:00 Uhr"
-        },
-        {
-          "id": "d",
-          "text": "10:00-19:00 Uhr"
-        }
+        { "id": "a", "text": "Gar nicht" },
+        { "id": "b", "text": "Tel: 0221-555-1234, E-Mail: info@stadtbibliothek.de" },
+        { "id": "c", "text": "Nur per Post" },
+        { "id": "d", "text": "Nur online auf der Website" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Am Samstag: 10:00-16:00 Uhr.",
-      "explanationDetail": "Im Text steht: 'Mo-Fr 9:00-19:00 Uhr, Sa 10:00-16:00 Uhr'. Am Samstag (Sa) sind die Öffnungszeiten kürzer als unter der Woche (during the week).",
-      "tags": [
-        "reading",
-        "notice",
-        "details"
-      ]
+      "explanation": "Am Ende stehen Telefon und E-Mail.",
+      "explanationDetail": "Am Ende der Mitteilung: „Tel: 0221-555-1234“ und „E-Mail: info@stadtbibliothek.de“. Das sind die Kontaktdaten der Stadtbibliothek (nach der Schließzeit nutzbar).",
+      "tags": ["reading", "details"]
     },
     {
+      "id": "q11",
       "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes?",
+      "text": "Was bedeutet „Renovierung“ in diesem Text?",
       "passageId": "notice-library-closure",
       "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q11"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin?",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q12"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text?",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q13"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden?",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q14"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen?",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q15"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten?",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q16"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz?",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q17"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun?",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q18"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt?",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q19"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes?",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q20"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes? (11)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q21"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin? (12)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q22"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text? (13)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q23"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden? (14)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q24"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen? (15)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q25"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten? (16)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q26"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz? (17)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q27"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun? (18)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q28"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt? (19)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q29"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes? (20)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q30"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes? (21)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q31"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin? (22)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q32"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text? (23)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q33"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden? (24)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q34"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen? (25)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q35"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten? (26)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q36"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz? (27)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q37"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun? (28)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q38"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt? (29)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q39"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes? (30)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q40"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes? (31)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q41"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin? (32)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q42"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text? (33)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q43"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden? (34)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q44"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen? (35)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q45"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten? (36)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q46"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz? (37)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q47"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun? (38)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q48"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt? (39)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q49"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes? (40)",
-      "passageId": "notice-library-closure",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q50"
+        { "id": "a", "text": "Die Bibliothek wird geschlossen und bleibt zu." },
+        { "id": "b", "text": "Das Gebäude wird erneuert/repariert; danach öffnet die Bibliothek wieder mit Verbesserungen." },
+        { "id": "c", "text": "Neue Bücher werden gekauft." },
+        { "id": "d", "text": "Das Personal wechselt." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Renovierung = Erneuerung/Instandsetzung; danach wieder geöffnet mit neuen Angeboten.",
+      "explanationDetail": "„Renovierung“ bedeutet hier bauliche/technische Erneuerung. Die Schließung ist zeitlich begrenzt (1.–15. März), und „Ab 16. März“ werden neue Öffnungszeiten und Einrichtungen (Computer, Kinderbereich, WLAN) genannt. Die Bibliothek öffnet also wieder mit Verbesserungen.",
+      "tags": ["reading", "vocabulary"]
     }
   ]
 }

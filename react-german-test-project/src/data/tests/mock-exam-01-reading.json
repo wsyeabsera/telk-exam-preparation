@@ -156,6 +156,38 @@
       "explanation": "„Bewerbung … bis 28.02.“",
       "explanationDetail": "Die Anzeige gibt als Bewerbungsfrist bis 28.02. an. Man muss sich also bis zu diesem Datum bewerben.",
       "tags": ["reading", "anzeige"]
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "text": "Was ist der Hauptzweck von Sofias Blogeintrag?",
+      "passageId": "blog-sofia-berlin",
+      "options": [
+        { "id": "a", "text": "Werbung für einen Deutschkurs machen" },
+        { "id": "b", "text": "Von ihren ersten Erfahrungen in Berlin erzählen" },
+        { "id": "c", "text": "Nach einer Wohnung suchen" },
+        { "id": "d", "text": "Ein Café empfehlen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Sofia schreibt über ihren Umzug und ihre ersten Wochen in Berlin.",
+      "explanationDetail": "Der Blogeintrag hat keinen Werbezweck und sucht keine Wohnung. Sofia teilt persönliche Erfahrungen: Umzug, Deutschkurs, Nachbarn, anstehender Minijob und was ihr an Berlin gefällt. Das ist typisch für einen persönlichen Blog.",
+      "tags": ["reading", "main-idea"]
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "text": "Warum erwähnt Sofia ihre Nachbarn?",
+      "passageId": "blog-sofia-berlin",
+      "options": [
+        { "id": "a", "text": "Sie sucht neue Nachbarn." },
+        { "id": "b", "text": "Sie will zeigen, dass sie Unterstützung bekommt." },
+        { "id": "c", "text": "Sie beschwert sich über sie." },
+        { "id": "d", "text": "Sie vergleicht sie mit Freunden in der Heimat." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Im Text steht, dass die Nachbarn ihr helfen.",
+      "explanationDetail": "Sofia schreibt, dass ihre Nachbarn ihr helfen. Sie erwähnt das im positiven Kontext („jetzt geht es mir besser“), um zu zeigen, dass sie nicht allein ist und Unterstützung hat – nicht um sich zu beschweren oder zu vergleichen.",
+      "tags": ["reading", "inference"]
     }
   ]
 }

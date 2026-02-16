@@ -9,1508 +9,194 @@
     {
       "id": "q1",
       "type": "multiple-choice",
-      "text": "Wer hat den Artikel geschrieben?",
+      "text": "Was ist die Hauptbotschaft des Artikels?",
       "passageId": "article-healthy-lifestyle",
       "options": [
-        {
-          "id": "a",
-          "text": "Ein Lehrer"
-        },
-        {
-          "id": "b",
-          "text": "Ein Arzt"
-        },
-        {
-          "id": "c",
-          "text": "Ein Koch"
-        },
-        {
-          "id": "d",
-          "text": "Ein Sportler"
-        }
+        { "id": "a", "text": "Man muss jeden Tag ins Fitnessstudio." },
+        { "id": "b", "text": "Ein gesunder Lebensstil ist mit kleinen Alltagsänderungen möglich – Sport, Ernährung, Schlaf, Stress, Check-up." },
+        { "id": "c", "text": "Gesund leben ist nur mit viel Geld möglich." },
+        { "id": "d", "text": "Schlaf ist unwichtig." }
       ],
       "correctAnswerId": "b",
-      "explanation": "Dr. Michael Weber, ein Arzt, hat den Artikel geschrieben.",
-      "explanationDetail": "Im Text steht: 'Von: Dr. Michael Weber'. Der Titel 'Dr.' zeigt, dass er Arzt ist. Er gibt medizinische Tipps für einen gesunden Lebensstil.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "explanation": "Kleine Veränderungen im Alltag machen einen großen Unterschied.",
+      "explanationDetail": "Der Artikel behandelt Bewegung, Ernährung, Schlaf, Stress und Arztbesuche und endet mit: „Gesund leben ist nicht kompliziert. Kleine Veränderungen im Alltag machen einen großen Unterschied!“",
+      "tags": ["reading", "main-idea"]
     },
     {
       "id": "q2",
       "type": "multiple-choice",
-      "text": "Wie viel Sport soll man mindestens pro Tag machen?",
+      "text": "Wie viel Bewegung empfiehlt der Artikel pro Tag?",
       "passageId": "article-healthy-lifestyle",
       "options": [
-        {
-          "id": "a",
-          "text": "15 Minuten"
-        },
-        {
-          "id": "b",
-          "text": "30 Minuten"
-        },
-        {
-          "id": "c",
-          "text": "60 Minuten"
-        },
-        {
-          "id": "d",
-          "text": "2 Stunden"
-        }
+        { "id": "a", "text": "15 Minuten" },
+        { "id": "b", "text": "30 Minuten Spazierengehen oder Radfahren" },
+        { "id": "c", "text": "2 Stunden Fitnessstudio" },
+        { "id": "d", "text": "Keine" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Mindestens 30 Minuten pro Tag.",
-      "explanationDetail": "Im Text steht: 'Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.' Das ist das Minimum (minimum) für tägliche Bewegung. Man muss nicht ins Fitnessstudio gehen.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "explanation": "30 Minuten Spazierengehen oder Radfahren pro Tag helfen.",
+      "explanationDetail": "Im Text steht: „Schon 30 Minuten Spazierengehen oder Radfahren pro Tag helfen.“ Es muss kein Fitnessstudio sein.",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q3",
-      "type": "true-false",
-      "text": "Man muss jeden Tag ins Fitnessstudio gehen.",
+      "type": "multiple-choice",
+      "text": "Was rät der Artikel neben Sport noch für Bewegung?",
       "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man muss nicht ins Fitnessstudio gehen.",
-      "explanationDetail": "Im Text steht: 'Man muss nicht jeden Tag ins Fitnessstudio gehen.' Einfache Aktivitäten wie Spazierengehen oder Radfahren reichen (are enough). Sport kann im Alltag integriert werden.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
+      "options": [
+        { "id": "a", "text": "Nur Auto fahren" },
+        { "id": "b", "text": "Treppe statt Aufzug; eine Station früher aus dem Bus aussteigen und zu Fuß gehen" },
+        { "id": "c", "text": "Nur sitzen" },
+        { "id": "d", "text": "Nie laufen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Treppe nehmen, eine Station früher aussteigen und zu Fuß gehen.",
+      "explanationDetail": "Der Artikel sagt: „Nehmen Sie die Treppe statt den Aufzug. Steigen Sie eine Station früher aus dem Bus aus und gehen Sie zu Fuß weiter.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q4",
       "type": "multiple-choice",
-      "text": "Was soll man statt dem Aufzug nehmen?",
+      "text": "Wie viel Wasser soll man laut Artikel pro Tag trinken?",
       "passageId": "article-healthy-lifestyle",
       "options": [
-        {
-          "id": "a",
-          "text": "Den Bus"
-        },
-        {
-          "id": "b",
-          "text": "Das Taxi"
-        },
-        {
-          "id": "c",
-          "text": "Die Treppe"
-        },
-        {
-          "id": "d",
-          "text": "Das Auto"
-        }
+        { "id": "a", "text": "0,5 Liter" },
+        { "id": "b", "text": "1 Liter" },
+        { "id": "c", "text": "Mindestens 1,5 Liter" },
+        { "id": "d", "text": "5 Liter" }
       ],
       "correctAnswerId": "c",
-      "explanation": "Man soll die Treppe nehmen.",
-      "explanationDetail": "Im Text steht: 'Nehmen Sie die Treppe statt den Aufzug.' Das ist eine einfache Möglichkeit, mehr Bewegung im Alltag zu haben. Treppen steigen (climbing stairs) ist gesund.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "explanation": "Trinken Sie mindestens 1,5 Liter Wasser pro Tag.",
+      "explanationDetail": "Unter „Gesunde Ernährung“ steht: „Trinken Sie mindestens 1,5 Liter Wasser pro Tag.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q5",
       "type": "multiple-choice",
-      "text": "Wie viel Wasser soll man pro Tag trinken?",
+      "text": "Was empfiehlt der Artikel zum Schlaf?",
       "passageId": "article-healthy-lifestyle",
       "options": [
-        {
-          "id": "a",
-          "text": "0,5 Liter"
-        },
-        {
-          "id": "b",
-          "text": "1 Liter"
-        },
-        {
-          "id": "c",
-          "text": "1,5 Liter"
-        },
-        {
-          "id": "d",
-          "text": "3 Liter"
-        }
+        { "id": "a", "text": "So wenig wie möglich schlafen" },
+        { "id": "b", "text": "Etwa 7–8 Stunden; gleiche Zeit ins Bett; Handy/Computer eine Stunde vorher vermeiden" },
+        { "id": "c", "text": "Nur am Wochenende schlafen" },
+        { "id": "d", "text": "Mit dem Handy im Bett liegen" }
       ],
-      "correctAnswerId": "c",
-      "explanation": "Mindestens 1,5 Liter pro Tag.",
-      "explanationDetail": "Im Text steht: 'Trinken Sie mindestens 1,5 Liter Wasser pro Tag.' Das ist die empfohlene Mindestmenge (recommended minimum amount) für Erwachsene.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "correctAnswerId": "b",
+      "explanation": "7–8 Stunden, regelmäßige Schlafenszeit, kein blaues Licht vor dem Schlafen.",
+      "explanationDetail": "Im Abschnitt „Genug Schlaf“: „Erwachsene brauchen etwa 7–8 Stunden Schlaf pro Nacht. Gehen Sie jeden Abend zur gleichen Zeit ins Bett. Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q6",
-      "type": "true-false",
-      "text": "Selbst kochen ist gesünder als Essen bestellen.",
+      "type": "multiple-choice",
+      "text": "Warum soll man Handy und Computer vor dem Schlafen meiden?",
       "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Selbst kochen ist gesünder.",
-      "explanationDetail": "Im Text steht: 'Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.' Selbst kochen gibt mehr Kontrolle über Zutaten (ingredients) und ist gesünder.",
-      "tags": [
-        "reading",
-        "article",
-        "main-idea"
-      ]
+      "options": [
+        { "id": "a", "text": "Weil sie zu schwer sind." },
+        { "id": "b", "text": "Das blaue Licht stört den Schlaf." },
+        { "id": "c", "text": "Weil man dann zu viel schläft." },
+        { "id": "d", "text": "Es steht nicht im Text." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Das blaue Licht stört den Schlaf.",
+      "explanationDetail": "Der Text erklärt: „Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q7",
       "type": "multiple-choice",
-      "text": "Wie viele Stunden Schlaf brauchen Erwachsene?",
+      "text": "Was rät der Artikel bei Stress?",
       "passageId": "article-healthy-lifestyle",
       "options": [
-        {
-          "id": "a",
-          "text": "5-6 Stunden"
-        },
-        {
-          "id": "b",
-          "text": "7-8 Stunden"
-        },
-        {
-          "id": "c",
-          "text": "9-10 Stunden"
-        },
-        {
-          "id": "d",
-          "text": "10-12 Stunden"
-        }
+        { "id": "a", "text": "Nur arbeiten" },
+        { "id": "b", "text": "Zeit für Hobbys und Entspannung; Meditation, Yoga, Buch; mit Freunden über Probleme sprechen" },
+        { "id": "c", "text": "Stress ignorieren" },
+        { "id": "d", "text": "Nie Pause machen" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Erwachsene brauchen etwa 7-8 Stunden.",
-      "explanationDetail": "Im Text steht: 'Erwachsene brauchen etwa 7-8 Stunden Schlaf pro Nacht.' Das ist die empfohlene Schlafdauer (recommended sleep duration) für gesunde Erwachsene.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "explanation": "Stress macht krank; Hobbys, Entspannung, soziale Kontakte helfen.",
+      "explanationDetail": "„Stress reduzieren“: „Finden Sie Zeit für Hobbys und Entspannung. Meditation, Yoga oder einfach ein gutes Buch können helfen. Sprechen Sie mit Freunden über Ihre Probleme. Soziale Kontakte sind wichtig für die mentale Gesundheit.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q8",
-      "type": "true-false",
-      "text": "Man soll Handy und Computer vor dem Schlafen benutzen.",
+      "type": "multiple-choice",
+      "text": "Wie oft empfiehlt der Artikel einen Arzt-Check-up?",
       "passageId": "article-healthy-lifestyle",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man soll sie vermeiden.",
-      "explanationDetail": "Im Text steht: 'Vermeiden Sie Handy und Computer eine Stunde vor dem Schlafen. Das blaue Licht stört den Schlaf.' Bildschirme (screens) vor dem Schlafen sind schlecht für die Schlafqualität.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
+      "options": [
+        { "id": "a", "text": "Nie" },
+        { "id": "b", "text": "Einmal pro Jahr" },
+        { "id": "c", "text": "Jeden Monat" },
+        { "id": "d", "text": "Nur bei Krankheit" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.",
+      "explanationDetail": "Unter „Regelmäßige Arztbesuche“: „Gehen Sie einmal pro Jahr zum Arzt für einen Check-up. Früherkennung ist wichtig.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q9",
       "type": "multiple-choice",
-      "text": "Was kann helfen, Stress zu reduzieren?",
+      "text": "Wer hat den Artikel geschrieben?",
       "passageId": "article-healthy-lifestyle",
       "options": [
-        {
-          "id": "a",
-          "text": "Mehr arbeiten"
-        },
-        {
-          "id": "b",
-          "text": "Meditation, Yoga oder ein gutes Buch"
-        },
-        {
-          "id": "c",
-          "text": "Weniger schlafen"
-        },
-        {
-          "id": "d",
-          "text": "Fast Food essen"
-        }
+        { "id": "a", "text": "Ein Lehrer" },
+        { "id": "b", "text": "Dr. Michael Weber" },
+        { "id": "c", "text": "Ein Koch" },
+        { "id": "d", "text": "Ein Sportler" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Meditation, Yoga oder ein gutes Buch können helfen.",
-      "explanationDetail": "Im Text steht: 'Meditation, Yoga oder einfach ein gutes Buch können helfen.' Das sind Entspannungsmethoden (relaxation methods), die Stress reduzieren. Zeit für Hobbys ist wichtig.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "explanation": "Von: Dr. Michael Weber.",
+      "explanationDetail": "Am Anfang steht „Von: Dr. Michael Weber“. Er gibt Tipps zu Bewegung, Ernährung, Schlaf und Gesundheit – typisch für einen Arzt.",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q10",
       "type": "multiple-choice",
-      "text": "Wie oft soll man zum Arzt gehen?",
+      "text": "Warum ist „Früherkennung“ im Artikel wichtig?",
       "passageId": "article-healthy-lifestyle",
       "options": [
-        {
-          "id": "a",
-          "text": "Jeden Monat"
-        },
-        {
-          "id": "b",
-          "text": "Einmal pro Jahr"
-        },
-        {
-          "id": "c",
-          "text": "Alle zwei Jahre"
-        },
-        {
-          "id": "d",
-          "text": "Nur wenn man krank ist"
-        }
+        { "id": "a", "text": "Weil man dann nicht zum Arzt muss." },
+        { "id": "b", "text": "Viele Krankheiten kann man besser behandeln, wenn man sie früh entdeckt." },
+        { "id": "c", "text": "Weil es billiger ist." },
+        { "id": "d", "text": "Es wird nicht erklärt." }
       ],
       "correctAnswerId": "b",
-      "explanation": "Einmal pro Jahr für einen Check-up.",
-      "explanationDetail": "Im Text steht: 'Gehen Sie einmal pro Jahr zum Arzt für einen Check-up.' Regelmäßige Vorsorgeuntersuchungen (preventive check-ups) sind wichtig für Früherkennung (early detection) von Krankheiten.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "explanation": "Viele Krankheiten kann man besser behandeln, wenn man sie früh entdeckt.",
+      "explanationDetail": "Der Text sagt: „Früherkennung ist wichtig. Viele Krankheiten kann man besser behandeln, wenn man sie früh entdeckt.“ Das ist der Grund für den jährlichen Check-up.",
+      "tags": ["reading", "inference"]
     },
     {
+      "id": "q11",
       "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes?",
+      "text": "Was sagt der Artikel zum Kochen?",
       "passageId": "article-healthy-lifestyle",
       "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
+        { "id": "a", "text": "Niemals selbst kochen." },
+        { "id": "b", "text": "Kochen Sie selbst, wenn möglich – das ist gesünder und oft günstiger als Essen bestellen." },
+        { "id": "c", "text": "Nur bestellen." },
+        { "id": "d", "text": "Kochen ist ungesund." }
       ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q11"
+      "correctAnswerId": "b",
+      "explanation": "Selbst kochen ist gesünder und oft günstiger als bestellen.",
+      "explanationDetail": "Unter „Gesunde Ernährung“: „Kochen Sie selbst, wenn möglich. Das ist gesünder und oft auch günstiger als Essen bestellen.“",
+      "tags": ["reading", "details"]
     },
     {
+      "id": "q12",
       "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin?",
+      "text": "Warum erwähnt der Artikel „soziale Kontakte“?",
       "passageId": "article-healthy-lifestyle",
       "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q12"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text?",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q13"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden?",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q14"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen?",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q15"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten?",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q16"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz?",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q17"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun?",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q18"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt?",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q19"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes?",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q20"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes? (11)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q21"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin? (12)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q22"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text? (13)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q23"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden? (14)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q24"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen? (15)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q25"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten? (16)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q26"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz? (17)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q27"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun? (18)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q28"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt? (19)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q29"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes? (20)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q30"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes? (21)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q31"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin? (22)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q32"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text? (23)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q33"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden? (24)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q34"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen? (25)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q35"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten? (26)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q36"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz? (27)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q37"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun? (28)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q38"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt? (29)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q39"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes? (30)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q40"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes? (31)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q41"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin? (32)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q42"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text? (33)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q43"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden? (34)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q44"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen? (35)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q45"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten? (36)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q46"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz? (37)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q47"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun? (38)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q48"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt? (39)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q49"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes? (40)",
-      "passageId": "article-healthy-lifestyle",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q50"
+        { "id": "a", "text": "Weil man nie mit anderen sprechen soll." },
+        { "id": "b", "text": "Sie sind wichtig für die mentale Gesundheit – z.B. mit Freunden über Probleme sprechen." },
+        { "id": "c", "text": "Nur für Sport." },
+        { "id": "d", "text": "Sie sind unwichtig." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Soziale Kontakte sind wichtig für die mentale Gesundheit.",
+      "explanationDetail": "Beim Thema Stress steht: „Sprechen Sie mit Freunden über Ihre Probleme. Soziale Kontakte sind wichtig für die mentale Gesundheit.“ Der Artikel verbindet Stressreduktion mit Beziehungen.",
+      "tags": ["reading", "inference"]
     }
   ]
 }

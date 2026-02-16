@@ -9,1490 +9,178 @@
     {
       "id": "q1",
       "type": "multiple-choice",
-      "text": "Wer hat den Artikel geschrieben?",
+      "text": "Für wen ist der Artikel geschrieben?",
       "passageId": "article-german-learning-tips",
       "options": [
-        {
-          "id": "a",
-          "text": "Ein Student"
-        },
-        {
-          "id": "b",
-          "text": "Eine Sprachlehrerin"
-        },
-        {
-          "id": "c",
-          "text": "Ein Journalist"
-        },
-        {
-          "id": "d",
-          "text": "Ein Arzt"
-        }
+        { "id": "a", "text": "Nur für Fortgeschrittene" },
+        { "id": "b", "text": "Für Anfänger, die Deutsch lernen wollen" },
+        { "id": "c", "text": "Für Lehrer" },
+        { "id": "d", "text": "Für Muttersprachler" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Lisa Hoffmann, eine Sprachlehrerin, hat den Artikel geschrieben.",
-      "explanationDetail": "Im Text steht: 'Von: Lisa Hoffmann, Sprachlehrerin'. Sie ist Sprachlehrerin (language teacher) und gibt Tipps für Deutschlernende.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "explanation": "Der Artikel bietet Tipps für Anfänger.",
+      "explanationDetail": "Der Titel lautet „Deutsch lernen: Tipps für Anfänger“ und der Text spricht „Viele Menschen, die Deutsch lernen möchten“ an. Die Tipps richten sich an Lernende, nicht an Lehrer oder Muttersprachler.",
+      "tags": ["reading", "main-idea"]
     },
     {
       "id": "q2",
       "type": "multiple-choice",
-      "text": "Was ist besser laut dem Artikel?",
+      "text": "Was ist laut Tipp 1 besser?",
       "passageId": "article-german-learning-tips",
       "options": [
-        {
-          "id": "a",
-          "text": "Einmal pro Woche drei Stunden lernen"
-        },
-        {
-          "id": "b",
-          "text": "Jeden Tag 15 Minuten lernen"
-        },
-        {
-          "id": "c",
-          "text": "Nur am Wochenende lernen"
-        },
-        {
-          "id": "d",
-          "text": "Nur Grammatik lernen"
-        }
+        { "id": "a", "text": "Einmal pro Woche drei Stunden lernen" },
+        { "id": "b", "text": "Jeden Tag 15 Minuten lernen" },
+        { "id": "c", "text": "Nur am Wochenende lernen" },
+        { "id": "d", "text": "Nur Grammatik büffeln" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Jeden Tag 15 Minuten ist besser.",
-      "explanationDetail": "Im Text steht: 'Es ist besser, jeden Tag 15 Minuten zu lernen, als einmal pro Woche drei Stunden.' Regelmäßiges (regular) Lernen ist effektiver als lange, seltene Lerneinheiten.",
-      "tags": [
-        "reading",
-        "article",
-        "main-idea"
-      ]
+      "explanation": "Regelmäßiges, kurzes Lernen ist besser als lange Sitzungen selten.",
+      "explanationDetail": "Im Text steht: „Es ist besser, jeden Tag 15 Minuten zu lernen, als einmal pro Woche drei Stunden. Regelmäßiges Lernen ist der Schlüssel zum Erfolg.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q3",
-      "type": "true-false",
-      "text": "Am Anfang sollte man deutsche Filme ohne Untertitel schauen.",
+      "type": "multiple-choice",
+      "text": "Was empfiehlt der Artikel zum Hören?",
       "passageId": "article-german-learning-tips",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Man sollte Filme MIT Untertiteln schauen.",
-      "explanationDetail": "Im Text steht: 'schauen Sie deutsche Filme mit Untertiteln'. Untertitel (subtitles) helfen Anfängern, besser zu verstehen. Ohne Untertitel ist es am Anfang zu schwierig.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
+      "options": [
+        { "id": "a", "text": "Nur Nachrichten ohne Untertitel" },
+        { "id": "b", "text": "Deutsche Musik, Podcasts oder Filme mit Untertiteln; auch Kinderbücher und einfache Nachrichten" },
+        { "id": "c", "text": "Nur Hörbücher" },
+        { "id": "d", "text": "Gar nicht hören, nur lesen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Der Text nennt Musik, Podcasts, Filme mit Untertiteln, Kinderbücher und einfache Nachrichten.",
+      "explanationDetail": "Tipp 2: „Hören Sie deutsche Musik, Podcasts oder schauen Sie deutsche Filme mit Untertiteln. … Besonders hilfreich sind Kinderbücher und einfache Nachrichten.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q4",
       "type": "multiple-choice",
-      "text": "Was soll man laut Tipp 2 machen?",
+      "text": "Warum sagt der Artikel „Sprechen Sie ohne Angst“?",
       "passageId": "article-german-learning-tips",
       "options": [
-        {
-          "id": "a",
-          "text": "Nur Grammatik lernen"
-        },
-        {
-          "id": "b",
-          "text": "Deutsche Musik hören und Filme schauen"
-        },
-        {
-          "id": "c",
-          "text": "Nur Vokabeln lernen"
-        },
-        {
-          "id": "d",
-          "text": "Nicht sprechen"
-        }
+        { "id": "a", "text": "Weil Fehler verboten sind" },
+        { "id": "b", "text": "Weil Fehler normal und wichtig sind – viele haben Angst davor" },
+        { "id": "c", "text": "Weil man nur schreiben soll" },
+        { "id": "d", "text": "Weil Deutsche kein Deutsch mögen" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Man soll deutsche Musik hören und Filme schauen.",
-      "explanationDetail": "Tipp 2 sagt: 'Hören Sie deutsche Musik, Podcasts oder schauen Sie deutsche Filme'. Das Ohr gewöhnt sich an die Sprache (your ear gets used to the language) durch Hören.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "explanation": "Fehler sind normal und wichtig; viele haben Angst, Fehler zu machen.",
+      "explanationDetail": "Der Text sagt: „Viele Lernende haben Angst, Fehler zu machen. Aber Fehler sind normal und wichtig!“ und empfiehlt Tandem oder Sprachcafé. Die Botschaft ist: Sprechen trotz Angst vor Fehlern.",
+      "tags": ["reading", "inference"]
     },
     {
       "id": "q5",
-      "type": "true-false",
-      "text": "Fehler beim Sprechen sind normal und wichtig.",
+      "type": "multiple-choice",
+      "text": "Was rät der Artikel zur Grammatik?",
       "passageId": "article-german-learning-tips",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Fehler sind normal und wichtig.",
-      "explanationDetail": "Im Text steht: 'Aber Fehler sind normal und wichtig!' Man soll keine Angst haben, Fehler zu machen (make mistakes). Fehler helfen beim Lernen.",
-      "tags": [
-        "reading",
-        "article",
-        "main-idea"
-      ]
+      "options": [
+        { "id": "a", "text": "Grammatik ist unwichtig." },
+        { "id": "b", "text": "Zuerst nur Grammatik lernen." },
+        { "id": "c", "text": "Grammatik ist wichtig, aber zuerst auf Kommunikation konzentrieren." },
+        { "id": "d", "text": "Grammatik erst nach 5 Jahren lernen." }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Grammatik ist wichtig, aber nicht alles – zuerst Kommunikation.",
+      "explanationDetail": "Tipp 4: „Grammatik ist wichtig, aber nicht alles. … Konzentrieren Sie sich zuerst auf die Kommunikation. … Die Grammatik kommt mit der Zeit.“",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q6",
       "type": "multiple-choice",
-      "text": "Was wird in Tipp 3 empfohlen?",
+      "text": "Was bedeutet „Haben Sie Geduld“ in diesem Artikel?",
       "passageId": "article-german-learning-tips",
       "options": [
-        {
-          "id": "a",
-          "text": "Nicht sprechen, nur schreiben"
-        },
-        {
-          "id": "b",
-          "text": "Einen Tandempartner suchen oder ein Sprachcafé besuchen"
-        },
-        {
-          "id": "c",
-          "text": "Nur alleine lernen"
-        },
-        {
-          "id": "d",
-          "text": "Nur Grammatik üben"
-        }
+        { "id": "a", "text": "Man soll nie lernen." },
+        { "id": "b", "text": "Eine Sprache zu lernen dauert – man soll kleine Erfolge feiern und nicht sofort alles erwarten." },
+        { "id": "c", "text": "Nur geduldig warten, ohne zu üben." },
+        { "id": "d", "text": "Nach einer Woche aufgeben." }
       ],
       "correctAnswerId": "b",
-      "explanation": "Man soll einen Tandempartner suchen oder ein Sprachcafé besuchen.",
-      "explanationDetail": "Im Text steht: 'Suchen Sie einen Tandempartner oder besuchen Sie ein Sprachcafé.' Das sind gute Möglichkeiten, Deutsch zu sprechen und Fehler zu machen ohne Angst.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "explanation": "Lernen dauert; kleine Erfolge feiern, nicht frustriert sein.",
+      "explanationDetail": "Tipp 5: „Eine Sprache zu lernen dauert Zeit. Seien Sie nicht frustriert … Feiern Sie kleine Erfolge: das erste Gespräch auf Deutsch, der erste Film ohne Untertitel …“ Geduld heißt hier: Zeit geben und Fortschritte anerkennen.",
+      "tags": ["reading", "inference"]
     },
     {
       "id": "q7",
-      "type": "true-false",
-      "text": "Grammatik ist wichtiger als Kommunikation.",
+      "type": "multiple-choice",
+      "text": "Wer hat den Artikel geschrieben?",
       "passageId": "article-german-learning-tips",
-      "correctAnswerId": "false",
-      "explanation": "Falsch. Kommunikation ist zuerst wichtiger.",
-      "explanationDetail": "Im Text steht: 'Grammatik ist wichtig, aber nicht alles' und 'konzentrieren Sie sich zuerst auf die Kommunikation'. Grammatik kommt mit der Zeit (comes with time), aber Kommunikation ist am Anfang wichtiger.",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
+      "options": [
+        { "id": "a", "text": "Ein Student" },
+        { "id": "b", "text": "Lisa Hoffmann, Sprachlehrerin" },
+        { "id": "c", "text": "Ein Journalist" },
+        { "id": "d", "text": "Ein Prüfer" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Von: Lisa Hoffmann, Sprachlehrerin.",
+      "explanationDetail": "Am Anfang steht „Von: Lisa Hoffmann, Sprachlehrerin“. Sie gibt als Expertin Tipps für Deutschlernende.",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q8",
       "type": "multiple-choice",
-      "text": "Was soll man laut Tipp 4 zuerst lernen?",
+      "text": "Was empfiehlt der Artikel für die Vokabelwiederholung?",
       "passageId": "article-german-learning-tips",
       "options": [
-        {
-          "id": "a",
-          "text": "Alle Grammatikregeln"
-        },
-        {
-          "id": "b",
-          "text": "Die wichtigsten Verben und Sätze"
-        },
-        {
-          "id": "c",
-          "text": "Nur schwierige Wörter"
-        },
-        {
-          "id": "d",
-          "text": "Nur schreiben"
-        }
+        { "id": "a", "text": "Nur abends vor dem Schlafen" },
+        { "id": "b", "text": "Zum Beispiel jeden Morgen beim Frühstück" },
+        { "id": "c", "text": "Nie wiederholen" },
+        { "id": "d", "text": "Nur in der Schule" }
       ],
       "correctAnswerId": "b",
-      "explanation": "Man soll die wichtigsten Verben und Sätze lernen.",
-      "explanationDetail": "Im Text steht: 'Lernen Sie die wichtigsten Verben und Sätze.' Das ist wichtiger am Anfang als komplizierte Grammatik. Die Basis (basics) kommt zuerst.",
-      "tags": [
-        "reading",
-        "article",
-        "details"
-      ]
+      "explanation": "Versuchen Sie, jeden Morgen beim Frühstück neue Vokabeln zu wiederholen.",
+      "explanationDetail": "Im ersten Tipp steht: „Versuchen Sie, jeden Morgen beim Frühstück neue Vokabeln zu wiederholen.“ Das verbindet Regelmäßigkeit mit einer konkreten Alltagssituation.",
+      "tags": ["reading", "details"]
     },
     {
       "id": "q9",
       "type": "multiple-choice",
-      "text": "Was bedeutet 'Haben Sie Geduld'?",
+      "text": "Warum sind Tandempartner und Sprachcafé hilfreich?",
       "passageId": "article-german-learning-tips",
       "options": [
-        {
-          "id": "a",
-          "text": "Lernen Sie schnell"
-        },
-        {
-          "id": "b",
-          "text": "Seien Sie nicht frustriert"
-        },
-        {
-          "id": "c",
-          "text": "Lernen Sie nicht"
-        },
-        {
-          "id": "d",
-          "text": "Sprechen Sie nicht"
-        }
+        { "id": "a", "text": "Dort muss man nicht sprechen." },
+        { "id": "b", "text": "Man kann dort Deutsch sprechen üben; die meisten Deutschen freuen sich über Versuche, Deutsch zu sprechen." },
+        { "id": "c", "text": "Dort gibt es nur Grammatik." },
+        { "id": "d", "text": "Dort lernt man nur schreiben." }
       ],
       "correctAnswerId": "b",
-      "explanation": "Es bedeutet: Seien Sie nicht frustriert.",
-      "explanationDetail": "Im Text steht: 'Seien Sie nicht frustriert, wenn Sie nicht sofort alles verstehen.' Geduld haben (to have patience) bedeutet, dass man Zeit braucht und nicht aufgeben soll (shouldn't give up).",
-      "tags": [
-        "reading",
-        "article",
-        "inference"
-      ]
+      "explanation": "Sie bieten Gelegenheit zum Sprechen; viele Deutsche reagieren positiv.",
+      "explanationDetail": "Der Text empfiehlt Tandempartner oder Sprachcafé und sagt: „Die meisten Deutschen freuen sich, wenn Sie Deutsch sprechen, auch wenn es nicht perfekt ist.“ Es geht um Sprechpraxis und positive Reaktionen.",
+      "tags": ["reading", "inference"]
     },
     {
       "id": "q10",
-      "type": "true-false",
-      "text": "Man soll kleine Erfolge feiern.",
-      "passageId": "article-german-learning-tips",
-      "correctAnswerId": "true",
-      "explanation": "Richtig. Man soll kleine Erfolge feiern.",
-      "explanationDetail": "Im Text steht: 'Feiern Sie kleine Erfolge: das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch.' Kleine Erfolge (small successes) sind wichtig für die Motivation.",
-      "tags": [
-        "reading",
-        "article",
-        "main-idea"
-      ]
-    },
-    {
       "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes?",
+      "text": "Welche „kleinen Erfolge“ nennt der Artikel?",
       "passageId": "article-german-learning-tips",
       "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
+        { "id": "a", "text": "Nur Prüfungen bestehen" },
+        { "id": "b", "text": "Das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch" },
+        { "id": "c", "text": "Perfekt schreiben" },
+        { "id": "d", "text": "Alle Vokabeln können" }
       ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q11"
+      "correctAnswerId": "b",
+      "explanation": "Erstes Gespräch, erster Film ohne Untertitel, erstes Buch.",
+      "explanationDetail": "Im letzten Tipp steht: „Feiern Sie kleine Erfolge: das erste Gespräch auf Deutsch, der erste Film ohne Untertitel, das erste Buch.“ Das sind konkrete Meilensteine.",
+      "tags": ["reading", "details"]
     },
     {
+      "id": "q11",
       "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin?",
+      "text": "Was will der Artikel insgesamt vermitteln?",
       "passageId": "article-german-learning-tips",
       "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q12"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text?",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q13"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden?",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q14"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen?",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q15"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten?",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q16"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz?",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q17"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun?",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q18"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt?",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q19"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes?",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q20"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes? (11)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q21"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin? (12)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q22"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text? (13)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q23"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden? (14)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q24"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen? (15)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q25"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten? (16)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q26"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz? (17)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q27"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun? (18)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q28"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt? (19)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q29"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes? (20)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q30"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes? (21)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q31"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin? (22)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q32"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text? (23)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q33"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden? (24)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q34"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen? (25)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q35"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten? (26)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q36"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz? (27)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q37"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun? (28)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q38"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt? (29)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q39"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes? (30)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q40"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist das Hauptthema des Textes? (31)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Einladung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Absage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Beschwerde"
-        },
-        {
-          "id": "d",
-          "text": "Eine Bestellung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q41"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wer ist der Absender bzw. die Absenderin? (32)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Firma"
-        },
-        {
-          "id": "b",
-          "text": "Eine Behörde"
-        },
-        {
-          "id": "c",
-          "text": "Eine Privatperson"
-        },
-        {
-          "id": "d",
-          "text": "Eine Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q42"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "An wen richtet sich der Text? (33)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "An Bewerber"
-        },
-        {
-          "id": "b",
-          "text": "An Kunden"
-        },
-        {
-          "id": "c",
-          "text": "An Mitarbeiter"
-        },
-        {
-          "id": "d",
-          "text": "An Studenten"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q43"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wann soll etwas stattfinden? (34)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Nächste Woche"
-        },
-        {
-          "id": "b",
-          "text": "Letzten Monat"
-        },
-        {
-          "id": "c",
-          "text": "In einem Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Gestern"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q44"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Wo wird der Leser gebeten hinzugehen? (35)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ins Büro"
-        },
-        {
-          "id": "b",
-          "text": "Zur Post"
-        },
-        {
-          "id": "c",
-          "text": "Nach Hause"
-        },
-        {
-          "id": "d",
-          "text": "In die Schule"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q45"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was wird im Text angeboten? (36)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Hilfe"
-        },
-        {
-          "id": "b",
-          "text": "Information"
-        },
-        {
-          "id": "c",
-          "text": "Eine Stelle"
-        },
-        {
-          "id": "d",
-          "text": "Einen Kurs"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q46"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welche Information steht im ersten Absatz? (37)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Begrüßung"
-        },
-        {
-          "id": "b",
-          "text": "Eine Frage"
-        },
-        {
-          "id": "c",
-          "text": "Eine Bitte"
-        },
-        {
-          "id": "d",
-          "text": "Eine Erklärung"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q47"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was muss der Leser tun? (38)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Anrufen"
-        },
-        {
-          "id": "b",
-          "text": "Schreiben"
-        },
-        {
-          "id": "c",
-          "text": "Warten"
-        },
-        {
-          "id": "d",
-          "text": "Bezahlen"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q48"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Welcher Zeitraum wird genannt? (39)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Eine Woche"
-        },
-        {
-          "id": "b",
-          "text": "Ein Monat"
-        },
-        {
-          "id": "c",
-          "text": "Ein Jahr"
-        },
-        {
-          "id": "d",
-          "text": "Ein Tag"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q49"
-    },
-    {
-      "type": "multiple-choice",
-      "text": "Was ist die Absicht des Textes? (40)",
-      "passageId": "article-german-learning-tips",
-      "options": [
-        {
-          "id": "a",
-          "text": "Informieren"
-        },
-        {
-          "id": "b",
-          "text": "Überzeugen"
-        },
-        {
-          "id": "c",
-          "text": "Entschuldigen"
-        },
-        {
-          "id": "d",
-          "text": "Danken"
-        }
-      ],
-      "correctAnswerId": "a",
-      "explanation": "Lies den Text aufmerksam.",
-      "explanationDetail": "Die richtige Antwort findest du im Text. Achte auf Schlüsselwörter und Details.",
-      "tags": [
-        "reading",
-        "comprehension"
-      ],
-      "id": "q50"
+        { "id": "a", "text": "Deutsch ist unmöglich zu lernen." },
+        { "id": "b", "text": "Mit praktischen Tipps (regelmäßig, hören, sprechen, Geduld) kann man Deutsch gut lernen." },
+        { "id": "c", "text": "Nur mit teuren Kursen." },
+        { "id": "d", "text": "Nur allein lernen." }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Praktische, umsetzbare Tipps für erfolgreiches Lernen.",
+      "explanationDetail": "Der Artikel gibt fünf konkrete Tipps (regelmäßig, hören, sprechen, Grammatik/Kommunikation, Geduld) und endet mit „Viel Erfolg beim Deutschlernen!“. Die Botschaft ist: Mit diesen Schritten ist Deutschlernen machbar.",
+      "tags": ["reading", "main-idea"]
     }
   ]
 }
