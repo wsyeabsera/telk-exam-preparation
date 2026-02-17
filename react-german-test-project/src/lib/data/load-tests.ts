@@ -1,4 +1,4 @@
-import type { Test } from "@/types/test";
+import type { Test, TestCategory } from "@/types/test";
 import type { Question } from "@/types/question";
 import { getGeneratedTest } from "@/lib/db/operations";
 import metadata from "@/data/metadata.json";
@@ -379,4 +379,12 @@ export function getTestTitle(testId: string): string {
   if (testId.startsWith("ai-test-")) return "AI-generated practice";
   const test = testMap[testId];
   return test?.title ?? testId;
+}
+
+/** Category for a test id. Sync; used for history badges and filters. */
+export function getTestCategory(testId: string): TestCategory {
+  if (getQuickPracticeConfig(testId)) return "practice";
+  if (testId.startsWith("ai-test-")) return "ai-generated";
+  const test = testMap[testId];
+  return (test?.category as TestCategory) ?? "grammar";
 }
