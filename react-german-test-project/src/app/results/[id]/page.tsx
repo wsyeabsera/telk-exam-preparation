@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { getTest, getQuickPracticeConfig, isQuickPracticeTestId } from "@/lib/data/load-tests";
-import { getAttempt, saveAiFeedback, saveOverallAiInsights } from "@/lib/db/operations";
+import { getAttempt, saveAiFeedback, saveOverallAiInsights, saveGeneratedTest } from "@/lib/db/operations";
 import { scoreTest } from "@/lib/test-engine/scorer";
 import { formatTimeTaken } from "@/lib/test-engine/timer";
 import { isWritingPrompt } from "@/types/question";
@@ -35,9 +35,10 @@ export default function ResultsPage() {
   const [loadingFeedback, setLoadingFeedback] = useState<Record<string, boolean>>({});
   const [overallInsights, setOverallInsights] = useState<string | null>(null);
   const [loadingOverallInsights, setLoadingOverallInsights] = useState(false);
+  const [generatingTest, setGeneratingTest] = useState(false);
 
   useEffect(() => {
-    getAttempt(attemptId).then((a) => {
+    getAttempt(attemptId).then(async (a) => {
       if (!a) {
         setLoading(false);
         return;
@@ -46,8 +47,8 @@ export default function ResultsPage() {
       setWritingFeedback(a.aiFeedback ?? {});
       setOverallInsights(a.overallAiInsights ?? null);
       const hasSnapshot = (a.questionSnapshot?.length ?? 0) > 0;
-      const questionsToUse = hasSnapshot ? a.questionSnapshot! : getTest(a.testId)?.questions ?? [];
-      const baseTest = getTest(a.testId);
+      const baseTest = await getTest(a.testId);
+      const questionsToUse = hasSnapshot ? a.questionSnapshot! : baseTest?.questions ?? [];
       const testData: Test | null =
         isQuickPracticeTestId(a.testId) && hasSnapshot
           ? (() => {
@@ -215,6 +216,55 @@ export default function ResultsPage() {
                     </p>
                     <div className="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed [&_strong]:font-semibold [&_p]:mb-2 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5">
                       <ReactMarkdown>{overallInsights}</ReactMarkdown>
+                    </div>
+                    <div className="mt-4 pt-4 border-t border-amber-200 dark:border-amber-700">
+                      <Button
+                        type="button"
+                        variant="outline"
+                        size="sm"
+                        disabled={generatingTest}
+                        onClick={async () => {
+                          if (!test || !result || !overallInsights) return;
+                          setGeneratingTest(true);
+                          try {
+                            const res = await fetch(
+                              "/api/generate-practice-test",
+                              {
+                                method: "POST",
+                                headers: {
+                                  "Content-Type": "application/json",
+                                },
+                                body: JSON.stringify({
+                                  insights: overallInsights,
+                                  testMetadata: {
+                                    originalTestTitle: test.title,
+                                    score: result.score,
+                                  },
+                                  attemptId,
+                                }),
+                              }
+                            );
+                            const data = await res.json();
+                            if (data.testId && data.test) {
+                              await saveGeneratedTest(data.test, attemptId);
+                              window.location.href = `/test/${data.testId}`;
+                            } else if (data.error) {
+                              alert(data.error);
+                            }
+                          } catch (err) {
+                            console.error("Failed to generate test:", err);
+                            alert(
+                              "Failed to generate practice test. Please try again."
+                            );
+                          } finally {
+                            setGeneratingTest(false);
+                          }
+                        }}
+                      >
+                        {generatingTest
+                          ? "Generating…"
+                          : "Generate Practice Test"}
+                      </Button>
                     </div>
                   </div>
                 ) : loadingOverallInsights ? (

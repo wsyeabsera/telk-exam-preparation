@@ -7,7 +7,8 @@ export type TestCategory =
   | "listening-test"
   | "quick-test"
   | "practice-exam"
-  | "practice";
+  | "practice"
+  | "ai-generated";
 
 export interface Test {
   id: string;
@@ -17,6 +18,10 @@ export interface Test {
   questions: Question[];
   category: TestCategory;
   focus?: string;
+  /** attemptId that triggered generation (AI-generated tests only) */
+  generatedFrom?: string;
+  /** ISO timestamp when test was generated (AI-generated tests only) */
+  generatedAt?: string;
 }
 
 export interface TestMetadata {

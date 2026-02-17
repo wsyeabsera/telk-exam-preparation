@@ -1,5 +1,6 @@
 import type { Test } from "@/types/test";
 import type { Question } from "@/types/question";
+import { getGeneratedTest } from "@/lib/db/operations";
 import metadata from "@/data/metadata.json";
 import miniTest01 from "@/data/tests/mini-test-01-dativ.json";
 import miniTest02 from "@/data/tests/mini-test-02-adjectives.json";
@@ -264,8 +265,13 @@ export function getQuickPracticeConfig(testId: string): QuickPracticeEntry | nul
   return quickPracticeConfig.find((e) => e.id === testId) ?? null;
 }
 
-export function getTest(id: string): Test | null {
-  return testMap[id] ?? null;
+export async function getTest(id: string): Promise<Test | null> {
+  const staticTest = testMap[id];
+  if (staticTest) return staticTest;
+  if (id.startsWith("ai-test-")) {
+    return await getGeneratedTest(id);
+  }
+  return null;
 }
 
 /** Returns how many questions to use per attempt, or null to use all questions. */
@@ -275,8 +281,11 @@ export function getQuestionsPerAttempt(testId: string): number | null {
 }
 
 /** Randomly select up to `count` unique questions from a test. Deduplicates by question text so cloned questions are not repeated. */
-export function getTestWithRandomSubset(testId: string, count: number): Question[] {
-  const test = getTest(testId);
+export async function getTestWithRandomSubset(
+  testId: string,
+  count: number
+): Promise<Question[]> {
+  const test = await getTest(testId);
   if (!test) return [];
   const seenText = new Set<string>();
   const unique: Question[] = [];
@@ -363,10 +372,11 @@ export function getSuperShortQuestions(variant: QuickPracticeVariant): Question[
   return picked.map((q, i) => ({ ...q, id: `ss-${i + 1}` }));
 }
 
-/** Display title for a test id (quick-practice or regular test). */
+/** Display title for a test id (quick-practice or regular test). Sync for static/quick; AI-generated ids return a placeholder. */
 export function getTestTitle(testId: string): string {
   const qp = getQuickPracticeConfig(testId);
   if (qp) return qp.title;
-  const test = getTest(testId);
+  if (testId.startsWith("ai-test-")) return "AI-generated practice";
+  const test = testMap[testId];
   return test?.title ?? testId;
 }

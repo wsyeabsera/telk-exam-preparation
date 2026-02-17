@@ -2,6 +2,7 @@ import { db } from "./schema";
 import type { TestAttempt } from "@/types/result";
 import type { ProgressRecord } from "./schema";
 import type { Question } from "@/types/question";
+import type { Test } from "@/types/test";
 
 const DEFAULT_USER_ID = "default";
 
@@ -109,4 +110,31 @@ export async function getProgress(): Promise<ProgressRecord | undefined> {
 export async function getCompletedAttempts(): Promise<TestAttempt[]> {
   const all = await db.attempts.orderBy("startTime").reverse().toArray();
   return all.filter((a) => a.completed);
+}
+
+export async function saveGeneratedTest(
+  test: Test,
+  generatedFrom: string
+): Promise<string> {
+  const id = test.id;
+  await db.generatedTests.put({
+    id,
+    test,
+    generatedFrom,
+    generatedAt: Date.now(),
+  });
+  return id;
+}
+
+export async function getGeneratedTest(id: string): Promise<Test | null> {
+  const record = await db.generatedTests.get(id);
+  return record?.test ?? null;
+}
+
+export async function getAllGeneratedTests(): Promise<Test[]> {
+  const records = await db.generatedTests
+    .orderBy("generatedAt")
+    .reverse()
+    .toArray();
+  return records.map((r) => r.test);
 }

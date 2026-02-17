@@ -79,20 +79,33 @@ export default function TestPage() {
       setLoading(false);
       return;
     }
-    const testData = getTest(testId);
-    if (!testData) {
-      setError("Test not found");
-      setLoading(false);
-      return;
-    }
-    const questionsPerAttempt = getQuestionsPerAttempt(testId);
-    const questionsToUse =
-      questionsPerAttempt != null
-        ? getTestWithRandomSubset(testId, questionsPerAttempt)
-        : testData.questions;
-    setTest({ ...testData, questions: questionsToUse });
-    setQuestions(shuffleTest(questionsToUse));
-    setLoading(false);
+    let cancelled = false;
+    getTest(testId).then((testData) => {
+      if (cancelled) return;
+      if (!testData) {
+        setError("Test not found");
+        setLoading(false);
+        return;
+      }
+      const questionsPerAttempt = getQuestionsPerAttempt(testId);
+      if (questionsPerAttempt != null) {
+        getTestWithRandomSubset(testId, questionsPerAttempt).then(
+          (questionsToUse) => {
+            if (cancelled) return;
+            setTest({ ...testData, questions: questionsToUse });
+            setQuestions(shuffleTest(questionsToUse));
+            setLoading(false);
+          }
+        );
+      } else {
+        setTest({ ...testData, questions: testData.questions });
+        setQuestions(shuffleTest(testData.questions));
+        setLoading(false);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
   }, [testId]);
 
   useEffect(() => {

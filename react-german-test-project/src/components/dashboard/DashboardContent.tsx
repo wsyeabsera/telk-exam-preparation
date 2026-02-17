@@ -1,10 +1,12 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/Tabs";
 import { SearchBar } from "@/components/dashboard/SearchBar";
 import { TestCard } from "@/components/dashboard/TestCard";
 import type { QuickPracticeEntry } from "@/lib/data/load-tests";
+import { getAllGeneratedTests } from "@/lib/db/operations";
+import type { Test } from "@/types/test";
 
 const variantToFocus: Record<string, string> = {
   mixed: "Mixed",
@@ -41,8 +43,9 @@ const TAB_GRAMMAR = "grammar";
 const TAB_READING = "reading";
 const TAB_LISTENING = "listening";
 const TAB_WRITING = "writing";
-const TAB_QUICK_TEST = "quick-test";
 const TAB_PRACTICE_EXAM = "practice-exam";
+const TAB_QUICK_TEST = "quick-test";
+const TAB_AI_GENERATED = "ai-generated";
 
 function normalizeForSearch(s: string): string {
   return s.toLowerCase().trim();
@@ -70,6 +73,11 @@ export function DashboardContent({
 }: DashboardContentProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeTab, setActiveTab] = useState(TAB_QUICK_PRACTICE);
+  const [aiGeneratedTests, setAiGeneratedTests] = useState<Test[]>([]);
+
+  useEffect(() => {
+    getAllGeneratedTests().then(setAiGeneratedTests);
+  }, []);
 
   const quickPracticeGeneral = useMemo(
     () =>
@@ -112,6 +120,15 @@ export function DashboardContent({
   );
 
   const searchResults = useMemo(() => {
+    const allTests = [...tests, ...aiGeneratedTests.map((t) => ({
+      id: t.id,
+      title: t.title,
+      description: t.description,
+      duration: t.duration,
+      questionCount: t.questions.length,
+      category: t.category,
+      focus: t.focus,
+    }))];
     if (!searchQuery.trim()) return null;
     const q = searchQuery.trim();
     const results: Array<{
@@ -141,7 +158,7 @@ export function DashboardContent({
         });
       }
     }
-    for (const t of tests) {
+    for (const t of allTests) {
       if (matchesSearch(q, t.title, t.description, t.focus)) {
         results.push({
           key: t.id,
@@ -162,7 +179,7 @@ export function DashboardContent({
       }
     }
     return results;
-  }, [searchQuery, quickPracticeConfig, tests]);
+  }, [searchQuery, quickPracticeConfig, tests, aiGeneratedTests]);
 
   const isSearchActive = searchQuery.trim().length > 0;
 
@@ -196,6 +213,7 @@ export function DashboardContent({
             <TabsTrigger value={TAB_WRITING}>Writing</TabsTrigger>
             <TabsTrigger value={TAB_PRACTICE_EXAM}>Practice Exams</TabsTrigger>
             <TabsTrigger value={TAB_QUICK_TEST}>Quick Tests</TabsTrigger>
+            <TabsTrigger value={TAB_AI_GENERATED}>AI-Generated</TabsTrigger>
           </TabsList>
 
           <TabsContent value={TAB_QUICK_PRACTICE}>
@@ -343,6 +361,31 @@ export function DashboardContent({
                 />
               ))}
             </div>
+          </TabsContent>
+
+          <TabsContent value={TAB_AI_GENERATED}>
+            {aiGeneratedTests.length > 0 ? (
+              <div className="grid gap-4 sm:grid-cols-2">
+                {aiGeneratedTests.map((t) => (
+                  <TestCard
+                    key={t.id}
+                    id={t.id}
+                    title={t.title}
+                    description={t.description}
+                    duration={t.duration}
+                    questionCount={t.questions.length}
+                    focus={t.focus}
+                    category="ai-generated"
+                    showCategory
+                  />
+                ))}
+              </div>
+            ) : (
+              <p className="text-zinc-500 dark:text-zinc-400 py-8 text-center">
+                No AI-generated tests yet. Complete a test, get AI insights, then
+                use &quot;Generate Practice Test&quot; on the results page.
+              </p>
+            )}
           </TabsContent>
         </Tabs>
       )}
