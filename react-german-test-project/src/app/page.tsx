@@ -23,6 +23,12 @@ export default function HomePage() {
             <nav className="flex gap-4 text-sm font-medium">
               <span className="text-amber-600 dark:text-amber-400">Tests</span>
               <Link
+                href="/flashcards"
+                className="text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100"
+              >
+                Flashcards
+              </Link>
+              <Link
                 href="/history"
                 className="text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100"
               >

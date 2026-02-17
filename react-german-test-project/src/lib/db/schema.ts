@@ -30,11 +30,28 @@ export interface SrsCard {
   sourceTestId?: string;
 }
 
+export interface VocabCard {
+  id: string;
+  word: string;
+  translation: string;
+  exampleSentence: string;
+  tags: string[];
+  sourceQuestionId?: string;
+  sourceTestId?: string;
+  interval: number;
+  easeFactor: number;
+  repetitions: number;
+  dueAt: number;
+  lastReviewedAt: number;
+  createdAt: number;
+}
+
 export class GermanB1Database extends Dexie {
   attempts!: Table<TestAttempt, string>;
   progress!: Table<ProgressRecord, string>;
   generatedTests!: Table<GeneratedTest, string>;
   srsCards!: Table<SrsCard, string>;
+  vocabCards!: Table<VocabCard, string>;
 
   constructor() {
     super("german-b1-tests");
@@ -52,6 +69,13 @@ export class GermanB1Database extends Dexie {
       progress: "userId",
       generatedTests: "id, generatedFrom, generatedAt",
       srsCards: "globalQuestionId, dueAt, sourceTestId",
+    });
+    this.version(4).stores({
+      attempts: "id, testId, completed, startTime",
+      progress: "userId",
+      generatedTests: "id, generatedFrom, generatedAt",
+      srsCards: "globalQuestionId, dueAt, sourceTestId",
+      vocabCards: "id, dueAt, sourceTestId, *tags",
     });
   }
 }

@@ -15,6 +15,7 @@ import ReactMarkdown from "react-markdown";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { QuestionRenderer } from "@/components/test/QuestionRenderer";
+import { bulkAddVocabCards } from "@/lib/vocab/operations";
 
 export default function ResultsPage() {
   const params = useParams();
@@ -37,6 +38,8 @@ export default function ResultsPage() {
   const [loadingOverallInsights, setLoadingOverallInsights] = useState(false);
   const [generatingTest, setGeneratingTest] = useState(false);
   const [generateTestError, setGenerateTestError] = useState<string | null>(null);
+  const [vocabExtractStatus, setVocabExtractStatus] = useState<"idle" | "extracting" | "done" | "error">("idle");
+  const [vocabExtractedCount, setVocabExtractedCount] = useState(0);
 
   useEffect(() => {
     getAttempt(attemptId).then(async (a) => {
@@ -149,6 +152,61 @@ export default function ResultsPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [expandQuestion, test, result]);
 
+  // Auto-extract vocabulary after AI insights become available
+  useEffect(() => {
+    if (!overallInsights || !test || !result) return;
+    if (vocabExtractStatus !== "idle") return;
+
+    const questions = test.questions ?? [];
+    if (questions.length === 0) return;
+
+    // Combine all question texts into one block for extraction
+    const allText = questions
+      .map((q) => {
+        const text = ("prompt" in q && q.prompt) || q.text || "";
+        return text;
+      })
+      .filter(Boolean)
+      .join("\n\n");
+
+    if (!allText.trim()) return;
+
+    setVocabExtractStatus("extracting");
+
+    fetch("/api/extract-vocabulary", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ questionText: allText }),
+    })
+      .then((res) => res.json())
+      .then(async (data) => {
+        if (data.words && Array.isArray(data.words)) {
+          // Collect all tags from all questions
+          const allTags = new Set<string>();
+          for (const q of questions) {
+            if ("tags" in q && Array.isArray(q.tags)) {
+              for (const t of q.tags as string[]) allTags.add(t);
+            }
+          }
+          const count = await bulkAddVocabCards(
+            data.words.map((w: { word: string; translation: string; exampleSentence: string }) => ({
+              ...w,
+              tags: Array.from(allTags),
+              sourceTestId: test.id,
+            }))
+          );
+          setVocabExtractedCount(count);
+          setVocabExtractStatus("done");
+        } else {
+          setVocabExtractStatus("error");
+        }
+      })
+      .catch(() => {
+        setVocabExtractStatus("error");
+      });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [overallInsights, test, result]);
+
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center p-4">
@@ -231,6 +289,29 @@ export default function ResultsPage() {
                             Try Again
                           </Button>
                         </div>
+                      )}
+                      {vocabExtractStatus === "extracting" && (
+                        <p className="text-sm text-amber-700 dark:text-amber-300">
+                          Extracting vocabulary from questions…
+                        </p>
+                      )}
+                      {vocabExtractStatus === "done" && vocabExtractedCount > 0 && (
+                        <div className="flex items-center justify-between text-sm">
+                          <p className="text-amber-700 dark:text-amber-300">
+                            {vocabExtractedCount} new word{vocabExtractedCount !== 1 ? "s" : ""} added to flashcards
+                          </p>
+                          <Link
+                            href="/flashcards"
+                            className="text-amber-600 dark:text-amber-400 hover:underline font-medium"
+                          >
+                            Review →
+                          </Link>
+                        </div>
+                      )}
+                      {vocabExtractStatus === "done" && vocabExtractedCount === 0 && (
+                        <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                          No new vocabulary to add (words already saved)
+                        </p>
                       )}
                       <Button
                         type="button"
@@ -438,6 +519,7 @@ export default function ResultsPage() {
             <Button>Retake test</Button>
           </Link>
         </div>
+
       </div>
     </div>
   );
