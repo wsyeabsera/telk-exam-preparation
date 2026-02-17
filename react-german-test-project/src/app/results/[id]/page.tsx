@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
-import { getTest, getQuickPracticeConfig, isQuickPracticeTestId } from "@/lib/data/load-tests";
+import { getTest, getQuickPracticeConfig, isQuickPracticeTestId, isDrillTagTestId, getDrillTag } from "@/lib/data/load-tests";
 import { getAttempt, saveAiFeedback, saveOverallAiInsights, saveGeneratedTest } from "@/lib/db/operations";
 import { scoreTest } from "@/lib/test-engine/scorer";
 import { formatTimeTaken } from "@/lib/test-engine/timer";
@@ -54,7 +54,19 @@ export default function ResultsPage() {
       const baseTest = await getTest(a.testId);
       const questionsToUse = hasSnapshot ? a.questionSnapshot! : baseTest?.questions ?? [];
       const testData: Test | null =
-        isQuickPracticeTestId(a.testId) && hasSnapshot
+        isDrillTagTestId(a.testId) && hasSnapshot
+          ? (() => {
+            const tag = getDrillTag(a.testId);
+            return {
+              id: a.testId,
+              title: `Drill: ${tag}`,
+              description: `Practice questions tagged "${tag}"`,
+              category: "practice" as const,
+              focus: tag,
+              questions: a.questionSnapshot!,
+            };
+          })()
+          : isQuickPracticeTestId(a.testId) && hasSnapshot
           ? (() => {
             const config = getQuickPracticeConfig(a.testId);
             return {
