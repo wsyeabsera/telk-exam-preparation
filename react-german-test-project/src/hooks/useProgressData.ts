@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { getAllAttempts } from "@/lib/db/operations";
-import { getMetadata, getTestTitle, getTest } from "@/lib/data/load-tests";
+import { getMetadata, getTestTitle, getTest, getTagQuestionPoolSize } from "@/lib/data/load-tests";
 import { db } from "@/lib/db/schema";
 import type { Question } from "@/types/question";
 import type { TestAttempt } from "@/types/result";
@@ -68,6 +68,8 @@ export interface TopicAccuracy {
   total: number;
   accuracy: number; // 0-100
   strength: "weak" | "medium" | "strong"; // <60, 60-80, >80
+  trend: "improving" | "declining" | "stable";
+  poolSize: number; // available drill questions for this tag
 }
 
 export interface SrsHealth {
@@ -248,7 +250,7 @@ export function useProgressData(): ProgressData {
         .slice(0, 10);
 
       // --- Topic accuracy (question-level analysis) ---
-      const topicAccuracies = await computeTopicAccuracy(completed);
+      const topicAccuracies = await computeTopicAccuracy(sorted);
 
       // --- SRS health ---
       const now = Date.now();
@@ -286,10 +288,13 @@ export function useProgressData(): ProgressData {
 
 // --- Compute helpers ---
 
-async function computeTopicAccuracy(completed: TestAttempt[]): Promise<TopicAccuracy[]> {
+async function computeTopicAccuracy(sorted: TestAttempt[]): Promise<TopicAccuracy[]> {
   const tagStats = new Map<string, { correct: number; total: number }>();
 
-  for (const attempt of completed) {
+  // Per-attempt tag results for trend calculation (in chronological order)
+  const perAttemptTagResults: Map<string, { correct: number; total: number }>[] = [];
+
+  for (const attempt of sorted) {
     let questions: Question[] | undefined = attempt.questionSnapshot;
 
     if (!questions) {
@@ -297,6 +302,8 @@ async function computeTopicAccuracy(completed: TestAttempt[]): Promise<TopicAccu
       if (!test) continue;
       questions = test.questions;
     }
+
+    const attemptTags = new Map<string, { correct: number; total: number }>();
 
     for (const q of questions) {
       const userAnswer = attempt.answers[q.id] ?? "";
@@ -311,19 +318,51 @@ async function computeTopicAccuracy(completed: TestAttempt[]): Promise<TopicAccu
         existing.total++;
         if (correct) existing.correct++;
         tagStats.set(tag, existing);
+
+        const attemptExisting = attemptTags.get(tag) ?? { correct: 0, total: 0 };
+        attemptExisting.total++;
+        if (correct) attemptExisting.correct++;
+        attemptTags.set(tag, attemptExisting);
       }
     }
+
+    perAttemptTagResults.push(attemptTags);
+  }
+
+  // Compute trends: split attempts into first-half and second-half
+  const mid = Math.floor(perAttemptTagResults.length / 2);
+  const firstHalf = perAttemptTagResults.slice(0, mid);
+  const secondHalf = perAttemptTagResults.slice(mid);
+
+  function halfAccuracy(half: typeof perAttemptTagResults, tag: string): { accuracy: number; total: number } {
+    let correct = 0, total = 0;
+    for (const m of half) {
+      const s = m.get(tag);
+      if (s) { correct += s.correct; total += s.total; }
+    }
+    return { accuracy: total > 0 ? (correct / total) * 100 : 0, total };
   }
 
   return Array.from(tagStats.entries())
     .map(([tag, { correct, total }]) => {
       const accuracy = Math.round((correct / total) * 100);
+      const first = halfAccuracy(firstHalf, tag);
+      const second = halfAccuracy(secondHalf, tag);
+      const minQuestions = 4;
+      let trend: "improving" | "declining" | "stable" = "stable";
+      if (first.total >= minQuestions && second.total >= minQuestions) {
+        const delta = second.accuracy - first.accuracy;
+        if (delta > 5) trend = "improving";
+        else if (delta < -5) trend = "declining";
+      }
       return {
         tag,
         correct,
         total,
         accuracy,
         strength: accuracy >= 80 ? "strong" as const : accuracy >= 60 ? "medium" as const : "weak" as const,
+        trend,
+        poolSize: getTagQuestionPoolSize(tag),
       };
     })
     .sort((a, b) => a.accuracy - b.accuracy); // weakest first

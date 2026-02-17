@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import type { TopicAccuracy } from "@/hooks/useProgressData";
 
@@ -19,6 +20,12 @@ const BAR_COLORS = {
   medium: "bg-amber-500",
   strong: "bg-emerald-500",
 };
+
+const TREND_DISPLAY = {
+  improving: { symbol: "\u2191", className: "text-emerald-500", label: "Improving" },
+  declining: { symbol: "\u2193", className: "text-red-500", label: "Declining" },
+  stable: { symbol: "\u2192", className: "text-zinc-400", label: "Stable" },
+} as const;
 
 export function TopicBreakdown({ data }: TopicBreakdownProps) {
   const [showAll, setShowAll] = useState(false);
@@ -57,31 +64,51 @@ export function TopicBreakdown({ data }: TopicBreakdownProps) {
       </CardHeader>
       <CardContent>
         <div className="space-y-3">
-          {visible.map((topic) => (
-            <div key={topic.tag}>
-              <div className="flex items-center justify-between mb-1">
-                <div className="flex items-center gap-2">
-                  <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
-                    {topic.tag}
-                  </span>
-                  <span
-                    className={`text-xs px-1.5 py-0.5 rounded-full font-medium ${STRENGTH_STYLES[topic.strength]}`}
-                  >
-                    {topic.accuracy}%
-                  </span>
+          {visible.map((topic) => {
+            const trend = TREND_DISPLAY[topic.trend];
+            return (
+              <div key={topic.tag}>
+                <div className="flex items-center justify-between mb-1">
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
+                      {topic.tag}
+                    </span>
+                    <span
+                      className={`text-xs px-1.5 py-0.5 rounded-full font-medium ${STRENGTH_STYLES[topic.strength]}`}
+                    >
+                      {topic.accuracy}%
+                    </span>
+                    <span
+                      className={`text-xs font-bold ${trend.className}`}
+                      title={trend.label}
+                    >
+                      {trend.symbol}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs text-zinc-400 dark:text-zinc-500">
+                      {topic.correct}/{topic.total}
+                    </span>
+                    {topic.poolSize > 0 && (
+                      <Link
+                        href={`/test/drill-tag-${encodeURIComponent(topic.tag)}`}
+                        className="text-xs px-2 py-0.5 rounded-full font-medium bg-amber-100 text-amber-700 hover:bg-amber-200 dark:bg-amber-900/30 dark:text-amber-400 dark:hover:bg-amber-900/50 transition-colors"
+                        title={`${topic.poolSize} questions available`}
+                      >
+                        Drill
+                      </Link>
+                    )}
+                  </div>
                 </div>
-                <span className="text-xs text-zinc-400 dark:text-zinc-500">
-                  {topic.correct}/{topic.total}
-                </span>
+                <div className="h-2 bg-zinc-100 dark:bg-zinc-800 rounded-full overflow-hidden">
+                  <div
+                    className={`h-full rounded-full transition-all ${BAR_COLORS[topic.strength]}`}
+                    style={{ width: `${topic.accuracy}%` }}
+                  />
+                </div>
               </div>
-              <div className="h-2 bg-zinc-100 dark:bg-zinc-800 rounded-full overflow-hidden">
-                <div
-                  className={`h-full rounded-full transition-all ${BAR_COLORS[topic.strength]}`}
-                  style={{ width: `${topic.accuracy}%` }}
-                />
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
         {data.length > 10 && (
           <button

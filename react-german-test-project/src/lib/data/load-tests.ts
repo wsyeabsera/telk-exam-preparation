@@ -261,6 +261,52 @@ export function isQuickPracticeTestId(testId: string): boolean {
   return (QUICK_PRACTICE_IDS as readonly string[]).includes(testId);
 }
 
+// --- Drill-tag helpers ---
+
+export function isDrillTagTestId(testId: string): boolean {
+  return testId.startsWith("drill-tag-");
+}
+
+export function getDrillTag(testId: string): string {
+  return decodeURIComponent(testId.slice("drill-tag-".length));
+}
+
+/** Collect questions from all static tests where q.tags includes the given tag (case-insensitive). Dedupes by text, shuffles, takes `count`, remaps IDs. */
+export function getQuestionsByTag(tag: string, count = 10): Question[] {
+  const lowerTag = tag.toLowerCase();
+  const seenText = new Set<string>();
+  const pool: Question[] = [];
+
+  for (const [testId, test] of Object.entries(testMap)) {
+    for (const q of test.questions) {
+      if (!q.tags?.some((t) => t.toLowerCase() === lowerTag)) continue;
+      if (seenText.has(q.text)) continue;
+      seenText.add(q.text);
+      pool.push({ ...q, originalGlobalId: `${testId}-${q.id}` });
+    }
+  }
+
+  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  const picked = shuffled.slice(0, Math.min(count, shuffled.length));
+  return picked.map((q, i) => ({ ...q, id: `ss-${i + 1}` }));
+}
+
+/** Returns the total number of unique questions matching a tag across all static tests. */
+export function getTagQuestionPoolSize(tag: string): number {
+  const lowerTag = tag.toLowerCase();
+  const seenText = new Set<string>();
+
+  for (const test of Object.values(testMap)) {
+    for (const q of test.questions) {
+      if (!q.tags?.some((t) => t.toLowerCase() === lowerTag)) continue;
+      if (seenText.has(q.text)) continue;
+      seenText.add(q.text);
+    }
+  }
+
+  return seenText.size;
+}
+
 export function getQuickPracticeConfig(testId: string): QuickPracticeEntry | null {
   return quickPracticeConfig.find((e) => e.id === testId) ?? null;
 }
@@ -374,6 +420,7 @@ export function getSuperShortQuestions(variant: QuickPracticeVariant): Question[
 
 /** Display title for a test id (quick-practice or regular test). Sync for static/quick; AI-generated ids return a placeholder. */
 export function getTestTitle(testId: string): string {
+  if (isDrillTagTestId(testId)) return `Drill: ${getDrillTag(testId)}`;
   const qp = getQuickPracticeConfig(testId);
   if (qp) return qp.title;
   if (testId.startsWith("ai-test-")) return "AI-generated practice";
@@ -383,6 +430,7 @@ export function getTestTitle(testId: string): string {
 
 /** Category for a test id. Sync; used for history badges and filters. */
 export function getTestCategory(testId: string): TestCategory {
+  if (isDrillTagTestId(testId)) return "practice";
   if (getQuickPracticeConfig(testId)) return "practice";
   if (testId.startsWith("ai-test-")) return "ai-generated";
   const test = testMap[testId];

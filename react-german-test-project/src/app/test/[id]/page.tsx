@@ -10,6 +10,9 @@ import {
   getQuestionsPerAttempt,
   isQuickPracticeTestId,
   getQuickPracticeConfig,
+  isDrillTagTestId,
+  getDrillTag,
+  getQuestionsByTag,
 } from "@/lib/data/load-tests";
 import type { Test } from "@/types/test";
 import type { Question } from "@/types/question";
@@ -41,6 +44,28 @@ export default function TestPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (isDrillTagTestId(testId)) {
+      const tag = getDrillTag(testId);
+      const drillQs = getQuestionsByTag(tag);
+      if (drillQs.length === 0) {
+        setError(`No questions found for "${tag}"`);
+        setLoading(false);
+        return;
+      }
+      const shuffled = shuffleTest(drillQs);
+      setTest({
+        id: testId,
+        title: `Drill: ${tag}`,
+        description: `Practice questions tagged "${tag}"`,
+        duration: 10,
+        category: "practice",
+        focus: tag,
+        questions: shuffled,
+      });
+      setQuestions(shuffled);
+      setLoading(false);
+      return;
+    }
     if (isQuickPracticeTestId(testId)) {
       const config = getQuickPracticeConfig(testId);
       if (!config) {
@@ -135,7 +160,7 @@ export default function TestPage() {
     const { score, questionResults } = scoreTest(questions, answers);
 
     // Build SRS results for non-writing questions
-    const isQuickPractice = isQuickPracticeTestId(testId);
+    const isQuickPractice = isQuickPracticeTestId(testId) || isDrillTagTestId(testId);
     const srsResults: SrsQuestionResult[] = [];
     for (let i = 0; i < questions.length; i++) {
       const q = questions[i];
