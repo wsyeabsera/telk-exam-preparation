@@ -55,7 +55,7 @@ export function TabsList({ children, className }: TabsListProps) {
       id={listId}
       aria-label="Test categories"
       className={cn(
-        "flex flex-wrap gap-1 border-b border-zinc-200 dark:border-zinc-700 mb-4",
+        "flex gap-1 overflow-x-auto scrollbar-hide border-b border-zinc-200 dark:border-zinc-700 mb-4",
         className
       )}
     >
@@ -89,7 +89,7 @@ export function TabsTrigger({ value, children, className }: TabsTriggerProps) {
         }
       }}
       className={cn(
-        "px-4 py-2.5 text-sm font-medium rounded-t-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-50 dark:focus-visible:ring-offset-zinc-950",
+        "px-4 py-2.5 text-sm font-medium rounded-t-lg whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-50 dark:focus-visible:ring-offset-zinc-950",
         isSelected
           ? "text-amber-600 dark:text-amber-400 border-b-2 border-amber-500 bg-transparent -mb-px"
           : "text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 border-b-2 border-transparent",

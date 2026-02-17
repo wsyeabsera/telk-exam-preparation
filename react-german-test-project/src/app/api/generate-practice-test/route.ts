@@ -51,6 +51,14 @@ function extractJsonObject(s: string): string {
   return s.slice(start);
 }
 
+function callClaude(prompt: string): string {
+  return execFileSync("claude", ["-p", prompt], {
+    encoding: "utf-8",
+    maxBuffer: MAX_BUFFER,
+  }).trim();
+}
+
+/** Try to parse raw Claude output into a Test. Throws on failure. */
 function parseGeneratedTest(raw: string, attemptId: string): Test {
   const extracted = extractJsonObject(stripMarkdownJson(raw));
   const repaired = repairTrailingCommas(extracted);
@@ -181,6 +189,8 @@ Generate exactly 5-7 questions targeting the identified weaknesses. The question
 3. Choose question types that best test each weakness (multiple-choice for grammar/cases, fill-blank where appropriate)
 4. Include brief explanation and optional explanationDetail for each question
 5. Use tags that reflect the weakness area (e.g. dativ, prepositions, word-order)
+6. The "title" must be a short, unique, descriptive name that reflects the specific weak areas targeted (e.g. "Dativ & Präpositionen Drill", "Konjunktiv II Refresher", "Verb Forms: Perfekt & Präteritum"). Do NOT use generic titles like "Personalized Practice" or "Practice Test".
+7. The "description" should be a one-sentence summary of what the test covers (e.g. "Focused practice on dative prepositions and two-way prepositions based on your recent errors.")
 
 Output ONLY valid JSON. Rules:
 - No markdown, no code fences, no text before or after the JSON
@@ -191,24 +201,34 @@ Output ONLY valid JSON. Rules:
 Structure: {"id":"${testId}","title":"...","description":"...","duration":10,"category":"ai-generated","focus":"...","questions":[{"id":"q1","type":"multiple-choice","text":"...","options":[{"id":"a","text":"..."},{"id":"b","text":"..."}],"correctAnswerId":"a","explanation":"...","tags":["..."]}]}
 For fill-blank: use "type":"fill-blank","correctAnswer":"..." instead of options/correctAnswerId.`;
 
-    const raw = execFileSync("claude", ["-p", promptForClaude], {
-      encoding: "utf-8",
-      maxBuffer: MAX_BUFFER,
-    });
+    let test: Test | null = null;
+    let lastRaw = "";
 
-    const jsonStr = stripMarkdownJson(raw.trim());
-    let test: Test;
-    try {
-      test = parseGeneratedTest(jsonStr, attemptId);
-    } catch (parseErr) {
-      const msg = parseErr instanceof Error ? parseErr.message : String(parseErr);
-      return NextResponse.json(
-        {
-          error: `Invalid JSON from AI: ${msg}. The model may have produced malformed output. Try "Generate Practice Test" again.`,
-        },
-        { status: 500 }
-      );
+    for (let attempt = 0; attempt < 2 && test == null; attempt++) {
+      lastRaw = callClaude(promptForClaude);
+      try {
+        test = parseGeneratedTest(lastRaw, attemptId);
+      } catch {
+        continue;
+      }
     }
+
+    if (test == null) {
+      const repairPrompt = `Fix this invalid JSON so it becomes a single valid JSON object. Preserve all question content. Return ONLY the corrected JSON, no markdown, no explanation:\n\n${lastRaw}`;
+      try {
+        const repairedRaw = callClaude(repairPrompt);
+        test = parseGeneratedTest(repairedRaw, attemptId);
+      } catch (repairErr) {
+        const msg = repairErr instanceof Error ? repairErr.message : String(repairErr);
+        return NextResponse.json(
+          {
+            error: `Could not generate valid test after retries. (${msg}) Try "Generate Practice Test" again.`,
+          },
+          { status: 500 }
+        );
+      }
+    }
+
     if (test.questions.length === 0) {
       return NextResponse.json(
         { error: "Generated test had no valid questions" },

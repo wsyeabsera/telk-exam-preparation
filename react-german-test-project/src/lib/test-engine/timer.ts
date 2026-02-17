@@ -14,6 +14,15 @@ export function formatTimeTaken(ms: number): string {
   return `${minutes}m ${seconds}s`;
 }
 
+export function formatTotalTime(ms: number): string {
+  if (ms <= 0) return "0m";
+  const totalMinutes = Math.floor(ms / 60_000);
+  const hours = Math.floor(totalMinutes / 60);
+  const minutes = totalMinutes % 60;
+  if (hours === 0) return `${minutes}m`;
+  return `${hours}h ${minutes}m`;
+}
+
 export function minutesToMs(minutes: number): number {
   return minutes * 60 * 1000;
 }

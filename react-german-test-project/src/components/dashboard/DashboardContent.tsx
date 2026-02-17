@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
+import Link from "next/link";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/Tabs";
 import { SearchBar } from "@/components/dashboard/SearchBar";
 import { TestCard } from "@/components/dashboard/TestCard";
@@ -185,8 +186,16 @@ export function DashboardContent({
 
   return (
     <>
-      <div className="mb-4">
-        <SearchBar value={searchQuery} onChange={setSearchQuery} />
+      <div className="mb-4 flex gap-3 items-center">
+        <div className="flex-1">
+          <SearchBar value={searchQuery} onChange={setSearchQuery} />
+        </div>
+        <Link
+          href="/test/super-short"
+          className="shrink-0 inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-lg bg-amber-500 hover:bg-amber-600 text-white transition-colors"
+        >
+          Random Practice
+        </Link>
       </div>
 
       {isSearchActive ? (
@@ -206,14 +215,14 @@ export function DashboardContent({
       ) : (
         <Tabs value={activeTab} onValueChange={setActiveTab}>
           <TabsList>
-            <TabsTrigger value={TAB_QUICK_PRACTICE}>Quick Practice</TabsTrigger>
-            <TabsTrigger value={TAB_GRAMMAR}>Grammar</TabsTrigger>
-            <TabsTrigger value={TAB_READING}>Reading</TabsTrigger>
-            <TabsTrigger value={TAB_LISTENING}>Listening</TabsTrigger>
-            <TabsTrigger value={TAB_WRITING}>Writing</TabsTrigger>
-            <TabsTrigger value={TAB_PRACTICE_EXAM}>Practice Exams</TabsTrigger>
-            <TabsTrigger value={TAB_QUICK_TEST}>Quick Tests</TabsTrigger>
-            <TabsTrigger value={TAB_AI_GENERATED}>AI-Generated</TabsTrigger>
+            <TabsTrigger value={TAB_QUICK_PRACTICE}>Quick Practice ({quickPracticeConfig.length})</TabsTrigger>
+            <TabsTrigger value={TAB_GRAMMAR}>Grammar ({grammarTests.length})</TabsTrigger>
+            <TabsTrigger value={TAB_READING}>Reading ({readingTests.length})</TabsTrigger>
+            <TabsTrigger value={TAB_LISTENING}>Listening ({listeningTests.length})</TabsTrigger>
+            <TabsTrigger value={TAB_WRITING}>Writing ({writingTests.length})</TabsTrigger>
+            <TabsTrigger value={TAB_PRACTICE_EXAM}>Practice Exams ({practiceExams.length})</TabsTrigger>
+            <TabsTrigger value={TAB_QUICK_TEST}>Quick Tests ({quickTests.length})</TabsTrigger>
+            <TabsTrigger value={TAB_AI_GENERATED}>AI-Generated ({aiGeneratedTests.length})</TabsTrigger>
           </TabsList>
 
           <TabsContent value={TAB_QUICK_PRACTICE}>

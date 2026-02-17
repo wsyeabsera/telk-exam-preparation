@@ -112,6 +112,18 @@ export async function getCompletedAttempts(): Promise<TestAttempt[]> {
   return all.filter((a) => a.completed);
 }
 
+export async function getIncompleteAttempts(): Promise<TestAttempt[]> {
+  return db.attempts
+    .where("completed")
+    .equals(0)
+    .reverse()
+    .sortBy("startTime");
+}
+
+export async function getAllAttempts(): Promise<TestAttempt[]> {
+  return db.attempts.orderBy("startTime").reverse().toArray();
+}
+
 export async function saveGeneratedTest(
   test: Test,
   generatedFrom: string

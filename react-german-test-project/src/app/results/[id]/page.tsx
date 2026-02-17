@@ -36,6 +36,7 @@ export default function ResultsPage() {
   const [overallInsights, setOverallInsights] = useState<string | null>(null);
   const [loadingOverallInsights, setLoadingOverallInsights] = useState(false);
   const [generatingTest, setGeneratingTest] = useState(false);
+  const [generateTestError, setGenerateTestError] = useState<string | null>(null);
 
   useEffect(() => {
     getAttempt(attemptId).then(async (a) => {
@@ -217,7 +218,20 @@ export default function ResultsPage() {
                     <div className="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed [&_strong]:font-semibold [&_p]:mb-2 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5">
                       <ReactMarkdown>{overallInsights}</ReactMarkdown>
                     </div>
-                    <div className="mt-4 pt-4 border-t border-amber-200 dark:border-amber-700">
+                    <div className="mt-4 pt-4 border-t border-amber-200 dark:border-amber-700 space-y-3">
+                      {generateTestError && (
+                        <div className="rounded-md border border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-950/40 p-3 text-sm text-red-800 dark:text-red-200 flex items-start justify-between gap-2">
+                          <span>{generateTestError}</span>
+                          <Button
+                            type="button"
+                            variant="outline"
+                            size="sm"
+                            onClick={() => setGenerateTestError(null)}
+                          >
+                            Try Again
+                          </Button>
+                        </div>
+                      )}
                       <Button
                         type="button"
                         variant="outline"
@@ -225,6 +239,7 @@ export default function ResultsPage() {
                         disabled={generatingTest}
                         onClick={async () => {
                           if (!test || !result || !overallInsights) return;
+                          setGenerateTestError(null);
                           setGeneratingTest(true);
                           try {
                             const res = await fetch(
@@ -246,14 +261,15 @@ export default function ResultsPage() {
                             );
                             const data = await res.json();
                             if (data.testId && data.test) {
+                              setGenerateTestError(null);
                               await saveGeneratedTest(data.test, attemptId);
                               window.location.href = `/test/${data.testId}`;
                             } else if (data.error) {
-                              alert(data.error);
+                              setGenerateTestError(data.error);
                             }
                           } catch (err) {
                             console.error("Failed to generate test:", err);
-                            alert(
+                            setGenerateTestError(
                               "Failed to generate practice test. Please try again."
                             );
                           } finally {

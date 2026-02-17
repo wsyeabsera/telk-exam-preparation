@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getMetadata, quickPracticeConfig } from "@/lib/data/load-tests";
-import { StatsOverview } from "@/components/dashboard/StatsOverview";
+import { DashboardHero } from "@/components/dashboard/DashboardHero";
 import { DashboardContent } from "@/components/dashboard/DashboardContent";
 
 export default function HomePage() {
@@ -32,7 +32,7 @@ export default function HomePage() {
           </div>
         </header>
 
-        <StatsOverview />
+        <DashboardHero />
 
         <DashboardContent tests={tests} quickPracticeConfig={quickPracticeConfig} />
       </div>
