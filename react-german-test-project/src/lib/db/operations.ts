@@ -42,6 +42,13 @@ export async function saveAiFeedback(
   });
 }
 
+export async function saveOverallAiInsights(
+  attemptId: string,
+  insights: string
+): Promise<void> {
+  await db.attempts.update(attemptId, { overallAiInsights: insights });
+}
+
 export async function updateAttemptAnswer(
   attemptId: string,
   questionId: string,

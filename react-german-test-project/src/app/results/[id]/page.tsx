@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import { getTest, getQuickPracticeConfig, isQuickPracticeTestId } from "@/lib/data/load-tests";
-import { getAttempt, saveAiFeedback } from "@/lib/db/operations";
+import { getAttempt, saveAiFeedback, saveOverallAiInsights } from "@/lib/db/operations";
 import { scoreTest } from "@/lib/test-engine/scorer";
 import { formatTimeTaken } from "@/lib/test-engine/timer";
 import { isWritingPrompt } from "@/types/question";
@@ -33,6 +33,8 @@ export default function ResultsPage() {
   const [expandQuestion, setExpandQuestion] = useState<string | null>(null);
   const [writingFeedback, setWritingFeedback] = useState<Record<string, string>>({});
   const [loadingFeedback, setLoadingFeedback] = useState<Record<string, boolean>>({});
+  const [overallInsights, setOverallInsights] = useState<string | null>(null);
+  const [loadingOverallInsights, setLoadingOverallInsights] = useState(false);
 
   useEffect(() => {
     getAttempt(attemptId).then((a) => {
@@ -42,6 +44,7 @@ export default function ResultsPage() {
       }
       setAttempt(a);
       setWritingFeedback(a.aiFeedback ?? {});
+      setOverallInsights(a.overallAiInsights ?? null);
       const hasSnapshot = (a.questionSnapshot?.length ?? 0) > 0;
       const questionsToUse = hasSnapshot ? a.questionSnapshot! : getTest(a.testId)?.questions ?? [];
       const baseTest = getTest(a.testId);
@@ -203,6 +206,80 @@ export default function ResultsPage() {
                 </CardContent>
               </CardHeader>
             </Card>
+
+            <div className="mb-6">
+              {overallInsights ? (
+                  <div className="rounded-lg border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30 p-4">
+                    <p className="text-sm font-medium text-amber-800 dark:text-amber-200 mb-2">
+                      KI-Analyse
+                    </p>
+                    <div className="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed [&_strong]:font-semibold [&_p]:mb-2 [&_p:last-child]:mb-0 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5">
+                      <ReactMarkdown>{overallInsights}</ReactMarkdown>
+                    </div>
+                  </div>
+                ) : loadingOverallInsights ? (
+                  <div className="rounded-lg border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30 p-4">
+                    <p className="text-sm text-amber-800 dark:text-amber-200">
+                      KI-Analyse wird erstellt…
+                    </p>
+                  </div>
+                ) : (
+                  <Button
+                    type="button"
+                    onClick={async () => {
+                      if (!test || !result) return;
+                      const questionById = new Map(
+                        (test.questions ?? []).map((q) => [q.id, q])
+                      );
+                      const questionResults = result.questionResults.map(
+                        (qr) => {
+                          const q = questionById.get(qr.questionId);
+                          const questionText =
+                            (q && "prompt" in q && q.prompt) || q?.text || "";
+                          return {
+                            questionId: qr.questionId,
+                            questionText,
+                            tags: q && "tags" in q ? q.tags : undefined,
+                            userAnswer: qr.userAnswer,
+                            correctAnswer: qr.correctAnswer,
+                            isCorrect: qr.isCorrect,
+                          };
+                        }
+                      );
+                      setLoadingOverallInsights(true);
+                      try {
+                        const res = await fetch(
+                          "/api/evaluate-test-results",
+                          {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({
+                              testMetadata: {
+                                title: test.title,
+                                focus: test.focus,
+                                score: result.score,
+                                correctCount: result.correctCount,
+                                totalQuestions: result.totalQuestions,
+                                timeTakenMs: result.timeTakenMs,
+                              },
+                              questionResults,
+                            }),
+                          }
+                        );
+                        const data = await res.json();
+                        if (data.insights != null) {
+                          setOverallInsights(data.insights);
+                          await saveOverallAiInsights(attemptId, data.insights);
+                        }
+                      } finally {
+                        setLoadingOverallInsights(false);
+                      }
+                    }}
+                  >
+                    Get AI Insights
+                  </Button>
+                )}
+            </div>
 
             <div className="space-y-4 mb-6">
               <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">

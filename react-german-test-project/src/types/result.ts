@@ -12,6 +12,8 @@ export interface TestAttempt {
   questionSnapshot?: Question[];
   /** AI feedback for writing questions, keyed by questionId */
   aiFeedback?: Record<string, string>;
+  /** Cached AI analysis of entire test (patterns, strengths, recommendations) */
+  overallAiInsights?: string;
 }
 
 export interface QuestionResult {
