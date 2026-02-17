@@ -15,6 +15,9 @@ import type { Test } from "@/types/test";
 import type { Question } from "@/types/question";
 import { createAttempt, updateAttemptAnswer, completeAttempt, updateAttemptQuestionSnapshot } from "@/lib/db/operations";
 import { scoreTest } from "@/lib/test-engine/scorer";
+import { ingestTestResults } from "@/lib/srs/operations";
+import type { SrsQuestionResult } from "@/lib/srs/operations";
+import { isWritingPrompt } from "@/types/question";
 import { shuffleTest } from "@/lib/test-engine/randomizer";
 import { minutesToMs } from "@/lib/test-engine/timer";
 import { QuestionRenderer } from "@/components/test/QuestionRenderer";
@@ -129,11 +132,33 @@ export default function TestPage() {
 
   const handleComplete = useCallback(() => {
     if (!test || !attemptId) return;
-    const { score } = scoreTest(questions, answers);
+    const { score, questionResults } = scoreTest(questions, answers);
+
+    // Build SRS results for non-writing questions
+    const isQuickPractice = isQuickPracticeTestId(testId);
+    const srsResults: SrsQuestionResult[] = [];
+    for (let i = 0; i < questions.length; i++) {
+      const q = questions[i];
+      if (isWritingPrompt(q)) continue;
+      const globalId = isQuickPractice
+        ? q.originalGlobalId
+        : `${testId}-${q.id}`;
+      if (!globalId) continue;
+      const result = questionResults[i];
+      srsResults.push({
+        globalQuestionId: globalId,
+        correct: result.isCorrect,
+        tags: q.tags,
+        difficulty: q.difficulty,
+        sourceTestId: testId,
+      });
+    }
+
     completeAttempt(attemptId, score).then(() => {
+      ingestTestResults(srsResults);
       router.push(`/results/${attemptId}`);
     });
-  }, [test, attemptId, questions, answers, router]);
+  }, [test, testId, attemptId, questions, answers, router]);
 
   if (loading || error) {
     return (

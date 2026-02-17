@@ -18,10 +18,23 @@ export interface GeneratedTest {
   generatedAt: number;
 }
 
+export interface SrsCard {
+  globalQuestionId: string;
+  interval: number;
+  easeFactor: number;
+  repetitions: number;
+  dueAt: number;
+  lastReviewedAt: number;
+  tags?: string[];
+  difficulty?: "easy" | "medium" | "hard";
+  sourceTestId?: string;
+}
+
 export class GermanB1Database extends Dexie {
   attempts!: Table<TestAttempt, string>;
   progress!: Table<ProgressRecord, string>;
   generatedTests!: Table<GeneratedTest, string>;
+  srsCards!: Table<SrsCard, string>;
 
   constructor() {
     super("german-b1-tests");
@@ -33,6 +46,12 @@ export class GermanB1Database extends Dexie {
       attempts: "id, testId, completed, startTime",
       progress: "userId",
       generatedTests: "id, generatedFrom, generatedAt",
+    });
+    this.version(3).stores({
+      attempts: "id, testId, completed, startTime",
+      progress: "userId",
+      generatedTests: "id, generatedFrom, generatedAt",
+      srsCards: "globalQuestionId, dueAt, sourceTestId",
     });
   }
 }

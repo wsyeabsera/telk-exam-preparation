@@ -369,7 +369,7 @@ export function getSuperShortQuestions(variant: QuickPracticeVariant): Question[
   const shuffled = [...unique].sort(() => Math.random() - 0.5);
   const count = Math.min(SUPER_SHORT_SIZE, shuffled.length);
   const picked = shuffled.slice(0, count);
-  return picked.map((q, i) => ({ ...q, id: `ss-${i + 1}` }));
+  return picked.map((q, i) => ({ ...q, originalGlobalId: q.id, id: `ss-${i + 1}` }));
 }
 
 /** Display title for a test id (quick-practice or regular test). Sync for static/quick; AI-generated ids return a placeholder. */
@@ -387,4 +387,44 @@ export function getTestCategory(testId: string): TestCategory {
   if (testId.startsWith("ai-test-")) return "ai-generated";
   const test = testMap[testId];
   return (test?.category as TestCategory) ?? "grammar";
+}
+
+/**
+ * Resolve a globally unique question ID (e.g. "mini-test-01-dativ-q1") back to
+ * its Question object. Parses the global ID to find the source test, then looks
+ * up the question within it. Falls back to AI-generated tests.
+ */
+export async function getQuestionByGlobalId(globalId: string): Promise<Question | null> {
+  // Try each static test — globalId is formatted as `${testId}-${questionId}`
+  for (const [testId, test] of Object.entries(testMap)) {
+    const prefix = `${testId}-`;
+    if (globalId.startsWith(prefix)) {
+      const localId = globalId.slice(prefix.length);
+      const q = test.questions.find((q) => q.id === localId);
+      if (q) return { ...q, id: globalId };
+    }
+  }
+
+  // Try AI-generated tests
+  const aiMatch = globalId.match(/^(ai-test-[^-]+-[^-]+)-(.+)$/);
+  if (!aiMatch) {
+    // Try a more general approach: split at last hyphen-group that matches a question id
+    for (const [testId, test] of Object.entries(testMap)) {
+      for (const q of test.questions) {
+        if (`${testId}-${q.id}` === globalId) {
+          return { ...q, id: globalId };
+        }
+      }
+    }
+    return null;
+  }
+
+  const aiTestId = aiMatch[1];
+  const aiQuestionId = aiMatch[2];
+  const aiTest = await getGeneratedTest(aiTestId);
+  if (!aiTest) return null;
+  const aiQ = aiTest.questions.find((q) => q.id === aiQuestionId);
+  if (aiQ) return { ...aiQ, id: globalId };
+
+  return null;
 }

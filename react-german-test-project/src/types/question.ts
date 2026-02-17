@@ -20,6 +20,8 @@ export interface BaseQuestion {
   hidePassageText?: boolean;
   difficulty?: "easy" | "medium" | "hard";
   tags?: string[];
+  /** Preserves the globally unique question ID when quick-practice remaps to ss-1, ss-2, etc. */
+  originalGlobalId?: string;
 }
 
 export interface MultipleChoiceOption {
