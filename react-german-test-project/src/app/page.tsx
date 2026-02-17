@@ -29,6 +29,12 @@ export default function HomePage() {
                 Flashcards
               </Link>
               <Link
+                href="/progress"
+                className="text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100"
+              >
+                Progress
+              </Link>
+              <Link
                 href="/history"
                 className="text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100"
               >
