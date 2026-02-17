@@ -48,13 +48,13 @@ export default function ResultsPage() {
       const testData: Test | null =
         isQuickPracticeTestId(a.testId) && hasSnapshot
           ? (() => {
-              const config = getQuickPracticeConfig(a.testId);
-              return {
-                id: a.testId,
-                title: config?.title ?? a.testId,
-                description: config?.description ?? "",
-                category: "practice",
-                focus:
+            const config = getQuickPracticeConfig(a.testId);
+            return {
+              id: a.testId,
+              title: config?.title ?? a.testId,
+              description: config?.description ?? "",
+              category: "practice",
+              focus:
                 config?.variant === "mixed"
                   ? "Mixed"
                   : config?.variant === "reading"
@@ -74,9 +74,9 @@ export default function ResultsPage() {
                                 : config?.variant === "adjectives"
                                   ? "Adjectives"
                                   : "Mixed",
-                questions: a.questionSnapshot!,
-              };
-            })()
+              questions: a.questionSnapshot!,
+            };
+          })()
           : baseTest
             ? hasSnapshot
               ? { ...baseTest, questions: a.questionSnapshot! }
@@ -141,6 +141,7 @@ export default function ResultsPage() {
       .finally(() => {
         setLoadingFeedback((prev) => ({ ...prev, [expandQuestion]: false }));
       });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [expandQuestion, test, result]);
 
   if (loading) {
@@ -244,7 +245,7 @@ export default function ResultsPage() {
                           <QuestionRenderer
                             question={question}
                             value={qr.userAnswer}
-                            onChange={() => {}}
+                            onChange={() => { }}
                             disabled
                             showResult
                             correctAnswerId={qr.correctAnswer}
